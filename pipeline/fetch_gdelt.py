@@ -1,9 +1,10 @@
 """Daily GDELT DOC 2.0 API pull: theme volume per region + top headlines.
 
 GDELT is free and keyless but asks for no more than one request every 5 seconds, so a full
-pull (themes x regions x 2 calls) takes roughly 10-15 minutes. Each run spends at most
-MP_GDELT_BUDGET seconds (default 600) and stops early if GDELT keeps failing; unfinished
-queries continue on the next run. MP_GDELT_FORCE=1 refetches everything, MP_GDELT=0 disables it.
+pull is 56 queries (themes x regions), so it is spread out: each hourly run does at most
+MP_GDELT_MAX_QUERIES (default 12) within MP_GDELT_BUDGET seconds (default 600), backs off on
+HTTP 429 and stops after repeated failures; the rest continue on later runs and each query
+refreshes about once a day. MP_GDELT_FORCE=1 refetches everything, MP_GDELT=0 disables it.
 """
 from __future__ import annotations
 
@@ -17,7 +18,8 @@ from common import DATA_DIR, http_get, iso, load_config, load_json, now_utc, par
 
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 GDIR = DATA_DIR / "gdelt"
-PAUSE_SECONDS = 5.5
+PAUSE_SECONDS = 6
+BACKOFF_SECONDS = 30
 LOOKBACK_DAYS = 21
 KEEP_DAYS = 400
 
@@ -98,6 +100,8 @@ def run(now: datetime | None = None) -> dict:
     start = (now - timedelta(days=LOOKBACK_DAYS)).strftime("%Y%m%d%H%M%S")
     end = now.strftime("%Y%m%d%H%M%S")
     failures_in_row = 0
+    queries_run = 0
+    max_queries = int(os.environ.get("MP_GDELT_MAX_QUERIES", "12"))
     stopped = None
 
     pending = [(r, t) for r in regions for t in themes if theme_query(t)
@@ -109,12 +113,16 @@ def run(now: datetime | None = None) -> dict:
         if time.monotonic() - started > budget:
             stopped = "time budget used; continues next run"
             break
-        if failures_in_row >= 4:
+        if failures_in_row >= 3:
             stopped = "GDELT kept failing; retrying next run"
             break
         key = f"{region['id']}/{theme['id']}"
         q = f"{theme_query(theme)} {region_query(region)}"
         entry = {"region": region["id"], "theme": theme["id"], "time": iso(now)}
+        if queries_run >= max_queries:
+            stopped = f"{max_queries} queries per run; continues next run"
+            break
+        queries_run += 1
         payload, err = call({"query": q, "mode": "timelinevolraw", "format": "json",
                              "startdatetime": start, "enddatetime": end})
         time.sleep(PAUSE_SECONDS)
@@ -122,6 +130,8 @@ def run(now: datetime | None = None) -> dict:
             entry["timeline_error"] = err
             failures_in_row += 1
             report[key] = entry
+            if "429" in (err or "") or "limit requests" in (err or "").lower():
+                time.sleep(BACKOFF_SECONDS)  # GDELT is throttling this IP; give it room
             continue
         failures_in_row = 0
         counts = daily_counts(payload)

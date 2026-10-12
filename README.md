@@ -9,7 +9,7 @@ It costs nothing to run: GitHub Actions does the work every hour and GitHub Page
 1. **Create the repository.** On github.com, create a new **public** repository (e.g. `media-pulse`). Public keeps Actions minutes and Pages hosting free.
 2. **Upload the files.** Open the empty repo → *uploading an existing file* → drag in every file and folder from this project → *Commit changes*. (Skip this if the code was pushed for you.)
 3. **Turn on Pages.** *Settings → Pages → Build and deployment → Source:* choose **GitHub Actions**.
-4. **Run the first update.** *Actions* tab → if asked, click *I understand my workflows, go ahead and enable them* → **Update Media Pulse** → **Run workflow**. Tick *Also pull regional GDELT data now* if you want the Regions page filled immediately (adds ~15 min).
+4. **Run the first update.** *Actions* tab → if asked, click *I understand my workflows, go ahead and enable them* → **Update Media Pulse** → **Run workflow**. The Regions page fills gradually: GDELT is queried a little each hour (12 of 56 queries per run), so the first full set takes about 5 hours.
 5. **Open the dashboard** at `https://<your-username>.github.io/media-pulse/` (the link also appears in the finished workflow run).
 
 After this it updates itself every hour. The **Update now** button on the dashboard opens the workflow page, where *Run workflow* triggers an update immediately.
@@ -20,6 +20,7 @@ If your repo isn't `jsteknikal/media-pulse`, change `repo` in `site/index.html` 
 
 - Trends need a baseline. Theme states show *Building baseline* until there is about a week of data; until then the shares and headlines still work.
 - Only the three Yle feeds are verified. The other feed URLs are best guesses: if one fails, the pipeline looks for a feed link on the outlet's homepage. The **Sources** page shows what works, what failed and any feed it found — copy a found URL into `pipeline/config/sources.json` to make it permanent.
+- Each run saves its feed status to `data/status/fetch.json`.
 - The GDELT theme mapping for some themes (technology, culture, sport, housing) uses keyword queries and should be checked after the first regional pull; failed queries are listed on the Sources page.
 
 ## How it works
@@ -27,7 +28,7 @@ If your repo isn't `jsteknikal/media-pulse`, change `repo` in `site/index.html` 
 ```
 GitHub Actions (hourly)
   pipeline/fetch_rss.py    read public RSS feeds → new headlines appended to data/articles/YYYY/MM/DD/HH.jsonl
-  pipeline/fetch_gdelt.py  once a day: theme volume + top headlines per region from the GDELT DOC API → data/gdelt/
+  pipeline/fetch_gdelt.py  theme volume + top headlines per region from the GDELT DOC API, spread over the day → data/gdelt/
   pipeline/analyze.py      tag themes, find names, group stories, score trends → site/data/*.json
   → commits data/ and publishes site/ to GitHub Pages
 ```

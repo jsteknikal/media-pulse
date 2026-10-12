@@ -14,6 +14,7 @@ from email.utils import parsedate_to_datetime
 
 from common import (
     DATA_DIR, USER_AGENT, clean_text, http_get, iso, load_config, now_utc, parse_iso, short_hash, tokens,
+    write_json,
 )
 
 ATOM = "{http://www.w3.org/2005/Atom}"
@@ -157,6 +158,7 @@ def run(now: datetime | None = None) -> dict:
             continue
         st = {"id": src["id"], "state": "ok", "fetched": 0, "new": 0, "errors": [], "feeds_used": []}
         feeds = list(src.get("feeds", []))
+        fallbacks = list(src.get("fallbacks", []))
         tried_discovery = False
         got_any = False
         while feeds:
@@ -169,6 +171,9 @@ def run(now: datetime | None = None) -> dict:
             except Exception as exc:  # network, HTTP or XML errors
                 st["errors"].append(f"{url}: {type(exc).__name__}: {str(exc)[:120]}")
                 items = None
+            if items is None and not feeds and not got_any and fallbacks:
+                feeds.append(fallbacks.pop(0))  # try backup URLs one at a time, only while nothing works
+                continue
             if items is None and not feeds and not got_any and not tried_discovery and src.get("homepage"):
                 tried_discovery = True
                 found = [u for u in discover_feeds(src["homepage"]) if u not in src.get("feeds", [])]
@@ -221,7 +226,9 @@ def run(now: datetime | None = None) -> dict:
             for art in new_articles:
                 fh.write(json.dumps(art, ensure_ascii=False) + "\n")
 
-    return {"time": iso(now), "new_articles": len(new_articles), "sources": status}
+    result = {"time": iso(now), "new_articles": len(new_articles), "sources": status}
+    write_json(DATA_DIR / "status" / "fetch.json", result, compact=False)  # latest run, for debugging
+    return result
 
 
 if __name__ == "__main__":
