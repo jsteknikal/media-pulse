@@ -1,8 +1,8 @@
 {
- "last_run": "2026-10-12T18:06:01Z",
+ "last_run": "2026-10-12T21:42:07Z",
  "queries": 56,
- "ok": 9,
- "stopped": "GDELT kept failing; retrying next run",
+ "ok": 12,
+ "stopped": "time budget used; continues next run",
  "done": {
   "finland/politics": "2026-10-12T12:50:36Z",
   "finland/economy": "2026-10-12T12:50:36Z",
@@ -12,14 +12,19 @@
   "finland/education": "2026-10-12T12:57:51Z",
   "finland/culture": "2026-10-12T12:57:51Z",
   "finland/sport": "2026-10-12T12:57:51Z",
-  "finland/international": "2026-10-12T18:06:01Z"
+  "finland/international": "2026-10-12T18:06:01Z",
+  "finland/crime": "2026-10-12T21:42:07Z",
+  "nordics/politics": "2026-10-12T21:42:07Z",
+  "nordics/labour": "2026-10-12T21:42:07Z"
  },
  "report": [
   {
    "region": "finland",
    "theme": "crime",
-   "time": "2026-10-12T18:06:01Z",
-   "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "time": "2026-10-12T21:42:07Z",
+   "timeline_days": 13,
+   "timeline_total": 998,
+   "articles_error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "region": "finland",
@@ -56,7 +61,13 @@
   {
    "region": "finland",
    "theme": "health",
-   "time": "2026-10-12T18:06:01Z",
+   "time": "2026-10-12T21:42:07Z",
+   "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "region": "finland",
+   "theme": "housing",
+   "time": "2026-10-12T21:42:07Z",
    "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
@@ -93,6 +104,12 @@
   },
   {
    "region": "finland",
+   "theme": "society",
+   "time": "2026-10-12T21:42:07Z",
+   "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "region": "finland",
    "theme": "sport",
    "time": "2026-10-12T12:57:51Z",
    "timeline_days": 13,
@@ -102,8 +119,30 @@
   {
    "region": "finland",
    "theme": "technology",
-   "time": "2026-10-12T18:06:01Z",
+   "time": "2026-10-12T21:42:07Z",
    "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "region": "nordics",
+   "theme": "economy",
+   "time": "2026-10-12T21:42:07Z",
+   "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "region": "nordics",
+   "theme": "labour",
+   "time": "2026-10-12T21:42:07Z",
+   "timeline_days": 13,
+   "timeline_total": 346,
+   "articles_error": "HTTPError: HTTP Error 429: Too Many Requests"
+  },
+  {
+   "region": "nordics",
+   "theme": "politics",
+   "time": "2026-10-12T21:42:07Z",
+   "timeline_days": 13,
+   "timeline_total": 4018,
+   "articles": 0
   }
  ]
 }
