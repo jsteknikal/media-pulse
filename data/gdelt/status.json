@@ -1,7 +1,7 @@
 {
- "last_run": "2026-10-12T13:26:38Z",
+ "last_run": "2026-10-12T18:06:01Z",
  "queries": 56,
- "ok": 8,
+ "ok": 9,
  "stopped": "GDELT kept failing; retrying next run",
  "done": {
   "finland/politics": "2026-10-12T12:50:36Z",
@@ -11,13 +11,14 @@
   "finland/energy": "2026-10-12T12:57:51Z",
   "finland/education": "2026-10-12T12:57:51Z",
   "finland/culture": "2026-10-12T12:57:51Z",
-  "finland/sport": "2026-10-12T12:57:51Z"
+  "finland/sport": "2026-10-12T12:57:51Z",
+  "finland/international": "2026-10-12T18:06:01Z"
  },
  "report": [
   {
    "region": "finland",
    "theme": "crime",
-   "time": "2026-10-12T12:57:51Z",
+   "time": "2026-10-12T18:06:01Z",
    "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
@@ -55,14 +56,16 @@
   {
    "region": "finland",
    "theme": "health",
-   "time": "2026-10-12T13:26:38Z",
+   "time": "2026-10-12T18:06:01Z",
    "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "region": "finland",
    "theme": "international",
-   "time": "2026-10-12T13:26:38Z",
-   "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "time": "2026-10-12T18:06:01Z",
+   "timeline_days": 13,
+   "timeline_total": 382,
+   "articles_error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "region": "finland",
@@ -99,7 +102,7 @@
   {
    "region": "finland",
    "theme": "technology",
-   "time": "2026-10-12T13:26:38Z",
+   "time": "2026-10-12T18:06:01Z",
    "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
   }
  ]
