@@ -35,6 +35,7 @@
       date: "Päivä", count: "Artikkeleita", byOutlet: "Kuka uutisoi", namesInTheme: "Nimet teemassa (30 pv)",
       relatedThemes: "Usein samassa jutussa", latest: "Tuoreimmat otsikot", storiesInTheme: "Teeman tarinat",
       days: (n) => `${n} pv`,
+      lblTheme: "Teema", lblSource: "Media", lblSearch: "Hae otsikoista", lblSearchNames: "Hae nimeä", period: "Aikaväli", skip: "Siirry sisältöön",
       filterTheme: "Kaikki teemat", filterSource: "Kaikki mediat", search: "Hae otsikoista…", searchNames: "Hae nimeä…",
       shownOf: (a, b) => `Näytetään ${a} / ${b}`,
       namesTitle: "Nimet uutisissa", namesNote: "Henkilöt, organisaatiot ja paikat, tunnistettu isoista alkukirjaimista. Taivutusmuodot yhdistetään karkeasti.",
@@ -83,6 +84,7 @@
       date: "Date", count: "Articles", byOutlet: "Who covers it", namesInTheme: "Names in this theme (30 days)",
       relatedThemes: "Often in the same article", latest: "Latest headlines", storiesInTheme: "Stories in this theme",
       days: (n) => `${n} d`,
+      lblTheme: "Theme", lblSource: "Outlet", lblSearch: "Search headlines", lblSearchNames: "Search names", period: "Time range", skip: "Skip to content",
       filterTheme: "All themes", filterSource: "All outlets", search: "Search headlines…", searchNames: "Search names…",
       shownOf: (a, b) => `Showing ${a} of ${b}`,
       namesTitle: "Names in the news", namesNote: "People, organisations and places, detected from capitalised words. Finnish case forms are merged roughly.",
@@ -155,8 +157,7 @@
   const actionsUrl = () => `https://github.com/${cfg.repo}/actions/workflows/${cfg.workflow}`;
 
   const stateBadge = (state) => {
-    const g = { emerging: "↑", rising: "↗", peaking: "–", fading: "↘", steady: "·", collecting: "…" }[state] || "·";
-    return `<span class="state ${esc(state)}"><span class="g" aria-hidden="true">${g}</span>${esc(t().state[state] || state)}</span>`;
+    return `<span class="state ${esc(state)}"><span class="g" aria-hidden="true"></span>${esc(t().state[state] || state)}</span>`;
   };
   const themeTags = (ids) => `<span class="tags">${(ids || []).map((id) => `<a class="tag" href="#/theme/${esc(id)}">${esc(themeName(id))}</a>`).join("")}</span>`;
 
@@ -190,7 +191,7 @@
     else if (hot.length) {
       const lead = hot[0];
       statement = (lead.state === "peaking" ? t().leadPeak : t().lead)(themeName(lead.id), pct(lead.share_now), pct(lead.baseline));
-      const more = hot.slice(1, 3).map((x) => themeName(x.id).toLowerCase());
+      const more = hot.slice(1, 3).map((x) => { const n = themeName(x.id); return n.charAt(0).toLowerCase() + n.slice(1); });
       if (more.length) extra.push(cap(t().alsoRising(listJoin(more))));
     } else statement = t().leadCalm;
     const fading = ranked.filter((x) => x.state === "fading").slice(-1);
@@ -215,7 +216,7 @@
       ${sparkline(e.spark, 96, 24)}<span>${key === "n48" ? stateBadge(e.state) : ""}</span></li>`).join("");
 
     app.innerHTML = `
-      <section class="lede-block">
+      <div class="hero theme-neon"><section class="lede-block wide">
         <h1 class="statement">${esc(statement)}</h1>
         ${extra.length ? `<p class="sub">${esc(extra.join(" "))}</p>` : ""}
         <div class="meta-line"><span>${esc(t().updated)} <strong>${esc(fmtTime(P.updated))}</strong></span>
@@ -226,7 +227,7 @@
           <div class="kpi"><div class="v">${num(k.stories24)}</div><div class="l">${esc(t().kpi.stories24)}</div></div>
           <div class="kpi"><div class="v">${num(k.days_of_data)}</div><div class="l">${esc(t().kpi.days)}</div></div>
         </div>
-      </section>
+      </section></div>
       <section class="section">
         <div class="section-head"><h2>${esc(t().boardTitle)}</h2><p>${esc(t().boardNote)}</p></div>
         <div class="panel board" role="list">
@@ -261,14 +262,14 @@
       <section class="panel chart-wrap">
         <div class="chart-tools">
           <div class="legend"><span><i class="key" style="background:var(--series-1)"></i>${esc(t().share)}</span><span><i class="key band"></i>${esc(t().normalRange)}</span></div>
-          <div class="seg" role="group" id="rangeSeg">${[30, 90, 120].map((d) => `<button type="button" data-d="${d}" aria-pressed="${d === range}">${esc(t().days(d))}</button>`).join("")}</div>
+          <div class="seg" role="group" aria-label="${esc(t().period)}" id="rangeSeg">${[30, 90, 120].map((d) => `<button type="button" class="mt-toggle" data-d="${d}" aria-pressed="${d === range}"><span class="mt-toggle-dot" aria-hidden="true"></span>${esc(t().days(d))}</button>`).join("")}</div>
         </div>
         <div class="chart" id="themeChart"></div>
         <div id="themeTable"></div>
       </section>
       <div class="cols section">
         <section><div class="section-head"><h2>${esc(t().byOutlet)}</h2>
-          <div class="seg" role="group" id="outletSeg">${["7", "30", "90"].map((d) => `<button type="button" data-d="${d}" aria-pressed="${d === outletRange}">${esc(t().days(d))}</button>`).join("")}</div></div>
+          <div class="seg" role="group" aria-label="${esc(t().period)}" id="outletSeg">${["7", "30", "90"].map((d) => `<button type="button" class="mt-toggle" data-d="${d}" aria-pressed="${d === outletRange}"><span class="mt-toggle-dot" aria-hidden="true"></span>${esc(t().days(d))}</button>`).join("")}</div></div>
           <div id="outlets"></div></section>
         <section><div class="section-head"><h2>${esc(t().namesInTheme)}</h2></div>
           <ul class="list">${(D.entities || []).slice(0, 10).map((e) => `<li class="ent-row" style="grid-template-columns:1fr auto"><span class="name">${esc(e.name)}</span><span class="small">${num(e.n)}</span></li>`).join("")}</ul>
@@ -329,8 +330,8 @@
     const S = await load("stories");
     app.innerHTML = `
       <section class="lede-block"><h1 class="statement">${esc(t().nav.stories)}</h1><p class="sub">${esc(t().topStoriesNote)}</p></section>
-      <div class="filters"><label class="sr-only" for="stTheme">${esc(t().filterTheme)}</label>
-        <select id="stTheme"><option value="">${esc(t().filterTheme)}</option>${META.themes.map((th) => `<option value="${esc(th.id)}">${esc(th[lang])}</option>`).join("")}</select></div>
+      <div class="filters"><div class="field"><label for="stTheme">${esc(t().lblTheme)}</label>
+        <select id="stTheme"><option value="">${esc(t().filterTheme)}</option>${META.themes.map((th) => `<option value="${esc(th.id)}">${esc(th[lang])}</option>`).join("")}</select></div></div>
       <ul class="list" id="storyList"></ul>`;
     const render = () => {
       const f = document.getElementById("stTheme").value;
@@ -361,7 +362,7 @@
     const E = await load("entities");
     app.innerHTML = `
       <section class="lede-block"><h1 class="statement">${esc(t().namesTitle)}</h1><p class="sub">${esc(t().namesNote)}</p></section>
-      <div class="filters"><label class="sr-only" for="nq">${esc(t().searchNames)}</label><input id="nq" type="search" placeholder="${esc(t().searchNames)}"></div>
+      <div class="filters"><div class="field"><label for="nq">${esc(t().lblSearchNames)}</label><input id="nq" type="search" placeholder="${esc(t().searchNames)}"></div></div>
       <div class="panel table-scroll"><table class="data"><thead><tr><th>${esc(t().ncol.name)}</th><th>${esc(t().col.state)}</th><th class="n">${esc(t().ncol.n48)}</th><th class="n">${esc(t().ncol.n7)}</th><th class="n">${esc(t().ncol.n30)}</th><th>${esc(t().ncol.trend)}</th><th>${esc(t().ncol.themes)}</th></tr></thead><tbody id="nbody"></tbody></table></div>`;
     const render = () => {
       const q = document.getElementById("nq").value.trim().toLowerCase();
@@ -380,22 +381,24 @@
     const themeIds = META.themes.map((x) => x.id);
     const sel = themeId && themeIds.includes(themeId) ? themeId : themeIds.slice().sort((a, b) =>
       Math.max(...regionIds.map((r) => R.regions[r].themes[b]?.score || 0)) - Math.max(...regionIds.map((r) => R.regions[r].themes[a]?.score || 0)))[0];
+    const isDark = getComputedStyle(document.documentElement).getPropertyValue("--is-dark").trim() === "1";
     const cell = (r, th) => {
       const d = R.regions[r].themes[th];
       if (!d) return `<td class="cell">–</td>`;
       const v = d.delta ?? 0;
       const amt = Math.round(Math.min(Math.abs(v), 1) * 85);
       const col = v >= 0 ? "var(--div-pos)" : "var(--div-neg)";
-      const ink = amt > 50 ? "#fff" : "var(--ink)";
-      return `<td class="cell" style="background:color-mix(in oklab, ${col} ${amt}%, var(--div-mid));color:${ink}"><a href="#/regions/${esc(th)}" aria-label="${esc(themeName(th))}, ${esc(regionName(r))}: ${esc(signedPct(d.delta))}">${esc(signedPct(d.delta))}</a></td>`;
+      // Text contrast >= 4.5:1 at every shade: black on light pages; on dark pages white up to 75 %, then black.
+      const ink = isDark ? (amt > 75 ? "#000" : "#fff") : "#000";
+      return `<td class="cell" style="background:color-mix(in srgb, ${col} ${amt}%, var(--div-mid));color:${ink}"><a href="#/regions/${esc(th)}" aria-label="${esc(themeName(th))}, ${esc(regionName(r))}: ${esc(signedPct(d.delta))}">${esc(signedPct(d.delta))}</a></td>`;
     };
     app.innerHTML = `
       <section class="lede-block"><h1 class="statement">${esc(t().regionsTitle)}</h1><p class="sub">${esc(t().regionsNote)}</p>
         <div class="meta-line"><span>GDELT ${esc(t().updated.toLowerCase())} <strong>${esc(fmtTime(R.fetched || R.updated))}</strong></span></div></section>
       <section class="panel table-scroll"><table class="data grid-heat"><thead><tr><th>${esc(t().col.theme)}</th>${regionIds.map((r) => `<th class="n" style="text-align:center">${esc(regionName(r))}</th>`).join("")}</tr></thead>
-        <tbody>${themeIds.map((th) => `<tr${th === sel ? ' style="outline:2px solid var(--accent);outline-offset:-2px"' : ""}><td><a href="#/regions/${esc(th)}">${esc(themeName(th))}</a></td>${regionIds.map((r) => cell(r, th)).join("")}</tr>`).join("")}</tbody></table></section>
+        <tbody>${themeIds.map((th) => `<tr${th === sel ? ' class="selected" aria-current="true"' : ""}><td><a href="#/regions/${esc(th)}">${esc(themeName(th))}</a></td>${regionIds.map((r) => cell(r, th)).join("")}</tr>`).join("")}</tbody></table></section>
       <section class="section panel chart-wrap"><div class="chart-tools"><h2>${esc(t().compareTitle(themeName(sel)))}</h2>
-        <label class="sr-only" for="rTheme">${esc(t().pickTheme)}</label><select id="rTheme" class="btn">${themeIds.map((th) => `<option value="${esc(th)}" ${th === sel ? "selected" : ""}>${esc(themeName(th))}</option>`).join("")}</select></div>
+        <div class="field"><label for="rTheme">${esc(t().pickTheme)}</label><select id="rTheme" class="inline-select">${themeIds.map((th) => `<option value="${esc(th)}" ${th === sel ? "selected" : ""}>${esc(themeName(th))}</option>`).join("")}</select></div></div>
         <div class="legend">${regionIds.map((r) => `<span><i class="key" style="background:${REGION_COLORS[r] || "var(--muted)"}"></i>${esc(regionName(r))}</span>`).join("")}</div>
         <div class="chart" id="regionChart"></div><div id="regionTable"></div></section>
       <section class="section"><div class="section-head"><h2>${esc(t().regionHeadlines)}</h2></div><div class="cols" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:28px">
@@ -414,9 +417,9 @@
     app.innerHTML = `
       <section class="lede-block"><h1 class="statement">${esc(t().headlinesTitle)}</h1><p class="sub">${esc(t().headlinesNote)}</p></section>
       <div class="filters">
-        <label class="sr-only" for="hq">${esc(t().search)}</label><input id="hq" type="search" placeholder="${esc(t().search)}">
-        <label class="sr-only" for="ht">${esc(t().filterTheme)}</label><select id="ht"><option value="">${esc(t().filterTheme)}</option>${META.themes.map((th) => `<option value="${esc(th.id)}">${esc(th[lang])}</option>`).join("")}</select>
-        <label class="sr-only" for="hs">${esc(t().filterSource)}</label><select id="hs"><option value="">${esc(t().filterSource)}</option>${META.sources.map((s) => `<option value="${esc(s.id)}">${esc(s.name)}</option>`).join("")}</select>
+        <div class="field"><label for="hq">${esc(t().lblSearch)}</label><input id="hq" type="search" placeholder="${esc(t().search)}"></div>
+        <div class="field"><label for="ht">${esc(t().lblTheme)}</label><select id="ht"><option value="">${esc(t().filterTheme)}</option>${META.themes.map((th) => `<option value="${esc(th.id)}">${esc(th[lang])}</option>`).join("")}</select></div>
+        <div class="field"><label for="hs">${esc(t().lblSource)}</label><select id="hs"><option value="">${esc(t().filterSource)}</option>${META.sources.map((s) => `<option value="${esc(s.id)}">${esc(s.name)}</option>`).join("")}</select></div>
         <span class="small" id="hcount"></span></div>
       <ul class="list" id="hlist"></ul>`;
     const render = () => {
@@ -469,6 +472,7 @@
       `<a href="#/${k === "pulse" ? "" : k}" ${k === active ? 'aria-current="page"' : ""}>${esc(t().nav[k])}</a>`).join("");
     document.querySelectorAll(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
     document.getElementById("footer").textContent = t().footer;
+    const skip = document.querySelector(".skip-link"); if (skip) skip.textContent = t().skip;
   }
 
   async function route() {

@@ -40,6 +40,15 @@ GitHub Actions (hourly)
 - **Names** are capitalised words with Finnish case endings stripped (Kiinan, Kiinassa → Kiina). It's rough: expect some noise.
 - **Regions** come from [GDELT](https://www.gdeltproject.org/), which monitors online news worldwide. Shares there are a theme's share of all tracked themes in that region, so regions compare like-for-like with each other (Finland is included via GDELT too).
 
+## Design and accessibility
+
+The dashboard uses the **Miltton design system**: its tokens (colour, fluid type and spacing, square corners, focus ring), section themes (dark header, neon hero) and component styles (Toggle, Link button, FieldInput, Select), all in `site/styles.css`.
+
+- Built to WCAG 2.2 AA: text contrast 4.5:1 in light and dark mode, visible labels on every filter, keyboard focus ring, skip link, states shown with words and shapes rather than colour alone, and a table view for every chart.
+- Miltton's orange is 3.43:1 on white, so it marks lines, dots and underlines but never carries small text.
+- The four region colours are Miltton's orange plus three colours checked for colour-blind separation.
+- The licensed Lausanne font and the Miltton logo are **not** included, because this site is public. Add them in `site/styles.css` (an `@font-face` rule) once their use here is cleared.
+
 ## Copyright and fair use
 
 Only headlines, the short description from the RSS feed, links and timestamps are stored — never full article text. The fetcher checks each site's robots.txt and identifies itself with a descriptive User-Agent. Finland's Copyright Act (section 13 b) allows text and data mining of lawfully accessible content unless the rightholder has reserved it; check outlets' terms before using this commercially or showing it to clients.

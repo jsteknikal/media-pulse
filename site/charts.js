@@ -71,9 +71,11 @@
     container.innerHTML = "";
     const svg = el("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}`, role: "img", "aria-label": o.label || "chart" }, container);
 
-    // grid + y ticks
-    for (let k = 0; k <= 4; k++) {
-      const v = (yMax * k) / 4, yy = y(v);
+    // grid + y ticks: pick a step count that gives round tick values (15 % -> 5 steps of 3 %)
+    const stepOk = (k, unit) => { const q = (yMax * 1000) / k; return Math.abs(q - Math.round(q)) < 1e-6 && Math.round(q) % unit === 0; };
+    const steps = [4, 5, 3, 6].find((k) => stepOk(k, 10)) || [4, 5, 3, 6].find((k) => stepOk(k, 5)) || 4;
+    for (let k = 0; k <= steps; k++) {
+      const v = (yMax * k) / steps, yy = y(v);
       el("line", { x1: m.l, x2: W - m.r, y1: yy, y2: yy, class: k === 0 ? "baseline" : "gridline" }, svg);
       const t = el("text", { x: m.l - 8, y: yy + 4, "text-anchor": "end", class: "tick" }, svg);
       t.textContent = fmt(v, true);
