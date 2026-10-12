@@ -1,8 +1,9 @@
 """Daily GDELT DOC 2.0 API pull: theme volume per region + top headlines.
 
 GDELT is free and keyless but asks for no more than one request every 5 seconds, so a full
-pull (themes x regions x 2 calls) takes roughly 10-15 minutes. It runs at most once every
-20 hours; set MP_GDELT_FORCE=1 to force it, MP_GDELT=0 to switch it off.
+pull (themes x regions x 2 calls) takes roughly 10-15 minutes. Each run spends at most
+MP_GDELT_BUDGET seconds (default 600) and stops early if GDELT keeps failing; unfinished
+queries continue on the next run. MP_GDELT_FORCE=1 refetches everything, MP_GDELT=0 disables it.
 """
 from __future__ import annotations
 
@@ -40,7 +41,7 @@ def call(params: dict, retries: int = 1):
     url = API + "?" + urllib.parse.urlencode(params)
     for attempt in range(retries + 1):
         try:
-            body = http_get(url, timeout=60).decode("utf-8", "replace").strip()
+            body = http_get(url, timeout=25).decode("utf-8", "replace").strip()
         except Exception as exc:
             err = f"{type(exc).__name__}: {str(exc)[:150]}"
         else:
@@ -76,56 +77,70 @@ def load_state():
 
 
 def run(now: datetime | None = None) -> dict:
+    """Pull GDELT data within a time budget. Queries done in the last 20 h are skipped, so a pull
+    that runs out of time or hits GDELT errors simply continues on the next hourly run."""
     now = now or now_utc()
     state = load_state()
     if os.environ.get("MP_GDELT", "1") == "0":
         return state
-    last = state["status"].get("last_run")
     force = os.environ.get("MP_GDELT_FORCE") == "1"
-    if not force and last and parse_iso(last) > now - timedelta(hours=20):
-        return state
+    budget = float(os.environ.get("MP_GDELT_BUDGET", "600"))
+    started = time.monotonic()
 
     themes = load_config("themes.json")["themes"]
     regions = load_config("regions.json")["regions"]
     series = state["series"]
-    articles: dict = {}
-    report = []
+    articles = state["articles"] or {}
+    prev = state["status"] or {}
+    done = {} if force else dict(prev.get("done", {}))      # "region/theme" -> last success (ISO)
+    report = {f"{e['region']}/{e['theme']}": e for e in prev.get("report", [])}
+    fresh_after = now - timedelta(hours=20)
     start = (now - timedelta(days=LOOKBACK_DAYS)).strftime("%Y%m%d%H%M%S")
     end = now.strftime("%Y%m%d%H%M%S")
+    failures_in_row = 0
+    stopped = None
 
-    for region in regions:
-        rq = region_query(region)
-        for theme in themes:
-            tq = theme_query(theme)
-            if not tq:
-                continue
-            q = f"{tq} {rq}"
-            entry = {"region": region["id"], "theme": theme["id"]}
-            payload, err = call({"query": q, "mode": "timelinevolraw", "format": "json",
-                                 "startdatetime": start, "enddatetime": end})
-            time.sleep(PAUSE_SECONDS)
-            if payload is None:
-                entry["timeline_error"] = err
-            else:
-                counts = daily_counts(payload)
-                entry["timeline_days"] = len(counts)
-                entry["timeline_total"] = sum(counts.values())
-                bucket = series.setdefault(region["id"], {}).setdefault(theme["id"], {})
-                bucket.update(counts)
-            payload, err = call({"query": q, "mode": "artlist", "format": "json", "maxrecords": "10",
-                                 "timespan": "24h", "sort": "hybridrel"})
-            time.sleep(PAUSE_SECONDS)
-            if payload is None:
-                entry["articles_error"] = err
-            else:
-                arts = []
-                for a in payload.get("articles", []) or []:
-                    arts.append({"t": a.get("title", ""), "u": a.get("url", ""), "d": a.get("domain", ""),
-                                 "c": a.get("sourcecountry", ""), "l": a.get("language", ""),
-                                 "p": a.get("seendate", "")})
-                articles.setdefault(region["id"], {})[theme["id"]] = arts
-                entry["articles"] = len(arts)
-            report.append(entry)
+    pending = [(r, t) for r in regions for t in themes if theme_query(t)
+               and not (done.get(f"{r['id']}/{t['id']}") and parse_iso(done[f"{r['id']}/{t['id']}"]) > fresh_after)]
+    if not pending:
+        return state
+
+    for region, theme in pending:
+        if time.monotonic() - started > budget:
+            stopped = "time budget used; continues next run"
+            break
+        if failures_in_row >= 4:
+            stopped = "GDELT kept failing; retrying next run"
+            break
+        key = f"{region['id']}/{theme['id']}"
+        q = f"{theme_query(theme)} {region_query(region)}"
+        entry = {"region": region["id"], "theme": theme["id"], "time": iso(now)}
+        payload, err = call({"query": q, "mode": "timelinevolraw", "format": "json",
+                             "startdatetime": start, "enddatetime": end})
+        time.sleep(PAUSE_SECONDS)
+        if payload is None:
+            entry["timeline_error"] = err
+            failures_in_row += 1
+            report[key] = entry
+            continue
+        failures_in_row = 0
+        counts = daily_counts(payload)
+        entry["timeline_days"] = len(counts)
+        entry["timeline_total"] = sum(counts.values())
+        series.setdefault(region["id"], {}).setdefault(theme["id"], {}).update(counts)
+        payload, err = call({"query": q, "mode": "artlist", "format": "json", "maxrecords": "10",
+                             "timespan": "24h", "sort": "hybridrel"}, retries=0)
+        time.sleep(PAUSE_SECONDS)
+        if payload is None:
+            entry["articles_error"] = err
+        else:
+            articles.setdefault(region["id"], {})[theme["id"]] = [
+                {"t": a.get("title", ""), "u": a.get("url", ""), "d": a.get("domain", ""),
+                 "c": a.get("sourcecountry", ""), "l": a.get("language", ""), "p": a.get("seendate", "")}
+                for a in payload.get("articles", []) or []]
+            entry["articles"] = len(articles[region["id"]][theme["id"]])
+        done[key] = iso(now)
+        report[key] = entry
 
     cutoff = (now - timedelta(days=KEEP_DAYS)).date().isoformat()
     for per_theme in series.values():
@@ -133,8 +148,13 @@ def run(now: datetime | None = None) -> dict:
             for d in [d for d in days if d < cutoff]:
                 del days[d]
 
-    ok = sum(1 for e in report if "timeline_error" not in e)
-    status = {"last_run": iso(now), "queries": len(report), "ok": ok, "report": report}
+    total = sum(1 for r in regions for t in themes if theme_query(t))
+    fresh = sum(1 for k, v in done.items() if parse_iso(v) > fresh_after)
+    status = {
+        "last_run": iso(now) if fresh else prev.get("last_run"),
+        "queries": total, "ok": fresh, "stopped": stopped,
+        "done": done, "report": sorted(report.values(), key=lambda e: (e["region"], e["theme"])),
+    }
     write_json(GDIR / "series.json", series, compact=False)
     write_json(GDIR / "articles.json", articles)
     write_json(GDIR / "status.json", status, compact=False)

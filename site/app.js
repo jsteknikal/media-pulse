@@ -446,7 +446,7 @@
       <section class="lede-block"><h1 class="statement">${esc(t().sourcesTitle)}</h1><p class="sub">${esc(t().sourcesNote)}</p></section>
       <section class="panel table-scroll"><table class="data"><thead><tr><th>${esc(t().scol.outlet)}</th><th>${esc(t().scol.status)}</th><th class="n">${esc(t().scol.n24)}</th><th class="n">${esc(t().scol.n7)}</th><th>${esc(t().scol.last)}</th><th>${esc(t().scol.notes)}</th></tr></thead><tbody>${rows}</tbody></table></section>
       <section class="section"><h2>${esc(t().gdeltTitle)}</h2>
-        <p>${g?.last_run ? esc(t().gdeltStatus(g.ok, g.queries, fmtTime(g.last_run))) : esc(t().gdeltNever)}</p>
+        <p>${g?.last_run ? esc(t().gdeltStatus(g.ok, g.queries, fmtTime(g.last_run))) : esc(t().gdeltNever)}${g?.stopped ? ` <span class="small">(${esc(g.stopped)})</span>` : ""}</p>
         ${failed.length ? `<h3>${esc(t().gdeltFailed)}</h3><ul class="small">${failed.slice(0, 30).map((e) => `<li>${esc(regionName(e.region))} / ${esc(themeName(e.theme))}: ${esc(e.timeline_error || e.articles_error)}</li>`).join("")}</ul>` : ""}
       </section>`;
   }

@@ -45,6 +45,7 @@ jobs:
         run: python pipeline/run.py
 
       - name: Save new articles to the repository
+        if: always()            # keep collected headlines even if a later step fails
         run: |
           git config user.name "media-pulse-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
