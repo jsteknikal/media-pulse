@@ -1,0 +1,9 @@
+{
+  "_note": "GDELT regions. Country names are GDELT 'sourcecountry' values with spaces removed. 'finland' is fetched from GDELT too so Finland can be compared like-for-like with other regions.",
+  "regions": [
+    {"id": "finland", "fi": "Suomi", "en": "Finland", "countries": ["finland"]},
+    {"id": "nordics", "fi": "Pohjoismaat", "en": "Nordics", "countries": ["finland", "sweden", "norway", "denmark", "iceland"]},
+    {"id": "europe", "fi": "Eurooppa", "en": "Europe", "countries": ["germany", "france", "unitedkingdom", "italy", "spain", "netherlands", "belgium", "poland", "austria", "ireland", "portugal", "czechrepublic", "sweden", "denmark", "finland", "norway", "switzerland", "greece", "hungary", "romania"]},
+    {"id": "north_america", "fi": "Pohjois-Amerikka", "en": "North America", "countries": ["unitedstates", "canada"]}
+  ]
+}

@@ -1,0 +1,6 @@
+# Generated on every run and published to GitHub Pages - not committed
+site/data/
+__pycache__/
+*.pyc
+*.tmp
+.DS_Store
