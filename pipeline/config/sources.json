@@ -165,14 +165,9 @@
    "language": "fi",
    "type": "regional",
    "weight": 0.8,
-   "verified": false,
+   "verified": true,
    "feeds": [
-    "https://www.kaleva.fi/rss"
-   ],
-   "fallbacks": [
-    "https://www.kaleva.fi/feedit/rss/managed-listing/rss-uusimmat/",
-    "https://www.kaleva.fi/rss.xml",
-    "https://www.kaleva.fi/feeds/rss"
+    "https://www.kaleva.fi/feedit/rss/managed-listing/rss-uusimmat/"
    ]
   },
   {
@@ -196,11 +191,12 @@
    "weight": 0.7,
    "verified": false,
    "feeds": [
-    "https://www.uusisuomi.fi/rss"
+    "https://www.uusisuomi.fi/rss/uusimmat.xml"
    ],
    "fallbacks": [
-    "https://www.uusisuomi.fi/rss.xml",
-    "https://www.uusisuomi.fi/rss/uutiset"
+    "https://www.uusisuomi.fi/rss/uutiset.xml",
+    "https://www.uusisuomi.fi/feed",
+    "https://www.uusisuomi.fi/api/feed/rss"
    ]
   }
  ]

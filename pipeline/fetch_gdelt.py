@@ -18,7 +18,7 @@ from common import DATA_DIR, http_get, iso, load_config, load_json, now_utc, par
 
 API = "https://api.gdeltproject.org/api/v2/doc/doc"
 GDIR = DATA_DIR / "gdelt"
-PAUSE_SECONDS = 6
+PAUSE_SECONDS = 10
 BACKOFF_SECONDS = 30
 LOOKBACK_DAYS = 21
 KEEP_DAYS = 400
