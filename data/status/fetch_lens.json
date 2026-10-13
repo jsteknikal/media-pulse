@@ -1,0 +1,56 @@
+{
+ "time": "2026-10-13T19:32:08Z",
+ "new_articles": 60,
+ "sources": [
+  {
+   "id": "uusiouutiset",
+   "state": "ok",
+   "fetched": 10,
+   "new": 2,
+   "errors": [],
+   "feeds_used": [
+    "https://www.uusiouutiset.fi/feed/"
+   ]
+  },
+  {
+   "id": "carbon-brief",
+   "state": "ok",
+   "fetched": 12,
+   "new": 2,
+   "errors": [],
+   "feeds_used": [
+    "https://www.carbonbrief.org/feed/"
+   ]
+  },
+  {
+   "id": "climate-home",
+   "state": "ok",
+   "fetched": 40,
+   "new": 7,
+   "errors": [],
+   "feeds_used": [
+    "https://www.climatechangenews.com/feed/"
+   ]
+  },
+  {
+   "id": "esg-today",
+   "state": "ok",
+   "fetched": 10,
+   "new": 10,
+   "errors": [],
+   "feeds_used": [
+    "https://www.esgtoday.com/feed/"
+   ]
+  },
+  {
+   "id": "esg-news",
+   "state": "ok",
+   "fetched": 50,
+   "new": 39,
+   "errors": [],
+   "feeds_used": [
+    "https://esgnews.com/feed/"
+   ]
+  }
+ ]
+}
