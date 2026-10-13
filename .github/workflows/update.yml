@@ -6,7 +6,7 @@ on:
   workflow_dispatch:              # "Run workflow" button = update now
     inputs:
       gdelt:
-        description: "Also pull regional GDELT data now (takes ~15 min)"
+        description: "Try a GDELT pull this run (normally off)"
         type: boolean
         default: false
   push:
@@ -41,6 +41,9 @@ jobs:
 
       - name: Fetch feeds and rebuild dashboard data
         env:
+          # GDELT is off: its free API refuses most requests from GitHub's shared runners.
+          # Tick the manual-run option to try it once.
+          MP_GDELT: ${{ inputs.gdelt && '1' || '0' }}
           MP_GDELT_FORCE: ${{ inputs.gdelt && '1' || '0' }}
         run: python pipeline/run.py
 

@@ -17,7 +17,8 @@ from common import (
 from fetch_rss import load_articles
 
 HISTORY_DAYS = 120          # days of history loaded and charted
-BASELINE_DAYS = (3, 30)     # baseline = daily shares from 30 to 3 days ago
+BASELINE_DAYS = (3, 30)     # window indices n-30 .. n-3, i.e. daily shares from 29 to 2 days before today
+FULL_DAY_SHARE = 2 / 3      # share of active outlets that must publish on a day for it to count
 MIN_BASELINE_DAYS = 7       # fewer usable days -> state "collecting"
 MIN_DAY_TOTAL = 10          # a day needs this many articles to count in a baseline
 STORY_WINDOW_DAYS = 10
@@ -112,9 +113,26 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         if a["_day"] is not None:
             day_total[a["_day"]] += 1
             day_sources[a["_day"]].add(a["source"])
+    # A day counts towards the normal level only when most outlets published that day ("full day").
+    cutoff14 = now - timedelta(days=14)
+    n_active = len({a["source"] for a in arts if a["_dt"] > cutoff14})
+    full_min = max(3, math.ceil(FULL_DAY_SHARE * n_active))
+    full_day = [day_total[i] >= MIN_DAY_TOTAL and len(day_sources[i]) >= full_min for i in range(n_days)]
     base_idx = [i for i in range(n_days - BASELINE_DAYS[1], n_days - BASELINE_DAYS[0] + 1)
-                if 0 <= i < n_days and day_total[i] >= MIN_DAY_TOTAL]
+                if 0 <= i < n_days and full_day[i]]
     enough_baseline = len(base_idx) >= MIN_BASELINE_DAYS
+    trend_start = None
+    if not enough_baseline:
+        # Project when the 7th full day enters the window, assuming every day from today is full.
+        win_start = n_days - BASELINE_DAYS[1]
+        full_dates = [dates[i] for i in range(max(0, win_start), n_days - 1) if full_day[i]]
+        today_d = datetime.fromisoformat(dates[-1]).date()
+        k = 0
+        while len(full_dates) < MIN_BASELINE_DAYS:
+            full_dates.append((today_d + timedelta(days=k)).isoformat())
+            k += 1
+        seventh = datetime.fromisoformat(full_dates[MIN_BASELINE_DAYS - 1]).date()
+        trend_start = (seventh + timedelta(days=BASELINE_DAYS[0] - 1)).isoformat()
 
     recent48 = [a for a in arts if win.within(a["_dt"], 48)]
     last72 = [a for a in arts if win.within(a["_dt"], 72)]
@@ -137,7 +155,7 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
     def band_series(shares):
         band = []
         for i in range(n_days):
-            prev = [shares[j] for j in range(max(0, i - 28), i) if day_total[j] >= MIN_DAY_TOTAL]
+            prev = [shares[j] for j in range(max(0, i - 28), i) if full_day[j]]
             if len(prev) >= MIN_BASELINE_DAYS:
                 m, s = mean_std(prev)
                 band.append([round_share(max(0.0, m - s)), round_share(m + s)])
@@ -162,8 +180,11 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         slope = a_share - b_share
         is_new = sum(counts_series[i] for i in base_idx) == 0
         delta = (share_now / m - 1) if m > 0 else None
+        if not enough_baseline:
+            m, delta = None, None  # no trustworthy normal level yet: say nothing rather than guess
         return {
-            "score": round(score, 2), "share_now": round_share(share_now), "baseline": round_share(m),
+            "score": round(score, 2), "share_now": round_share(share_now),
+            "baseline": None if m is None else round_share(m),
             "delta": None if delta is None else round(delta, 3), "n48": len(hits48), "sources48": len(srcs),
             "slope": round_share(slope),
             "state": trend_state(score, slope, enough_baseline, is_new),
@@ -354,11 +375,13 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         "stories24": sum(1 for s in stories if s["n24"] > 0 and len(s["sources"]) >= 2),
         "articles_total": len(arts),
         "days_of_data": sum(1 for d in day_total if d > 0),
+        "full_days": sum(1 for f in full_day if f),
         "untagged48": round(sum(1 for a in recent48 if not a["_themes"]) / total48, 3),
     }
     ranked_themes = sorted(theme_ids, key=lambda t: -theme_stats[t]["score"])
     write_json(SITE_DATA_DIR / "pulse.json", {
-        "updated": iso(now), "baseline_ready": enough_baseline, "kpis": kpis,
+        "updated": iso(now), "baseline_ready": enough_baseline, "trend_start": trend_start,
+        "full_days": len(base_idx), "full_min": full_min, "kpis": kpis,
         "dates": dates, "totals": day_total,
         "themes": [{"id": t, **theme_stats[t], "spark": theme_series[t][-30:]} for t in ranked_themes],
         "series": theme_series,
@@ -406,7 +429,7 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         "themes": [{"id": t["id"], "fi": t["fi"], "en": t["en"]} for t in themes_cfg],
         "sources": src_rows,
         "regions": [{"id": r["id"], "fi": r["fi"], "en": r["en"]} for r in regions_cfg],
-        "has_regions": bool(regions_out),
+        "has_regions": bool(regions_out), "baseline_ready": enough_baseline, "trend_start": trend_start,
         "gdelt": (gdelt or {}).get("status"),
         "fetch": {k: v for k, v in (fetch_status or {}).items() if k != "sources"},
     })

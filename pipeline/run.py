@@ -24,13 +24,17 @@ def main() -> int:
         for s in fetch_status["sources"]:
             if s.get("state") != "ok":
                 print(f"  ! {s['id']}: {s.get('state')} {'; '.join(s.get('errors', []))[:200]}")
-    try:
-        gdelt = fetch_gdelt.run(now)
-        st = gdelt.get("status") or {}
-        print(f"GDELT: last run {st.get('last_run')}, {st.get('ok')}/{st.get('queries')} ok")
-    except Exception as exc:  # GDELT must never break the hourly update
-        print(f"GDELT failed: {exc}")
-        gdelt = fetch_gdelt.load_state()
+    gdelt = None
+    if os.environ.get("MP_GDELT", "1") == "0":
+        print("GDELT: switched off (regional data comes from own feeds from phase 2)")
+    else:
+        try:
+            gdelt = fetch_gdelt.run(now)
+            st = gdelt.get("status") or {}
+            print(f"GDELT: last run {st.get('last_run')}, {st.get('ok')}/{st.get('queries')} ok")
+        except Exception as exc:  # GDELT must never break the hourly update
+            print(f"GDELT failed: {exc}")
+            gdelt = fetch_gdelt.load_state()
     result = analyze(now, fetch_status=fetch_status, gdelt=gdelt)
     print("Analysis:", json.dumps(result), f"({time.time() - t0:.0f}s)")
     return 0

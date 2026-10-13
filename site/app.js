@@ -13,16 +13,17 @@
       noData: "Dataa ei vielä ole. Ensimmäinen päivitys täyttää näkymän – käynnistä se GitHubissa tai odota tasatuntia.",
       loadError: "Datan lataus epäonnistui",
       updated: "Päivitetty", updateNow: "Päivitä nyt", sources: "lähdettä",
-      kpi: { articles24: "artikkelia 24 h", sources24: "lähdettä julkaissut 24 h", stories24: "tarinaa usealla medialla 24 h", days: "päivää dataa" },
+      kpi: { articles24: "artikkelia 24 h", sources24: "lähdettä julkaissut 24 h", stories24: "tarinaa usealla medialla 24 h", days: "täyttä päivää dataa" },
       state: { emerging: "Uusi nousija", rising: "Nousussa", peaking: "Huipussa", fading: "Hiipumassa", steady: "Tasainen", collecting: "Kerää vertailua" },
       lead: (th, now, base) => `${th} nousee: ${now} uutisista viimeiset 48 tuntia, kun normaali on ${base}.`,
       leadPeak: (th, now, base) => `${th} on huipussa: ${now} uutisista viimeiset 48 tuntia, normaali ${base}.`,
       leadCalm: "Ei selviä nousijoita – uutisaiheet ovat tavanomaisella tasollaan.",
-      leadCollecting: (d) => `Vertailudataa kerätään (${d} pv). Trendit näkyvät, kun dataa on noin viikolta.`,
+      leadCollecting: (d) => `Trendit käynnistyvät ${d}. Siihen asti näet, mistä media puhuu nyt: osuudet, tarinat ja nimet.`,
+      normalFrom: (d) => `Normaali taso ja muutos näkyvät ${d} alkaen, kun vertailudataa on viikolta kaikista medioista.`,
       alsoRising: (list) => `Myös ${list} nousevat.`,
       alsoFading: (list) => `${list} hiipuu.`,
       boardTitle: "Teemat nyt",
-      boardNote: "Osuus = teeman artikkelit viimeisten 48 tunnin uutisista. Pystyviiva on teeman tavallinen osuus (3–30 päivää sitten).",
+      boardNote: "Osuus = teeman artikkelit viimeisten 48 tunnin uutisista. Pystyviiva on teeman tavallinen osuus edeltävien neljän viikon ajalta.",
       col: { theme: "Teema", state: "Tila", share: "Osuus nyt · normaali", trend: "30 pv", change: "Muutos" },
       untagged: (p) => `${p} artikkeleista ei osunut mihinkään teemaan.`,
       topStories: "Tarinat nyt", topStoriesNote: "Usean median samasta aiheesta tekemät jutut, ryhmiteltynä.",
@@ -31,6 +32,7 @@
       allStories: "Kaikki tarinat", noStories: "Ei vielä tarinoita, joita useampi media olisi uutisoinut.",
       share: "Osuus uutisista", normalRange: "Normaali vaihteluväli", normal: "normaali",
       themeStatement: (th, now, base) => `${th}: ${now} uutisista viimeiset 48 tuntia. Normaali osuus on ${base}.`,
+      themeStatementNow: (th, now) => `${th}: ${now} uutisista viimeiset 48 tuntia.`,
       showTable: "Näytä taulukkona", hideTable: "Piilota taulukko",
       date: "Päivä", count: "Artikkeleita", byOutlet: "Kuka uutisoi", namesInTheme: "Nimet teemassa (30 pv)",
       relatedThemes: "Usein samassa jutussa", latest: "Tuoreimmat otsikot", storiesInTheme: "Teeman tarinat",
@@ -42,7 +44,7 @@
       ncol: { name: "Nimi", n48: "48 h", n7: "7 pv", n30: "30 pv", trend: "30 pv", themes: "Teemat" },
       regionsTitle: "Teemat alueittain",
       regionsNote: "Muutos tavalliseen osuuteen nähden. Lähde: GDELT, joka seuraa verkkomediaa maailmanlaajuisesti; osuus = teeman osuus kaikista seuratuista teemoista alueella. Suomi on tässä mukana GDELTin kautta, jotta alueet ovat vertailukelpoisia.",
-      regionsEmpty: "Aluedata haetaan GDELTista kerran vuorokaudessa. Ensimmäinen haku kestää noin 15 minuuttia ja tapahtuu seuraavassa päivityksessä.",
+      regionsEmpty: "Pohjoismaat, Eurooppa, Pohjois-Amerikka ja Lähi-itä ovat tulossa. Ne luetaan kunkin alueen omista medioista samalla tavalla kuin Suomi.",
       compareTitle: (th) => `${th} eri alueilla`, regionHeadlines: "Alueiden otsikot (24 h)", pickTheme: "Valitse teema",
       headlinesTitle: "Otsikot", headlinesNote: "Kaikki haetut otsikot kolmelta viime päivältä. Linkit vievät alkuperäiseen juttuun.",
       sourcesTitle: "Lähteet", sourcesNote: "Seurattavat mediat ja viimeisimmän haun tila. Syötteitä voi lisätä tai korjata tiedostossa pipeline/config/sources.json.",
@@ -62,16 +64,17 @@
       noData: "No data yet. The first update fills this page – start it on GitHub or wait for the top of the hour.",
       loadError: "Could not load data",
       updated: "Updated", updateNow: "Update now", sources: "sources",
-      kpi: { articles24: "articles in 24 h", sources24: "outlets published in 24 h", stories24: "stories across outlets in 24 h", days: "days of data" },
+      kpi: { articles24: "articles in 24 h", sources24: "outlets published in 24 h", stories24: "stories across outlets in 24 h", days: "full days of data" },
       state: { emerging: "Emerging", rising: "Rising", peaking: "Peaking", fading: "Fading", steady: "Steady", collecting: "Building baseline" },
       lead: (th, now, base) => `${th} is rising: ${now} of news in the last 48 hours, against ${base} normally.`,
       leadPeak: (th, now, base) => `${th} is peaking: ${now} of news in the last 48 hours, against ${base} normally.`,
       leadCalm: "No clear risers – news themes are at their usual levels.",
-      leadCollecting: (d) => `Building a baseline (${d} days so far). Trends appear after about a week of data.`,
+      leadCollecting: (d) => `Trends start on ${d}. Until then you see what the media is covering now: shares, stories and names.`,
+      normalFrom: (d) => `Normal levels and change appear from ${d}, once there is a week of full days from all outlets.`,
       alsoRising: (list) => `${list} are also rising.`,
       alsoFading: (list) => `${list} is fading.`,
       boardTitle: "Themes now",
-      boardNote: "Share = the theme's articles in the last 48 hours of news. The tick marks its usual share (3–30 days ago).",
+      boardNote: "Share = the theme's articles in the last 48 hours of news. The tick marks its usual share over the previous four weeks.",
       col: { theme: "Theme", state: "State", share: "Share now · normal", trend: "30 days", change: "Change" },
       untagged: (p) => `${p} of articles matched no theme.`,
       topStories: "Stories now", topStoriesNote: "Coverage of the same event by several outlets, grouped.",
@@ -80,6 +83,7 @@
       allStories: "All stories", noStories: "No stories covered by several outlets yet.",
       share: "Share of news", normalRange: "Normal range", normal: "normal",
       themeStatement: (th, now, base) => `${th}: ${now} of news in the last 48 hours. Its normal share is ${base}.`,
+      themeStatementNow: (th, now) => `${th}: ${now} of news in the last 48 hours.`,
       showTable: "Show as table", hideTable: "Hide table",
       date: "Date", count: "Articles", byOutlet: "Who covers it", namesInTheme: "Names in this theme (30 days)",
       relatedThemes: "Often in the same article", latest: "Latest headlines", storiesInTheme: "Stories in this theme",
@@ -91,7 +95,7 @@
       ncol: { name: "Name", n48: "48 h", n7: "7 d", n30: "30 d", trend: "30 days", themes: "Themes" },
       regionsTitle: "Themes by region",
       regionsNote: "Change against each theme's normal share. Source: GDELT, which monitors online news worldwide; share = the theme's share of all tracked themes in the region. Finland appears here via GDELT so the regions are comparable.",
-      regionsEmpty: "Regional data comes from GDELT once a day. The first pull takes about 15 minutes and happens in the next update.",
+      regionsEmpty: "The Nordics, Europe, North America and the Middle East are coming, read from each region's own outlets in the same way as Finland.",
       compareTitle: (th) => `${th} across regions`, regionHeadlines: "Regional headlines (24 h)", pickTheme: "Pick a theme",
       headlinesTitle: "Headlines", headlinesNote: "Every headline collected in the last three days. Links go to the original article.",
       sourcesTitle: "Sources", sourcesNote: "Outlets tracked and the status of the latest fetch. Add or fix feeds in pipeline/config/sources.json.",
@@ -133,6 +137,7 @@
     if (isNaN(dt)) return "";
     return new Intl.DateTimeFormat(locale(), { day: "numeric", month: lang === "fi" ? "numeric" : "short", hour: "2-digit", minute: "2-digit", timeZone: "Europe/Helsinki" }).format(dt);
   };
+  const dayMonth = (d) => (d ? new Intl.DateTimeFormat(locale(), { day: "numeric", month: "long" }).format(dayDate(d)) : "");
   const ago = (iso) => t().ago((Date.now() - Date.parse(iso)) / 3600e3);
   const listJoin = (items) => new Intl.ListFormat(locale(), { style: "long", type: "conjunction" }).format(items);
   const cap = (s) => (s ? s.charAt(0).toUpperCase() + s.slice(1) : s);
@@ -187,7 +192,7 @@
     const ranked = P.themes;
     const hot = ranked.filter((x) => ["emerging", "rising", "peaking"].includes(x.state));
     let statement, extra = [];
-    if (!P.baseline_ready) statement = t().leadCollecting(k.days_of_data);
+    if (!P.baseline_ready) statement = t().leadCollecting(dayMonth(P.trend_start));
     else if (hot.length) {
       const lead = hot[0];
       statement = (lead.state === "peaking" ? t().leadPeak : t().lead)(themeName(lead.id), pct(lead.share_now), pct(lead.baseline));
@@ -197,12 +202,12 @@
     const fading = ranked.filter((x) => x.state === "fading").slice(-1);
     if (P.baseline_ready && fading.length) extra.push(cap(t().alsoFading(themeName(fading[0].id))));
 
-    const maxShare = Math.max(...ranked.map((x) => Math.max(x.share_now, x.baseline)), 0.01);
+    const maxShare = Math.max(...ranked.map((x) => Math.max(x.share_now, x.baseline || 0)), 0.01);
     const rows = ranked.map((x) => `
       <a class="board-row" href="#/theme/${esc(x.id)}">
         <span class="name">${esc(themeName(x.id))}</span>
         ${stateBadge(x.state)}
-        <span class="share-cell"><span class="val">${esc(pct(x.share_now))}</span>${shareBar(x.share_now, x.baseline, maxShare, 120)}<span class="small">${esc(pct(x.baseline))}</span></span>
+        <span class="share-cell"><span class="val">${esc(pct(x.share_now))}</span>${shareBar(x.share_now, x.baseline || 0, maxShare, 120)}<span class="small">${x.baseline == null ? "–" : esc(pct(x.baseline))}</span></span>
         <span class="spark">${sparkline(x.spark, 120, 28)}</span>
         <span class="delta ${x.delta > 0.1 ? "up" : x.delta < -0.1 ? "down" : ""}">${esc(signedPct(x.delta))}</span>
       </a>`).join("");
@@ -225,11 +230,11 @@
           <div class="kpi"><div class="v">${num(k.articles24)}</div><div class="l">${esc(t().kpi.articles24)}</div></div>
           <div class="kpi"><div class="v">${num(k.sources24)}</div><div class="l">${esc(t().kpi.sources24)}</div></div>
           <div class="kpi"><div class="v">${num(k.stories24)}</div><div class="l">${esc(t().kpi.stories24)}</div></div>
-          <div class="kpi"><div class="v">${num(k.days_of_data)}</div><div class="l">${esc(t().kpi.days)}</div></div>
+          <div class="kpi"><div class="v">${num(k.full_days ?? k.days_of_data)}</div><div class="l">${esc(t().kpi.days)}</div></div>
         </div>
       </section></div>
       <section class="section">
-        <div class="section-head"><h2>${esc(t().boardTitle)}</h2><p>${esc(t().boardNote)}</p></div>
+        <div class="section-head"><h2>${esc(t().boardTitle)}</h2><p>${esc(P.baseline_ready ? t().boardNote : t().normalFrom(dayMonth(P.trend_start)))}</p></div>
         <div class="panel board" role="list">
           <div class="board-head" aria-hidden="true"><span>${esc(t().col.theme)}</span><span>${esc(t().col.state)}</span><span>${esc(t().col.share)}</span><span>${esc(t().col.trend)}</span><span class="r">${esc(t().col.change)}</span></div>
           ${rows}
@@ -256,12 +261,13 @@
     app.innerHTML = `
       <section class="lede-block">
         <p class="small"><a href="#/">${esc(t().nav.pulse)}</a></p>
-        <h1 class="statement">${esc(t().themeStatement(name, pct(D.share_now), pct(D.baseline)))}</h1>
-        <div class="meta-line">${stateBadge(D.state)}<span>${esc(t().col.change)} <strong>${esc(signedPct(D.delta))}</strong></span><span>${num(D.n48)} ${esc(t().articles)} · ${num(D.sources48)} ${esc(t().outlets)} (48 h)</span></div>
+        <h1 class="statement">${esc(D.baseline == null ? t().themeStatementNow(name, pct(D.share_now)) : t().themeStatement(name, pct(D.share_now), pct(D.baseline)))}</h1>
+        <div class="meta-line">${stateBadge(D.state)}${D.delta == null ? "" : `<span>${esc(t().col.change)} <strong>${esc(signedPct(D.delta))}</strong></span>`}<span>${num(D.n48)} ${esc(t().articles)} · ${num(D.sources48)} ${esc(t().outlets)} (48 h)</span></div>
+        ${D.baseline == null && META.trend_start ? `<p class="small" style="margin-top:var(--space-4xs)">${esc(t().normalFrom(dayMonth(META.trend_start)))}</p>` : ""}
       </section>
       <section class="panel chart-wrap">
         <div class="chart-tools">
-          <div class="legend"><span><i class="key" style="background:var(--series-1)"></i>${esc(t().share)}</span><span><i class="key band"></i>${esc(t().normalRange)}</span></div>
+          <div class="legend"><span><i class="key" style="background:var(--series-1)"></i>${esc(t().share)}</span>${D.baseline == null ? "" : `<span><i class="key band"></i>${esc(t().normalRange)}</span>`}</div>
           <div class="seg" role="group" aria-label="${esc(t().period)}" id="rangeSeg">${[30, 90, 120].map((d) => `<button type="button" class="mt-toggle" data-d="${d}" aria-pressed="${d === range}"><span class="mt-toggle-dot" aria-hidden="true"></span>${esc(t().days(d))}</button>`).join("")}</div>
         </div>
         <div class="chart" id="themeChart"></div>
@@ -448,10 +454,10 @@
     app.innerHTML = `
       <section class="lede-block"><h1 class="statement">${esc(t().sourcesTitle)}</h1><p class="sub">${esc(t().sourcesNote)}</p></section>
       <section class="panel table-scroll"><table class="data"><thead><tr><th>${esc(t().scol.outlet)}</th><th>${esc(t().scol.status)}</th><th class="n">${esc(t().scol.n24)}</th><th class="n">${esc(t().scol.n7)}</th><th>${esc(t().scol.last)}</th><th>${esc(t().scol.notes)}</th></tr></thead><tbody>${rows}</tbody></table></section>
-      <section class="section"><h2>${esc(t().gdeltTitle)}</h2>
+      ${!META.has_regions ? "" : `<section class="section"><h2>${esc(t().gdeltTitle)}</h2>
         <p>${g?.last_run ? esc(t().gdeltStatus(g.ok, g.queries, fmtTime(g.last_run))) : esc(t().gdeltNever)}${g?.stopped ? ` <span class="small">(${esc(g.stopped)})</span>` : ""}</p>
         ${failed.length ? `<h3>${esc(t().gdeltFailed)}</h3><ul class="small">${failed.slice(0, 30).map((e) => `<li>${esc(regionName(e.region))} / ${esc(themeName(e.theme))}: ${esc(e.timeline_error || e.articles_error)}</li>`).join("")}</ul>` : ""}
-      </section>`;
+      </section>`}`;
   }
 
   /* ------------------------------------------------------------ shell */
