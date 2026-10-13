@@ -168,9 +168,15 @@ def build(now: datetime, main_arts: list[dict], dates: list[str], fetch_status: 
         })
 
     oeil = load_json(STATE_FILE, {}) or {}
+    today = local_date(now)
     files = []
     for f in pipe_cfg.get("files", []):
-        rec = oeil.get(f.get("oeil") or "", {})
+        rec = dict(oeil.get(f.get("oeil") or "", {}))
+        if rec.get("events"):  # re-split on every build so a planned date becomes 'latest' once it passes
+            past = [e for e in rec["events"] if e[0] <= today]
+            future = [e for e in rec["events"] if e[0] > today]
+            rec["latest"] = past[-1] if past else rec.get("latest")
+            rec["upcoming"] = future[0] if future else None
         files.append({**{k: v for k, v in f.items() if not k.startswith("_")},
                       "official": None if not f.get("oeil") else {
                           "url": rec.get("url") or OEIL_URL.format(ref=urllib.parse.quote(f["oeil"], safe="")),
@@ -178,7 +184,6 @@ def build(now: datetime, main_arts: list[dict], dates: list[str], fetch_status: 
                           "changed": rec.get("changed"),
                           "checked": rec.get("checked"), "error": rec.get("error")}})
 
-    today = local_date(now)
     events = []
     for e in cal_cfg.get("events", []):
         key = e.get("date") or e.get("sort")
