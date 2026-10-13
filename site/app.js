@@ -8,7 +8,7 @@
   /* ------------------------------------------------------------ i18n */
   const T = {
     fi: {
-      nav: { front: "Yleiskuva", pulse: "Teemat", stories: "Tarinat", names: "Nimet", regions: "Alueet", headlines: "Otsikot", sources: "Lähteet" },
+      nav: { front: "Yleiskuva", lens: "Kestävyys", pulse: "Teemat", stories: "Tarinat", names: "Nimet", regions: "Alueet", headlines: "Otsikot", sources: "Lähteet" },
       loading: "Ladataan…",
       noData: "Dataa ei vielä ole. Ensimmäinen päivitys täyttää näkymän – käynnistä se GitHubissa tai odota tasatuntia.",
       loadError: "Datan lataus epäonnistui",
@@ -89,9 +89,32 @@
         within: (h) => (h < 1 ? `${Math.max(1, Math.round(h * 60))} minuutissa` : `${String(Math.round(h * 10) / 10).replace(".", ",")} tunnissa`),
         seeThemes: "Kaikki teemat", seeStory: "Avaa tarina",
       },
+      lens: {
+        title: "Kestävyys",
+        heroNext: (n, what) => (n === 0 ? `Tänään: ${what}.` : n === 1 ? `Huomenna: ${what}.` : `${n} päivää: ${what}.`),
+        heroSub: (k, m) => `Kestävyyslinssi seuraa ${k} aihetta ja ${m} valmisteilla olevaa säädöstä virallisista asiakirjoista mediaan, jotta muutoksen näkee ennen kuin siitä tulee otsikkouutinen.`,
+        checked: (d) => `Säädösten tila tarkistettu käsin ${d}`,
+        issuesTitle: "Aiheet", issuesNote: "Missä kukin aihe on nyt, seuraava virallinen askel ja kuinka paljon siitä kirjoitetaan.",
+        col: { issue: "Aihe", stands: "Missä ollaan", next: "Seuraava askel", media: "Otsikoita 7 pv", trend: "14 pv" },
+        mainstream: "Valtamedia", specialist: "Erikoismedia", mainShort: "valta", specShort: "erikois",
+        inDays: (n) => (n === 0 ? "tänään" : n === 1 ? "huomenna" : `${n} päivän päästä`),
+        showHeadlines: "Näytä otsikot", noHeadlines: "Ei osumia vielä.",
+        pipeTitle: "Valmisteilla", pipeNote: "Säädökset, joita vielä kirjoitetaan, vaiheittain. Mitä aiempi vaihe, sitä enemmän tilaa vaikuttaa lopputulokseen.",
+        roomToShape: "Tilaa vaikuttaa", pcol: { file: "Säädös", stage: "Vaihe", next: "Seuraava askel", timing: "Aikataulu" },
+        stageAria: (name, stalled) => `Vaihe: ${name}${stalled ? " (jumissa)" : ""}`,
+        official: "Virallinen tila", latestEvent: "viimeisin", changed: (a) => `Muuttui ${a}`, recordError: "Virallista tietoa ei saatu luettua tällä kertaa.",
+        notRead: "Luetaan seuraavassa päivityksessä.",
+        coverageTitle: "Kuinka paljon aiheesta kirjoitetaan", coverageNote: "Otsikot päivittäin. Erikoismedia liikkuu tyypillisesti ensin; valtamedia seuraa, kun aihe koskettaa laajemmin.",
+        pickIssue: "Aihe", since: (a, b) => `Valtamedia laskettu ${a} alkaen${b ? `, erikoismedia ${b} alkaen` : ", erikoismedian syötteet alkavat seuraavassa päivityksessä"}.`,
+        context: (n, name) => `Vertailun vuoksi: ${name.toLowerCase()}: ${n} otsikkoa 7 päivässä.`,
+        calTitle: "Tulossa", calNote: "Tiedossa olevat päivät, joihin linssi laskee.", ccol: { when: "Milloin", what: "Mitä", issue: "Aihe" },
+        sourcesTitle: "Erikoismedian lähteet", sourcesNote: "Linssin omat syötteet, erillään päälähteistä, jotta ne eivät muuta Media Pulsen trendien vertailutasoa.",
+        all: "Kaikki", eu: "EU", fi: "Suomi",
+        method: "Säädösten vaiheet ja päivämäärät on tarkistettu käsin virallisista lähteistä; Euroopan parlamentin lainsäädäntötietokannassa olevat säädökset luetaan automaattisesti. Mediaosumat lasketaan otsikoista ja ingresseistä sanalistoilla.",
+      },
     },
     en: {
-      nav: { front: "Overview", pulse: "Themes", stories: "Stories", names: "Names", regions: "Regions", headlines: "Headlines", sources: "Sources" },
+      nav: { front: "Overview", lens: "Sustainability", pulse: "Themes", stories: "Stories", names: "Names", regions: "Regions", headlines: "Headlines", sources: "Sources" },
       loading: "Loading…",
       noData: "No data yet. The first update fills this page – start it on GitHub or wait for the top of the hour.",
       loadError: "Could not load data",
@@ -171,6 +194,29 @@
         speedNone: "No story has reached five outlets yet this week.",
         within: (h) => (h < 1 ? `within ${Math.max(1, Math.round(h * 60))} minutes` : `within ${Math.round(h * 10) / 10} hours`),
         seeThemes: "All themes", seeStory: "Open story",
+      },
+      lens: {
+        title: "Sustainability",
+        heroNext: (n, what) => (n === 0 ? `Today: ${what}.` : n === 1 ? `Tomorrow: ${what}.` : `${n} days to go: ${what}.`),
+        heroSub: (k, m) => `The sustainability lens follows ${k} issues and ${m} rules in preparation, from official records to media coverage, so you see change coming before it becomes headline news.`,
+        checked: (d) => `Rule status hand-checked on ${d}`,
+        issuesTitle: "Issues", issuesNote: "Where each issue stands, its next formal step and how much it is being written about.",
+        col: { issue: "Issue", stands: "Where it stands", next: "Next step", media: "Headlines, 7 days", trend: "14 days" },
+        mainstream: "Mainstream", specialist: "Specialist", mainShort: "main", specShort: "spec.",
+        inDays: (n) => (n === 0 ? "today" : n === 1 ? "tomorrow" : `in ${n} days`),
+        showHeadlines: "Show headlines", noHeadlines: "No matches yet.",
+        pipeTitle: "In preparation", pipeNote: "Rules still being written, by stage. The earlier the stage, the more room to shape the outcome.",
+        roomToShape: "Room to shape", pcol: { file: "Rule", stage: "Stage", next: "Next step", timing: "Timing" },
+        stageAria: (name, stalled) => `Stage: ${name}${stalled ? " (stalled)" : ""}`,
+        official: "Official record", latestEvent: "latest", changed: (a) => `Changed ${a}`, recordError: "The official record could not be read this time.",
+        notRead: "Read on the next update.",
+        coverageTitle: "How much the issue is written about", coverageNote: "Headlines per day. Specialist media usually moves first; mainstream follows when an issue touches more people.",
+        pickIssue: "Issue", since: (a, b) => `Mainstream counted since ${a}${b ? `, specialist since ${b}` : "; specialist feeds start with the next update"}.`,
+        context: (n, name) => `For comparison, ${name.toLowerCase()}: ${n} headlines in 7 days.`,
+        calTitle: "Coming up", calNote: "Known dates the lens counts down to.", ccol: { when: "When", what: "What", issue: "Issue" },
+        sourcesTitle: "Specialist sources", sourcesNote: "The lens's own feeds, kept apart from the main outlets so they do not change Media Pulse's trend baselines.",
+        all: "All", eu: "EU", fi: "Finland",
+        method: "Rule stages and dates are hand-checked against official sources; rules in the European Parliament's Legislative Observatory are read automatically. Media matches are counted from headlines and ledes using word lists.",
       },
     },
   };
@@ -337,7 +383,7 @@
     };
     const band = (key, fill) => `<rect x="${zoneX[key][0]}" y="20" width="${zoneX[key][1] - zoneX[key][0]}" height="${base - 20}" fill="${fill}"/>`;
     return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${esc(t().front.cycleTitle)}" preserveAspectRatio="xMidYMid meet">
-      ${band("open", "rgba(235,93,41,0.10)")}
+      ${band("open", "var(--window-band)")}
       <line x1="${x0}" x2="${x1}" y1="${base}" y2="${base}" stroke="var(--axis)" stroke-width="1"/>
       <path d="${d}" fill="none" stroke="var(--base-text)" stroke-width="2" stroke-linecap="round"/>
       <line x1="345" x2="345" y1="20" y2="${base}" stroke="var(--hairline)" stroke-dasharray="3 4"/>
@@ -457,6 +503,133 @@
       </div>
       <p class="section"><a class="btn" href="#/themes">${esc(F.seeThemes)}</a></p>`;
   }
+
+  /* ------------------------------------------------------------ sustainability lens */
+  async function viewLens() {
+    const D = await load("lens");
+    const L = t().lens;
+    const nm = (o) => (o ? (lang === "fi" ? o.fi : o.en) : "");
+    const daysTo = (d) => Math.round((Date.parse(d + "T12:00:00Z") - Date.parse(D.today + "T12:00:00Z")) / 864e5);
+    const fullDate = (d) => new Intl.DateTimeFormat(locale(), { day: "numeric", month: "long", year: "numeric" }).format(dayDate(d));
+    const issues = D.issues.filter((i) => !i.context);
+    const ctx = D.issues.find((i) => i.context);
+    const issueName = (id) => nm(D.issues.find((i) => i.id === id)) || "";
+    const stages = (D.stages || {})[lang] || [];
+    const stagesShort = (D.stages_short || {})[lang] || stages;
+
+    // hero: the next dated milestone
+    const nextEv = D.calendar.find((e) => e.date);
+    const hero = nextEv ? L.heroNext(daysTo(nextEv.date), nm(nextEv)) : L.title;
+
+    const issueRows = issues.map((i) => {
+      const nextTxt = i.next ? `${esc(nm(i.next))}${i.next_date ? `<div class="small">${esc(fullDate(i.next_date))} · ${esc(L.inDays(daysTo(i.next_date)))}</div>` : ""}` : "–";
+      const bars = barsSvg(i.main_daily.slice(-14).map((v, j) => v + i.spec_daily.slice(-14)[j]));
+      const heads = i.headlines.length
+        ? `<ul class="list">${i.headlines.slice(0, 6).map((h) => `<li><a class="story-title" href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a><div class="small">${esc(h.k === "spec" ? lensSource(D, h.s) : sourceName(h.s))} · ${esc(h.k === "spec" ? L.specialist : L.mainstream)} · ${esc(fmtTime(h.p))}</div></li>`).join("")}</ul>`
+        : `<p class="small">${esc(L.noHeadlines)}</p>`;
+      return `<tr>
+        <th scope="row"><strong>${esc(nm(i))}</strong></th>
+        <td data-label="${esc(L.col.stands)}">${esc(nm(i.status))}</td>
+        <td data-label="${esc(L.col.next)}">${nextTxt}</td>
+        <td class="lens-media" data-label="${esc(L.col.media)}"><div class="lens-n"><span><strong>${num(i.main7)}</strong> ${esc(L.mainShort)}</span><span><strong>${num(i.spec7)}</strong> ${esc(L.specShort)}</span></div>${bars}
+          <details><summary>${esc(L.showHeadlines)}</summary>${heads}</details></td>
+      </tr>`;
+    }).join("");
+
+    // pipeline
+    const pipeRows = D.files.map((f) => {
+      const cells = stages.map((_, k) => `<span class="${k < f.stage ? "done" : k === f.stage ? "now" + (f.stalled ? " stalled" : "") : ""}"></span>`).join("");
+      const o = f.official;
+      let rec = "";
+      if (o) {
+        if (o.error && !o.stage) rec = `<div class="small">${esc(L.recordError)} <a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(L.official)}</a></div>`;
+        else if (!o.stage && !o.latest) rec = `<div class="small"><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(L.official)}</a>: ${esc(L.notRead)}</div>`;
+        else rec = `<div class="small"><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(L.official)}</a>: ${esc(o.stage || "")}${o.latest ? ` · ${esc(L.latestEvent)} ${esc(fmtDate(o.latest[0]))}: ${esc(o.latest[1])}` : ""}${o.changed ? ` <strong class="changed">${esc(L.changed(ago(o.changed)))}</strong>` : ""}</div>`;
+      }
+      const nextTxt = `${esc(nm(f.next))}${f.next_date ? `<div class="small">${esc(fullDate(f.next_date))} · ${esc(L.inDays(daysTo(f.next_date)))}</div>` : ""}`;
+      const kind = f.timing?.kind || "unknown";
+      return `<div class="pipe-row" role="row">
+        <div role="cell"><span class="name">${esc(nm(f))}</span> <span class="where">${esc(f.where === "FI" ? L.fi : L.eu)}</span><div class="small">${esc(nm(f.why))}</div>${rec}</div>
+        <div role="cell"><span class="track" role="img" aria-label="${esc(L.stageAria(stages[f.stage] || "", f.stalled))}">${cells}</span><span class="track-now small" aria-hidden="true">${esc(stages[f.stage] || "")}</span></div>
+        <div role="cell">${nextTxt}</div>
+        <div role="cell"><span class="st ${esc(kind)}">${esc(nm(f.timing))}</span></div>
+      </div>`;
+    }).join("");
+
+    const calRows = D.calendar.map((e) => {
+      const when = e.date ? `${fullDate(e.date)}<div class="small">${esc(L.inDays(daysTo(e.date)))}</div>` : esc(nm(e.when));
+      return `<tr><td>${when}</td><td>${esc(nm(e))}</td><td>${e.issue ? esc(issueName(e.issue)) : esc(L.all)}</td></tr>`;
+    }).join("");
+
+    const srcRows = (D.sources || []).map((s) => `<li><a href="${esc(s.homepage)}" target="_blank" rel="noopener">${esc(s.name)}</a> <span class="small">${esc(s.lang)} · <span class="status-dot ${esc(s.state)}">${esc(t().sstate[s.state] || s.state)}</span> · ${num(s.n7)} ${esc(lang === "fi" ? "otsikkoa 7 pv" : "headlines, 7 days")}</span></li>`).join("");
+
+    app.innerHTML = `
+      <div class="hero theme-neon"><section class="lede-block wide">
+        <h1 class="statement">${esc(hero)}</h1>
+        <p class="sub">${esc(L.heroSub(issues.length, D.files.length))}</p>
+        <div class="meta-line"><span>${esc(t().updated)} <strong>${esc(fmtTime(D.updated))}</strong></span><span>${esc(L.checked(fullDate(D.pipeline_checked)))}</span></div>
+      </section></div>
+
+      <section class="section">
+        <div class="section-head"><h2>${esc(L.issuesTitle)}</h2><p>${esc(L.issuesNote)}</p></div>
+        <div class="panel"><table class="data lens-table">
+          <thead><tr><th scope="col">${esc(L.col.issue)}</th><th scope="col">${esc(L.col.stands)}</th><th scope="col">${esc(L.col.next)}</th><th scope="col">${esc(L.col.media)}</th></tr></thead>
+          <tbody>${issueRows}</tbody></table></div>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><h2>${esc(L.pipeTitle)}</h2><p>${esc(L.pipeNote)}</p></div>
+        <div class="panel pipe" role="table" aria-label="${esc(L.pipeTitle)}">
+          <div class="pipe-head" role="row">
+            <div role="columnheader">${esc(L.pcol.file)}</div>
+            <div role="columnheader"><span class="sr-only">${esc(L.pcol.stage)}</span><span class="tlabels" aria-hidden="true"><span class="shape">${esc(L.roomToShape)}</span></span><span class="tlabels" aria-hidden="true">${stagesShort.map((x) => `<span>${esc(x)}</span>`).join("")}</span></div>
+            <div role="columnheader">${esc(L.pcol.next)}</div>
+            <div role="columnheader">${esc(L.pcol.timing)}</div>
+          </div>
+          ${pipeRows}
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><h2>${esc(L.coverageTitle)}</h2><p>${esc(L.coverageNote)}</p></div>
+        <div class="filters"><label class="field">${esc(L.pickIssue)}<select id="lensIssue">${issues.map((i) => `<option value="${esc(i.id)}">${esc(nm(i))}</option>`).join("")}</select></label></div>
+        <div class="chart-wrap"><div id="lensChart" class="chart"></div></div>
+        <div id="lensChartTable"></div>
+        <p class="small">${esc(L.since(D.since_main ? fullDate(D.since_main) : "–", D.since_spec ? fullDate(D.since_spec) : null))}${ctx ? " " + esc(L.context(num(ctx.main7 + ctx.spec7), nm(ctx))) : ""}</p>
+      </section>
+
+      <div class="cols section">
+        <section><div class="section-head"><h2>${esc(L.calTitle)}</h2></div><p class="small" style="margin-top:0">${esc(L.calNote)}</p>
+          <div class="table-scroll"><table class="data"><thead><tr><th scope="col">${esc(L.ccol.when)}</th><th scope="col">${esc(L.ccol.what)}</th><th scope="col">${esc(L.ccol.issue)}</th></tr></thead><tbody>${calRows}</tbody></table></div></section>
+        <section><div class="section-head"><h2>${esc(L.sourcesTitle)}</h2></div><p class="small" style="margin-top:0">${esc(L.sourcesNote)}</p><ul class="list">${srcRows}</ul>
+          <p class="small">${esc(L.method)}</p></section>
+      </div>`;
+
+    const start = D.since_main ? D.dates.indexOf(D.since_main) : -1;
+    const days = Math.min(60, Math.max(14, start >= 0 ? D.dates.length - start : 60));
+    const draw = (id) => {
+      const i = issues.find((x) => x.id === id) || issues[0];
+      const dates = D.dates.slice(-days);
+      const host = document.getElementById("lensChart");
+      lineChart(host, {
+        dates, height: 240, label: `${nm(i)}: ${L.coverageTitle}`,
+        series: [
+          { name: L.mainstream, values: i.main_daily.slice(-days), color: "var(--series-1)" },
+          { name: L.specialist, values: i.spec_daily.slice(-days), color: "var(--series-2)" },
+        ],
+        format: (v) => num(Math.round(v)), integer: true, fmtDate, fmtDateLong,
+      });
+      const tbl = document.getElementById("lensChartTable");
+      tbl.innerHTML = "";
+      tableToggle(tbl, [t().date, L.mainstream, L.specialist], dates.map((d, k) => [fmtDate(d), num(i.main_daily.slice(-days)[k]), num(i.spec_daily.slice(-days)[k])]).reverse());
+    };
+    const sel = document.getElementById("lensIssue");
+    const busiest = issues.slice().sort((a, b) => (b.main7 + b.spec7) - (a.main7 + a.spec7))[0];
+    if (busiest) sel.value = busiest.id;
+    sel.addEventListener("change", (e) => draw(e.target.value));
+    draw(sel.value);
+  }
+  const lensSource = (D, id) => ((D.sources || []).find((s) => s.id === id) || {}).name || id;
 
   async function viewTheme(id) {
     const [D, S] = await Promise.all([load(`themes/${id}`), load("stories")]);
@@ -667,6 +840,7 @@
   /* ------------------------------------------------------------ shell */
   const routes = [
     [/^#?\/?$/, () => viewFront(), "front"],
+    [/^#\/sustainability$/, () => viewLens(), "lens"],
     [/^#\/themes$/, () => viewPulse(), "pulse"],
     [/^#\/theme\/([\w-]+)$/, (m) => viewTheme(m[1]), "pulse"],
     [/^#\/stories$/, () => viewStories(), "stories"],
@@ -679,8 +853,8 @@
 
   function renderChrome(active) {
     document.documentElement.lang = lang;
-    document.getElementById("nav").innerHTML = ["front", "pulse", "stories", "names", "regions", "headlines", "sources"].map((k) =>
-      `<a href="#/${k === "front" ? "" : k === "pulse" ? "themes" : k}" ${k === active ? 'aria-current="page"' : ""}>${esc(t().nav[k])}</a>`).join("");
+    document.getElementById("nav").innerHTML = ["front", "lens", "pulse", "stories", "names", "regions", "headlines", "sources"].map((k) =>
+      `<a href="#/${k === "front" ? "" : k === "pulse" ? "themes" : k === "lens" ? "sustainability" : k}" ${k === active ? 'aria-current="page"' : ""}>${esc(t().nav[k])}</a>`).join("");
     document.querySelectorAll(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
     document.getElementById("footer").textContent = t().footer;
     const skip = document.querySelector(".skip-link"); if (skip) skip.textContent = t().skip;

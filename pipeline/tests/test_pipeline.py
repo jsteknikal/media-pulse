@@ -83,3 +83,32 @@ class ThemeTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class LensTests(unittest.TestCase):
+    def test_oeil_page(self):
+        from lens import parse_oeil
+        page = b"""<html><head><script>var x = '01/01/2000';</script></head><body>
+        <h1>2023/0085(COD) Green Claims Directive</h1>
+        <table><tr><th>Stage reached in procedure</th><td>Awaiting Council's 1st reading position</td></tr></table>
+        <h2>Key events</h2><table>
+        <tr><td>22/03/2023</td><td><a href="#">Legislative proposal published</a></td><td>COM(2023)0166</td></tr>
+        <tr><td>12/03/2024</td><td>Decision by Parliament, 1st reading</td></tr>
+        <tr><td>16/12/2024</td><td>Committee decision to enter into interinstitutional negotiations</td></tr>
+        </table><h2>Technical information</h2><p>01/02/2025 not an event</p></body></html>"""
+        got = parse_oeil(page)
+        self.assertEqual(got["stage"], "Awaiting Council's 1st reading position")
+        self.assertEqual(len(got["events"]), 3)
+        self.assertEqual(got["events"][-1][0], "2024-12-16")
+        self.assertTrue(got["events"][0][1].startswith("Legislative proposal"))
+
+    def test_issue_patterns(self):
+        from common import SignalMatcher
+        issues = load_config("lens/issues.json")["issues"]
+        m = SignalMatcher(issues)
+        self.assertIn("green_claims", m.match("Kuluttaja-asiamies puuttuu viherpesuun", "", "fi"))
+        self.assertIn("carbon_pricing", m.match("EU:n päästökauppa uudistuu", "", "fi"))
+        self.assertIn("carbon_pricing", m.match("EU carbon border tax hits steel", "", "en"))
+        self.assertIn("reporting", m.match("Kestävyysraportointi kevenee", "", "fi"))
+        self.assertNotIn("carbon_pricing", m.match("Hiihtäjä harjoitteli kestävyyttä", "", "fi"))
+        self.assertEqual(m.match("HJK voitti Oulussa", "Veikkausliigan kierros", "fi"), [])

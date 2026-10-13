@@ -1,0 +1,316 @@
+{
+ "_note": "Issues followed by the sustainability lens. 'any' = word patterns per language (same rules as config/signals.json: 3 letters or fewer = whole word, 4 = start of a word, 5+ = anywhere in a word, ^ = start of a word, a space = phrase). 'status' and 'next' are hand-written and dated by 'checked'; update them when a milestone passes. 'next_date' (YYYY-MM-DD) drives the countdown. An issue with \"context\": true is shown only as background: general climate and environment coverage to compare the policy issues against.",
+ "checked": "2026-10-13",
+ "issues": [
+  {
+   "id": "green_claims",
+   "fi": "Ympäristöväittämät",
+   "en": "Green claims",
+   "status": {
+    "fi": "EU:n viherpesusäännöt ovat olleet voimassa 27.9.2026 alkaen; kuluttaja-asiamies valvoo.",
+    "en": "EU rules against greenwashing apply since 27 Sep 2026; the Consumer Ombudsman enforces them."
+   },
+   "next": {
+    "fi": "Siirtymäaika markkinoilla jo oleville tuotteille päättyy",
+    "en": "Transition for products already on the market ends"
+   },
+   "next_date": "2027-03-27",
+   "files": [
+    "green_claims_directive"
+   ],
+   "any": {
+    "fi": [
+     "viherpesu",
+     "ympäristöväittäm",
+     "ympäristöväit",
+     "vihreät väitteet",
+     "hiilineutraaliksi markkin"
+    ],
+    "sv": [
+     "grönmål",
+     "miljöpåstå",
+     "greenwashing"
+    ],
+    "en": [
+     "greenwash",
+     "green claims",
+     "environmental claims",
+     "empowering consumers"
+    ]
+   }
+  },
+  {
+   "id": "reporting",
+   "fi": "Kestävyysraportointi",
+   "en": "Sustainability reporting",
+   "status": {
+    "fi": "Raportointivelvollisten määrä Suomessa laski noin 1 300:sta reiluun sataan 30.6.2026; kevennetyt ESRS-standardit tarkastettavana.",
+    "en": "Companies required to report in Finland fell from about 1,300 to just over 100 on 30 Jun 2026; simplified ESRS standards under scrutiny."
+   },
+   "next": {
+    "fi": "Kevennetyt ESRS-standardit EU:n virallisessa lehdessä, odotetaan Q4 2026",
+    "en": "Simplified ESRS in the Official Journal, expected Q4 2026"
+   },
+   "next_date": null,
+   "files": [
+    "fi_csrd"
+   ],
+   "any": {
+    "fi": [
+     "kestävyysraport",
+     "vastuullisuusraport",
+     "csrd",
+     "esrs",
+     "vsme"
+    ],
+    "sv": [
+     "hållbarhetsrapport",
+     "csrd",
+     "esrs"
+    ],
+    "en": [
+     "csrd",
+     "esrs",
+     "sustainability reporting",
+     "sustainability disclosure",
+     "efrag",
+     "issb"
+    ]
+   }
+  },
+  {
+   "id": "carbon_pricing",
+   "fi": "Hiilen hinnoittelu",
+   "en": "Carbon pricing",
+   "status": {
+    "fi": "Hiilitulli (CBAM) maksullinen 1.1.2026 alkaen; ETS2 siirtyi vuoteen 2028; päästökaupan uudistus ehdotettu 17.7.2026.",
+    "en": "CBAM charges since 1 Jan 2026; ETS2 delayed to 2028; ETS revision proposed on 17 Jul 2026."
+   },
+   "next": {
+    "fi": "Ensimmäiset CBAM-ilmoitukset ja todistusten palautus",
+    "en": "First CBAM declarations and certificate surrender"
+   },
+   "next_date": "2027-09-30",
+   "files": [
+    "ets_revision",
+    "ets2_reserve"
+   ],
+   "any": {
+    "fi": [
+     "päästökaup",
+     "päästöoikeu",
+     "hiilitull",
+     "cbam",
+     "hiilen hin",
+     "^ets2"
+    ],
+    "sv": [
+     "utsläppshandel",
+     "utsläppsrätt",
+     "koldioxidpris",
+     "cbam"
+    ],
+    "en": [
+     "emissions trading",
+     "carbon price",
+     "carbon pricing",
+     "carbon border",
+     "cbam",
+     "ets",
+     "^ets2",
+     "carbon market"
+    ]
+   }
+  },
+  {
+   "id": "circular_economy",
+   "fi": "Kiertotalous",
+   "en": "Circular economy",
+   "status": {
+    "fi": "Kiertotaloussäädös valmistelussa; ympäristöomnibus Parlamentin ja neuvoston käsittelyssä.",
+    "en": "Circular Economy Act in preparation; environmental omnibus with Parliament and Council."
+   },
+   "next": {
+    "fi": "Kiertotaloussäädöksen ehdotus, suunniteltu",
+    "en": "Circular Economy Act proposal, planned"
+   },
+   "next_date": "2026-11-11",
+   "files": [
+    "circular_economy_act",
+    "environmental_omnibus"
+   ],
+   "any": {
+    "fi": [
+     "kiertotal",
+     "tuottajavastu",
+     "pakkausasetu",
+     "uusiomateriaal"
+    ],
+    "sv": [
+     "cirkulär ekonomi",
+     "producentansvar",
+     "kretsloppsekonomi"
+    ],
+    "en": [
+     "circular economy",
+     "producer responsibility",
+     "packaging regulation",
+     "secondary raw material"
+    ]
+   }
+  },
+  {
+   "id": "climate_targets",
+   "fi": "Ilmastotavoitteet",
+   "en": "Climate targets",
+   "status": {
+    "fi": "EU:n 2040-tavoite (90 % vähennys) hyväksytty 5.3.2026; 2030-luvun säädöspaketti valmistelussa.",
+    "en": "EU 2040 target (a 90% cut) adopted on 5 Mar 2026; post-2030 framework in preparation."
+   },
+   "next": {
+    "fi": "COP31 Antalyassa alkaa",
+    "en": "COP31 in Antalya begins"
+   },
+   "next_date": "2026-11-09",
+   "files": [
+    "post2030_framework"
+   ],
+   "any": {
+    "fi": [
+     "ilmastotavoit",
+     "ilmastolai",
+     "ilmastolak",
+     "hiilineutraalius",
+     "hiilinielu",
+     "cop31",
+     "ilmastokokou",
+     "päästövähennystavoit"
+    ],
+    "sv": [
+     "klimatmål",
+     "klimatlag",
+     "kolsänk",
+     "cop31",
+     "klimatmöte"
+    ],
+    "en": [
+     "climate target",
+     "2040 target",
+     "net zero",
+     "net-zero",
+     "cop31",
+     "climate law",
+     "carbon sink",
+     "climate summit"
+    ]
+   }
+  },
+  {
+   "id": "eudr",
+   "fi": "Metsäkatoasetus",
+   "en": "Deforestation rules",
+   "status": {
+    "fi": "Soveltaminen siirretty 30.12.2026; komission yksinkertaistusarvio tehty keväällä.",
+    "en": "Application moved to 30 Dec 2026; a Commission simplification review was due in spring."
+   },
+   "next": {
+    "fi": "Asetuksen soveltaminen alkaa, ellei siirry taas",
+    "en": "Application starts, unless moved again"
+   },
+   "next_date": "2026-12-30",
+   "files": [],
+   "any": {
+    "fi": [
+     "metsäkatoasetu",
+     "eudr",
+     "metsäkato"
+    ],
+    "sv": [
+     "avskogningsförordning",
+     "eudr",
+     "avskogning"
+    ],
+    "en": [
+     "eudr",
+     "deforestation regulation",
+     "deforestation law",
+     "deforestation-free"
+    ]
+   }
+  },
+  {
+   "id": "due_diligence",
+   "fi": "Yritysvastuu",
+   "en": "Due diligence",
+   "status": {
+    "fi": "Direktiivi kevennetty (yli 5 000 työntekijää ja 1,5 mrd € liikevaihto); kansallinen laki tekemättä.",
+    "en": "Directive narrowed (over 5,000 employees and €1.5bn turnover); national law still to be written."
+   },
+   "next": {
+    "fi": "Kansallinen lainsäädäntö oltava valmis",
+    "en": "Transposition deadline"
+   },
+   "next_date": "2028-07-26",
+   "files": [
+    "fi_due_diligence"
+   ],
+   "any": {
+    "fi": [
+     "csddd",
+     "yritysvastuulai",
+     "yritysvastuulak",
+     "yritysvastuudirektiiv",
+     "huolellisuusvelvoit"
+    ],
+    "sv": [
+     "csddd",
+     "tillbörlig aktsamhet",
+     "företagsansvarslag"
+    ],
+    "en": [
+     "csddd",
+     "due diligence directive",
+     "due diligence law",
+     "supply chain law",
+     "corporate sustainability due diligence"
+    ]
+   }
+  },
+  {
+   "id": "climate_general",
+   "context": true,
+   "fi": "Ilmasto ja ympäristö yleisesti",
+   "en": "Climate and environment, general",
+   "status": null,
+   "next": null,
+   "next_date": null,
+   "files": [],
+   "any": {
+    "fi": [
+     "ilmastonmuuto",
+     "ilmastotoim",
+     "ilmastopolitiik",
+     "ilmastokriis",
+     "ympäristöpolitiik",
+     "ympäristölup",
+     "ilmastopalvelu",
+     "ilmastolukem",
+     "1,5 asteen"
+    ],
+    "sv": [
+     "klimatkris",
+     "klimatförändring",
+     "klimatpolitik",
+     "miljötillstånd"
+    ],
+    "en": [
+     "climate change",
+     "climate crisis",
+     "climate policy",
+     "global warming",
+     "environmental permit"
+    ]
+   }
+  }
+ ]
+}

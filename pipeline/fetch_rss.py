@@ -109,22 +109,23 @@ class Robots:
         return True if rp is None else rp.can_fetch(USER_AGENT, url)
 
 
-def article_dir_for(dt: datetime):
-    return DATA_DIR / "articles" / dt.strftime("%Y/%m/%d")
+def article_dir_for(dt: datetime, collection: str = "articles"):
+    return DATA_DIR / collection / dt.strftime("%Y/%m/%d")
 
 
-def iter_article_files(since: datetime, until: datetime):
+def iter_article_files(since: datetime, until: datetime, collection: str = "articles"):
     day = since.date()
     while day <= until.date():
-        folder = DATA_DIR / "articles" / day.strftime("%Y/%m/%d")
+        folder = DATA_DIR / collection / day.strftime("%Y/%m/%d")
         if folder.exists():
             yield from sorted(folder.glob("*.jsonl"))
         day += timedelta(days=1)
 
 
-def load_articles(since: datetime, until: datetime) -> list[dict]:
+def load_articles(since: datetime, until: datetime, collection: str = "articles") -> list[dict]:
+    """Articles published between since and until. collection 'articles' = main outlets, 'lens' = lens feeds."""
     out = []
-    for path in iter_article_files(since - timedelta(days=1), until):
+    for path in iter_article_files(since - timedelta(days=1), until, collection):
         with open(path, encoding="utf-8") as fh:
             for line in fh:
                 line = line.strip()
@@ -143,10 +144,11 @@ def normalize_title(title: str) -> str:
     return " ".join(tokens(title))
 
 
-def run(now: datetime | None = None) -> dict:
+def run(now: datetime | None = None, config_name: str = "sources.json", collection: str = "articles",
+        status_name: str = "fetch.json") -> dict:
     now = now or now_utc()
-    config = load_config("sources.json")
-    recent = load_articles(now - timedelta(days=7), now)
+    config = load_config(config_name)
+    recent = load_articles(now - timedelta(days=7), now, collection)
     seen_ids = {a["id"] for a in recent}
     seen_titles = {(a["source"], normalize_title(a["title"])) for a in recent}
     robots = Robots()
@@ -220,14 +222,14 @@ def run(now: datetime | None = None) -> dict:
         status.append(st)
 
     if new_articles:
-        folder = article_dir_for(now)
+        folder = article_dir_for(now, collection)
         folder.mkdir(parents=True, exist_ok=True)
         with open(folder / f"{now:%H}.jsonl", "a", encoding="utf-8") as fh:
             for art in new_articles:
                 fh.write(json.dumps(art, ensure_ascii=False) + "\n")
 
     result = {"time": iso(now), "new_articles": len(new_articles), "sources": status}
-    write_json(DATA_DIR / "status" / "fetch.json", result, compact=False)  # latest run, for debugging
+    write_json(DATA_DIR / "status" / status_name, result, compact=False)  # latest run, for debugging
     return result
 
 

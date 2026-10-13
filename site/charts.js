@@ -63,7 +63,8 @@
     let max = 0;
     series.forEach((s) => s.values.forEach((v) => { if (v > max) max = v; }));
     (o.band || []).forEach((b) => { if (b && b[1] > max) max = b[1]; });
-    const yMax = niceMax(max * 1.06);
+    // counts (integer: true) get whole-number ticks: a top of at least 4, in steps of a whole number
+    const yMax = o.integer ? Math.max(4, Math.ceil(niceMax(max * 1.06) / 4) * 4) : niceMax(max * 1.06);
     const x = (i) => m.l + (n > 1 ? (i * iw) / (n - 1) : iw / 2);
     const y = (v) => m.t + (1 - v / yMax) * ih;
     const fmt = o.format || ((v) => v);
@@ -73,7 +74,7 @@
 
     // grid + y ticks: pick a step count that gives round tick values (15 % -> 5 steps of 3 %)
     const stepOk = (k, unit) => { const q = (yMax * 1000) / k; return Math.abs(q - Math.round(q)) < 1e-6 && Math.round(q) % unit === 0; };
-    const steps = [4, 5, 3, 6].find((k) => stepOk(k, 10)) || [4, 5, 3, 6].find((k) => stepOk(k, 5)) || 4;
+    const steps = o.integer ? 4 : [4, 5, 3, 6].find((k) => stepOk(k, 10)) || [4, 5, 3, 6].find((k) => stepOk(k, 5)) || 4;
     for (let k = 0; k <= steps; k++) {
       const v = (yMax * k) / steps, yy = y(v);
       el("line", { x1: m.l, x2: W - m.r, y1: yy, y2: yy, class: k === 0 ? "baseline" : "gridline" }, svg);

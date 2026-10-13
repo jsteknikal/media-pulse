@@ -1,0 +1,50 @@
+{
+ "_note": "Specialist sustainability outlets for the sustainability lens. Stored apart from the main outlets (data/lens/) so they do not change the main trend baselines. Same fields as config/sources.json. 'verified' = feed checked by hand. Add Finnish specialist feeds here when found; the lens counts mainstream coverage from the main outlets automatically.",
+ "sources": [
+  {
+   "id": "uusiouutiset",
+   "name": "Uusiouutiset",
+   "homepage": "https://www.uusiouutiset.fi",
+   "language": "fi",
+   "type": "specialist",
+   "verified": true,
+   "feeds": ["https://www.uusiouutiset.fi/feed/"]
+  },
+  {
+   "id": "carbon-brief",
+   "name": "Carbon Brief",
+   "homepage": "https://www.carbonbrief.org",
+   "language": "en",
+   "type": "specialist",
+   "verified": true,
+   "feeds": ["https://www.carbonbrief.org/feed/"]
+  },
+  {
+   "id": "climate-home",
+   "name": "Climate Home News",
+   "homepage": "https://www.climatechangenews.com",
+   "language": "en",
+   "type": "specialist",
+   "verified": true,
+   "feeds": ["https://www.climatechangenews.com/feed/"]
+  },
+  {
+   "id": "esg-today",
+   "name": "ESG Today",
+   "homepage": "https://www.esgtoday.com",
+   "language": "en",
+   "type": "specialist",
+   "verified": true,
+   "feeds": ["https://www.esgtoday.com/feed/"]
+  },
+  {
+   "id": "esg-news",
+   "name": "ESG News",
+   "homepage": "https://esgnews.com",
+   "language": "en",
+   "type": "specialist",
+   "verified": false,
+   "feeds": ["https://esgnews.com/feed/"]
+  }
+ ]
+}

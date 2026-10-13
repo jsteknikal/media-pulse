@@ -1,0 +1,275 @@
+{
+ "_note": "Rules in preparation, tracked by the sustainability lens. stage: 0 agenda, 1 preparation, 2 consultation, 3 proposal, 4 decision, 5 implementation. timing.kind: on_time | slipped | stalled | moving | unknown. 'oeil' = Legislative Observatory reference, e.g. 2026/0212(COD): the pipeline then reads the official stage and latest event automatically and flags changes. Everything else is hand-checked on the 'checked' date; update it when the official record moves.",
+ "checked": "2026-10-13",
+ "stages": {
+  "fi": [
+   "Agenda",
+   "Valmistelu",
+   "Lausunnot",
+   "Ehdotus",
+   "Päätös",
+   "Voimassa"
+  ],
+  "en": [
+   "Agenda",
+   "Preparation",
+   "Consultation",
+   "Proposal",
+   "Decision",
+   "In force"
+  ]
+ },
+ "files": [
+  {
+   "id": "circular_economy_act",
+   "issue": "circular_economy",
+   "where": "EU",
+   "fi": "Kiertotaloussäädös",
+   "en": "Circular Economy Act",
+   "stage": 1,
+   "next": {
+    "fi": "Komission ehdotus, suunniteltu",
+    "en": "Commission proposal, planned"
+   },
+   "next_date": "2026-11-11",
+   "timing": {
+    "kind": "slipped",
+    "fi": "Siirtyi Q3:lta",
+    "en": "Slipped from Q3"
+   },
+   "why": {
+    "fi": "Tuottajavastuun yhtenäistäminen, jätteiden sisämarkkinat, uusi SER-direktiivi",
+    "en": "Harmonised producer responsibility, a single market for waste, a revised WEEE Directive"
+   },
+   "oeil": null,
+   "links": [
+    {
+     "label": "EUWID",
+     "url": "https://www.euwid-recycling.com/news/markets/circular-economy-act-proposal-expected-on-11-november-061026/"
+    }
+   ]
+  },
+  {
+   "id": "post2030_framework",
+   "issue": "climate_targets",
+   "where": "EU",
+   "fi": "2030-luvun ilmasto- ja energiapaketti",
+   "en": "Post-2030 climate and energy framework",
+   "stage": 0,
+   "next": {
+    "fi": "Ehdotukset listattu Q3–Q4 2026",
+    "en": "Proposals listed for Q3–Q4 2026"
+   },
+   "next_date": null,
+   "timing": {
+    "kind": "unknown",
+    "fi": "Päivä tarkistettava",
+    "en": "Date to confirm"
+   },
+   "why": {
+    "fi": "Vie 2040-tavoitteen sektoreiden sääntöihin, myös fossiilitukien alasajo",
+    "en": "Turns the 2040 target into sector rules, including a fossil-subsidy phase-out"
+   },
+   "oeil": null,
+   "links": [
+    {
+     "label": "Linklaters",
+     "url": "https://sustainablefutures.linklaters.com/post/102lrh5/eu-sustainability-initiatives-in-the-commission-2026-work-programme"
+    }
+   ]
+  },
+  {
+   "id": "fi_due_diligence",
+   "issue": "due_diligence",
+   "where": "FI",
+   "fi": "Suomen yritysvastuulaki",
+   "en": "Finland: due diligence law",
+   "stage": 0,
+   "next": {
+    "fi": "Valmisteluhanke; täytäntöönpano viimeistään 26.7.2028",
+    "en": "Drafting project; transposition due 26 Jul 2028"
+   },
+   "next_date": "2028-07-26",
+   "timing": {
+    "kind": "unknown",
+    "fi": "Ei vielä alkanut",
+    "en": "Not started"
+   },
+   "why": {
+    "fi": "Keitä Suomen laki koskee ja meneekö se EU:n minimiä pidemmälle",
+    "en": "Who the Finnish law covers, and whether it goes beyond the EU minimum"
+   },
+   "oeil": null,
+   "links": [
+    {
+     "label": "Hankeikkuna",
+     "url": "https://hankeikkuna.fi"
+    }
+   ]
+  },
+  {
+   "id": "ets_revision",
+   "issue": "carbon_pricing",
+   "where": "EU",
+   "fi": "Päästökaupan uudistus 2030 jälkeen",
+   "en": "EU ETS revision, after 2030",
+   "stage": 3,
+   "next": {
+    "fi": "Parlamentin ja neuvoston kannat",
+    "en": "Parliament and Council positions"
+   },
+   "next_date": null,
+   "timing": {
+    "kind": "moving",
+    "fi": "Ehdotettu 17.7.2026",
+    "en": "Proposed 17 Jul 2026"
+   },
+   "why": {
+    "fi": "Hitaampi päästökaton lasku 2031 alkaen, noin 100 mrd € teollisuuden vähähiilisyyspankki",
+    "en": "Slower cap decline from 2031, an Industrial Decarbonisation Bank of about €100bn"
+   },
+   "oeil": "2026/0212(COD)",
+   "links": [
+    {
+     "label": "HSF Kramer",
+     "url": "https://www.hsfkramer.com/insights/2026-08/eu-ets-review-key-proposed-changes-to-the-eus-carbon-market"
+    }
+   ]
+  },
+  {
+   "id": "environmental_omnibus",
+   "issue": "circular_economy",
+   "where": "EU",
+   "fi": "Ympäristöomnibus",
+   "en": "Environmental omnibus",
+   "stage": 4,
+   "next": {
+    "fi": "Parlamentin kanta, sitten trilogi",
+    "en": "Parliament position, then trilogue"
+   },
+   "next_date": null,
+   "timing": {
+    "kind": "moving",
+    "fi": "Neuvoston kanta sovittu",
+    "en": "Council position agreed"
+   },
+   "why": {
+    "fi": "Kevyempi raportointi akuille ja teollisuuslaitoksille",
+    "en": "Lighter reporting for batteries and industrial sites"
+   },
+   "oeil": null,
+   "links": [
+    {
+     "label": "Council",
+     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/24/simplification-council-agrees-negotiating-stance-to-simplify-and-streamline-environmental-rules/"
+    }
+   ]
+  },
+  {
+   "id": "ets2_reserve",
+   "issue": "carbon_pricing",
+   "where": "EU",
+   "fi": "ETS2:n hintavakausvaranto",
+   "en": "ETS2 price-control reserve",
+   "stage": 4,
+   "next": {
+    "fi": "Muodollinen hyväksyntä",
+    "en": "Formal adoption"
+   },
+   "next_date": null,
+   "timing": {
+    "kind": "moving",
+    "fi": "Alustava sopu 11.6.2026",
+    "en": "Provisional deal 11 Jun 2026"
+   },
+   "why": {
+    "fi": "Kuinka korkealle polttoaineiden ja lämmityksen hiilihinta voi nousta 2028 alkaen",
+    "en": "How high fuel and heating carbon prices can climb from 2028"
+   },
+   "oeil": null,
+   "links": [
+    {
+     "label": "Council",
+     "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/11/ets2-market-stability-reserve-council-and-parliament-reach-provisional-agreement/"
+    }
+   ]
+  },
+  {
+   "id": "green_claims_directive",
+   "issue": "green_claims",
+   "where": "EU",
+   "fi": "Green Claims -direktiivi",
+   "en": "Green Claims Directive",
+   "stage": 4,
+   "stalled": true,
+   "next": {
+    "fi": "Peruminen tai uudelleenkäynnistys",
+    "en": "Withdrawal or restart"
+   },
+   "next_date": null,
+   "timing": {
+    "kind": "stalled",
+    "fi": "Jumissa kesäkuusta 2025",
+    "en": "Stalled since Jun 2025"
+   },
+   "why": {
+    "fi": "Väitteiden ennakkotarkastus palaisi, jos käsittely jatkuu",
+    "en": "Pre-approval of claims would return if it restarts"
+   },
+   "oeil": "2023/0085(COD)",
+   "links": [
+    {
+     "label": "Green Calculus",
+     "url": "https://greencalculus.com/standards/eu-green-claims-directive/"
+    }
+   ]
+  },
+  {
+   "id": "fi_csrd",
+   "issue": "reporting",
+   "where": "FI",
+   "fi": "Suomen kestävyysraportoinnin kevennys",
+   "en": "Finland: CSRD scope cut",
+   "stage": 5,
+   "next": {
+    "fi": "Kevennetyt ESRS-standardit; valvontakäytäntö",
+    "en": "Simplified ESRS; supervision practice"
+   },
+   "next_date": null,
+   "timing": {
+    "kind": "on_time",
+    "fi": "Voimassa 30.6.2026",
+    "en": "In force 30 Jun 2026"
+   },
+   "why": {
+    "fi": "Raportoivia yrityksiä noin 1 300:sta reiluun sataan",
+    "en": "Reporting companies fall from about 1,300 to just over 100"
+   },
+   "oeil": null,
+   "links": [
+    {
+     "label": "Hannes Snellman",
+     "url": "https://www.hannessnellman.com/news-and-views/blog/legal-alert-kestavyysraportoinnin-muutokset-voimaan-suomessa-30-6-2026/"
+    }
+   ]
+  }
+ ],
+ "stages_short": {
+  "fi": [
+   "Agenda",
+   "Valmistelu",
+   "Lausunnot",
+   "Ehdotus",
+   "Päätös",
+   "Voimassa"
+  ],
+  "en": [
+   "Agenda",
+   "Prep.",
+   "Consult.",
+   "Proposal",
+   "Decision",
+   "In force"
+  ]
+ }
+}

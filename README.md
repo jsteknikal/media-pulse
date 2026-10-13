@@ -40,6 +40,17 @@ GitHub Actions (hourly)
 - **Names** are capitalised words with Finnish case endings stripped (Kiinan, Kiinassa → Kiina). It's rough: expect some noise.
 - **Regions** come from [GDELT](https://www.gdeltproject.org/), which monitors online news worldwide. Shares there are a theme's share of all tracked themes in that region, so regions compare like-for-like with each other (Finland is included via GDELT too).
 
+## Sustainability lens
+
+The Sustainability page (`#/sustainability`) follows EU and Finnish sustainability rules from preparation to media coverage. Everything it shows is edited in `pipeline/config/lens/`:
+
+- `issues.json`: the issues, where each stands, the next step and its date, and the word lists that count coverage. Update `status`, `next` and `checked` when a milestone passes.
+- `pipeline.json`: rules in preparation and their stage (0 agenda … 5 in force), next step and timing. A rule with an `oeil` reference (for example `2026/0212(COD)`) is read from the European Parliament's Legislative Observatory every six hours; the page shows the official stage and latest event and marks changes.
+- `calendar.json`: known dates. Past dates drop off automatically.
+- `sources.json`: specialist outlets. They are stored in `data/lens/`, apart from the main outlets, so they do not change the Media Pulse trend baselines. Mainstream coverage is counted from the main outlets.
+
+A failure anywhere in the lens is logged and skipped; it never stops the main update.
+
 ## Design and accessibility
 
 The dashboard uses the **Miltton design system**: its tokens (colour, fluid type and spacing, square corners, focus ring), section themes (dark header, neon hero) and component styles (Toggle, Link button, FieldInput, Select), all in `site/styles.css`.

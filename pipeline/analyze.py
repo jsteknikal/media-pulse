@@ -446,9 +446,16 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         "regions": [{"id": r["id"], "fi": r["fi"], "en": r["en"]} for r in regions_cfg],
         "has_regions": bool(regions_out), "baseline_ready": enough_baseline, "trend_start": trend_start,
         "gdelt": (gdelt or {}).get("status"),
-        "fetch": {k: v for k, v in (fetch_status or {}).items() if k != "sources"},
+        "fetch": {k: v for k, v in (fetch_status or {}).items() if k not in ("sources", "lens")},
     })
-    return {"articles": len(arts), "stories": len(stories), "entities": len(ent_rows), "today": str(today)}
+    lens_out = None
+    try:  # the sustainability lens must never break the main update
+        import lens
+        lens_out = lens.build(now, arts, dates, (fetch_status or {}).get("lens"))
+    except Exception as exc:
+        print(f"Lens build failed: {type(exc).__name__}: {exc}")
+    return {"articles": len(arts), "stories": len(stories), "entities": len(ent_rows), "today": str(today),
+            "lens": lens_out}
 
 
 def build_climate(now, arts, dates, day_total, base_idx, enough_baseline, trend_start, signals_cfg, themes_cfg,
