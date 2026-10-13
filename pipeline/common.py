@@ -205,6 +205,66 @@ class ThemeMatcher:
         return [tid for _, tid in scored[:max_themes]]
 
 
+class SignalMatcher:
+    """Change-climate signals (config/signals.json): 'any' list of stems, or 'all' = one hit per group.
+    A stem with a space is matched as a phrase in the lower-cased text."""
+
+    def __init__(self, signals: list[dict]):
+        self.signals = []
+        for sg in signals:
+            if "any" in sg:
+                groups = [{lang: self._compile(st) for lang, st in sg["any"].items()}]
+            else:
+                groups = [{lang: self._compile(st) for lang, st in g.items()} for g in sg.get("all", [])]
+            self.signals.append((sg["id"], groups))
+
+    @staticmethod
+    def _compile(stems):
+        out = []
+        for raw in stems:
+            raw = raw.lower()
+            if " " in raw:
+                out.append(("phrase", raw))
+            elif raw.startswith("^"):
+                out.append(("prefix", raw[1:]))
+            elif len(raw) <= 3:
+                out.append(("exact", raw))
+            elif len(raw) == 4:
+                out.append(("prefix", raw))
+            else:
+                out.append(("sub", raw))
+        return out
+
+    @staticmethod
+    def _hit(text, toks, rules):
+        for kind, st in rules:
+            if kind == "phrase":
+                if st in text:
+                    return True
+                continue
+            for tok in toks:
+                if (kind == "exact" and tok == st) or (kind == "prefix" and tok.startswith(st)) or (
+                    kind == "sub" and st in tok
+                ):
+                    return True
+        return False
+
+    def match(self, title: str, lede: str, lang: str) -> list[str]:
+        text = f"{title} {lede}".lower()
+        toks = set(tokens(text))
+        out = []
+        for sid, groups in self.signals:
+            ok = True
+            for g in groups:
+                rules = g.get(lang) or [r for v in g.values() for r in v]
+                if not self._hit(text, toks, rules):
+                    ok = False
+                    break
+            if ok and groups:
+                out.append(sid)
+        return out
+
+
 # ---------------------------------------------------------------- entities
 
 CAP_RE = re.compile(r"(?<![\w-])([A-ZÅÄÖ][a-zåäöéü]+(?:-[A-ZÅÄÖa-zåäö][a-zåäöéü]+)*|[A-ZÅÄÖ]{2,6})(?::[a-zåäö]+)?(?![\w-])")

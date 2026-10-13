@@ -1,5 +1,5 @@
 {
- "_note": "Stem rules: stems of 3 letters or fewer must match a whole word ('eu', 'sdp'); 4-letter stems match the start of a word; 5+ letter stems match anywhere in a word (catches Finnish compounds). Prefix a stem with ^ to force start-of-word matching. gdelt_themes are GDELT GKG theme codes; gdelt_query, when set, is used instead (plain GDELT query syntax). Codes marked uncertain should be checked after the first GDELT run (see the Sources page).",
+ "_note": "Stem rules: stems of 3 letters or fewer must match a whole word ('eu', 'sdp'); 4-letter stems match the start of a word; 5+ letter stems match anywhere in a word (catches Finnish compounds). Prefix a stem with ^ to force start-of-word matching. gdelt_themes are GDELT GKG theme codes; gdelt_query, when set, is used instead (plain GDELT query syntax). Codes marked uncertain should be checked after the first GDELT run (see the Sources page). Themes with \"window\": false (events rather than debates) never appear as opportunity windows.",
  "themes": [
   {
    "id": "politics",
@@ -631,7 +631,8 @@
     ]
    },
    "gdelt_query": "(film OR concert OR festival OR museum OR album OR theatre)",
-   "gdelt_themes_uncertain": true
+   "gdelt_themes_uncertain": true,
+   "window": false
   },
   {
    "id": "sport",
@@ -697,7 +698,8 @@
     ]
    },
    "gdelt_query": "(football OR hockey OR olympic OR tennis OR \"formula 1\" OR championship)",
-   "gdelt_themes_uncertain": true
+   "gdelt_themes_uncertain": true,
+   "window": false
   },
   {
    "id": "crime",
@@ -761,7 +763,8 @@
     "KILL",
     "CRIME_ILLEGAL_DRUGS",
     "SOC_GENERALCRIME"
-   ]
+   ],
+   "window": false
   },
   {
    "id": "housing",

@@ -1,0 +1,204 @@
+{
+ "_note": "Change-climate signals for the front page. A headline (title + description) matches a signal when it hits any stem in 'any', or one stem from EVERY group in 'all'. Stem rules are the same as in themes.json: 3 letters or fewer = whole word, 4 = start of a word, 5+ = anywhere in a word, ^ = start of a word. Edit freely; history is re-counted on the next run.",
+ "signals": [
+  {
+   "id": "change_negotiations",
+   "fi": "Muutosneuvottelut ja irtisanomiset",
+   "en": "Change negotiations and layoffs",
+   "any": {
+    "fi": [
+     "muutosneuvottel",
+     "yt-neuvottel",
+     "irtisanomi",
+     "irtisanoo",
+     "irtisanota",
+     "irtisanott",
+     "lomautu",
+     "lomauttaa",
+     "lomautta",
+     "^lomaut",
+     "vähentää väke",
+     "henkilöstövähenny",
+     "tehtaan sulkemi",
+     "lakkauttaa toiminna"
+    ],
+    "sv": [
+     "omställningsförhandling",
+     "samarbetsförhandling",
+     "uppsägning",
+     "permitter",
+     "^varsel"
+    ],
+    "en": [
+     "layoff",
+     "laid off",
+     "job cuts",
+     "redundanc",
+     "change negotiations"
+    ]
+   },
+   "fi_about": "muutosneuvotteluista ja irtisanomisista",
+   "en_about": "change negotiations and layoffs"
+  },
+  {
+   "id": "strikes",
+   "fi": "Lakot ja työtaistelut",
+   "en": "Strikes and labour disputes",
+   "any": {
+    "fi": [
+     "^lakko",
+     "lakkoi",
+     "lakkoon",
+     "lakosta",
+     "lakon",
+     "työtaistel",
+     "ulosmarssi",
+     "lakkovaroitu",
+     "työsulku"
+    ],
+    "sv": [
+     "strejk",
+     "arbetskonflikt",
+     "lockout"
+    ],
+    "en": [
+     "walkout",
+     "labour dispute",
+     "labor dispute",
+     "on strike",
+     "strike action"
+    ]
+   },
+   "fi_about": "lakoista ja työtaisteluista",
+   "en_about": "strikes and labour disputes"
+  },
+  {
+   "id": "ai_work",
+   "fi": "Tekoäly ja työ",
+   "en": "AI and work",
+   "all": [
+    {
+     "fi": [
+      "tekoäly",
+      "ai",
+      "chatgpt",
+      "generatiivi",
+      "kielimalli",
+      "automaatio"
+     ],
+     "sv": [
+      "ai",
+      "artificiell intelligens",
+      "automatisering"
+     ],
+     "en": [
+      "ai",
+      "artificial intelligence",
+      "chatgpt",
+      "automation"
+     ]
+    },
+    {
+     "fi": [
+      "^työ",
+      "työpaik",
+      "työntekij",
+      "työelämä",
+      "työllis",
+      "ammat",
+      "osaami",
+      "työnantaj",
+      "^rekrytoi",
+      "palkka"
+     ],
+     "sv": [
+      "jobb",
+      "arbet",
+      "anställ"
+     ],
+     "en": [
+      "^job",
+      "work",
+      "employ",
+      "staff",
+      "hiring"
+     ]
+    }
+   ],
+   "fi_about": "tekoälystä ja työstä",
+   "en_about": "AI and work"
+  },
+  {
+   "id": "cost_of_living",
+   "fi": "Hinnat ja toimeentulo",
+   "en": "Cost of living",
+   "any": {
+    "fi": [
+     "inflaati",
+     "elinkustann",
+     "ostovoima",
+     "ruoan hint",
+     "ruoan hinn",
+     "ruokakori",
+     "sähkön hint",
+     "sähkön hinn",
+     "euribor",
+     "asuntolain",
+     "toimeentul",
+     "hintojen nousu",
+     "hinnannousu",
+     "hinnat nousevat",
+     "elintarvikkeiden hin"
+    ],
+    "sv": [
+     "inflation",
+     "matpris",
+     "elpris",
+     "levnadskostnad",
+     "räntan"
+    ],
+    "en": [
+     "inflation",
+     "cost of living",
+     "food prices",
+     "energy prices",
+     "mortgage rate"
+    ]
+   },
+   "fi_about": "hinnoista ja toimeentulosta",
+   "en_about": "the cost of living"
+  },
+  {
+   "id": "wellbeing",
+   "fi": "Työhyvinvointi ja jaksaminen",
+   "en": "Wellbeing and burnout",
+   "any": {
+    "fi": [
+     "työhyvinvoin",
+     "työuupum",
+     "uupumu",
+     "uupunei",
+     "jaksami",
+     "sairauspoissa",
+     "työstressi",
+     "työkuorm",
+     "työkyvyttö"
+    ],
+    "sv": [
+     "utbrändhet",
+     "sjukfrånvaro",
+     "arbetsmiljö",
+     "psykisk ohälsa"
+    ],
+    "en": [
+     "burnout",
+     "sick leave",
+     "workplace wellbeing",
+     "workplace stress"
+    ]
+   },
+   "fi_about": "työhyvinvoinnista ja jaksamisesta",
+   "en_about": "wellbeing and burnout"
+  }
+ ]
+}

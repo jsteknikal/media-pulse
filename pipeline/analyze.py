@@ -11,7 +11,7 @@ from collections import Counter, defaultdict
 from datetime import datetime, timedelta
 
 from common import (
-    SITE_DATA_DIR, ThemeMatcher, capitalized_words, entity_key, iso, load_config, local_date, now_utc,
+    SITE_DATA_DIR, SignalMatcher, ThemeMatcher, capitalized_words, entity_key, iso, load_config, local_date, now_utc,
     parse_iso, stem, tokens, write_json,
 )
 from fetch_rss import load_articles
@@ -25,6 +25,8 @@ STORY_WINDOW_DAYS = 10
 STORY_ACTIVE_HOURS = 36     # an article can join a story updated within this many hours
 STORY_SIMILARITY = 0.35     # cosine threshold for joining a story (TF-IDF on title + lede)
 HEADLINE_DAYS = 3
+SPEED_OUTLETS = 5           # "how fast a story forms" = hours until this many outlets carried it
+WINDOW_MIN_OUTLETS = 5      # an opportunity window needs this many outlets in 48 h
 LABEL_PREFIX_RE = re.compile(r"^(?:video|analyysi|kolumni|live|katso|tutkimus|näin|gallup|kuvat)\s*:\s*", re.I)
 
 
@@ -74,6 +76,8 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
     theme_ids = [t["id"] for t in themes_cfg]
     src_by_id = {s["id"]: s for s in sources_cfg}
     matcher = ThemeMatcher(themes_cfg)
+    signals_cfg = (load_config("signals.json") or {}).get("signals", [])
+    sig_matcher = SignalMatcher(signals_cfg)
 
     arts = load_articles(now - timedelta(days=HISTORY_DAYS), now)
     arts.sort(key=lambda a: a["published"])
@@ -88,6 +92,7 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         a["_dt"] = parse_iso(a["published"])
         a["_day"] = didx.get(local_date(a["_dt"]))
         a["_themes"] = matcher.classify(a["title"], a.get("lede", ""), a.get("cats", []), a.get("lang", "fi"))
+        a["_sig"] = sig_matcher.match(a["title"], a.get("lede", ""), a.get("lang", "fi"))
         caps = []
         for text in (a["title"], a.get("lede", "")):
             for surface, starts in capitalized_words(text):
@@ -317,6 +322,13 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         ec = Counter(k for m in members for k in m["_ents"] & keep)
         n24 = sum(1 for m in members if win.within(m["_dt"], 24))
         first = min(m["_dt"] for m in members)
+        reach_h = None
+        seen_src = set()
+        for m in sorted(members, key=lambda m: m["_dt"]):
+            seen_src.add(m["source"])
+            if len(seen_src) == SPEED_OUTLETS:
+                reach_h = round((m["_dt"] - first).total_seconds() / 3600, 1)
+                break
         heat = (n24 + 0.05 * len(members)) * math.log1p(len(srcs)) / (1 + (now - c["last"]).total_seconds() / 86400)
         stories.append({
             "id": "s" + members[0]["id"][:10],
@@ -325,7 +337,7 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
             "n": len(members), "n24": n24, "sources": sorted(srcs), "themes": themes,
             "entities": [display_name(k) for k, _ in ec.most_common(5)],
             "first_source": min(members, key=lambda m: m["_dt"])["source"],
-            "heat": round(heat, 3),
+            "heat": round(heat, 3), "reach_h": reach_h,
             "articles": [
                 {"t": m["title"], "u": m["url"], "s": m["source"], "p": m["published"]}
                 for m in sorted(members, key=lambda m: m["_dt"])[:40]
@@ -390,6 +402,9 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         "top_entities": ent_rows[:15],
     })
     write_json(SITE_DATA_DIR / "stories.json", {"updated": iso(now), "stories": stories})
+    write_json(SITE_DATA_DIR / "climate.json", build_climate(
+        now, arts, dates, day_total, base_idx, enough_baseline, trend_start, signals_cfg, themes_cfg,
+        theme_stats, stories, win))
     write_json(SITE_DATA_DIR / "entities.json", {"updated": iso(now), "entities": ent_rows[:200]})
     cutoff_h = now - timedelta(days=HEADLINE_DAYS)
     write_json(SITE_DATA_DIR / "headlines.json", {
@@ -434,6 +449,75 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         "fetch": {k: v for k, v in (fetch_status or {}).items() if k != "sources"},
     })
     return {"articles": len(arts), "stories": len(stories), "entities": len(ent_rows), "today": str(today)}
+
+
+def build_climate(now, arts, dates, day_total, base_idx, enough_baseline, trend_start, signals_cfg, themes_cfg,
+                  theme_stats, stories, win) -> dict:
+    """Data for the front page: change-climate signals, opportunity windows, shifts, story speed."""
+    n_days = len(dates)
+    last7 = set(range(n_days - 7, n_days))
+    prev7 = set(range(n_days - 14, n_days - 7))
+    total7 = sum(day_total[i] for i in last7) or 1
+    signals = []
+    for sg in signals_cfg:
+        sid = sg["id"]
+        daily = [0] * n_days
+        heads = []
+        for a in arts:
+            if sid in a["_sig"] and a["_day"] is not None:
+                daily[a["_day"]] += 1
+        for a in reversed(arts):
+            if sid in a["_sig"] and a["_day"] in last7 and len(heads) < 8:
+                heads.append({"t": a["title"], "u": a["url"], "s": a["source"], "p": a["published"]})
+        n7 = sum(daily[i] for i in last7)
+        p7 = sum(daily[i] for i in prev7)
+        normal = delta = None
+        if enough_baseline:
+            shares = [daily[i] / day_total[i] for i in base_idx if day_total[i]]
+            m = sum(shares) / len(shares) if shares else 0
+            normal = round(m * total7, 1)
+            delta = round((n7 / total7) / m - 1, 3) if m > 0 else None
+        signals.append({"id": sid, "fi": sg["fi"], "en": sg["en"], "fi_about": sg.get("fi_about", sg["fi"]),
+                        "en_about": sg.get("en_about", sg["en"]), "n7": n7, "prev7": p7,
+                        "normal7": normal, "delta": delta, "daily": daily[-14:], "headlines": heads})
+
+    window_ok = {t["id"] for t in themes_cfg if t.get("window", True)}
+    recent24 = [a for a in arts if win.within(a["_dt"], 24)]
+    tot24 = max(len(recent24), 1)
+    zones = {"open": [], "peaking": [], "fading": []}
+    for t, st in theme_stats.items():
+        if t not in window_ok or not enough_baseline:
+            continue
+        row = {"id": t, **{k: st[k] for k in ("state", "score", "share_now", "baseline", "delta", "n48", "sources48")}}
+        if st["state"] in ("emerging", "rising"):
+            share24 = sum(1 for a in recent24 if t in a["_themes"]) / tot24
+            if st["sources48"] >= WINDOW_MIN_OUTLETS and st["baseline"] and share24 > st["baseline"]:
+                zones["open"].append(row)
+        elif st["state"] == "peaking":
+            zones["peaking"].append(row)
+        elif st["state"] == "fading":
+            zones["fading"].append(row)
+    for z in zones.values():
+        z.sort(key=lambda r: -abs(r["score"]))
+    shifts = sorted(
+        [{"id": t, "delta": st["delta"], "share_now": st["share_now"], "baseline": st["baseline"]}
+         for t, st in theme_stats.items() if st["delta"] is not None and st["baseline"] and st["baseline"] >= 0.01],
+        key=lambda r: -r["delta"])
+
+    cutoff7 = now - timedelta(days=7)
+    fast = [s for s in stories if s.get("reach_h") is not None and parse_iso(s["first_seen"]) > cutoff7]
+    speed = None
+    if fast:
+        hrs = sorted(s["reach_h"] for s in fast)
+        mid = len(hrs) // 2
+        median = hrs[mid] if len(hrs) % 2 else (hrs[mid - 1] + hrs[mid]) / 2
+        quickest = min(fast, key=lambda s: s["reach_h"])
+        speed = {"outlets": SPEED_OUTLETS, "median_h": round(median, 1), "stories": len(fast),
+                 "fastest": {k: quickest[k] for k in ("id", "label", "first_source", "first_seen", "reach_h")}
+                 | {"outlets_total": len(quickest["sources"])}}
+    return {"updated": iso(now), "baseline_ready": enough_baseline, "trend_start": trend_start,
+            "signals": signals, "windows": zones, "shifts": shifts, "speed": speed,
+            "articles7": sum(day_total[i] for i in last7)}
 
 
 def build_regions(gdelt: dict, regions_cfg, theme_ids, now: datetime) -> dict | None:

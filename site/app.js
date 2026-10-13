@@ -8,7 +8,7 @@
   /* ------------------------------------------------------------ i18n */
   const T = {
     fi: {
-      nav: { pulse: "Pulssi", stories: "Tarinat", names: "Nimet", regions: "Alueet", headlines: "Otsikot", sources: "Lähteet" },
+      nav: { front: "Yleiskuva", pulse: "Teemat", stories: "Tarinat", names: "Nimet", regions: "Alueet", headlines: "Otsikot", sources: "Lähteet" },
       loading: "Ladataan…",
       noData: "Dataa ei vielä ole. Ensimmäinen päivitys täyttää näkymän – käynnistä se GitHubissa tai odota tasatuntia.",
       loadError: "Datan lataus epäonnistui",
@@ -54,12 +54,44 @@
       unverified: "Syötteen osoite tarkistamatta", discovered: "Löytyi syöte:", gdeltTitle: "GDELT-aluedata",
       gdeltStatus: (ok, q, when) => `${ok}/${q} hakua onnistui, viimeksi ${when}.`, gdeltNever: "GDELT-hakua ei ole vielä tehty.",
       gdeltFailed: "Epäonnistuneet haut",
-      footer: "Data: suomalaisten medioiden julkiset RSS-syötteet ja GDELT Project. Otsikot linkittävät alkuperäiseen julkaisuun. Päivittyy tunneittain.",
+      footer: "Data: suomalaisten medioiden julkiset RSS-syötteet. Vain otsikot ja linkit alkuperäiseen julkaisuun. Päivittyy automaattisesti päivän mittaan.",
       ago: (h) => (h < 1 ? "alle tunti sitten" : h < 24 ? `${Math.round(h)} h sitten` : `${Math.round(h / 24)} pv sitten`),
       back: "Takaisin", openArticle: "Avaa juttu",
+      front: {
+        heroOpen: (th) => `${th} nousee: ikkuna vaikuttaa keskusteluun on nyt auki.`,
+        heroOpenSub: (now, base) => `${now} uutisista viimeiset 48 tuntia, kun normaali on ${base}.`,
+        heroPeak: (th) => `Ei avautuvia ikkunoita juuri nyt: ${th} hallitsee uutisia.`,
+        heroNone: "Ei avautuvia ikkunoita tällä viikolla.",
+        heroNoneSub: "Uutisaiheet ovat tavanomaisella tasollaan. Hiljainen viikko on hyvä hetki viestiä.",
+        alsoPeak: (th) => `${th} on huipussaan: siihen ehtisi enää reagoida.`,
+        heroSignal: (n, about) => `Viime seitsemän päivän aikana suomalainen media julkaisi ${n} otsikkoa ${about}.`,
+        heroSignalNone: "Muutosilmasto: mistä suomalainen media puhuu nyt ja mitä se tarkoittaa muutokselle.",
+        preTrend: (d) => `Ikkunat ja muutokset normaaliin näkyvät ${d} alkaen, kun vertailudataa on kertynyt viikolta. Siihen asti sivu näyttää, mistä puhutaan nyt.`,
+        cycleTitle: "Missä vaiheessa kukin aihe on",
+        cycleNote: "Jokainen aihe nousee, huipentuu ja hiipuu. Mitä aiemmin aiheeseen tarttuu, sitä enemmän voi vaikuttaa siihen, miten siitä puhutaan.",
+        zoneOpen: "Ikkuna auki", zoneOpenNote: "Kehys ei ole vielä lukittunut: voit vaikuttaa siihen.",
+        zonePeak: "Reagoit", zonePeakNote: "Keskustelu on jo käynnissä, kehys on asettunut.",
+        zoneFade: "Huomio siirtynyt", zoneFadeNote: "Hiljenevä aihe: rauhallinen hetki viestiä.",
+        zoneEmpty: "Ei aiheita nyt", zoneFrom: (d) => `Näkyy ${d} alkaen`,
+        climateTitle: "Muutosilmasto",
+        climateNote: "Uutiset, joiden läpi ihmiset lukevat muutosta. Otsikoiden määrä viimeisen seitsemän päivän aikana.",
+        climateLead: (label, n, x) => `${label}: ${n} otsikkoa tällä viikolla, ${x} normaalia enemmän. Muutoksia luetaan nyt tätä taustaa vasten.`,
+        headlines7: "otsikkoa 7 pv", vsNormal: "normaaliin", normalFromShort: (d) => `normaali ${d} alkaen`,
+        showHeadlines: "Näytä otsikot", noHeadlines: "Ei otsikoita tällä viikolla.",
+        shiftTitle: "Huomio on nollasummapeliä",
+        shiftNote: "Kun yksi aihe kasvaa, muut jäävät sen alle. Älä julkaise muutosta uutismyrskyn keskelle.",
+        shiftLead: (up, d1, down, d2) => `${up}: ${d1} normaalia enemmän. ${down}: ${d2} vähemmän.`,
+        speedTitle: "Kuinka nopeasti kertomus muodostuu",
+        speedLead: (k, h) => `Viikon suurimmat uutiset ehtivät ${k} mediaan tyypillisesti ${h}.`,
+        speedFast: (label, src, k, h) => `Nopein: ”${label}”. Ensimmäisenä ${src}, ${k} mediassa ${h}.`,
+        speedNote: "Sen ajan organisaatiolla on, ennen kuin muut asettavat kehyksen.",
+        speedNone: "Tällä viikolla mikään uutinen ei ole vielä levinnyt viiteen mediaan.",
+        within: (h) => (h < 1 ? `${Math.max(1, Math.round(h * 60))} minuutissa` : `${String(Math.round(h * 10) / 10).replace(".", ",")} tunnissa`),
+        seeThemes: "Kaikki teemat", seeStory: "Avaa tarina",
+      },
     },
     en: {
-      nav: { pulse: "Pulse", stories: "Stories", names: "Names", regions: "Regions", headlines: "Headlines", sources: "Sources" },
+      nav: { front: "Overview", pulse: "Themes", stories: "Stories", names: "Names", regions: "Regions", headlines: "Headlines", sources: "Sources" },
       loading: "Loading…",
       noData: "No data yet. The first update fills this page – start it on GitHub or wait for the top of the hour.",
       loadError: "Could not load data",
@@ -105,9 +137,41 @@
       unverified: "Feed URL not yet verified", discovered: "Found feed:", gdeltTitle: "GDELT regional data",
       gdeltStatus: (ok, q, when) => `${ok}/${q} queries succeeded, last run ${when}.`, gdeltNever: "No GDELT pull yet.",
       gdeltFailed: "Failed queries",
-      footer: "Data: public RSS feeds of Finnish outlets and the GDELT Project. Headlines link to the original publisher. Updated hourly.",
+      footer: "Data: public RSS feeds of Finnish outlets. Headlines only, linking to the original publisher. Updates automatically through the day.",
       ago: (h) => (h < 1 ? "under an hour ago" : h < 24 ? `${Math.round(h)} h ago` : `${Math.round(h / 24)} d ago`),
       back: "Back", openArticle: "Open article",
+      front: {
+        heroOpen: (th) => `${th} is rising: the window to shape that conversation is open now.`,
+        heroOpenSub: (now, base) => `${now} of news in the last 48 hours, against ${base} normally.`,
+        heroPeak: (th) => `No windows opening right now: ${th} dominates the news.`,
+        heroNone: "No windows are opening this week.",
+        heroNoneSub: "News themes are at their usual levels. A quiet week is a good moment to communicate.",
+        alsoPeak: (th) => `${th} is peaking: you would be reacting, not shaping.`,
+        heroSignal: (n, about) => `In the past seven days, Finnish media ran ${n} headlines on ${about}.`,
+        heroSignalNone: "The change climate: what Finnish media is discussing now, and what it means for change.",
+        preTrend: (d) => `Windows and changes against normal appear from ${d}, once there is a week of data to compare with. Until then, this page shows what is being discussed now.`,
+        cycleTitle: "Where each issue is on its cycle",
+        cycleNote: "Every issue rises, peaks and fades. The earlier you engage, the more you can shape how it is framed.",
+        zoneOpen: "Window open", zoneOpenNote: "The framing isn't set yet: you can still shape it.",
+        zonePeak: "You'd be reacting", zonePeakNote: "The conversation is under way and the framing is set.",
+        zoneFade: "Attention has moved on", zoneFadeNote: "A quieting issue: a calm moment to communicate.",
+        zoneEmpty: "No issues now", zoneFrom: (d) => `Shown from ${d}`,
+        climateTitle: "The change climate",
+        climateNote: "The news people read change through. Headlines in the past seven days.",
+        climateLead: (label, n, x) => `${label}: ${n} headlines this week, ${x} above normal. Expect change to be read through that lens.`,
+        headlines7: "headlines, 7 days", vsNormal: "vs normal", normalFromShort: (d) => `normal from ${d}`,
+        showHeadlines: "Show headlines", noHeadlines: "No headlines this week.",
+        shiftTitle: "Attention is zero-sum",
+        shiftNote: "When one issue surges, others are pushed out. Don't announce change into a news storm.",
+        shiftLead: (up, d1, down, d2) => `${up}: ${d1} above normal. ${down}: ${d2} below.`,
+        speedTitle: "How fast narratives form",
+        speedLead: (k, h) => `This week's biggest stories typically reached ${k} outlets ${h}.`,
+        speedFast: (label, src, k, h) => `The fastest: “${label}”. ${src} first, ${k} outlets ${h}.`,
+        speedNote: "That is the time an organisation has before others set the framing.",
+        speedNone: "No story has reached five outlets yet this week.",
+        within: (h) => (h < 1 ? `within ${Math.max(1, Math.round(h * 60))} minutes` : `within ${Math.round(h * 10) / 10} hours`),
+        seeThemes: "All themes", seeStory: "Open story",
+      },
     },
   };
   let lang = (() => {
@@ -221,7 +285,7 @@
       ${sparkline(e.spark, 96, 24)}<span>${key === "n48" ? stateBadge(e.state) : ""}</span></li>`).join("");
 
     app.innerHTML = `
-      <div class="hero theme-neon"><section class="lede-block wide">
+      <div><section class="lede-block wide">
         <h1 class="statement">${esc(statement)}</h1>
         ${extra.length ? `<p class="sub">${esc(extra.join(" "))}</p>` : ""}
         <div class="meta-line"><span>${esc(t().updated)} <strong>${esc(fmtTime(P.updated))}</strong></span>
@@ -254,13 +318,153 @@
       </div>`;
   }
 
+
+  /* ------------------------------------------------------------ front page: the change climate */
+  function cycleSvg(zones, ready) {
+    const W = 760, H = 210, base = 170, x0 = 20, x1 = 740;
+    const curve = (x) => base - 130 * Math.exp(-Math.pow((x - 400) / 130, 2));
+    let d = "";
+    for (let x = x0; x <= x1; x += 6) d += `${x === x0 ? "M" : "L"}${x},${curve(x).toFixed(1)}`;
+    const zoneX = { open: [150, 345], peaking: [345, 455], fading: [455, 700] };
+    const dotX = { open: [250, 340], peaking: [370, 430], fading: [470, 590] };  // dots sit on the slope, not the foot
+    const dots = (key, color) => {
+      const items = (zones[key] || []).slice(0, 4);
+      const [a, b] = dotX[key];
+      return items.map((_, i) => {
+        const x = items.length === 1 ? (a + b) / 2 : a + ((b - a) * (i + 0.5)) / items.length;
+        return `<circle cx="${x}" cy="${curve(x)}" r="7" fill="${color}" stroke="var(--base-bg)" stroke-width="2"/>`;
+      }).join("");
+    };
+    const band = (key, fill) => `<rect x="${zoneX[key][0]}" y="20" width="${zoneX[key][1] - zoneX[key][0]}" height="${base - 20}" fill="${fill}"/>`;
+    return `<svg viewBox="0 0 ${W} ${H}" width="100%" role="img" aria-label="${esc(t().front.cycleTitle)}" preserveAspectRatio="xMidYMid meet">
+      ${band("open", "rgba(235,93,41,0.10)")}
+      <line x1="${x0}" x2="${x1}" y1="${base}" y2="${base}" stroke="var(--axis)" stroke-width="1"/>
+      <path d="${d}" fill="none" stroke="var(--base-text)" stroke-width="2" stroke-linecap="round"/>
+      <line x1="345" x2="345" y1="20" y2="${base}" stroke="var(--hairline)" stroke-dasharray="3 4"/>
+      <line x1="455" x2="455" y1="20" y2="${base}" stroke="var(--hairline)" stroke-dasharray="3 4"/>
+      ${ready ? dots("open", "var(--brand-orange)") + dots("peaking", "var(--base-text)") + dots("fading", "var(--grey-500)") : ""}
+      <text x="247" y="${base + 26}" text-anchor="middle" class="cyc-label">${esc(t().front.zoneOpen)}</text>
+      <text x="400" y="${base + 26}" text-anchor="middle" class="cyc-label">${esc(t().front.zonePeak)}</text>
+      <text x="578" y="${base + 26}" text-anchor="middle" class="cyc-label">${esc(t().front.zoneFade)}</text>
+    </svg>`;
+  }
+
+  function barsSvg(values) {
+    const w = 112, h = 36, n = values.length, max = Math.max(...values, 1), bw = w / n;
+    return `<svg width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" aria-hidden="true">${values.map((v, i) => {
+      const bh = v ? Math.max(2, (v / max) * (h - 2)) : 1;
+      return `<rect x="${(i * bw + 1).toFixed(1)}" y="${(h - bh).toFixed(1)}" width="${(bw - 2).toFixed(1)}" height="${bh.toFixed(1)}" fill="${i === n - 1 ? "var(--brand-orange)" : "var(--spark)"}"/>`;
+    }).join("")}</svg>`;
+  }
+
+  const hoursShort = (h) => (h < 1 ? `${Math.max(1, Math.round(h * 60))} min` : `${new Intl.NumberFormat(locale(), { maximumFractionDigits: 1 }).format(h)} h`);
+
+  async function viewFront() {
+    const C = await load("climate");
+    const F = t().front;
+    const ready = C.baseline_ready;
+    const startD = dayMonth(C.trend_start);
+    const label = (o) => (lang === "fi" ? o.fi : o.en);
+    const lc = (s) => (s ? s.charAt(0).toLowerCase() + s.slice(1) : s);
+    const open = C.windows.open || [], peak = C.windows.peaking || [], fade = C.windows.fading || [];
+    const sigs = C.signals || [];
+    const topSig = sigs.slice().sort((a, b) => b.n7 - a.n7)[0];
+
+    let hero, heroSub = [];
+    if (ready && open.length) {
+      hero = F.heroOpen(themeName(open[0].id));
+      heroSub.push(F.heroOpenSub(pct(open[0].share_now), pct(open[0].baseline)));
+      if (peak.length) heroSub.push(F.alsoPeak(themeName(peak[0].id)));
+    } else if (ready && peak.length) {
+      hero = F.heroPeak(lc(themeName(peak[0].id)));
+    } else if (ready) {
+      hero = F.heroNone; heroSub.push(F.heroNoneSub);
+    } else {
+      hero = topSig && topSig.n7 ? F.heroSignal(num(topSig.n7), lang === "fi" ? topSig.fi_about : topSig.en_about) : F.heroSignalNone;
+      heroSub.push(F.preTrend(startD));
+    }
+
+    const zoneList = (items, key) => {
+      if (!ready) return `<p class="small">${esc(F.zoneFrom(startD))}</p>`;
+      if (!items.length) return `<p class="small">${esc(F.zoneEmpty)}</p>`;
+      return `<ul class="zone-list">${items.slice(0, 4).map((r) => `<li><a href="#/theme/${esc(r.id)}">${esc(themeName(r.id))}</a>
+        <span class="small">${esc(pct(r.share_now))} · ${esc(signedPct(r.delta))}</span></li>`).join("")}</ul>`;
+    };
+
+    const climateLeadSig = ready ? sigs.filter((s) => s.delta != null && s.delta > 0.5 && s.n7 >= 3).sort((a, b) => b.delta - a.delta)[0] : null;
+    const sigCards = sigs.map((s) => `
+      <article class="signal">
+        <h3>${esc(label(s))}</h3>
+        <div class="signal-row"><div><div class="signal-n">${num(s.n7)}</div><div class="small">${esc(F.headlines7)}</div></div>${barsSvg(s.daily)}</div>
+        <p class="small signal-delta">${ready ? (s.delta == null ? "–" : `<strong>${esc(signedPct(s.delta))}</strong> ${esc(F.vsNormal)}`) : esc(F.normalFromShort(startD))}</p>
+        <details><summary>${esc(F.showHeadlines)}</summary>${s.headlines.length ? `<ul class="list">${s.headlines.slice(0, 6).map((h) => `<li><a class="story-title" href="${esc(h.u)}" target="_blank" rel="noopener">${esc(h.t)}</a><div class="small">${esc(sourceName(h.s))} · ${esc(fmtTime(h.p))}</div></li>`).join("")}</ul>` : `<p class="small">${esc(F.noHeadlines)}</p>`}</details>
+      </article>`).join("");
+
+    let shiftHtml;
+    const shifts = C.shifts || [];
+    if (ready && shifts.length >= 2) {
+      const ups = shifts.filter((r) => r.delta > 0).slice(0, 4);
+      const downs = shifts.filter((r) => r.delta < 0).slice(-4).reverse();
+      const rows = ups.concat(downs);
+      const max = Math.max(...rows.map((r) => Math.abs(r.delta)), 0.1);
+      shiftHtml = `${ups.length && downs.length ? `<p class="section-lead">${esc(F.shiftLead(themeName(ups[0].id), signedPct(ups[0].delta).replace(/^\+/, ""), themeName(downs[0].id), signedPct(downs[0].delta).replace(/^[−-]/, "")))}</p>` : ""}
+        <div class="diverge" role="list">${rows.map((r) => {
+          const w = (Math.abs(r.delta) / max) * 50;
+          return `<div class="div-row" role="listitem"><a href="#/theme/${esc(r.id)}">${esc(themeName(r.id))}</a>
+            <div class="div-track" aria-hidden="true"><span class="div-bar ${r.delta >= 0 ? "pos" : "neg"}" style="${r.delta >= 0 ? `left:50%;width:${w}%` : `right:50%;width:${w}%`}"></span></div>
+            <span class="div-val">${esc(signedPct(r.delta))}</span></div>`;
+        }).join("")}</div>`;
+    } else {
+      shiftHtml = `<p class="small">${esc(F.zoneFrom(startD))}</p>`;
+    }
+
+    const sp = C.speed;
+    const speedHtml = sp
+      ? `<div class="speed"><div class="speed-n">${esc(hoursShort(sp.median_h))}</div>
+          <div><p class="section-lead">${esc(F.speedLead(sp.outlets, F.within(sp.median_h)))}</p>
+          <p>${esc(F.speedFast(sp.fastest.label, sourceName(sp.fastest.first_source), sp.outlets, F.within(sp.fastest.reach_h)))} <a href="#/story/${esc(sp.fastest.id)}">${esc(F.seeStory)}</a></p>
+          <p class="small">${esc(F.speedNote)}</p></div></div>`
+      : `<p class="small">${esc(F.speedNone)}</p>`;
+
+    app.innerHTML = `
+      <div class="hero theme-neon"><section class="lede-block wide">
+        <h1 class="statement">${esc(hero)}</h1>
+        ${heroSub.map((x) => `<p class="sub">${esc(x)}</p>`).join("")}
+        <div class="meta-line"><span>${esc(t().updated)} <strong>${esc(fmtTime(C.updated))}</strong></span>
+          <span>${num(C.articles7)} ${esc(t().articles)} · 7 ${esc(lang === "fi" ? "pv" : "days")}</span>
+          <a class="btn" href="${esc(actionsUrl())}" target="_blank" rel="noopener">${esc(t().updateNow)}</a></div>
+      </section></div>
+
+      <section class="section">
+        <div class="section-head"><h2>${esc(F.cycleTitle)}</h2><p>${esc(F.cycleNote)}</p></div>
+        <div class="cycle">${cycleSvg(C.windows, ready)}</div>
+        <div class="zones">
+          <div class="zone open"><h3>${esc(F.zoneOpen)}</h3><p class="small">${esc(F.zoneOpenNote)}</p>${zoneList(open, "open")}</div>
+          <div class="zone"><h3>${esc(F.zonePeak)}</h3><p class="small">${esc(F.zonePeakNote)}</p>${zoneList(peak, "peaking")}</div>
+          <div class="zone"><h3>${esc(F.zoneFade)}</h3><p class="small">${esc(F.zoneFadeNote)}</p>${zoneList(fade, "fading")}</div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-head"><h2>${esc(F.climateTitle)}</h2><p>${esc(F.climateNote)}</p></div>
+        ${climateLeadSig ? `<p class="section-lead">${esc(F.climateLead(label(climateLeadSig), num(climateLeadSig.n7), signedPct(climateLeadSig.delta).replace(/^\+/, "")))}</p>` : ""}
+        <div class="signals">${sigCards}</div>
+      </section>
+
+      <div class="cols section">
+        <section><div class="section-head"><h2>${esc(F.shiftTitle)}</h2></div><p class="small" style="margin-top:0">${esc(F.shiftNote)}</p>${shiftHtml}</section>
+        <section><div class="section-head"><h2>${esc(F.speedTitle)}</h2></div>${speedHtml}</section>
+      </div>
+      <p class="section"><a class="btn" href="#/themes">${esc(F.seeThemes)}</a></p>`;
+  }
+
   async function viewTheme(id) {
     const [D, S] = await Promise.all([load(`themes/${id}`), load("stories")]);
     const name = themeName(id);
     let range = 90, outletRange = "30";
     app.innerHTML = `
       <section class="lede-block">
-        <p class="small"><a href="#/">${esc(t().nav.pulse)}</a></p>
+        <p class="small"><a href="#/themes">${esc(t().nav.pulse)}</a></p>
         <h1 class="statement">${esc(D.baseline == null ? t().themeStatementNow(name, pct(D.share_now)) : t().themeStatement(name, pct(D.share_now), pct(D.baseline)))}</h1>
         <div class="meta-line">${stateBadge(D.state)}${D.delta == null ? "" : `<span>${esc(t().col.change)} <strong>${esc(signedPct(D.delta))}</strong></span>`}<span>${num(D.n48)} ${esc(t().articles)} · ${num(D.sources48)} ${esc(t().outlets)} (48 h)</span></div>
         ${D.baseline == null && META.trend_start ? `<p class="small" style="margin-top:var(--space-4xs)">${esc(t().normalFrom(dayMonth(META.trend_start)))}</p>` : ""}
@@ -462,7 +666,8 @@
 
   /* ------------------------------------------------------------ shell */
   const routes = [
-    [/^#?\/?$/, () => viewPulse(), "pulse"],
+    [/^#?\/?$/, () => viewFront(), "front"],
+    [/^#\/themes$/, () => viewPulse(), "pulse"],
     [/^#\/theme\/([\w-]+)$/, (m) => viewTheme(m[1]), "pulse"],
     [/^#\/stories$/, () => viewStories(), "stories"],
     [/^#\/story\/([\w-]+)$/, (m) => viewStory(m[1]), "stories"],
@@ -474,8 +679,8 @@
 
   function renderChrome(active) {
     document.documentElement.lang = lang;
-    document.getElementById("nav").innerHTML = ["pulse", "stories", "names", "regions", "headlines", "sources"].map((k) =>
-      `<a href="#/${k === "pulse" ? "" : k}" ${k === active ? 'aria-current="page"' : ""}>${esc(t().nav[k])}</a>`).join("");
+    document.getElementById("nav").innerHTML = ["front", "pulse", "stories", "names", "regions", "headlines", "sources"].map((k) =>
+      `<a href="#/${k === "front" ? "" : k === "pulse" ? "themes" : k}" ${k === active ? 'aria-current="page"' : ""}>${esc(t().nav[k])}</a>`).join("");
     document.querySelectorAll(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
     document.getElementById("footer").textContent = t().footer;
     const skip = document.querySelector(".skip-link"); if (skip) skip.textContent = t().skip;

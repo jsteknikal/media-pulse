@@ -294,6 +294,47 @@ table.data tr:last-child td { border-bottom: 0; }
 .notice { background: var(--brand-neon); color: var(--brand-black); padding: var(--space-xs); font-size: var(--text-body-s); margin: 0 0 var(--space-s); }
 footer { max-width: var(--max-content-width); margin: 0 auto; padding: var(--space-s) var(--base-padding-horizontal) var(--space-l); color: var(--text-2); font-size: var(--text-body-2xs); border-top: var(--border-width) solid var(--hairline); }
 
+/* ---------- front page: the change climate */
+.section-lead { font-size: var(--text-body-m); font-weight: 400; line-height: 1.45; max-width: 60ch; margin: 0 0 var(--space-xs); }
+.cycle { margin: var(--space-2xs) 0 0; }
+.cycle svg { display: block; max-height: 260px; }
+.cyc-label { font-size: 15px; fill: var(--base-text); font-family: var(--font-sans); }
+.zones { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-s); margin-top: var(--space-xs); }
+.zone { border-top: var(--border-width) solid currentColor; padding-top: var(--space-3xs); }
+.zone.open { border-top: 3px solid var(--brand-orange); }
+.zone h3 { font-size: var(--text-body-s); font-weight: 600; margin: 0 0 2px; }
+.zone > .small { margin: 0 0 var(--space-3xs); }
+.zone-list { list-style: none; margin: 0; padding: 0; }
+.zone-list li { display: flex; justify-content: space-between; gap: var(--space-4xs); padding: var(--space-4xs) 0; border-bottom: var(--border-width) solid var(--hairline); }
+.zone-list li:last-child { border-bottom: 0; }
+.signals { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 0; border-top: var(--border-width) solid var(--hairline); }
+.signal { padding: var(--space-2xs) var(--space-2xs) var(--space-2xs) 0; border-bottom: var(--border-width) solid var(--hairline); }
+.signal h3 { font-size: var(--text-body-xs); font-weight: 600; margin: 0 0 var(--space-4xs); min-height: 2.6em; }
+.signal-row { display: flex; align-items: flex-end; justify-content: space-between; gap: var(--space-3xs); }
+.signal-n { font-size: var(--text-headline-l); font-weight: 300; line-height: 1; letter-spacing: -0.02em; }
+.signal-delta { margin: var(--space-4xs) 0; }
+.signal details { margin-top: var(--space-4xs); }
+.signal summary { cursor: pointer; font-size: var(--text-body-2xs); text-decoration: underline; text-underline-offset: 0.2em; width: fit-content; }
+.signal summary:hover { text-decoration-color: var(--brand-orange); text-decoration-thickness: 2px; }
+.signal .story-title { font-size: var(--text-body-xs); }
+.diverge { display: grid; gap: var(--space-4xs); }
+.div-row { display: grid; grid-template-columns: minmax(120px, 190px) 1fr 56px; gap: var(--space-3xs); align-items: center; font-size: var(--text-body-xs); }
+.div-row a { text-decoration: none; }
+.div-row a:hover { text-decoration: underline; text-decoration-color: var(--brand-orange); }
+.div-track { position: relative; height: 16px; background: linear-gradient(to right, transparent calc(50% - 0.5px), var(--axis) calc(50% - 0.5px), var(--axis) calc(50% + 0.5px), transparent calc(50% + 0.5px)); }
+.div-bar { position: absolute; top: 2px; height: 12px; }
+.div-bar.pos { background: var(--brand-orange); }
+.div-bar.neg { background: var(--grey-500); }
+.div-val { text-align: right; font-variant-numeric: tabular-nums; }
+.speed { display: grid; grid-template-columns: auto 1fr; gap: var(--space-s); align-items: start; }
+.speed-n { font-size: var(--text-headline-xl); font-weight: 300; line-height: 1; letter-spacing: -0.03em; white-space: nowrap; }
+.speed p { margin: 0 0 var(--space-4xs); }
+@media (max-width: 760px) {
+  .zones { grid-template-columns: 1fr; }
+  .speed { grid-template-columns: 1fr; }
+  .cyc-label { display: none; }  /* too small when scaled; the zone headings below carry the same labels */
+}
+
 @media (max-width: 600px) {
   .topbar-inner { flex-wrap: wrap; row-gap: 0; padding-bottom: 0; }
   .brand { flex: 1; }
