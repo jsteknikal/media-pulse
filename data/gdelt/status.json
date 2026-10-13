@@ -1,7 +1,7 @@
 {
- "last_run": "2026-10-13T06:48:04Z",
+ "last_run": "2026-10-13T10:25:59Z",
  "queries": 56,
- "ok": 16,
+ "ok": 8,
  "stopped": "GDELT kept failing; retrying next run",
  "done": {
   "finland/politics": "2026-10-12T12:50:36Z",
@@ -41,10 +41,8 @@
   {
    "region": "finland",
    "theme": "economy",
-   "time": "2026-10-12T12:50:36Z",
-   "timeline_days": 13,
-   "timeline_total": 338,
-   "articles": 0
+   "time": "2026-10-13T10:25:59Z",
+   "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "region": "finland",
@@ -87,18 +85,14 @@
   {
    "region": "finland",
    "theme": "labour",
-   "time": "2026-10-12T12:50:36Z",
-   "timeline_days": 13,
-   "timeline_total": 85,
-   "articles_error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "time": "2026-10-13T10:25:59Z",
+   "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "region": "finland",
    "theme": "politics",
-   "time": "2026-10-12T12:50:36Z",
-   "timeline_days": 13,
-   "timeline_total": 1247,
-   "articles_error": "HTTPError: HTTP Error 429: Too Many Requests"
+   "time": "2026-10-13T10:25:59Z",
+   "timeline_error": "HTTPError: HTTP Error 429: Too Many Requests"
   },
   {
    "region": "finland",
