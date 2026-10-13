@@ -93,12 +93,16 @@ def watch(now: datetime, force: bool = False) -> dict:
             parsed = parse_oeil(http_get(url, timeout=25, accept="text/html"))
             if not parsed["stage"] and not parsed["events"]:
                 raise RuntimeError("page layout not recognised")
-            latest = parsed["events"][-1] if parsed["events"] else None
-            signature = f"{parsed['stage']}|{latest}"
-            if rec.get("signature") and rec["signature"] != signature:
+            today = local_date(now)
+            past = [e for e in parsed["events"] if e[0] <= today]
+            future = [e for e in parsed["events"] if e[0] > today]  # e.g. "Indicative plenary sitting date"
+            latest = past[-1] if past else None
+            upcoming = future[0] if future else None
+            signature = f"{parsed['stage']}|{latest}|{upcoming}"
+            if rec.get("signature") and rec["signature"].count("|") == 2 and rec["signature"] != signature:
                 rec["changed"] = iso(now)
-            rec.update({"stage": parsed["stage"], "latest": latest, "events": parsed["events"][-6:],
-                        "signature": signature, "error": None})
+            rec.update({"stage": parsed["stage"], "latest": latest, "upcoming": upcoming,
+                        "events": parsed["events"][-8:], "signature": signature, "error": None})
             rec.setdefault("first_seen", iso(now))
         except Exception as exc:  # the lens must never break the main update
             rec["error"] = f"{type(exc).__name__}: {str(exc)[:160]}"
@@ -170,7 +174,8 @@ def build(now: datetime, main_arts: list[dict], dates: list[str], fetch_status: 
         files.append({**{k: v for k, v in f.items() if not k.startswith("_")},
                       "official": None if not f.get("oeil") else {
                           "url": rec.get("url") or OEIL_URL.format(ref=urllib.parse.quote(f["oeil"], safe="")),
-                          "stage": rec.get("stage"), "latest": rec.get("latest"), "changed": rec.get("changed"),
+                          "stage": rec.get("stage"), "latest": rec.get("latest"), "upcoming": rec.get("upcoming"),
+                          "changed": rec.get("changed"),
                           "checked": rec.get("checked"), "error": rec.get("error")}})
 
     today = local_date(now)

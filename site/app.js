@@ -102,7 +102,7 @@
         pipeTitle: "Valmisteilla", pipeNote: "Säädökset, joita vielä kirjoitetaan, vaiheittain. Mitä aiempi vaihe, sitä enemmän tilaa vaikuttaa lopputulokseen.",
         roomToShape: "Tilaa vaikuttaa", pcol: { file: "Säädös", stage: "Vaihe", next: "Seuraava askel", timing: "Aikataulu" },
         stageAria: (name, stalled) => `Vaihe: ${name}${stalled ? " (jumissa)" : ""}`,
-        official: "Virallinen tila", latestEvent: "viimeisin", changed: (a) => `Muuttui ${a}`, recordError: "Virallista tietoa ei saatu luettua tällä kertaa.",
+        official: "Virallinen tila", latestEvent: "viimeisin", upcomingEvent: "seuraavaksi", changed: (a) => `Muuttui ${a}`, recordError: "Virallista tietoa ei saatu luettua tällä kertaa.",
         notRead: "Luetaan seuraavassa päivityksessä.",
         coverageTitle: "Kuinka paljon aiheesta kirjoitetaan", coverageNote: "Otsikot päivittäin. Erikoismedia liikkuu tyypillisesti ensin; valtamedia seuraa, kun aihe koskettaa laajemmin.",
         pickIssue: "Aihe", since: (a, b) => `Valtamedia laskettu ${a} alkaen${b ? `, erikoismedia ${b} alkaen` : ", erikoismedian syötteet alkavat seuraavassa päivityksessä"}.`,
@@ -208,7 +208,7 @@
         pipeTitle: "In preparation", pipeNote: "Rules still being written, by stage. The earlier the stage, the more room to shape the outcome.",
         roomToShape: "Room to shape", pcol: { file: "Rule", stage: "Stage", next: "Next step", timing: "Timing" },
         stageAria: (name, stalled) => `Stage: ${name}${stalled ? " (stalled)" : ""}`,
-        official: "Official record", latestEvent: "latest", changed: (a) => `Changed ${a}`, recordError: "The official record could not be read this time.",
+        official: "Official record", latestEvent: "latest", upcomingEvent: "next", changed: (a) => `Changed ${a}`, recordError: "The official record could not be read this time.",
         notRead: "Read on the next update.",
         coverageTitle: "How much the issue is written about", coverageNote: "Headlines per day. Specialist media usually moves first; mainstream follows when an issue touches more people.",
         pickIssue: "Issue", since: (a, b) => `Mainstream counted since ${a}${b ? `, specialist since ${b}` : "; specialist feeds start with the next update"}.`,
@@ -544,7 +544,7 @@
       if (o) {
         if (o.error && !o.stage) rec = `<div class="small">${esc(L.recordError)} <a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(L.official)}</a></div>`;
         else if (!o.stage && !o.latest) rec = `<div class="small"><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(L.official)}</a>: ${esc(L.notRead)}</div>`;
-        else rec = `<div class="small"><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(L.official)}</a>: ${esc(o.stage || "")}${o.latest ? ` · ${esc(L.latestEvent)} ${esc(fmtDate(o.latest[0]))}: ${esc(o.latest[1])}` : ""}${o.changed ? ` <strong class="changed">${esc(L.changed(ago(o.changed)))}</strong>` : ""}</div>`;
+        else rec = `<div class="small"><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(L.official)}</a>: ${esc(o.stage || "")}${o.latest ? ` · ${esc(L.latestEvent)} ${esc(fmtDate(o.latest[0]))}: ${esc(o.latest[1])}` : ""}${o.upcoming ? ` · ${esc(L.upcomingEvent)} ${esc(fullDate(o.upcoming[0]))}: ${esc(o.upcoming[1])}` : ""}${o.changed ? ` <strong class="changed">${esc(L.changed(ago(o.changed)))}</strong>` : ""}</div>`;
       }
       const nextTxt = `${esc(nm(f.next))}${f.next_date ? `<div class="small">${esc(fullDate(f.next_date))} · ${esc(L.inDays(daysTo(f.next_date)))}</div>` : ""}`;
       const kind = f.timing?.kind || "unknown";
