@@ -2,10 +2,10 @@ name: Update Media Pulse
 
 on:
   schedule:
-    # Every 15 minutes, off the busy top of the hour. GitHub delays or drops scheduled runs when
-    # it is busy; frequent attempts keep short feeds (Kauppalehti keeps only 10 headlines) from
-    # overflowing between runs. Free for public repositories.
-    - cron: "7,22,37,52 * * * *"
+    # The 15-minute cadence comes from cron-job.org, which calls the "Run workflow" API
+    # (workflow_dispatch). GitHub's own scheduler proved unreliable (gaps of many hours), so it is
+    # kept only as a backup every two hours. Free for public repositories.
+    - cron: "41 */2 * * *"
   workflow_dispatch:              # "Run workflow" button = update now
     inputs:
       gdelt:
