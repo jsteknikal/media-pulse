@@ -76,5 +76,84 @@
   "first_seen": "2026-10-13T19:32:08Z",
   "upcoming": null
  },
- "_last_run": "2026-10-14T06:14:34Z"
+ "_last_run": "2026-10-14T06:14:34Z",
+ "2025/0394(COD)": {
+  "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025%2F0394%28COD%29",
+  "checked": "2026-10-14T07:02:21Z",
+  "title": "Procedure File:  | Legislative Observatory | European Parliament",
+  "stage": "Awaiting committee decision",
+  "latest": [
+   "2026-02-09",
+   "Committee referral announced in Parliament, 1st reading"
+  ],
+  "upcoming": [
+   "2026-11-23",
+   "Indicative plenary sitting date, 1st reading"
+  ],
+  "events": [
+   [
+    "2025-12-10",
+    "Legislative proposal published"
+   ],
+   [
+    "2026-02-09",
+    "Committee referral announced in Parliament, 1st reading"
+   ],
+   [
+    "2026-11-23",
+    "Indicative plenary sitting date, 1st reading"
+   ]
+  ],
+  "signature": "Awaiting committee decision|['2026-02-09', 'Committee referral announced in Parliament, 1st reading']|['2026-11-23', 'Indicative plenary sitting date, 1st reading']",
+  "error": null,
+  "first_seen": "2026-10-14T07:02:21Z"
+ },
+ "2025/0380(COD)": {
+  "url": "https://oeil.europarl.europa.eu/oeil/en/procedure-file?reference=2025%2F0380%28COD%29",
+  "checked": "2026-10-14T07:02:21Z",
+  "title": "Procedure File:  | Legislative Observatory | European Parliament",
+  "stage": "Awaiting signature of act",
+  "latest": [
+   "2026-10-09",
+   "Act adopted by Council after Parliament's 1st reading"
+  ],
+  "upcoming": null,
+  "events": [
+   [
+    "2026-04-17",
+    "Committee report tabled for plenary, 1st reading"
+   ],
+   [
+    "2026-04-29",
+    "Decision by Parliament, 1st reading"
+   ],
+   [
+    "2026-04-29",
+    "Results of vote in Parliament"
+   ],
+   [
+    "2026-04-29",
+    "Matter referred back to the committee responsible for interinstitutional negotiations"
+   ],
+   [
+    "2026-07-06",
+    "Approval in committee of the text agreed at 1st reading interinstitutional negotiations"
+   ],
+   [
+    "2026-09-15",
+    "Decision by Parliament, 1st reading"
+   ],
+   [
+    "2026-09-15",
+    "Results of vote in Parliament"
+   ],
+   [
+    "2026-10-09",
+    "Act adopted by Council after Parliament's 1st reading"
+   ]
+  ],
+  "signature": "Awaiting signature of act|['2026-10-09', \"Act adopted by Council after Parliament's 1st reading\"]|None",
+  "error": null,
+  "first_seen": "2026-10-14T07:02:21Z"
+ }
 }

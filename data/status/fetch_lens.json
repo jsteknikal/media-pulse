@@ -1,6 +1,6 @@
 {
- "time": "2026-10-14T07:01:04Z",
- "new_articles": 0,
+ "time": "2026-10-14T07:02:21Z",
+ "new_articles": 33,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -10,6 +10,16 @@
    "errors": [],
    "feeds_used": [
     "https://www.uusiouutiset.fi/feed/"
+   ]
+  },
+  {
+   "id": "sitra",
+   "state": "ok",
+   "fetched": 12,
+   "new": 3,
+   "errors": [],
+   "feeds_used": [
+    "https://www.sitra.fi/feed/"
    ]
   },
   {
@@ -50,6 +60,26 @@
    "errors": [],
    "feeds_used": [
     "https://esgnews.com/feed/"
+   ]
+  },
+  {
+   "id": "responsible-investor",
+   "state": "ok",
+   "fetched": 10,
+   "new": 10,
+   "errors": [],
+   "feeds_used": [
+    "https://www.responsible-investor.com/feed/"
+   ]
+  },
+  {
+   "id": "euobserver",
+   "state": "ok",
+   "fetched": 20,
+   "new": 20,
+   "errors": [],
+   "feeds_used": [
+    "https://euobserver.com/rss"
    ]
   }
  ]
