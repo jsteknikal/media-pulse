@@ -1,6 +1,6 @@
 {
- "time": "2026-10-14T07:03:57Z",
- "new_articles": 0,
+ "time": "2026-10-14T07:05:01Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "yle-uutiset",
@@ -67,7 +67,7 @@
    "id": "il",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.iltalehti.fi/rss/uutiset.xml"
