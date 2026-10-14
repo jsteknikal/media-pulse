@@ -48,9 +48,28 @@ def _parse_date(value: str | None):
         return None
 
 
+XML_ENTITIES = {"amp", "lt", "gt", "quot", "apos"}
+ENTITY_RE = re.compile(rb"&([A-Za-z][A-Za-z0-9]*);")
+
+
+def _lenient(body: bytes) -> bytes:
+    """Replace HTML-only entities (&nbsp; etc.) that some feeds leak into XML with numeric ones."""
+    from html.entities import name2codepoint
+
+    def fix(m):
+        name = m.group(1).decode("ascii")
+        if name in XML_ENTITIES or name not in name2codepoint:
+            return m.group(0)
+        return f"&#{name2codepoint[name]};".encode("ascii")
+    return ENTITY_RE.sub(fix, body)
+
+
 def parse_feed(body: bytes) -> list[dict]:
     """Return raw items: title, link, summary, published (datetime|None), categories."""
-    root = ET.fromstring(body)
+    try:
+        root = ET.fromstring(body)
+    except ET.ParseError:
+        root = ET.fromstring(_lenient(body))
     items = []
     for it in root.iter("item"):  # RSS 2.0 / RDF
         cats = [clean_text(c.text) for c in it.findall("category") if c.text]

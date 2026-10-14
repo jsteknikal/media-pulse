@@ -112,3 +112,10 @@ class LensTests(unittest.TestCase):
         self.assertIn("reporting", m.match("Kestävyysraportointi kevenee", "", "fi"))
         self.assertNotIn("carbon_pricing", m.match("Hiihtäjä harjoitteli kestävyyttä", "", "fi"))
         self.assertEqual(m.match("HJK voitti Oulussa", "Veikkausliigan kierros", "fi"), [])
+
+
+class LenientFeedTests(unittest.TestCase):
+    def test_html_entities(self):
+        body = b'<rss><channel><item><title>A&nbsp;B &amp; C</title><link>https://x.fi/1</link></item></channel></rss>'
+        items = parse_feed(body)
+        self.assertEqual(items[0]["title"], "A\xa0B & C")

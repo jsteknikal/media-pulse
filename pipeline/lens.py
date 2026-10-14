@@ -69,20 +69,32 @@ def parse_oeil(raw: bytes) -> dict:
                 events.append([f"{m.group(3)}-{m.group(2)}-{m.group(1)}", label[:160]])
             i += 1
     events.sort(key=lambda e: e[0])
-    return {"stage": stage, "events": events}
+    title = None
+    ref_re = re.compile(r"\d{4}/\d{4}\([A-Z]{3}\)")
+    for i, line in enumerate(lines[:400]):
+        if ref_re.search(line):
+            for nxt in lines[i:i + 4]:
+                cand = ref_re.sub("", nxt).strip(" -:")
+                if len(cand) > 20:
+                    title = cand[:200]
+                    break
+            if title:
+                break
+    return {"stage": stage, "events": events, "title": title}
 
 
 def watch(now: datetime, force: bool = False) -> dict:
     cfg = load_config("lens/pipeline.json") or {}
     state = load_json(STATE_FILE, {}) or {}
     last = state.get("_last_run")
-    if not force and last and parse_iso(last) > now - timedelta(hours=WATCH_EVERY_HOURS):
-        return state
+    due = force or not last or parse_iso(last) <= now - timedelta(hours=WATCH_EVERY_HOURS)
+    refs = [f.get("oeil") for f in cfg.get("files", []) if f.get("oeil")]
+    if not due:
+        refs = [r for r in refs if r not in state]  # a newly added reference is read straight away
+        if not refs:
+            return state
     robots = fetch_rss.Robots()
-    for f in cfg.get("files", []):
-        ref = f.get("oeil")
-        if not ref:
-            continue
+    for ref in refs:
         url = OEIL_URL.format(ref=urllib.parse.quote(ref, safe=""))
         rec = state.get(ref, {})
         rec["url"] = url
@@ -101,13 +113,14 @@ def watch(now: datetime, force: bool = False) -> dict:
             signature = f"{parsed['stage']}|{latest}|{upcoming}"
             if rec.get("signature") and rec["signature"].count("|") == 2 and rec["signature"] != signature:
                 rec["changed"] = iso(now)
-            rec.update({"stage": parsed["stage"], "latest": latest, "upcoming": upcoming,
+            rec.update({"title": parsed["title"], "stage": parsed["stage"], "latest": latest, "upcoming": upcoming,
                         "events": parsed["events"][-8:], "signature": signature, "error": None})
             rec.setdefault("first_seen", iso(now))
         except Exception as exc:  # the lens must never break the main update
             rec["error"] = f"{type(exc).__name__}: {str(exc)[:160]}"
         state[ref] = rec
-    state["_last_run"] = iso(now)
+    if due:
+        state["_last_run"] = iso(now)
     write_json(STATE_FILE, state, compact=False)
     return state
 

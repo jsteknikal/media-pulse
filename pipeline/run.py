@@ -36,7 +36,7 @@ def main() -> int:
             state = lens.watch(now)
             for ref, rec in state.items():
                 if not ref.startswith("_"):
-                    print(f"  official record {ref}: {rec.get('stage')} | {rec.get('latest')} {rec.get('error') or ''}")
+                    print(f"  official record {ref}: {rec.get('title')} | {rec.get('stage')} | {rec.get('latest')} {rec.get('error') or ''}")
         except Exception as exc:
             print(f"Lens fetch failed: {exc}")
     fetch_status["lens"] = lens_status

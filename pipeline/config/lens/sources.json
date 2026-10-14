@@ -8,7 +8,20 @@
    "language": "fi",
    "type": "specialist",
    "verified": true,
-   "feeds": ["https://www.uusiouutiset.fi/feed/"]
+   "feeds": [
+    "https://www.uusiouutiset.fi/feed/"
+   ]
+  },
+  {
+   "id": "sitra",
+   "name": "Sitra",
+   "homepage": "https://www.sitra.fi",
+   "language": "fi",
+   "type": "specialist",
+   "verified": true,
+   "feeds": [
+    "https://www.sitra.fi/feed/"
+   ]
   },
   {
    "id": "carbon-brief",
@@ -17,7 +30,9 @@
    "language": "en",
    "type": "specialist",
    "verified": true,
-   "feeds": ["https://www.carbonbrief.org/feed/"]
+   "feeds": [
+    "https://www.carbonbrief.org/feed/"
+   ]
   },
   {
    "id": "climate-home",
@@ -26,7 +41,9 @@
    "language": "en",
    "type": "specialist",
    "verified": true,
-   "feeds": ["https://www.climatechangenews.com/feed/"]
+   "feeds": [
+    "https://www.climatechangenews.com/feed/"
+   ]
   },
   {
    "id": "esg-today",
@@ -35,7 +52,9 @@
    "language": "en",
    "type": "specialist",
    "verified": true,
-   "feeds": ["https://www.esgtoday.com/feed/"]
+   "feeds": [
+    "https://www.esgtoday.com/feed/"
+   ]
   },
   {
    "id": "esg-news",
@@ -43,8 +62,32 @@
    "homepage": "https://esgnews.com",
    "language": "en",
    "type": "specialist",
-   "verified": false,
-   "feeds": ["https://esgnews.com/feed/"]
+   "verified": true,
+   "feeds": [
+    "https://esgnews.com/feed/"
+   ]
+  },
+  {
+   "id": "responsible-investor",
+   "name": "Responsible Investor",
+   "homepage": "https://www.responsible-investor.com",
+   "language": "en",
+   "type": "specialist",
+   "verified": true,
+   "feeds": [
+    "https://www.responsible-investor.com/feed/"
+   ]
+  },
+  {
+   "id": "euobserver",
+   "name": "EUobserver",
+   "homepage": "https://euobserver.com",
+   "language": "en",
+   "type": "eu_policy",
+   "verified": true,
+   "feeds": [
+    "https://euobserver.com/rss"
+   ]
   }
  ]
 }

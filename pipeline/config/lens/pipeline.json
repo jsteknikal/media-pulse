@@ -157,13 +157,14 @@
     "fi": "Kevyempi raportointi akuille ja teollisuuslaitoksille",
     "en": "Lighter reporting for batteries and industrial sites"
    },
-   "oeil": null,
+   "oeil": "2025/0394(COD)",
    "links": [
     {
      "label": "Council",
      "url": "https://www.consilium.europa.eu/en/press/press-releases/2026/06/24/simplification-council-agrees-negotiating-stance-to-simplify-and-streamline-environmental-rules/"
     }
-   ]
+   ],
+   "_oeil_note": "Industrial emissions and waste part. The batteries part is 2025/0397(COD)."
   },
   {
    "id": "ets2_reserve",
@@ -186,7 +187,7 @@
     "fi": "Kuinka korkealle polttoaineiden ja lämmityksen hiilihinta voi nousta 2028 alkaen",
     "en": "How high fuel and heating carbon prices can climb from 2028"
    },
-   "oeil": null,
+   "oeil": "2025/0380(COD)",
    "links": [
     {
      "label": "Council",
