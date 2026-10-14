@@ -75,7 +75,7 @@ def parse_oeil(raw: bytes) -> dict:
         if ref_re.search(line):
             for nxt in lines[i:i + 4]:
                 cand = ref_re.sub("", nxt).strip(" -:")
-                if len(cand) > 20:
+                if len(cand) > 20 and "Legislative Observatory" not in cand and not cand.startswith("Procedure File"):
                     title = cand[:200]
                     break
             if title:

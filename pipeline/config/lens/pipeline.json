@@ -1,6 +1,6 @@
 {
  "_note": "Rules in preparation, tracked by the sustainability lens. stage: 0 agenda, 1 preparation, 2 consultation, 3 proposal, 4 decision, 5 implementation. timing.kind: on_time | slipped | stalled | moving | unknown. 'oeil' = Legislative Observatory reference, e.g. 2026/0212(COD): the pipeline then reads the official stage and latest event automatically and flags changes. Everything else is hand-checked on the 'checked' date; update it when the official record moves.",
- "checked": "2026-10-13",
+ "checked": "2026-10-14",
  "stages": {
   "fi": [
    "Agenda",
@@ -144,10 +144,10 @@
    "en": "Environmental omnibus",
    "stage": 4,
    "next": {
-    "fi": "Parlamentin kanta, sitten trilogi",
-    "en": "Parliament position, then trilogue"
+    "fi": "Parlamentin kanta (täysistunto alustavasti 23.11.2026), sitten trilogi",
+    "en": "Parliament position (plenary indicated for 23 Nov 2026), then trilogue"
    },
-   "next_date": null,
+   "next_date": "2026-11-23",
    "timing": {
     "kind": "moving",
     "fi": "Neuvoston kanta sovittu",
@@ -174,14 +174,14 @@
    "en": "ETS2 price-control reserve",
    "stage": 4,
    "next": {
-    "fi": "Muodollinen hyväksyntä",
-    "en": "Formal adoption"
+    "fi": "Allekirjoitus ja julkaisu virallisessa lehdessä",
+    "en": "Signature and publication in the Official Journal"
    },
    "next_date": null,
    "timing": {
-    "kind": "moving",
-    "fi": "Alustava sopu 11.6.2026",
-    "en": "Provisional deal 11 Jun 2026"
+    "kind": "on_time",
+    "fi": "Hyväksytty 9.10.2026",
+    "en": "Adopted 9 Oct 2026"
    },
    "why": {
     "fi": "Kuinka korkealle polttoaineiden ja lämmityksen hiilihinta voi nousta 2028 alkaen",
