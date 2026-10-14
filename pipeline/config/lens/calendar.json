@@ -1,16 +1,93 @@
 {
  "_note": "Known dates for the sustainability lens. 'date' = YYYY-MM-DD (exact) or null with a 'when' label for vaguer timing. Past dates drop off the page automatically.",
  "events": [
-  {"date": null, "when": {"fi": "Lokakuu 2026", "en": "October 2026"}, "sort": "2026-10-31", "issue": null, "fi": "Komission vuoden 2027 työohjelma odotetaan", "en": "Commission work programme for 2027 expected"},
-  {"date": "2026-11-09", "issue": "climate_targets", "fi": "COP31 Antalyassa (9.–20.11.)", "en": "COP31 in Antalya (9–20 Nov)"},
-  {"date": "2026-11-11", "issue": "circular_economy", "fi": "Kiertotaloussäädöksen ehdotus, suunniteltu", "en": "Circular Economy Act proposal, planned"},
-  {"date": null, "when": {"fi": "Q4 2026", "en": "Q4 2026"}, "sort": "2026-12-31", "issue": "reporting", "fi": "Kevennetyt ESRS-standardit virallisessa lehdessä, odotetaan", "en": "Simplified ESRS in the Official Journal, expected"},
-  {"date": "2026-12-30", "issue": "eudr", "fi": "Metsäkatoasetuksen soveltaminen alkaa, ellei siirry", "en": "EUDR applies, unless moved again"},
-  {"date": "2027-01-01", "issue": null, "fi": "Liettua aloittaa EU-puheenjohtajana", "en": "Lithuania takes over the Council presidency"},
-  {"date": "2027-03-19", "issue": "reporting", "fi": "Omnibus I -raportointimuutosten täytäntöönpanon määräpäivä", "en": "Transposition deadline for the Omnibus I reporting changes"},
-  {"date": "2027-03-27", "issue": "green_claims", "fi": "Siirtymäaika jo markkinoilla oleville tuotteille päättyy", "en": "Transition ends for products already on the market"},
-  {"date": "2027-04-18", "issue": null, "fi": "Eduskuntavaalit; seuraava hallitusohjelma asettaa Suomen agendan", "en": "Finnish parliamentary election; the next government programme sets Finland's agenda"},
-  {"date": "2027-09-30", "issue": "carbon_pricing", "fi": "Ensimmäiset CBAM-ilmoitukset ja todistusten palautus", "en": "First CBAM declarations and certificate surrender due"},
-  {"date": "2028-01-01", "issue": "carbon_pricing", "fi": "ETS2 alkaa rakennuksille ja liikenteelle", "en": "ETS2 starts for buildings and transport"}
+  {
+   "date": null,
+   "when": {
+    "fi": "Lokakuu 2026",
+    "en": "October 2026"
+   },
+   "sort": "2026-10-31",
+   "issue": null,
+   "fi": "Komission vuoden 2027 työohjelma odotetaan",
+   "en": "Commission work programme for 2027 expected"
+  },
+  {
+   "date": "2026-11-09",
+   "issue": "climate_targets",
+   "fi": "COP31 Antalyassa (9.–20.11.)",
+   "en": "COP31 in Antalya (9–20 Nov)"
+  },
+  {
+   "date": "2026-11-11",
+   "issue": "circular_economy",
+   "fi": "Kiertotaloussäädöksen ehdotus, suunniteltu",
+   "en": "Circular Economy Act proposal, planned"
+  },
+  {
+   "date": "2026-11-23",
+   "issue": "circular_economy",
+   "fi": "Ympäristöomnibus Parlamentin täysistunnossa (alustava)",
+   "en": "Environmental omnibus in Parliament's plenary (indicative)"
+  },
+  {
+   "date": "2026-12-14",
+   "issue": "carbon_pricing",
+   "fi": "Päästökaupan uudistus Parlamentin täysistunnossa (alustava)",
+   "en": "ETS revision in Parliament's plenary (indicative)"
+  },
+  {
+   "date": "2026-12-30",
+   "issue": "eudr",
+   "fi": "Metsäkatoasetuksen soveltaminen alkaa, ellei siirry",
+   "en": "EUDR applies, unless moved again"
+  },
+  {
+   "date": null,
+   "when": {
+    "fi": "Q4 2026",
+    "en": "Q4 2026"
+   },
+   "sort": "2026-12-31",
+   "issue": "reporting",
+   "fi": "Kevennetyt ESRS-standardit virallisessa lehdessä, odotetaan",
+   "en": "Simplified ESRS in the Official Journal, expected"
+  },
+  {
+   "date": "2027-01-01",
+   "issue": null,
+   "fi": "Liettua aloittaa EU-puheenjohtajana",
+   "en": "Lithuania takes over the Council presidency"
+  },
+  {
+   "date": "2027-03-19",
+   "issue": "reporting",
+   "fi": "Omnibus I -raportointimuutosten täytäntöönpanon määräpäivä",
+   "en": "Transposition deadline for the Omnibus I reporting changes"
+  },
+  {
+   "date": "2027-03-27",
+   "issue": "green_claims",
+   "fi": "Siirtymäaika jo markkinoilla oleville tuotteille päättyy",
+   "en": "Transition ends for products already on the market"
+  },
+  {
+   "date": "2027-04-18",
+   "issue": null,
+   "fi": "Eduskuntavaalit; seuraava hallitusohjelma asettaa Suomen agendan",
+   "en": "Finnish parliamentary election; the next government programme sets Finland's agenda"
+  },
+  {
+   "date": "2027-09-30",
+   "issue": "carbon_pricing",
+   "fi": "Ensimmäiset CBAM-ilmoitukset ja todistusten palautus",
+   "en": "First CBAM declarations and certificate surrender due"
+  },
+  {
+   "date": "2028-01-01",
+   "issue": "carbon_pricing",
+   "fi": "ETS2 alkaa rakennuksille ja liikenteelle",
+   "en": "ETS2 starts for buildings and transport"
+  }
  ]
 }
