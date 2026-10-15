@@ -1,5 +1,5 @@
 {
- "time": "2026-10-15T09:01:02Z",
+ "time": "2026-10-15T09:15:41Z",
  "new_articles": 0,
  "sources": [
   {
@@ -64,16 +64,15 @@
   },
   {
    "id": "responsible-investor",
-   "state": "partial",
+   "state": "failed",
    "fetched": 0,
    "new": 0,
    "errors": [
-    "https://www.responsible-investor.com/feed/: TimeoutError: The read operation timed out"
+    "https://www.responsible-investor.com/feed/: HTTPError: HTTP Error 401: Unauthorized",
+    "https://www.responsible-investor.com/comments/feed/: HTTPError: HTTP Error 401: Unauthorized",
+    "https://www.responsible-investor.com/infrastructure-investor-3/feed/: HTTPError: HTTP Error 401: Unauthorized"
    ],
-   "feeds_used": [
-    "https://www.responsible-investor.com/comments/feed/",
-    "https://www.responsible-investor.com/infrastructure-investor-3/feed/"
-   ],
+   "feeds_used": [],
    "discovered": [
     "https://www.responsible-investor.com/comments/feed/",
     "https://www.responsible-investor.com/infrastructure-investor-3/feed/"
