@@ -1,5 +1,5 @@
 {
- "time": "2026-10-15T09:45:41Z",
+ "time": "2026-10-15T10:01:04Z",
  "new_articles": 1,
  "sources": [
   {
@@ -16,7 +16,7 @@
    "id": "sitra",
    "state": "ok",
    "fetched": 12,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.sitra.fi/feed/"
@@ -46,7 +46,7 @@
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
