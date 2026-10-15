@@ -1,5 +1,5 @@
 {
- "time": "2026-10-15T17:20:07Z",
+ "time": "2026-10-15T17:30:54Z",
  "new_articles": 2,
  "sources": [
   {
@@ -67,7 +67,7 @@
    "id": "il",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.iltalehti.fi/rss/uutiset.xml"
@@ -77,7 +77,7 @@
    "id": "mtv",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.mtvuutiset.fi/api/feed/rss/uutiset_uusimmat"
