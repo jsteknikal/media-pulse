@@ -1,6 +1,6 @@
 {
- "time": "2026-10-16T20:30:49Z",
- "new_articles": 3,
+ "time": "2026-10-16T20:45:36Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "yle-uutiset",
@@ -47,7 +47,7 @@
    "id": "hs",
    "state": "ok",
    "fetched": 99,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.hs.fi/rss/tuoreimmat.xml"
@@ -57,7 +57,7 @@
    "id": "is",
    "state": "ok",
    "fetched": 100,
-   "new": 2,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.is.fi/rss/tuoreimmat.xml"
@@ -67,7 +67,7 @@
    "id": "il",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.iltalehti.fi/rss/uutiset.xml"
@@ -125,13 +125,13 @@
   },
   {
    "id": "ts",
-   "state": "failed",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 49,
    "new": 0,
-   "errors": [
-    "https://www.ts.fi/rss.xml: HTTPError: HTTP Error 503: "
-   ],
-   "feeds_used": []
+   "errors": [],
+   "feeds_used": [
+    "https://www.ts.fi/rss.xml"
+   ]
   },
   {
    "id": "kaleva",
