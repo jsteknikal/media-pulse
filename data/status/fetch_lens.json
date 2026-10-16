@@ -1,12 +1,12 @@
 {
- "time": "2026-10-16T12:30:51Z",
+ "time": "2026-10-16T12:45:39Z",
  "new_articles": 1,
  "sources": [
   {
    "id": "uusiouutiset",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.uusiouutiset.fi/feed/"
@@ -66,7 +66,7 @@
    "id": "responsible-investor",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.responsible-investor.com/feed/"
