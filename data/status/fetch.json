@@ -1,12 +1,12 @@
 {
- "time": "2026-10-16T06:15:39Z",
- "new_articles": 7,
+ "time": "2026-10-16T06:30:55Z",
+ "new_articles": 4,
  "sources": [
   {
    "id": "yle-uutiset",
    "state": "ok",
    "fetched": 34,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
@@ -47,7 +47,7 @@
    "id": "hs",
    "state": "ok",
    "fetched": 98,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.hs.fi/rss/tuoreimmat.xml"
@@ -57,7 +57,7 @@
    "id": "is",
    "state": "ok",
    "fetched": 100,
-   "new": 2,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.is.fi/rss/tuoreimmat.xml"
@@ -67,7 +67,7 @@
    "id": "il",
    "state": "ok",
    "fetched": 20,
-   "new": 2,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.iltalehti.fi/rss/uutiset.xml"
@@ -95,19 +95,19 @@
   },
   {
    "id": "talouselama",
-   "state": "ok",
-   "fetched": 10,
+   "state": "failed",
+   "fetched": 0,
    "new": 0,
-   "errors": [],
-   "feeds_used": [
-    "https://www.talouselama.fi/rss.xml"
-   ]
+   "errors": [
+    "https://www.talouselama.fi/rss.xml: TimeoutError: The read operation timed out"
+   ],
+   "feeds_used": []
   },
   {
    "id": "mt",
    "state": "ok",
    "fetched": 100,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.maaseuduntulevaisuus.fi/rss"
@@ -117,7 +117,7 @@
    "id": "aamulehti",
    "state": "ok",
    "fetched": 100,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.aamulehti.fi/rss/tuoreimmat.xml"
