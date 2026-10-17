@@ -1,6 +1,6 @@
 {
- "time": "2026-10-17T20:15:31Z",
- "new_articles": 3,
+ "time": "2026-10-17T20:30:48Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "yle-uutiset",
@@ -17,7 +17,7 @@
    "id": "yle-urheilu",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_URHEILU"
@@ -67,7 +67,7 @@
    "id": "il",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.iltalehti.fi/rss/uutiset.xml"
