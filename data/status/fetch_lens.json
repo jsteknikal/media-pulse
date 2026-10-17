@@ -1,5 +1,5 @@
 {
- "time": "2026-10-17T00:45:33Z",
+ "time": "2026-10-17T01:01:03Z",
  "new_articles": 0,
  "sources": [
   {
@@ -34,13 +34,13 @@
   },
   {
    "id": "climate-home",
-   "state": "ok",
-   "fetched": 40,
+   "state": "failed",
+   "fetched": 0,
    "new": 0,
-   "errors": [],
-   "feeds_used": [
-    "https://www.climatechangenews.com/feed/"
-   ]
+   "errors": [
+    "https://www.climatechangenews.com/feed/: TimeoutError: The read operation timed out"
+   ],
+   "feeds_used": []
   },
   {
    "id": "esg-today",
