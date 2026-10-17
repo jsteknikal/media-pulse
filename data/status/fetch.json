@@ -1,12 +1,12 @@
 {
- "time": "2026-10-17T07:30:48Z",
- "new_articles": 7,
+ "time": "2026-10-17T07:45:34Z",
+ "new_articles": 9,
  "sources": [
   {
    "id": "yle-uutiset",
    "state": "ok",
    "fetched": 30,
-   "new": 1,
+   "new": 3,
    "errors": [],
    "feeds_used": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
@@ -46,7 +46,7 @@
   {
    "id": "hs",
    "state": "ok",
-   "fetched": 98,
+   "fetched": 99,
    "new": 2,
    "errors": [],
    "feeds_used": [
@@ -57,7 +57,7 @@
    "id": "is",
    "state": "ok",
    "fetched": 99,
-   "new": 3,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.is.fi/rss/tuoreimmat.xml"
@@ -77,7 +77,7 @@
    "id": "mtv",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.mtvuutiset.fi/api/feed/rss/uutiset_uusimmat"
@@ -87,7 +87,7 @@
    "id": "kauppalehti",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://feeds.kauppalehti.fi/rss/main"
