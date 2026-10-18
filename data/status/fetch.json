@@ -1,6 +1,6 @@
 {
- "time": "2026-10-18T16:07:15Z",
- "new_articles": 2,
+ "time": "2026-10-18T16:15:36Z",
+ "new_articles": 7,
  "sources": [
   {
    "id": "yle-uutiset",
@@ -17,7 +17,7 @@
    "id": "yle-urheilu",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_URHEILU"
@@ -47,7 +47,7 @@
    "id": "hs",
    "state": "ok",
    "fetched": 100,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.hs.fi/rss/tuoreimmat.xml"
@@ -57,7 +57,7 @@
    "id": "is",
    "state": "ok",
    "fetched": 100,
-   "new": 1,
+   "new": 2,
    "errors": [],
    "feeds_used": [
     "https://www.is.fi/rss/tuoreimmat.xml"
@@ -77,7 +77,7 @@
    "id": "mtv",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.mtvuutiset.fi/api/feed/rss/uutiset_uusimmat"
@@ -107,7 +107,7 @@
    "id": "mt",
    "state": "ok",
    "fetched": 100,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.maaseuduntulevaisuus.fi/rss"
@@ -117,7 +117,7 @@
    "id": "aamulehti",
    "state": "ok",
    "fetched": 99,
-   "new": 0,
+   "new": 2,
    "errors": [],
    "feeds_used": [
     "https://www.aamulehti.fi/rss/tuoreimmat.xml"
