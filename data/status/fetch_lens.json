@@ -1,6 +1,6 @@
 {
- "time": "2026-10-19T12:15:40Z",
- "new_articles": 1,
+ "time": "2026-10-19T12:30:54Z",
+ "new_articles": 2,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -16,7 +16,7 @@
    "id": "sitra",
    "state": "ok",
    "fetched": 12,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.sitra.fi/feed/"
@@ -36,7 +36,7 @@
    "id": "climate-home",
    "state": "ok",
    "fetched": 40,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.climatechangenews.com/feed/"
@@ -66,7 +66,7 @@
    "id": "responsible-investor",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.responsible-investor.com/feed/"
