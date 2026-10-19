@@ -1,5 +1,5 @@
 {
- "time": "2026-10-19T15:47:04Z",
+ "time": "2026-10-19T16:33:00Z",
  "new_articles": 1,
  "sources": [
   {
@@ -66,7 +66,7 @@
    "id": "responsible-investor",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.responsible-investor.com/feed/"
@@ -76,7 +76,7 @@
    "id": "euobserver",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://euobserver.com/rss"
