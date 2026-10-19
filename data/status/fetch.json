@@ -1,12 +1,12 @@
 {
- "time": "2026-10-19T01:00:57Z",
- "new_articles": 0,
+ "time": "2026-10-19T01:15:36Z",
+ "new_articles": 2,
  "sources": [
   {
    "id": "yle-uutiset",
    "state": "ok",
    "fetched": 34,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
@@ -107,7 +107,7 @@
    "id": "mt",
    "state": "ok",
    "fetched": 100,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.maaseuduntulevaisuus.fi/rss"
