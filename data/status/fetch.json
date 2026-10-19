@@ -1,12 +1,12 @@
 {
- "time": "2026-10-19T02:00:59Z",
- "new_articles": 15,
+ "time": "2026-10-19T02:15:36Z",
+ "new_articles": 2,
  "sources": [
   {
    "id": "yle-uutiset",
    "state": "ok",
    "fetched": 34,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
@@ -37,7 +37,7 @@
    "id": "svenska-yle",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://svenska.yle.fi/rss/articles/all"
@@ -77,7 +77,7 @@
    "id": "mtv",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.mtvuutiset.fi/api/feed/rss/uutiset_uusimmat"
@@ -87,7 +87,7 @@
    "id": "kauppalehti",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://feeds.kauppalehti.fi/rss/main"
@@ -127,7 +127,7 @@
    "id": "ts",
    "state": "ok",
    "fetched": 50,
-   "new": 6,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.ts.fi/rss.xml"
@@ -137,7 +137,7 @@
    "id": "kaleva",
    "state": "ok",
    "fetched": 25,
-   "new": 3,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.kaleva.fi/feedit/rss/managed-listing/rss-uusimmat/"
@@ -147,7 +147,7 @@
    "id": "hbl",
    "state": "ok",
    "fetched": 50,
-   "new": 3,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.hbl.fi/rss"
