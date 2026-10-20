@@ -1,37 +1,37 @@
 {
- "time": "2026-10-20T12:01:03Z",
- "new_articles": 9,
+ "time": "2026-10-20T12:08:09Z",
+ "new_articles": 6,
  "sources": [
   {
    "id": "yle-uutiset",
-   "state": "ok",
-   "fetched": 33,
-   "new": 2,
-   "errors": [],
-   "feeds_used": [
-    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
-    "https://feeds.yle.fi/uutiset/v1/majorHeadlines/YLE_UUTISET.rss"
-   ]
+   "state": "failed",
+   "fetched": 0,
+   "new": 0,
+   "errors": [
+    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET: ParseError: no element found: line 1, column 0",
+    "https://feeds.yle.fi/uutiset/v1/majorHeadlines/YLE_UUTISET.rss: ParseError: no element found: line 1, column 0"
+   ],
+   "feeds_used": []
   },
   {
    "id": "yle-urheilu",
-   "state": "ok",
-   "fetched": 20,
-   "new": 1,
-   "errors": [],
-   "feeds_used": [
-    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_URHEILU"
-   ]
+   "state": "failed",
+   "fetched": 0,
+   "new": 0,
+   "errors": [
+    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_URHEILU: ParseError: no element found: line 1, column 0"
+   ],
+   "feeds_used": []
   },
   {
    "id": "yle-news",
-   "state": "ok",
-   "fetched": 20,
+   "state": "failed",
+   "fetched": 0,
    "new": 0,
-   "errors": [],
-   "feeds_used": [
-    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS"
-   ]
+   "errors": [
+    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS: ParseError: no element found: line 1, column 0"
+   ],
+   "feeds_used": []
   },
   {
    "id": "svenska-yle",
@@ -47,7 +47,7 @@
    "id": "hs",
    "state": "ok",
    "fetched": 100,
-   "new": 2,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.hs.fi/rss/tuoreimmat.xml"
@@ -67,7 +67,7 @@
    "id": "il",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 2,
    "errors": [],
    "feeds_used": [
     "https://www.iltalehti.fi/rss/uutiset.xml"
@@ -87,7 +87,7 @@
    "id": "kauppalehti",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://feeds.kauppalehti.fi/rss/main"
@@ -147,7 +147,7 @@
    "id": "hbl",
    "state": "ok",
    "fetched": 50,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.hbl.fi/rss"
@@ -159,10 +159,7 @@
    "fetched": 0,
    "new": 0,
    "errors": [
-    "https://www.uusisuomi.fi/rss/uusimmat.xml: HTTPError: HTTP Error 404: Not Found",
-    "https://www.uusisuomi.fi/rss/uutiset.xml: HTTPError: HTTP Error 404: Not Found",
-    "https://www.uusisuomi.fi/feed: HTTPError: HTTP Error 404: Not Found",
-    "https://www.uusisuomi.fi/api/feed/rss: HTTPError: HTTP Error 404: Not Found"
+    "robots.txt disallows https://www.uusisuomi.fi/rss/uusimmat.xml"
    ],
    "feeds_used": []
   }
