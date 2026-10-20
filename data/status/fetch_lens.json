@@ -1,6 +1,6 @@
 {
- "time": "2026-10-20T09:15:37Z",
- "new_articles": 1,
+ "time": "2026-10-20T09:30:49Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -64,26 +64,19 @@
   },
   {
    "id": "responsible-investor",
-   "state": "partial",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 10,
    "new": 0,
-   "errors": [
-    "https://www.responsible-investor.com/feed/: HTTPError: HTTP Error 401: Unauthorized",
-    "https://www.responsible-investor.com/comments/feed/: HTTPError: HTTP Error 401: Unauthorized"
-   ],
+   "errors": [],
    "feeds_used": [
-    "https://www.responsible-investor.com/infrastructure-investor-3/feed/"
-   ],
-   "discovered": [
-    "https://www.responsible-investor.com/comments/feed/",
-    "https://www.responsible-investor.com/infrastructure-investor-3/feed/"
+    "https://www.responsible-investor.com/feed/"
    ]
   },
   {
    "id": "euobserver",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://euobserver.com/rss"
