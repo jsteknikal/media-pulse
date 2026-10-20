@@ -1,43 +1,43 @@
 {
- "time": "2026-10-20T12:30:50Z",
- "new_articles": 12,
+ "time": "2026-10-20T12:45:37Z",
+ "new_articles": 20,
  "sources": [
   {
    "id": "yle-uutiset",
-   "state": "failed",
-   "fetched": 0,
-   "new": 0,
-   "errors": [
-    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET: ParseError: no element found: line 1, column 0",
-    "https://feeds.yle.fi/uutiset/v1/majorHeadlines/YLE_UUTISET.rss: ParseError: no element found: line 1, column 0"
-   ],
-   "feeds_used": []
+   "state": "ok",
+   "fetched": 33,
+   "new": 8,
+   "errors": [],
+   "feeds_used": [
+    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
+    "https://feeds.yle.fi/uutiset/v1/majorHeadlines/YLE_UUTISET.rss"
+   ]
   },
   {
    "id": "yle-urheilu",
-   "state": "failed",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 20,
    "new": 0,
-   "errors": [
-    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_URHEILU: ParseError: no element found: line 1, column 0"
-   ],
-   "feeds_used": []
+   "errors": [],
+   "feeds_used": [
+    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_URHEILU"
+   ]
   },
   {
    "id": "yle-news",
-   "state": "failed",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 20,
    "new": 0,
-   "errors": [
-    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS: ParseError: no element found: line 1, column 0"
-   ],
-   "feeds_used": []
+   "errors": [],
+   "feeds_used": [
+    "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS"
+   ]
   },
   {
    "id": "svenska-yle",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 2,
    "errors": [],
    "feeds_used": [
     "https://svenska.yle.fi/rss/articles/all"
@@ -47,7 +47,7 @@
    "id": "hs",
    "state": "ok",
    "fetched": 100,
-   "new": 3,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.hs.fi/rss/tuoreimmat.xml"
@@ -57,7 +57,7 @@
    "id": "is",
    "state": "ok",
    "fetched": 100,
-   "new": 2,
+   "new": 3,
    "errors": [],
    "feeds_used": [
     "https://www.is.fi/rss/tuoreimmat.xml"
@@ -77,7 +77,7 @@
    "id": "mtv",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.mtvuutiset.fi/api/feed/rss/uutiset_uusimmat"
@@ -117,7 +117,7 @@
    "id": "aamulehti",
    "state": "ok",
    "fetched": 100,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.aamulehti.fi/rss/tuoreimmat.xml"
@@ -127,7 +127,7 @@
    "id": "ts",
    "state": "ok",
    "fetched": 50,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.ts.fi/rss.xml"
@@ -147,7 +147,7 @@
    "id": "hbl",
    "state": "ok",
    "fetched": 50,
-   "new": 2,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.hbl.fi/rss"
