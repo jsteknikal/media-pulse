@@ -1,6 +1,6 @@
 {
- "time": "2026-10-21T15:15:38Z",
- "new_articles": 1,
+ "time": "2026-10-21T15:30:53Z",
+ "new_articles": 2,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -46,7 +46,7 @@
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
