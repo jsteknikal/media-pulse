@@ -1,6 +1,6 @@
 {
- "time": "2026-10-21T14:06:27Z",
- "new_articles": 0,
+ "time": "2026-10-21T14:15:40Z",
+ "new_articles": 6,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -56,7 +56,7 @@
    "id": "esg-news",
    "state": "ok",
    "fetched": 50,
-   "new": 0,
+   "new": 6,
    "errors": [],
    "feeds_used": [
     "https://esgnews.com/feed/"
@@ -64,19 +64,12 @@
   },
   {
    "id": "responsible-investor",
-   "state": "partial",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 10,
    "new": 0,
-   "errors": [
-    "https://www.responsible-investor.com/feed/: TimeoutError: The read operation timed out"
-   ],
+   "errors": [],
    "feeds_used": [
-    "https://www.responsible-investor.com/comments/feed/",
-    "https://www.responsible-investor.com/infrastructure-investor-3/feed/"
-   ],
-   "discovered": [
-    "https://www.responsible-investor.com/comments/feed/",
-    "https://www.responsible-investor.com/infrastructure-investor-3/feed/"
+    "https://www.responsible-investor.com/feed/"
    ]
   },
   {
