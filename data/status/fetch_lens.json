@@ -1,5 +1,5 @@
 {
- "time": "2026-10-21T16:15:38Z",
+ "time": "2026-10-21T16:30:54Z",
  "new_articles": 0,
  "sources": [
   {
@@ -14,13 +14,13 @@
   },
   {
    "id": "sitra",
-   "state": "failed",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 12,
    "new": 0,
-   "errors": [
-    "https://www.sitra.fi/feed/: HTTPError: HTTP Error 502: Bad Gateway"
-   ],
-   "feeds_used": []
+   "errors": [],
+   "feeds_used": [
+    "https://www.sitra.fi/feed/"
+   ]
   },
   {
    "id": "carbon-brief",
