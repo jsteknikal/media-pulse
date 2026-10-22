@@ -1,6 +1,6 @@
 {
- "time": "2026-10-22T00:45:33Z",
- "new_articles": 0,
+ "time": "2026-10-22T01:01:02Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "yle-uutiset",
@@ -107,7 +107,7 @@
    "id": "mt",
    "state": "ok",
    "fetched": 100,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.maaseuduntulevaisuus.fi/rss"
