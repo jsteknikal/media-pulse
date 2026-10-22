@@ -1,6 +1,6 @@
 {
- "time": "2026-10-22T10:30:51Z",
- "new_articles": 2,
+ "time": "2026-10-22T10:45:36Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -46,7 +46,7 @@
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
@@ -66,7 +66,7 @@
    "id": "responsible-investor",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.responsible-investor.com/feed/"
@@ -76,7 +76,7 @@
    "id": "euobserver",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://euobserver.com/rss"
