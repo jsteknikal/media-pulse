@@ -1,11 +1,11 @@
 {
- "time": "2026-10-22T22:15:37Z",
+ "time": "2026-10-22T22:30:53Z",
  "new_articles": 0,
  "sources": [
   {
    "id": "yle-uutiset",
    "state": "ok",
-   "fetched": 32,
+   "fetched": 33,
    "new": 0,
    "errors": [],
    "feeds_used": [
