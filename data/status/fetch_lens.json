@@ -1,6 +1,6 @@
 {
- "time": "2026-10-23T11:45:37Z",
- "new_articles": 1,
+ "time": "2026-10-23T12:01:03Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -36,7 +36,7 @@
    "id": "climate-home",
    "state": "ok",
    "fetched": 40,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.climatechangenews.com/feed/"
