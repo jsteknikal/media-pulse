@@ -1,5 +1,5 @@
 {
- "time": "2026-10-24T02:01:00Z",
+ "time": "2026-10-24T02:15:35Z",
  "new_articles": 0,
  "sources": [
   {
@@ -54,13 +54,13 @@
   },
   {
    "id": "esg-news",
-   "state": "failed",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 50,
    "new": 0,
-   "errors": [
-    "https://esgnews.com/feed/: TimeoutError: The read operation timed out"
-   ],
-   "feeds_used": []
+   "errors": [],
+   "feeds_used": [
+    "https://esgnews.com/feed/"
+   ]
   },
   {
    "id": "responsible-investor",
