@@ -1,12 +1,12 @@
 {
- "time": "2026-10-24T21:30:49Z",
- "new_articles": 0,
+ "time": "2026-10-24T21:45:34Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "yle-uutiset",
    "state": "ok",
    "fetched": 32,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
