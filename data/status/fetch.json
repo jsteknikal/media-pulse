@@ -1,6 +1,6 @@
 {
- "time": "2026-10-25T12:45:35Z",
- "new_articles": 3,
+ "time": "2026-10-25T13:01:01Z",
+ "new_articles": 9,
  "sources": [
   {
    "id": "yle-uutiset",
@@ -57,7 +57,7 @@
    "id": "is",
    "state": "ok",
    "fetched": 100,
-   "new": 1,
+   "new": 2,
    "errors": [],
    "feeds_used": [
     "https://www.is.fi/rss/tuoreimmat.xml"
@@ -87,7 +87,7 @@
    "id": "kauppalehti",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 2,
    "errors": [],
    "feeds_used": [
     "https://feeds.kauppalehti.fi/rss/main"
@@ -117,7 +117,7 @@
    "id": "aamulehti",
    "state": "ok",
    "fetched": 99,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.aamulehti.fi/rss/tuoreimmat.xml"
@@ -137,7 +137,7 @@
    "id": "kaleva",
    "state": "ok",
    "fetched": 25,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.kaleva.fi/feedit/rss/managed-listing/rss-uusimmat/"
@@ -147,7 +147,7 @@
    "id": "hbl",
    "state": "ok",
    "fetched": 50,
-   "new": 0,
+   "new": 2,
    "errors": [],
    "feeds_used": [
     "https://www.hbl.fi/rss"
