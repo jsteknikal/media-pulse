@@ -1,12 +1,12 @@
 {
- "time": "2026-10-26T12:01:03Z",
+ "time": "2026-10-26T12:15:34Z",
  "new_articles": 1,
  "sources": [
   {
    "id": "uusiouutiset",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.uusiouutiset.fi/feed/"
@@ -34,19 +34,19 @@
   },
   {
    "id": "climate-home",
-   "state": "failed",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 40,
    "new": 0,
-   "errors": [
-    "https://www.climatechangenews.com/feed/: TimeoutError: The read operation timed out"
-   ],
-   "feeds_used": []
+   "errors": [],
+   "feeds_used": [
+    "https://www.climatechangenews.com/feed/"
+   ]
   },
   {
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
