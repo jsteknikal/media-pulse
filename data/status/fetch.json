@@ -1,6 +1,6 @@
 {
- "time": "2026-10-26T05:30:48Z",
- "new_articles": 3,
+ "time": "2026-10-26T05:45:35Z",
+ "new_articles": 8,
  "sources": [
   {
    "id": "yle-uutiset",
@@ -37,7 +37,7 @@
    "id": "svenska-yle",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://svenska.yle.fi/rss/articles/all"
@@ -47,7 +47,7 @@
    "id": "hs",
    "state": "ok",
    "fetched": 99,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.hs.fi/rss/tuoreimmat.xml"
@@ -57,7 +57,7 @@
    "id": "is",
    "state": "ok",
    "fetched": 100,
-   "new": 1,
+   "new": 5,
    "errors": [],
    "feeds_used": [
     "https://www.is.fi/rss/tuoreimmat.xml"
@@ -117,7 +117,7 @@
    "id": "aamulehti",
    "state": "ok",
    "fetched": 99,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.aamulehti.fi/rss/tuoreimmat.xml"
