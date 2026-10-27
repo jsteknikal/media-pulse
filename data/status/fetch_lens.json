@@ -1,6 +1,6 @@
 {
- "time": "2026-10-27T23:01:02Z",
- "new_articles": 0,
+ "time": "2026-10-27T23:15:36Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -76,7 +76,7 @@
    "id": "euobserver",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://euobserver.com/rss"
