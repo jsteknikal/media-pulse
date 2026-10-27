@@ -1,6 +1,6 @@
 {
- "time": "2026-10-27T22:45:36Z",
- "new_articles": 1,
+ "time": "2026-10-27T23:01:02Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "yle-uutiset",
@@ -57,7 +57,7 @@
    "id": "is",
    "state": "ok",
    "fetched": 100,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.is.fi/rss/tuoreimmat.xml"
