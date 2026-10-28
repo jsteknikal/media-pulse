@@ -1,6 +1,6 @@
 {
- "time": "2026-10-28T15:45:35Z",
- "new_articles": 0,
+ "time": "2026-10-28T16:01:06Z",
+ "new_articles": 4,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -36,7 +36,7 @@
    "id": "climate-home",
    "state": "ok",
    "fetched": 40,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.climatechangenews.com/feed/"
@@ -46,7 +46,7 @@
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
@@ -66,7 +66,7 @@
    "id": "responsible-investor",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 2,
    "errors": [],
    "feeds_used": [
     "https://www.responsible-investor.com/feed/"
