@@ -1,12 +1,12 @@
 {
- "time": "2026-10-28T09:30:51Z",
- "new_articles": 0,
+ "time": "2026-10-28T09:45:40Z",
+ "new_articles": 2,
  "sources": [
   {
    "id": "uusiouutiset",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.uusiouutiset.fi/feed/"
@@ -44,17 +44,12 @@
   },
   {
    "id": "esg-today",
-   "state": "partial",
+   "state": "ok",
    "fetched": 10,
-   "new": 0,
-   "errors": [
-    "https://www.esgtoday.com/feed/: TimeoutError: The read operation timed out"
-   ],
+   "new": 1,
+   "errors": [],
    "feeds_used": [
-    "https://www.esgtoday.com/comments/feed/"
-   ],
-   "discovered": [
-    "https://www.esgtoday.com/comments/feed/"
+    "https://www.esgtoday.com/feed/"
    ]
   },
   {
