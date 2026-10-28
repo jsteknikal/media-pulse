@@ -1,12 +1,12 @@
 {
- "time": "2026-10-28T11:15:37Z",
- "new_articles": 0,
+ "time": "2026-10-28T11:30:52Z",
+ "new_articles": 3,
  "sources": [
   {
    "id": "uusiouutiset",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.uusiouutiset.fi/feed/"
@@ -16,7 +16,7 @@
    "id": "sitra",
    "state": "ok",
    "fetched": 12,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.sitra.fi/feed/"
@@ -46,7 +46,7 @@
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
