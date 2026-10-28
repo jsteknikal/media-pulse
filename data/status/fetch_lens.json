@@ -1,6 +1,6 @@
 {
- "time": "2026-10-28T16:01:06Z",
- "new_articles": 4,
+ "time": "2026-10-28T16:15:40Z",
+ "new_articles": 6,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -36,7 +36,7 @@
    "id": "climate-home",
    "state": "ok",
    "fetched": 40,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.climatechangenews.com/feed/"
@@ -46,7 +46,7 @@
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
@@ -56,7 +56,7 @@
    "id": "esg-news",
    "state": "ok",
    "fetched": 50,
-   "new": 0,
+   "new": 4,
    "errors": [],
    "feeds_used": [
     "https://esgnews.com/feed/"
@@ -66,7 +66,7 @@
    "id": "responsible-investor",
    "state": "ok",
    "fetched": 10,
-   "new": 2,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.responsible-investor.com/feed/"
@@ -76,7 +76,7 @@
    "id": "euobserver",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://euobserver.com/rss"
