@@ -14,6 +14,7 @@ from common import (
     SITE_DATA_DIR, SignalMatcher, ThemeMatcher, capitalized_words, entity_key, iso, load_config, local_date, now_utc,
     parse_iso, stem, tokens, write_json,
 )
+from compare import active_during, compare_story
 from fetch_rss import load_articles
 
 HISTORY_DAYS = 120          # days of history loaded and charted
@@ -338,6 +339,7 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
             "entities": [display_name(k) for k, _ in ec.most_common(5)],
             "first_source": min(members, key=lambda m: m["_dt"])["source"],
             "heat": round(heat, 3), "reach_h": reach_h,
+            "_members": members, "_last": c["last"],
             "articles": [
                 {"t": m["title"], "u": m["url"], "s": m["source"], "p": m["published"]}
                 for m in sorted(members, key=lambda m: m["_dt"])[:40]
@@ -345,6 +347,13 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         })
     stories.sort(key=lambda s: -s["heat"])
     stories = stories[:120]
+    for s in stories:  # cross-outlet comparison, only for the stories that are published
+        members, last = s.pop("_members"), s.pop("_last")
+        first = parse_iso(s["first_seen"])
+        cmp = compare_story(members, src_by_id, active_during(story_arts, first, last), s["themes"])
+        s["independent"] = cmp["independent"]
+        s["missing_n"] = len(cmp["missing"])
+        s["compare"] = cmp
 
     # ---- per-theme detail files
     band_cache = {}
@@ -397,11 +406,20 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         "dates": dates, "totals": day_total,
         "themes": [{"id": t, **theme_stats[t], "spark": theme_series[t][-30:]} for t in ranked_themes],
         "series": theme_series,
-        "stories": [{k: v for k, v in s.items() if k != "articles"} for s in stories[:12]],
+        "stories": [{k: v for k, v in s.items() if k not in ("articles", "compare")} for s in stories[:12]],
         "rising_entities": rising_entities,
         "top_entities": ent_rows[:15],
     })
-    write_json(SITE_DATA_DIR / "stories.json", {"updated": iso(now), "stories": stories})
+    write_json(SITE_DATA_DIR / "stories.json", {"updated": iso(now), "stories": [
+        {k: v for k, v in s.items() if k != "compare"} for s in stories]})
+    story_dir = SITE_DATA_DIR / "stories"
+    keep_files = set()
+    for s in stories:  # one comparison file per story, loaded only on the story page
+        write_json(story_dir / f"{s['id']}.json", {"updated": iso(now), "id": s["id"], **s["compare"]})
+        keep_files.add(f"{s['id']}.json")
+    for f in story_dir.glob("*.json"):
+        if f.name not in keep_files:
+            f.unlink()
     write_json(SITE_DATA_DIR / "climate.json", build_climate(
         now, arts, dates, day_total, base_idx, enough_baseline, trend_start, signals_cfg, themes_cfg,
         theme_stats, stories, win))
