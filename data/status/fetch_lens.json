@@ -1,6 +1,6 @@
 {
- "time": "2026-10-30T10:01:05Z",
- "new_articles": 0,
+ "time": "2026-10-30T10:15:35Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -66,7 +66,7 @@
    "id": "responsible-investor",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.responsible-investor.com/feed/"
