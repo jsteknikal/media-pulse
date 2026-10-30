@@ -1,6 +1,6 @@
 {
- "time": "2026-10-30T10:30:49Z",
- "new_articles": 1,
+ "time": "2026-10-30T10:45:34Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -34,19 +34,19 @@
   },
   {
    "id": "climate-home",
-   "state": "ok",
-   "fetched": 40,
+   "state": "failed",
+   "fetched": 0,
    "new": 0,
-   "errors": [],
-   "feeds_used": [
-    "https://www.climatechangenews.com/feed/"
-   ]
+   "errors": [
+    "https://www.climatechangenews.com/feed/: TimeoutError: The read operation timed out"
+   ],
+   "feeds_used": []
   },
   {
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
