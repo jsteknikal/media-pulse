@@ -29,6 +29,30 @@
       topStories: "Tarinat nyt", topStoriesNote: "Usean median samasta aiheesta tekemät jutut, ryhmiteltynä.",
       risingNames: "Nousevat nimet", mostNamed: "Mainituimmat 30 pv",
       articles: "artikkelia", outlets: "mediaa", firstBy: "Ensimmäisenä",
+      cmp: {
+        newsrooms: "toimitusta", spread: (h) => `levisi ${h}`, first: "ensin",
+        coverTitle: "Kuka kertoi, kuka ei", coverNote: "Mediat, jotka julkaisivat jotain tarinan aikana. Saman talon syötteet (esim. Ylen) lasketaan yhdeksi toimitukseksi.",
+        coverLead: (n, k) => `${n} ${n === 1 ? "media kertoi" : "mediaa kertoi"} tarinasta${k ? `, ${k} ${k === 1 ? "itsenäinen toimitus" : "itsenäistä toimitusta"}` : ""}.`,
+        notCovered: (list) => `Ei kertonut: ${list}.`, allCovered: "Kaikki aktiiviset mediat kertoivat tarinasta.",
+        sideTitle: "Otsikot rinnakkain", sideNote: "Kunkin median ensimmäinen otsikko ja ingressi syötteestä. Korostetut sanat ovat vain tämän median otsikossa.",
+        consensus: "Useimmissa otsikoissa", sameText: (list) => `Sama teksti kuin: ${list}`,
+        more: (n) => `${n} muuta juttua`, restInTimeline: (n) => `+ ${n} muuta, ks. aikajana alla`, open: "Avaa alkuperäinen",
+        frameTitle: "Miten otsikot on kehystetty", frameNote: "Otsikosta näkyvät piirteet. Sääntöpohjainen ja suuntaa antava: ei arvota, vain osoittaa eroja.",
+        noFrames: "Otsikot ovat tyyliltään samankaltaisia: ei kysymyksiä, lainauksia tai latautuneita sanoja.",
+        flags: {
+          quote: "Lainaus", speaker: "Puhuja edellä", attributed: "Toisen median tieto", question: "Kysymys",
+          exclaim: "Huutomerkki", emotive: "Latautunut sana", number: "Luku", opinion: "Mielipide tai analyysi", live: "Seuranta", video: "Video",
+        },
+        flagHelp: {
+          quote: "Otsikossa on suora lainaus.", speaker: "Otsikko alkaa puhujan nimellä (”Orpo: …”).",
+          attributed: "Otsikko kertoo tiedon tulevan toiselta medialta (”Yle: …”).", question: "Otsikko on kysymys.",
+          exclaim: "Otsikossa on huutomerkki.", emotive: "Otsikossa on tunnetta korostava sana.", number: "Otsikossa on luku.",
+          opinion: "Merkitty mielipiteeksi, kolumniksi tai analyysiksi.", live: "Merkitty seurannaksi tai suoraksi lähetykseksi.", video: "Merkitty videoksi.",
+        },
+        timeTitle: "Aikajana", allArticles: (n) => `Kaikki ${n} juttua`,
+        method: "Vertailu tehdään vain syötteiden otsikoista ja ingresseistä: artikkeleita ei tallenneta, ja linkit vievät alkuperäisiin juttuihin. Ryhmittely, sanavalinnat ja kehystys ovat automaattisia ja likimääräisiä.",
+        loadError: "Vertailua ei saatu ladattua.",
+      },
       allStories: "Kaikki tarinat", noStories: "Ei vielä tarinoita, joita useampi media olisi uutisoinut.",
       share: "Osuus uutisista", normalRange: "Normaali vaihteluväli", normal: "normaali",
       themeStatement: (th, now, base) => `${th}: ${now} uutisista viimeiset 48 tuntia. Normaali osuus on ${base}.`,
@@ -135,6 +159,30 @@
       topStories: "Stories now", topStoriesNote: "Coverage of the same event by several outlets, grouped.",
       risingNames: "Rising names", mostNamed: "Most mentioned, 30 days",
       articles: "articles", outlets: "outlets", firstBy: "First by",
+      cmp: {
+        newsrooms: "newsrooms", spread: (h) => `spread over ${h}`, first: "first",
+        coverTitle: "Who covered it, who didn't", coverNote: "Outlets that published anything while the story ran. Feeds from the same house (e.g. Yle) count as one newsroom.",
+        coverLead: (n, k) => `${n} ${n === 1 ? "outlet" : "outlets"} covered the story${k ? `, ${k} independent ${k === 1 ? "newsroom" : "newsrooms"}` : ""}.`,
+        notCovered: (list) => `Not covered by ${list}.`, allCovered: "Every active outlet covered the story.",
+        sideTitle: "Headlines side by side", sideNote: "Each outlet's first headline and the lede from its feed. Highlighted words appear only in that outlet's headline.",
+        consensus: "In most headlines", sameText: (list) => `Same text as ${list}`,
+        more: (n) => `${n} more ${n === 1 ? "article" : "articles"}`, restInTimeline: (n) => `+ ${n} more in the timeline below`, open: "Open original",
+        frameTitle: "How the headlines are framed", frameNote: "Traits visible in the headline. Rule-based and approximate: it does not judge, it shows differences.",
+        noFrames: "The headlines are alike in style: no questions, quotes or charged words.",
+        flags: {
+          quote: "Quote", speaker: "Speaker first", attributed: "Credits another outlet", question: "Question",
+          exclaim: "Exclamation", emotive: "Charged word", number: "Number", opinion: "Opinion or analysis", live: "Live", video: "Video",
+        },
+        flagHelp: {
+          quote: "The headline contains a direct quote.", speaker: "The headline opens with a speaker's name (\u201cOrpo: …\u201d).",
+          attributed: "The headline credits another outlet (\u201cYle: …\u201d).", question: "The headline is a question.",
+          exclaim: "The headline has an exclamation mark.", emotive: "The headline uses an emotionally charged word.", number: "The headline contains a number.",
+          opinion: "Labelled as opinion, column or analysis.", live: "Labelled as live coverage.", video: "Labelled as video.",
+        },
+        timeTitle: "Timeline", allArticles: (n) => `All ${n} articles`,
+        method: "The comparison uses only headlines and ledes from the feeds: no articles are stored, and links open the original stories. Grouping, word choice and framing are automatic and approximate.",
+        loadError: "The comparison could not be loaded.",
+      },
       allStories: "All stories", noStories: "No stories covered by several outlets yet.",
       share: "Share of news", normalRange: "Normal range", normal: "normal",
       themeStatement: (th, now, base) => `${th}: ${now} of news in the last 48 hours. Its normal share is ${base}.`,
@@ -705,7 +753,7 @@
   }
   function storyItem(s) {
     return `<li><a class="story-title" href="#/story/${esc(s.id)}">${esc(s.label)}</a>
-      <div class="small">${num(s.n)} ${esc(t().articles)} · ${s.sources.length} ${esc(t().outlets)} · ${esc(t().firstBy)} ${esc(sourceName(s.first_source))}, ${esc(fmtTime(s.first_seen))}</div>
+      <div class="small">${num(s.n)} ${esc(t().articles)} · ${s.sources.length} ${esc(t().outlets)}${s.independent && s.independent < s.sources.length ? ` (${num(s.independent)} ${esc(t().cmp.newsrooms)})` : ""} · ${esc(t().firstBy)} ${esc(sourceName(s.first_source))}, ${esc(fmtTime(s.first_seen))}</div>
       <div style="margin-top:6px">${themeTags(s.themes)}</div></li>`;
   }
 
@@ -725,19 +773,87 @@
     render();
   }
 
+  const FLAG_ORDER = ["quote", "speaker", "attributed", "question", "exclaim", "emotive", "opinion", "live", "video", "number"];
+  const fmtDelay = (h, isFirst) => {
+    const C = t().cmp;
+    if (isFirst) return C.first;
+    if (h < 1) return `+${Math.max(1, Math.round(h * 60))} min`;
+    if (h < 48) return `+${new Intl.NumberFormat(locale(), { maximumFractionDigits: h < 10 ? 1 : 0 }).format(h)} h`;
+    return `+${Math.round(h / 24)} ${lang === "fi" ? "vrk" : "d"}`;
+  };
+  const fmtSpan = (h) => (h < 1 ? `${Math.max(1, Math.round(h * 60))} min` : h < 48 ? `${new Intl.NumberFormat(locale(), { maximumFractionDigits: h < 10 ? 1 : 0 }).format(h)} h` : `${Math.round(h / 24)} ${lang === "fi" ? "vrk" : "d"}`);
+
+  // Wrap the words that only this outlet used. Matching mirrors the pipeline's tokens(): lowercase, "EU:n" -> "eu".
+  function markOwn(title, own) {
+    const set = new Set((own || []).map((w) => w.toLowerCase()));
+    if (!set.size) return esc(title);
+    return title.split(/([\p{L}\p{N}][\p{L}\p{N}:\-­]*)/u).map((part, i) => {
+      if (i % 2 === 0) return esc(part);
+      const key = part.toLowerCase().replace(/­/g, "").split(":")[0];
+      const hit = set.has(key) || key.split("-").some((p) => set.has(p));
+      return hit ? `<mark class="own">${esc(part)}</mark>` : esc(part);
+    }).join("");
+  }
+
+  function outletCard(o, C, nameOf, shared, isFirst) {
+    const sharedWith = o.shared !== null && o.shared !== undefined ? shared[o.shared].filter((x) => x !== o.s) : [];
+    const flags = FLAG_ORDER.filter((f) => o.frame.flags.includes(f));
+    return `<article class="cmp-card${isFirst ? " is-first" : ""}">
+      <header class="cmp-head"><h3>${esc(nameOf(o.s))}</h3>
+        <span class="cmp-time"><span class="delay">${esc(fmtDelay(o.delay_h, isFirst))}</span> · ${esc(fmtTime(o.first))}</span></header>
+      <a class="cmp-title" href="${esc(o.u)}" target="_blank" rel="noopener">${markOwn(o.t, o.own)}<span class="sr-only"> (${esc(C.open)})</span></a>
+      ${o.l ? `<p class="cmp-lede">${esc(o.l)}</p>` : ""}
+      ${flags.length || sharedWith.length ? `<div class="cmp-flags">${flags.map((f) => `<span class="flag" title="${esc(C.flagHelp[f])}">${esc(C.flags[f])}${f === "emotive" && o.frame.emotive.length ? `: ${esc(o.frame.emotive.join(", "))}` : ""}</span>`).join("")}${sharedWith.length ? `<span class="flag shared">${esc(C.sameText(listJoin(sharedWith.map(nameOf))))}</span>` : ""}</div>` : ""}
+      ${o.more?.length ? `<details class="cmp-more"><summary>${esc(C.more(o.n - 1))}</summary><ul>${o.more.map((m) => `<li><a href="${esc(m.u)}" target="_blank" rel="noopener">${esc(m.t)}</a> <span class="small">${esc(fmtTime(m.p))}</span></li>`).join("")}${o.n - 1 > o.more.length ? `<li class="small">${esc(C.restInTimeline(o.n - 1 - o.more.length))}</li>` : ""}</ul></details>` : ""}
+    </article>`;
+  }
+
   async function viewStory(id) {
     const S = await load("stories");
     const s = S.stories.find((x) => x.id === id);
     if (!s) { app.innerHTML = `<p class="notice">${esc(t().noStories)}</p>`; return; }
-    app.innerHTML = `
+    let D = null;
+    try { D = await load(`stories/${id}`); } catch (e) { D = null; }
+    const C = t().cmp;
+    const head = `
       <section class="lede-block"><p class="small"><a href="#/stories">${esc(t().nav.stories)}</a></p>
-        <h1 class="statement">${esc(s.label)}</h1>
+        <h1 class="statement">${esc(s.label.replace(/­/g, ""))}</h1>
         <div class="meta-line"><span><strong>${num(s.n)}</strong> ${esc(t().articles)}</span><span><strong>${s.sources.length}</strong> ${esc(t().outlets)}</span>
-          <span>${esc(t().firstBy)} <strong>${esc(sourceName(s.first_source))}</strong>, ${esc(fmtTime(s.first_seen))}</span>${themeTags(s.themes)}</div>
+          ${D ? `<span><strong>${num(D.independent)}</strong> ${esc(C.newsrooms)}</span>` : ""}
+          <span>${esc(t().firstBy)} <strong>${esc(sourceName(s.first_source))}</strong>, ${esc(fmtTime(s.first_seen))}</span>
+          ${D && D.spread_h > 0 ? `<span>${esc(C.spread(fmtSpan(D.spread_h)))}</span>` : ""}${themeTags(s.themes)}</div>
         ${s.entities?.length ? `<p class="small" style="margin-top:8px">${esc(s.entities.join(", "))}</p>` : ""}
+      </section>`;
+    const timeline = `
+      <section class="section"><div class="section-head"><h2>${esc(C.timeTitle)}</h2></div>
+        <div class="panel chart-wrap"><div class="chart" id="storyTimeline"></div></div>
+        <details class="cmp-all"><summary>${esc(C.allArticles(s.articles.length))}</summary>
+          <ul class="list">${s.articles.slice().reverse().map((a) => headlineItem({ ...a })).join("")}</ul></details>
+      </section>`;
+    if (!D) {
+      app.innerHTML = head + `<p class="notice">${esc(C.loadError)}</p>` + timeline;
+      dotTimeline(document.getElementById("storyTimeline"), s.articles, { sourceName, fmtTime, label: s.label });
+      return;
+    }
+    const covered = D.outlets.map((o) => o.s);
+    const coverChips = D.outlets.map((o, i) => `<li class="chip on"><span class="dot" aria-hidden="true"></span>${esc(sourceName(o.s))} <span class="when">${esc(fmtDelay(o.delay_h, i === 0))}</span></li>`).join("")
+      + D.missing.map((m) => `<li class="chip off"><span class="dot" aria-hidden="true"></span>${esc(sourceName(m))}<span class="sr-only"> – ${lang === "fi" ? "ei kertonut" : "not covered"}</span></li>`).join("");
+    const frameRows = FLAG_ORDER.map((f) => [f, D.outlets.filter((o) => o.frame.flags.includes(f))]).filter(([, os]) => os.length);
+    app.innerHTML = head + `
+      <section class="section"><div class="section-head"><h2>${esc(C.coverTitle)}</h2><p>${esc(C.coverNote)}</p></div>
+        <p class="section-lead">${esc(C.coverLead(covered.length, D.independent < D.families || D.families < covered.length ? D.independent : 0))}
+          ${esc(D.missing.length ? C.notCovered(listJoin(D.missing.map(sourceName))) : C.allCovered)}</p>
+        <ul class="chips" aria-label="${esc(C.coverTitle)}">${coverChips}</ul>
       </section>
-      <section class="panel chart-wrap"><div class="chart" id="storyTimeline"></div></section>
-      <section class="section"><ul class="list">${s.articles.slice().reverse().map((a) => headlineItem({ ...a })).join("")}</ul></section>`;
+      <section class="section"><div class="section-head"><h2>${esc(C.sideTitle)}</h2><p>${esc(C.sideNote)}</p></div>
+        ${D.consensus?.length ? `<p class="cmp-consensus"><span class="small">${esc(C.consensus)}:</span> ${D.consensus.map((w) => `<span class="word">${esc(w)}</span>`).join(" ")}</p>` : ""}
+        <div class="cmp-grid">${D.outlets.map((o, i) => outletCard(o, C, sourceName, D.shared || [], i === 0)).join("")}</div>
+      </section>
+      <section class="section"><div class="section-head"><h2>${esc(C.frameTitle)}</h2><p>${esc(C.frameNote)}</p></div>
+        ${frameRows.length ? `<dl class="frames">${frameRows.map(([f, os]) => `<div class="frame-row"><dt>${esc(C.flags[f])}<span class="small">${esc(C.flagHelp[f])}</span></dt>
+          <dd><span class="count">${os.length}/${D.outlets.length}</span> ${esc(listJoin(os.map((o) => sourceName(o.s))))}</dd></div>`).join("")}</dl>`
+          : `<p class="empty">${esc(C.noFrames)}</p>`}
+      </section>` + timeline + `<p class="small method">${esc(C.method)}</p>`;
     dotTimeline(document.getElementById("storyTimeline"), s.articles, { sourceName, fmtTime, label: s.label });
   }
 

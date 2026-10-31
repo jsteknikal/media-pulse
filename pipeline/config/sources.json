@@ -1,5 +1,5 @@
 {
- "_note": "Finnish outlets read from public RSS feeds. 'verified' = URL checked by hand. Unverified feeds are tried as-is; if one fails, the pipeline looks for an RSS link on the homepage. Fix or add feeds here and the next run picks them up. Optional 'fallbacks' are tried one by one only when every main feed fails. Set weight to tune influence on trend scores.",
+ "_note": "Finnish outlets read from public RSS feeds. 'verified' = URL checked by hand. Unverified feeds are tried as-is; if one fails, the pipeline looks for an RSS link on the homepage. Fix or add feeds here and the next run picks them up. Optional 'fallbacks' are tried one by one only when every main feed fails. Set weight to tune influence on trend scores. Optional 'family' groups feeds from the same newsroom so a story they all run counts as one independent outlet (e.g. the Yle feeds). Optional 'scope' lists the only themes an outlet is expected to cover (e.g. a sports-only feed); it is then not listed as missing a story outside them.",
  "sources": [
   {
    "id": "yle-uutiset",
@@ -12,7 +12,8 @@
    "feeds": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
     "https://feeds.yle.fi/uutiset/v1/majorHeadlines/YLE_UUTISET.rss"
-   ]
+   ],
+   "family": "yle"
   },
   {
    "id": "yle-urheilu",
@@ -24,6 +25,10 @@
    "verified": true,
    "feeds": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_URHEILU"
+   ],
+   "family": "yle",
+   "scope": [
+    "sport"
    ]
   },
   {
@@ -36,7 +41,8 @@
    "verified": true,
    "feeds": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS"
-   ]
+   ],
+   "family": "yle"
   },
   {
    "id": "svenska-yle",
@@ -48,7 +54,8 @@
    "verified": true,
    "feeds": [
     "https://svenska.yle.fi/rss/articles/all"
-   ]
+   ],
+   "family": "yle"
   },
   {
    "id": "hs",
