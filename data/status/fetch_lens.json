@@ -1,6 +1,6 @@
 {
- "time": "2026-11-03T12:15:37Z",
- "new_articles": 3,
+ "time": "2026-11-03T12:30:51Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -16,7 +16,7 @@
    "id": "sitra",
    "state": "ok",
    "fetched": 12,
-   "new": 2,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.sitra.fi/feed/"
@@ -46,7 +46,7 @@
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
