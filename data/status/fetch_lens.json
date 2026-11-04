@@ -1,6 +1,6 @@
 {
- "time": "2026-11-04T18:30:49Z",
- "new_articles": 0,
+ "time": "2026-11-04T18:45:33Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -34,13 +34,13 @@
   },
   {
    "id": "climate-home",
-   "state": "failed",
-   "fetched": 0,
-   "new": 0,
-   "errors": [
-    "https://www.climatechangenews.com/feed/: TimeoutError: The read operation timed out"
-   ],
-   "feeds_used": []
+   "state": "ok",
+   "fetched": 40,
+   "new": 1,
+   "errors": [],
+   "feeds_used": [
+    "https://www.climatechangenews.com/feed/"
+   ]
   },
   {
    "id": "esg-today",
@@ -54,17 +54,12 @@
   },
   {
    "id": "esg-news",
-   "state": "partial",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 50,
    "new": 0,
-   "errors": [
-    "https://esgnews.com/feed/: TimeoutError: The read operation timed out"
-   ],
+   "errors": [],
    "feeds_used": [
-    "https://esgnews.com/comments/feed/"
-   ],
-   "discovered": [
-    "https://esgnews.com/comments/feed/"
+    "https://esgnews.com/feed/"
    ]
   },
   {
