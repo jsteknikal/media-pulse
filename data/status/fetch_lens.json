@@ -1,6 +1,6 @@
 {
- "time": "2026-11-04T12:00:57Z",
- "new_articles": 2,
+ "time": "2026-11-04T12:15:34Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -16,7 +16,7 @@
    "id": "sitra",
    "state": "ok",
    "fetched": 12,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.sitra.fi/feed/"
@@ -46,7 +46,7 @@
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
@@ -54,12 +54,16 @@
   },
   {
    "id": "esg-news",
-   "state": "ok",
-   "fetched": 50,
+   "state": "failed",
+   "fetched": 0,
    "new": 0,
-   "errors": [],
-   "feeds_used": [
-    "https://esgnews.com/feed/"
+   "errors": [
+    "https://esgnews.com/feed/: TimeoutError: The read operation timed out",
+    "https://esgnews.com/comments/feed/: TimeoutError: The read operation timed out"
+   ],
+   "feeds_used": [],
+   "discovered": [
+    "https://esgnews.com/comments/feed/"
    ]
   },
   {
