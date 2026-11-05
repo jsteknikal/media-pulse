@@ -22,7 +22,7 @@ import fetch_corpus
 
 STATE = DATA_DIR / "arrivals" / "state.json"
 CHECK_EVERY_HOURS = 3        # 8 checks a day, well inside 5,000 requests
-MAX_SIMILAR_PER_RUN = 60     # url queries; text queries are capped at 300 a day by the API
+MAX_SIMILAR_PER_RUN = 45     # url queries; text queries are capped at 300 a day by the API
 RECHECK_HOURS = 6            # a story not yet in Finland is looked for again after this
 STORY_DAYS = 7
 SHOW_DAYS = 14               # a story stays on the page this long after it was last seen abroad
