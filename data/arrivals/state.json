@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-05T13:38:26Z",
+  "last_run": "2026-11-05T15:21:46Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,9 +15,10 @@
    "title",
    "url"
   ],
-  "similar_left": 0,
+  "similar_left": 27,
   "stories_in": 100,
-  "version": 2
+  "version": 2,
+  "subjects_hash": "0ece87575c59"
  },
  "stories": {
   "2984": {
@@ -83,7 +84,11 @@
     "s": null
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true
   },
   "2524": {
    "id": "2524",
@@ -147,7 +152,12 @@
     "s": 0.866
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics",
+    "policy"
+   ],
+   "relevant": true
   },
   "3184": {
    "id": "3184",
@@ -211,7 +221,12 @@
     "s": 0.901
    },
    "fi_count": 4,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true
   },
   "2875": {
    "id": "2875",
@@ -276,7 +291,11 @@
     "s": 0.866
    },
    "fi_count": 7,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "2333": {
    "id": "2333",
@@ -339,7 +358,12 @@
     "s": 0.891
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics",
+    "tech"
+   ],
+   "relevant": true
   },
   "2688": {
    "id": "2688",
@@ -402,7 +426,11 @@
     "s": 0.843
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "business"
+   ],
+   "relevant": true
   },
   "3126": {
    "id": "3126",
@@ -465,7 +493,9 @@
     "s": 0.893
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3258": {
    "id": "3258",
@@ -499,7 +529,12 @@
    "abroad_first": "2026-10-31T14:16:01Z",
    "headline_en": "Ice hockey chiefs mull options on Russia reinstatement",
    "headline_fi": "Suomen jääkiekkoliitto kokoaa boikottirintamaa Venäjää vastaan",
-   "markets_abroad": 1
+   "markets_abroad": 1,
+   "subjects": [
+    "geopolitics",
+    "policy"
+   ],
+   "relevant": false
   },
   "2795": {
    "id": "2795",
@@ -563,7 +598,11 @@
     "s": 0.909
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": false
   },
   "3289": {
    "id": "3289",
@@ -628,7 +667,9 @@
     "s": 0.931
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "2874": {
    "id": "2874",
@@ -678,7 +719,11 @@
    "abroad_first": "2026-10-25T01:23:43Z",
    "headline_en": null,
    "headline_fi": "Saksa | Audin toimitusjohtajaa arvostellaan ankarasti Trumpin tukemisesta",
-   "markets_abroad": 1
+   "markets_abroad": 1,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3404": {
    "id": "3404",
@@ -743,7 +788,9 @@
     "s": null
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3360": {
    "id": "3360",
@@ -806,7 +853,12 @@
     "s": 0.892
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true
   },
   "2338": {
    "id": "2338",
@@ -870,7 +922,12 @@
     "s": 0.862
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true
   },
   "3057": {
    "id": "3057",
@@ -936,7 +993,11 @@
     "s": 0.902
    },
    "fi_count": 5,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3321": {
    "id": "3321",
@@ -1000,7 +1061,11 @@
     "s": null
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true
   },
   "2302": {
    "id": "2302",
@@ -1064,7 +1129,13 @@
     "s": 0.873
    },
    "fi_count": 3,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "policy",
+    "business",
+    "tech"
+   ],
+   "relevant": true
   },
   "3245": {
    "id": "3245",
@@ -1128,7 +1199,11 @@
     "s": 0.848
    },
    "fi_count": 6,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true
   },
   "3190": {
    "id": "3190",
@@ -1193,7 +1268,9 @@
     "s": 0.858
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3430": {
    "id": "3430",
@@ -1242,7 +1319,11 @@
    "abroad_first": "2026-11-03T14:34:53Z",
    "headline_en": "Mississippi U.S. Senate 2026: Live Midterm Election Results, Hyde-Smith vs. Colom",
    "headline_fi": null,
-   "markets_abroad": 1
+   "markets_abroad": 1,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": false
   },
   "2982": {
    "id": "2982",
@@ -1307,7 +1388,9 @@
     "s": 0.873
    },
    "fi_count": 5,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3243": {
    "id": "3243",
@@ -1372,7 +1455,11 @@
     "s": null
    },
    "fi_count": 6,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "2909": {
    "id": "2909",
@@ -1436,7 +1523,12 @@
     "s": null
    },
    "fi_count": 3,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true
   },
   "2790": {
    "id": "2790",
@@ -1499,7 +1591,11 @@
     "s": 0.865
    },
    "fi_count": 3,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3284": {
    "id": "3284",
@@ -1564,7 +1660,11 @@
     "s": 0.884
    },
    "fi_count": 3,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true
   },
   "2574": {
    "id": "2574",
@@ -1619,7 +1719,9 @@
    "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [],
+   "relevant": false
   },
   "3064": {
    "id": "3064",
@@ -1684,7 +1786,9 @@
     "s": 0.861
    },
    "fi_count": 4,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3248": {
    "id": "3248",
@@ -1748,7 +1852,9 @@
     "s": 0.863
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3000": {
    "id": "3000",
@@ -1814,7 +1920,12 @@
     "s": null
    },
    "fi_count": 5,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true
   },
   "3408": {
    "id": "3408",
@@ -1879,7 +1990,9 @@
     "s": null
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3109": {
    "id": "3109",
@@ -1942,7 +2055,11 @@
     "s": 0.846
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "2797": {
    "id": "2797",
@@ -2009,7 +2126,9 @@
     "s": 0.88
    },
    "fi_count": 6,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3049": {
    "id": "3049",
@@ -2074,7 +2193,12 @@
     "s": null
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics",
+    "business"
+   ],
+   "relevant": true
   },
   "2789": {
    "id": "2789",
@@ -2138,7 +2262,9 @@
     "s": 0.872
    },
    "fi_count": 8,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3193": {
    "id": "3193",
@@ -2202,7 +2328,11 @@
     "s": 0.872
    },
    "fi_count": 3,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": false
   },
   "3138": {
    "id": "3138",
@@ -2256,7 +2386,12 @@
    "markets_abroad": 3,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [
+    "geopolitics",
+    "business"
+   ],
+   "relevant": true
   },
   "3198": {
    "id": "3198",
@@ -2318,7 +2453,9 @@
     "s": 0.88
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3044": {
    "id": "3044",
@@ -2367,7 +2504,9 @@
    "abroad_first": "2026-10-26T03:00:58Z",
    "headline_en": "Carabao Cup: Fleetwood Town's Conor Haughey on winning penalty and viral post-match interview",
    "headline_fi": null,
-   "markets_abroad": 1
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
   },
   "3402": {
    "id": "3402",
@@ -2421,7 +2560,9 @@
    "markets_abroad": 3,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [],
+   "relevant": false
   },
   "3238": {
    "id": "3238",
@@ -2474,7 +2615,11 @@
    "markets_abroad": 2,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "2918": {
    "id": "2918",
@@ -2498,7 +2643,9 @@
    "headline_en": null,
    "headline_fi": "Pekka Lehtinen: Makwan Amirkhanin ja Mira Luodin oikeudenkäynnissä erittäin poikkeuksellisia piirteitä",
    "abroad_first": "2026-10-26T10:56:06Z",
-   "markets_abroad": 0
+   "markets_abroad": 0,
+   "subjects": [],
+   "relevant": false
   },
   "3242": {
    "id": "3242",
@@ -2562,7 +2709,11 @@
     "s": 0.858
    },
    "fi_count": 4,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3363": {
    "id": "3363",
@@ -2626,7 +2777,11 @@
     "s": 0.888
    },
    "fi_count": 3,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3410": {
    "id": "3410",
@@ -2682,7 +2837,9 @@
    "markets_abroad": 5,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [],
+   "relevant": false
   },
   "3127": {
    "id": "3127",
@@ -2731,7 +2888,12 @@
    "abroad_first": "2026-10-28T13:45:04Z",
    "headline_en": "Labour is still searching for an energy fix for a new world",
    "headline_fi": null,
-   "markets_abroad": 1
+   "markets_abroad": 1,
+   "subjects": [
+    "sustainability",
+    "policy"
+   ],
+   "relevant": true
   },
   "3294": {
    "id": "3294",
@@ -2796,7 +2958,11 @@
     "s": null
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3302": {
    "id": "3302",
@@ -2860,7 +3026,9 @@
     "s": null
    },
    "fi_count": 4,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3178": {
    "id": "3178",
@@ -2914,7 +3082,9 @@
    "markets_abroad": 3,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [],
+   "relevant": false
   },
   "3095": {
    "id": "3095",
@@ -2967,7 +3137,11 @@
    "markets_abroad": 2,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true
   },
   "3196": {
    "id": "3196",
@@ -3020,7 +3194,9 @@
    "markets_abroad": 2,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [],
+   "relevant": false
   },
   "2983": {
    "id": "2983",
@@ -3085,7 +3261,12 @@
     "s": null
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "policy",
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3401": {
    "id": "3401",
@@ -3147,7 +3328,11 @@
     "s": 0.849
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "business"
+   ],
+   "relevant": false
   },
   "3244": {
    "id": "3244",
@@ -3211,7 +3396,9 @@
     "s": null
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "2997": {
    "id": "2997",
@@ -3276,7 +3463,9 @@
     "s": null
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3240": {
    "id": "3240",
@@ -3331,7 +3520,11 @@
    "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3364": {
    "id": "3364",
@@ -3396,7 +3589,11 @@
     "s": null
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3194": {
    "id": "3194",
@@ -3460,7 +3657,11 @@
     "s": null
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "business"
+   ],
+   "relevant": true
   },
   "3280": {
    "id": "3280",
@@ -3515,7 +3716,11 @@
    "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "2976": {
    "id": "2976",
@@ -3580,7 +3785,9 @@
     "s": 0.857
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3323": {
    "id": "3323",
@@ -3643,7 +3850,12 @@
     "s": 0.847
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics",
+    "tech"
+   ],
+   "relevant": true
   },
   "3416": {
    "id": "3416",
@@ -3707,7 +3919,12 @@
     "s": 0.87
    },
    "fi_count": 4,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "geopolitics",
+    "business"
+   ],
+   "relevant": true
   },
   "3058": {
    "id": "3058",
@@ -3769,7 +3986,11 @@
     "s": 0.854
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true
   },
   "2990": {
    "id": "2990",
@@ -3824,7 +4045,11 @@
    "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true
   },
   "2932": {
    "id": "2932",
@@ -3887,7 +4112,9 @@
     "s": null
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3191": {
    "id": "3191",
@@ -3953,7 +4180,9 @@
     "s": 0.875
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:38:26Z"
+   "arrived_at": "2026-11-05T13:38:26Z",
+   "subjects": [],
+   "relevant": false
   },
   "3422": {
    "id": "3422",
@@ -4008,7 +4237,11 @@
    "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true
   },
   "3181": {
    "id": "3181",
@@ -4059,7 +4292,23 @@
    "abroad_first": "2026-10-29T00:00:00Z",
    "headline_en": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
    "headline_fi": null,
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-29T12:12:50Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/1d78f2d6-2fa5-489c-8819-b1a90210095c",
+    "t": "Woltin ostanut Doordash teki yli 15 miljardin euron kaupan",
+    "s": 0.876
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3313": {
    "id": "3313",
@@ -4083,7 +4332,11 @@
    "headline_en": "Finnish news agency STT to cease operations with loss of 89 jobs",
    "headline_fi": "Lulu Ranne STT:stä: \"Aika ajoi sen ohi",
    "abroad_first": "2026-11-02T03:02:59Z",
-   "markets_abroad": 0
+   "markets_abroad": 0,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true
   },
   "3298": {
    "id": "3298",
@@ -4136,7 +4389,24 @@
    "abroad_first": "2026-10-29T06:26:10Z",
    "headline_en": "The Kuwait Oil Tanker Company (KOTC) tanker Al Dasma was reported by Pakistan-based Navarea IX as on fire and adrift in the Strait of Hormuz, 11 nautical miles west of Bukha, Oman.",
    "headline_fi": null,
-   "markets_abroad": 5
+   "markets_abroad": 5,
+   "subjects": [
+    "geopolitics",
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-31T17:30:42Z",
+    "d": "mtvuutiset.fi",
+    "u": "https://www.mtvuutiset.fi/artikkeli/iran-tankkeri-roihuaa-kielletylla-alueella/9414590",
+    "t": "Iran: Tankkeri roihuaa \"kielletyllä alueella",
+    "s": 0.856
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3001": {
    "id": "3001",
@@ -4188,7 +4458,23 @@
    "abroad_first": "2026-10-27T01:31:00Z",
    "headline_en": "Why Jordan has struck Syria: What we know",
    "headline_fi": null,
-   "markets_abroad": 4
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-26T22:03:29Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20253466",
+    "t": "Jordania iski kirkkoiskusta epäillyn ryhmittymän asemiin Syyriassa",
+    "s": 0.887
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "2999": {
    "id": "2999",
@@ -4239,7 +4525,15 @@
    "abroad_first": "2026-10-26T15:51:52Z",
    "headline_en": "Trump administration illegally fired James Comey's daughter, judge rules",
    "headline_fi": null,
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics",
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3372": {
    "id": "3372",
@@ -4290,7 +4584,25 @@
    "abroad_first": "2026-11-02T00:00:00Z",
    "headline_en": "Marvell to buy Nvidia-backed Lumentum in a $115bn all-stock deal",
    "headline_fi": null,
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "business",
+    "tech",
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-02T21:17:08Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/95a5d997-2319-4b09-83ca-a3b3ccb1fe83",
+    "t": "Teknologiayhtiöt painoivat Nasdaqia - Öljy halpeni reippaasti",
+    "s": 0.867
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3417": {
    "id": "3417",
@@ -4342,7 +4654,9 @@
    "abroad_first": "2026-11-03T00:00:00Z",
    "headline_en": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
    "headline_fi": null,
-   "markets_abroad": 4
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
   },
   "3411": {
    "id": "3411",
@@ -4393,7 +4707,9 @@
    "abroad_first": "2026-11-03T10:16:26Z",
    "headline_en": "Key moments so far in the US midterms",
    "headline_fi": null,
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
   },
   "3373": {
    "id": "3373",
@@ -4443,7 +4759,14 @@
    "abroad_first": "2026-11-01T18:48:23Z",
    "headline_en": "Care workers to be allowed to settle in UK faster under Mahmood’s watered-down plans",
    "headline_fi": null,
-   "markets_abroad": 2
+   "markets_abroad": 2,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3133": {
    "id": "3133",
@@ -4495,7 +4818,23 @@
    "abroad_first": "2026-10-28T11:48:19Z",
    "headline_en": "German wolf attack: Girl seriously injured at wildlife park",
    "headline_fi": "Susi hyökkäsi 8-vuotiaan tytön kimppuun villieläinpuistossa",
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-28T16:01:46Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20253905",
+    "t": "Susi hyökkäsi lapsen kimppuun saksalaisessa eläinpuistossa",
+    "s": 0.871
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3134": {
    "id": "3134",
@@ -4548,7 +4887,9 @@
    "abroad_first": "2026-10-28T15:30:51Z",
    "headline_en": "Dolores Huerta, California labor leader and civil rights champion, dies aged 96",
    "headline_fi": "Maatilojen työntekijöitä puolustanut yhdysvaltalainen Dolores Huerta kuoli 96-vuotiaana",
-   "markets_abroad": 4
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
   },
   "2994": {
    "id": "2994",
@@ -4599,7 +4940,23 @@
    "abroad_first": "2026-10-26T07:20:44Z",
    "headline_en": "Is Iran headed to war or peace after Mecca alliance meeting?",
    "headline_fi": null,
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-26T18:56:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012368406.html",
+    "t": "Lähi-itä | Pelko USA:n uusista iskuista kasvaa, myös Iranin kerrottu suunnittelevan surmia",
+    "s": 0.841
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "2992": {
    "id": "2992",
@@ -4653,7 +5010,9 @@
    "abroad_first": "2026-10-27T02:05:46Z",
    "headline_en": "Jay-Z to headline next year's Super Bowl halftime show",
    "headline_fi": "Jay Z on Super Bowlin puoliaikashow'n pääesiintyjä",
-   "markets_abroad": 5
+   "markets_abroad": 5,
+   "subjects": [],
+   "relevant": false
   },
   "3309": {
    "id": "3309",
@@ -4703,7 +5062,11 @@
    "abroad_first": "2026-10-31T14:55:50Z",
    "headline_en": null,
    "headline_fi": "FSB: USA varoitti terroriuhasta Moskovassa",
-   "markets_abroad": 1
+   "markets_abroad": 1,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
   },
   "3400": {
    "id": "3400",
@@ -4754,7 +5117,9 @@
    "abroad_first": "2026-11-03T22:10:39Z",
    "headline_en": "Champions League comebacks: What are the other best after Manchester United beat Roma",
    "headline_fi": null,
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
   },
   "3203": {
    "id": "3203",
@@ -4808,7 +5173,11 @@
    "abroad_first": "2026-10-29T18:35:00Z",
    "headline_en": "A helicopter with the EU force in Bosnia crashes, killing 4 people and injuring 11",
    "headline_fi": "Useita ihmisiä kuollut italialaisen helikopterin maahansyöksyssä",
-   "markets_abroad": 5
+   "markets_abroad": 5,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": false
   },
   "3128": {
    "id": "3128",
@@ -4860,7 +5229,23 @@
    "abroad_first": "2026-10-29T00:00:00Z",
    "headline_en": "Pensioners bet on a lifetime cruise. They ended up in a Cambodian scam town",
    "headline_fi": null,
-   "markets_abroad": 4
+   "markets_abroad": 4,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-28T19:25:39Z",
+    "d": "mtvuutiset.fi",
+    "u": "https://www.mtvuutiset.fi/artikkeli/tyly-loppu-unelmalle-risteilylaivan-asukkailta-lahti-koti-alta-syy-ikavan-tuttu/9413316",
+    "t": "Tyly loppu unelmalle: Risteilylaivan asukkailta lähti koti alta - syy ikävän tuttu",
+    "s": 0.856
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3345": {
    "id": "3345",
@@ -4912,7 +5297,23 @@
    "abroad_first": "2026-11-01T14:54:57Z",
    "headline_en": "Russia's FSB says minor detained over park attack threat after US tip-off",
    "headline_fi": "Venäjä: Alaikäinen suunnitteli terrori-iskua Moskovaan",
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-01T14:20:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012380920.html",
+    "t": "FSB: Alaikäinen venäläinen pidätetty epäiltynä terrori-iskun suunnittelusta Moskovassa",
+    "s": null
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3332": {
    "id": "3332",
@@ -4961,7 +5362,9 @@
    "abroad_first": "2026-11-01T00:58:42Z",
    "headline_en": "German police investigating after needles found in Halloween candy",
    "headline_fi": null,
-   "markets_abroad": 1
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
   },
   "3189": {
    "id": "3189",
@@ -5012,7 +5415,25 @@
    "abroad_first": "2026-10-29T20:41:17Z",
    "headline_en": "Forbes Daily: Google Parent Alphabet Shares Tank After Earnings Miss",
    "headline_fi": "Tekno-osakkeet rytisivät Yhdysvalloissa - Päästrategi näkee laskussa ostopaikan",
-   "markets_abroad": 2
+   "markets_abroad": 2,
+   "subjects": [
+    "tech",
+    "business",
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-30T17:12:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/visio/art-2000012379101.html",
+    "t": "Intelin osake syöksyi yli 28 prosenttia",
+    "s": 0.852
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3303": {
    "id": "3303",
@@ -5064,7 +5485,9 @@
    "abroad_first": "2026-10-31T14:51:39Z",
    "headline_en": "Esteban Ocon denies violent altercation with Haas team boss behind his Mexico F1 benching",
    "headline_fi": "F1-kuski heivattiin sivuun: ei mitään perusteluja",
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
   },
   "3333": {
    "id": "3333",
@@ -5115,7 +5538,14 @@
    "abroad_first": "2026-10-29T00:00:00Z",
    "headline_en": "Iran says talks under way on two day plan to reopen Strait of Hormuz",
    "headline_fi": null,
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3218": {
    "id": "3218",
@@ -5168,7 +5598,23 @@
    "abroad_first": "2026-10-29T12:31:22Z",
    "headline_en": "US economy grows faster than expected in report out just ahead of elections",
    "headline_fi": "USA:n talouskasvu ylitti odotukset kulutuksen ja AI-investointien vetämänä",
-   "markets_abroad": 4
+   "markets_abroad": 4,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-29T13:31:48Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20254091",
+    "t": "USA:n talouskasvu ylitti odotukset kulutuksen ja AI-investointien vetämänä",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3071": {
    "id": "3071",
@@ -5192,7 +5638,11 @@
    "headline_en": "Video: This week in Finland, 30 October 2026",
    "headline_fi": "Kokoomuksen Saxberg: HSL lippuhintojen korotukset jäävät maltillisiksi – lasten kertalippujen hinnat säilyvät ennallaan",
    "abroad_first": "2026-10-28T12:23:00Z",
-   "markets_abroad": 0
+   "markets_abroad": 0,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true
   },
   "3308": {
    "id": "3308",
@@ -5243,7 +5693,23 @@
    "abroad_first": "2026-10-31T15:31:24Z",
    "headline_en": null,
    "headline_fi": "Venäjä: Yhdysvallat varoitti Moskovaan suunnitellusta terrori-iskusta",
-   "markets_abroad": 2
+   "markets_abroad": 2,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-31T15:15:24Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20254402",
+    "t": "RIA: Venäjä saanut USA:lta varoituksen Moskovaan kohdistuvasta terrori-iskusta",
+    "s": null
+   },
+   "fi_count": 7,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3286": {
    "id": "3286",
@@ -5297,7 +5763,9 @@
    "abroad_first": "2026-10-31T22:27:26Z",
    "headline_en": "Lewis Hamilton enjoys Mexico City Grand Prix pole as Kimi Antonelli aims to clinch title",
    "headline_fi": "Lewis Hamilton teki historiaa Ferrarilla - Valtteri Bottakselle karmea nöyryytys",
-   "markets_abroad": 5
+   "markets_abroad": 5,
+   "subjects": [],
+   "relevant": false
   },
   "3260": {
    "id": "3260",
@@ -5349,7 +5817,24 @@
    "abroad_first": "2026-10-30T13:43:29Z",
    "headline_en": "Russia's top independent newspaper shuts down, blaming pressure from authorities",
    "headline_fi": "Analyysi: Entistä sakeammaksi menee - Venäjän viimeinen riippumaton lehti suljetaan",
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics",
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-30T17:49:57Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20254313",
+    "t": "Analyysi: Entistä sakeammaksi menee - Venäjän viimeinen riippumaton lehti suljetaan",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3148": {
    "id": "3148",
@@ -5402,7 +5887,9 @@
    "abroad_first": "2026-10-28T15:00:01Z",
    "headline_en": "Perez brings Formula One to Mexico City streets before home milestone",
    "headline_fi": "Sergio Pérez sai monivuotisen F1-jatkon - Valtteri Bottaksesta ei mainita sanaakaan",
-   "markets_abroad": 4
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
   },
   "3043": {
    "id": "3043",
@@ -5453,7 +5940,9 @@
    "abroad_first": "2026-10-26T04:29:13Z",
    "headline_en": "India evacuates tens of thousands as 'very severe' Cyclone Arnab nears",
    "headline_fi": null,
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
   },
   "3290": {
    "id": "3290",
@@ -5502,7 +5991,9 @@
    "abroad_first": "2026-10-27T02:35:42Z",
    "headline_en": null,
    "headline_fi": null,
-   "markets_abroad": 1
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
   },
   "3005": {
    "id": "3005",
@@ -5554,7 +6045,23 @@
    "abroad_first": "2026-10-26T17:11:46Z",
    "headline_en": "Apple's iPhone Duo is getting roasted over screen cracks",
    "headline_fi": "Applen uudet Iphone Duot hajoavat käsiin",
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-26T18:14:29Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/ca83f3e8-4af4-40da-8683-337286c642ad",
+    "t": "Applelle iso takaisku - Odotettu hittituote hajosi käyttäjien käsiin heti kättelyssä",
+    "s": 0.887
+   },
+   "fi_count": 4,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "2978": {
    "id": "2978",
@@ -5606,7 +6113,9 @@
    "abroad_first": "2026-10-26T03:50:37Z",
    "headline_en": "'It's a better experience': shoppers praise Oxford Street pedestrianisation",
    "headline_fi": null,
-   "markets_abroad": 4
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
   },
   "3246": {
    "id": "3246",
@@ -5657,7 +6166,23 @@
    "abroad_first": "2026-10-30T20:51:00Z",
    "headline_en": "Polish president turns back from foreign trip as police and protesters clash over ‘constitutional crisis’",
    "headline_fi": null,
-   "markets_abroad": 3
+   "markets_abroad": 3,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-31T11:45:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012379539.html",
+    "t": "Presidentin lentokone kääntyi kotiin Afrikan-matkalta, koska Puolaa jakaa kysymys: Kuka on oikea tuomari?",
+    "s": 0.879
+   },
+   "fi_count": 4,
+   "arrived_at": "2026-11-05T15:21:46Z"
   },
   "3285": {
    "id": "3285",
@@ -5711,7 +6236,23 @@
    "abroad_first": "2026-10-31T20:22:01Z",
    "headline_en": "Judge Tosses Trump's $10 Billion Suit Against The Wall Street Journal",
    "headline_fi": "Tuomari hylkäsi lopullisesti Trumpin kanteen The Wall Street Journalia vastaan",
-   "markets_abroad": 5
+   "markets_abroad": 5,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-05T15:21:46Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-31T21:50:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012380403.html",
+    "t": "Tuomari hylkäsi lopullisesti Trumpin kanteen The Wall Street Journalia vastaan",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T15:21:46Z"
   }
  }
 }
