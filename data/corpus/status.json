@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-05T12:56:40Z",
+ "last_run": "2026-11-05T13:06:48Z",
  "source": "corpus-api",
  "high_water": "2026-11-05T12:56:12Z",
  "recent": {
@@ -25,7 +25,7 @@
  },
  "pages": 64,
  "received": 63317,
- "tagged": 31758,
+ "tagged": 31743,
  "rebuilt": true,
  "markets": [
   "de",
@@ -38,7 +38,7 @@
  ],
  "langs": "fi,sv,en",
  "error": null,
- "themes_hash": "1998885014ac",
+ "themes_hash": "33f0062e2946",
  "ok": 4,
  "queries": 4,
  "stopped": null
