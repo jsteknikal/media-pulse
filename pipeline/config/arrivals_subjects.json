@@ -1,5 +1,5 @@
 {
- "_note": "Subjects for 'Coming to Finland'. A story is shown, and searched for in Finnish media, only when its headlines match at least one subject. 'noise_hard' always hides a story (sport, entertainment); 'noise_soft' hides it unless it also matches business, tech, policy or sustainability (so 'killed in crash' hides an accident, but not a company story). Word rules as in signals.json: 3 letters or fewer = whole word, 4 = start of a word, 5+ = anywhere in a word, ^ = start of a word, a space = phrase. Editing this file re-sorts current stories on the next update.",
+ "_note": "Subjects for 'Coming to Finland'. A story is shown, and searched for in Finnish media, only when its headlines match at least one subject. 'noise_hard' always hides a story (sport, entertainment, US election coverage, podcasts); 'noise_soft' hides it unless it also matches business, tech, policy or sustainability (so 'killed in crash' hides an accident, but not a company story). Word rules as in signals.json: 3 letters or fewer = whole word, 4 = start of a word, 5+ = anywhere in a word, ^ = start of a word, a space = phrase. Editing this file re-sorts current stories on the next update.",
  "subjects": [
   {
    "id": "business",
@@ -284,7 +284,12 @@
    "halftime",
    "carabao",
    "mbappé",
-   "f1"
+   "f1",
+   "midterm",
+   "podcast",
+   "live updates",
+   "senate race",
+   "polls close"
   ],
   "fi": [
    "jalkapallo",
@@ -312,9 +317,6 @@
    "dead",
    "obituary",
    "election results",
-   "polls close",
-   "senate race",
-   "midterm",
    "governor race",
    "primary",
    "candidate",
