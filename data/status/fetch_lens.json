@@ -1,6 +1,6 @@
 {
- "time": "2026-11-05T13:21:45Z",
- "new_articles": 3,
+ "time": "2026-11-05T13:28:15Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -56,7 +56,7 @@
    "id": "esg-news",
    "state": "ok",
    "fetched": 50,
-   "new": 3,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://esgnews.com/feed/"
