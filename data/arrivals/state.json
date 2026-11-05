@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-05T15:21:46Z",
+  "last_run": "2026-11-05T15:29:28Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,10 +15,10 @@
    "title",
    "url"
   ],
-  "similar_left": 27,
+  "similar_left": 45,
   "stories_in": 100,
   "version": 2,
-  "subjects_hash": "0ece87575c59"
+  "subjects_hash": "9b23793ab85c"
  },
  "stories": {
   "2984": {
@@ -4241,7 +4241,7 @@
    "subjects": [
     "business"
    ],
-   "relevant": true
+   "relevant": false
   },
   "3181": {
    "id": "3181",
