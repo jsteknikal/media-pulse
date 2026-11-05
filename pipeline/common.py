@@ -160,7 +160,9 @@ class ThemeMatcher:
                 bucket = self.rules.setdefault(lang, {}).setdefault(theme["id"], [])
                 for raw in stems:
                     raw = raw.lower()
-                    if raw.startswith("^"):
+                    if " " in raw:
+                        bucket.append(("phrase", f" {raw} "))
+                    elif raw.startswith("^"):
                         bucket.append(("prefix", raw[1:]))
                     elif len(raw) <= 3:
                         bucket.append(("exact", raw))
@@ -179,9 +181,14 @@ class ThemeMatcher:
         return merged.items()
 
     @staticmethod
-    def _hits(tok_set: set[str], rules) -> set[str]:
+    def _hits(tok_set: set[str], rules, text: str = "") -> set[str]:
+        """text = the field as ' word word ' (lower case, tokens joined), for phrase stems."""
         found = set()
         for kind, s in rules:
+            if kind == "phrase":
+                if s in text:
+                    found.add(s)
+                continue
             for tok in tok_set:
                 if (kind == "exact" and tok == s) or (kind == "prefix" and tok.startswith(s)) or (
                     kind == "sub" and s in tok
@@ -194,11 +201,13 @@ class ThemeMatcher:
         t_title = set(tokens(title))
         t_lede = set(tokens(lede)) - t_title
         t_cats = set(tokens(" ".join(categories)))
+        x_title, x_lede = f" {' '.join(tokens(title))} ", f" {' '.join(tokens(lede))} "
+        x_cats = f" {' '.join(tokens(' '.join(categories)))} "
         scored = []
         for tid, rules in self._rules_for(lang):
-            score = 2 * len(self._hits(t_title, rules)) + len(self._hits(t_lede, rules)) + 2 * len(
-                self._hits(t_cats, rules)
-            )
+            hit_title = self._hits(t_title, rules, x_title)
+            hit_lede = self._hits(t_lede, rules, x_lede) - hit_title
+            score = 2 * len(hit_title) + len(hit_lede) + 2 * len(self._hits(t_cats, rules, x_cats))
             if score >= 2:
                 scored.append((score, tid))
         scored.sort(reverse=True)

@@ -119,3 +119,12 @@ class LenientFeedTests(unittest.TestCase):
         body = b'<rss><channel><item><title>A&nbsp;B &amp; C</title><link>https://x.fi/1</link></item></channel></rss>'
         items = parse_feed(body)
         self.assertEqual(items[0]["title"], "A\xa0B & C")
+
+
+class PhraseStemTests(unittest.TestCase):
+    def test_phrase_and_false_positives(self):
+        from common import ThemeMatcher
+        m = ThemeMatcher(load_config("themes.json")["themes"])
+        self.assertIn("labour", m.classify("Workers at Ford go on strike over wages", "", [], "en"))
+        self.assertNotIn("labour", m.classify("Iran claims strikes on multiple tankers", "", [], "en"))
+        self.assertNotIn("economy", m.classify("Investigations of the president's family", "", [], "en"))

@@ -1,5 +1,5 @@
 {
- "_note": "Stem rules: stems of 3 letters or fewer must match a whole word ('eu', 'sdp'); 4-letter stems match the start of a word; 5+ letter stems match anywhere in a word (catches Finnish compounds). Prefix a stem with ^ to force start-of-word matching. gdelt_themes are GDELT GKG theme codes; gdelt_query, when set, is used instead (plain GDELT query syntax). Codes marked uncertain should be checked after the first GDELT run (see the Sources page). Themes with \"window\": false (events rather than debates) never appear as opportunity windows.",
+ "_note": "Stem rules: stems of 3 letters or fewer must match a whole word ('eu', 'sdp'); 4-letter stems match the start of a word; 5+ letter stems match anywhere in a word (catches Finnish compounds). Prefix a stem with ^ to force start-of-word matching. gdelt_themes are GDELT GKG theme codes; gdelt_query, when set, is used instead (plain GDELT query syntax). Codes marked uncertain should be checked after the first GDELT run (see the Sources page). Themes with \"window\": false (events rather than debates) never appear as opportunity windows. A stem with a space is a phrase: its words must appear together, in order (\"on strike\").",
  "themes": [
   {
    "id": "politics",
@@ -138,10 +138,12 @@
      "gdp",
      "budget",
      "^tax",
-     "invest",
      "earnings",
      "recession",
-     "^price"
+     "^price",
+     "investor",
+     "investment",
+     "investing"
     ]
    },
    "gdelt_themes": [
@@ -193,15 +195,26 @@
     "en": [
      "unemploy",
      "^job",
-     "strike",
-     "^union",
+     "on strike",
+     "strike action",
+     "walkout",
+     "industrial action",
+     "trade union",
+     "^unions",
      "^wage",
      "salary",
+     "salaries",
      "layoff",
+     "laid off",
      "workers",
-     "employ",
-     "labour",
-     "labor"
+     "workforce",
+     "employer",
+     "employment",
+     "labour market",
+     "labor market",
+     "labour shortage",
+     "labor shortage",
+     "hiring"
     ]
    },
    "gdelt_themes": [
@@ -388,12 +401,18 @@
      "electricity",
      "climate",
      "emission",
-     "^wind",
+     "wind power",
+     "wind farm",
      "nuclear",
      "solar",
-     "^fuel",
+     "fuel prices",
+     "fossil fuel",
+     "fuel tax",
      "environment",
-     "carbon"
+     "carbon",
+     "^oil",
+     "^gas prices",
+     "natural gas"
     ]
    },
    "gdelt_themes": [
@@ -811,13 +830,17 @@
     "en": [
      "housing",
      "^rent",
+     "rental",
      "property",
      "municipal",
-     "traffic",
-     "^train",
      "railway",
-     "airport",
-     "transport"
+     "rail service",
+     "commuter",
+     "public transport",
+     "transport",
+     "mortgage",
+     "homeowner",
+     "homeless"
     ]
    },
    "gdelt_themes": [
@@ -877,7 +900,7 @@
      "^storm"
     ],
     "en": [
-     "family",
+     "families",
      "children",
      "youth",
      "elderly",
@@ -887,7 +910,9 @@
      "poverty",
      "church",
      "weather",
-     "storm"
+     "storm",
+     "welfare",
+     "childcare"
     ]
    },
    "gdelt_themes": [

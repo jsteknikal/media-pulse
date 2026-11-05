@@ -11,13 +11,15 @@ ThemeMatcher on each headline, so every region — Finland included — is tagge
 
 Each hourly run asks only for what arrived since the last run (normally one request). The first
 run, or a run with MP_CORPUS_REBUILD=1, backfills 30 days (about 40–80 requests, a few minutes).
-Rebuild after editing stems in themes.json: history is re-tagged only within those 30 days.
+Editing stems in themes.json triggers a rebuild on the next run (history is re-tagged only
+within those 30 days).
 
 Needs CORPUS_API_KEY. Keep it in a GitHub Actions secret — this repository is public, so the key
 must never appear in code, logs or committed files. Standard library only.
 """
 from __future__ import annotations
 
+import hashlib
 import json
 import os
 import time
@@ -93,9 +95,14 @@ def run(now: datetime | None = None) -> dict:
 
     regions = [r["id"] for r in load_config("regions.json")["regions"] if r["id"] in REGION_MARKETS]
     markets = sorted({m for rid in regions for m in REGION_MARKETS[rid]})
-    matcher = ThemeMatcher(load_config("themes.json")["themes"])
+    themes = load_config("themes.json")["themes"]
+    matcher = ThemeMatcher(themes)
+    # Re-tag the last 30 days automatically whenever the theme stems change.
+    themes_hash = hashlib.sha1(json.dumps([[t["id"], t.get("stems")] for t in themes], sort_keys=True,
+                                          ensure_ascii=False).encode("utf-8")).hexdigest()[:12]
     prev = state["status"] or {}
-    rebuild = os.environ.get("MP_CORPUS_REBUILD") == "1" or not prev.get("high_water")
+    rebuild = (os.environ.get("MP_CORPUS_REBUILD") == "1" or not prev.get("high_water")
+               or prev.get("themes_hash") != themes_hash)
 
     series: dict = {} if rebuild else state["series"]
     # Ids already counted near the high-water mark, with their fetch times. Each run re-asks from a
@@ -166,7 +173,7 @@ def run(now: datetime | None = None) -> dict:
     status = {
         "last_run": iso(now), "source": "corpus-api", "high_water": high, "recent": recent,
         "pages": pages, "received": received, "tagged": counted, "rebuilt": rebuild,
-        "markets": markets, "langs": LANGS, "error": error,
+        "markets": markets, "langs": LANGS, "error": error, "themes_hash": themes_hash,
         # The Sources page reads these fetch_gdelt.py keys: last_run, ok/queries and stopped
         # (shown in brackets) — so a failed run is visible there too.
         "ok": 0 if error else len(regions), "queries": len(regions), "stopped": error,
