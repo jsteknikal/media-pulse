@@ -10,6 +10,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from analyze import analyze  # noqa: E402
 from common import now_utc  # noqa: E402
+import arrivals  # noqa: E402
 import fetch_corpus  # noqa: E402
 import fetch_gdelt  # noqa: E402
 import fetch_rss  # noqa: E402
@@ -51,6 +52,14 @@ def main() -> int:
         except Exception as exc:
             print(f"Corpus failed: {type(exc).__name__}")
             gdelt = fetch_corpus.load_state()
+        try:  # "Coming to Finland": stories abroad vs Finnish coverage, every few hours
+            st = arrivals.update(now).get("_meta", {})
+            print(f"Arrivals: last check {st.get('last_run')}, {st.get('stories_in')} stories, "
+                  f"{st.get('similar_left')} searches left" + (f"; {st['error']}" if st.get("error") else ""))
+        except Exception as exc:
+            print(f"Arrivals failed: {type(exc).__name__}")
+    elif os.environ.get("MP_SKIP_FETCH") == "1" and (fetch_corpus.CDIR / "series.json").exists():
+        gdelt = fetch_corpus.load_state()  # local rebuilds use the stored corpus counts
     elif os.environ.get("MP_GDELT", "1") == "0":
         print("GDELT: switched off (regional data comes from own feeds from phase 2)")
     else:

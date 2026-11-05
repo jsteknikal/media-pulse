@@ -466,6 +466,12 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
         "gdelt": (gdelt or {}).get("status"),
         "fetch": {k: v for k, v in (fetch_status or {}).items() if k not in ("sources", "lens")},
     })
+    arrivals_out = None
+    try:
+        import arrivals
+        arrivals_out = arrivals.build(now)
+    except Exception as exc:
+        print(f"Arrivals build failed: {type(exc).__name__}: {exc}")
     lens_out = None
     try:  # the sustainability lens must never break the main update
         import lens
@@ -473,7 +479,7 @@ def analyze(now: datetime | None = None, fetch_status: dict | None = None, gdelt
     except Exception as exc:
         print(f"Lens build failed: {type(exc).__name__}: {exc}")
     return {"articles": len(arts), "stories": len(stories), "entities": len(ent_rows), "today": str(today),
-            "lens": lens_out}
+            "lens": lens_out, "arrivals": arrivals_out}
 
 
 def build_climate(now, arts, dates, day_total, base_idx, enough_baseline, trend_start, signals_cfg, themes_cfg,

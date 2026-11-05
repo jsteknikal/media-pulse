@@ -8,7 +8,7 @@
   /* ------------------------------------------------------------ i18n */
   const T = {
     fi: {
-      nav: { front: "Yleiskuva", lens: "Kestävyys", pulse: "Teemat", stories: "Tarinat", names: "Nimet", regions: "Alueet", headlines: "Otsikot", sources: "Lähteet" },
+      nav: { front: "Yleiskuva", coming: "Tulossa Suomeen", lens: "Kestävyys", pulse: "Teemat", stories: "Tarinat", names: "Nimet", regions: "Alueet", headlines: "Otsikot", sources: "Lähteet" },
       loading: "Ladataan…",
       noData: "Dataa ei vielä ole. Ensimmäinen päivitys täyttää näkymän – käynnistä se GitHubissa tai odota tasatuntia.",
       loadError: "Datan lataus epäonnistui",
@@ -78,7 +78,7 @@
       unverified: "Syötteen osoite tarkistamatta", discovered: "Löytyi syöte:", gdeltTitle: "Alueiden data (Thoughtlead-korpus)",
       gdeltStatus: (ok, q, when) => `${ok}/${q} aluetta päivittyi, viimeksi ${when}.`, gdeltNever: "Aluedataa ei ole vielä haettu.",
       gdeltFailed: "Epäonnistuneet haut",
-      footer: "Data: suomalaisten medioiden julkiset RSS-syötteet. Vain otsikot ja linkit alkuperäiseen julkaisuun. Päivittyy automaattisesti päivän mittaan.",
+      footer: "Data: suomalaisten medioiden julkiset RSS-syötteet sekä alue- ja ulkomaantiedot Thoughtlead-uutiskorpuksesta. Vain otsikot ja linkit alkuperäiseen julkaisuun. Päivittyy automaattisesti päivän mittaan.",
       ago: (h) => (h < 1 ? "alle tunti sitten" : h < 24 ? `${Math.round(h)} h sitten` : `${Math.round(h / 24)} pv sitten`),
       back: "Takaisin", openArticle: "Avaa juttu",
       front: {
@@ -113,6 +113,25 @@
         within: (h) => (h < 1 ? `${Math.max(1, Math.round(h * 60))} minuutissa` : `${String(Math.round(h * 10) / 10).replace(".", ",")} tunnissa`),
         seeThemes: "Kaikki teemat", seeStory: "Avaa tarina",
       },
+      coming: {
+        title: "Tulossa Suomeen",
+        heroPending: (n) => `${n} ${n === 1 ? "tarina kasvaa" : "tarinaa kasvaa"} ulkomailla, mutta suomalainen media ei ole vielä tarttunut ${n === 1 ? "siihen" : "niihin"}.`,
+        heroNone: "Kaikki ulkomailla kasvavat tarinat ovat jo ehtineet Suomeen.",
+        heroWaiting: "Ensimmäinen tarkistus on tulossa: tarinat haetaan muutaman tunnin välein.",
+        subLag: (m, n, a, b) => `Suomeen saapuneet tarinat tulivat tänne mediaanina ${m} päivässä${a != null ? ` (puolet ${a}–${b} päivässä)` : ""}, ${n} mitattua tarinaa.`,
+        subMeasuring: (n) => `Mittaamme, kuinka nopeasti tarinat tulevat Suomeen. Mitattuja tarinoita tähän mennessä: ${n}.`,
+        checkedAt: "Tarkistettu", finlandFirstN: (n) => `Suomi ehti ensin ${n} kertaa`,
+        pendingTitle: "Ei vielä Suomessa", pendingNote: "Tarinat, jotka nousevat tai kiihtyvät useissa medioissa ja kielissä, mutta joista ei löydy suomalaista juttua. Suurin määrä ensin.",
+        pendingEmpty: "Ei tarinoita juuri nyt.",
+        arrivedTitle: "Saapuneet Suomeen", arrivedNote: "Kuinka kauan kesti ensimmäisestä ulkomaisesta jutusta ensimmäiseen suomalaiseen.",
+        arrivedEmpty: "Ei vielä mitattuja saapumisia.",
+        ledTitle: "Suomi ehti ensin", ledNote: "Tarinat, joista suomalainen media kirjoitti ennen ulkomaisia.",
+        emerging: "Nouseva", accelerating: "Kiihtyvä", outlets: (n) => `${n} mediaa`, thisWeek: "juttua tällä viikolla",
+        firstAbroad: "Ulkomailla ensin", abroad: "Ulkomailla", inFinland: "Suomessa",
+        lag: (d) => `+${d} pv`, ahead: (d) => `${d} pv edellä`,
+        markets: { se: "Ruotsi", de: "Saksa", uk: "Iso-Britannia", us: "Yhdysvallat", fr: "Ranska", es: "Espanja", intl: "Kansainväliset", no: "Norja", dk: "Tanska" },
+        method: "Lähde: Thoughtlead-uutiskorpus, noin 60 mediaa Suomesta, Ruotsista, saksankielisistä maista, Britanniasta, Yhdysvalloista ja Espanjasta. Korpus tunnistaa tarinat merkityksen perusteella kielestä riippumatta. Suomalainen juttu katsotaan samaksi tarinaksi, kun sen samankaltaisuus on vähintään 0,82. Päivämäärät tulevat näytejutuista, joten viive on suuntaa antava. Tarkistus muutaman tunnin välein.",
+      },
       lens: {
         title: "Kestävyys",
         heroNext: (n, what) => (n === 0 ? `Tänään: ${what}.` : n === 1 ? `Huomenna: ${what}.` : `${n} päivää: ${what}.`),
@@ -138,7 +157,7 @@
       },
     },
     en: {
-      nav: { front: "Overview", lens: "Sustainability", pulse: "Themes", stories: "Stories", names: "Names", regions: "Regions", headlines: "Headlines", sources: "Sources" },
+      nav: { front: "Overview", coming: "Coming to Finland", lens: "Sustainability", pulse: "Themes", stories: "Stories", names: "Names", regions: "Regions", headlines: "Headlines", sources: "Sources" },
       loading: "Loading…",
       noData: "No data yet. The first update fills this page – start it on GitHub or wait for the top of the hour.",
       loadError: "Could not load data",
@@ -208,7 +227,7 @@
       unverified: "Feed URL not yet verified", discovered: "Found feed:", gdeltTitle: "Regional data (Thoughtlead corpus)",
       gdeltStatus: (ok, q, when) => `${ok}/${q} regions updated, last run ${when}.`, gdeltNever: "No regional data fetched yet.",
       gdeltFailed: "Failed queries",
-      footer: "Data: public RSS feeds of Finnish outlets. Headlines only, linking to the original publisher. Updates automatically through the day.",
+      footer: "Data: public RSS feeds of Finnish outlets, plus regional and international data from the Thoughtlead news corpus. Headlines only, linking to the original publisher. Updates automatically through the day.",
       ago: (h) => (h < 1 ? "under an hour ago" : h < 24 ? `${Math.round(h)} h ago` : `${Math.round(h / 24)} d ago`),
       back: "Back", openArticle: "Open article",
       front: {
@@ -242,6 +261,25 @@
         speedNone: "No story has reached five outlets yet this week.",
         within: (h) => (h < 1 ? `within ${Math.max(1, Math.round(h * 60))} minutes` : `within ${Math.round(h * 10) / 10} hours`),
         seeThemes: "All themes", seeStory: "Open story",
+      },
+      coming: {
+        title: "Coming to Finland",
+        heroPending: (n) => `${n} ${n === 1 ? "story is" : "stories are"} building abroad that Finnish media hasn't picked up yet.`,
+        heroNone: "Every story building abroad has already reached Finland.",
+        heroWaiting: "The first check is on its way: stories are fetched every few hours.",
+        subLag: (m, n, a, b) => `Stories that did arrive took a median of ${m} days${a != null ? ` (half within ${a}–${b} days)` : ""}, across ${n} measured stories.`,
+        subMeasuring: (n) => `We are measuring how fast stories reach Finland. Stories measured so far: ${n}.`,
+        checkedAt: "Checked", finlandFirstN: (n) => `Finland was first ${n} times`,
+        pendingTitle: "Not in Finland yet", pendingNote: "Stories emerging or accelerating across outlets and languages, with no Finnish article found. Biggest first.",
+        pendingEmpty: "No stories right now.",
+        arrivedTitle: "Arrived in Finland", arrivedNote: "How long it took from the first foreign article to the first Finnish one.",
+        arrivedEmpty: "No measured arrivals yet.",
+        ledTitle: "Finland was first", ledNote: "Stories Finnish media covered before outlets abroad did.",
+        emerging: "Emerging", accelerating: "Accelerating", outlets: (n) => `${n} outlets`, thisWeek: "articles this week",
+        firstAbroad: "First abroad", abroad: "Abroad", inFinland: "Finland",
+        lag: (d) => `+${d} days`, ahead: (d) => `${d} days ahead`,
+        markets: { se: "Sweden", de: "Germany", uk: "UK", us: "US", fr: "France", es: "Spain", intl: "International", no: "Norway", dk: "Denmark" },
+        method: "Source: the Thoughtlead news corpus, about 60 outlets in Finland, Sweden, German-speaking countries, the UK, the US and Spain. The corpus groups stories by meaning, across languages. A Finnish article counts as the same story when its similarity is at least 0.82. Dates come from sample articles, so the lag is approximate. Checked every few hours.",
       },
       lens: {
         title: "Sustainability",
@@ -550,6 +588,51 @@
         <section><div class="section-head"><h2>${esc(F.speedTitle)}</h2></div>${speedHtml}</section>
       </div>
       <p class="section"><a class="btn" href="#/themes">${esc(F.seeThemes)}</a></p>`;
+  }
+
+  /* ------------------------------------------------------------ coming to Finland */
+  async function viewComing() {
+    const D = await load("arrivals");
+    const C = t().coming;
+    const num1 = (v) => new Intl.NumberFormat(locale(), { maximumFractionDigits: 1 }).format(v);
+    const mk = (m) => C.markets[m] || (m || "").toUpperCase();
+    const marketsLine = (ms) => Object.entries(ms || {}).filter(([m]) => m !== "fi").sort((a, b) => b[1] - a[1])
+      .map(([m, n]) => `${esc(mk(m))} ${num(n)}`).join(" · ");
+    const stateChip = (s) => `<span class="state ${s === "emergence" ? "emerging" : "rising"}"><span class="g" aria-hidden="true"></span>${esc(s === "emergence" ? C.emerging : C.accelerating)}</span>`;
+    const lead = (r) => { const s = (r.samples || [])[0]; return s?.u ? `<a class="story-title" href="${esc(s.u)}" target="_blank" rel="noopener" lang="${esc(s.l || "")}">${esc(r.headline)}</a>` : `<span class="story-title">${esc(r.headline)}</span>`; };
+    const samples = (r) => (r.samples || []).slice(0, 3).map((s) => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.d)}</a>`).join(", ");
+    const S = D.stats || {};
+
+    const pendingRows = (D.pending || []).map((r) => `<li class="coming-row">
+        <div>${lead(r)}<div class="small">${stateChip(r.state)} · ${marketsLine(r.markets)} · ${esc(C.outlets(r.outlets || 0))}</div>
+          <div class="small">${esc(C.firstAbroad)} ${esc(r.abroad_first ? fmtDate(r.abroad_first.slice(0, 10)) : "–")} · ${samples(r)}</div></div>
+        <div class="coming-n"><strong>${num(r.this_week || 0)}</strong> <span class="small">${esc(C.thisWeek)}</span>${barsSvg(r.weekly || [])}</div>
+      </li>`).join("");
+    const arrivedRows = (D.arrived || []).map((r) => `<li class="coming-row">
+        <div>${lead(r)}<div class="small">${esc(C.abroad)} ${esc(r.abroad_first ? fmtDate(r.abroad_first.slice(0, 10)) : "–")} → ${esc(C.inFinland)} ${esc(r.fi_first?.p ? fmtDate(r.fi_first.p.slice(0, 10)) : "–")}${r.fi_first?.u ? ` · <a href="${esc(r.fi_first.u)}" target="_blank" rel="noopener">${esc(r.fi_first.d || "")}</a>` : ""}</div></div>
+        <div class="coming-n"><strong>${r.lag == null ? "–" : esc(C.lag(num1(r.lag)))}</strong></div>
+      </li>`).join("");
+    const ledRows = (D.led || []).map((r) => `<li class="coming-row">
+        <div>${lead(r)}<div class="small">${esc(C.inFinland)} ${esc(fmtDate(r.fi_first.p.slice(0, 10)))}${r.fi_first?.u ? ` · <a href="${esc(r.fi_first.u)}" target="_blank" rel="noopener">${esc(r.fi_first.d || "")}</a>` : ""} → ${esc(C.abroad)} ${esc(fmtDate(r.abroad_first.slice(0, 10)))}</div></div>
+        <div class="coming-n"><strong>${esc(C.ahead(num1(-r.lag)))}</strong></div>
+      </li>`).join("");
+
+    const n = (D.pending || []).length;
+    const hero = D.checked ? (n ? C.heroPending(n) : C.heroNone) : C.heroWaiting;
+    const sub = S.median_lag != null ? C.subLag(num1(S.median_lag), S.measured, S.p25 != null ? num1(S.p25) : null, S.p75 != null ? num1(S.p75) : null) : C.subMeasuring(S.measured || 0);
+
+    app.innerHTML = `
+      <div class="hero theme-neon"><section class="lede-block wide">
+        <h1 class="statement">${esc(hero)}</h1>
+        <p class="sub">${esc(sub)}</p>
+        <div class="meta-line"><span>${esc(C.checkedAt)} <strong>${esc(D.checked ? fmtTime(D.checked) : "–")}</strong></span>${S.finland_first ? `<span>${esc(C.finlandFirstN(S.finland_first))}</span>` : ""}</div>
+      </section></div>
+      <section class="section"><div class="section-head"><h2>${esc(C.pendingTitle)}</h2><p>${esc(C.pendingNote)}</p></div>
+        ${pendingRows ? `<ul class="list coming">${pendingRows}</ul>` : `<p class="notice">${esc(D.checked ? C.pendingEmpty : C.heroWaiting)}</p>`}</section>
+      <section class="section"><div class="section-head"><h2>${esc(C.arrivedTitle)}</h2><p>${esc(C.arrivedNote)}</p></div>
+        ${arrivedRows ? `<ul class="list coming">${arrivedRows}</ul>` : `<p class="notice">${esc(C.arrivedEmpty)}</p>`}</section>
+      ${ledRows ? `<section class="section"><div class="section-head"><h2>${esc(C.ledTitle)}</h2><p>${esc(C.ledNote)}</p></div><ul class="list coming">${ledRows}</ul></section>` : ""}
+      <section class="section"><p class="small method">${esc(C.method)}</p></section>`;
   }
 
   /* ------------------------------------------------------------ sustainability lens */
@@ -956,6 +1039,7 @@
   /* ------------------------------------------------------------ shell */
   const routes = [
     [/^#?\/?$/, () => viewFront(), "front"],
+    [/^#\/coming$/, () => viewComing(), "coming"],
     [/^#\/sustainability$/, () => viewLens(), "lens"],
     [/^#\/themes$/, () => viewPulse(), "pulse"],
     [/^#\/theme\/([\w-]+)$/, (m) => viewTheme(m[1]), "pulse"],
@@ -969,7 +1053,7 @@
 
   function renderChrome(active) {
     document.documentElement.lang = lang;
-    document.getElementById("nav").innerHTML = ["front", "lens", "pulse", "stories", "names", "regions", "headlines", "sources"].map((k) =>
+    document.getElementById("nav").innerHTML = ["front", "coming", "lens", "pulse", "stories", "names", "regions", "headlines", "sources"].map((k) =>
       `<a href="#/${k === "front" ? "" : k === "pulse" ? "themes" : k === "lens" ? "sustainability" : k}" ${k === active ? 'aria-current="page"' : ""}>${esc(t().nav[k])}</a>`).join("");
     document.querySelectorAll(".lang button").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.lang === lang)));
     document.getElementById("footer").textContent = t().footer;

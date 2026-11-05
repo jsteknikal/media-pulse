@@ -1,4 +1,5 @@
 """Unit tests (stdlib unittest): python -m unittest discover -s pipeline/tests"""
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -128,3 +129,43 @@ class PhraseStemTests(unittest.TestCase):
         self.assertIn("labour", m.classify("Workers at Ford go on strike over wages", "", [], "en"))
         self.assertNotIn("labour", m.classify("Iran claims strikes on multiple tankers", "", [], "en"))
         self.assertNotIn("economy", m.classify("Investigations of the president's family", "", [], "en"))
+
+
+class ArrivalsTests(unittest.TestCase):
+    def test_lag_and_pending(self):
+        import tempfile, importlib, os
+        from pathlib import Path
+        tmp = Path(tempfile.mkdtemp())
+        import common, arrivals, fetch_corpus
+        arrivals.STATE = tmp / "state.json"
+        arrivals.SITE_DATA_DIR = tmp
+        os.environ["CORPUS_API_KEY"] = "test"
+        stories = {"stories": [
+            {"id": 1, "headline": "Big story abroad", "state": "acceleration", "first_seen": "2026-11-01T00:00:00Z",
+             "last_seen": "2026-11-05T00:00:00Z", "articles_this_week": 40, "markets": {"uk": 3},
+             "articles": [{"url": "https://bbc.co.uk/a", "title": "A", "market": "uk", "published": "2026-11-01T10:00:00Z"}]},
+            {"id": 2, "headline": "Only abroad", "state": "emergence", "first_seen": "2026-11-03T00:00:00Z",
+             "last_seen": "2026-11-05T00:00:00Z", "articles_this_week": 9, "markets": {"de": 2},
+             "articles": [{"url": "https://faz.net/b", "title": "B", "market": "de", "published": "2026-11-03T08:00:00Z"}]},
+        ]}
+        def fake(path, params, key):
+            if path == "/v1/stories":
+                return stories
+            if params.get("url") == "https://bbc.co.uk/a":
+                return {"results": [{"url": "https://yle.fi/x", "title": "X", "domain": "yle.fi", "market": "fi",
+                                     "published": "2026-11-03T10:00:00Z", "score": 0.86}]}
+            return {"results": []}
+        orig = fetch_corpus._get
+        fetch_corpus._get = fake
+        try:
+            now = common.parse_iso("2026-11-05T12:00:00Z")
+            arrivals.update(now, force=True)
+            st = arrivals.build(now)
+        finally:
+            fetch_corpus._get = orig
+            del os.environ["CORPUS_API_KEY"]
+        self.assertEqual(st["measured"], 1)
+        self.assertEqual(st["median_lag"], 2.0)
+        out = json.load(open(tmp / "arrivals.json"))
+        self.assertEqual([r["id"] for r in out["pending"]], ["2"])
+        self.assertEqual(out["arrived"][0]["lag"], 2.0)
