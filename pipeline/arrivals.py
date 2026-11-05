@@ -96,7 +96,8 @@ def update(now: datetime, force: bool = False) -> dict:
         meta["error"] = "CORPUS_API_KEY is not set"
         return state
     last = meta.get("last_run")
-    if not force and last and parse_iso(last) > now - timedelta(hours=CHECK_EVERY_HOURS):
+    if (not force and meta.get("version") == STATE_VERSION and last
+            and parse_iso(last) > now - timedelta(hours=CHECK_EVERY_HOURS)):
         return state
     if meta.get("version") != STATE_VERSION:  # matching rules changed: check every story again
         for rec in (state.get("stories") or {}).values():
