@@ -599,7 +599,8 @@
     const marketsLine = (ms) => Object.entries(ms || {}).filter(([m]) => m !== "fi").sort((a, b) => b[1] - a[1])
       .map(([m, n]) => `${esc(mk(m))} ${num(n)}`).join(" · ");
     const stateChip = (s) => `<span class="state ${s === "emergence" ? "emerging" : "rising"}"><span class="g" aria-hidden="true"></span>${esc(s === "emergence" ? C.emerging : C.accelerating)}</span>`;
-    const lead = (r) => { const s = (r.samples || [])[0]; return s?.u ? `<a class="story-title" href="${esc(s.u)}" target="_blank" rel="noopener" lang="${esc(s.l || "")}">${esc(r.headline)}</a>` : `<span class="story-title">${esc(r.headline)}</span>`; };
+    const title = (r) => (lang === "fi" && r.headline_fi) || r.headline_en || r.headline_fi || r.headline;
+    const lead = (r) => { const s = (r.samples || []).find((x) => x.t === title(r)) || (r.samples || [])[0]; const tl = title(r) === r.headline_fi ? "fi" : title(r) === r.headline_en ? "en" : (s?.l || ""); return s?.u ? `<a class="story-title" href="${esc(s.u)}" target="_blank" rel="noopener" lang="${esc(tl)}">${esc(title(r))}</a>` : `<span class="story-title" lang="${esc(tl)}">${esc(title(r))}</span>`; };
     const samples = (r) => (r.samples || []).slice(0, 3).map((s) => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.d)}</a>`).join(", ");
     const S = D.stats || {};
 

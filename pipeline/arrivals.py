@@ -22,13 +22,16 @@ import fetch_corpus
 
 STATE = DATA_DIR / "arrivals" / "state.json"
 CHECK_EVERY_HOURS = 3        # 8 checks a day, well inside 5,000 requests
-MAX_SIMILAR_PER_RUN = 40     # url queries; text queries are capped at 300 a day by the API
+MAX_SIMILAR_PER_RUN = 60     # url queries; text queries are capped at 300 a day by the API
 RECHECK_HOURS = 6            # a story not yet in Finland is looked for again after this
 STORY_DAYS = 7
 SHOW_DAYS = 14               # a story stays on the page this long after it was last seen abroad
 HEADLINE_DAYS = 30           # after this only dates and counts are kept
-MIN_SCORE_URL = 0.82         # Timo's tests: 0.84+ same event, 0.78–0.84 same topic
-MIN_SCORE_TEXT = 0.78
+MIN_SCORE_URL = 0.84         # Timo's tests: 0.84+ same event, 0.78–0.84 same topic
+MIN_SCORE_TEXT = 0.80
+WINDOW_BEFORE_DAYS = 2       # a Finnish article counts only from this long before the story was first seen
+MIN_MARKETS_ABROAD = 2       # "building abroad" = in at least this many foreign markets
+STATE_VERSION = 2
 HOME = "fi"
 
 
@@ -37,8 +40,12 @@ def _ts(a: dict) -> str | None:
 
 
 def _check_story(st: dict, key: str, budget: dict) -> dict:
-    """Finnish coverage of one story: earliest Finnish article (time, outlet, url, score) or None."""
+    """Finnish coverage of one story: earliest Finnish article (time, outlet, url, score) or None.
+    Only articles from WINDOW_BEFORE_DAYS before the story was first seen count: older Finnish articles
+    on the same subject are background, not coverage of this story."""
     samples = st.get("articles") or []
+    start = st.get("first_seen")
+    window = iso(parse_iso(start) - timedelta(days=WINDOW_BEFORE_DAYS)) if start else ""
     foreign = [a for a in samples if a.get("market") != HOME and a.get("url")]
     found = [a for a in samples if a.get("market") == HOME]  # Finnish samples count as coverage
     result = {"how": None, "error": None}
@@ -64,6 +71,7 @@ def _check_story(st: dict, key: str, budget: dict) -> dict:
             else:
                 result["error"] = msg[:160]
     found += [h for h in hits if (h.get("market") in (HOME, None))]
+    found = [h for h in found if not _ts(h) or _ts(h) >= window]
     dated = sorted((h for h in found if _ts(h)), key=_ts)
     if found and not dated:  # covered, but no time on the results
         f = found[0]
@@ -90,6 +98,11 @@ def update(now: datetime, force: bool = False) -> dict:
     last = meta.get("last_run")
     if not force and last and parse_iso(last) > now - timedelta(hours=CHECK_EVERY_HOURS):
         return state
+    if meta.get("version") != STATE_VERSION:  # matching rules changed: check every story again
+        for rec in (state.get("stories") or {}).values():
+            for k in ("fi_first", "fi_count", "checked", "arrived_at", "check_how", "check_error"):
+                rec.pop(k, None)
+        meta["version"] = STATE_VERSION
     stories = state.setdefault("stories", {})
     meta.update({"last_run": iso(now), "error": None})
     try:
@@ -115,17 +128,24 @@ def update(now: datetime, force: bool = False) -> dict:
         rec = stories.setdefault(sid, {"id": sid, "first_seen": s.get("first_seen")})
         samples = s.get("articles") or []
         abroad = sorted(_ts(a) for a in samples if a.get("market") != HOME and _ts(a))
+        english = next((a.get("title") for a in samples if a.get("lang") == "en" and a.get("title")), None)
+        finnish = next((a.get("title") for a in samples if a.get("lang") == "fi" and a.get("title")), None)
         rec.update({
-            "headline": s.get("headline"), "state": s.get("state"), "last_seen": s.get("last_seen"),
+            "headline": s.get("headline"), "headline_en": english, "headline_fi": finnish, "state": s.get("state"), "last_seen": s.get("last_seen"),
             "weekly": s.get("weekly_articles"), "this_week": s.get("articles_this_week"),
             "velocity": s.get("velocity"), "markets": s.get("markets"), "outlets": s.get("outlets"),
             "samples": [{"t": a.get("title"), "u": a.get("url"), "d": a.get("domain") or a.get("source"),
                          "c": a.get("market"), "l": a.get("lang"), "p": _ts(a)}
                         for a in samples if a.get("market") != HOME][:3],
         })
-        if abroad:
-            rec["abroad_first"] = min(rec.get("abroad_first") or abroad[0], abroad[0])
-        due = not rec.get("fi_first") and (rec.get("checked") or "") < iso(now - timedelta(hours=RECHECK_HOURS))
+        # First abroad = the earlier of the detector's first sighting and the earliest foreign sample.
+        cands = [x for x in [s.get("first_seen"), abroad[0] if abroad else None, rec.get("abroad_first")] if x]
+        if cands:
+            rec["abroad_first"] = min(cands)
+        foreign_markets = [m for m in (s.get("markets") or {}) if m != HOME]
+        rec["markets_abroad"] = len(foreign_markets)
+        due = (not rec.get("fi_first") and len(foreign_markets) >= MIN_MARKETS_ABROAD
+               and (rec.get("checked") or "") < iso(now - timedelta(hours=RECHECK_HOURS)))
         if due and budget["n"] > 0:
             res = _check_story(s, key, budget)
             rec["checked"] = iso(now)
@@ -140,7 +160,7 @@ def update(now: datetime, force: bool = False) -> dict:
     old = iso(now - timedelta(days=HEADLINE_DAYS))
     for rec in stories.values():
         if (rec.get("last_seen") or "") < old:
-            for k in ("headline", "samples"):
+            for k in ("headline", "headline_en", "headline_fi", "samples"):
                 rec.pop(k, None)
             if rec.get("fi_first"):
                 rec["fi_first"] = {k: rec["fi_first"].get(k) for k in ("p", "d")}
@@ -161,13 +181,16 @@ def build(now: datetime) -> dict:
     state = load_json(STATE, {}) or {}
     stories = list((state.get("stories") or {}).values())
     show_after = iso(now - timedelta(days=SHOW_DAYS))
-    lags = [l for l in (_lag_days(r) for r in stories) if l is not None]
+    lags = [l for l in (_lag_days(r) for r in stories if (r.get("markets_abroad") or 0) >= MIN_MARKETS_ABROAD)
+            if l is not None]
     pending, arrived, led = [], [], []
     for r in stories:
         if (r.get("last_seen") or "") < show_after or not r.get("headline"):
             continue
         lag = _lag_days(r)
-        row = {k: r.get(k) for k in ("id", "headline", "state", "first_seen", "last_seen", "abroad_first", "weekly",
+        if (r.get("markets_abroad") or 0) < MIN_MARKETS_ABROAD:
+            continue
+        row = {k: r.get(k) for k in ("id", "headline", "headline_en", "headline_fi", "state", "first_seen", "last_seen", "abroad_first", "weekly",
                                      "this_week", "velocity", "markets", "outlets", "samples", "fi_first", "fi_count",
                                      "checked")}
         row["lag"] = lag

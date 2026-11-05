@@ -142,10 +142,10 @@ class ArrivalsTests(unittest.TestCase):
         os.environ["CORPUS_API_KEY"] = "test"
         stories = {"stories": [
             {"id": 1, "headline": "Big story abroad", "state": "acceleration", "first_seen": "2026-11-01T00:00:00Z",
-             "last_seen": "2026-11-05T00:00:00Z", "articles_this_week": 40, "markets": {"uk": 3},
+             "last_seen": "2026-11-05T00:00:00Z", "articles_this_week": 40, "markets": {"uk": 3, "us": 2},
              "articles": [{"url": "https://bbc.co.uk/a", "title": "A", "market": "uk", "published": "2026-11-01T10:00:00Z"}]},
             {"id": 2, "headline": "Only abroad", "state": "emergence", "first_seen": "2026-11-03T00:00:00Z",
-             "last_seen": "2026-11-05T00:00:00Z", "articles_this_week": 9, "markets": {"de": 2},
+             "last_seen": "2026-11-05T00:00:00Z", "articles_this_week": 9, "markets": {"de": 2, "uk": 1},
              "articles": [{"url": "https://faz.net/b", "title": "B", "market": "de", "published": "2026-11-03T08:00:00Z"}]},
         ]}
         def fake(path, params, key):
@@ -165,7 +165,7 @@ class ArrivalsTests(unittest.TestCase):
             fetch_corpus._get = orig
             del os.environ["CORPUS_API_KEY"]
         self.assertEqual(st["measured"], 1)
-        self.assertEqual(st["median_lag"], 2.0)
+        self.assertEqual(st["median_lag"], 2.4)  # first seen 1 Nov 00:00, Yle 3 Nov 10:00
         out = json.load(open(tmp / "arrivals.json"))
         self.assertEqual([r["id"] for r in out["pending"]], ["2"])
-        self.assertEqual(out["arrived"][0]["lag"], 2.0)
+        self.assertEqual(out["arrived"][0]["lag"], 2.4)
