@@ -141,10 +141,10 @@ class ArrivalsTests(unittest.TestCase):
         arrivals.SITE_DATA_DIR = tmp
         os.environ["CORPUS_API_KEY"] = "test"
         stories = {"stories": [
-            {"id": 1, "headline": "Big story abroad", "state": "acceleration", "first_seen": "2026-11-01T00:00:00Z",
+            {"id": 1, "headline": "Microsoft cuts 6,000 jobs", "state": "acceleration", "first_seen": "2026-11-01T00:00:00Z",
              "last_seen": "2026-11-05T00:00:00Z", "articles_this_week": 40, "markets": {"uk": 3, "us": 2},
              "articles": [{"url": "https://bbc.co.uk/a", "title": "A", "market": "uk", "published": "2026-11-01T10:00:00Z"}]},
-            {"id": 2, "headline": "Only abroad", "state": "emergence", "first_seen": "2026-11-03T00:00:00Z",
+            {"id": 2, "headline": "EU tariffs on Chinese electric cars", "state": "emergence", "first_seen": "2026-11-03T00:00:00Z",
              "last_seen": "2026-11-05T00:00:00Z", "articles_this_week": 9, "markets": {"de": 2, "uk": 1},
              "articles": [{"url": "https://faz.net/b", "title": "B", "market": "de", "published": "2026-11-03T08:00:00Z"}]},
         ]}
@@ -169,3 +169,17 @@ class ArrivalsTests(unittest.TestCase):
         out = json.load(open(tmp / "arrivals.json"))
         self.assertEqual([r["id"] for r in out["pending"]], ["2"])
         self.assertEqual(out["arrived"][0]["lag"], 2.4)
+
+
+class SubjectTests(unittest.TestCase):
+    def test_noise_and_subjects(self):
+        from arrivals import Subjects
+        sj = Subjects()
+        story = lambda *ts: {"headline": ts[0], "articles": [{"title": t, "lang": "en"} for t in ts]}
+        self.assertEqual(sj.classify(story("Ballon d'Or is crowning moment for Kane"))[1], False)
+        self.assertEqual(sj.classify(story("Nine killed after business jet crashes in Florida"))[1], False)
+        subjects, ok = sj.classify(story("Microsoft offers buyouts to around 60,000 employees"))
+        self.assertTrue(ok and "tech" in subjects)
+        subjects, ok = sj.classify(story("Cost of living protests spread to Germany"))
+        self.assertTrue(ok and "business" in subjects)
+        self.assertEqual(sj.classify(story("Mississippi Senate race: live midterm election results"))[1], False)

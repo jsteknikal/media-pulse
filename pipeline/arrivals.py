@@ -17,7 +17,10 @@ import os
 import statistics
 from datetime import datetime, timedelta
 
-from common import DATA_DIR, SITE_DATA_DIR, iso, load_json, parse_iso, write_json
+import hashlib
+import json
+
+from common import DATA_DIR, SITE_DATA_DIR, SignalMatcher, iso, load_config, load_json, parse_iso, write_json
 import fetch_corpus
 
 STATE = DATA_DIR / "arrivals" / "state.json"
@@ -33,6 +36,42 @@ WINDOW_BEFORE_DAYS = 2       # a Finnish article counts only from this long befo
 MIN_MARKETS_ABROAD = 2       # "building abroad" = in at least this many foreign markets
 STATE_VERSION = 2
 HOME = "fi"
+
+
+CORE = {"business", "tech", "policy", "sustainability"}  # these override 'noise_soft'
+
+
+class Subjects:
+    """Sorts a story into subjects from its sample headlines (config/arrivals_subjects.json)."""
+
+    def __init__(self):
+        cfg = load_config("arrivals_subjects.json") or {}
+        self.cfg = cfg
+        self.hash = hashlib.sha1(json.dumps(cfg, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:12]
+        self.match = SignalMatcher(cfg.get("subjects", []))
+        self.hard = SignalMatcher([{"id": "hard", "any": cfg.get("noise_hard", {})}])
+        self.soft = SignalMatcher([{"id": "soft", "any": cfg.get("noise_soft", {})}])
+
+    def classify(self, story: dict) -> tuple[list[str], bool]:
+        titles = [(a.get("title") or "", a.get("lang") or "en") for a in (story.get("articles") or [])]
+        titles.append((story.get("headline") or "", "en"))
+        counts: dict[str, int] = {}
+        hard = soft = 0
+        for t, lang in titles:
+            if not t:
+                continue
+            for sid in self.match.match(t, "", lang):
+                counts[sid] = counts.get(sid, 0) + 1
+            hard += bool(self.hard.match(t, "", lang))
+            soft += bool(self.soft.match(t, "", lang))
+        subjects = [k for k, _ in sorted(counts.items(), key=lambda kv: -kv[1])]
+        n = max(1, sum(1 for t, _ in titles if t))
+        if hard and hard * 3 >= n:  # a third of the headlines are sport or entertainment
+            return subjects, False
+        core = sum(counts.get(k, 0) for k in CORE)
+        if soft and soft * 3 >= n and not (core >= 2 or core * 3 >= n):  # an accident, unless mostly business
+            return subjects, False
+        return subjects, bool(subjects)
 
 
 def _ts(a: dict) -> str | None:
@@ -96,7 +135,8 @@ def update(now: datetime, force: bool = False) -> dict:
         meta["error"] = "CORPUS_API_KEY is not set"
         return state
     last = meta.get("last_run")
-    if (not force and meta.get("version") == STATE_VERSION and last
+    subj = Subjects()
+    if (not force and meta.get("version") == STATE_VERSION and meta.get("subjects_hash") == subj.hash and last
             and parse_iso(last) > now - timedelta(hours=CHECK_EVERY_HOURS)):
         return state
     if meta.get("version") != STATE_VERSION:  # matching rules changed: check every story again
@@ -105,7 +145,7 @@ def update(now: datetime, force: bool = False) -> dict:
                 rec.pop(k, None)
         meta["version"] = STATE_VERSION
     stories = state.setdefault("stories", {})
-    meta.update({"last_run": iso(now), "error": None})
+    meta.update({"last_run": iso(now), "error": None, "subjects_hash": subj.hash})
     try:
         page = fetch_corpus._get("/v1/stories", {"days": STORY_DAYS, "limit": 100}, key)
     except RuntimeError as exc:
@@ -117,6 +157,8 @@ def update(now: datetime, force: bool = False) -> dict:
     incoming = page.get("stories") or []
     # Check new stories first, then ones not yet seen in Finland that are due a re-check.
     def priority(s):
+        if not subj.classify(s)[1]:
+            return (9, 0)
         rec = stories.get(str(s.get("id")), {})
         if not rec:
             return (0, -(s.get("articles_this_week") or 0))
@@ -145,7 +187,8 @@ def update(now: datetime, force: bool = False) -> dict:
             rec["abroad_first"] = min(cands)
         foreign_markets = [m for m in (s.get("markets") or {}) if m != HOME]
         rec["markets_abroad"] = len(foreign_markets)
-        due = (not rec.get("fi_first") and len(foreign_markets) >= MIN_MARKETS_ABROAD
+        rec["subjects"], rec["relevant"] = subj.classify(s)
+        due = (rec["relevant"] and not rec.get("fi_first") and len(foreign_markets) >= MIN_MARKETS_ABROAD
                and (rec.get("checked") or "") < iso(now - timedelta(hours=RECHECK_HOURS)))
         if due and budget["n"] > 0:
             res = _check_story(s, key, budget)
@@ -182,16 +225,24 @@ def build(now: datetime) -> dict:
     state = load_json(STATE, {}) or {}
     stories = list((state.get("stories") or {}).values())
     show_after = iso(now - timedelta(days=SHOW_DAYS))
-    lags = [l for l in (_lag_days(r) for r in stories if (r.get("markets_abroad") or 0) >= MIN_MARKETS_ABROAD)
-            if l is not None]
+    qualifying = [r for r in stories if (r.get("markets_abroad") or 0) >= MIN_MARKETS_ABROAD and r.get("relevant")]
+    lags = [l for l in (_lag_days(r) for r in qualifying) if l is not None]
+    by_subject = {}
+    for sd in (load_config("arrivals_subjects.json") or {}).get("subjects", []):
+        ls = sorted(l for l in (_lag_days(r) for r in qualifying if sd["id"] in (r.get("subjects") or [])) if l is not None)
+        pos = [l for l in ls if l >= 0]
+        by_subject[sd["id"]] = {"fi": sd["fi"], "en": sd["en"], "measured": len(ls),
+                                "median_lag": round(statistics.median(pos), 1) if len(pos) >= 3 else None,
+                                "slow": sum(1 for l in ls if l > 3), "finland_first": sum(1 for l in ls if l < 0)}
+    hidden = sum(1 for r in stories if (r.get("last_seen") or "") >= show_after and r.get("relevant") is False)
     pending, arrived, led = [], [], []
     for r in stories:
         if (r.get("last_seen") or "") < show_after or not r.get("headline"):
             continue
         lag = _lag_days(r)
-        if (r.get("markets_abroad") or 0) < MIN_MARKETS_ABROAD:
+        if (r.get("markets_abroad") or 0) < MIN_MARKETS_ABROAD or not r.get("relevant"):
             continue
-        row = {k: r.get(k) for k in ("id", "headline", "headline_en", "headline_fi", "state", "first_seen", "last_seen", "abroad_first", "weekly",
+        row = {k: r.get(k) for k in ("id", "headline", "headline_en", "headline_fi", "subjects", "state", "first_seen", "last_seen", "abroad_first", "weekly",
                                      "this_week", "velocity", "markets", "outlets", "samples", "fi_first", "fi_count",
                                      "checked")}
         row["lag"] = lag
@@ -209,7 +260,8 @@ def build(now: datetime) -> dict:
     out = {
         "updated": iso(now), "checked": (state.get("_meta") or {}).get("last_run"),
         "error": (state.get("_meta") or {}).get("error"),
-        "pending": pending[:30], "arrived": arrived[:30], "led": led[:15],
+        "pending": pending[:30], "arrived": arrived[:40], "led": led[:15],
+        "subjects": by_subject, "hidden": hidden,
         "stats": {
             "stories": len(stories), "measured": len(lags), "finland_first": sum(1 for l in lags if l < 0),
             "median_lag": round(statistics.median(pos), 1) if pos else None,

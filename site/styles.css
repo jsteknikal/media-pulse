@@ -451,3 +451,6 @@ mark.own { background: none; color: inherit; box-shadow: inset 0 -0.38em 0 var(-
 .coming-row .small { margin-top: 2px; }
 .coming-n { text-align: right; display: flex; flex-direction: column; align-items: flex-end; gap: 2px; white-space: nowrap; }
 @media (max-width: 640px) { .coming-row { grid-template-columns: 1fr; } .coming-n { align-items: flex-start; text-align: left; } }
+.subj-filter { display: flex; flex-wrap: wrap; gap: var(--space-4xs); }
+.subj { display: inline-block; border: var(--border-width) solid currentColor; padding: 0 6px; font-size: var(--text-body-2xs); white-space: nowrap; }
+.data tbody th[scope="row"] { font-weight: 400; text-align: left; border-bottom: var(--border-width) solid var(--hairline); color: var(--base-text); }

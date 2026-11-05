@@ -120,8 +120,12 @@
         heroWaiting: "Ensimmäinen tarkistus on tulossa: tarinat haetaan muutaman tunnin välein.",
         subLag: (m, n, a, b) => `Suomeen saapuneet tarinat tulivat tänne mediaanina ${m} päivässä${a != null ? ` (puolet ${a}–${b} päivässä)` : ""}, ${n} mitattua tarinaa.`,
         subMeasuring: (n) => `Mittaamme, kuinka nopeasti tarinat tulevat Suomeen. Mitattuja tarinoita tähän mennessä: ${n}.`,
+        filterLabel: "Rajaa aiheen mukaan", allSubjects: "Kaikki aiheet",
+        hiddenNote: (n) => `Urheilu, viihde, onnettomuudet ja Yhdysvaltain vaalitulokset on suodatettu pois (${n} tarinaa).`,
+        bySubjectTitle: "Kuinka nopeasti aiheet tulevat Suomeen", bySubjectNote: "Mediaaniviive näytetään, kun aiheesta on vähintään kolme mitattua saapumista. Hidas = yli 3 päivää.",
+        col: { subject: "Aihe", measured: "Mitattu", median: "Mediaaniviive", slow: "Hitaita", first: "Suomi ensin" },
         checkedAt: "Tarkistettu", finlandFirstN: (n) => `Suomi ehti ensin ${n} kertaa`,
-        pendingTitle: "Ei vielä Suomessa", pendingNote: "Tarinat, jotka nousevat tai kiihtyvät useissa medioissa ja kielissä, mutta joista ei löydy suomalaista juttua. Suurin määrä ensin.",
+        pendingTitle: "Ei vielä Suomessa", pendingNote: "Talouden, teknologian, politiikan, kestävyyden ja geopolitiikan tarinat, jotka nousevat tai kiihtyvät vähintään kahdessa maassa, mutta joista ei löydy suomalaista juttua. Suurin määrä ensin.",
         pendingEmpty: "Ei tarinoita juuri nyt.",
         arrivedTitle: "Saapuneet Suomeen", arrivedNote: "Kuinka kauan kesti ensimmäisestä ulkomaisesta jutusta ensimmäiseen suomalaiseen.",
         arrivedEmpty: "Ei vielä mitattuja saapumisia.",
@@ -130,7 +134,7 @@
         firstAbroad: "Ulkomailla ensin", abroad: "Ulkomailla", inFinland: "Suomessa",
         lag: (d) => `+${d} pv`, ahead: (d) => `${d} pv edellä`,
         markets: { se: "Ruotsi", de: "Saksa", uk: "Iso-Britannia", us: "Yhdysvallat", fr: "Ranska", es: "Espanja", intl: "Kansainväliset", no: "Norja", dk: "Tanska" },
-        method: "Lähde: Thoughtlead-uutiskorpus, noin 60 mediaa Suomesta, Ruotsista, saksankielisistä maista, Britanniasta, Yhdysvalloista ja Espanjasta. Korpus tunnistaa tarinat merkityksen perusteella kielestä riippumatta. Suomalainen juttu katsotaan samaksi tarinaksi, kun sen samankaltaisuus on vähintään 0,82. Päivämäärät tulevat näytejutuista, joten viive on suuntaa antava. Tarkistus muutaman tunnin välein.",
+        method: "Lähde: Thoughtlead-uutiskorpus, noin 60 mediaa Suomesta, Ruotsista, saksankielisistä maista, Britanniasta, Yhdysvalloista ja Espanjasta. Korpus tunnistaa tarinat merkityksen perusteella kielestä riippumatta. Mukana ovat vain talouden, teknologian, politiikan, kestävyyden ja geopolitiikan tarinat, joista on kirjoitettu vähintään kahdessa maassa. Suomalainen juttu katsotaan samaksi tarinaksi, kun sen samankaltaisuus on vähintään 0,84. Päivämäärät tulevat näytejutuista, joten viive on suuntaa antava. Tarkistus muutaman tunnin välein.",
       },
       lens: {
         title: "Kestävyys",
@@ -269,8 +273,12 @@
         heroWaiting: "The first check is on its way: stories are fetched every few hours.",
         subLag: (m, n, a, b) => `Stories that did arrive took a median of ${m} days${a != null ? ` (half within ${a}–${b} days)` : ""}, across ${n} measured stories.`,
         subMeasuring: (n) => `We are measuring how fast stories reach Finland. Stories measured so far: ${n}.`,
+        filterLabel: "Filter by subject", allSubjects: "All subjects",
+        hiddenNote: (n) => `Sport, entertainment, accidents and US election results are filtered out (${n} stories).`,
+        bySubjectTitle: "How fast each subject reaches Finland", bySubjectNote: "The median delay shows once a subject has at least three measured arrivals. Slow = more than 3 days.",
+        col: { subject: "Subject", measured: "Measured", median: "Median delay", slow: "Slow", first: "Finland first" },
         checkedAt: "Checked", finlandFirstN: (n) => `Finland was first ${n} times`,
-        pendingTitle: "Not in Finland yet", pendingNote: "Stories emerging or accelerating across outlets and languages, with no Finnish article found. Biggest first.",
+        pendingTitle: "Not in Finland yet", pendingNote: "Business, tech, policy, sustainability and geopolitics stories emerging or accelerating in at least two countries, with no Finnish article found. Biggest first.",
         pendingEmpty: "No stories right now.",
         arrivedTitle: "Arrived in Finland", arrivedNote: "How long it took from the first foreign article to the first Finnish one.",
         arrivedEmpty: "No measured arrivals yet.",
@@ -279,7 +287,7 @@
         firstAbroad: "First abroad", abroad: "Abroad", inFinland: "Finland",
         lag: (d) => `+${d} days`, ahead: (d) => `${d} days ahead`,
         markets: { se: "Sweden", de: "Germany", uk: "UK", us: "US", fr: "France", es: "Spain", intl: "International", no: "Norway", dk: "Denmark" },
-        method: "Source: the Thoughtlead news corpus, about 60 outlets in Finland, Sweden, German-speaking countries, the UK, the US and Spain. The corpus groups stories by meaning, across languages. A Finnish article counts as the same story when its similarity is at least 0.82. Dates come from sample articles, so the lag is approximate. Checked every few hours.",
+        method: "Source: the Thoughtlead news corpus, about 60 outlets in Finland, Sweden, German-speaking countries, the UK, the US and Spain. The corpus groups stories by meaning, across languages. Only business, tech, policy, sustainability and geopolitics stories covered in at least two countries are included. A Finnish article counts as the same story when its similarity is at least 0.84. Dates come from sample articles, so the lag is approximate. Checked every few hours.",
       },
       lens: {
         title: "Sustainability",
@@ -591,9 +599,14 @@
   }
 
   /* ------------------------------------------------------------ coming to Finland */
+  let comingFilter = "all";
   async function viewComing() {
     const D = await load("arrivals");
     const C = t().coming;
+    const SUBJ = D.subjects || {};
+    const sname = (id) => (SUBJ[id] ? (lang === "fi" ? SUBJ[id].fi : SUBJ[id].en) : id);
+    const keep = (r) => comingFilter === "all" || (r.subjects || []).includes(comingFilter);
+    const chips = (r) => (r.subjects || []).slice(0, 2).map((x) => `<span class="subj">${esc(sname(x))}</span>`).join(" ");
     const num1 = (v) => new Intl.NumberFormat(locale(), { maximumFractionDigits: 1 }).format(v);
     const mk = (m) => C.markets[m] || (m || "").toUpperCase();
     const marketsLine = (ms) => Object.entries(ms || {}).filter(([m]) => m !== "fi").sort((a, b) => b[1] - a[1])
@@ -604,21 +617,24 @@
     const samples = (r) => (r.samples || []).slice(0, 3).map((s) => `<a href="${esc(s.u)}" target="_blank" rel="noopener">${esc(s.d)}</a>`).join(", ");
     const S = D.stats || {};
 
-    const pendingRows = (D.pending || []).map((r) => `<li class="coming-row">
-        <div>${lead(r)}<div class="small">${stateChip(r.state)} · ${marketsLine(r.markets)} · ${esc(C.outlets(r.outlets || 0))}</div>
+    const pendingRows = (D.pending || []).filter(keep).map((r) => `<li class="coming-row">
+        <div>${lead(r)}<div class="small">${chips(r)} ${stateChip(r.state)} · ${marketsLine(r.markets)} · ${esc(C.outlets(r.outlets || 0))}</div>
           <div class="small">${esc(C.firstAbroad)} ${esc(r.abroad_first ? fmtDate(r.abroad_first.slice(0, 10)) : "–")} · ${samples(r)}</div></div>
         <div class="coming-n"><strong>${num(r.this_week || 0)}</strong> <span class="small">${esc(C.thisWeek)}</span>${barsSvg(r.weekly || [])}</div>
       </li>`).join("");
-    const arrivedRows = (D.arrived || []).map((r) => `<li class="coming-row">
-        <div>${lead(r)}<div class="small">${esc(C.abroad)} ${esc(r.abroad_first ? fmtDate(r.abroad_first.slice(0, 10)) : "–")} → ${esc(C.inFinland)} ${esc(r.fi_first?.p ? fmtDate(r.fi_first.p.slice(0, 10)) : "–")}${r.fi_first?.u ? ` · <a href="${esc(r.fi_first.u)}" target="_blank" rel="noopener">${esc(r.fi_first.d || "")}</a>` : ""}</div></div>
+    const arrivedRows = (D.arrived || []).filter(keep).map((r) => `<li class="coming-row">
+        <div>${lead(r)}<div class="small">${chips(r)} ${esc(C.abroad)} ${esc(r.abroad_first ? fmtDate(r.abroad_first.slice(0, 10)) : "–")} → ${esc(C.inFinland)} ${esc(r.fi_first?.p ? fmtDate(r.fi_first.p.slice(0, 10)) : "–")}${r.fi_first?.u ? ` · <a href="${esc(r.fi_first.u)}" target="_blank" rel="noopener">${esc(r.fi_first.d || "")}</a>` : ""}</div></div>
         <div class="coming-n"><strong>${r.lag == null ? "–" : esc(C.lag(num1(r.lag)))}</strong></div>
       </li>`).join("");
-    const ledRows = (D.led || []).map((r) => `<li class="coming-row">
-        <div>${lead(r)}<div class="small">${esc(C.inFinland)} ${esc(fmtDate(r.fi_first.p.slice(0, 10)))}${r.fi_first?.u ? ` · <a href="${esc(r.fi_first.u)}" target="_blank" rel="noopener">${esc(r.fi_first.d || "")}</a>` : ""} → ${esc(C.abroad)} ${esc(fmtDate(r.abroad_first.slice(0, 10)))}</div></div>
+    const ledRows = (D.led || []).filter(keep).map((r) => `<li class="coming-row">
+        <div>${lead(r)}<div class="small">${chips(r)} ${esc(C.inFinland)} ${esc(fmtDate(r.fi_first.p.slice(0, 10)))}${r.fi_first?.u ? ` · <a href="${esc(r.fi_first.u)}" target="_blank" rel="noopener">${esc(r.fi_first.d || "")}</a>` : ""} → ${esc(C.abroad)} ${esc(fmtDate(r.abroad_first.slice(0, 10)))}</div></div>
         <div class="coming-n"><strong>${esc(C.ahead(num1(-r.lag)))}</strong></div>
       </li>`).join("");
 
-    const n = (D.pending || []).length;
+    const n = (D.pending || []).filter(keep).length;
+    const filterBar = `<div class="subj-filter" role="group" aria-label="${esc(C.filterLabel)}">${["all", ...Object.keys(SUBJ)].map((id) =>
+      `<button type="button" class="mt-toggle" data-subj="${esc(id)}" aria-pressed="${comingFilter === id}"><span class="mt-toggle-dot" aria-hidden="true"></span>${esc(id === "all" ? C.allSubjects : sname(id))}</button>`).join("")}</div>`;
+    const subjRows = Object.entries(SUBJ).map(([id, v]) => `<tr><th scope="row">${esc(sname(id))}</th><td>${num(v.measured)}</td><td>${v.median_lag == null ? "–" : esc(C.lag(num1(v.median_lag)))}</td><td>${num(v.slow)}</td><td>${num(v.finland_first)}</td></tr>`).join("");
     const hero = D.checked ? (n ? C.heroPending(n) : C.heroNone) : C.heroWaiting;
     const sub = S.median_lag != null ? C.subLag(num1(S.median_lag), S.measured, S.p25 != null ? num1(S.p25) : null, S.p75 != null ? num1(S.p75) : null) : C.subMeasuring(S.measured || 0);
 
@@ -628,12 +644,18 @@
         <p class="sub">${esc(sub)}</p>
         <div class="meta-line"><span>${esc(C.checkedAt)} <strong>${esc(D.checked ? fmtTime(D.checked) : "–")}</strong></span>${S.finland_first ? `<span>${esc(C.finlandFirstN(S.finland_first))}</span>` : ""}</div>
       </section></div>
+      <section class="section">${filterBar}<p class="small">${esc(C.hiddenNote(D.hidden || 0))}</p></section>
       <section class="section"><div class="section-head"><h2>${esc(C.pendingTitle)}</h2><p>${esc(C.pendingNote)}</p></div>
         ${pendingRows ? `<ul class="list coming">${pendingRows}</ul>` : `<p class="notice">${esc(D.checked ? C.pendingEmpty : C.heroWaiting)}</p>`}</section>
       <section class="section"><div class="section-head"><h2>${esc(C.arrivedTitle)}</h2><p>${esc(C.arrivedNote)}</p></div>
         ${arrivedRows ? `<ul class="list coming">${arrivedRows}</ul>` : `<p class="notice">${esc(C.arrivedEmpty)}</p>`}</section>
       ${ledRows ? `<section class="section"><div class="section-head"><h2>${esc(C.ledTitle)}</h2><p>${esc(C.ledNote)}</p></div><ul class="list coming">${ledRows}</ul></section>` : ""}
+      <section class="section"><div class="section-head"><h2>${esc(C.bySubjectTitle)}</h2><p>${esc(C.bySubjectNote)}</p></div>
+        <div class="table-scroll"><table class="data"><thead><tr><th scope="col">${esc(C.col.subject)}</th><th scope="col">${esc(C.col.measured)}</th><th scope="col">${esc(C.col.median)}</th><th scope="col">${esc(C.col.slow)}</th><th scope="col">${esc(C.col.first)}</th></tr></thead><tbody>${subjRows}</tbody></table></div></section>
       <section class="section"><p class="small method">${esc(C.method)}</p></section>`;
+    app.querySelectorAll(".subj-filter button").forEach((b) => b.addEventListener("click", () => {
+      comingFilter = b.dataset.subj; viewComing().then(() => { const f = app.querySelector(`.subj-filter button[data-subj="${comingFilter}"]`); if (f) f.focus(); });
+    }));
   }
 
   /* ------------------------------------------------------------ sustainability lens */
