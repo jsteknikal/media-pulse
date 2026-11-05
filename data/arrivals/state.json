@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-05T13:21:45Z",
+  "last_run": "2026-11-05T13:38:26Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -16,7 +16,8 @@
    "url"
   ],
   "similar_left": 0,
-  "stories_in": 100
+  "stories_in": 100,
+  "version": 2
  },
  "stories": {
   "2984": {
@@ -68,7 +69,10 @@
     }
    ],
    "abroad_first": "2026-10-25T21:31:12Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "A timeline of Brazilian Senator Flavio Bolsonaro's wild journey to the United States",
+   "headline_fi": "Flavio Bolsonaro pakeni Brasiliasta - saa viisumin Yhdysvalloista",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -79,7 +83,7 @@
     "s": null
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2524": {
    "id": "2524",
@@ -128,8 +132,11 @@
      "p": "2026-10-27T05:58:40Z"
     }
    ],
-   "abroad_first": "2026-10-27T05:58:40Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-10-21T03:00:31Z",
+   "headline_en": "Israel's Parties Gird for Wrangling to Form a Government, With No Clear Path",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -140,7 +147,7 @@
     "s": 0.866
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3184": {
    "id": "3184",
@@ -189,19 +196,22 @@
      "p": "2026-11-01T06:33:08Z"
     }
    ],
-   "abroad_first": "2026-10-30T14:00:25Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-10-30T13:39:15Z",
+   "headline_en": "FBI confirms North Korea behind biggest crypto heist in history",
+   "headline_fi": "Pohjois-Korea kiistää FBI:n syytökset kryptovaluuttavarkaudesta",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
-    "p": "2026-10-30T02:49:00Z",
-    "d": "is.fi",
-    "u": "https://www.is.fi/taloussanomat/art-2000012376874.html",
-    "t": "Maailman suurin kryptopörssi saatettiin hakkeroida - miljardeja dollareita jäädytettiin",
-    "s": 0.834
+    "p": "2026-10-30T04:47:33Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/7f692d51-f324-43f3-9385-0f0b9d3f314d",
+    "t": "Valtava kryptomurto - Bitcoineja vaarassa miljardien edestä",
+    "s": 0.901
    },
-   "fi_count": 7,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 4,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2875": {
    "id": "2875",
@@ -252,18 +262,21 @@
     }
    ],
    "abroad_first": "2026-10-25T06:47:09Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Serbia's student movement: How and why students brought down Vučić",
+   "headline_fi": "Putin kärsi tappion Serbiassa - Venäjän mediassa alkoi heti poru ja syyttely",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
-    "p": "2026-10-24T16:46:00Z",
-    "d": "is.fi",
-    "u": "https://www.is.fi/ulkomaat/art-2000012364798.html",
-    "t": "Euroopassa kuohuu - suurmielenosoituksia ympäri eteläistä Eurooppaa",
-    "s": 0.838
+    "p": "2026-10-25T06:17:26Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20253170",
+    "t": "Euroopan mini-Venäjä äänestää tänään - nuoret yrittävät tehdä sen, mihin kukaan ei ole pystynyt 14 vuoteen",
+    "s": 0.866
    },
-   "fi_count": 10,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 7,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2333": {
    "id": "2333",
@@ -311,8 +324,11 @@
      "p": "2026-10-27T08:01:16Z"
     }
    ],
-   "abroad_first": "2026-10-27T00:00:06Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-10-17T12:55:27Z",
+   "headline_en": "Oleshky ceasefire comes into effect in Ukraine war",
+   "headline_fi": null,
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -323,7 +339,7 @@
     "s": 0.891
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2688": {
    "id": "2688",
@@ -371,19 +387,22 @@
      "p": "2026-10-30T14:42:46Z"
     }
    ],
-   "abroad_first": "2026-10-29T13:00:56Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-10-22T20:37:37Z",
+   "headline_en": "Cost of living protests to spread to Germany and reignite in France on Halloween",
+   "headline_fi": null,
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
-    "p": "2026-10-31T01:46:00Z",
-    "d": "hs.fi",
-    "u": "https://www.hs.fi/maailma/art-2000012379457.html",
-    "t": "Yli 160 000 ihmisen odotetaan osallistuvan mielenosoituksiin Saksassa lauantaina",
-    "s": 0.833
+    "p": "2026-11-01T04:19:22Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/7-10107927",
+    "t": "Gen Z-protesterna spårade ur i Tyskland",
+    "s": 0.843
    },
-   "fi_count": 5,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3126": {
    "id": "3126",
@@ -432,7 +451,10 @@
     }
    ],
    "abroad_first": "2026-10-29T11:52:57Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Former minister feared dead after 69 killed in Spain’s high-speed train crash",
+   "headline_fi": "Lehti sai haltuunsa hyytävän tallenteen Espanjan junaturmasta - liikenteenohjaaja lausui kohtalokkaat sanat kello 8.36",
+   "markets_abroad": 2,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -443,7 +465,7 @@
     "s": 0.893
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3258": {
    "id": "3258",
@@ -474,19 +496,10 @@
      "p": "2026-11-02T15:34:12Z"
     }
    ],
-   "abroad_first": "2026-11-02T15:34:12Z",
-   "checked": "2026-11-05T13:21:45Z",
-   "check_how": "url",
-   "check_error": null,
-   "fi_first": {
-    "p": "2026-10-30T13:19:00Z",
-    "d": "is.fi",
-    "u": "https://www.is.fi/jaakiekko/art-2000012378476.html",
-    "t": "Venäjä luikahti MM-kiekkoon - Jarno Limnell: \"Järkyttävää arvostelukyvyn puutetta",
-    "s": 0.897
-   },
-   "fi_count": 16,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "abroad_first": "2026-10-31T14:16:01Z",
+   "headline_en": "Ice hockey chiefs mull options on Russia reinstatement",
+   "headline_fi": "Suomen jääkiekkoliitto kokoaa boikottirintamaa Venäjää vastaan",
+   "markets_abroad": 1
   },
   "2795": {
    "id": "2795",
@@ -535,8 +548,11 @@
      "p": "2026-11-02T09:26:24Z"
     }
    ],
-   "abroad_first": "2026-10-29T16:35:54Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-10-24T09:42:37Z",
+   "headline_en": "Alaska Senate election: Governor orders probe of alleged effort to recruit second Dan Sullivan",
+   "headline_fi": "Dan vai Daniel Sullivan? Demokraatit etsivät tarkoituksella ehdokasta äänestäjien pään menoksi",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -547,7 +563,7 @@
     "s": 0.909
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3289": {
    "id": "3289",
@@ -597,8 +613,11 @@
      "p": "2026-11-02T16:00:12Z"
     }
    ],
-   "abroad_first": "2026-11-01T17:47:43Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-11-01T14:46:46Z",
+   "headline_en": "Video. US midterms: Democrat Haley Stevens backs Republican Mike Rogers in Michigan Senate race",
+   "headline_fi": null,
+   "markets_abroad": 5,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -609,7 +628,7 @@
     "s": 0.931
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2874": {
    "id": "2874",
@@ -657,18 +676,9 @@
     }
    ],
    "abroad_first": "2026-10-25T01:23:43Z",
-   "checked": "2026-11-05T13:21:45Z",
-   "check_how": "url",
-   "check_error": null,
-   "fi_first": {
-    "p": "2026-10-25T03:25:22Z",
-    "d": "yle.fi",
-    "u": "https://yle.fi/a/74-20253190",
-    "t": "Obama haukkui Trumpin kautta kaaokseksi - Trump hehkutti Audin miljardi-investointia",
-    "s": 0.835
-   },
-   "fi_count": 5,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "headline_en": null,
+   "headline_fi": "Saksa | Audin toimitusjohtajaa arvostellaan ankarasti Trumpin tukemisesta",
+   "markets_abroad": 1
   },
   "3404": {
    "id": "3404",
@@ -719,18 +729,21 @@
     }
    ],
    "abroad_first": "2026-10-31T12:51:04Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "We're watching several areas in Texas as polls close there.",
+   "headline_fi": "Trumpin kohtalonhetket? IS raportoi välivaaleista läpi yön - studio perkaa tuloksia kello 7 alkaen",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
-    "p": "2026-10-31T03:15:03Z",
-    "d": "yle.fi",
-    "u": "https://yle.fi/a/7-10107464",
-    "t": "Historisk valrysare i Texas: Demokraten Talarico kan bryta Republikanernas 38-åriga svit",
+    "p": "2026-11-03T18:46:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012386565.html",
+    "t": "Trumpin kohtalonhetket? IS raportoi välivaaleista läpi yön - studio perkaa tuloksia kello 7 alkaen",
     "s": null
    },
-   "fi_count": 3,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3360": {
    "id": "3360",
@@ -779,7 +792,10 @@
     }
    ],
    "abroad_first": "2026-11-02T15:39:51Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Fridge temperatures soar in European supermarkets after suspected hack: ‘It’s very scary’",
+   "headline_fi": null,
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -790,7 +806,7 @@
     "s": 0.892
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2338": {
    "id": "2338",
@@ -839,8 +855,11 @@
      "p": "2026-10-27T00:00:00Z"
     }
    ],
-   "abroad_first": "2026-10-26T00:00:00Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-10-17T12:55:38Z",
+   "headline_en": "Pre-IPO Crypto Futures Are Valuing Anthropic At $1.88 Trillion",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -850,8 +869,8 @@
     "t": "Tekoäly | Anthropic julkaisi pörssiesitteensä: Hurjaa kasvua, hurjia riskejä",
     "s": 0.862
    },
-   "fi_count": 5,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3057": {
    "id": "3057",
@@ -903,7 +922,10 @@
     }
    ],
    "abroad_first": "2026-10-27T09:37:35Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Kylian Mbappé faces China backlash as sponsors cut ties over viral meme",
+   "headline_fi": "Analyysi: Kiina raivostui Kylian Mbappelle - kohussa on yksi erikoinen piirre",
+   "markets_abroad": 5,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -914,7 +936,7 @@
     "s": 0.902
    },
    "fi_count": 5,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3321": {
    "id": "3321",
@@ -964,7 +986,10 @@
     }
    ],
    "abroad_first": "2026-11-01T21:53:11Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Nine killed after business jet crashes in Florida neighbourhood",
+   "headline_fi": "Yksityiskone syöksyi maahan Floridassa, kyydissä yhdeksän ihmistä",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -975,7 +1000,7 @@
     "s": null
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2302": {
    "id": "2302",
@@ -1024,8 +1049,11 @@
      "p": "2026-11-02T21:32:24Z"
     }
    ],
-   "abroad_first": "2026-11-02T11:32:00Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-10-16T12:18:36Z",
+   "headline_en": "Trump administration takes California ballot fight to Supreme Court",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1035,8 +1063,8 @@
     "t": "Analys: Om republikanerna förlorar valet kan det få följder för oss",
     "s": 0.873
    },
-   "fi_count": 4,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 3,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3245": {
    "id": "3245",
@@ -1086,7 +1114,10 @@
     }
    ],
    "abroad_first": "2026-10-30T14:18:00Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Police deployed during stand-off over control of Poland's top court",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1096,8 +1127,8 @@
     "t": "Puolassa poliittinen kamppailu kiristynyt, mellakkapoliisit määrätty Varsovan kaduille",
     "s": 0.848
    },
-   "fi_count": 7,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 6,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3190": {
    "id": "3190",
@@ -1148,7 +1179,10 @@
     }
    ],
    "abroad_first": "2026-10-29T19:54:33Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Emmerdale actor remembers 'wonderful' mentor Sir Patrick Stewart",
+   "headline_fi": "Näistä rooleista Patrick Stewart muistetaan",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1159,7 +1193,7 @@
     "s": 0.858
    },
    "fi_count": 2,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3430": {
    "id": "3430",
@@ -1206,9 +1240,9 @@
     }
    ],
    "abroad_first": "2026-11-03T14:34:53Z",
-   "checked": "2026-11-05T13:21:45Z",
-   "check_how": "url",
-   "check_error": null
+   "headline_en": "Mississippi U.S. Senate 2026: Live Midterm Election Results, Hyde-Smith vs. Colom",
+   "headline_fi": null,
+   "markets_abroad": 1
   },
   "2982": {
    "id": "2982",
@@ -1259,7 +1293,10 @@
     }
    ],
    "abroad_first": "2026-10-27T00:20:14Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Ballon d'Or is crowning moment for Kane, true reflection of remarkable career",
+   "headline_fi": "Harry Kane nousi maailman parhaaksi 73 maalilla - asiantuntija arvostelee valinnan maalikeskeisyyttä",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1269,8 +1306,8 @@
     "t": "Harry Kane ja Alexia Putellas valittiin maailman parhaiksi jalkapalloilijoiksi",
     "s": 0.873
    },
-   "fi_count": 6,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 5,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3243": {
    "id": "3243",
@@ -1321,18 +1358,21 @@
     }
    ],
    "abroad_first": "2026-10-30T11:44:00Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "US cancels G20 photo after EU diplomats object to Russia's Lavrov",
+   "headline_fi": "Lavrov: Venäjän kanta ei ole muuttunut",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
-    "p": "2026-10-30T04:30:56Z",
-    "d": "mtvuutiset.fi",
-    "u": "https://www.mtvuutiset.fi/artikkeli/venajan-ulkoministeri-saapui-yhdysvaltoihin/9413876",
-    "t": "Venäjän ulkoministeri saapui Yhdysvaltoihin",
-    "s": 0.835
+    "p": "2026-10-30T16:00:07Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20254335",
+    "t": "USA:n isännöimän G20-kokouksen yhteiskuva peruttiin Venäjän vuoksi",
+    "s": null
    },
-   "fi_count": 9,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 6,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2909": {
    "id": "2909",
@@ -1381,8 +1421,11 @@
      "p": "2026-10-27T00:00:00Z"
     }
    ],
-   "abroad_first": "2026-10-26T17:29:42Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-10-25T10:26:03Z",
+   "headline_en": "Anthropic's IPO is risky business",
+   "headline_fi": "Tekoäly | Anthropic julkaisi pörssiesitteensä: Hurjaa kasvua, hurjia riskejä",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1392,8 +1435,8 @@
     "t": "Tekoäly | Anthropic julkaisi pörssiesitteensä: Hurjaa kasvua, hurjia riskejä",
     "s": null
    },
-   "fi_count": 7,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 3,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2790": {
    "id": "2790",
@@ -1442,7 +1485,10 @@
     }
    ],
    "abroad_first": "2026-10-24T09:14:40Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Around 1,200 Palestinians are displaced in Hebron as Israel begins military operation",
+   "headline_fi": null,
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1452,8 +1498,8 @@
     "t": "Tämä on tilanne Länsirannalla | Israelin armeija ratsaa koteja, 1 200 palestiinalaista häädetty",
     "s": 0.865
    },
-   "fi_count": 4,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 3,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3284": {
    "id": "3284",
@@ -1503,19 +1549,22 @@
      "p": "2026-11-03T21:12:54Z"
     }
    ],
-   "abroad_first": "2026-11-03T20:26:01Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-11-01T14:46:40Z",
+   "headline_en": "Spanish transport minister resigns days after deadly train crash",
+   "headline_fi": "Espanjan liikenneministeri erosi, syynä tuhoisat junaturmat",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
-    "p": "2026-10-28T17:32:00Z",
+    "p": "2026-11-03T21:09:00Z",
     "d": "is.fi",
-    "u": "https://www.is.fi/ulkomaat/art-2000012373455.html",
-    "t": "Näin Espanjan järkyttävä junaturma tapahtui",
-    "s": 0.867
+    "u": "https://www.is.fi/ulkomaat/art-2000012386794.html",
+    "t": "Espanjan liikenneministeri eroaa - syynä tuhoisat junaturmat",
+    "s": 0.884
    },
-   "fi_count": 10,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 3,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2574": {
    "id": "2574",
@@ -1564,8 +1613,11 @@
      "p": "2026-10-29T03:27:43Z"
     }
    ],
-   "abroad_first": "2026-10-24T15:01:30Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "abroad_first": "2026-10-21T19:43:01Z",
+   "headline_en": "Milwaukee vs. Tampa: A World Series Playlist",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null
   },
@@ -1618,18 +1670,21 @@
     }
    ],
    "abroad_first": "2026-10-25T13:59:00Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Video: Trump Fires Back After Obama's 'Cheesecake Factory' Jab",
+   "headline_fi": "Presidentti Trump tulistui täysin Obaman kommenteista - puhkesi kuuden minuutin tilitykseen",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
-    "p": "2026-10-25T08:16:25Z",
+    "p": "2026-10-27T06:56:09Z",
     "d": "mtvuutiset.fi",
-    "u": "https://www.mtvuutiset.fi/artikkeli/obama-noyryytti-trumpia-kuin-saddam-hussein-olisi-avannut-juustokakkutehtaan/9411610",
-    "t": "Obama nöyryytti Trumpia: \"Kuin Saddam Hussein olisi avannut juustokakkutehtaan\"",
-    "s": 0.829
+    "u": "https://www.mtvuutiset.fi/artikkeli/bensan-hinta-rajahti-trump-puhui-aivan-muusta-minulla-on-hauskaa-se-rentouttaa/9412332",
+    "t": "Bensan hinta räjähti, Trump puhui aivan muusta: \"Minulla on hauskaa, se rentouttaa\"",
+    "s": 0.861
    },
-   "fi_count": 5,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 4,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3248": {
    "id": "3248",
@@ -1679,7 +1734,10 @@
     }
    ],
    "abroad_first": "2026-10-30T22:00:24Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Andy Burnham open to calls for formal apology for Britain's role in slave trade",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1690,7 +1748,7 @@
     "s": 0.863
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3000": {
    "id": "3000",
@@ -1742,7 +1800,10 @@
     }
    ],
    "abroad_first": "2026-10-26T15:48:00Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Microsoft offers buyouts to around 60,000 employees, reports say",
+   "headline_fi": "Microsoft tarjoaa vapaaehtoisia irtisanoutumispaketteja noin 60 000 työntekijälle",
+   "markets_abroad": 5,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1753,7 +1814,7 @@
     "s": null
    },
    "fi_count": 5,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3408": {
    "id": "3408",
@@ -1804,18 +1865,21 @@
     }
    ],
    "abroad_first": "2026-11-03T14:35:26Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Annie Andrews Defeats Darline Graham in South Carolina Senate Race",
+   "headline_fi": "Asiantuntijalta tyly arvio: Julkinen mielipide kääntyi Trumpia vastaan",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
-    "p": "2026-11-04T04:06:00Z",
+    "p": "2026-11-04T04:28:00Z",
     "d": "is.fi",
-    "u": "https://www.is.fi/ulkomaat/art-2000012386927.html",
-    "t": "Kommentti: Trumpilta kolme täydellistä omaa maalia",
-    "s": 0.833
+    "u": "https://www.is.fi/ulkomaat/art-2000012386954.html",
+    "t": "Asiantuntijalta tyly arvio: Julkinen mielipide kääntyi Trumpia vastaan",
+    "s": null
    },
-   "fi_count": 2,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3109": {
    "id": "3109",
@@ -1864,7 +1928,10 @@
     }
    ],
    "abroad_first": "2026-10-27T15:44:50Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Canada 'associate membership' spurs battle of words with EU capitals",
+   "headline_fi": "Raportti: Lätkä, mineraalit ja Arktis – Suomalaiset ottaisivat Kanadan avosylin vastaan, kelpaisi jopa EU:n jäseneksi",
+   "markets_abroad": 2,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1874,8 +1941,8 @@
     "t": "Kanadan liitännäisjäsenyys EU:ssa kariutui",
     "s": 0.846
    },
-   "fi_count": 3,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2797": {
    "id": "2797",
@@ -1928,7 +1995,10 @@
     }
    ],
    "abroad_first": "2026-10-24T01:07:21Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "All about the late Roslyn Loveless, ex-wife of Meghan Markle's father, Thomas Snr",
+   "headline_fi": "Raju väite: Meghan lähetti vakavien syytöksien keskellä olevalle isälleen kirjeen - ilmoitti, ettei tämä kuule hänestä enää koskaan",
+   "markets_abroad": 6,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -1938,8 +2008,8 @@
     "t": "The Sun: Herttuatar Meghanin isää epäillään lapsipornon hallussapidosta",
     "s": 0.88
    },
-   "fi_count": 8,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 6,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3049": {
    "id": "3049",
@@ -1990,7 +2060,10 @@
     }
    ],
    "abroad_first": "2026-10-27T05:59:13Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "No clear winner in Israeli election with nearly 90 percent of votes counted",
+   "headline_fi": "Israelin vaalit: Kaikki äänet laskettu - pattitilanne jatkuu",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -2001,7 +2074,7 @@
     "s": null
    },
    "fi_count": 10,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2789": {
    "id": "2789",
@@ -2051,7 +2124,10 @@
     }
    ],
    "abroad_first": "2026-10-24T02:40:05Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Hitler's Eagle's Nest retreat catches fire, police say",
+   "headline_fi": "Hitlerin entisessä vuororistohuvilassa suuri tulipalo",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -2062,7 +2138,7 @@
     "s": 0.872
    },
    "fi_count": 8,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3193": {
    "id": "3193",
@@ -2112,7 +2188,10 @@
     }
    ],
    "abroad_first": "2026-10-29T10:20:40Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Ukraine war live: Kyiv 'pauses oil strikes' under pressure from Trump",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -2122,8 +2201,8 @@
     "t": "19 ukrainalaisen elämä päättyi tänään asemalaiturille, kadulle ja kotiin - \"He olivat tavallisia ihmisiä\"",
     "s": 0.872
    },
-   "fi_count": 4,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "fi_count": 3,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3138": {
    "id": "3138",
@@ -2172,7 +2251,10 @@
     }
    ],
    "abroad_first": "2026-10-28T22:17:37Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "What we know of Vance's letter to Rezaei, as Trump warns Gulf to 'prepare'",
+   "headline_fi": null,
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null
   },
@@ -2222,7 +2304,10 @@
     }
    ],
    "abroad_first": "2026-10-29T00:41:00Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": null,
+   "headline_fi": null,
+   "markets_abroad": 2,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
    "fi_first": {
@@ -2233,7 +2318,7 @@
     "s": 0.88
    },
    "fi_count": 1,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3044": {
    "id": "3044",
@@ -2280,18 +2365,9 @@
     }
    ],
    "abroad_first": "2026-10-26T03:00:58Z",
-   "checked": "2026-11-05T13:21:45Z",
-   "check_how": "url",
-   "check_error": null,
-   "fi_first": {
-    "p": "2026-10-28T04:23:31Z",
-    "d": "mtvuutiset.fi",
-    "u": "https://www.mtvuutiset.fi/artikkeli/arsenalille-shokkitappio-cupissa-16-vuotias-superlupaus-punaisella-ulos/9412780",
-    "t": "Arsenalille shokkitappio cupissa - 16-vuotias superlupaus punaisella ulos",
-    "s": 0.861
-   },
-   "fi_count": 1,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "headline_en": "Carabao Cup: Fleetwood Town's Conor Haughey on winning penalty and viral post-match interview",
+   "headline_fi": null,
+   "markets_abroad": 1
   },
   "3402": {
    "id": "3402",
@@ -2340,18 +2416,12 @@
     }
    ],
    "abroad_first": "2026-11-04T00:41:20Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats",
+   "headline_fi": null,
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
-   "check_error": null,
-   "fi_first": {
-    "p": "2026-11-03T09:00:24Z",
-    "d": "yle.fi",
-    "u": "https://yle.fi/a/7-10108034/64-3-312206",
-    "t": "Prognos: Demokraterna får majoriteten i representanthuset",
-    "s": 0.826
-   },
-   "fi_count": 1,
-   "arrived_at": "2026-11-05T13:21:45Z"
+   "check_error": null
   },
   "3238": {
    "id": "3238",
@@ -2399,7 +2469,10 @@
     }
    ],
    "abroad_first": "2026-10-27T07:14:28Z",
-   "checked": "2026-11-05T13:21:45Z",
+   "headline_en": "BBC World Service - Global News Podcast, Dozens killed in train crash in Spain",
+   "headline_fi": null,
+   "markets_abroad": 2,
+   "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null
   },
@@ -2421,7 +2494,11 @@
     "fi": 10
    },
    "outlets": 3,
-   "samples": []
+   "samples": [],
+   "headline_en": null,
+   "headline_fi": "Pekka Lehtinen: Makwan Amirkhanin ja Mira Luodin oikeudenkäynnissä erittäin poikkeuksellisia piirteitä",
+   "abroad_first": "2026-10-26T10:56:06Z",
+   "markets_abroad": 0
   },
   "3242": {
    "id": "3242",
@@ -2470,7 +2547,22 @@
      "p": "2026-10-30T21:28:58Z"
     }
    ],
-   "abroad_first": "2026-10-30T04:10:00Z"
+   "abroad_first": "2026-10-30T04:10:00Z",
+   "headline_en": "US approves sale of 500 Patriot missiles to Ukraine",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-30T20:09:58Z",
+    "d": "mtvuutiset.fi",
+    "u": "https://www.mtvuutiset.fi/artikkeli/reuters-yhdysvaltain-ulkoministeriolta-vihreaa-valoa-patriot-kaupalle-ukrainaan/9414356",
+    "t": "Yhdysvaltain ulkoministeriöltä vihreää valoa Patriot-kaupalle Ukrainaan",
+    "s": 0.858
+   },
+   "fi_count": 4,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3363": {
    "id": "3363",
@@ -2519,7 +2611,22 @@
      "p": "2026-11-02T18:01:13Z"
     }
    ],
-   "abroad_first": "2026-11-02T02:48:59Z"
+   "abroad_first": "2026-11-02T02:48:59Z",
+   "headline_en": "Russian bombing of Ukrainian aid centre kills 24 people: Zelenskyy",
+   "headline_fi": "Ainakin 26 kuoli iskussa humanitaarisen avun jakopaikkaan",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-02T18:48:51Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/7-10108013",
+    "t": "Rysk attack mot skyddscenter dödade över 20 människor",
+    "s": 0.888
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3410": {
    "id": "3410",
@@ -2569,7 +2676,13 @@
      "p": "2026-11-03T00:00:00Z"
     }
    ],
-   "abroad_first": "2026-11-03T00:00:00Z"
+   "abroad_first": "2026-11-03T00:00:00Z",
+   "headline_en": "Roy Cooper Flips North Carolina Senate Seat to Democrats by Defeating Michael Whatley",
+   "headline_fi": null,
+   "markets_abroad": 5,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3127": {
    "id": "3127",
@@ -2615,7 +2728,10 @@
      "p": "2026-10-28T13:45:04Z"
     }
    ],
-   "abroad_first": "2026-10-28T13:45:04Z"
+   "abroad_first": "2026-10-28T13:45:04Z",
+   "headline_en": "Labour is still searching for an energy fix for a new world",
+   "headline_fi": null,
+   "markets_abroad": 1
   },
   "3294": {
    "id": "3294",
@@ -2665,7 +2781,22 @@
      "p": "2026-11-01T12:24:34Z"
     }
    ],
-   "abroad_first": "2026-10-30T10:25:27Z"
+   "abroad_first": "2026-10-30T10:25:27Z",
+   "headline_en": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
+   "headline_fi": "Media: Trump suunnittelee iskua Iraniin päivää välivaalien jälkeen",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-31T15:24:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012380013.html",
+    "t": "Media: Trump suunnittelee iskua Iraniin päivää välivaalien jälkeen",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3302": {
    "id": "3302",
@@ -2714,7 +2845,22 @@
      "p": "2026-11-02T21:25:52Z"
     }
    ],
-   "abroad_first": "2026-10-29T16:13:12Z"
+   "abroad_first": "2026-10-29T16:13:12Z",
+   "headline_en": "UK adventurer arrives home after epic 28-year trek across jungles and frozen sea",
+   "headline_fi": "Mies lähti kävelemään Amerikan eteläkärjestä 28 vuotta sitten, saapuu viimein kotiin Englantiin",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-31T19:17:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012379823.html",
+    "t": "Mies lähti kävelemään Amerikan eteläkärjestä 28 vuotta sitten, saapuu viimein kotiin Englantiin",
+    "s": null
+   },
+   "fi_count": 4,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3178": {
    "id": "3178",
@@ -2762,7 +2908,13 @@
      "p": "2026-10-29T16:11:01Z"
     }
    ],
-   "abroad_first": "2026-10-27T17:36:49Z"
+   "abroad_first": "2026-10-27T17:36:49Z",
+   "headline_en": "US midterms: What you need to know",
+   "headline_fi": null,
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3095": {
    "id": "3095",
@@ -2809,7 +2961,13 @@
      "p": "2026-10-27T12:26:10Z"
     }
    ],
-   "abroad_first": "2026-10-26T13:32:43Z"
+   "abroad_first": "2026-10-26T13:32:43Z",
+   "headline_en": "Merz courts Asian investors as he insists Europe remains a safe bet",
+   "headline_fi": null,
+   "markets_abroad": 2,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3196": {
    "id": "3196",
@@ -2856,7 +3014,13 @@
      "p": "2026-10-29T02:34:42Z"
     }
    ],
-   "abroad_first": "2026-10-27T16:32:35Z"
+   "abroad_first": "2026-10-27T16:32:35Z",
+   "headline_en": null,
+   "headline_fi": null,
+   "markets_abroad": 2,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null
   },
   "2983": {
    "id": "2983",
@@ -2906,7 +3070,22 @@
      "p": "2026-10-27T01:59:35Z"
     }
    ],
-   "abroad_first": "2026-10-26T21:43:33Z"
+   "abroad_first": "2026-10-26T21:43:33Z",
+   "headline_en": "Ex-FBI chief James Comey faces federal charges for third time",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-27T05:40:39Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/7-10107607",
+    "t": "Tidigare FBI-chefen James Comey åtalas för tredje gången",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3401": {
    "id": "3401",
@@ -2953,7 +3132,22 @@
      "p": "2026-11-04T01:10:52Z"
     }
    ],
-   "abroad_first": "2026-11-03T22:49:27Z"
+   "abroad_first": "2026-11-03T22:49:27Z",
+   "headline_en": "Story of US 2026 midterm elections in maps and charts",
+   "headline_fi": null,
+   "markets_abroad": 2,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-03T09:00:24Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/7-10108034/64-3-312219",
+    "t": "Snabbanalys: Värsta tänkbara scenariot för Donald Trump",
+    "s": 0.849
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3244": {
    "id": "3244",
@@ -3002,7 +3196,22 @@
      "p": "2026-10-30T17:55:00Z"
     }
    ],
-   "abroad_first": "2026-10-30T10:55:00Z"
+   "abroad_first": "2026-10-30T10:55:00Z",
+   "headline_en": "Pope Leo XIV has voted in US midterm elections, Vatican says",
+   "headline_fi": "Ensimmäistä kertaa historiassa: Paavi äänesti Yhdysvaltain vaaleissa",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-31T15:36:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012380012.html",
+    "t": "Paavi Leo teki historiaa ja äänesti",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2997": {
    "id": "2997",
@@ -3052,7 +3261,22 @@
      "p": "2026-10-27T13:52:18Z"
     }
    ],
-   "abroad_first": "2026-10-26T22:36:40Z"
+   "abroad_first": "2026-10-26T22:36:40Z",
+   "headline_en": "Harry Kane ends England's 25-year wait for a men's Ballon d'Or",
+   "headline_fi": "Harry Kane ja Alexia Putellas valittiin maailman parhaiksi jalkapalloilijoiksi",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-26T22:55:25Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20253445",
+    "t": "Harry Kane ja Alexia Putellas valittiin maailman parhaiksi jalkapalloilijoiksi",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3240": {
    "id": "3240",
@@ -3101,7 +3325,13 @@
      "p": "2026-10-31T12:01:52Z"
     }
    ],
-   "abroad_first": "2026-10-30T22:06:17Z"
+   "abroad_first": "2026-10-30T22:06:17Z",
+   "headline_en": "US, Russia block rival Western Sahara resolutions",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3364": {
    "id": "3364",
@@ -3151,7 +3381,22 @@
      "p": "2026-11-03T04:47:58Z"
     }
    ],
-   "abroad_first": "2026-11-03T02:51:33Z"
+   "abroad_first": "2026-11-03T02:51:33Z",
+   "headline_en": "US strikes Iran's Qeshm Island ahead of midterm elections",
+   "headline_fi": "WSJ: Yhdysvallat iski Hormuzinsalmella olevalle saarelle",
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-03T01:15:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012384125.html",
+    "t": "WSJ: Yhdysvallat iski Hormuzinsalmella olevalle saarelle",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3194": {
    "id": "3194",
@@ -3200,7 +3445,22 @@
      "p": "2026-10-31T04:30:00Z"
     }
    ],
-   "abroad_first": "2026-10-29T10:10:40Z"
+   "abroad_first": "2026-10-29T10:10:40Z",
+   "headline_en": "The two pragmatists leading the race to run the ECB",
+   "headline_fi": "Euroopan keskuspankin pääjohtaja jättää tehtävänsä",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-29T10:54:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/taloussanomat/art-2000012375081.html",
+    "t": "Euroopan keskuspankin pääjohtaja jättää tehtävänsä",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3280": {
    "id": "3280",
@@ -3249,7 +3509,13 @@
      "p": "2026-10-26T14:46:07Z"
     }
    ],
-   "abroad_first": "2026-10-26T08:21:53Z"
+   "abroad_first": "2026-10-26T08:21:53Z",
+   "headline_en": "Most Gulf bourses advance as Saudi defence pact countries push for peace",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null
   },
   "2976": {
    "id": "2976",
@@ -3299,7 +3565,22 @@
      "p": "2026-10-27T18:35:05Z"
     }
    ],
-   "abroad_first": "2026-10-26T13:54:50Z"
+   "abroad_first": "2026-10-26T13:54:50Z",
+   "headline_en": "How the streets and social media drove Lula to a historic comeback in Brazil",
+   "headline_fi": null,
+   "markets_abroad": 5,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-27T19:22:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012368976.html",
+    "t": "Lulan historiallinen kirivoitto | Miljoonien brasilialaisten ajattelu muuttui kolmessa viikossa, mutta miksi?",
+    "s": 0.857
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3323": {
    "id": "3323",
@@ -3347,7 +3628,22 @@
      "p": "2026-11-02T00:34:41Z"
     }
    ],
-   "abroad_first": "2026-11-01T22:28:04Z"
+   "abroad_first": "2026-11-01T22:28:04Z",
+   "headline_en": "Ukraine, Russia report hacking attacks on emergency alert apps",
+   "headline_fi": null,
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-02T01:17:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012381383.html",
+    "t": "Kansalaisia iskuilta varoittaviin sovelluksiin hyökättiin, kertovat Ukraina ja Venäjä",
+    "s": 0.847
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3416": {
    "id": "3416",
@@ -3396,7 +3692,22 @@
      "p": "2026-11-03T14:01:44Z"
     }
    ],
-   "abroad_first": "2026-11-03T10:16:26Z"
+   "abroad_first": "2026-11-03T10:16:26Z",
+   "headline_en": "US to cut nearly $4 billion in Israel military aid, Trump says",
+   "headline_fi": "Trump lupaili vaalipäivänä isoja: Kauppasopu Kanadan kanssa, sotilasapu Israelille loppuu",
+   "markets_abroad": 3,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-03T15:45:53Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/7-10108083",
+    "t": "Trump: USA avslutar det reguljära stödet till Israel",
+    "s": 0.87
+   },
+   "fi_count": 4,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3058": {
    "id": "3058",
@@ -3443,7 +3754,22 @@
      "p": "2026-10-27T19:18:27Z"
     }
    ],
-   "abroad_first": "2026-10-27T12:32:02Z"
+   "abroad_first": "2026-10-27T12:32:02Z",
+   "headline_en": "Planned overhaul of Frontex sparks backlash in Brussels",
+   "headline_fi": null,
+   "markets_abroad": 2,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-27T13:12:57Z",
+    "d": "maaseuduntulevaisuus.fi",
+    "u": "https://www.maaseuduntulevaisuus.fi/uutiset/20bac9c9-f6d1-410d-96c9-ec1cd1eb59d2",
+    "t": "EU-komissio haluaa vahvistaa rajaturvallisuusvirasto Frontexin asemaa - \"Geopoliittiset tapahtumat koettelevat rajaturvallisuutta",
+    "s": 0.854
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "2990": {
    "id": "2990",
@@ -3492,7 +3818,13 @@
      "p": "2026-10-26T14:20:41Z"
     }
    ],
-   "abroad_first": "2026-10-26T14:08:48Z"
+   "abroad_first": "2026-10-26T14:08:48Z",
+   "headline_en": "Markets are dismayed by Lula's surprise win -- and for good reason",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null
   },
   "2932": {
    "id": "2932",
@@ -3540,7 +3872,22 @@
      "p": "2026-10-25T07:24:00Z"
     }
    ],
-   "abroad_first": "2026-10-25T00:41:05Z"
+   "abroad_first": "2026-10-25T00:41:05Z",
+   "headline_en": null,
+   "headline_fi": "Lähes 130 kiinni mielenosoituksessa Barcelonassa - kauppojen ryöstelyä organisoitiin viestiryhmissä",
+   "markets_abroad": 2,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-25T10:24:22Z",
+    "d": "mtvuutiset.fi",
+    "u": "https://www.mtvuutiset.fi/artikkeli/lahes-130-kiinni-mielenosoituksessa-barcelonassa-kauppojen-ryostelya-organisoitiin-viestiryhmissa/9411670",
+    "t": "Lähes 130 kiinni mielenosoituksessa Barcelonassa - kauppojen ryöstelyä organisoitiin viestiryhmissä",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3191": {
    "id": "3191",
@@ -3591,7 +3938,22 @@
      "p": "2026-10-30T15:28:49Z"
     }
    ],
-   "abroad_first": "2026-10-30T04:14:00Z"
+   "abroad_first": "2026-10-30T04:14:00Z",
+   "headline_en": "Trump reverses decision to cancel Kansas and Iowa rallies ahead of midterms",
+   "headline_fi": null,
+   "markets_abroad": 6,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-10-30T17:18:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012379145.html",
+    "t": "Trump haukkui rajusti toimittajan ulkonäköä: \"Laita itsesi kuntoon",
+    "s": 0.875
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-05T13:38:26Z"
   },
   "3422": {
    "id": "3422",
@@ -3640,7 +4002,13 @@
      "p": "2026-11-03T23:52:20Z"
     }
    ],
-   "abroad_first": "2026-11-03T13:04:58Z"
+   "abroad_first": "2026-11-03T13:04:58Z",
+   "headline_en": "Midterm elections 2026 live updates: Economy, inflation and voter concerns",
+   "headline_fi": null,
+   "markets_abroad": 4,
+   "checked": "2026-11-05T13:38:26Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3181": {
    "id": "3181",
@@ -3688,7 +4056,10 @@
      "p": "2026-10-29T00:00:00Z"
     }
    ],
-   "abroad_first": "2026-10-29T00:00:00Z"
+   "abroad_first": "2026-10-29T00:00:00Z",
+   "headline_en": "DoorDash to Buy Instacart for $17 Billion, Uniting 2 Delivery Giants",
+   "headline_fi": null,
+   "markets_abroad": 3
   },
   "3313": {
    "id": "3313",
@@ -3708,7 +4079,11 @@
     "fi": 10
    },
    "outlets": 6,
-   "samples": []
+   "samples": [],
+   "headline_en": "Finnish news agency STT to cease operations with loss of 89 jobs",
+   "headline_fi": "Lulu Ranne STT:stä: \"Aika ajoi sen ohi",
+   "abroad_first": "2026-11-02T03:02:59Z",
+   "markets_abroad": 0
   },
   "3298": {
    "id": "3298",
@@ -3758,7 +4133,10 @@
      "p": "2026-10-29T17:51:41Z"
     }
    ],
-   "abroad_first": "2026-10-29T06:26:10Z"
+   "abroad_first": "2026-10-29T06:26:10Z",
+   "headline_en": "The Kuwait Oil Tanker Company (KOTC) tanker Al Dasma was reported by Pakistan-based Navarea IX as on fire and adrift in the Strait of Hormuz, 11 nautical miles west of Bukha, Oman.",
+   "headline_fi": null,
+   "markets_abroad": 5
   },
   "3001": {
    "id": "3001",
@@ -3807,7 +4185,10 @@
      "p": "2026-10-27T20:27:57Z"
     }
    ],
-   "abroad_first": "2026-10-27T01:31:00Z"
+   "abroad_first": "2026-10-27T01:31:00Z",
+   "headline_en": "Why Jordan has struck Syria: What we know",
+   "headline_fi": null,
+   "markets_abroad": 4
   },
   "2999": {
    "id": "2999",
@@ -3855,7 +4236,10 @@
      "p": "2026-10-26T18:03:00Z"
     }
    ],
-   "abroad_first": "2026-10-26T15:51:52Z"
+   "abroad_first": "2026-10-26T15:51:52Z",
+   "headline_en": "Trump administration illegally fired James Comey's daughter, judge rules",
+   "headline_fi": null,
+   "markets_abroad": 3
   },
   "3372": {
    "id": "3372",
@@ -3903,7 +4287,10 @@
      "p": "2026-11-02T13:56:54Z"
     }
    ],
-   "abroad_first": "2026-11-02T00:00:00Z"
+   "abroad_first": "2026-11-02T00:00:00Z",
+   "headline_en": "Marvell to buy Nvidia-backed Lumentum in a $115bn all-stock deal",
+   "headline_fi": null,
+   "markets_abroad": 3
   },
   "3417": {
    "id": "3417",
@@ -3952,7 +4339,10 @@
      "p": "2026-11-04T04:20:19Z"
     }
    ],
-   "abroad_first": "2026-11-03T00:00:00Z"
+   "abroad_first": "2026-11-03T00:00:00Z",
+   "headline_en": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
+   "headline_fi": null,
+   "markets_abroad": 4
   },
   "3411": {
    "id": "3411",
@@ -4000,7 +4390,10 @@
      "p": "2026-11-04T02:50:02Z"
     }
    ],
-   "abroad_first": "2026-11-03T10:16:26Z"
+   "abroad_first": "2026-11-03T10:16:26Z",
+   "headline_en": "Key moments so far in the US midterms",
+   "headline_fi": null,
+   "markets_abroad": 3
   },
   "3373": {
    "id": "3373",
@@ -4047,7 +4440,10 @@
      "p": "2026-11-02T17:45:00Z"
     }
    ],
-   "abroad_first": "2026-11-01T18:48:23Z"
+   "abroad_first": "2026-11-01T18:48:23Z",
+   "headline_en": "Care workers to be allowed to settle in UK faster under Mahmood’s watered-down plans",
+   "headline_fi": null,
+   "markets_abroad": 2
   },
   "3133": {
    "id": "3133",
@@ -4096,7 +4492,10 @@
      "p": "2026-10-28T22:08:52Z"
     }
    ],
-   "abroad_first": "2026-10-28T11:48:19Z"
+   "abroad_first": "2026-10-28T11:48:19Z",
+   "headline_en": "German wolf attack: Girl seriously injured at wildlife park",
+   "headline_fi": "Susi hyökkäsi 8-vuotiaan tytön kimppuun villieläinpuistossa",
+   "markets_abroad": 3
   },
   "3134": {
    "id": "3134",
@@ -4146,7 +4545,10 @@
      "p": "2026-10-28T15:30:51Z"
     }
    ],
-   "abroad_first": "2026-10-28T15:30:51Z"
+   "abroad_first": "2026-10-28T15:30:51Z",
+   "headline_en": "Dolores Huerta, California labor leader and civil rights champion, dies aged 96",
+   "headline_fi": "Maatilojen työntekijöitä puolustanut yhdysvaltalainen Dolores Huerta kuoli 96-vuotiaana",
+   "markets_abroad": 4
   },
   "2994": {
    "id": "2994",
@@ -4194,7 +4596,10 @@
      "p": "2026-10-27T03:02:52Z"
     }
    ],
-   "abroad_first": "2026-10-26T07:20:44Z"
+   "abroad_first": "2026-10-26T07:20:44Z",
+   "headline_en": "Is Iran headed to war or peace after Mecca alliance meeting?",
+   "headline_fi": null,
+   "markets_abroad": 3
   },
   "2992": {
    "id": "2992",
@@ -4245,7 +4650,10 @@
      "p": "2026-10-27T02:05:46Z"
     }
    ],
-   "abroad_first": "2026-10-27T02:05:46Z"
+   "abroad_first": "2026-10-27T02:05:46Z",
+   "headline_en": "Jay-Z to headline next year's Super Bowl halftime show",
+   "headline_fi": "Jay Z on Super Bowlin puoliaikashow'n pääesiintyjä",
+   "markets_abroad": 5
   },
   "3309": {
    "id": "3309",
@@ -4292,7 +4700,10 @@
      "p": "2026-10-31T14:55:50Z"
     }
    ],
-   "abroad_first": "2026-10-31T14:55:50Z"
+   "abroad_first": "2026-10-31T14:55:50Z",
+   "headline_en": null,
+   "headline_fi": "FSB: USA varoitti terroriuhasta Moskovassa",
+   "markets_abroad": 1
   },
   "3400": {
    "id": "3400",
@@ -4340,7 +4751,10 @@
      "p": "2026-11-03T23:49:09Z"
     }
    ],
-   "abroad_first": "2026-11-03T22:10:39Z"
+   "abroad_first": "2026-11-03T22:10:39Z",
+   "headline_en": "Champions League comebacks: What are the other best after Manchester United beat Roma",
+   "headline_fi": null,
+   "markets_abroad": 3
   },
   "3203": {
    "id": "3203",
@@ -4391,7 +4805,10 @@
      "p": "2026-10-29T19:15:48Z"
     }
    ],
-   "abroad_first": "2026-10-29T18:35:00Z"
+   "abroad_first": "2026-10-29T18:35:00Z",
+   "headline_en": "A helicopter with the EU force in Bosnia crashes, killing 4 people and injuring 11",
+   "headline_fi": "Useita ihmisiä kuollut italialaisen helikopterin maahansyöksyssä",
+   "markets_abroad": 5
   },
   "3128": {
    "id": "3128",
@@ -4440,7 +4857,10 @@
      "p": "2026-10-29T10:15:45Z"
     }
    ],
-   "abroad_first": "2026-10-29T00:00:00Z"
+   "abroad_first": "2026-10-29T00:00:00Z",
+   "headline_en": "Pensioners bet on a lifetime cruise. They ended up in a Cambodian scam town",
+   "headline_fi": null,
+   "markets_abroad": 4
   },
   "3345": {
    "id": "3345",
@@ -4489,7 +4909,10 @@
      "p": "2026-11-01T15:37:33Z"
     }
    ],
-   "abroad_first": "2026-11-01T14:54:57Z"
+   "abroad_first": "2026-11-01T14:54:57Z",
+   "headline_en": "Russia's FSB says minor detained over park attack threat after US tip-off",
+   "headline_fi": "Venäjä: Alaikäinen suunnitteli terrori-iskua Moskovaan",
+   "markets_abroad": 3
   },
   "3332": {
    "id": "3332",
@@ -4535,7 +4958,10 @@
      "p": "2026-11-01T16:15:43Z"
     }
    ],
-   "abroad_first": "2026-11-01T00:58:42Z"
+   "abroad_first": "2026-11-01T00:58:42Z",
+   "headline_en": "German police investigating after needles found in Halloween candy",
+   "headline_fi": null,
+   "markets_abroad": 1
   },
   "3189": {
    "id": "3189",
@@ -4583,7 +5009,10 @@
      "p": "2026-10-30T13:52:06Z"
     }
    ],
-   "abroad_first": "2026-10-29T20:41:17Z"
+   "abroad_first": "2026-10-29T20:41:17Z",
+   "headline_en": "Forbes Daily: Google Parent Alphabet Shares Tank After Earnings Miss",
+   "headline_fi": "Tekno-osakkeet rytisivät Yhdysvalloissa - Päästrategi näkee laskussa ostopaikan",
+   "markets_abroad": 2
   },
   "3303": {
    "id": "3303",
@@ -4632,7 +5061,10 @@
      "p": "2026-10-31T15:05:11Z"
     }
    ],
-   "abroad_first": "2026-10-31T14:51:39Z"
+   "abroad_first": "2026-10-31T14:51:39Z",
+   "headline_en": "Esteban Ocon denies violent altercation with Haas team boss behind his Mexico F1 benching",
+   "headline_fi": "F1-kuski heivattiin sivuun: ei mitään perusteluja",
+   "markets_abroad": 3
   },
   "3333": {
    "id": "3333",
@@ -4680,7 +5112,10 @@
      "p": "2026-11-02T00:00:00Z"
     }
    ],
-   "abroad_first": "2026-10-29T00:00:00Z"
+   "abroad_first": "2026-10-29T00:00:00Z",
+   "headline_en": "Iran says talks under way on two day plan to reopen Strait of Hormuz",
+   "headline_fi": null,
+   "markets_abroad": 3
   },
   "3218": {
    "id": "3218",
@@ -4730,7 +5165,10 @@
      "p": "2026-10-29T13:09:00Z"
     }
    ],
-   "abroad_first": "2026-10-29T12:31:22Z"
+   "abroad_first": "2026-10-29T12:31:22Z",
+   "headline_en": "US economy grows faster than expected in report out just ahead of elections",
+   "headline_fi": "USA:n talouskasvu ylitti odotukset kulutuksen ja AI-investointien vetämänä",
+   "markets_abroad": 4
   },
   "3071": {
    "id": "3071",
@@ -4750,7 +5188,11 @@
     "fi": 10
    },
    "outlets": 5,
-   "samples": []
+   "samples": [],
+   "headline_en": "Video: This week in Finland, 30 October 2026",
+   "headline_fi": "Kokoomuksen Saxberg: HSL lippuhintojen korotukset jäävät maltillisiksi – lasten kertalippujen hinnat säilyvät ennallaan",
+   "abroad_first": "2026-10-28T12:23:00Z",
+   "markets_abroad": 0
   },
   "3308": {
    "id": "3308",
@@ -4798,7 +5240,10 @@
      "p": "2026-10-31T16:07:00Z"
     }
    ],
-   "abroad_first": "2026-10-31T15:31:24Z"
+   "abroad_first": "2026-10-31T15:31:24Z",
+   "headline_en": null,
+   "headline_fi": "Venäjä: Yhdysvallat varoitti Moskovaan suunnitellusta terrori-iskusta",
+   "markets_abroad": 2
   },
   "3286": {
    "id": "3286",
@@ -4849,7 +5294,10 @@
      "p": "2026-11-01T02:38:13Z"
     }
    ],
-   "abroad_first": "2026-10-31T22:27:26Z"
+   "abroad_first": "2026-10-31T22:27:26Z",
+   "headline_en": "Lewis Hamilton enjoys Mexico City Grand Prix pole as Kimi Antonelli aims to clinch title",
+   "headline_fi": "Lewis Hamilton teki historiaa Ferrarilla - Valtteri Bottakselle karmea nöyryytys",
+   "markets_abroad": 5
   },
   "3260": {
    "id": "3260",
@@ -4898,7 +5346,10 @@
      "p": "2026-10-30T14:42:39Z"
     }
    ],
-   "abroad_first": "2026-10-30T13:43:29Z"
+   "abroad_first": "2026-10-30T13:43:29Z",
+   "headline_en": "Russia's top independent newspaper shuts down, blaming pressure from authorities",
+   "headline_fi": "Analyysi: Entistä sakeammaksi menee - Venäjän viimeinen riippumaton lehti suljetaan",
+   "markets_abroad": 3
   },
   "3148": {
    "id": "3148",
@@ -4948,7 +5399,10 @@
      "p": "2026-10-28T16:10:07Z"
     }
    ],
-   "abroad_first": "2026-10-28T15:00:01Z"
+   "abroad_first": "2026-10-28T15:00:01Z",
+   "headline_en": "Perez brings Formula One to Mexico City streets before home milestone",
+   "headline_fi": "Sergio Pérez sai monivuotisen F1-jatkon - Valtteri Bottaksesta ei mainita sanaakaan",
+   "markets_abroad": 4
   },
   "3043": {
    "id": "3043",
@@ -4996,7 +5450,10 @@
      "p": "2026-10-27T08:02:37Z"
     }
    ],
-   "abroad_first": "2026-10-26T04:29:13Z"
+   "abroad_first": "2026-10-26T04:29:13Z",
+   "headline_en": "India evacuates tens of thousands as 'very severe' Cyclone Arnab nears",
+   "headline_fi": null,
+   "markets_abroad": 3
   },
   "3290": {
    "id": "3290",
@@ -5042,7 +5499,10 @@
      "p": "2026-10-31T23:28:42Z"
     }
    ],
-   "abroad_first": "2026-10-27T02:35:42Z"
+   "abroad_first": "2026-10-27T02:35:42Z",
+   "headline_en": null,
+   "headline_fi": null,
+   "markets_abroad": 1
   },
   "3005": {
    "id": "3005",
@@ -5091,7 +5551,10 @@
      "p": "2026-10-27T00:00:00Z"
     }
    ],
-   "abroad_first": "2026-10-26T17:11:46Z"
+   "abroad_first": "2026-10-26T17:11:46Z",
+   "headline_en": "Apple's iPhone Duo is getting roasted over screen cracks",
+   "headline_fi": "Applen uudet Iphone Duot hajoavat käsiin",
+   "markets_abroad": 3
   },
   "2978": {
    "id": "2978",
@@ -5140,7 +5603,10 @@
      "p": "2026-10-26T06:44:40Z"
     }
    ],
-   "abroad_first": "2026-10-26T03:50:37Z"
+   "abroad_first": "2026-10-26T03:50:37Z",
+   "headline_en": "'It's a better experience': shoppers praise Oxford Street pedestrianisation",
+   "headline_fi": null,
+   "markets_abroad": 4
   },
   "3246": {
    "id": "3246",
@@ -5188,7 +5654,10 @@
      "p": "2026-10-31T02:31:33Z"
     }
    ],
-   "abroad_first": "2026-10-30T20:51:00Z"
+   "abroad_first": "2026-10-30T20:51:00Z",
+   "headline_en": "Polish president turns back from foreign trip as police and protesters clash over ‘constitutional crisis’",
+   "headline_fi": null,
+   "markets_abroad": 3
   },
   "3285": {
    "id": "3285",
@@ -5239,7 +5708,10 @@
      "p": "2026-11-01T21:06:50Z"
     }
    ],
-   "abroad_first": "2026-10-31T20:22:01Z"
+   "abroad_first": "2026-10-31T20:22:01Z",
+   "headline_en": "Judge Tosses Trump's $10 Billion Suit Against The Wall Street Journal",
+   "headline_fi": "Tuomari hylkäsi lopullisesti Trumpin kanteen The Wall Street Journalia vastaan",
+   "markets_abroad": 5
   }
  }
 }
