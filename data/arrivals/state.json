@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-05T18:30:52Z",
+  "last_run": "2026-11-05T21:45:33Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 43,
+  "similar_left": 36,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -2385,7 +2385,7 @@
    "headline_en": "What we know of Vance's letter to Rezaei, as Trump warns Gulf to 'prepare'",
    "headline_fi": null,
    "markets_abroad": 3,
-   "checked": "2026-11-05T13:38:26Z",
+   "checked": "2026-11-05T21:45:33Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -2614,7 +2614,7 @@
    "headline_en": "BBC World Service - Global News Podcast, Dozens killed in train crash in Spain",
    "headline_fi": null,
    "markets_abroad": 2,
-   "checked": "2026-11-05T13:38:26Z",
+   "checked": "2026-11-05T21:45:33Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3136,7 +3136,7 @@
    "headline_en": "Merz courts Asian investors as he insists Europe remains a safe bet",
    "headline_fi": null,
    "markets_abroad": 2,
-   "checked": "2026-11-05T13:38:26Z",
+   "checked": "2026-11-05T21:45:33Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3519,7 +3519,7 @@
    "headline_en": "US, Russia block rival Western Sahara resolutions",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-05T13:38:26Z",
+   "checked": "2026-11-05T21:45:33Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3715,7 +3715,7 @@
    "headline_en": "Most Gulf bourses advance as Saudi defence pact countries push for peace",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-05T13:38:26Z",
+   "checked": "2026-11-05T21:45:33Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4046,7 +4046,7 @@
    "headline_en": "Markets are dismayed by Lula's surprise win -- and for good reason",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-05T13:38:26Z",
+   "checked": "2026-11-05T21:45:33Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4534,7 +4534,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-05T15:21:46Z",
+   "checked": "2026-11-05T21:45:33Z",
    "check_how": "url",
    "check_error": null
   },
@@ -4767,7 +4767,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-05T15:21:46Z",
+   "checked": "2026-11-05T21:45:33Z",
    "check_how": "url",
    "check_error": null
   },
@@ -5548,7 +5548,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-05T15:21:46Z",
+   "checked": "2026-11-05T21:45:33Z",
    "check_how": "url",
    "check_error": null
   },
