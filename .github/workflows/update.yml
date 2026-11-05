@@ -44,6 +44,10 @@ jobs:
 
       - name: Fetch feeds and rebuild dashboard data
         env:
+          # Regional data comes from the Thoughtlead corpus API (key in a repository secret;
+          # never print it). Set MP_CORPUS_REBUILD to '1' for one run after editing theme stems.
+          CORPUS_API_KEY: ${{ secrets.CORPUS_API_KEY }}
+          MP_CORPUS_REBUILD: "0"
           # GDELT is off: its free API refuses most requests from GitHub's shared runners.
           # Tick the manual-run option to try it once.
           MP_GDELT: ${{ inputs.gdelt && '1' || '0' }}

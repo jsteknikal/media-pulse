@@ -67,7 +67,7 @@
       namesTitle: "Nimet uutisissa", namesNote: "Henkilöt, organisaatiot ja paikat, tunnistettu isoista alkukirjaimista. Taivutusmuodot yhdistetään karkeasti.",
       ncol: { name: "Nimi", n48: "48 h", n7: "7 pv", n30: "30 pv", trend: "30 pv", themes: "Teemat" },
       regionsTitle: "Teemat alueittain",
-      regionsNote: "Muutos tavalliseen osuuteen nähden. Lähde: GDELT, joka seuraa verkkomediaa maailmanlaajuisesti; osuus = teeman osuus kaikista seuratuista teemoista alueella. Suomi on tässä mukana GDELTin kautta, jotta alueet ovat vertailukelpoisia.",
+      regionsNote: "Muutos tavalliseen osuuteen nähden. Lähde: Thoughtlead-uutiskorpus, noin 60 mediaa; osuus = teeman osuus kaikista seuratuista teemoista alueella. Kaikki alueet, myös Suomi, luokitellaan samoilla sanalistoilla. Pohjoismaat = Suomi ja Ruotsi. Eurooppa on toistaiseksi pääosin brittimediaa, koska sanalistat kattavat suomen, ruotsin ja englannin.",
       regionsEmpty: "Pohjoismaat, Eurooppa, Pohjois-Amerikka ja Lähi-itä ovat tulossa. Ne luetaan kunkin alueen omista medioista samalla tavalla kuin Suomi.",
       compareTitle: (th) => `${th} eri alueilla`, regionHeadlines: "Alueiden otsikot (24 h)", pickTheme: "Valitse teema",
       headlinesTitle: "Otsikot", headlinesNote: "Kaikki haetut otsikot kolmelta viime päivältä. Linkit vievät alkuperäiseen juttuun.",
@@ -75,8 +75,8 @@
       scol: { outlet: "Media", status: "Tila", n24: "24 h", n7: "7 pv", last: "Viimeisin", notes: "Huomiot" },
       sstate: { ok: "Toimii", partial: "Osittain", failed: "Ei toimi", disabled: "Pois päältä", not_run: "Ei haettu" },
       types: { public_broadcaster: "yleisradio", national_daily: "valtakunnallinen päivälehti", tabloid: "iltapäivälehti", commercial_tv: "kaupallinen tv", business: "talousmedia", regional: "maakuntalehti", online: "verkkomedia" },
-      unverified: "Syötteen osoite tarkistamatta", discovered: "Löytyi syöte:", gdeltTitle: "GDELT-aluedata",
-      gdeltStatus: (ok, q, when) => `${ok}/${q} hakua onnistui, viimeksi ${when}.`, gdeltNever: "GDELT-hakua ei ole vielä tehty.",
+      unverified: "Syötteen osoite tarkistamatta", discovered: "Löytyi syöte:", gdeltTitle: "Alueiden data (Thoughtlead-korpus)",
+      gdeltStatus: (ok, q, when) => `${ok}/${q} aluetta päivittyi, viimeksi ${when}.`, gdeltNever: "Aluedataa ei ole vielä haettu.",
       gdeltFailed: "Epäonnistuneet haut",
       footer: "Data: suomalaisten medioiden julkiset RSS-syötteet. Vain otsikot ja linkit alkuperäiseen julkaisuun. Päivittyy automaattisesti päivän mittaan.",
       ago: (h) => (h < 1 ? "alle tunti sitten" : h < 24 ? `${Math.round(h)} h sitten` : `${Math.round(h / 24)} pv sitten`),
@@ -197,7 +197,7 @@
       namesTitle: "Names in the news", namesNote: "People, organisations and places, detected from capitalised words. Finnish case forms are merged roughly.",
       ncol: { name: "Name", n48: "48 h", n7: "7 d", n30: "30 d", trend: "30 days", themes: "Themes" },
       regionsTitle: "Themes by region",
-      regionsNote: "Change against each theme's normal share. Source: GDELT, which monitors online news worldwide; share = the theme's share of all tracked themes in the region. Finland appears here via GDELT so the regions are comparable.",
+      regionsNote: "Change against each theme's normal share. Source: the Thoughtlead news corpus, about 60 outlets; share = the theme's share of all tracked themes in the region. Every region, Finland included, is tagged with the same word lists. Nordics = Finland and Sweden. Europe is mostly UK outlets for now, because the word lists cover Finnish, Swedish and English.",
       regionsEmpty: "The Nordics, Europe, North America and the Middle East are coming, read from each region's own outlets in the same way as Finland.",
       compareTitle: (th) => `${th} across regions`, regionHeadlines: "Regional headlines (24 h)", pickTheme: "Pick a theme",
       headlinesTitle: "Headlines", headlinesNote: "Every headline collected in the last three days. Links go to the original article.",
@@ -205,8 +205,8 @@
       scol: { outlet: "Outlet", status: "Status", n24: "24 h", n7: "7 d", last: "Latest", notes: "Notes" },
       sstate: { ok: "Working", partial: "Partly", failed: "Failing", disabled: "Disabled", not_run: "Not fetched" },
       types: { public_broadcaster: "public broadcaster", national_daily: "national daily", tabloid: "tabloid", commercial_tv: "commercial TV", business: "business media", regional: "regional daily", online: "online news" },
-      unverified: "Feed URL not yet verified", discovered: "Found feed:", gdeltTitle: "GDELT regional data",
-      gdeltStatus: (ok, q, when) => `${ok}/${q} queries succeeded, last run ${when}.`, gdeltNever: "No GDELT pull yet.",
+      unverified: "Feed URL not yet verified", discovered: "Found feed:", gdeltTitle: "Regional data (Thoughtlead corpus)",
+      gdeltStatus: (ok, q, when) => `${ok}/${q} regions updated, last run ${when}.`, gdeltNever: "No regional data fetched yet.",
       gdeltFailed: "Failed queries",
       footer: "Data: public RSS feeds of Finnish outlets. Headlines only, linking to the original publisher. Updates automatically through the day.",
       ago: (h) => (h < 1 ? "under an hour ago" : h < 24 ? `${Math.round(h)} h ago` : `${Math.round(h / 24)} d ago`),
@@ -893,7 +893,7 @@
     };
     app.innerHTML = `
       <section class="lede-block"><h1 class="statement">${esc(t().regionsTitle)}</h1><p class="sub">${esc(t().regionsNote)}</p>
-        <div class="meta-line"><span>GDELT ${esc(t().updated.toLowerCase())} <strong>${esc(fmtTime(R.fetched || R.updated))}</strong></span></div></section>
+        <div class="meta-line"><span>${esc(lang === "fi" ? "Korpus" : "Corpus")} ${esc(t().updated.toLowerCase())} <strong>${esc(fmtTime(R.fetched || R.updated))}</strong></span></div></section>
       <section class="panel table-scroll"><table class="data grid-heat"><thead><tr><th>${esc(t().col.theme)}</th>${regionIds.map((r) => `<th class="n" style="text-align:center">${esc(regionName(r))}</th>`).join("")}</tr></thead>
         <tbody>${themeIds.map((th) => `<tr${th === sel ? ' class="selected" aria-current="true"' : ""}><td><a href="#/regions/${esc(th)}">${esc(themeName(th))}</a></td>${regionIds.map((r) => cell(r, th)).join("")}</tr>`).join("")}</tbody></table></section>
       <section class="section panel chart-wrap"><div class="chart-tools"><h2>${esc(t().compareTitle(themeName(sel)))}</h2>

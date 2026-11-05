@@ -10,6 +10,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from analyze import analyze  # noqa: E402
 from common import now_utc  # noqa: E402
+import fetch_corpus  # noqa: E402
 import fetch_gdelt  # noqa: E402
 import fetch_rss  # noqa: E402
 import lens  # noqa: E402
@@ -41,7 +42,16 @@ def main() -> int:
             print(f"Lens fetch failed: {exc}")
     fetch_status["lens"] = lens_status
     gdelt = None
-    if os.environ.get("MP_GDELT", "1") == "0":
+    if os.environ.get("CORPUS_API_KEY") and os.environ.get("MP_SKIP_FETCH") != "1":
+        try:  # the corpus must never break the update
+            gdelt = fetch_corpus.run(now)
+            st = gdelt["status"]
+            print(f"Corpus: {st.get('received')} headlines in {st.get('pages')} requests, "
+                  f"{st.get('tagged')} tagged" + (f"; {st['error']}" if st.get("error") else ""))
+        except Exception as exc:
+            print(f"Corpus failed: {type(exc).__name__}")
+            gdelt = fetch_corpus.load_state()
+    elif os.environ.get("MP_GDELT", "1") == "0":
         print("GDELT: switched off (regional data comes from own feeds from phase 2)")
     else:
         try:

@@ -9,7 +9,7 @@ It costs nothing to run: GitHub Actions does the work every hour and GitHub Page
 1. **Create the repository.** On github.com, create a new **public** repository (e.g. `media-pulse`). Public keeps Actions minutes and Pages hosting free.
 2. **Upload the files.** Open the empty repo → *uploading an existing file* → drag in every file and folder from this project → *Commit changes*. (Skip this if the code was pushed for you.)
 3. **Turn on Pages.** *Settings → Pages → Build and deployment → Source:* choose **GitHub Actions**.
-4. **Run the first update.** *Actions* tab → if asked, click *I understand my workflows, go ahead and enable them* → **Update Media Pulse** → **Run workflow**. The Regions page fills gradually: GDELT is queried a little each hour (12 of 56 queries per run), so the first full set takes about 5 hours.
+4. **Run the first update.** *Actions* tab → if asked, click *I understand my workflows, go ahead and enable them* → **Update Media Pulse** → **Run workflow**. The Regions page needs the `CORPUS_API_KEY` repository secret (Settings → Secrets and variables → Actions); the first run backfills 30 days.
 5. **Open the dashboard** at `https://<your-username>.github.io/media-pulse/` (the link also appears in the finished workflow run).
 
 After this it updates itself every hour. The **Update now** button on the dashboard opens the workflow page, where *Run workflow* triggers an update immediately.
@@ -28,7 +28,8 @@ If your repo isn't `jsteknikal/media-pulse`, change `repo` in `site/index.html` 
 ```
 GitHub Actions (hourly)
   pipeline/fetch_rss.py    read public RSS feeds → new headlines appended to data/articles/YYYY/MM/DD/HH.jsonl
-  pipeline/fetch_gdelt.py  theme volume + top headlines per region from the GDELT DOC API, spread over the day → data/gdelt/
+  pipeline/fetch_corpus.py theme volume + top headlines per region from the Thoughtlead corpus API → data/corpus/
+  pipeline/fetch_gdelt.py  the old GDELT fetcher, switched off (GDELT refuses GitHub's runners)
   pipeline/analyze.py      tag themes, find names, group stories, score trends → site/data/*.json
   → commits data/ and publishes site/ to GitHub Pages
 ```
@@ -39,7 +40,7 @@ GitHub Actions (hourly)
 - **Stories** group headlines from the last 10 days by word similarity; a story needs 2+ outlets or 3+ articles.
 - **Story comparison** (open any story): who covered it and when, who stayed silent, each outlet's first headline and lede side by side, the words only one outlet used, how headlines are framed (quote, question, speaker first, charged word, credits another outlet, opinion/live labels), and headlines that are near copies across newsrooms (agency or group content). It uses only the stored headlines and ledes and links to the originals. Feeds from the same house share a `family` in `sources.json` and count as one newsroom; a `scope` (e.g. the sports-only feed) keeps an outlet off the "not covered" list for unrelated stories. Rules live in `pipeline/compare.py`; one file per story is written to `site/data/stories/`.
 - **Names** are capitalised words with Finnish case endings stripped (Kiinan, Kiinassa → Kiina). It's rough: expect some noise.
-- **Regions** come from [GDELT](https://www.gdeltproject.org/), which monitors online news worldwide. Shares there are a theme's share of all tracked themes in that region, so regions compare like-for-like with each other (Finland is included via GDELT too).
+- **Regions** come from the Thoughtlead news corpus (about 60 outlets in Finland, Sweden, German-speaking countries, the UK, the US and Spain), tagged with the same theme word lists as everything else. Shares are a theme's share of all tracked themes in that region, so regions compare like-for-like. Nordics = Finland and Sweden (no Norwegian or Danish outlets). Only counts and at most 10 headlines per region and theme are committed; the API key lives only in a repository secret. Ask Timo Nurmi before any client or commercial use of this data.
 
 ## Sustainability lens
 
@@ -71,7 +72,7 @@ All configuration is plain JSON and can be edited in the browser on GitHub (penc
 
 - `pipeline/config/sources.json` — outlets and feed URLs; set `"active": false` to pause one.
 - `pipeline/config/themes.json` — themes, stems, GDELT mapping.
-- `pipeline/config/regions.json` — GDELT regions and their countries.
+- `pipeline/config/regions.json` — regions (mapped to corpus markets in `pipeline/fetch_corpus.py`).
 
 ## Running locally (optional)
 

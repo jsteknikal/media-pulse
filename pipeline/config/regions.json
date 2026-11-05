@@ -1,5 +1,5 @@
 {
-  "_note": "GDELT regions. Country names are GDELT 'sourcecountry' values with spaces removed. 'finland' is fetched from GDELT too so Finland can be compared like-for-like with other regions.",
+  "_note": "Regions for the Regions page. Data comes from the Thoughtlead corpus API (pipeline/fetch_corpus.py, REGION_MARKETS maps these ids to corpus markets). 'countries' is only used by the old GDELT fetcher.",
   "regions": [
     {"id": "finland", "fi": "Suomi", "en": "Finland", "countries": ["finland"]},
     {"id": "nordics", "fi": "Pohjoismaat", "en": "Nordics", "countries": ["finland", "sweden", "norway", "denmark", "iceland"]},
