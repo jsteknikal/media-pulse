@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-06T04:00:57Z",
+  "last_run": "2026-11-06T07:01:19Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 36,
+  "similar_left": 45,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -164,14 +164,14 @@
    "first_seen": "2026-10-30T13:39:15Z",
    "headline": "FBI macht Nordkorea für Milliardendiebstahl bei Binance verantwortlich",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:20Z",
+   "last_seen": "2026-11-06T05:08:29Z",
    "weekly": [
     0,
     0,
-    3,
-    177
+    64,
+    116
    ],
-   "this_week": 177,
+   "this_week": 116,
    "velocity": 57.666666666666664,
    "markets": {
     "de": 4,
@@ -370,14 +370,14 @@
    "first_seen": "2026-10-22T20:37:37Z",
    "headline": "Demonstrationen: Gen-Z-Demos: Erst friedlicher Protest, dann Zwischenfälle",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:56Z",
+   "last_seen": "2026-11-06T05:09:03Z",
    "weekly": [
     0,
-    11,
-    22,
-    148
+    12,
+    27,
+    142
    ],
-   "this_week": 148,
+   "this_week": 142,
    "velocity": 8.210526315789474,
    "markets": {
     "de": 8,
@@ -501,21 +501,21 @@
    "id": "3258",
    "first_seen": "2026-10-31T14:16:01Z",
    "headline": "IS: Jääkiekkoliitossa kuohuu Venäjä-päätöksen jälkeen - päätös Suomen MM-kisaosallistumisesta vielä tekemättä",
-   "state": "emergence",
-   "last_seen": "2026-11-05T16:46:30Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-06T05:08:39Z",
    "weekly": [
     0,
     0,
-    0,
-    142
+    31,
+    111
    ],
-   "this_week": 142,
-   "velocity": 19.2,
+   "this_week": 111,
+   "velocity": 3.5806451612903225,
    "markets": {
-    "fi": 9,
-    "de": 1
+    "fi": 8,
+    "de": 2
    },
-   "outlets": 4,
+   "outlets": 5,
    "samples": [
     {
      "t": "Ice hockey chiefs mull options on Russia reinstatement",
@@ -524,17 +524,25 @@
      "c": "de",
      "l": "en",
      "p": "2026-11-02T15:34:12Z"
+    },
+    {
+     "t": "Skoda grozi wycofaniem sponsoringu MŚ w hokeju. Powodem Rosja",
+     "u": "https://www.dw.com/pl/skoda-grozi-wycofaniem-sponsoringu-m%C5%9B-w-hokeju-powodem-rosja/a-79857871",
+     "d": "dw.com",
+     "c": "de",
+     "l": "pl",
+     "p": "2026-11-04T17:23:14Z"
     }
    ],
    "abroad_first": "2026-10-31T14:16:01Z",
    "headline_en": "Ice hockey chiefs mull options on Russia reinstatement",
-   "headline_fi": "Suomen jääkiekkoliitto kokoaa boikottirintamaa Venäjää vastaan",
+   "headline_fi": "IS: Jääkiekkoliitossa kuohuu Venäjä-päätöksen jälkeen - päätös Suomen MM-kisaosallistumisesta vielä tekemättä",
    "markets_abroad": 1,
    "subjects": [
     "geopolitics",
     "policy"
    ],
-   "relevant": false
+   "relevant": true
   },
   "2795": {
    "id": "2795",
@@ -609,14 +617,14 @@
    "first_seen": "2026-11-01T14:46:46Z",
    "headline": "Michigan'da Demokrat siyasetçi, Cumhuriyetçi adaya desteğini açıkladı",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:21Z",
+   "last_seen": "2026-11-06T05:08:22Z",
    "weekly": [
-    13,
-    11,
-    28,
-    106
+    4,
+    9,
+    30,
+    105
    ],
-   "this_week": 106,
+   "this_week": 105,
    "velocity": 3.88,
    "markets": {
     "uk": 4,
@@ -730,14 +738,14 @@
    "first_seen": "2026-11-04T16:18:50Z",
    "headline": "US-Senat: Talarico mit historischem Erfolg in Texas, Demokraten holen Senat",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:16Z",
+   "last_seen": "2026-11-06T05:08:26Z",
    "weekly": [
-    38,
-    31,
-    19,
-    135
+    41,
+    29,
+    22,
+    128
    ],
-   "this_week": 135,
+   "this_week": 128,
    "velocity": 4.5,
    "markets": {
     "fi": 3,
@@ -797,14 +805,14 @@
    "first_seen": "2026-11-03T15:44:22Z",
    "headline": "Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:20Z",
+   "last_seen": "2026-11-06T05:08:29Z",
    "weekly": [
     64,
     5,
-    2,
-    102
+    3,
+    101
    ],
-   "this_week": 102,
+   "this_week": 101,
    "velocity": 56,
    "markets": {
     "uk": 7,
@@ -1004,7 +1012,7 @@
    "first_seen": "2026-11-02T15:12:55Z",
    "headline": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:30Z",
+   "last_seen": "2026-11-06T05:08:39Z",
    "weekly": [
     0,
     0,
@@ -1143,22 +1151,23 @@
    "first_seen": "2026-10-31T14:15:52Z",
    "headline": "La crisis del Constitucional refleja la polarización extrema en Polonia a un año de las legislativas",
    "state": "acceleration",
-   "last_seen": "2026-11-02T15:12:58Z",
+   "last_seen": "2026-11-06T05:08:58Z",
    "weekly": [
-    0,
-    2,
     1,
-    58
+    2,
+    15,
+    64
    ],
-   "this_week": 58,
-   "velocity": 58,
+   "this_week": 64,
+   "velocity": 4.266666666666667,
    "markets": {
-    "es": 2,
-    "uk": 3,
+    "es": 1,
     "de": 3,
-    "intl": 2
+    "intl": 3,
+    "uk": 2,
+    "fi": 1
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
     {
      "t": "La crisis del Constitucional refleja la polarización extrema en Polonia a un año de las legislativas",
@@ -1169,12 +1178,12 @@
      "p": "2026-11-02T04:30:01Z"
     },
     {
-     "t": "Police deployed during stand-off over control of Poland's top court",
-     "u": "https://www.bbc.co.uk/news/articles/crz9824d5e88o",
-     "d": "bbc.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-10-30T20:52:01Z"
+     "t": "Polen: Der Streit um Polens Verfassungsgericht eskaliert gefährlich",
+     "u": "https://www.handelsblatt.com/politik/international/polen-der-streit-um-polens-verfassungsgericht-eskaliert-gefaehrlich/100266434.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-01T13:07:02Z"
     },
     {
      "t": "Umstrittener Justizumbau: Heftiger Machtkampf um Polens Verfassungsgericht entbrannt",
@@ -1186,8 +1195,8 @@
     }
    ],
    "abroad_first": "2026-10-30T14:18:00Z",
-   "headline_en": "Police deployed during stand-off over control of Poland's top court",
-   "headline_fi": null,
+   "headline_en": "Crisis over top court shapes Poland's battle lines before 2027 election",
+   "headline_fi": "Kommentti: Euroopan peruskivi murenee - raivo kasvaa Puolassa",
    "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
@@ -1278,7 +1287,7 @@
    "first_seen": "2026-11-04T16:19:05Z",
    "headline": "Mississippi U.S. Senate 2026: Live Midterm Election Results, Hyde-Smith vs. Colom",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:41Z",
+   "last_seen": "2026-11-06T05:08:48Z",
    "weekly": [
     0,
     0,
@@ -1603,14 +1612,14 @@
    "first_seen": "2026-11-01T14:46:40Z",
    "headline": "Iowa ser ut att gå mot rekordstort valdeltagande",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:19Z",
+   "last_seen": "2026-11-06T05:08:29Z",
    "weekly": [
     0,
     0,
-    1,
-    54
+    4,
+    51
    ],
-   "this_week": 54,
+   "this_week": 51,
    "velocity": 46,
    "markets": {
     "uk": 1,
@@ -1794,16 +1803,16 @@
   "3248": {
    "id": "3248",
    "first_seen": "2026-10-31T14:15:53Z",
-   "headline": "Andy Burnham open to calls for formal apology for Britain's role in slave trade",
+   "headline": "Carlos III describe el tráfico de esclavos como un \"capítulo vergonzoso\" de la historia del Reino Unido",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:39Z",
+   "last_seen": "2026-11-06T05:08:46Z",
    "weekly": [
     0,
     0,
-    1,
-    42
+    5,
+    38
    ],
-   "this_week": 42,
+   "this_week": 38,
    "velocity": 41,
    "markets": {
     "uk": 6,
@@ -1933,14 +1942,14 @@
    "first_seen": "2026-11-04T16:18:52Z",
    "headline": "Annie Andrews Defeats Darline Graham in South Carolina Senate Race",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:32Z",
+   "last_seen": "2026-11-06T05:08:41Z",
    "weekly": [
     0,
     4,
-    2,
-    39
+    4,
+    37
    ],
-   "this_week": 39,
+   "this_week": 37,
    "velocity": 13.333333333333334,
    "markets": {
     "us": 4,
@@ -2514,7 +2523,7 @@
    "first_seen": "2026-11-04T16:18:49Z",
    "headline": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:31Z",
+   "last_seen": "2026-11-06T05:08:40Z",
    "weekly": [
     0,
     0,
@@ -2651,54 +2660,56 @@
   "3242": {
    "id": "3242",
    "first_seen": "2026-10-31T14:15:50Z",
-   "headline": "Госдеп США одобрил возможную продажу Украине 500 ракет для Patriot",
-   "state": "emergence",
-   "last_seen": "2026-11-05T16:46:53Z",
+   "headline": "Ukraine's Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+   "state": "acceleration",
+   "last_seen": "2026-11-06T05:09:00Z",
    "weekly": [
     0,
     0,
-    0,
-    28
+    11,
+    17
    ],
-   "this_week": 28,
-   "velocity": 5.6,
+   "this_week": 17,
+   "velocity": 1.5454545454545454,
    "markets": {
-    "de": 3,
-    "uk": 3,
-    "intl": 2,
-    "se": 2
+    "uk": 2,
+    "intl": 1,
+    "de": 2,
+    "fi": 1,
+    "se": 3,
+    "us": 1
    },
-   "outlets": 9,
+   "outlets": 7,
    "samples": [
     {
-     "t": "Госдеп США одобрил возможную продажу Украине 500 ракет для Patriot",
-     "u": "https://www.dw.com/ru/gosdepartament-ssa-odobril-vozmoznuu-prodazu-ukraine-500-raketperehvatcikov-dla-patriot/a-79813685",
-     "d": "dw.com",
-     "c": "de",
-     "l": "ru",
-     "p": "2026-10-30T23:33:33Z"
-    },
-    {
-     "t": "US approves sale of 500 Patriot missiles to Ukraine",
-     "u": "https://www.bbc.co.uk/news/articles/c3vgxznlx7jzo",
-     "d": "bbc.co.uk",
+     "t": "Ukraine's Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+     "u": "https://www.theguardian.com/world/2026/oct/31/ukraines-zelenskyy-praises-us-over-21bn-patriot-missile-deal-but-warns-it-could-take-years",
+     "d": "theguardian.com",
      "c": "uk",
      "l": "en",
-     "p": "2026-10-30T22:20:52Z"
+     "p": "2026-10-31T02:18:17Z"
     },
     {
-     "t": "US greenlights $2.1bn sale of Patriot interceptors to Ukraine",
-     "u": "https://www.ft.com/content/321cf4f9-d236-4b50-a52c-c2a21f7c447b",
-     "d": "ft.com",
+     "t": "US greenlights $2.1bn Patriot missile sale to Ukraine",
+     "u": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine",
+     "d": "aljazeera.com",
      "c": "intl",
      "l": "en",
-     "p": "2026-10-30T21:28:58Z"
+     "p": "2026-10-31T04:51:25Z"
+    },
+    {
+     "t": "アメリカ、ウクライナへのパトリオットミサイル500発の売却を承認",
+     "u": "https://www.bbc.com/japanese/articles/c6y0e21x2xlwo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ja",
+     "p": "2026-10-31T02:55:31Z"
     }
    ],
    "abroad_first": "2026-10-30T04:10:00Z",
-   "headline_en": "US approves sale of 500 Patriot missiles to Ukraine",
-   "headline_fi": null,
-   "markets_abroad": 4,
+   "headline_en": "Ukraine's Zelenskyy praises US over $2.1bn Patriot missile deal but warns it could take years",
+   "headline_fi": "Ukraina voi joutua odottamaan Patriot-ohjuksia vuosia",
+   "markets_abroad": 5,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
@@ -2721,7 +2732,7 @@
    "first_seen": "2026-11-03T15:44:24Z",
    "headline": "Russian bombing of Ukrainian aid centre kills 24 people: Zelenskyy",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:42Z",
+   "last_seen": "2026-11-06T05:08:49Z",
    "weekly": [
     0,
     0,
@@ -2789,7 +2800,7 @@
    "first_seen": "2026-11-04T16:18:53Z",
    "headline": "Morgenüberblick zu Midterms: Diese fünf Ergebnisse der US-Wahl sind schon klar",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:33Z",
+   "last_seen": "2026-11-06T05:08:42Z",
    "weekly": [
     0,
     0,
@@ -2901,7 +2912,7 @@
    "first_seen": "2026-11-01T14:46:49Z",
    "headline": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:27Z",
+   "last_seen": "2026-11-06T05:08:36Z",
    "weekly": [
     0,
     0,
@@ -2970,14 +2981,14 @@
    "first_seen": "2026-11-01T14:46:55Z",
    "headline": "UK adventurer arrives home after epic 28-year trek across jungles and frozen sea",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:38Z",
+   "last_seen": "2026-11-06T05:08:46Z",
    "weekly": [
     4,
     1,
-    3,
-    27
+    4,
+    26
    ],
-   "this_week": 27,
+   "this_week": 26,
    "velocity": 29,
    "markets": {
     "de": 1,
@@ -3274,7 +3285,7 @@
    "first_seen": "2026-11-04T16:18:48Z",
    "headline": "La Casa Blanca recuerda que Donald Trump \"todavía es presidente\"",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:14Z",
+   "last_seen": "2026-11-06T05:08:24Z",
    "weekly": [
     0,
     1,
@@ -3472,23 +3483,23 @@
    "id": "3240",
    "first_seen": "2026-10-31T14:15:49Z",
    "headline": "Algerien schickt erstmals seit 50 Jahren Truppen ins Ausland - nach Niger",
-   "state": "emergence",
-   "last_seen": "2026-11-05T16:46:14Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-06T05:08:24Z",
    "weekly": [
     0,
     0,
-    0,
-    25
+    3,
+    22
    ],
-   "this_week": 25,
-   "velocity": 4.4,
+   "this_week": 22,
+   "velocity": 7.333333333333333,
    "markets": {
     "de": 6,
-    "se": 2,
+    "uk": 2,
     "intl": 1,
-    "es": 1
+    "se": 1
    },
-   "outlets": 6,
+   "outlets": 7,
    "samples": [
     {
      "t": "Algerien schickt erstmals seit 50 Jahren Truppen ins Ausland - nach Niger",
@@ -3499,12 +3510,12 @@
      "p": "2026-10-31T15:06:00Z"
     },
     {
-     "t": "Dubbla veton i FN-omröstning om Västsahara",
-     "u": "https://www.dn.se/direkt/2026-10-30/dubbla-veton-i-fn-omrostning-om-vastsahara/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-10-30T22:06:17Z"
+     "t": "Sahara occidental : Le Maroc célèbre la fin de la mission de l'ONU, la MINURSO.",
+     "u": "https://www.bbc.com/afrique/articles/cwp9geeyyjnxo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "fr",
+     "p": "2026-11-03T15:46:45Z"
     },
     {
      "t": "UN-Friedenseinsatz im Westsahara-Konflikt vor dem Aus",
@@ -3532,7 +3543,7 @@
    "first_seen": "2026-11-03T15:44:25Z",
    "headline": "US strikes Iran's Qeshm Island ahead of midterm elections",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:21Z",
+   "last_seen": "2026-11-06T05:08:30Z",
    "weekly": [
     0,
     0,
@@ -3795,7 +3806,7 @@
    "first_seen": "2026-11-02T15:12:59Z",
    "headline": "Ukraine, Russia report hacking attacks on emergency alert apps",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:47:00Z",
+   "last_seen": "2026-11-06T05:09:06Z",
    "weekly": [
     0,
     0,
@@ -3865,14 +3876,14 @@
    "first_seen": "2026-11-04T16:18:55Z",
    "headline": "US to cut nearly $4 billion in Israel military aid, Trump says",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:34Z",
+   "last_seen": "2026-11-06T05:08:22Z",
    "weekly": [
     0,
     0,
     0,
-    22
+    23
    ],
-   "this_week": 22,
+   "this_week": 23,
    "velocity": 4.2,
    "markets": {
     "de": 3,
@@ -4192,7 +4203,7 @@
    "first_seen": "2026-11-04T16:19:00Z",
    "headline": "Midterm elections 2026 live updates: Economy, inflation and voter concerns",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:38Z",
+   "last_seen": "2026-11-06T05:08:45Z",
    "weekly": [
     0,
     1,
@@ -4543,14 +4554,14 @@
    "first_seen": "2026-11-03T15:44:33Z",
    "headline": "Marvell to buy Nvidia-backed Lumentum in a $115bn all-stock deal",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:54Z",
+   "last_seen": "2026-11-06T05:09:01Z",
    "weekly": [
     0,
     0,
-    3,
-    18
+    4,
+    17
    ],
-   "this_week": 18,
+   "this_week": 17,
    "velocity": 6,
    "markets": {
     "intl": 4,
@@ -4612,14 +4623,14 @@
    "first_seen": "2026-11-04T16:18:56Z",
    "headline": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:35Z",
+   "last_seen": "2026-11-06T05:08:43Z",
    "weekly": [
-    3,
-    10,
-    3,
-    22
+    0,
+    9,
+    2,
+    20
    ],
-   "this_week": 22,
+   "this_week": 20,
    "velocity": 6.333333333333333,
    "markets": {
     "uk": 1,
@@ -4666,7 +4677,7 @@
    "first_seen": "2026-11-04T16:18:53Z",
    "headline": "Key moments so far in the US midterms",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:21Z",
+   "last_seen": "2026-11-06T05:08:30Z",
    "weekly": [
     0,
     0,
@@ -4719,7 +4730,7 @@
    "first_seen": "2026-11-03T15:44:34Z",
    "headline": "Half-witted at best, a people-pleaser at worst: step forward, Chris Philp",
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:31Z",
+   "last_seen": "2026-11-06T05:08:40Z",
    "weekly": [
     1,
     3,
@@ -5022,7 +5033,7 @@
    "first_seen": "2026-11-01T14:47:03Z",
    "headline": "FSB: USA varoitti terroriuhasta Moskovassa",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:47:13Z",
+   "last_seen": "2026-11-06T05:09:17Z",
    "weekly": [
     0,
     0,
@@ -5076,7 +5087,7 @@
    "first_seen": "2026-11-04T16:18:47Z",
    "headline": "Champions League comebacks: What are the other best after Manchester United beat Roma",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:31Z",
+   "last_seen": "2026-11-06T05:08:40Z",
    "weekly": [
     0,
     0,
@@ -5255,7 +5266,7 @@
    "first_seen": "2026-11-02T15:13:15Z",
    "headline": "Pojke skadad i motocrossolycka - får intensivvård",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:47:12Z",
+   "last_seen": "2026-11-06T05:09:17Z",
    "weekly": [
     0,
     0,
@@ -5323,7 +5334,7 @@
    "first_seen": "2026-11-02T15:13:04Z",
    "headline": "German police investigating after needles found in Halloween candy",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:24Z",
+   "last_seen": "2026-11-06T05:08:33Z",
    "weekly": [
     0,
     0,
@@ -5444,7 +5455,7 @@
    "first_seen": "2026-11-01T14:46:58Z",
    "headline": "F1-kuski heivattiin sivuun: ei mitään perusteluja",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:55Z",
+   "last_seen": "2026-11-06T05:09:01Z",
    "weekly": [
     0,
     0,
@@ -5654,7 +5665,7 @@
    "first_seen": "2026-11-01T14:47:02Z",
    "headline": "Venäjä: Yhdysvallat varoitti Moskovaan suunnitellusta terrori-iskusta",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:47:14Z",
+   "last_seen": "2026-11-06T05:09:18Z",
    "weekly": [
     0,
     0,
@@ -5721,7 +5732,7 @@
    "first_seen": "2026-11-01T14:46:44Z",
    "headline": "Lewis Hamilton enjoys Mexico City Grand Prix pole as Kimi Antonelli aims to clinch title",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:47:09Z",
+   "last_seen": "2026-11-06T05:09:14Z",
    "weekly": [
     0,
     0,
@@ -6266,14 +6277,14 @@
    "headline_en": "The Blame Game Begins",
    "headline_fi": "Varapresidentti Vance: \"Hävisimme sodan vuoksi\"",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:14Z",
+   "last_seen": "2026-11-06T05:08:22Z",
    "weekly": [
     0,
     0,
     0,
-    105
+    107
    ],
-   "this_week": 105,
+   "this_week": 107,
    "velocity": 21,
    "markets": {
     "uk": 3,
@@ -6336,7 +6347,7 @@
    "headline_en": "Norway king's stepson can be released from custody while awaiting rape case appeal, court rules",
    "headline_fi": "Marius pääsee \"käytännössä vapaaksi\" - syyttäjä valittaa",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:49Z",
+   "last_seen": "2026-11-06T05:08:56Z",
    "weekly": [
     0,
     0,
@@ -6404,7 +6415,7 @@
    "headline_en": "Germany news: Commerce chief hopes for more stable US trade",
    "headline_fi": "Baijerin varapääministeri löydettiin kuolleena hotellihuoneesta",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:23Z",
+   "last_seen": "2026-11-06T05:08:32Z",
    "weekly": [
     0,
     0,
@@ -6458,7 +6469,7 @@
    "headline_en": "Spanish police investigating after soccer player dies following on-field collision",
    "headline_fi": "Järkyttävä tilanne Espanjassa: pelaaja lyyhistyi kentälle ja sai sydänpysähdyksen",
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:18Z",
+   "last_seen": "2026-11-06T05:08:28Z",
    "weekly": [
     0,
     0,
@@ -6513,11 +6524,11 @@
    "headline_en": "FTSE 100 Live: Stocks to slide after tech bruised in Asia; oil stabilises",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-05T16:46:27Z",
+   "last_seen": "2026-11-06T05:08:36Z",
    "weekly": [
-    1,
-    1,
+    0,
     2,
+    1,
     22
    ],
    "this_week": 22,
@@ -6569,7 +6580,7 @@
    "headline_en": "Jack Campbell: Detroit Lions star continues to recover in hospital after neck injury",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:44Z",
+   "last_seen": "2026-11-06T05:08:51Z",
    "weekly": [
     0,
     0,
@@ -6621,16 +6632,16 @@
    "headline": "Fenerbahce vs Liverpool: UEFA Champions League stats & head-to-head",
    "headline_en": "Fenerbahce vs Liverpool: UEFA Champions League stats & head-to-head",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-05T16:46:25Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-06T05:08:34Z",
    "weekly": [
     0,
     0,
-    0,
-    18
+    1,
+    17
    ],
-   "this_week": 18,
-   "velocity": 3.6,
+   "this_week": 17,
+   "velocity": 17,
    "markets": {
     "uk": 6,
     "intl": 1,
@@ -6678,7 +6689,7 @@
    "headline_en": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-05T16:46:18Z",
+   "last_seen": "2026-11-06T05:08:28Z",
    "weekly": [
     0,
     0,
@@ -6723,6 +6734,59 @@
    ],
    "abroad_first": "2026-11-05T03:06:57Z",
    "markets_abroad": 5,
+   "subjects": [],
+   "relevant": false
+  },
+  "3491": {
+   "id": "3491",
+   "first_seen": "2026-11-06T05:08:57Z",
+   "headline": "Här testar SVT:s reporter Almgrens maratonfart",
+   "headline_en": "Andreas Almgren wins in New York City Marathon debut; Sheila Chepkirui reclaims title",
+   "headline_fi": "Ruotsalaistähdeltä lähes käsittämätön uroteko",
+   "state": "acceleration",
+   "last_seen": "2026-11-06T05:08:57Z",
+   "weekly": [
+    2,
+    1,
+    1,
+    24
+   ],
+   "this_week": 24,
+   "velocity": 24,
+   "markets": {
+    "se": 5,
+    "fi": 4,
+    "us": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Här testar SVT:s reporter Almgrens maratonfart",
+     "u": "https://www.svt.se/nyheter/lokalt/jonkoping/har-testar-svts-reporter-almgrens-maratonfart",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-02T17:00:08Z"
+    },
+    {
+     "t": "Friidrott: Kalle Berglund förklarar Andreas Almgrens avgörande ryck",
+     "u": "https://www.svt.se/sport/friidrott/kalle-berglund-forklarar-andreas-almgrens-avgorande-ryck",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-02T14:22:56Z"
+    },
+    {
+     "t": "Friidrott: Andreas Almgren efter triumfen i New York: \"Det här är min största seger",
+     "u": "https://www.svt.se/sport/friidrott/andreas-almgren-efter-triumfen-i-new-york-det-har-ar-min-storsta-seger",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-01T20:12:32Z"
+    }
+   ],
+   "abroad_first": "2026-11-01T16:14:11Z",
+   "markets_abroad": 2,
    "subjects": [],
    "relevant": false
   }
