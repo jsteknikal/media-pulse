@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-06T13:15:37Z",
+  "last_run": "2026-11-06T16:30:49Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 37,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -2394,7 +2394,7 @@
    "headline_en": "What we know of Vance's letter to Rezaei, as Trump warns Gulf to 'prepare'",
    "headline_fi": null,
    "markets_abroad": 3,
-   "checked": "2026-11-06T10:15:37Z",
+   "checked": "2026-11-06T16:30:49Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -2623,7 +2623,7 @@
    "headline_en": "BBC World Service - Global News Podcast, Dozens killed in train crash in Spain",
    "headline_fi": null,
    "markets_abroad": 2,
-   "checked": "2026-11-06T10:15:37Z",
+   "checked": "2026-11-06T16:30:49Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3147,7 +3147,7 @@
    "headline_en": "Merz courts Asian investors as he insists Europe remains a safe bet",
    "headline_fi": null,
    "markets_abroad": 2,
-   "checked": "2026-11-06T10:15:37Z",
+   "checked": "2026-11-06T16:30:49Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3530,7 +3530,7 @@
    "headline_en": "US, Russia block rival Western Sahara resolutions",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-06T10:15:37Z",
+   "checked": "2026-11-06T16:30:49Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3726,7 +3726,7 @@
    "headline_en": "Most Gulf bourses advance as Saudi defence pact countries push for peace",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-06T10:15:37Z",
+   "checked": "2026-11-06T16:30:49Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4778,7 +4778,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-06T10:15:37Z",
+   "checked": "2026-11-06T16:30:49Z",
    "check_how": "url",
    "check_error": null
   },
@@ -5559,7 +5559,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-06T10:15:37Z",
+   "checked": "2026-11-06T16:30:49Z",
    "check_how": "url",
    "check_error": null
   },
@@ -6205,7 +6205,7 @@
    "first_seen": "2026-11-01T14:46:42Z",
    "headline": "Donald Trump und die Jeffrey-Epstein-Files: Gericht stoppt Klage gegen Zeitung",
    "state": "emergence",
-   "last_seen": "2026-11-05T04:39:49Z",
+   "last_seen": "2026-11-06T05:09:14Z",
    "weekly": [
     0,
     0,
@@ -6788,6 +6788,229 @@
    "abroad_first": "2026-11-01T16:14:11Z",
    "markets_abroad": 2,
    "subjects": [],
+   "relevant": false
+  },
+  "3179": {
+   "id": "3179",
+   "first_seen": "2026-10-30T13:39:12Z",
+   "headline": "Meinung: Mercedes' Hokuspokus, Volkswagens Milliardenverlust und das tatsächliche Elend der offenen Immobilienfonds",
+   "headline_en": "Germany news: Volkswagen posts 3rd quarter losses of nearly €6 bln",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-04T16:19:51Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.8,
+   "markets": {
+    "de": 8,
+    "intl": 1,
+    "uk": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Meinung: Mercedes' Hokuspokus, Volkswagens Milliardenverlust und das tatsächliche Elend der offenen Immobilienfonds",
+     "u": "https://www.manager-magazin.de/ueber-uns/mercedes-hokuspokus-volkswagens-debakel-und-vonovias-bremsbemuehungen-a-abb9b7b0-b87d-4e21-9c75-fb6ffc97b2e5",
+     "d": "manager-magazin.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-10-29T15:20:00Z"
+    },
+    {
+     "t": "Sanierungsplan bei VW: Milliardenverlust zeigt Handlungsbedarf auf",
+     "u": "https://www.nzz.ch/wirtschaft/der-milliardenverlust-von-vw-erhoeht-den-spardruck-im-konzern-ld.10048102",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-10-29T11:23:51Z"
+    },
+    {
+     "t": "VW-Quartalszahlen: Die Gründe für den Milliardenverlust bei Volkswagen",
+     "u": "https://www.wiwo.de/unternehmen/auto/vw-quartalszahlen-die-gruende-fuer-den-milliardenverlust-bei-volkswagen/100265812.html",
+     "d": "wiwo.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-10-29T17:21:00Z"
+    }
+   ],
+   "abroad_first": "2026-10-29T06:40:19Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "business",
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-06T16:30:49Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3338": {
+   "id": "3338",
+   "first_seen": "2026-11-02T15:13:07Z",
+   "headline": "Heidi Klum reveals inspiration for her most gruesome Halloween costume yet",
+   "headline_en": "Heidi Klum reveals inspiration for her most gruesome Halloween costume yet",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-06T05:09:13Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.8,
+   "markets": {
+    "uk": 2,
+    "us": 3,
+    "de": 2,
+    "es": 2,
+    "intl": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Heidi Klum reveals inspiration for her most gruesome Halloween costume yet",
+     "u": "https://www.independent.co.uk/tv/lifestyle/heidi-klum-halloween-costume-hand-video-b3077046.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-01T11:55:16Z"
+    },
+    {
+     "t": "Heidi Klum reveals Halloween costume as her iconic party marks 25 years",
+     "u": "https://apnews.com/article/heidi-klum-halloween-party-costume-hand-a98b859d0e60532a9f7b4ee851bc507d",
+     "d": "apnews.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-01T03:45:53Z"
+    },
+    {
+     "t": "Heidi Klum se fantasia de mão decepada para o Dia das Bruxas",
+     "u": "https://www.bbc.com/portuguese/watch/c6lyeww2lwv3o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "pt",
+     "p": "2026-11-01T20:52:54Z"
+    }
+   ],
+   "abroad_first": "2026-11-01T02:36:10Z",
+   "markets_abroad": 5,
+   "subjects": [],
+   "relevant": false
+  },
+  "3434": {
+   "id": "3434",
+   "first_seen": "2026-11-04T16:19:07Z",
+   "headline": "Parikymmentä vuotta vanha Nasan teleskooppi syöksyi Maan kiertoradalta",
+   "headline_en": "Decades-old NASA telescope heading back to Earth — to crash",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-06T05:08:26Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 1.2,
+   "markets": {
+    "uk": 3,
+    "intl": 1,
+    "us": 1,
+    "es": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Decades-old NASA telescope heading back to Earth — to crash",
+     "u": "https://www.independent.co.uk/news/world/americas/nasa-swift-telescope-plunging-toward-earth-b3077159.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-01T18:34:01Z"
+    },
+    {
+     "t": "NASA's Swift satellite telescope heads for fiery re-entry 22 years after launch",
+     "u": "https://www.reuters.com/science/nasas-swift-satellite-telescope-heads-fiery-re-entry-22-years-after-launch-2026-11-04/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-03T20:36:00Z"
+    },
+    {
+     "t": "Nasa telescope launched in 2004 to plunge back to Earth after failed rescue mission",
+     "u": "https://www.theguardian.com/science/2026/nov/03/nasa-telescope-neil-gehrels-swift-observatory",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-03T19:50:27Z"
+    }
+   ],
+   "abroad_first": "2026-10-31T12:03:18Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3447": {
+   "id": "3447",
+   "first_seen": "2026-11-05T16:46:15Z",
+   "headline": "Rory McIlroy welcomes golf 'reset' after LIV Golf 'false economy'",
+   "headline_en": "Rory McIlroy welcomes golf 'reset' after LIV Golf 'false economy'",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-05T16:46:15Z",
+   "weekly": [
+    5,
+    6,
+    8,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 1.75,
+   "markets": {
+    "uk": 4,
+    "intl": 4,
+    "us": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Rory McIlroy welcomes golf 'reset' after LIV Golf 'false economy'",
+     "u": "https://www.independent.co.uk/sport/golf/rory-mcilroy-liv-golf-dp-world-tour-reset-b3079053.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-04T12:38:43Z"
+    },
+    {
+     "t": "LIV Golf facing liquidation after financial backer drops plan for new league",
+     "u": "https://www.scmp.com/sport/golf/article/3373327/liv-golf-facing-liquidation-after-financial-backer-drops-plan-new-league-reports",
+     "d": "scmp.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-05T01:14:26Z"
+    },
+    {
+     "t": "ゴルフ＝ＬＩＶ再建計画が実現困難に、投資会社が支援案撤回--報道",
+     "u": "https://www.reuters.com/jp/life/sports/E4WFEL6RF5NCZB6LAUGGDXD6RE-2026-11-05/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-05T01:27:07Z"
+    }
+   ],
+   "abroad_first": "2026-11-03T16:33:50Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "business"
+   ],
    "relevant": false
   }
  }
