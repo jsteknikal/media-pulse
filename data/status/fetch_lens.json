@@ -1,12 +1,12 @@
 {
- "time": "2026-11-06T11:15:35Z",
- "new_articles": 1,
+ "time": "2026-11-06T11:30:48Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.uusiouutiset.fi/feed/"
