@@ -1,6 +1,6 @@
 {
- "time": "2026-11-06T12:00:57Z",
- "new_articles": 0,
+ "time": "2026-11-06T12:15:36Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -16,7 +16,7 @@
    "id": "sitra",
    "state": "ok",
    "fetched": 12,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.sitra.fi/feed/"
@@ -34,13 +34,13 @@
   },
   {
    "id": "climate-home",
-   "state": "failed",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 40,
    "new": 0,
-   "errors": [
-    "https://www.climatechangenews.com/feed/: TimeoutError: The read operation timed out"
-   ],
-   "feeds_used": []
+   "errors": [],
+   "feeds_used": [
+    "https://www.climatechangenews.com/feed/"
+   ]
   },
   {
    "id": "esg-today",
