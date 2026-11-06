@@ -1,6 +1,6 @@
 {
- "time": "2026-11-06T10:30:48Z",
- "new_articles": 0,
+ "time": "2026-11-06T10:45:38Z",
+ "new_articles": 2,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -46,7 +46,7 @@
    "id": "esg-today",
    "state": "ok",
    "fetched": 10,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.esgtoday.com/feed/"
@@ -76,7 +76,7 @@
    "id": "euobserver",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://euobserver.com/rss"
