@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-07T14:15:34Z",
+  "last_run": "2026-11-07T17:15:37Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 44,
+  "similar_left": 37,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -2392,7 +2392,7 @@
    "headline_en": "What we know of Vance's letter to Rezaei, as Trump warns Gulf to 'prepare'",
    "headline_fi": null,
    "markets_abroad": 3,
-   "checked": "2026-11-07T11:01:00Z",
+   "checked": "2026-11-07T17:15:37Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -2621,7 +2621,7 @@
    "headline_en": "BBC World Service - Global News Podcast, Dozens killed in train crash in Spain",
    "headline_fi": null,
    "markets_abroad": 2,
-   "checked": "2026-11-07T11:01:00Z",
+   "checked": "2026-11-07T17:15:37Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3144,7 +3144,7 @@
    "headline_en": "Merz courts Asian investors as he insists Europe remains a safe bet",
    "headline_fi": null,
    "markets_abroad": 2,
-   "checked": "2026-11-07T11:01:00Z",
+   "checked": "2026-11-07T17:15:37Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3527,7 +3527,7 @@
    "headline_en": "US, Russia block rival Western Sahara resolutions",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-07T11:01:00Z",
+   "checked": "2026-11-07T17:15:37Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3722,7 +3722,7 @@
    "headline_en": "Most Gulf bourses advance as Saudi defence pact countries push for peace",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-07T11:01:00Z",
+   "checked": "2026-11-07T17:15:37Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4775,7 +4775,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-07T11:01:00Z",
+   "checked": "2026-11-07T17:15:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -5556,7 +5556,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-07T11:01:00Z",
+   "checked": "2026-11-07T17:15:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -6907,7 +6907,7 @@
    "headline_en": "Decades-old NASA telescope heading back to Earth — to crash",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-06T05:08:26Z",
+   "last_seen": "2026-11-07T05:43:02Z",
    "weekly": [
     0,
     0,
@@ -7471,6 +7471,174 @@
     }
    ],
    "abroad_first": "2026-11-05T19:21:32Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3440": {
+   "id": "3440",
+   "first_seen": "2026-11-04T16:19:18Z",
+   "headline": "Merz i Zełenski w Berlinie: Europa musi mieć głos w sprawie pokoju",
+   "headline_en": "Ukraine war: Germany's Merz doubts Russia is serious about a truce",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-07T05:43:13Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.4,
+   "markets": {
+    "de": 8,
+    "intl": 2
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "Merz i Zełenski w Berlinie: Europa musi mieć głos w sprawie pokoju",
+     "u": "https://www.dw.com/pl/ze%C5%82enski-wskazuje-trzy-warunki-rozm%C3%B3w-z-rosj%C4%85-merz-domaga-si%C4%99-udzia%C5%82u-europy/a-79844344",
+     "d": "dw.com",
+     "c": "de",
+     "l": "pl",
+     "p": "2026-11-03T16:01:30Z"
+    },
+    {
+     "t": "Ukraine war: Germany's Merz doubts Russia is serious about a truce",
+     "u": "https://www.dw.com/en/ukraine-war-merz-doubts-russia-is-serious-about-a-truce/a-79836026",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-03T08:23:12Z"
+    },
+    {
+     "t": "Merz'den Trump'a G20 çağrısı: Zelenskiy de davet edilsin",
+     "u": "https://www.dw.com/tr/zelenskiy-berlinde-merz-ile-g%C3%B6r%C3%BC%C5%9Ft%C3%BC-avrupa-m%C3%BCzakere-masas%C4%B1nda-yer-almal%C4%B1/a-79846232",
+     "d": "dw.com",
+     "c": "de",
+     "l": "tr",
+     "p": "2026-11-03T18:03:39Z"
+    }
+   ],
+   "abroad_first": "2026-11-03T08:23:12Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-07T17:15:37Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3463": {
+   "id": "3463",
+   "first_seen": "2026-11-05T16:46:25Z",
+   "headline": "Fotboll: Comos historiska kross - vann med 9-1",
+   "headline_en": "Como equal Champions League record with stunning 9-1 win at Lens",
+   "headline_fi": "Mestarien liigassa historialliset murskajaiset",
+   "state": "emergence",
+   "last_seen": "2026-11-07T05:43:08Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.6,
+   "markets": {
+    "se": 2,
+    "de": 2,
+    "fi": 1,
+    "intl": 1,
+    "uk": 2,
+    "us": 2
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Fotboll: Comos historiska kross - vann med 9-1",
+     "u": "https://www.svt.se/sport/fotboll/comos-historiska-kross-vann-med-9-1",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-04T22:13:01Z"
+    },
+    {
+     "t": "5 november: Nattens nyheter",
+     "u": "https://www.svt.se/nyheter/inrikes/5-november-nattens-nyheter-n279fe",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-05T04:01:41Z"
+    },
+    {
+     "t": "Champions League: Rekordsieg für Como, erste Niederlage für Liverpool",
+     "u": "https://www.nzz.ch/sport/champions-league-liverpool-erstmals-geschlagen-como-mit-rekordsieg-ld.10054686",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-04T22:26:52Z"
+    }
+   ],
+   "abroad_first": "2026-11-04T22:13:01Z",
+   "markets_abroad": 5,
+   "subjects": [],
+   "relevant": false
+  },
+  "3533": {
+   "id": "3533",
+   "first_seen": "2026-11-07T05:42:58Z",
+   "headline": "Football Daily - Ronaldo bows out for Portugal & why is the PL getting younger? - BBC Sounds",
+   "headline_en": "Football Daily - Ronaldo bows out for Portugal & why is the PL getting younger? - BBC Sounds",
+   "headline_fi": "Ronaldon maajoukkueuran päätös lopettaa merkittävän aikakauden - riidat varjostivat maajoukkueuran loppua",
+   "state": "emergence",
+   "last_seen": "2026-11-07T05:42:58Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.8,
+   "markets": {
+    "uk": 5,
+    "de": 2,
+    "us": 1,
+    "fi": 1,
+    "intl": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Football Daily - Ronaldo bows out for Portugal & why is the PL getting younger? - BBC Sounds",
+     "u": "https://www.bbc.co.uk/sounds/play/m003434x",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-05T17:13:28Z"
+    },
+    {
+     "t": "Cristiano Ronaldo sagt Portugal Adieu - und rettet sich die letzte Pointe",
+     "u": "https://www.nzz.ch/sport/fussball/cristiano-ronaldo-tritt-aus-portugals-nationalteam-zurueck-ld.10055199",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-05T15:57:23Z"
+    },
+    {
+     "t": "Cristiano Ronaldo: Aller Pathos kann nicht verbergen, was zu seinem Ende führte",
+     "u": "https://www.welt.de/sport/fussball/article6aec8a7347b5fce02f879135/cristiano-ronaldo-aller-pathos-kann-nicht-verbergen-was-zu-seinem-ende-fuehrte.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-05T15:51:32Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T11:22:02Z",
    "markets_abroad": 4,
    "subjects": [],
    "relevant": false
