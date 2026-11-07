@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-07T11:01:00Z",
+  "last_run": "2026-11-07T14:15:34Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 38,
+  "similar_left": 44,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -6565,7 +6565,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-07T08:00:59Z",
+   "checked": "2026-11-07T14:15:34Z",
    "check_how": "url",
    "check_error": null
   },
@@ -6852,7 +6852,7 @@
    "headline_en": "Heidi Klum reveals inspiration for her most gruesome Halloween costume yet",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-06T05:09:13Z",
+   "last_seen": "2026-11-07T05:43:43Z",
    "weekly": [
     0,
     0,
