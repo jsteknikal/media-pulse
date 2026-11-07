@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-07T17:15:37Z",
+  "last_run": "2026-11-07T20:30:49Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 38,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -500,14 +500,14 @@
    "first_seen": "2026-10-31T14:16:01Z",
    "headline": "Suomen jääkiekkoliitto kokoaa boikottirintamaa Venäjää vastaan",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:11Z",
+   "last_seen": "2026-11-07T17:51:21Z",
    "weekly": [
     0,
     0,
     42,
-    120
+    137
    ],
-   "this_week": 120,
+   "this_week": 137,
    "velocity": 3.5806451612903225,
    "markets": {
     "fi": 8,
@@ -615,15 +615,15 @@
    "first_seen": "2026-11-01T14:46:46Z",
    "headline": "Michigan'da Demokrat siyasetçi, Cumhuriyetçi adaya desteğini açıkladı",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:42:45Z",
+   "last_seen": "2026-11-07T17:50:58Z",
    "weekly": [
     4,
     11,
     38,
-    103
+    107
    ],
-   "this_week": 103,
-   "velocity": 3.88,
+   "this_week": 107,
+   "velocity": 2.8157894736842106,
    "markets": {
     "uk": 4,
     "intl": 2,
@@ -803,14 +803,14 @@
    "first_seen": "2026-11-03T15:44:22Z",
    "headline": "Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:42:44Z",
+   "last_seen": "2026-11-07T17:50:56Z",
    "weekly": [
     66,
     3,
     3,
-    106
+    116
    ],
-   "this_week": 106,
+   "this_week": 116,
    "velocity": 35,
    "markets": {
     "uk": 6,
@@ -1010,7 +1010,7 @@
    "first_seen": "2026-11-02T15:12:55Z",
    "headline": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:16Z",
+   "last_seen": "2026-11-07T17:51:49Z",
    "weekly": [
     0,
     0,
@@ -1285,7 +1285,7 @@
    "first_seen": "2026-11-04T16:19:05Z",
    "headline": "Mississippi U.S. Senate 2026: Live Midterm Election Results, Hyde-Smith vs. Colom",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:26Z",
+   "last_seen": "2026-11-07T17:51:56Z",
    "weekly": [
     0,
     0,
@@ -1610,14 +1610,14 @@
    "first_seen": "2026-11-01T14:46:40Z",
    "headline": "Iowa ser ut att gå mot rekordstort valdeltagande",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:42:46Z",
+   "last_seen": "2026-11-07T17:51:00Z",
    "weekly": [
     0,
     0,
     5,
-    51
+    57
    ],
-   "this_week": 51,
+   "this_week": 57,
    "velocity": 46,
    "markets": {
     "uk": 1,
@@ -1803,7 +1803,7 @@
    "first_seen": "2026-10-31T14:15:53Z",
    "headline": "Carlos III describe el tráfico de esclavos como un \"capítulo vergonzoso\" de la historia del Reino Unido",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:24Z",
+   "last_seen": "2026-11-07T17:51:55Z",
    "weekly": [
     0,
     0,
@@ -1940,7 +1940,7 @@
    "first_seen": "2026-11-04T16:18:52Z",
    "headline": "Annie Andrews Defeats Darline Graham in South Carolina Senate Race",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:14Z",
+   "last_seen": "2026-11-07T17:51:47Z",
    "weekly": [
     0,
     4,
@@ -1948,15 +1948,16 @@
     37
    ],
    "this_week": 37,
-   "velocity": 13.333333333333334,
+   "velocity": 7.4,
    "markets": {
     "us": 4,
     "uk": 1,
     "fi": 1,
-    "se": 3,
-    "intl": 1
+    "intl": 1,
+    "de": 1,
+    "se": 2
    },
-   "outlets": 5,
+   "outlets": 6,
    "samples": [
     {
      "t": "Annie Andrews Defeats Darline Graham in South Carolina Senate Race",
@@ -1975,18 +1976,18 @@
      "p": "2026-11-04T03:35:20Z"
     },
     {
-     "t": "Trump slår tillbaka efter valnatten",
-     "u": "https://www.dn.se/direkt/2026-11-04/trump-slar-tillbaka-efter-valnatten/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-04T04:02:03Z"
+     "t": "Democrat Annie Andrews flips South Carolina's Senate seat",
+     "u": "https://www.aljazeera.com/news/2026/11/4/democrat-annie-andrews-flips-south-carolinas-senate-seat",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-04T03:39:58Z"
     }
    ],
    "abroad_first": "2026-11-03T14:35:26Z",
    "headline_en": "Annie Andrews Defeats Darline Graham in South Carolina Senate Race",
    "headline_fi": "Asiantuntijalta tyly arvio: Julkinen mielipide kääntyi Trumpia vastaan",
-   "markets_abroad": 4,
+   "markets_abroad": 5,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
@@ -2521,7 +2522,7 @@
    "first_seen": "2026-11-04T16:18:49Z",
    "headline": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:52Z",
+   "last_seen": "2026-11-07T17:51:11Z",
    "weekly": [
     0,
     0,
@@ -2529,7 +2530,7 @@
     37
    ],
    "this_week": 37,
-   "velocity": 6,
+   "velocity": 7.4,
    "markets": {
     "intl": 1,
     "se": 6,
@@ -2730,14 +2731,14 @@
    "first_seen": "2026-11-03T15:44:24Z",
    "headline": "Russian bombing of Ukrainian aid centre kills 24 people: Zelenskyy",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:48Z",
+   "last_seen": "2026-11-07T17:51:06Z",
    "weekly": [
     0,
     0,
     0,
-    32
+    38
    ],
-   "this_week": 32,
+   "this_week": 38,
    "velocity": 6.4,
    "markets": {
     "intl": 1,
@@ -2798,7 +2799,7 @@
    "first_seen": "2026-11-04T16:18:53Z",
    "headline": "Morgenüberblick zu Midterms: Diese fünf Ergebnisse der US-Wahl sind schon klar",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:20Z",
+   "last_seen": "2026-11-07T17:51:51Z",
    "weekly": [
     0,
     0,
@@ -2910,14 +2911,14 @@
    "first_seen": "2026-11-01T14:46:49Z",
    "headline": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:42:46Z",
+   "last_seen": "2026-11-07T17:50:59Z",
    "weekly": [
     0,
     0,
     13,
-    24
+    26
    ],
-   "this_week": 24,
+   "this_week": 26,
    "velocity": 1.8461538461538463,
    "markets": {
     "us": 3,
@@ -2978,31 +2979,24 @@
    "first_seen": "2026-11-01T14:46:55Z",
    "headline": "UK adventurer arrives home after epic 28-year trek across jungles and frozen sea",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:24Z",
+   "last_seen": "2026-11-07T17:51:37Z",
    "weekly": [
     1,
     1,
     9,
-    21
+    22
    ],
-   "this_week": 21,
-   "velocity": 29,
+   "this_week": 22,
+   "velocity": 2.4444444444444446,
    "markets": {
-    "de": 1,
     "intl": 2,
-    "fi": 2,
-    "uk": 5
+    "uk": 3,
+    "de": 1,
+    "us": 2,
+    "fi": 2
    },
-   "outlets": 7,
+   "outlets": 8,
    "samples": [
-    {
-     "t": "Британец завершил пешее путешествие длиной 50 тысяч километров",
-     "u": "https://www.dw.com/ru/britanec-vernulsa-domoj-iz-28letnego-pesego-pohoda-po-cetyrem-kontinentam/a-79832470",
-     "d": "dw.com",
-     "c": "de",
-     "l": "ru",
-     "p": "2026-11-02T16:02:31Z"
-    },
     {
      "t": "UK adventurer arrives home after epic 28-year trek across jungles and frozen sea",
      "u": "https://www.scmp.com/sport/other-sport/article/3373024/uk-adventurer-arrives-home-after-epic-28-year-trek-across-jungles-and-frozen-sea",
@@ -3010,6 +3004,14 @@
      "c": "intl",
      "l": "en",
      "p": "2026-11-02T13:11:09Z"
+    },
+    {
+     "t": "کارل بشبی کی 28 برس اور 50 ہزار کلو میٹر پیدل سفر کے بعد گھر واپسی",
+     "u": "https://www.bbc.com/urdu/articles/c8kgevdd100ko",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "urd",
+     "p": "2026-11-03T02:31:39Z"
     },
     {
      "t": "Video. British adventurer returns home after 28-year journey around the world",
@@ -3022,8 +3024,8 @@
    ],
    "abroad_first": "2026-10-29T16:13:12Z",
    "headline_en": "UK adventurer arrives home after epic 28-year trek across jungles and frozen sea",
-   "headline_fi": "Mies lähti kävelemään Amerikan eteläkärjestä 28 vuotta sitten, saapuu viimein kotiin Englantiin",
-   "markets_abroad": 3,
+   "headline_fi": "Karl Bushby palasi kotiinsa käveltyään 58 000 kilometriä",
+   "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
@@ -3282,7 +3284,7 @@
    "first_seen": "2026-11-04T16:18:48Z",
    "headline": "La Casa Blanca recuerda que Donald Trump \"todavía es presidente\"",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:01Z",
+   "last_seen": "2026-11-07T17:51:39Z",
    "weekly": [
     0,
     1,
@@ -3540,14 +3542,14 @@
    "first_seen": "2026-11-03T15:44:25Z",
    "headline": "US strikes Iran's Qeshm Island ahead of midterm elections",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:40Z",
+   "last_seen": "2026-11-07T17:50:52Z",
    "weekly": [
     0,
     0,
     0,
-    29
+    30
    ],
-   "this_week": 29,
+   "this_week": 30,
    "velocity": 4.8,
    "markets": {
     "intl": 5,
@@ -3802,7 +3804,7 @@
    "first_seen": "2026-11-02T15:12:59Z",
    "headline": "Ukraine, Russia report hacking attacks on emergency alert apps",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:40Z",
+   "last_seen": "2026-11-07T17:52:06Z",
    "weekly": [
     0,
     0,
@@ -3872,22 +3874,22 @@
    "first_seen": "2026-11-04T16:18:55Z",
    "headline": "US to cut nearly $4 billion in Israel military aid, Trump says",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:41Z",
+   "last_seen": "2026-11-07T17:50:54Z",
    "weekly": [
     0,
     0,
     0,
-    26
+    32
    ],
-   "this_week": 26,
-   "velocity": 4.2,
+   "this_week": 32,
+   "velocity": 6.4,
    "markets": {
-    "de": 3,
-    "uk": 4,
-    "fi": 1,
-    "us": 2
+    "de": 5,
+    "uk": 3,
+    "se": 1,
+    "fi": 1
    },
-   "outlets": 7,
+   "outlets": 8,
    "samples": [
     {
      "t": "US to cut nearly $4 billion in Israel military aid, Trump says",
@@ -3906,12 +3908,12 @@
      "p": "2026-11-03T15:47:00Z"
     },
     {
-     "t": "Trump says US will stop funding Israel at the end of the year",
-     "u": "https://www.independent.co.uk/news/world/middle-east/trump-stops-israel-funding-us-b3078334.html",
-     "d": "independent.co.uk",
-     "c": "uk",
+     "t": "US midterms: Americans vote in elections seen as referendum on Trump",
+     "u": "https://www.dw.com/en/us-midterms-americans-vote-in-elections-seen-as-referendum-on-trump/live-79829440",
+     "d": "dw.com",
+     "c": "de",
      "l": "en",
-     "p": "2026-11-03T14:01:44Z"
+     "p": "2026-11-03T10:16:26Z"
     }
    ],
    "abroad_first": "2026-11-03T10:16:26Z",
@@ -4199,7 +4201,7 @@
    "first_seen": "2026-11-04T16:19:00Z",
    "headline": "Midterm elections 2026 live updates: Economy, inflation and voter concerns",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:23Z",
+   "last_seen": "2026-11-07T17:51:54Z",
    "weekly": [
     0,
     1,
@@ -4207,7 +4209,7 @@
     19
    ],
    "this_week": 19,
-   "velocity": 9.5,
+   "velocity": 19,
    "markets": {
     "us": 2,
     "de": 5,
@@ -4550,7 +4552,7 @@
    "first_seen": "2026-11-03T15:44:33Z",
    "headline": "Marvell to buy Nvidia-backed Lumentum in a $115bn all-stock deal",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:35Z",
+   "last_seen": "2026-11-07T17:52:02Z",
    "weekly": [
     0,
     0,
@@ -4619,7 +4621,7 @@
    "first_seen": "2026-11-04T16:18:56Z",
    "headline": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:12Z",
+   "last_seen": "2026-11-07T17:51:46Z",
    "weekly": [
     0,
     11,
@@ -4627,14 +4629,14 @@
     22
    ],
    "this_week": 22,
-   "velocity": 6.333333333333333,
+   "velocity": 22,
    "markets": {
-    "uk": 1,
-    "us": 7,
-    "se": 1,
-    "de": 1
+    "uk": 3,
+    "us": 4,
+    "de": 2,
+    "se": 1
    },
-   "outlets": 5,
+   "outlets": 7,
    "samples": [
     {
      "t": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
@@ -4653,27 +4655,32 @@
      "p": "2026-11-04T04:29:50Z"
     },
     {
-     "t": "Demokraterna bryter 94-årig svit i Kansas",
-     "u": "https://www.dn.se/direkt/2026-11-04/demokraterna-bryter-94-arig-svit-i-kansas/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-04T04:20:19Z"
+     "t": "US-Senat: Talarico mit historischem Erfolg in Texas, Demokraten holen Senat",
+     "u": "https://www.zeit.de/politik/ausland/2026-11/senatswahl-virginia-mark-warner-bert-mizusawa",
+     "d": "zeit.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-04T07:09:14Z"
     }
    ],
    "abroad_first": "2026-11-03T00:00:00Z",
    "headline_en": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
    "headline_fi": null,
    "markets_abroad": 4,
-   "subjects": [],
-   "relevant": false
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-07T20:30:49Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3411": {
    "id": "3411",
    "first_seen": "2026-11-04T16:18:53Z",
    "headline": "Key moments so far in the US midterms",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:04Z",
+   "last_seen": "2026-11-07T17:51:42Z",
    "weekly": [
     0,
     0,
@@ -4681,10 +4688,10 @@
     22
    ],
    "this_week": 22,
-   "velocity": 3.6,
+   "velocity": 4.4,
    "markets": {
-    "uk": 3,
-    "de": 6,
+    "uk": 4,
+    "de": 5,
     "intl": 1
    },
    "outlets": 7,
@@ -4698,12 +4705,12 @@
      "p": "2026-11-04T04:41:12Z"
     },
     {
-     "t": "Georgia: Democrat Keisha Lance Bottoms becomes first Black, female governor in US",
-     "u": "https://www.theguardian.com/us-news/2026/nov/03/keisha-lance-bottoms-georgia-governor-midterm-election",
-     "d": "theguardian.com",
+     "t": "Tarihi huɗu da aka kafa a zaɓen tsakiyar wadin Amurka - BBC News Hausa",
+     "u": "https://www.bbc.com/hausa/articles/cm5yn7gj27x4o",
+     "d": "bbc.com",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-04T02:27:40Z"
+     "p": "2026-11-05T03:56:29Z"
     },
     {
      "t": "Keisha Lance Bottoms makes history as first Black woman elected Georgia governor",
@@ -4726,14 +4733,14 @@
    "first_seen": "2026-11-03T15:44:34Z",
    "headline": "Half-witted at best, a people-pleaser at worst: step forward, Chris Philp",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:18Z",
+   "last_seen": "2026-11-07T17:51:26Z",
    "weekly": [
     1,
     3,
     2,
-    19
+    21
    ],
-   "this_week": 19,
+   "this_week": 21,
    "velocity": 9.5,
    "markets": {
     "uk": 8,
@@ -5084,30 +5091,23 @@
    "first_seen": "2026-11-04T16:18:47Z",
    "headline": "Champions League comebacks: What are the other best after Manchester United beat Roma",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:18Z",
+   "last_seen": "2026-11-07T17:51:33Z",
    "weekly": [
     0,
     0,
     0,
-    18
+    19
    ],
-   "this_week": 18,
-   "velocity": 3.4,
+   "this_week": 19,
+   "velocity": 3.8,
    "markets": {
-    "de": 3,
     "uk": 5,
-    "intl": 2
+    "de": 3,
+    "intl": 1,
+    "us": 1
    },
-   "outlets": 7,
+   "outlets": 8,
    "samples": [
-    {
-     "t": "Champions League: Manchester United sendet ein Lebenszeichen, PSG im Torrausch",
-     "u": "https://www.welt.de/sport/fussball/article6aea5eee9664b64e37ecc316/champions-league-manchester-united-sendet-ein-lebenszeichen-psg-im-torrausch.html",
-     "d": "welt.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-03T22:50:50Z"
-    },
     {
      "t": "Champions League comebacks: What are the other best after Manchester United beat Roma",
      "u": "https://www.bbc.co.uk/sport/football/articles/c64g1dg0d84ko",
@@ -5123,12 +5123,20 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-03T23:49:09Z"
+    },
+    {
+     "t": "Champions League: Manchester United sendet ein Lebenszeichen, PSG im Torrausch",
+     "u": "https://www.welt.de/sport/fussball/article6aea5eee9664b64e37ecc316/champions-league-manchester-united-sendet-ein-lebenszeichen-psg-im-torrausch.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-03T22:50:50Z"
     }
    ],
    "abroad_first": "2026-11-03T22:10:39Z",
    "headline_en": "Champions League comebacks: What are the other best after Manchester United beat Roma",
    "headline_fi": null,
-   "markets_abroad": 3,
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   },
@@ -5263,7 +5271,7 @@
    "first_seen": "2026-11-02T15:13:15Z",
    "headline": "Pojke skadad i motocrossolycka - får intensivvård",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:45Z",
+   "last_seen": "2026-11-07T17:52:10Z",
    "weekly": [
     0,
     0,
@@ -5331,14 +5339,14 @@
    "first_seen": "2026-11-02T15:13:04Z",
    "headline": "German police investigating after needles found in Halloween candy",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:07Z",
+   "last_seen": "2026-11-07T17:51:36Z",
    "weekly": [
     0,
     0,
     0,
-    21
+    22
    ],
-   "this_week": 21,
+   "this_week": 22,
    "velocity": 4.2,
    "markets": {
     "de": 9,
@@ -5506,14 +5514,14 @@
    "first_seen": "2026-11-02T15:13:04Z",
    "headline": "Iran says talks under way on two day plan to reopen Strait of Hormuz",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:42:44Z",
+   "last_seen": "2026-11-07T17:50:57Z",
    "weekly": [
-    4,
+    5,
     11,
     9,
-    19
+    26
    ],
-   "this_week": 19,
+   "this_week": 26,
    "velocity": 1.7777777777777777,
    "markets": {
     "intl": 3,
@@ -6274,14 +6282,14 @@
    "headline_en": "Vance eyes 2028 reset, as Republicans mull pivot after US midterms drubbing",
    "headline_fi": "Pääkirjoitus: Trumpin paikasta taistellaan jo - nuoret presidenttiehdokkaat astuvat esiin",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:42:42Z",
+   "last_seen": "2026-11-07T17:50:55Z",
    "weekly": [
     0,
     1,
     1,
-    156
+    173
    ],
-   "this_week": 156,
+   "this_week": 173,
    "velocity": 155,
    "markets": {
     "intl": 3,
@@ -6344,7 +6352,7 @@
    "headline_en": null,
    "headline_fi": "Norjassa oikeus vapautti Marius Borg Høibyn kotiarestista",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:31Z",
+   "last_seen": "2026-11-07T17:51:59Z",
    "weekly": [
     0,
     0,
@@ -6409,14 +6417,14 @@
    "headline_en": "Germany news: Commerce chief hopes for more stable US trade",
    "headline_fi": "Baijerin varapääministeri löydettiin kuolleena hotellihuoneesta",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:05Z",
+   "last_seen": "2026-11-07T17:51:28Z",
    "weekly": [
     0,
     0,
     0,
-    24
+    26
    ],
-   "this_week": 24,
+   "this_week": 26,
    "velocity": 3.8,
    "markets": {
     "de": 9,
@@ -6463,14 +6471,14 @@
    "headline_en": "Family and teammates mourn Tenerife striker De Miguel at funeral",
    "headline_fi": "Elämäni vaikeimpia päiviä\" - pelaajan kuolemaan johtanut tilanne sai karut jälkiseuraukset",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:03Z",
+   "last_seen": "2026-11-07T17:51:21Z",
    "weekly": [
     0,
     0,
     0,
-    37
+    39
    ],
-   "this_week": 37,
+   "this_week": 39,
    "velocity": 7.4,
    "markets": {
     "intl": 2,
@@ -6514,60 +6522,72 @@
    "id": "3405",
    "first_seen": "2026-11-04T16:18:51Z",
    "headline": "Historiallinen käänne: Texas käänsi Trumpille selkänsä",
-   "headline_en": "FTSE 100 Live: Stocks to slide after tech bruised in Asia; oil stabilises",
-   "headline_fi": null,
+   "headline_en": "AI stocks plunge after election, driving down US markets",
+   "headline_fi": "Historiallinen käänne: Texas käänsi Trumpille selkänsä",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:42:41Z",
+   "last_seen": "2026-11-07T17:50:55Z",
    "weekly": [
-    48,
+    49,
     37,
-    25,
-    230
+    27,
+    372
    ],
-   "this_week": 230,
-   "velocity": 1.6666666666666667,
+   "this_week": 372,
+   "velocity": 13.777777777777779,
    "markets": {
+    "fi": 2,
     "de": 1,
     "uk": 3,
-    "us": 1
+    "intl": 2,
+    "us": 2
    },
-   "outlets": 3,
+   "outlets": 9,
    "samples": [
     {
-     "t": "Dow Jones, S&P 500, Nasdaq: Wall Street erholt sich - steht der nächste Absturz bevor?",
-     "u": "https://www.handelsblatt.com/finanzen/maerkte/marktberichte/dow-jones-sp-500-nasdaq-wall-street-erholt-sich-steht-der-naechste-absturz-bevor/100266673.html",
-     "d": "handelsblatt.com",
+     "t": "US-Senat: Talarico mit historischem Erfolg in Texas, Demokraten holen Senat",
+     "u": "https://www.zeit.de/politik/ausland/2026-11/senatswahl-virginia-mark-warner-bert-mizusawa",
+     "d": "zeit.de",
      "c": "de",
      "l": "de",
-     "p": "2026-11-02T14:58:49Z"
+     "p": "2026-11-04T07:09:14Z"
     },
     {
-     "t": "FTSE 100 Live: Stocks to slide after tech bruised in Asia; oil stabilises",
-     "u": "https://www.cityam.com/ftse-100-live-stocks-to-slide-after-tech-bruised-in-asia-oil-stabilises/",
-     "d": "cityam.com",
+     "t": "\"Terremoto electoral\" en Texas: quién es James Talarico, el primer demócrata que gana un lugar en el Senado desde 1988",
+     "u": "https://www.bbc.com/mundo/articles/cwg7xk8ljmdyo",
+     "d": "bbc.com",
      "c": "uk",
-     "l": "en",
-     "p": "2026-11-03T06:32:58Z"
+     "l": "es",
+     "p": "2026-11-04T04:19:23Z"
     },
     {
-     "t": "Global AI sell-off eases after bruising end of month performance",
-     "u": "https://www.cityam.com/global-ai-sell-off-eases-after-bruising-end-of-month-performance/",
-     "d": "cityam.com",
-     "c": "uk",
+     "t": "AI stocks plunge after election, driving down US markets",
+     "u": "https://www.aljazeera.com/economy/2026/11/5/ai-stocks-plunge-after-election-driving-down-us-markets",
+     "d": "aljazeera.com",
+     "c": "intl",
      "l": "en",
-     "p": "2026-11-02T15:53:13Z"
+     "p": "2026-11-05T17:56:17Z"
     }
    ],
    "abroad_first": "2026-11-02T00:00:00Z",
-   "markets_abroad": 3,
+   "markets_abroad": 4,
    "subjects": [
+    "business",
     "tech",
-    "business"
+    "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-07T14:15:34Z",
+   "checked": "2026-11-07T20:30:49Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-03T18:46:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012386565.html",
+    "t": "Trumpin kohtalonhetket? IS raportoi välivaaleista läpi yön - studio perkaa tuloksia kello 7 alkaen",
+    "s": null
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-07T20:30:49Z"
   },
   "3326": {
    "id": "3326",
@@ -6576,14 +6596,14 @@
    "headline_en": "Jack Campbell: Detroit Lions star continues to recover in hospital after neck injury",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:28Z",
+   "last_seen": "2026-11-07T17:51:35Z",
    "weekly": [
     0,
     0,
     0,
-    18
+    19
    ],
-   "this_week": 18,
+   "this_week": 19,
    "velocity": 3.6,
    "markets": {
     "uk": 4,
@@ -6629,7 +6649,7 @@
    "headline_en": "Fenerbahce vs Liverpool: UEFA Champions League stats & head-to-head",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:08Z",
+   "last_seen": "2026-11-07T17:51:44Z",
    "weekly": [
     0,
     0,
@@ -6685,14 +6705,14 @@
    "headline_en": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:51Z",
+   "last_seen": "2026-11-07T17:51:10Z",
    "weekly": [
     0,
     0,
     0,
-    19
+    20
    ],
-   "this_week": 19,
+   "this_week": 20,
    "velocity": 3.4,
    "markets": {
     "us": 1,
@@ -6740,14 +6760,14 @@
    "headline_en": "Andreas Almgren wins in New York City Marathon debut; Sheila Chepkirui reclaims title",
    "headline_fi": "Ruotsalaistähdeltä lähes käsittämätön uroteko",
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:43:33Z",
+   "last_seen": "2026-11-07T17:51:25Z",
    "weekly": [
     3,
     0,
     1,
-    24
+    25
    ],
-   "this_week": 24,
+   "this_week": 25,
    "velocity": 24,
    "markets": {
     "se": 5,
@@ -6961,14 +6981,14 @@
    "headline_en": "Rory McIlroy welcomes golf 'reset' after LIV Golf 'false economy'",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:42:56Z",
+   "last_seen": "2026-11-07T17:51:17Z",
    "weekly": [
     6,
     9,
     5,
-    25
+    30
    ],
-   "this_week": 25,
+   "this_week": 30,
    "velocity": 1.75,
    "markets": {
     "uk": 4,
@@ -7086,7 +7106,7 @@
    "headline_en": "British health worker tests positive for Ebola in Democratic Republic of Congo",
    "headline_fi": "Britannian kansalaisella todettu ebola",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:49Z",
+   "last_seen": "2026-11-07T17:51:09Z",
    "weekly": [
     0,
     0,
@@ -7205,56 +7225,71 @@
   "3427": {
    "id": "3427",
    "first_seen": "2026-11-04T16:19:03Z",
-   "headline": "تهديدات بوجود قنابل على متن سبع طائرات وسفينة متجهة إلى إسرائيل",
-   "headline_en": "Bomb Threats Disrupt Several Flights Across Europe",
+   "headline": "Hoax or bomb threats? What we know about flight disruptions across Europe",
+   "headline_en": "Hoax or bomb threats? What we know about flight disruptions across Europe",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:40Z",
+   "last_seen": "2026-11-07T17:50:53Z",
    "weekly": [
     0,
     0,
     0,
-    26
+    57
    ],
-   "this_week": 26,
-   "velocity": 2.6,
+   "this_week": 57,
+   "velocity": 11.4,
    "markets": {
-    "de": 5,
-    "us": 1,
-    "uk": 3,
-    "intl": 1
+    "intl": 4,
+    "uk": 2,
+    "de": 1,
+    "us": 2,
+    "es": 1
    },
    "outlets": 6,
    "samples": [
     {
-     "t": "تهديدات بوجود قنابل على متن سبع طائرات وسفينة متجهة إلى إسرائيل",
-     "u": "https://www.dw.com/ar/%D8%AA%D9%87%D8%AF%D9%8A%D8%AF%D8%A7%D8%AA-%D8%A8%D9%88%D8%AC%D9%88%D8%AF-%D9%82%D9%86%D8%A7%D8%A8%D9%84-%D8%B9%D9%84%D9%89-%D9%85%D8%AA%D9%86-%D8%B3%D8%A8%D8%B9-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA-%D9%88%D8%B3%D9%81%D9%8A%D9%86%D8%A9-%D9%85%D8%AA%D8%AC%D9%87%D8%A9-%D8%A5%D9%84%D9%89-%D8%A5%D8%B3%D8%B1%D8%A7%D8%A6%D9%8A%D9%84-%D8%AA%D8%B1%D8%A8%D9%83-%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D8%A7/a-79848122",
-     "d": "dw.com",
-     "c": "de",
-     "l": "ar",
-     "p": "2026-11-03T22:07:39Z"
-    },
-    {
-     "t": "تهدیدهای بمب‌گذاری چندین پرواز را در اروپا مختل کرد",
-     "u": "https://www.dw.com/fa-af/%DA%86%D9%86%D8%AF%DB%8C%D9%86-%D9%BE%D8%B1%D9%88%D8%A7%D8%B2-%D8%A7%D8%B1%D9%88%D9%BE%D8%A7%DB%8C%DB%8C-%D9%87%D8%AF%D9%81-%D8%AA%D9%87%D8%AF%DB%8C%D8%AF-%D8%A8%D9%87-%D8%A8%D9%85%D8%A8%DA%AF%D8%B0%D8%A7%D8%B1%DB%8C-%D9%82%D8%B1%D8%A7%D8%B1-%DA%AF%D8%B1%D9%81%D8%AA%D9%86%D8%AF/a-79843823",
-     "d": "dw.com",
-     "c": "de",
-     "l": "fa",
-     "p": "2026-11-03T14:59:02Z"
-    },
-    {
-     "t": "Bomb Threats Disrupt Several Flights Across Europe",
-     "u": "https://www.nytimes.com/2026/11/03/world/europe/bomb-threats-europe-flights-planes.html",
-     "d": "nytimes.com",
-     "c": "us",
+     "t": "Hoax or bomb threats? What we know about flight disruptions across Europe",
+     "u": "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe",
+     "d": "aljazeera.com",
+     "c": "intl",
      "l": "en",
-     "p": "2026-11-03T16:22:42Z"
+     "p": "2026-11-06T11:18:02Z"
+    },
+    {
+     "t": "欧洲航空业虚假炸弹威胁：谁是幕后黑手？",
+     "u": "https://www.bbc.com/zhongwen/articles/c60qkk15l8d0o/simp",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "zh",
+     "p": "2026-11-06T11:11:52Z"
+    },
+    {
+     "t": "Who could be behind hoax bomb threats to European air travel?",
+     "u": "https://www.bbc.com/news/articles/cx8dzzjg3g9zo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-05T19:58:40Z"
     }
    ],
    "abroad_first": "2026-11-03T14:59:02Z",
-   "markets_abroad": 4,
-   "subjects": [],
-   "relevant": false
+   "markets_abroad": 5,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-07T20:30:49Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-05T16:00:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012392005.html",
+    "t": "Raju pommiuhkausten sarja Euroopassa - tämä tiedetään nyt",
+    "s": 0.851
+   },
+   "fi_count": 5,
+   "arrived_at": "2026-11-07T20:30:49Z"
   },
   "3454": {
    "id": "3454",
@@ -7263,14 +7298,14 @@
    "headline_en": "Video: Colom Makes Confident Speech as Vote Count Continues In Mississippi",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-07T05:42:57Z",
+   "last_seen": "2026-11-07T17:51:18Z",
    "weekly": [
     0,
     0,
     4,
-    18
+    24
    ],
-   "this_week": 18,
+   "this_week": 24,
    "velocity": 3,
    "markets": {
     "us": 5,
@@ -7321,14 +7356,14 @@
    "headline_en": "Democratic Socialist Mayors Will Now Run LA, New York, and D.C. After Nithya Raman’s Win",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:51Z",
+   "last_seen": "2026-11-07T17:51:10Z",
    "weekly": [
     0,
     0,
     0,
-    17
+    22
    ],
-   "this_week": 17,
+   "this_week": 22,
    "velocity": 3.4,
    "markets": {
     "se": 3,
@@ -7375,7 +7410,7 @@
    "headline_en": "Replacing Lamar Jackson: Five waiver-wire quarterback options and a priority trade target",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-07T05:43:10Z",
+   "last_seen": "2026-11-07T17:51:45Z",
    "weekly": [
     0,
     0,
@@ -7428,14 +7463,14 @@
    "headline_en": "Three executed across the US on same day – for the second time this year",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:48Z",
+   "last_seen": "2026-11-07T17:51:05Z",
    "weekly": [
     0,
     0,
     0,
-    23
+    29
    ],
-   "this_week": 23,
+   "this_week": 29,
    "velocity": 4.6,
    "markets": {
     "uk": 5,
@@ -7481,16 +7516,16 @@
    "headline": "Merz i Zełenski w Berlinie: Europa musi mieć głos w sprawie pokoju",
    "headline_en": "Ukraine war: Germany's Merz doubts Russia is serious about a truce",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-07T05:43:13Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-07T17:51:30Z",
    "weekly": [
     0,
     0,
-    0,
-    14
+    1,
+    17
    ],
-   "this_week": 14,
-   "velocity": 2.4,
+   "this_week": 17,
+   "velocity": 17,
    "markets": {
     "de": 8,
     "intl": 2
@@ -7591,18 +7626,18 @@
   "3533": {
    "id": "3533",
    "first_seen": "2026-11-07T05:42:58Z",
-   "headline": "Football Daily - Ronaldo bows out for Portugal & why is the PL getting younger? - BBC Sounds",
+   "headline": "Cristiano Ronaldo: Aller Pathos kann nicht verbergen, was zu seinem Ende führte",
    "headline_en": "Football Daily - Ronaldo bows out for Portugal & why is the PL getting younger? - BBC Sounds",
    "headline_fi": "Ronaldon maajoukkueuran päätös lopettaa merkittävän aikakauden - riidat varjostivat maajoukkueuran loppua",
    "state": "emergence",
-   "last_seen": "2026-11-07T05:42:58Z",
+   "last_seen": "2026-11-07T17:51:19Z",
    "weekly": [
     0,
     0,
     0,
-    14
+    21
    ],
-   "this_week": 14,
+   "this_week": 21,
    "velocity": 2.8,
    "markets": {
     "uk": 5,
@@ -7639,6 +7674,483 @@
     }
    ],
    "abroad_first": "2026-11-05T11:22:02Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3529": {
+   "id": "3529",
+   "first_seen": "2026-11-07T05:42:43Z",
+   "headline": "Live Updates: Trump Names Stephen Miller His Chief of Staff, Replacing Susie Wiles",
+   "headline_en": "BBC World Service - Global News Podcast, Trump appoints new chief of staff after midterm defeat",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-07T17:50:50Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    58
+   ],
+   "this_week": 58,
+   "velocity": 1.8,
+   "markets": {
+    "de": 1,
+    "uk": 7,
+    "us": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Warum Trump Miller als neuen Stabschef will",
+     "u": "https://www.faz.net/aktuell/politik/usa-unter-trump/warum-trump-miller-als-neuen-stabschef-will-accg-201660644.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-07T04:04:46Z"
+    },
+    {
+     "t": "BBC World Service - Global News Podcast, Trump appoints new chief of staff after midterm defeat",
+     "u": "https://www.bbc.co.uk/programmes/p0plrs2j",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-07T00:00:00Z"
+    },
+    {
+     "t": "Stephen Miller to Be Trump's New Chief of Staff, Replacing Susie Wiles",
+     "u": "https://time.com/article/2026/11/06/stephen-miller-tapped-as-trump-s-new-chief-of-staff-replacing-susie-wiles/",
+     "d": "time.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-06T19:27:22Z"
+    }
+   ],
+   "abroad_first": "2026-11-06T19:27:22Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-07T20:30:49Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-06T19:49:41Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20255620",
+    "t": "Trumpin luottomies Miller nousee kansliapäälliköksi",
+    "s": 0.896
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-07T20:30:49Z"
+  },
+  "3495": {
+   "id": "3495",
+   "first_seen": "2026-11-06T17:15:44Z",
+   "headline": "Trump teases 'big agreement' after meeting Putin envoy but not Ukrainian officials",
+   "headline_en": "Ukrainian President Zelenskyy presses Western allies for clear postwar security guarantees",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-07T17:51:07Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    22
+   ],
+   "this_week": 22,
+   "velocity": 1.6,
+   "markets": {
+    "uk": 3,
+    "de": 2,
+    "intl": 1,
+    "us": 1,
+    "se": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Ukrainian President Zelenskyy presses Western allies for clear postwar security guarantees",
+     "u": "https://www.independent.co.uk/news/world/europe/russia-donald-trump-united-states-kyiv-democrats-b3080389.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T10:58:30Z"
+    },
+    {
+     "t": "Trump teases 'big agreement' after meeting Putin envoy but not Ukrainian officials",
+     "u": "https://www.independent.co.uk/news/world/americas/us-politics/trump-big-beautiful-agreement-putin-russia-ukraine-b3080217.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T04:14:58Z"
+    },
+    {
+     "t": "Ukraine: Nach Treffen mit Dmitrijew - Trump stellt \"großes Abkommen\" in Aussicht",
+     "u": "https://www.handelsblatt.com/politik/international/ukraine-nach-treffen-mit-dmitrijew-trump-stellt-grosses-abkommen-in-aussicht/27982126.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-06T03:04:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T23:26:39Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-07T20:30:49Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3550": {
+   "id": "3550",
+   "first_seen": "2026-11-07T17:51:01Z",
+   "headline": "U.S. adds 165,000 jobs in October, exceeding forecasts",
+   "headline_en": "U.S. adds 165,000 jobs in October, exceeding forecasts",
+   "headline_fi": "PÖRSSIT: Wall Street toipuu romahduksesta - Sirujätit kovassa nousussa",
+   "state": "emergence",
+   "last_seen": "2026-11-07T17:51:01Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    22
+   ],
+   "this_week": 22,
+   "velocity": 4.4,
+   "markets": {
+    "intl": 5,
+    "fi": 1,
+    "uk": 1,
+    "us": 2,
+    "de": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "U.S. adds 165,000 jobs in October, exceeding forecasts",
+     "u": "https://www.hellenicshippingnews.com/u-s-adds-165000-jobs-in-october-exceeding-forecasts/",
+     "d": "hellenicshippingnews.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-06T22:02:49Z"
+    },
+    {
+     "t": "ＮＹ外為市場＝ドル急伸、雇用統計で12月利上げ観測強まる",
+     "u": "https://www.reuters.com/jp/opinion/QVH26Q623VPA5LEOOKLGKYXVRM-2026-11-06/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-06T20:31:47Z"
+    },
+    {
+     "t": "VIEW Strong October jobs report sends yields higher",
+     "u": "https://www.reuters.com/business/view-strong-october-jobs-report-sends-yields-higher-2026-11-06/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-06T13:48:58Z"
+    }
+   ],
+   "abroad_first": "2026-11-06T13:36:34Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "business",
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-07T20:30:49Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-06T14:40:54Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/d6622c97-a3a9-475c-94f5-cf35440ad8cb",
+    "t": "PÖRSSIT: Wall Street toipuu romahduksesta - Sirujätit kovassa nousussa",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-07T20:30:49Z"
+  },
+  "3548": {
+   "id": "3548",
+   "first_seen": "2026-11-07T17:51:00Z",
+   "headline": "Elon Musk: Tesla ajaa alas Cybertruckin valmistuksen",
+   "headline_en": "Tesla Is Ending Production of Its Cybertruck and Refocusing on the Cybercab",
+   "headline_fi": "Elon Musk: Tesla ajaa alas Cybertruckin valmistuksen",
+   "state": "emergence",
+   "last_seen": "2026-11-07T17:51:00Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    19
+   ],
+   "this_week": 19,
+   "velocity": 3.8,
+   "markets": {
+    "fi": 1,
+    "us": 3,
+    "de": 3,
+    "uk": 1,
+    "intl": 2
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "Tesla Is Ending Production of Its Cybertruck and Refocusing on the Cybercab",
+     "u": "https://www.nytimes.com/2026/11/06/business/tesla-cybertruck-production.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-06T17:13:45Z"
+    },
+    {
+     "t": "Tesla gibt den Cybertruck auf",
+     "u": "https://www.faz.net/aktuell/wirtschaft/unternehmen/tesla-gibt-den-cybertruck-auf-201659054.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-06T14:57:46Z"
+    },
+    {
+     "t": "Tesla’s Cybertruck heads for an exit after years of hype and division",
+     "u": "https://www.independent.co.uk/news/elon-musk-tesla-cybertruck-new-york-texas-b3080812.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T20:40:59Z"
+    }
+   ],
+   "abroad_first": "2026-11-06T12:28:12Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-07T20:30:49Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-06T18:36:43Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/804dd25c-8196-4a53-b768-fd5dde76ee55",
+    "t": "Elon Musk: Tesla ajaa alas Cybertruckin valmistuksen",
+    "s": null
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-07T20:30:49Z"
+  },
+  "3544": {
+   "id": "3544",
+   "first_seen": "2026-11-07T17:50:58Z",
+   "headline": "Bundespräsidentenwahl: Aigner soll Bundespräsidentin werden - CDU einig",
+   "headline_en": null,
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-07T17:50:58Z",
+   "weekly": [
+    0,
+    22,
+    25,
+    42
+   ],
+   "this_week": 42,
+   "velocity": 1.68,
+   "markets": {
+    "de": 10
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Bundespräsidentenwahl: Aigner soll Bundespräsidentin werden - CDU einig",
+     "u": "https://www.handelsblatt.com/politik/deutschland/bundespraesidentenwahl-aigner-soll-bundespraesidentin-werden-cdu-einig/100267987.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-06T16:57:30Z"
+    },
+    {
+     "t": "Bundespräsidentenwahl: Ilse Aigner ist die ungekürte Kandidatin - Kritik an Merz",
+     "u": "https://www.wiwo.de/politik/deutschland/bundespraesidentenwahl-ilse-aigner-ist-die-ungekuerte-kandidatin-kritik-an-merz/100268049.html",
+     "d": "wiwo.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-07T03:45:04Z"
+    },
+    {
+     "t": "Ilse Aigner: CSU bekommt das Bundespräsidentenamt",
+     "u": "https://www.faz.net/aktuell/politik/inland/ilse-aigner-csu-bekommt-das-bundespraesidentenamt-201659945.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-06T15:49:18Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T16:40:00Z",
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
+  },
+  "3536": {
+   "id": "3536",
+   "first_seen": "2026-11-07T17:50:50Z",
+   "headline": "Could Russell Brand go to prison if convicted – and how long would he be jailed for?",
+   "headline_en": "Could Russell Brand go to prison if convicted – and how long would he be jailed for?",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-07T17:50:50Z",
+   "weekly": [
+    20,
+    13,
+    17,
+    39
+   ],
+   "this_week": 39,
+   "velocity": 2.2941176470588234,
+   "markets": {
+    "uk": 8,
+    "se": 1,
+    "intl": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Could Russell Brand go to prison if convicted – and how long would he be jailed for?",
+     "u": "https://www.independent.co.uk/news/uk/crime/russell-brand-prison-sentence-trial-b3079020.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-04T12:40:56Z"
+    },
+    {
+     "t": "Russell Brands advokat: \"Ingen skrek eller opponerade sig",
+     "u": "https://www.dn.se/varlden/russell-brands-advokat-ingen-skrek-eller-opponerade-sig/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-02T17:04:01Z"
+    },
+    {
+     "t": "Jury in Russel Brand rape and sexual assault trial retires to consider verdicts",
+     "u": "https://www.theguardian.com/uk-news/2026/nov/03/jury-russel-brand-rape-sexual-assault-trial-retires-consider-verdicts",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-03T16:19:33Z"
+    }
+   ],
+   "abroad_first": "2026-11-02T17:04:01Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3540": {
+   "id": "3540",
+   "first_seen": "2026-11-07T17:50:53Z",
+   "headline": "Kristersson: SD:s besked är välkommet",
+   "headline_en": null,
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-07T17:50:53Z",
+   "weekly": [
+    0,
+    2,
+    9,
+    35
+   ],
+   "this_week": 35,
+   "velocity": 3.888888888888889,
+   "markets": {
+    "se": 9,
+    "fi": 1
+   },
+   "outlets": 3,
+   "samples": [
+    {
+     "t": "Kristersson: SD:s besked är välkommet",
+     "u": "https://www.dn.se/direkt/2026-11-06/kristersson-sds-besked-ar-valkommet/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-06T11:53:05Z"
+    },
+    {
+     "t": "Insändare. Noterat av DN:s läsare den 6 november",
+     "u": "https://www.dn.se/insandare/noterat-av-dns-lasare-den-6-november-3/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-06T17:23:29Z"
+    },
+    {
+     "t": "David Druid fortsätter paus i radio",
+     "u": "https://www.dn.se/direkt/2026-11-06/david-druid-fortsatter-paus-i-radio/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-06T13:04:48Z"
+    }
+   ],
+   "abroad_first": "2026-11-06T11:29:36Z",
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
+  },
+  "3387": {
+   "id": "3387",
+   "first_seen": "2026-11-03T15:44:49Z",
+   "headline": "Vägrade betala - körde på anställd",
+   "headline_en": "Wizz Air flight from London in emergency landing after bomb threat",
+   "headline_fi": "Pommiuhka keskeytti Wizz Airin lennon",
+   "state": "emergence",
+   "last_seen": "2026-11-07T17:51:24Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    15
+   ],
+   "this_week": 15,
+   "velocity": 2.6,
+   "markets": {
+    "se": 2,
+    "de": 4,
+    "fi": 2,
+    "uk": 1,
+    "intl": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Vägrade betala - körde på anställd",
+     "u": "https://www.dn.se/direkt/2026-11-02/vagrade-betala-korde-pa-anstalld/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-02T16:43:42Z"
+    },
+    {
+     "t": "Flugzeug muss wegen Bombendrohung in Budapest notlanden",
+     "u": "https://www.spiegel.de/ausland/ungarn-flugzeug-muss-wegen-bombendrohung-in-budapest-notlanden-a-c17974e2-af3e-419e-a630-e8f4cde67c21",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-02T20:13:00Z"
+    },
+    {
+     "t": "Bombhot mot Londonplan",
+     "u": "https://www.dn.se/direkt/2026-11-02/bombhot-mot-londonplan/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-02T15:14:27Z"
+    }
+   ],
+   "abroad_first": "2026-11-02T14:01:49Z",
    "markets_abroad": 4,
    "subjects": [],
    "relevant": false
