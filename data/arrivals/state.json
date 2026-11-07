@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-07T04:45:37Z",
+  "last_run": "2026-11-07T08:00:59Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 38,
+  "similar_left": 44,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -500,14 +500,14 @@
    "first_seen": "2026-10-31T14:16:01Z",
    "headline": "Suomen jääkiekkoliitto kokoaa boikottirintamaa Venäjää vastaan",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:10Z",
+   "last_seen": "2026-11-07T05:43:11Z",
    "weekly": [
     0,
     0,
-    33,
-    129
+    42,
+    120
    ],
-   "this_week": 129,
+   "this_week": 120,
    "velocity": 3.5806451612903225,
    "markets": {
     "fi": 8,
@@ -615,14 +615,14 @@
    "first_seen": "2026-11-01T14:46:46Z",
    "headline": "Michigan'da Demokrat siyasetçi, Cumhuriyetçi adaya desteğini açıkladı",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:15:56Z",
+   "last_seen": "2026-11-07T05:42:45Z",
    "weekly": [
     4,
-    9,
-    30,
-    112
+    11,
+    38,
+    103
    ],
-   "this_week": 112,
+   "this_week": 103,
    "velocity": 3.88,
    "markets": {
     "uk": 4,
@@ -803,14 +803,14 @@
    "first_seen": "2026-11-03T15:44:22Z",
    "headline": "Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:01Z",
+   "last_seen": "2026-11-07T05:42:44Z",
    "weekly": [
-    64,
-    5,
+    66,
     3,
-    105
+    3,
+    106
    ],
-   "this_week": 105,
+   "this_week": 106,
    "velocity": 35,
    "markets": {
     "uk": 6,
@@ -1010,7 +1010,7 @@
    "first_seen": "2026-11-02T15:12:55Z",
    "headline": "Tech entrepreneur, wife, kids and friends among victims in Florida plane crash",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:15Z",
+   "last_seen": "2026-11-07T05:43:16Z",
    "weekly": [
     0,
     0,
@@ -1285,7 +1285,7 @@
    "first_seen": "2026-11-04T16:19:05Z",
    "headline": "Mississippi U.S. Senate 2026: Live Midterm Election Results, Hyde-Smith vs. Colom",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:24Z",
+   "last_seen": "2026-11-07T05:43:26Z",
    "weekly": [
     0,
     0,
@@ -1610,11 +1610,11 @@
    "first_seen": "2026-11-01T14:46:40Z",
    "headline": "Iowa ser ut att gå mot rekordstort valdeltagande",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:01Z",
+   "last_seen": "2026-11-07T05:42:46Z",
    "weekly": [
     0,
     0,
-    4,
+    5,
     51
    ],
    "this_week": 51,
@@ -1803,14 +1803,14 @@
    "first_seen": "2026-10-31T14:15:53Z",
    "headline": "Carlos III describe el tráfico de esclavos como un \"capítulo vergonzoso\" de la historia del Reino Unido",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:22Z",
+   "last_seen": "2026-11-07T05:43:24Z",
    "weekly": [
     0,
     0,
-    5,
-    38
+    16,
+    27
    ],
-   "this_week": 38,
+   "this_week": 27,
    "velocity": 41,
    "markets": {
     "uk": 6,
@@ -1940,14 +1940,14 @@
    "first_seen": "2026-11-04T16:18:52Z",
    "headline": "Annie Andrews Defeats Darline Graham in South Carolina Senate Race",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:12Z",
+   "last_seen": "2026-11-07T05:43:14Z",
    "weekly": [
     0,
     4,
-    4,
-    38
+    5,
+    37
    ],
-   "this_week": 38,
+   "this_week": 37,
    "velocity": 13.333333333333334,
    "markets": {
     "us": 4,
@@ -2521,7 +2521,7 @@
    "first_seen": "2026-11-04T16:18:49Z",
    "headline": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:15:49Z",
+   "last_seen": "2026-11-07T05:42:52Z",
    "weekly": [
     0,
     0,
@@ -2730,7 +2730,7 @@
    "first_seen": "2026-11-03T15:44:24Z",
    "headline": "Russian bombing of Ukrainian aid centre kills 24 people: Zelenskyy",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:15:43Z",
+   "last_seen": "2026-11-07T05:42:48Z",
    "weekly": [
     0,
     0,
@@ -2798,7 +2798,7 @@
    "first_seen": "2026-11-04T16:18:53Z",
    "headline": "Morgenüberblick zu Midterms: Diese fünf Ergebnisse der US-Wahl sind schon klar",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:18Z",
+   "last_seen": "2026-11-07T05:43:20Z",
    "weekly": [
     0,
     0,
@@ -2909,22 +2909,21 @@
    "id": "3294",
    "first_seen": "2026-11-01T14:46:49Z",
    "headline": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
-   "state": "emergence",
-   "last_seen": "2026-11-06T17:15:53Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-07T05:42:46Z",
    "weekly": [
     0,
     0,
-    0,
-    36
+    13,
+    24
    ],
-   "this_week": 36,
-   "velocity": 5.4,
+   "this_week": 24,
+   "velocity": 1.8461538461538463,
    "markets": {
-    "us": 2,
-    "uk": 2,
+    "us": 3,
+    "uk": 3,
     "intl": 3,
-    "fi": 1,
-    "de": 2
+    "de": 1
    },
    "outlets": 7,
    "samples": [
@@ -2955,7 +2954,7 @@
    ],
    "abroad_first": "2026-10-30T10:25:27Z",
    "headline_en": "Rubio says Trump wants to end Iran war 'peacefully' even as both sides prepare for strikes",
-   "headline_fi": "Media: Trump suunnittelee iskua Iraniin päivää välivaalien jälkeen",
+   "headline_fi": null,
    "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
@@ -2979,14 +2978,14 @@
    "first_seen": "2026-11-01T14:46:55Z",
    "headline": "UK adventurer arrives home after epic 28-year trek across jungles and frozen sea",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:22Z",
+   "last_seen": "2026-11-07T05:43:24Z",
    "weekly": [
-    4,
     1,
-    4,
-    26
+    1,
+    9,
+    21
    ],
-   "this_week": 26,
+   "this_week": 21,
    "velocity": 29,
    "markets": {
     "de": 1,
@@ -3283,7 +3282,7 @@
    "first_seen": "2026-11-04T16:18:48Z",
    "headline": "La Casa Blanca recuerda que Donald Trump \"todavía es presidente\"",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:15:58Z",
+   "last_seen": "2026-11-07T05:43:01Z",
    "weekly": [
     0,
     1,
@@ -3541,14 +3540,14 @@
    "first_seen": "2026-11-03T15:44:25Z",
    "headline": "US strikes Iran's Qeshm Island ahead of midterm elections",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:03Z",
+   "last_seen": "2026-11-07T05:42:40Z",
    "weekly": [
     0,
     0,
     0,
-    24
+    29
    ],
-   "this_week": 24,
+   "this_week": 29,
    "velocity": 4.8,
    "markets": {
     "intl": 5,
@@ -3803,7 +3802,7 @@
    "first_seen": "2026-11-02T15:12:59Z",
    "headline": "Ukraine, Russia report hacking attacks on emergency alert apps",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:38Z",
+   "last_seen": "2026-11-07T05:43:40Z",
    "weekly": [
     0,
     0,
@@ -3873,14 +3872,14 @@
    "first_seen": "2026-11-04T16:18:55Z",
    "headline": "US to cut nearly $4 billion in Israel military aid, Trump says",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:15:45Z",
+   "last_seen": "2026-11-07T05:42:41Z",
    "weekly": [
     0,
     0,
     0,
-    25
+    26
    ],
-   "this_week": 25,
+   "this_week": 26,
    "velocity": 4.2,
    "markets": {
     "de": 3,
@@ -4200,7 +4199,7 @@
    "first_seen": "2026-11-04T16:19:00Z",
    "headline": "Midterm elections 2026 live updates: Economy, inflation and voter concerns",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:21Z",
+   "last_seen": "2026-11-07T05:43:23Z",
    "weekly": [
     0,
     1,
@@ -4551,7 +4550,7 @@
    "first_seen": "2026-11-03T15:44:33Z",
    "headline": "Marvell to buy Nvidia-backed Lumentum in a $115bn all-stock deal",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:33Z",
+   "last_seen": "2026-11-07T05:43:35Z",
    "weekly": [
     0,
     0,
@@ -4620,11 +4619,11 @@
    "first_seen": "2026-11-04T16:18:56Z",
    "headline": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:11Z",
+   "last_seen": "2026-11-07T05:43:12Z",
    "weekly": [
     0,
-    10,
-    2,
+    11,
+    1,
     22
    ],
    "this_week": 22,
@@ -4674,7 +4673,7 @@
    "first_seen": "2026-11-04T16:18:53Z",
    "headline": "Key moments so far in the US midterms",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:03Z",
+   "last_seen": "2026-11-07T05:43:04Z",
    "weekly": [
     0,
     0,
@@ -4727,7 +4726,7 @@
    "first_seen": "2026-11-03T15:44:34Z",
    "headline": "Half-witted at best, a people-pleaser at worst: step forward, Chris Philp",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:17Z",
+   "last_seen": "2026-11-07T05:43:18Z",
    "weekly": [
     1,
     3,
@@ -5085,7 +5084,7 @@
    "first_seen": "2026-11-04T16:18:47Z",
    "headline": "Champions League comebacks: What are the other best after Manchester United beat Roma",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:17Z",
+   "last_seen": "2026-11-07T05:43:18Z",
    "weekly": [
     0,
     0,
@@ -5264,7 +5263,7 @@
    "first_seen": "2026-11-02T15:13:15Z",
    "headline": "Pojke skadad i motocrossolycka - får intensivvård",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:47Z",
+   "last_seen": "2026-11-07T05:43:45Z",
    "weekly": [
     0,
     0,
@@ -5332,7 +5331,7 @@
    "first_seen": "2026-11-02T15:13:04Z",
    "headline": "German police investigating after needles found in Halloween candy",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:06Z",
+   "last_seen": "2026-11-07T05:43:07Z",
    "weekly": [
     0,
     0,
@@ -5507,14 +5506,14 @@
    "first_seen": "2026-11-02T15:13:04Z",
    "headline": "Iran says talks under way on two day plan to reopen Strait of Hormuz",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:15:47Z",
+   "last_seen": "2026-11-07T05:42:44Z",
    "weekly": [
     4,
     11,
     9,
-    18
+    19
    ],
-   "this_week": 18,
+   "this_week": 19,
    "velocity": 1.7777777777777777,
    "markets": {
     "intl": 3,
@@ -6275,14 +6274,14 @@
    "headline_en": "Vance eyes 2028 reset, as Republicans mull pivot after US midterms drubbing",
    "headline_fi": "Pääkirjoitus: Trumpin paikasta taistellaan jo - nuoret presidenttiehdokkaat astuvat esiin",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:15:42Z",
+   "last_seen": "2026-11-07T05:42:42Z",
    "weekly": [
     0,
     1,
     1,
-    155
+    156
    ],
-   "this_week": 155,
+   "this_week": 156,
    "velocity": 155,
    "markets": {
     "intl": 3,
@@ -6345,7 +6344,7 @@
    "headline_en": null,
    "headline_fi": "Norjassa oikeus vapautti Marius Borg Høibyn kotiarestista",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:28Z",
+   "last_seen": "2026-11-07T05:43:31Z",
    "weekly": [
     0,
     0,
@@ -6410,7 +6409,7 @@
    "headline_en": "Germany news: Commerce chief hopes for more stable US trade",
    "headline_fi": "Baijerin varapääministeri löydettiin kuolleena hotellihuoneesta",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:04Z",
+   "last_seen": "2026-11-07T05:43:05Z",
    "weekly": [
     0,
     0,
@@ -6464,7 +6463,7 @@
    "headline_en": "Family and teammates mourn Tenerife striker De Miguel at funeral",
    "headline_fi": "Elämäni vaikeimpia päiviä\" - pelaajan kuolemaan johtanut tilanne sai karut jälkiseuraukset",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:01Z",
+   "last_seen": "2026-11-07T05:43:03Z",
    "weekly": [
     0,
     0,
@@ -6514,18 +6513,18 @@
   "3405": {
    "id": "3405",
    "first_seen": "2026-11-04T16:18:51Z",
-   "headline": "Here are the market's biggest winners and losers from the 'blunami' midterm election",
+   "headline": "Historiallinen käänne: Texas käänsi Trumpille selkänsä",
    "headline_en": "FTSE 100 Live: Stocks to slide after tech bruised in Asia; oil stabilises",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-06T05:08:36Z",
+   "last_seen": "2026-11-07T05:42:41Z",
    "weekly": [
-    0,
-    2,
-    1,
-    22
+    48,
+    37,
+    25,
+    230
    ],
-   "this_week": 22,
+   "this_week": 230,
    "velocity": 1.6666666666666667,
    "markets": {
     "de": 1,
@@ -6565,7 +6564,10 @@
     "tech",
     "business"
    ],
-   "relevant": false
+   "relevant": true,
+   "checked": "2026-11-07T08:00:59Z",
+   "check_how": "url",
+   "check_error": null
   },
   "3326": {
    "id": "3326",
@@ -6574,7 +6576,7 @@
    "headline_en": "Jack Campbell: Detroit Lions star continues to recover in hospital after neck injury",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:26Z",
+   "last_seen": "2026-11-07T05:43:28Z",
    "weekly": [
     0,
     0,
@@ -6627,7 +6629,7 @@
    "headline_en": "Fenerbahce vs Liverpool: UEFA Champions League stats & head-to-head",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:07Z",
+   "last_seen": "2026-11-07T05:43:08Z",
    "weekly": [
     0,
     0,
@@ -6683,7 +6685,7 @@
    "headline_en": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-06T17:15:47Z",
+   "last_seen": "2026-11-07T05:42:51Z",
    "weekly": [
     0,
     0,
@@ -6738,10 +6740,10 @@
    "headline_en": "Andreas Almgren wins in New York City Marathon debut; Sheila Chepkirui reclaims title",
    "headline_fi": "Ruotsalaistähdeltä lähes käsittämätön uroteko",
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:16:30Z",
+   "last_seen": "2026-11-07T05:43:33Z",
    "weekly": [
-    2,
-    1,
+    3,
+    0,
     1,
     24
    ],
@@ -6959,11 +6961,11 @@
    "headline_en": "Rory McIlroy welcomes golf 'reset' after LIV Golf 'false economy'",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:15:53Z",
+   "last_seen": "2026-11-07T05:42:56Z",
    "weekly": [
     6,
-    8,
-    6,
+    9,
+    5,
     25
    ],
    "this_week": 25,
@@ -7084,7 +7086,7 @@
    "headline_en": "British health worker tests positive for Ebola in Democratic Republic of Congo",
    "headline_fi": "Britannian kansalaisella todettu ebola",
    "state": "emergence",
-   "last_seen": "2026-11-06T17:15:45Z",
+   "last_seen": "2026-11-07T05:42:49Z",
    "weekly": [
     0,
     0,
@@ -7207,14 +7209,14 @@
    "headline_en": "Bomb Threats Disrupt Several Flights Across Europe",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-06T17:15:46Z",
+   "last_seen": "2026-11-07T05:42:40Z",
    "weekly": [
     0,
     0,
     0,
-    25
+    26
    ],
-   "this_week": 25,
+   "this_week": 26,
    "velocity": 2.6,
    "markets": {
     "de": 5,
@@ -7261,7 +7263,7 @@
    "headline_en": "Video: Colom Makes Confident Speech as Vote Count Continues In Mississippi",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-06T17:15:54Z",
+   "last_seen": "2026-11-07T05:42:57Z",
    "weekly": [
     0,
     0,
@@ -7319,7 +7321,7 @@
    "headline_en": "Democratic Socialist Mayors Will Now Run LA, New York, and D.C. After Nithya Raman’s Win",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-06T17:15:47Z",
+   "last_seen": "2026-11-07T05:42:51Z",
    "weekly": [
     0,
     0,
@@ -7373,7 +7375,7 @@
    "headline_en": "Replacing Lamar Jackson: Five waiver-wire quarterback options and a priority trade target",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-06T17:16:09Z",
+   "last_seen": "2026-11-07T05:43:10Z",
    "weekly": [
     0,
     0,
@@ -7416,6 +7418,60 @@
    ],
    "abroad_first": "2026-11-01T18:39:13Z",
    "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3532": {
+   "id": "3532",
+   "first_seen": "2026-11-07T05:42:48Z",
+   "headline": "Three executed across the US on same day – for the second time this year",
+   "headline_en": "Three executed across the US on same day – for the second time this year",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-07T05:42:48Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    23
+   ],
+   "this_week": 23,
+   "velocity": 4.6,
+   "markets": {
+    "uk": 5,
+    "se": 1,
+    "us": 2,
+    "intl": 2
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Three executed across the US on same day – for the second time this year",
+     "u": "https://www.independent.co.uk/news/world/americas/execution-alabama-indiana-florida-pike-newsom-b3080286.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T11:38:42Z"
+    },
+    {
+     "t": "米カリフォルニア州知事、州内の死刑囚548人全員を減刑へ　仮釈放なしの終身刑に",
+     "u": "https://www.bbc.com/japanese/articles/cwjdmmex141vo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ja",
+     "p": "2026-11-06T03:52:41Z"
+    },
+    {
+     "t": "Rubio avfärdar uppgifter om avgång",
+     "u": "https://www.dn.se/direkt/2026-11-05/rubio-avfardar-uppgifter-om-avgang/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-05T22:35:41Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T19:21:32Z",
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   }
