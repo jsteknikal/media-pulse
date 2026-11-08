@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-08T14:45:36Z",
+  "last_run": "2026-11-08T17:45:38Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 35,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -2393,7 +2393,7 @@
    "headline_en": "What we know of Vance's letter to Rezaei, as Trump warns Gulf to 'prepare'",
    "headline_fi": null,
    "markets_abroad": 3,
-   "checked": "2026-11-08T08:45:36Z",
+   "checked": "2026-11-08T17:45:38Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -2622,7 +2622,7 @@
    "headline_en": "BBC World Service - Global News Podcast, Dozens killed in train crash in Spain",
    "headline_fi": null,
    "markets_abroad": 2,
-   "checked": "2026-11-08T08:45:36Z",
+   "checked": "2026-11-08T17:45:38Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3146,7 +3146,7 @@
    "headline_en": "Merz courts Asian investors as he insists Europe remains a safe bet",
    "headline_fi": null,
    "markets_abroad": 2,
-   "checked": "2026-11-08T08:45:36Z",
+   "checked": "2026-11-08T17:45:38Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3529,7 +3529,7 @@
    "headline_en": "US, Russia block rival Western Sahara resolutions",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-08T08:45:36Z",
+   "checked": "2026-11-08T17:45:38Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4671,7 +4671,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-08T11:45:36Z",
+   "checked": "2026-11-08T17:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -4782,7 +4782,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-08T08:45:36Z",
+   "checked": "2026-11-08T17:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -5338,21 +5338,21 @@
    "id": "3332",
    "first_seen": "2026-11-02T15:13:04Z",
    "headline": "German police investigating after needles found in Halloween candy",
-   "state": "emergence",
-   "last_seen": "2026-11-07T17:51:36Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-08T06:15:28Z",
    "weekly": [
     0,
     0,
-    0,
-    22
+    8,
+    14
    ],
-   "this_week": 22,
-   "velocity": 4.2,
+   "this_week": 14,
+   "velocity": 1.75,
    "markets": {
     "de": 9,
     "fi": 1
    },
-   "outlets": 4,
+   "outlets": 6,
    "samples": [
     {
      "t": "German police investigating after needles found in Halloween candy",
@@ -5564,7 +5564,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-08T08:45:36Z",
+   "checked": "2026-11-08T17:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7563,7 +7563,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-08T08:45:36Z",
+   "checked": "2026-11-08T17:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7801,7 +7801,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-08T11:45:36Z",
+   "checked": "2026-11-08T17:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -8331,6 +8331,186 @@
     }
    ],
    "abroad_first": "2026-11-02T01:32:13Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3423": {
+   "id": "3423",
+   "first_seen": "2026-11-04T16:19:00Z",
+   "headline": "Google blockiert Suchfunktion, wenn Schulen KI ablehnen",
+   "headline_en": "Google will let schools disable its AI tools, but not without sacrificing Search",
+   "headline_fi": "NYT: Googlen linjaus USA:n kouluille - Hyväksykää tekoälymme tai unohtakaa hakukoneemme",
+   "state": "emergence",
+   "last_seen": "2026-11-08T06:15:29Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.8,
+   "markets": {
+    "de": 1,
+    "us": 4,
+    "uk": 1,
+    "fi": 2,
+    "intl": 2
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Google blockiert Suchfunktion, wenn Schulen KI ablehnen",
+     "u": "https://www.spiegel.de/netzwelt/google-blockiert-suchfunktion-wenn-schulen-ki-ablehnen-a-127ea560-4390-4851-ab2f-1c6caf198a73",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-04T03:06:00Z"
+    },
+    {
+     "t": "Google will let schools disable its AI tools, but not without sacrificing Search",
+     "u": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+     "d": "techcrunch.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-03T16:30:34Z"
+    },
+    {
+     "t": "US parents and teachers: share your thoughts on Google turning off Search for schools that reject AI",
+     "u": "https://www.theguardian.com/technology/2026/nov/04/google-search-ai-schools",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-04T17:41:31Z"
+    }
+   ],
+   "abroad_first": "2026-11-03T16:30:34Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-08T17:45:38Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-03T23:47:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012386819.html",
+    "t": "NYT: Google sulkee hakukoneensa yhdysvaltalaiskouluilta, jotka kieltävät yhtiön tekoälyn",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-08T17:45:38Z"
+  },
+  "3514": {
+   "id": "3514",
+   "first_seen": "2026-11-06T17:15:55Z",
+   "headline": "Video: Opinion | Big Money's Playbook Finally Failed",
+   "headline_en": "Musk’s midterm candidates lost almost everywhere, Texas included",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-08T06:15:15Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 1,
+   "markets": {
+    "intl": 2,
+    "uk": 2,
+    "us": 1
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "Musk’s midterm candidates lost almost everywhere, Texas included",
+     "u": "https://thenextweb.com/news/musk-midterms-candidates-lost-texas-tesla-spacex-shares",
+     "d": "thenextweb.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-05T12:33:27Z"
+    },
+    {
+     "t": "As Australia ponders how to deal with a castrated Trump administration, one lesson is clear: 'It's the economy, stupid'",
+     "u": "https://www.theguardian.com/commentisfree/2026/nov/05/as-australia-ponders-how-to-deal-with-a-castrated-trump-administration-one-lesson-is-clear-its-the-economy-stupid",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-04T22:34:09Z"
+    },
+    {
+     "t": "アングル：マスク氏の共和党大盤振る舞いは空振り　下院3勝33敗　上院全敗か",
+     "u": "https://www.reuters.com/jp/world/us/34G5HYDGSRPT3K7VCOILCR7H7I-2026-11-06/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-06T00:02:27Z"
+    }
+   ],
+   "abroad_first": "2026-11-04T00:00:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "business",
+    "tech"
+   ],
+   "relevant": false
+  },
+  "3508": {
+   "id": "3508",
+   "first_seen": "2026-11-06T17:15:51Z",
+   "headline": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office",
+   "headline_en": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-08T06:15:11Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.2,
+   "markets": {
+    "uk": 4,
+    "us": 1,
+    "de": 2,
+    "intl": 3
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office",
+     "u": "https://www.theguardian.com/us-news/2026/nov/05/trump-oval-office-design-proclamation",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T00:29:06Z"
+    },
+    {
+     "t": "Trump Moves to Make Oval Office a National Monument",
+     "u": "https://www.nytimes.com/2026/11/05/us/politics/trump-oval-office-national-monument.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-06T00:14:20Z"
+    },
+    {
+     "t": "Trump tries to prevent anyone from changing his gold-covered Oval Office by declaring it a landmark",
+     "u": "https://www.independent.co.uk/news/world/americas/us-politics/trump-oval-office-national-landmark-gold-b3080117.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-05T21:18:43Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T16:18:00Z",
    "markets_abroad": 4,
    "subjects": [],
    "relevant": false
