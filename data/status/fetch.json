@@ -1,11 +1,11 @@
 {
- "time": "2026-11-08T13:15:38Z",
- "new_articles": 3,
+ "time": "2026-11-08T13:30:49Z",
+ "new_articles": 5,
  "sources": [
   {
    "id": "yle-uutiset",
    "state": "ok",
-   "fetched": 33,
+   "fetched": 34,
    "new": 1,
    "errors": [],
    "feeds_used": [
@@ -47,7 +47,7 @@
    "id": "hs",
    "state": "ok",
    "fetched": 100,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.hs.fi/rss/tuoreimmat.xml"
@@ -57,7 +57,7 @@
    "id": "is",
    "state": "ok",
    "fetched": 100,
-   "new": 0,
+   "new": 2,
    "errors": [],
    "feeds_used": [
     "https://www.is.fi/rss/tuoreimmat.xml"
@@ -137,7 +137,7 @@
    "id": "kaleva",
    "state": "ok",
    "fetched": 25,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.kaleva.fi/feedit/rss/managed-listing/rss-uusimmat/"
@@ -159,11 +159,11 @@
    "fetched": 0,
    "new": 0,
    "errors": [
-    "https://www.uusisuomi.fi/rss/uusimmat.xml: ParseError: not well-formed (invalid token): line 1, column 91228",
-    "https://www.uusisuomi.fi/rss/uutiset.xml: ParseError: not well-formed (invalid token): line 1, column 91228",
-    "https://www.uusisuomi.fi/feed: ParseError: not well-formed (invalid token): line 1, column 91228",
-    "https://www.uusisuomi.fi/api/feed/rss: ParseError: not well-formed (invalid token): line 1, column 91228",
-    "https://www.uusisuomi.fi/rss/uusisuomi.xml: ParseError: not well-formed (invalid token): line 1, column 91228"
+    "https://www.uusisuomi.fi/rss/uusimmat.xml: ParseError: not well-formed (invalid token): line 1, column 91185",
+    "https://www.uusisuomi.fi/rss/uutiset.xml: ParseError: not well-formed (invalid token): line 1, column 91185",
+    "https://www.uusisuomi.fi/feed: ParseError: not well-formed (invalid token): line 1, column 91185",
+    "https://www.uusisuomi.fi/api/feed/rss: ParseError: not well-formed (invalid token): line 1, column 91185",
+    "https://www.uusisuomi.fi/rss/uusisuomi.xml: ParseError: not well-formed (invalid token): line 1, column 91185"
    ],
    "feeds_used": [],
    "discovered": [
