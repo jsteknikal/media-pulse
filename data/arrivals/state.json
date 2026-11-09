@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-09T13:01:01Z",
+  "last_run": "2026-11-09T16:01:03Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 38,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -8636,7 +8636,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-09T09:45:39Z",
+   "checked": "2026-11-09T16:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -8695,7 +8695,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-09T09:45:39Z",
+   "checked": "2026-11-09T16:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -8845,7 +8845,7 @@
    "headline_en": "Herbert Blomstedt, renowned conductor with a seven-decade career, dies aged 99",
    "headline_fi": "Tähtikapellimestari Herbert Blomstedt on kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-08T18:25:58Z",
+   "last_seen": "2026-11-09T06:38:28Z",
    "weekly": [
     0,
     0,
@@ -8914,7 +8914,7 @@
    "headline_en": "Russell Brand suspected to have attacked at least 10 other women",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-08T18:25:34Z",
+   "last_seen": "2026-11-09T06:38:09Z",
    "weekly": [
     0,
     0,
@@ -9239,6 +9239,331 @@
    "markets_abroad": 1,
    "subjects": [],
    "relevant": false
+  },
+  "3503": {
+   "id": "3503",
+   "first_seen": "2026-11-06T17:15:48Z",
+   "headline": "Marco Rubio niega que dejará sus cargos para postularse a la presidencia",
+   "headline_en": "White House denies Hegseth, Rubio will leave jobs amid Republican election fallout",
+   "headline_fi": "Bloomberg: Rubio harkitsee Trumpin hallinnosta lähtemistä - ulkoministeriltä vahva kiisto",
+   "state": "emergence",
+   "last_seen": "2026-11-09T06:38:21Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2,
+   "markets": {
+    "fi": 3,
+    "uk": 2,
+    "se": 2,
+    "de": 2,
+    "us": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "White House denies Hegseth, Rubio will leave jobs amid Republican election fallout",
+     "u": "https://www.bbc.com/news/articles/cqg7xxg4jdv5o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T01:32:55Z"
+    },
+    {
+     "t": "Branta börsras i Asien",
+     "u": "https://www.dn.se/direkt/2026-11-06/branta-borsras-i-asien/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-06T04:18:27Z"
+    },
+    {
+     "t": "ট্রাম্প প্রশাসনে দুই মন্ত্রীর চাকরি ছাড়ার গুঞ্জন, যা বলছে হোয়াইট হাউজ",
+     "u": "https://www.bbc.com/bengali/articles/c6x2vvrnd2w0o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ben",
+     "p": "2026-11-06T03:21:43Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T22:26:25Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "policy",
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-09T16:01:03Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-05T21:37:28Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20255409",
+    "t": "Bloomberg: USA:n ulkoministeri Rubio harkitsee jättävänsä Trumpin hallituksen",
+    "s": null
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-09T16:01:03Z"
+  },
+  "3498": {
+   "id": "3498",
+   "first_seen": "2026-11-06T17:15:46Z",
+   "headline": "Trump: Sopimus Ukrainan sodan päättämisestä voi koskea koko Eurooppaa - pelot heräävät",
+   "headline_en": "Ukraine live: Trump claims 'big, beautiful' deal in works as UK bars Putin from G20",
+   "headline_fi": "Trump: Sopimus Ukrainan sodan päättämiseksi \"saattaa koskea koko Eurooppaa",
+   "state": "emergence",
+   "last_seen": "2026-11-09T06:38:20Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 1,
+   "markets": {
+    "fi": 2,
+    "uk": 1,
+    "de": 1,
+    "se": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Ukraine live: Trump claims 'big, beautiful' deal in works as UK bars Putin from G20",
+     "u": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-trump-putin-zelensky-uk-g20-melania-b3080221.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T04:49:46Z"
+    },
+    {
+     "t": "Trump raises prospect of 'big, beautiful' Russia-Ukraine deal",
+     "u": "https://www.dw.com/en/trump-raises-prospect-of-big-beautiful-russia-ukraine-deal/a-79871394",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-05T23:32:29Z"
+    },
+    {
+     "t": "Trump: \"Kommer bli ett avtal med Ryssland",
+     "u": "https://www.di.se/nyheter/trump-kommer-bli-ett-avtal-med-ryssland/",
+     "d": "di.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-06T04:08:38Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T23:32:29Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-09T16:01:03Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-05T22:34:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012392647.html",
+    "t": "Trump: Sopimus Ukrainan sodan päättämiseksi \"saattaa koskea koko Eurooppaa",
+    "s": null
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-09T16:01:03Z"
+  },
+  "3429": {
+   "id": "3429",
+   "first_seen": "2026-11-04T16:19:04Z",
+   "headline": "NBC: Demokraterna vinner i Georgia",
+   "headline_en": "Ukraine-Russia war latest: UK breaks with Trump by refusing to invite Putin to G20 summit",
+   "headline_fi": "Nyt jyrähti Kanadan pääministeri - Venäjällä ei asiaa nuorten MM-kisoihin",
+   "state": "emergence",
+   "last_seen": "2026-11-09T06:38:11Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2.4,
+   "markets": {
+    "se": 7,
+    "uk": 1,
+    "us": 1,
+    "fi": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "NBC: Demokraterna vinner i Georgia",
+     "u": "https://www.dn.se/direkt/2026-11-04/nbc-demokraterna-vinner-i-georgia/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-04T00:42:42Z"
+    },
+    {
+     "t": "Ukraine-Russia war latest: UK breaks with Trump by refusing to invite Putin to G20 summit",
+     "u": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-uk-putin-g20-b3079889.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-05T15:27:40Z"
+    },
+    {
+     "t": "Röstningen i gång - resultaten rullar in",
+     "u": "https://www.dn.se/direkt/2026-11-04/rostningen-i-gang-resultaten-rullar-in/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-04T00:13:46Z"
+    }
+   ],
+   "abroad_first": "2026-11-03T22:35:13Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics",
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-09T16:01:03Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-03T23:57:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/nhl/art-2000012386826.html",
+    "t": "Nyt jyrähti Kanadan pääministeri - Venäjällä ei asiaa nuorten MM-kisoihin",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-09T16:01:03Z"
+  },
+  "3535": {
+   "id": "3535",
+   "first_seen": "2026-11-07T05:43:36Z",
+   "headline": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
+   "headline_en": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-07T17:52:03Z",
+   "weekly": [
+    3,
+    1,
+    1,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 13,
+   "markets": {
+    "intl": 4,
+    "de": 3,
+    "uk": 2,
+    "us": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Russian strikes leave thousands without power in Ukraine, says Zelenskyy",
+     "u": "https://www.politico.eu/article/russia-strikes-leave-thousands-without-power-ukraine-volodymyr-zelenskyy/",
+     "d": "politico.eu",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-01T14:48:54Z"
+    },
+    {
+     "t": "ウクライナで数十万世帯停電、ロシアの工業施設も被害　戦闘収まらず",
+     "u": "https://www.reuters.com/jp/world/ukraine/XBBBBL7KQNPE7PIEUCFXN6QZ4M-2026-11-01/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-01T22:59:12Z"
+    },
+    {
+     "t": "Russia bombards Ukraine power grid before Abu Dhabi talks; Merz urges Moscow to engage",
+     "u": "https://www.reuters.com/world/europe/russia-bombards-ukraine-power-grid-before-abu-dhabi-talks-merz-urges-moscow-2026-11-03/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-03T17:21:17Z"
+    }
+   ],
+   "abroad_first": "2026-11-01T10:25:18Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-09T16:01:03Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3407": {
+   "id": "3407",
+   "first_seen": "2026-11-04T16:18:52Z",
+   "headline": "Intel's Website Gets An AI-Era Makeover",
+   "headline_en": "Democrat Amy Acton beats Republican Vivek Ramaswamy in Ohio governor's race",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-06T05:08:37Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 1.8,
+   "markets": {
+    "intl": 2,
+    "uk": 2,
+    "de": 3,
+    "us": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Democrat Amy Acton beats Republican Vivek Ramaswamy in Ohio governor's race",
+     "u": "https://www.aljazeera.com/news/2026/11/4/democrat-amy-acton-beats-republican-vivek-ramaswamy-in-ohio-governors-race",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-04T04:25:54Z"
+    },
+    {
+     "t": "Amy Acton rides reviled Vivek Ramaswamy attack ad to stunning Ohio gov victory",
+     "u": "https://www.independent.co.uk/news/world/americas/us-politics/amy-acton-ohio-governor-vivek-ramaswamy-ad-b3078743.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-04T04:06:43Z"
+    },
+    {
+     "t": "US midterms: Democrats gain control of Senate",
+     "u": "https://www.dw.com/en/us-midterms-democrats-gain-control-of-senate/live-79829440",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-03T10:16:26Z"
+    }
+   ],
+   "abroad_first": "2026-11-03T10:16:26Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-09T16:01:03Z",
+   "check_how": "url",
+   "check_error": null
   }
  }
 }
