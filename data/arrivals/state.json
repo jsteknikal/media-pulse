@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-09T00:01:01Z",
+  "last_run": "2026-11-09T03:15:38Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 36,
+  "similar_left": 39,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -6876,7 +6876,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-06T16:30:49Z",
+   "checked": "2026-11-09T03:15:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -6939,26 +6939,43 @@
    "id": "3434",
    "first_seen": "2026-11-04T16:19:07Z",
    "headline": "Parikymmentä vuotta vanha Nasan teleskooppi syöksyi Maan kiertoradalta",
-   "headline_en": "Decades-old NASA telescope heading back to Earth — to crash",
-   "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-07T05:43:02Z",
+   "headline_en": "NASA's Swift space telescope plunges back to Earth in fiery demise",
+   "headline_fi": "Parikymmentä vuotta vanha Nasan teleskooppi syöksyi Maan kiertoradalta",
+   "state": "acceleration",
+   "last_seen": "2026-11-08T18:26:10Z",
    "weekly": [
     0,
     0,
-    0,
-    14
+    1,
+    13
    ],
-   "this_week": 14,
-   "velocity": 1.2,
+   "this_week": 13,
+   "velocity": 13,
    "markets": {
-    "uk": 3,
-    "intl": 1,
+    "fi": 2,
+    "de": 3,
     "us": 1,
-    "es": 1
+    "uk": 3,
+    "intl": 1
    },
-   "outlets": 5,
+   "outlets": 8,
    "samples": [
+    {
+     "t": "NASA's Swift space telescope plunges back to Earth in fiery demise",
+     "u": "https://www.dw.com/en/nasas-swift-space-telescope-plunges-back-to-earth-in-fiery-demise/a-79859805",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-05T04:40:26Z"
+    },
+    {
+     "t": "NASA space telescope plunges to Earth after two decades studying cosmic explosions",
+     "u": "https://apnews.com/article/swift-observatory-telescope-hubble-5c19afdd7867dc88d68ea61dba1fbaee",
+     "d": "apnews.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-04T19:41:38Z"
+    },
     {
      "t": "Decades-old NASA telescope heading back to Earth — to crash",
      "u": "https://www.independent.co.uk/news/world/americas/nasa-swift-telescope-plunging-toward-earth-b3077159.html",
@@ -6966,22 +6983,6 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-01T18:34:01Z"
-    },
-    {
-     "t": "NASA's Swift satellite telescope heads for fiery re-entry 22 years after launch",
-     "u": "https://www.reuters.com/science/nasas-swift-satellite-telescope-heads-fiery-re-entry-22-years-after-launch-2026-11-04/",
-     "d": "reuters.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-03T20:36:00Z"
-    },
-    {
-     "t": "Nasa telescope launched in 2004 to plunge back to Earth after failed rescue mission",
-     "u": "https://www.theguardian.com/science/2026/nov/03/nasa-telescope-neil-gehrels-swift-observatory",
-     "d": "theguardian.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-03T19:50:27Z"
     }
    ],
    "abroad_first": "2026-10-31T12:03:18Z",
@@ -8479,7 +8480,7 @@
    "headline_en": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-08T06:15:11Z",
+   "last_seen": "2026-11-08T18:25:50Z",
    "weekly": [
     0,
     0,
@@ -8634,7 +8635,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-08T21:01:01Z",
+   "checked": "2026-11-09T03:15:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -8693,9 +8694,260 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-08T21:01:01Z",
+   "checked": "2026-11-09T03:15:38Z",
    "check_how": "url",
    "check_error": null
+  },
+  "3546": {
+   "id": "3546",
+   "first_seen": "2026-11-07T17:50:59Z",
+   "headline": "Protesters break into Microsoft data centre construction site in Amsterdam",
+   "headline_en": "Protesters break into Microsoft data centre construction site in Amsterdam",
+   "headline_fi": "Datakeskuksen työmaalle tunkeutuneita pidätettiin Hollannissa",
+   "state": "emergence",
+   "last_seen": "2026-11-08T18:25:30Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.6,
+   "markets": {
+    "intl": 3,
+    "fi": 1,
+    "de": 3,
+    "uk": 1,
+    "us": 1,
+    "se": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Protesters break into Microsoft data centre construction site in Amsterdam",
+     "u": "https://thenextweb.com/news/microsoft-data-centre-amsterdam-protest",
+     "d": "thenextweb.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-06T10:58:48Z"
+    },
+    {
+     "t": "Protesters slam AI and enter Microsoft data center site in Amsterdam",
+     "u": "https://www.reuters.com/video/watch/idRW642306112026RP1/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-06T16:58:10Z"
+    },
+    {
+     "t": "Demonstranten besetzen Baustelle von Microsoft-Rechenzentrum in Amsterdam",
+     "u": "https://www.spiegel.de/ausland/demonstranten-besetzen-baustelle-von-microsoft-rechenzentrum-in-amsterdam-a-487855b6-ecae-4204-9f30-4921beed0d65",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-06T23:23:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-06T00:00:00Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-09T03:15:38Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-06T18:26:05Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20255612",
+    "t": "Datakeskuksen työmaalle tunkeutuneita pidätettiin Hollannissa",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-09T03:15:38Z"
+  },
+  "3511": {
+   "id": "3511",
+   "first_seen": "2026-11-06T17:15:52Z",
+   "headline": "House chairs ask Nvidia’s Jensen Huang to explain reported spy link",
+   "headline_en": "House chairs ask Nvidia’s Jensen Huang to explain reported spy link",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-08T18:25:23Z",
+   "weekly": [
+    0,
+    0,
+    3,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 9,
+   "markets": {
+    "intl": 5,
+    "us": 3,
+    "de": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "House chairs ask Nvidia’s Jensen Huang to explain reported spy link",
+     "u": "https://thenextweb.com/news/house-chairs-jensen-huang-briefing-megaspeed",
+     "d": "thenextweb.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-07T10:05:00Z"
+    },
+    {
+     "t": "House G.O.P. Leaders Ask Nvidia's Huang to Speak in Closed-Door Briefing",
+     "u": "https://www.nytimes.com/2026/11/05/technology/house-republicans-nvidia-jensen-huang-china.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-05T23:39:27Z"
+    },
+    {
+     "t": "Nvidia's Huang is asked to brief Congress on reported Chinese spy relationship",
+     "u": "https://www.cnbc.com/2026/11/05/nvidia-jensen-huang-china-spy-congress.html",
+     "d": "cnbc.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-05T21:09:56Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T13:41:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "tech",
+    "geopolitics",
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-09T03:15:38Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3483": {
+   "id": "3483",
+   "first_seen": "2026-11-05T16:46:46Z",
+   "headline": "Im Alter von 99 Jahren: Dirigent Herbert Blomstedt ist tot",
+   "headline_en": "Herbert Blomstedt, renowned conductor with a seven-decade career, dies aged 99",
+   "headline_fi": "Tähtikapellimestari Herbert Blomstedt on kuollut",
+   "state": "emergence",
+   "last_seen": "2026-11-08T18:25:58Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2.6,
+   "markets": {
+    "de": 5,
+    "uk": 1,
+    "us": 1,
+    "fi": 2,
+    "se": 1
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "Im Alter von 99 Jahren: Dirigent Herbert Blomstedt ist tot",
+     "u": "https://www.spiegel.de/panorama/dirigent-herbert-blomstedt-ist-tot-a-3d6f9ec9-717f-4d4a-b6dc-67ad84a83d1a",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-04T19:30:00Z"
+    },
+    {
+     "t": "Nachruf auf Herbert Blomstedt - Wunder und Weisheit",
+     "u": "https://www.nzz.ch/feuilleton/nachruf-herbert-blomstedt-wunder-und-weisheit-ld.1570669",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-04T18:16:33Z"
+    },
+    {
+     "t": "Herbert Blomstedt, renowned conductor with a seven-decade career, dies aged 99",
+     "u": "https://www.theguardian.com/music/2026/nov/04/herbert-blomstedt-renowned-conductor-with-a-seven-decade-career-dies-aged-99",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-04T16:54:44Z"
+    }
+   ],
+   "abroad_first": "2026-11-04T16:54:44Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-09T03:15:38Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-04T18:42:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/kulttuuri/art-2000012389545.html",
+    "t": "Tähtikapellimestari Herbert Blomstedt on kuollut",
+    "s": null
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-09T03:15:38Z"
+  },
+  "3551": {
+   "id": "3551",
+   "first_seen": "2026-11-07T17:51:01Z",
+   "headline": "Russell Brand suspected to have attacked at least 10 other women",
+   "headline_en": "Russell Brand suspected to have attacked at least 10 other women",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-08T18:25:34Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 1.6,
+   "markets": {
+    "uk": 7,
+    "us": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Russell Brand suspected to have attacked at least 10 other women",
+     "u": "https://www.theguardian.com/culture/2026/nov/06/russell-brand-trial-other-women",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T19:23:24Z"
+    },
+    {
+     "t": "Police Chief Says He 'Wouldn't Be Surprised' by Further Russell Brand Accusations",
+     "u": "https://www.nytimes.com/2026/11/06/arts/russell-brand-rape-sexual-assault-police-commissioner.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-06T16:00:28Z"
+    },
+    {
+     "t": "Katherine Ryan says she feels 'grief and relief' after Russell Brand conviction",
+     "u": "https://www.bbc.co.uk/news/articles/cxyvrr686lzqo",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T13:12:20Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T17:17:13Z",
+   "markets_abroad": 2,
+   "subjects": [],
+   "relevant": false
   }
  }
 }
