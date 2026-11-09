@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-09T09:45:39Z",
+  "last_run": "2026-11-09T13:01:01Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 41,
+  "similar_left": 37,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -2393,7 +2393,7 @@
    "headline_en": "What we know of Vance's letter to Rezaei, as Trump warns Gulf to 'prepare'",
    "headline_fi": null,
    "markets_abroad": 3,
-   "checked": "2026-11-09T06:30:53Z",
+   "checked": "2026-11-09T13:01:01Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -2622,7 +2622,7 @@
    "headline_en": "BBC World Service - Global News Podcast, Dozens killed in train crash in Spain",
    "headline_fi": null,
    "markets_abroad": 2,
-   "checked": "2026-11-09T06:30:53Z",
+   "checked": "2026-11-09T13:01:01Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -3529,7 +3529,7 @@
    "headline_en": "US, Russia block rival Western Sahara resolutions",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-09T06:30:53Z",
+   "checked": "2026-11-09T13:01:01Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4671,7 +4671,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-09T06:30:53Z",
+   "checked": "2026-11-09T13:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -4782,7 +4782,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-09T06:30:53Z",
+   "checked": "2026-11-09T13:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -5564,7 +5564,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-09T06:30:53Z",
+   "checked": "2026-11-09T13:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7576,7 +7576,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-09T06:30:53Z",
+   "checked": "2026-11-09T13:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7814,7 +7814,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-09T06:30:53Z",
+   "checked": "2026-11-09T13:01:01Z",
    "check_how": "url",
    "check_error": null
   },
