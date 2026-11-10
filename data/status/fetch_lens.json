@@ -1,5 +1,5 @@
 {
- "time": "2026-11-10T15:01:05Z",
+ "time": "2026-11-10T15:15:38Z",
  "new_articles": 2,
  "sources": [
   {
@@ -34,13 +34,13 @@
   },
   {
    "id": "climate-home",
-   "state": "failed",
-   "fetched": 0,
-   "new": 0,
-   "errors": [
-    "https://www.climatechangenews.com/feed/: IncompleteRead: IncompleteRead(9679 bytes read)"
-   ],
-   "feeds_used": []
+   "state": "ok",
+   "fetched": 40,
+   "new": 1,
+   "errors": [],
+   "feeds_used": [
+    "https://www.climatechangenews.com/feed/"
+   ]
   },
   {
    "id": "esg-today",
@@ -66,7 +66,7 @@
    "id": "responsible-investor",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.responsible-investor.com/feed/"
