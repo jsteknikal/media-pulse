@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-10T01:15:38Z",
+  "last_run": "2026-11-10T04:15:38Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 43,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -8648,7 +8648,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-09T22:15:37Z",
+   "checked": "2026-11-10T04:15:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -8707,7 +8707,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-09T22:15:37Z",
+   "checked": "2026-11-10T04:15:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9943,6 +9943,59 @@
    ],
    "abroad_first": "2026-11-08T18:46:52Z",
    "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3531": {
+   "id": "3531",
+   "first_seen": "2026-11-07T05:42:45Z",
+   "headline": "Usman Khawaja reveals true extent of Australia’s sandpaper scandal: ‘It was all of us’",
+   "headline_en": "Former Australian cricketer Khawaja claims entire team knew about 'Sandpapergate'",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-09T18:50:35Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 1,
+   "markets": {
+    "intl": 2,
+    "uk": 2,
+    "us": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Former Australian cricketer Khawaja claims entire team knew about 'Sandpapergate'",
+     "u": "https://www.scmp.com/sport/cricket/article/3373628/former-australian-cricketer-usman-khawaja-claims-entire-team-knew-about-sandpapergate",
+     "d": "scmp.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-07T04:00:13Z"
+    },
+    {
+     "t": "Australian cricketer Usman Khawaja disputes findings in 2018 ball-tampering probe",
+     "u": "https://www.reuters.com/sports/cricket/australian-cricketer-usman-khawaja-disputes-findings-2018-ball-tampering-probe-2026-11-07/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-07T01:34:01Z"
+    },
+    {
+     "t": "'It was all of us': Khawaja says entire Australia team knew about sandpaper ball tampering plot",
+     "u": "https://www.theguardian.com/sport/2026/nov/07/usman-khawaja-australia-cricket-team-sandpaper-ball-tampering-plot",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-06T23:35:45Z"
+    }
+   ],
+   "abroad_first": "2026-11-06T22:10:37Z",
+   "markets_abroad": 3,
    "subjects": [],
    "relevant": false
   }
