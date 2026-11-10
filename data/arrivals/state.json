@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-10T04:15:38Z",
+  "last_run": "2026-11-10T07:15:40Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 43,
+  "similar_left": 36,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -1942,14 +1942,14 @@
    "first_seen": "2026-11-04T16:18:52Z",
    "headline": "Annie Andrews Defeats Darline Graham in South Carolina Senate Race",
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:51:21Z",
+   "last_seen": "2026-11-10T07:10:15Z",
    "weekly": [
     0,
     4,
-    6,
-    37
+    15,
+    28
    ],
-   "this_week": 37,
+   "this_week": 28,
    "velocity": 7.4,
    "markets": {
     "us": 4,
@@ -2524,14 +2524,14 @@
    "first_seen": "2026-11-04T16:18:49Z",
    "headline": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats",
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:52Z",
+   "last_seen": "2026-11-10T07:09:52Z",
    "weekly": [
     0,
     0,
-    1,
-    38
+    2,
+    37
    ],
-   "this_week": 38,
+   "this_week": 37,
    "velocity": 38,
    "markets": {
     "intl": 1,
@@ -2800,16 +2800,16 @@
    "id": "3410",
    "first_seen": "2026-11-04T16:18:53Z",
    "headline": "Morgenüberblick zu Midterms: Diese fünf Ergebnisse der US-Wahl sind schon klar",
-   "state": "emergence",
-   "last_seen": "2026-11-09T18:51:51Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-10T07:10:40Z",
    "weekly": [
     0,
     0,
-    0,
-    28
+    1,
+    27
    ],
-   "this_week": 28,
-   "velocity": 5.6,
+   "this_week": 27,
+   "velocity": 27,
    "markets": {
     "de": 2,
     "us": 3,
@@ -3531,7 +3531,7 @@
    "headline_en": "US, Russia block rival Western Sahara resolutions",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-10T01:15:38Z",
+   "checked": "2026-11-10T07:15:40Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4623,14 +4623,14 @@
    "first_seen": "2026-11-04T16:18:56Z",
    "headline": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:51:48Z",
+   "last_seen": "2026-11-10T07:10:38Z",
    "weekly": [
-    1,
-    10,
-    2,
-    21
+    7,
+    4,
+    4,
+    19
    ],
-   "this_week": 21,
+   "this_week": 19,
    "velocity": 22,
    "markets": {
     "uk": 3,
@@ -4673,7 +4673,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-10T01:15:38Z",
+   "checked": "2026-11-10T07:15:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -4682,7 +4682,7 @@
    "first_seen": "2026-11-04T16:18:53Z",
    "headline": "Key moments so far in the US midterms",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:45Z",
+   "last_seen": "2026-11-10T07:10:35Z",
    "weekly": [
     0,
     0,
@@ -4784,7 +4784,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-10T01:15:38Z",
+   "checked": "2026-11-10T07:15:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -5566,7 +5566,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-10T01:15:38Z",
+   "checked": "2026-11-10T07:15:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -6284,14 +6284,14 @@
    "headline_en": "After midterm rout, Vance tries to build his own 2028 brand",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:33Z",
+   "last_seen": "2026-11-10T07:09:26Z",
    "weekly": [
-    0,
+    1,
     2,
     4,
-    206
+    241
    ],
-   "this_week": 206,
+   "this_week": 241,
    "velocity": 51.5,
    "markets": {
     "intl": 4,
@@ -6419,14 +6419,14 @@
    "headline_en": "Germany news: Commerce chief hopes for more stable US trade",
    "headline_fi": "Baijerin varapääministeri löydettiin kuolleena hotellihuoneesta",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:37Z",
+   "last_seen": "2026-11-10T07:09:32Z",
    "weekly": [
     0,
     0,
     0,
-    26
+    27
    ],
-   "this_week": 26,
+   "this_week": 27,
    "velocity": 5.2,
    "markets": {
     "de": 9,
@@ -6473,14 +6473,14 @@
    "headline_en": "Family and teammates mourn Tenerife striker De Miguel at funeral",
    "headline_fi": "Elämäni vaikeimpia päiviä\" - pelaajan kuolemaan johtanut tilanne sai karut jälkiseuraukset",
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:52Z",
+   "last_seen": "2026-11-10T07:09:52Z",
    "weekly": [
     0,
     0,
-    5,
-    40
+    8,
+    37
    ],
-   "this_week": 40,
+   "this_week": 37,
    "velocity": 8,
    "markets": {
     "intl": 2,
@@ -6528,14 +6528,14 @@
    "headline_en": "AI stocks plunge after election, driving down US markets",
    "headline_fi": "Historiallinen käänne: Texas käänsi Trumpille selkänsä",
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:34Z",
+   "last_seen": "2026-11-10T07:09:28Z",
    "weekly": [
-    44,
+    31,
     34,
-    43,
-    445
+    63,
+    427
    ],
-   "this_week": 445,
+   "this_week": 427,
    "velocity": 13.777777777777779,
    "markets": {
     "fi": 2,
@@ -6652,14 +6652,14 @@
    "headline_en": "Fenerbahce vs Liverpool: UEFA Champions League stats & head-to-head",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:51:46Z",
+   "last_seen": "2026-11-10T07:10:37Z",
    "weekly": [
     0,
     0,
-    1,
-    18
+    2,
+    17
    ],
-   "this_week": 18,
+   "this_week": 17,
    "velocity": 18,
    "markets": {
     "uk": 6,
@@ -6708,7 +6708,7 @@
    "headline_en": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:00Z",
+   "last_seen": "2026-11-10T07:09:59Z",
    "weekly": [
     0,
     0,
@@ -7000,14 +7000,14 @@
    "headline_en": "LIV Golf facing liquidation after financial backer drops plan for new league",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:59Z",
+   "last_seen": "2026-11-10T07:09:57Z",
    "weekly": [
-    5,
-    10,
+    3,
+    11,
     4,
-    35
+    34
    ],
-   "this_week": 35,
+   "this_week": 34,
    "velocity": 6,
    "markets": {
     "intl": 4,
@@ -7053,27 +7053,26 @@
    "id": "3501",
    "first_seen": "2026-11-06T17:15:48Z",
    "headline": "Signalfel stoppar tåg norr om Stockholm",
-   "headline_en": "Paraguay President Santiago Peña resigns",
+   "headline_en": "Ousted Paraguayan president placed under house arrest after bank collapse",
    "headline_fi": "Paraguay ajautui pankkikriisiin - presidentti erosi",
-   "state": "emergence",
-   "last_seen": "2026-11-06T17:15:48Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-10T07:09:30Z",
    "weekly": [
     0,
-    0,
-    0,
-    50
+    1,
+    2,
+    126
    ],
-   "this_week": 50,
-   "velocity": 10,
+   "this_week": 126,
+   "velocity": 63,
    "markets": {
-    "se": 1,
-    "fi": 2,
-    "uk": 3,
-    "de": 2,
-    "intl": 1,
-    "es": 1
+    "se": 2,
+    "uk": 2,
+    "us": 2,
+    "es": 2,
+    "fi": 2
    },
-   "outlets": 9,
+   "outlets": 7,
    "samples": [
     {
      "t": "Signalfel stoppar tåg norr om Stockholm",
@@ -7084,24 +7083,24 @@
      "p": "2026-11-05T18:14:10Z"
     },
     {
-     "t": "Najveća banka u zemlji otišla u stečaj, predsednik Paragvaja podneo ostavku",
-     "u": "https://www.bbc.com/serbian/articles/cq2d66gy43ylo/lat",
+     "t": "La crisis del Ueno Bank en Paraguay precipitó una crisis política en el país",
+     "u": "https://www.bbc.com/mundo/watch/cmje5q2gd2pdo",
      "d": "bbc.com",
      "c": "uk",
-     "l": "srp",
-     "p": "2026-11-05T18:54:35Z"
+     "l": "es",
+     "p": "2026-11-07T12:33:51Z"
     },
     {
-     "t": "Bankenkrise in Paraguay: Präsident Santiago Peña tritt zurück",
-     "u": "https://www.faz.net/aktuell/politik/ausland/bankenkrise-in-paraguay-praesident-santiago-pena-tritt-zurueck-accg-201653269.html",
-     "d": "faz.net",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-05T16:57:01Z"
+     "t": "El presidente de Paraguay Santiago Peña pierde el poder tras la quiebra del banco ueno",
+     "u": "https://www.nytimes.com/es/2026/11/06/espanol/america-latina/presidente-paraguay-destituido-ueno-bank.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "es",
+     "p": "2026-11-06T23:24:51Z"
     }
    ],
    "abroad_first": "2026-11-05T00:00:00Z",
-   "markets_abroad": 5,
+   "markets_abroad": 4,
    "subjects": [
     "business"
    ],
@@ -7126,7 +7125,7 @@
    "headline_en": "British healthcare worker with Ebola to be evacuated from DRC to UK, document shows",
    "headline_fi": "Britannian kansalaisella todettu ebola",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:27Z",
+   "last_seen": "2026-11-10T07:10:20Z",
    "weekly": [
     0,
     0,
@@ -7248,25 +7247,33 @@
    "headline": "यूरोप में यात्री विमानों को बम से उड़ाने की धमकियां कौन दे रहा है?",
    "headline_en": "Hoax or bomb threats? What we know about flight disruptions across Europe",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-09T18:50:51Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-10T07:09:52Z",
    "weekly": [
     0,
     0,
-    0,
-    62
+    9,
+    53
    ],
-   "this_week": 62,
-   "velocity": 11.4,
+   "this_week": 53,
+   "velocity": 5.888888888888889,
    "markets": {
+    "de": 1,
     "intl": 4,
     "uk": 2,
-    "de": 1,
-    "us": 2,
-    "es": 1
+    "es": 1,
+    "us": 2
    },
    "outlets": 6,
    "samples": [
+    {
+     "t": "यूरोप में यात्री विमानों को बम से उड़ाने की धमकियां कौन दे रहा है?",
+     "u": "https://www.dw.com/hi/what-to-know-about-the-hoax-bomb-threats-that-targeted-flights-in-europe/a-79884670",
+     "d": "dw.com",
+     "c": "de",
+     "l": "hi",
+     "p": "2026-11-07T12:02:19Z"
+    },
     {
      "t": "Hoax or bomb threats? What we know about flight disruptions across Europe",
      "u": "https://www.aljazeera.com/news/2026/11/6/hoax-or-bomb-threats-what-we-know-about-flight-disruptions-across-europe",
@@ -7276,20 +7283,12 @@
      "p": "2026-11-06T11:18:02Z"
     },
     {
-     "t": "欧洲航空业虚假炸弹威胁：谁是幕后黑手？",
-     "u": "https://www.bbc.com/zhongwen/articles/c60qkk15l8d0o/simp",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "zh",
-     "p": "2026-11-06T11:11:52Z"
-    },
-    {
-     "t": "Who could be behind hoax bomb threats to European air travel?",
-     "u": "https://www.bbc.com/news/articles/cx8dzzjg3g9zo",
-     "d": "bbc.com",
-     "c": "uk",
+     "t": "New bomb threats target European broadcasters, air traffic",
+     "u": "https://www.aljazeera.com/news/2026/11/6/new-bomb-threats-target-european-broadcasters-air-traffic",
+     "d": "aljazeera.com",
+     "c": "intl",
      "l": "en",
-     "p": "2026-11-05T19:58:40Z"
+     "p": "2026-11-06T15:24:54Z"
     }
    ],
    "abroad_first": "2026-11-03T14:59:02Z",
@@ -7318,11 +7317,11 @@
    "headline_en": "Video: Colom Makes Confident Speech as Vote Count Continues In Mississippi",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:51:05Z",
+   "last_seen": "2026-11-10T07:09:45Z",
    "weekly": [
     0,
-    1,
     3,
+    2,
     27
    ],
    "this_week": 27,
@@ -7371,7 +7370,7 @@
    "headline_en": "LA's newer, bluer wave: Nithya Raman leads way as city's progressives make their mark",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:21Z",
+   "last_seen": "2026-11-10T07:10:15Z",
    "weekly": [
     0,
     0,
@@ -7478,7 +7477,7 @@
    "headline_en": "Three executed across the US on same day – for the second time this year",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:25Z",
+   "last_seen": "2026-11-10T07:10:19Z",
    "weekly": [
     0,
     0,
@@ -7486,12 +7485,13 @@
     29
    ],
    "this_week": 29,
-   "velocity": 4.6,
+   "velocity": 5.8,
    "markets": {
     "uk": 5,
+    "de": 1,
     "se": 1,
     "us": 2,
-    "intl": 2
+    "intl": 1
    },
    "outlets": 8,
    "samples": [
@@ -7512,16 +7512,16 @@
      "p": "2026-11-06T03:52:41Z"
     },
     {
-     "t": "Rubio avfärdar uppgifter om avgång",
-     "u": "https://www.dn.se/direkt/2026-11-05/rubio-avfardar-uppgifter-om-avgang/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-05T22:35:41Z"
+     "t": "Gavin Newsom wandelt 548 Todesurteile in Kalifornien um",
+     "u": "https://www.faz.net/aktuell/politik/usa-unter-trump/gavin-newsom-wandelt-548-todesurteile-in-kalifornien-um-201658872.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-06T14:25:33Z"
     }
    ],
    "abroad_first": "2026-11-05T19:21:32Z",
-   "markets_abroad": 4,
+   "markets_abroad": 5,
    "subjects": [],
    "relevant": false
   },
@@ -7578,7 +7578,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-10T01:15:38Z",
+   "checked": "2026-11-10T07:15:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7589,7 +7589,7 @@
    "headline_en": "Como equal Champions League record with stunning 9-1 win at Lens",
    "headline_fi": "Mestarien liigassa historialliset murskajaiset",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:46Z",
+   "last_seen": "2026-11-10T07:10:36Z",
    "weekly": [
     0,
     0,
@@ -7642,34 +7642,34 @@
    "id": "3533",
    "first_seen": "2026-11-07T05:42:58Z",
    "headline": "Cristiano Ronaldo: Aller Pathos kann nicht verbergen, was zu seinem Ende führte",
-   "headline_en": "Football Daily - Ronaldo bows out for Portugal & why is the PL getting younger? - BBC Sounds",
+   "headline_en": "Portugal pledge to honour Ronaldo as Jesus names first squad after captain's retirement",
    "headline_fi": "Ronaldon maajoukkueuran päätös lopettaa merkittävän aikakauden - riidat varjostivat maajoukkueuran loppua",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:06Z",
+   "last_seen": "2026-11-10T07:09:30Z",
    "weekly": [
     0,
     0,
     0,
-    22
+    23
    ],
-   "this_week": 22,
-   "velocity": 2.8,
+   "this_week": 23,
+   "velocity": 4.6,
    "markets": {
-    "uk": 5,
     "de": 2,
+    "intl": 1,
+    "uk": 5,
     "us": 1,
-    "fi": 1,
-    "intl": 1
+    "fi": 1
    },
    "outlets": 8,
    "samples": [
     {
-     "t": "Football Daily - Ronaldo bows out for Portugal & why is the PL getting younger? - BBC Sounds",
-     "u": "https://www.bbc.co.uk/sounds/play/m003434x",
-     "d": "bbc.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-05T17:13:28Z"
+     "t": "Cristiano Ronaldo: Aller Pathos kann nicht verbergen, was zu seinem Ende führte",
+     "u": "https://www.welt.de/sport/fussball/article6aec8a7347b5fce02f879135/cristiano-ronaldo-aller-pathos-kann-nicht-verbergen-was-zu-seinem-ende-fuehrte.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-05T15:51:32Z"
     },
     {
      "t": "Cristiano Ronaldo sagt Portugal Adieu - und rettet sich die letzte Pointe",
@@ -7680,12 +7680,12 @@
      "p": "2026-11-05T15:57:23Z"
     },
     {
-     "t": "Cristiano Ronaldo: Aller Pathos kann nicht verbergen, was zu seinem Ende führte",
-     "u": "https://www.welt.de/sport/fussball/article6aec8a7347b5fce02f879135/cristiano-ronaldo-aller-pathos-kann-nicht-verbergen-was-zu-seinem-ende-fuehrte.html",
-     "d": "welt.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-05T15:51:32Z"
+     "t": "Portugal pledge to honour Ronaldo as Jesus names first squad after captain's retirement",
+     "u": "https://www.reuters.com/sports/soccer/portugal-pledge-honour-ronaldo-jesus-names-first-squad-after-captains-retirement-2026-11-06/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-06T13:01:48Z"
     }
    ],
    "abroad_first": "2026-11-05T11:22:02Z",
@@ -7697,56 +7697,56 @@
    "id": "3529",
    "first_seen": "2026-11-07T05:42:43Z",
    "headline": "Live Updates: Trump Names Stephen Miller His Chief of Staff, Replacing Susie Wiles",
-   "headline_en": "BBC World Service - Global News Podcast, Trump appoints new chief of staff after midterm defeat",
-   "headline_fi": null,
+   "headline_en": "Live Updates: Trump Names Stephen Miller His Chief of Staff, Replacing Susie Wiles",
+   "headline_fi": "Trumpin luottomies Miller nousee kansliapäälliköksi",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:33Z",
+   "last_seen": "2026-11-10T07:09:33Z",
    "weekly": [
     0,
     0,
     0,
-    97
+    104
    ],
-   "this_week": 97,
-   "velocity": 1.8,
+   "this_week": 104,
+   "velocity": 20.8,
    "markets": {
-    "de": 1,
-    "uk": 7,
-    "us": 1
+    "us": 2,
+    "uk": 4,
+    "es": 1,
+    "de": 2,
+    "fi": 1
    },
-   "outlets": 5,
+   "outlets": 7,
    "samples": [
     {
-     "t": "Warum Trump Miller als neuen Stabschef will",
-     "u": "https://www.faz.net/aktuell/politik/usa-unter-trump/warum-trump-miller-als-neuen-stabschef-will-accg-201660644.html",
-     "d": "faz.net",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-07T04:04:46Z"
-    },
-    {
-     "t": "BBC World Service - Global News Podcast, Trump appoints new chief of staff after midterm defeat",
-     "u": "https://www.bbc.co.uk/programmes/p0plrs2j",
-     "d": "bbc.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-07T00:00:00Z"
-    },
-    {
-     "t": "Stephen Miller to Be Trump's New Chief of Staff, Replacing Susie Wiles",
-     "u": "https://time.com/article/2026/11/06/stephen-miller-tapped-as-trump-s-new-chief-of-staff-replacing-susie-wiles/",
-     "d": "time.com",
+     "t": "Live Updates: Trump Names Stephen Miller His Chief of Staff, Replacing Susie Wiles",
+     "u": "https://www.nytimes.com/live/2026/11/06/us/trump-miller-wiles-chief-of-staff",
+     "d": "nytimes.com",
      "c": "us",
      "l": "en",
-     "p": "2026-11-06T19:27:22Z"
+     "p": "2026-11-06T18:57:33Z"
+    },
+    {
+     "t": "Stephen Miller será el nuevo jefe de gabinete de Trump",
+     "u": "https://www.nytimes.com/es/2026/11/06/espanol/estados-unidos/trump-miller-wiles.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "es",
+     "p": "2026-11-06T22:08:20Z"
+    },
+    {
+     "t": "Con la elección de Stephen Miller, Trump se prepara para una batalla.",
+     "u": "https://www.bbc.com/mundo/articles/cxzd669938y0o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "es",
+     "p": "2026-11-07T16:09:19Z"
     }
    ],
-   "abroad_first": "2026-11-06T19:27:22Z",
-   "markets_abroad": 3,
-   "subjects": [
-    "policy"
-   ],
-   "relevant": true,
+   "abroad_first": "2026-11-06T18:57:33Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false,
    "checked": "2026-11-07T20:30:49Z",
    "check_how": "url",
    "check_error": null,
@@ -7767,7 +7767,7 @@
    "headline_en": "Trump teases 'big agreement' after meeting Putin envoy but not Ukrainian officials",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:22Z",
+   "last_seen": "2026-11-10T07:10:16Z",
    "weekly": [
     0,
     0,
@@ -7836,7 +7836,7 @@
    "headline_en": "U.S. adds 165,000 jobs in October, exceeding forecasts",
    "headline_fi": "PÖRSSIT: Wall Street toipuu romahduksesta - Sirujätit kovassa nousussa",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:45Z",
+   "last_seen": "2026-11-10T07:09:42Z",
    "weekly": [
     0,
     0,
@@ -7906,7 +7906,7 @@
    "headline_en": "Tesla Is Ending Production of Its Cybertruck and Refocusing on the Cybercab",
    "headline_fi": "Elon Musk: Tesla ajaa alas Cybertruckin valmistuksen",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:34Z",
+   "last_seen": "2026-11-10T07:09:34Z",
    "weekly": [
     0,
     0,
@@ -7975,14 +7975,14 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:37Z",
+   "last_seen": "2026-11-10T07:09:29Z",
    "weekly": [
-    1,
+    2,
     32,
-    22,
-    75
+    23,
+    83
    ],
-   "this_week": 75,
+   "this_week": 83,
    "velocity": 1.68,
    "markets": {
     "de": 10
@@ -8026,14 +8026,14 @@
    "headline_en": "Could Russell Brand go to prison if convicted – and how long would he be jailed for?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:33Z",
+   "last_seen": "2026-11-10T07:09:31Z",
    "weekly": [
     21,
-    14,
-    15,
-    47
+    13,
+    13,
+    52
    ],
-   "this_week": 47,
+   "this_week": 52,
    "velocity": 2.2941176470588234,
    "markets": {
     "uk": 8,
@@ -8186,14 +8186,14 @@
    "headline_en": "Deadly shooting in popular Krakow tourist spot",
    "headline_fi": "Sisäministeri: Puolan ampuja oli \"kiinnostunut äärioikeistolaisesta ideologiasta",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:42Z",
+   "last_seen": "2026-11-10T07:09:28Z",
    "weekly": [
     0,
     0,
     0,
-    138
+    153
    ],
-   "this_week": 138,
+   "this_week": 153,
    "velocity": 5,
    "markets": {
     "fi": 2,
@@ -8255,14 +8255,14 @@
    "headline_en": "Trump asks UFC chief Dana White to be White House press secretary",
    "headline_fi": "Donald Trumpilta melkoinen julkaisu: tässäkö Valkoisen talon uusi lehdistösihteeri? \"Dana, ota tehtävä vastaan",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:38Z",
+   "last_seen": "2026-11-10T07:09:26Z",
    "weekly": [
     0,
     0,
     0,
-    52
+    59
    ],
-   "this_week": 52,
+   "this_week": 59,
    "velocity": 4.2,
    "markets": {
     "intl": 1,
@@ -8492,7 +8492,7 @@
    "headline_en": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office",
    "headline_fi": "Trump haluaa suojella ovaalihuoneen \"tyhmiltä ihmisiltä",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:30Z",
+   "last_seen": "2026-11-10T07:10:23Z",
    "weekly": [
     0,
     0,
@@ -8547,11 +8547,11 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:51:02Z",
+   "last_seen": "2026-11-10T07:10:00Z",
    "weekly": [
     0,
-    0,
-    5,
+    2,
+    3,
     22
    ],
    "this_week": 22,
@@ -8600,7 +8600,7 @@
    "headline_en": "Ukraine war briefing: Russia ramping up attacks to 'pressure' Kyiv at trilateral talks, Zelenskyy says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:48Z",
+   "last_seen": "2026-11-10T07:09:49Z",
    "weekly": [
     0,
     0,
@@ -8659,7 +8659,7 @@
    "headline_en": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:51Z",
+   "last_seen": "2026-11-10T07:09:51Z",
    "weekly": [
     0,
     0,
@@ -8718,7 +8718,7 @@
    "headline_en": "Protesters break into Microsoft data centre construction site in Amsterdam",
    "headline_fi": "Datakeskuksen työmaalle tunkeutuneita pidätettiin Hollannissa",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:43Z",
+   "last_seen": "2026-11-10T07:09:40Z",
    "weekly": [
     0,
     0,
@@ -8784,18 +8784,18 @@
   "3511": {
    "id": "3511",
    "first_seen": "2026-11-06T17:15:52Z",
-   "headline": "Nvidia就黄仁勋与疑似中国间谍有婚外情展开调查",
+   "headline": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
    "headline_en": "House chairs ask Nvidia’s Jensen Huang to explain reported spy link",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:32Z",
+   "last_seen": "2026-11-10T07:09:26Z",
    "weekly": [
     0,
     0,
     4,
-    75
+    141
    ],
-   "this_week": 75,
+   "this_week": 141,
    "velocity": 9,
    "markets": {
     "intl": 5,
@@ -8833,8 +8833,8 @@
    "markets_abroad": 3,
    "subjects": [
     "tech",
-    "geopolitics",
-    "business"
+    "business",
+    "geopolitics"
    ],
    "relevant": true,
    "checked": "2026-11-09T09:45:39Z",
@@ -8926,14 +8926,14 @@
    "headline_en": "Russell Brand suspected to have attacked at least 10 other women",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:51:19Z",
+   "last_seen": "2026-11-10T07:09:45Z",
    "weekly": [
     0,
     0,
     0,
-    20
+    21
    ],
-   "this_week": 20,
+   "this_week": 21,
    "velocity": 1.6,
    "markets": {
     "uk": 7,
@@ -8978,14 +8978,14 @@
    "headline_en": "COP31 Action Tracker: US midterms and Brazil Roadmaps - edie",
    "headline_fi": "COP31: Ilmastopaneelin asiantuntijat median käytettävissä",
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:34Z",
+   "last_seen": "2026-11-10T07:09:31Z",
    "weekly": [
     2,
     1,
-    1,
-    25
+    2,
+    31
    ],
-   "this_week": 25,
+   "this_week": 31,
    "velocity": 8.5,
    "markets": {
     "de": 3,
@@ -9047,7 +9047,7 @@
    "headline_en": null,
    "headline_fi": "Antti Pennanen jakoi yhden MM-kisalipun - muut saivat odottaa",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:38Z",
+   "last_seen": "2026-11-10T07:09:36Z",
    "weekly": [
     0,
     0,
@@ -9073,7 +9073,7 @@
    "headline_en": "Sao Paulo Grand Prix: Lando Norris and George Russell hoping for more rain in race after wet qualifying",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:46Z",
+   "last_seen": "2026-11-10T07:09:43Z",
    "weekly": [
     0,
     0,
@@ -9127,7 +9127,7 @@
    "headline_en": null,
    "headline_fi": "Naisleijonan sisaruksilta hämmästyttävä temppu - \"Skaba jatkuu",
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:39Z",
+   "last_seen": "2026-11-10T07:09:37Z",
    "weekly": [
     1,
     0,
@@ -9153,7 +9153,7 @@
    "headline_en": "BBC Audio | F1: Chequered Flag | São Paulo GP Preview: Antonelli's Title Parade",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:46Z",
+   "last_seen": "2026-11-10T07:09:42Z",
    "weekly": [
     0,
     0,
@@ -9582,7 +9582,7 @@
    "headline_en": "US launches task force to disrupt Iran's land-based supply routes",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:41Z",
+   "last_seen": "2026-11-10T07:09:38Z",
    "weekly": [
     0,
     0,
@@ -9628,7 +9628,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-10T01:15:38Z",
+   "checked": "2026-11-10T07:15:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9639,7 +9639,7 @@
    "headline_en": "Rains flood thousands of displaced families' tents in Gaza",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:58Z",
+   "last_seen": "2026-11-10T07:09:56Z",
    "weekly": [
     0,
     0,
@@ -9707,7 +9707,7 @@
    "headline_en": "Trump confirms new US strikes on Iran's Qeshm Island",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:40Z",
+   "last_seen": "2026-11-10T07:09:38Z",
    "weekly": [
     0,
     0,
@@ -9754,7 +9754,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-10T01:15:38Z",
+   "checked": "2026-11-10T07:15:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9765,14 +9765,14 @@
    "headline_en": null,
    "headline_fi": "Ylen asiantuntija nimeää ratkaisevan eron HJK:n ja FC Interin välillä: \"Pöyhkeä pyörremyrsky\" on nyt mestarisuosikki",
    "state": "acceleration",
-   "last_seen": "2026-11-09T18:50:58Z",
+   "last_seen": "2026-11-10T07:09:46Z",
    "weekly": [
     7,
-    6,
-    13,
-    27
+    7,
+    12,
+    28
    ],
-   "this_week": 27,
+   "this_week": 28,
    "velocity": 2.076923076923077,
    "markets": {
     "fi": 10
@@ -9791,7 +9791,7 @@
    "headline_en": "Paris Masters: Carlos Alcaraz takes revenge on Ben Shelton to win title for first time",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:40Z",
+   "last_seen": "2026-11-10T07:09:38Z",
    "weekly": [
     0,
     0,
@@ -9844,7 +9844,7 @@
    "headline_en": "Egypt train crash leaves several dead, many injured",
    "headline_fi": "Junaturma Egyptissä - neljä kuollut, kymmeniä loukkaantunut",
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:59Z",
+   "last_seen": "2026-11-10T07:09:58Z",
    "weekly": [
     0,
     0,
@@ -9899,7 +9899,7 @@
    "headline_en": "Man United’s unique comeback leaves no one knowing how to feel",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:44Z",
+   "last_seen": "2026-11-10T07:09:41Z",
    "weekly": [
     0,
     0,
@@ -9949,25 +9949,25 @@
   "3531": {
    "id": "3531",
    "first_seen": "2026-11-07T05:42:45Z",
-   "headline": "Usman Khawaja reveals true extent of Australia’s sandpaper scandal: ‘It was all of us’",
+   "headline": "Former Australian cricketer Khawaja claims entire team knew about 'Sandpapergate'",
    "headline_en": "Former Australian cricketer Khawaja claims entire team knew about 'Sandpapergate'",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-09T18:50:35Z",
+   "last_seen": "2026-11-10T07:09:27Z",
    "weekly": [
     0,
     0,
     0,
-    14
+    16
    ],
-   "this_week": 14,
-   "velocity": 1,
+   "this_week": 16,
+   "velocity": 3.2,
    "markets": {
-    "intl": 2,
-    "uk": 2,
+    "intl": 4,
+    "uk": 5,
     "us": 1
    },
-   "outlets": 5,
+   "outlets": 7,
    "samples": [
     {
      "t": "Former Australian cricketer Khawaja claims entire team knew about 'Sandpapergate'",
@@ -9986,18 +9986,195 @@
      "p": "2026-11-07T01:34:01Z"
     },
     {
-     "t": "'It was all of us': Khawaja says entire Australia team knew about sandpaper ball tampering plot",
-     "u": "https://www.theguardian.com/sport/2026/nov/07/usman-khawaja-australia-cricket-team-sandpaper-ball-tampering-plot",
-     "d": "theguardian.com",
-     "c": "uk",
+     "t": "Khawaja denies throwing 'anyone under the bus' with comments about ball-tampering scandal",
+     "u": "https://www.reuters.com/sports/cricket/khawaja-denies-throwing-anyone-under-bus-with-comments-about-ball-tampering-2026-11-08/",
+     "d": "reuters.com",
+     "c": "intl",
      "l": "en",
-     "p": "2026-11-06T23:35:45Z"
+     "p": "2026-11-08T05:01:35Z"
     }
    ],
-   "abroad_first": "2026-11-06T22:10:37Z",
+   "abroad_first": "2026-11-06T22:06:57Z",
    "markets_abroad": 3,
    "subjects": [],
    "relevant": false
+  },
+  "3702": {
+   "id": "3702",
+   "first_seen": "2026-11-10T07:09:36Z",
+   "headline": "8 november: Här är dagens nyheter",
+   "headline_en": null,
+   "headline_fi": "Sosialidemokraatit esittää hallitusta ilman vasemmistopuoluetta",
+   "state": "acceleration",
+   "last_seen": "2026-11-10T07:09:36Z",
+   "weekly": [
+    5,
+    0,
+    9,
+    34
+   ],
+   "this_week": 34,
+   "velocity": 3.7777777777777777,
+   "markets": {
+    "se": 8,
+    "fi": 2
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "8 november: Här är dagens nyheter",
+     "u": "https://www.dn.se/sverige/8-november-har-ar-dagens-nyheter/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-08T20:07:09Z"
+    },
+    {
+     "t": "Nvidia utreder vd:s relation med spion",
+     "u": "https://www.dn.se/direkt/2026-11-08/nvidia-utreder-vds-relation-med-spion/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-08T20:17:01Z"
+    },
+    {
+     "t": "V-toppen: C och S vet att vi inte kan säga ja",
+     "u": "https://www.dn.se/direkt/2026-11-08/v-toppen-c-och-s-vet-att-vi-inte-kan-saga-ja/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-08T17:56:15Z"
+    }
+   ],
+   "abroad_first": "2026-11-08T17:04:15Z",
+   "markets_abroad": 1,
+   "subjects": [
+    "tech",
+    "business",
+    "policy"
+   ],
+   "relevant": true
+  },
+  "3613": {
+   "id": "3613",
+   "first_seen": "2026-11-08T06:14:53Z",
+   "headline": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
+   "headline_en": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-10T07:09:28Z",
+   "weekly": [
+    3,
+    1,
+    1,
+    16
+   ],
+   "this_week": 16,
+   "velocity": 10,
+   "markets": {
+    "intl": 5,
+    "de": 2,
+    "us": 1,
+    "se": 1,
+    "uk": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
+     "u": "https://www.reuters.com/world/middle-east/iran-sent-nuclear-proposal-us-via-qatar-senior-iranian-official-tells-reuters-2026-11-05/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-05T19:48:25Z"
+    },
+    {
+     "t": "Iran's security chief meets Putin, delivers message from Khamenei",
+     "u": "https://www.aljazeera.com/news/2026/11/6/irans-security-chief-meets-putin-delivers-message-from-khamenei",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-06T02:48:19Z"
+    },
+    {
+     "t": "\"ليس لديه ما يخسره الآن\" ـ مصادر ترجح أن يأمر ترامب بضرب إيران مجددا",
+     "u": "https://www.dw.com/ar/%D9%85%D8%B5%D8%A7%D8%AF%D8%B1-%D8%AA%D8%B1%D8%AC%D8%AD-%D8%A3%D9%86-%D9%8A%D8%A3%D9%85%D8%B1-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A-%D8%AA%D8%B1%D8%A7%D9%85%D8%A8-%D8%A8%D8%B6%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D9%85%D8%AC%D8%AF%D8%AF%D8%A7/live-79860485",
+     "d": "dw.com",
+     "c": "de",
+     "l": "ar",
+     "p": "2026-11-05T07:36:25Z"
+    }
+   ],
+   "abroad_first": "2026-11-04T04:39:31Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "geopolitics",
+    "sustainability"
+   ],
+   "relevant": true,
+   "checked": "2026-11-10T07:15:40Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3642": {
+   "id": "3642",
+   "first_seen": "2026-11-09T06:37:40Z",
+   "headline": "対イラン再攻撃、協議進展なら「可能性極めて低い」＝トランプ氏",
+   "headline_en": "Iran threatens to 'rain down hell' if US escalates war",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-10T07:09:37Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 8,
+   "markets": {
+    "intl": 4,
+    "de": 2,
+    "se": 1,
+    "uk": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "トランプ氏、カタール首相と9日会談へ　対イラン外交難航",
+     "u": "https://www.reuters.com/jp/world/security/TLZBSARN5JLW5EVX7TGJWZO7UE-2026-11-09/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-09T02:21:08Z"
+    },
+    {
+     "t": "Iran-Krieg: Trump: Neue Angriffe im Iran bei Gesprächen unwahrscheinlich",
+     "u": "https://www.wiwo.de/politik/ausland/iran-krieg-trump-neue-angriffe-im-iran-bei-gespraechen-unwahrscheinlich/100268258.html",
+     "d": "wiwo.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-08T18:58:06Z"
+    },
+    {
+     "t": "Trump: Osannolikt med nya attacker mot Iran",
+     "u": "https://www.dn.se/direkt/mellanostern/2026-11-08/trump-osannolikt-med-nya-attacker-mot-iran/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-08T18:26:19Z"
+    }
+   ],
+   "abroad_first": "2026-11-05T07:36:25Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics",
+    "sustainability"
+   ],
+   "relevant": true,
+   "checked": "2026-11-10T07:15:40Z",
+   "check_how": "url",
+   "check_error": null
   }
  }
 }
