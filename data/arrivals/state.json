@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-10T13:30:56Z",
+  "last_run": "2026-11-10T16:45:40Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 36,
+  "similar_left": 43,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -8648,7 +8648,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-10T10:15:40Z",
+   "checked": "2026-11-10T16:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -8707,7 +8707,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-10T10:15:40Z",
+   "checked": "2026-11-10T16:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9325,24 +9325,25 @@
    "first_seen": "2026-11-06T17:15:46Z",
    "headline": "Trump: Sopimus Ukrainan sodan päättämisestä voi koskea koko Eurooppaa - pelot heräävät",
    "headline_en": "Ukraine live: Trump claims 'big, beautiful' deal in works as UK bars Putin from G20",
-   "headline_fi": "Trump: Sopimus Ukrainan sodan päättämiseksi \"saattaa koskea koko Eurooppaa",
+   "headline_fi": "Trump: Sopimus Ukrainan sodan päättämisestä voi koskea koko Eurooppaa - pelot heräävät",
    "state": "emergence",
-   "last_seen": "2026-11-09T06:38:20Z",
+   "last_seen": "2026-11-10T07:09:30Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    14
    ],
-   "this_week": 13,
-   "velocity": 1,
+   "this_week": 14,
+   "velocity": 2.6,
    "markets": {
-    "fi": 2,
+    "fi": 4,
     "uk": 1,
-    "de": 1,
-    "se": 1
+    "de": 3,
+    "se": 1,
+    "intl": 1
    },
-   "outlets": 5,
+   "outlets": 7,
    "samples": [
     {
      "t": "Ukraine live: Trump claims 'big, beautiful' deal in works as UK bars Putin from G20",
@@ -9361,16 +9362,16 @@
      "p": "2026-11-05T23:32:29Z"
     },
     {
-     "t": "Trump: \"Kommer bli ett avtal med Ryssland",
-     "u": "https://www.di.se/nyheter/trump-kommer-bli-ett-avtal-med-ryssland/",
-     "d": "di.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-06T04:08:38Z"
+     "t": "Мерц і Трамп обговорили телефоном війну в Україні",
+     "u": "https://www.dw.com/uk/merc-i-tramp-obgovorili-telefonom-vijnu-v-ukraini/a-79877169",
+     "d": "dw.com",
+     "c": "de",
+     "l": "uk",
+     "p": "2026-11-06T14:22:01Z"
     }
    ],
    "abroad_first": "2026-11-05T23:32:29Z",
-   "markets_abroad": 3,
+   "markets_abroad": 4,
    "subjects": [
     "geopolitics"
    ],
