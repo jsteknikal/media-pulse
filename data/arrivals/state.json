@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-11T11:30:54Z",
+  "last_run": "2026-11-11T14:45:39Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 43,
+  "similar_left": 37,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -3531,7 +3531,7 @@
    "headline_en": "US, Russia block rival Western Sahara resolutions",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-11T08:30:52Z",
+   "checked": "2026-11-11T14:45:39Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4673,7 +4673,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-11T08:30:52Z",
+   "checked": "2026-11-11T14:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -4784,7 +4784,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-11T08:30:52Z",
+   "checked": "2026-11-11T14:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -5566,7 +5566,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-11T08:30:52Z",
+   "checked": "2026-11-11T14:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7578,7 +7578,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-11T08:30:52Z",
+   "checked": "2026-11-11T14:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9658,7 +9658,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-11T08:30:52Z",
+   "checked": "2026-11-11T14:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10141,7 +10141,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-11T08:30:52Z",
+   "checked": "2026-11-11T14:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10328,7 +10328,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-11T08:30:52Z",
+   "checked": "2026-11-11T14:45:39Z",
    "check_how": "url",
    "check_error": null
   },
