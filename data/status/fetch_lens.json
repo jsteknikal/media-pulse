@@ -1,6 +1,6 @@
 {
- "time": "2026-11-11T21:04:31Z",
- "new_articles": 2,
+ "time": "2026-11-11T21:15:46Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -56,7 +56,7 @@
    "id": "esg-news",
    "state": "ok",
    "fetched": 50,
-   "new": 2,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://esgnews.com/feed/"
@@ -64,12 +64,19 @@
   },
   {
    "id": "responsible-investor",
-   "state": "ok",
-   "fetched": 10,
+   "state": "partial",
+   "fetched": 0,
    "new": 0,
-   "errors": [],
+   "errors": [
+    "https://www.responsible-investor.com/feed/: HTTPError: HTTP Error 401: Unauthorized",
+    "https://www.responsible-investor.com/comments/feed/: HTTPError: HTTP Error 401: Unauthorized"
+   ],
    "feeds_used": [
-    "https://www.responsible-investor.com/feed/"
+    "https://www.responsible-investor.com/infrastructure-investor-3/feed/"
+   ],
+   "discovered": [
+    "https://www.responsible-investor.com/comments/feed/",
+    "https://www.responsible-investor.com/infrastructure-investor-3/feed/"
    ]
   },
   {
