@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-11T14:45:39Z",
+  "last_run": "2026-11-11T17:45:50Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 43,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9734,10 +9734,10 @@
    "id": "3604",
    "first_seen": "2026-11-08T06:14:45Z",
    "headline": "انتقادات ومقاطعة لمنح نجل شاه إيران السابق جائزة الحرية الألمانية",
-   "headline_en": "Trump confirms new US strikes on Iran's Qeshm Island",
+   "headline_en": "Maraykanka oo sheegay inuu $20 Malyan siin doono ciddii keenta xog ku saabsan Nukliyeerka Iiraan - BBC News Somali",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-10T19:22:31Z",
+   "last_seen": "2026-11-11T07:42:46Z",
    "weekly": [
     0,
     0,
@@ -9745,46 +9745,48 @@
     14
    ],
    "this_week": 14,
-   "velocity": 1,
+   "velocity": 2.8,
    "markets": {
+    "de": 1,
+    "uk": 5,
     "se": 3,
-    "intl": 1,
-    "uk": 1
+    "intl": 1
    },
-   "outlets": 3,
+   "outlets": 6,
    "samples": [
     {
-     "t": "Huthirörelsen: 33 döda i attacker",
-     "u": "https://www.dn.se/direkt/mellanostern/2026-11-08/huthirorelsen-33-doda-i-attacker/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-08T04:02:22Z"
+     "t": "انتقادات ومقاطعة لمنح نجل شاه إيران السابق جائزة الحرية الألمانية",
+     "u": "https://www.dw.com/ar/%D9%88%D8%B3%D8%B7-%D8%A7%D9%86%D8%AA%D9%82%D8%A7%D8%AF%D8%A7%D8%AA-%D9%88%D9%85%D9%82%D8%A7%D8%B7%D8%B9%D8%A9-%D9%86%D8%AC%D9%84-%D8%B4%D8%A7%D9%87-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%B3%D8%A7%D8%A8%D9%82-%D9%8A%D8%AA%D8%B3%D9%84%D9%85-%D8%AC%D8%A7%D8%A6%D8%B2%D8%A9-%D8%A7%D9%84%D8%AD%D8%B1%D9%8A%D8%A9-%D9%85%D9%86-%D9%85%D8%A4%D8%B3%D8%B3%D8%A9-%D8%A3%D9%84%D9%85%D8%A7%D9%86%D9%8A%D8%A9/live-79860485",
+     "d": "dw.com",
+     "c": "de",
+     "l": "ar",
+     "p": "2026-11-05T07:36:25Z"
     },
     {
-     "t": "USA: Nya attacker mot Iran",
-     "u": "https://www.dn.se/direkt/mellanostern/2026-11-07/usa-nya-attacker-mot-iran/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-07T04:06:51Z"
-    },
-    {
-     "t": "Trump confirms new US strikes on Iran's Qeshm Island",
-     "u": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island",
-     "d": "aljazeera.com",
-     "c": "intl",
+     "t": "Maraykanka oo sheegay inuu $20 Malyan siin doono ciddii keenta xog ku saabsan Nukliyeerka Iiraan - BBC News Somali",
+     "u": "https://www.bbc.com/somali/articles/cmx2q81v93q4o",
+     "d": "bbc.com",
+     "c": "uk",
      "l": "en",
-     "p": "2026-11-07T03:53:01Z"
+     "p": "2026-11-09T03:18:03Z"
+    },
+    {
+     "t": "АҚШ: \"Эроннинг ядровий дастури ҳақида маълумот учун 20 миллион доллар мукофот\" - BBC News O'zbek",
+     "u": "https://www.bbc.com/uzbek/articles/ckly0wj15453o/cyr",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ru",
+     "p": "2026-11-08T12:43:01Z"
     }
    ],
-   "abroad_first": "2026-11-07T03:07:01Z",
-   "markets_abroad": 3,
+   "abroad_first": "2026-11-05T07:36:25Z",
+   "markets_abroad": 4,
    "subjects": [
-    "geopolitics"
+    "geopolitics",
+    "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-11T02:30:49Z",
+   "checked": "2026-11-11T17:45:50Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10201,7 +10203,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-10T13:30:56Z",
+   "checked": "2026-11-11T17:45:50Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10339,7 +10341,7 @@
    "headline_en": "Trump reverses stance, alleges fraud in recent US midterm elections",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-10T19:22:36Z",
+   "last_seen": "2026-11-11T07:42:50Z",
    "weekly": [
     0,
     0,
@@ -10394,7 +10396,7 @@
    "headline_en": "Germany: Chancellor Merz to nominate Aigner for president",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-10T19:22:33Z",
+   "last_seen": "2026-11-11T07:42:48Z",
    "weekly": [
     0,
     0,
@@ -10788,6 +10790,61 @@
    ],
    "abroad_first": "2026-11-09T15:17:08Z",
    "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3670": {
+   "id": "3670",
+   "first_seen": "2026-11-09T18:50:45Z",
+   "headline": "ANC erleidet historische Niederlage bei Kommunalwahl in Südafrika",
+   "headline_en": "South Africa's ANC facing worst-ever performance in local elections",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-11T07:42:38Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.4,
+   "markets": {
+    "de": 6,
+    "es": 1,
+    "intl": 1,
+    "uk": 1,
+    "us": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "ANC erleidet historische Niederlage bei Kommunalwahl in Südafrika",
+     "u": "https://www.faz.net/aktuell/politik/ausland/anc-erleidet-historische-niederlage-bei-kommunalwahl-in-suedafrika-accg-201662453.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-08T12:19:11Z"
+    },
+    {
+     "t": "South Africa's ANC facing worst-ever performance in local elections",
+     "u": "https://www.dw.com/en/south-africas-anc-facing-worst-ever-performance-in-local-elections/a-79887482",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-07T18:07:00Z"
+    },
+    {
+     "t": "Ex-Mandela-Partei ANC erleidet Wahlschlappe in Südafrika",
+     "u": "https://www.dw.com/de/ex-mandela-partei-anc-erleidet-wahlschlappe-in-s%C3%BCdafrika/a-79884765",
+     "d": "dw.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-07T12:29:59Z"
+    }
+   ],
+   "abroad_first": "2026-11-07T12:29:59Z",
+   "markets_abroad": 5,
    "subjects": [],
    "relevant": false
   }
