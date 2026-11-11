@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-11T08:30:52Z",
+  "last_run": "2026-11-11T11:30:54Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 35,
+  "similar_left": 43,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -8654,9 +8654,18 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-11T05:30:51Z",
+   "checked": "2026-11-11T11:30:54Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-07T15:01:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012396084.html",
+    "t": "Italian ulkoministeri sanoo joutuneensa Venäjä-mielisten hakkereiden kohteeksi",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-11T11:30:54Z"
   },
   "3599": {
    "id": "3599",
@@ -8714,9 +8723,18 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-11T05:30:51Z",
+   "checked": "2026-11-11T11:30:54Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-08T08:08:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012396487.html",
+    "t": "Trump töräytti: \"Vankilaan pitäisi panna nämä KIRISTÄJÄT",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-11T11:30:54Z"
   },
   "3546": {
    "id": "3546",
