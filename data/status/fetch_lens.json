@@ -1,6 +1,6 @@
 {
- "time": "2026-11-11T11:45:38Z",
- "new_articles": 0,
+ "time": "2026-11-11T12:01:02Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -16,7 +16,7 @@
    "id": "sitra",
    "state": "ok",
    "fetched": 12,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://www.sitra.fi/feed/"
