@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-12T22:01:03Z",
+ "last_run": "2026-11-12T22:15:40Z",
  "source": "corpus-api",
  "high_water": "2026-11-12T21:46:55Z",
  "recent": {
@@ -21,8 +21,8 @@
   "ea670aeccafc": "2026-11-12T21:46:55Z"
  },
  "pages": 1,
- "received": 32,
- "tagged": 11,
+ "received": 16,
+ "tagged": 0,
  "rebuilt": false,
  "markets": [
   "de",
