@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-11T21:04:31Z",
+  "last_run": "2026-11-12T00:15:38Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 35,
+  "similar_left": 44,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9784,7 +9784,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-11T17:45:50Z",
+   "checked": "2026-11-12T00:15:38Z",
    "check_how": "url",
    "check_error": null
   },
