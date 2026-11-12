@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-12T12:45:39Z",
+  "last_run": "2026-11-12T15:45:40Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 43,
+  "similar_left": 36,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -3531,7 +3531,7 @@
    "headline_en": "US, Russia block rival Western Sahara resolutions",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-12T09:30:55Z",
+   "checked": "2026-11-12T15:45:40Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4673,7 +4673,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-12T09:30:55Z",
+   "checked": "2026-11-12T15:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -4784,7 +4784,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-12T09:30:55Z",
+   "checked": "2026-11-12T15:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -5566,7 +5566,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-12T09:30:55Z",
+   "checked": "2026-11-12T15:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7576,7 +7576,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-12T09:30:55Z",
+   "checked": "2026-11-12T15:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9653,7 +9653,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-12T09:30:55Z",
+   "checked": "2026-11-12T15:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10139,7 +10139,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-12T09:30:55Z",
+   "checked": "2026-11-12T15:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10326,7 +10326,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-12T09:30:55Z",
+   "checked": "2026-11-12T15:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11052,7 +11052,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-12T09:30:55Z",
+   "checked": "2026-11-12T15:45:40Z",
    "check_how": "url",
    "check_error": null
   },
