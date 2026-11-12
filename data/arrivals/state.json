@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-12T03:15:39Z",
+  "last_run": "2026-11-12T06:30:53Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 43,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9784,7 +9784,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-12T00:15:38Z",
+   "checked": "2026-11-12T06:30:53Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10201,7 +10201,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-11T17:45:50Z",
+   "checked": "2026-11-12T06:30:53Z",
    "check_how": "url",
    "check_error": null
   },
