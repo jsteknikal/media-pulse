@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-12T15:45:40Z",
+  "last_run": "2026-11-12T19:01:01Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 36,
+  "similar_left": 43,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9346,27 +9346,27 @@
   "3498": {
    "id": "3498",
    "first_seen": "2026-11-06T17:15:46Z",
-   "headline": "Trump: Sopimus Ukrainan sodan päättämiseksi \"saattaa koskea koko Eurooppaa",
+   "headline": "Ukraine live: Trump claims 'big, beautiful' deal in works as UK bars Putin from G20",
    "headline_en": "Ukraine live: Trump claims 'big, beautiful' deal in works as UK bars Putin from G20",
    "headline_fi": "Trump: Sopimus Ukrainan sodan päättämisestä voi koskea koko Eurooppaa - pelot heräävät",
-   "state": "emergence",
-   "last_seen": "2026-11-11T19:58:27Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-12T08:12:36Z",
    "weekly": [
     0,
     0,
-    0,
-    16
+    3,
+    13
    ],
-   "this_week": 16,
-   "velocity": 2.6,
+   "this_week": 13,
+   "velocity": 4.333333333333333,
    "markets": {
-    "fi": 4,
     "uk": 1,
-    "de": 3,
-    "se": 1,
+    "fi": 2,
+    "se": 2,
+    "de": 4,
     "intl": 1
    },
-   "outlets": 7,
+   "outlets": 8,
    "samples": [
     {
      "t": "Ukraine live: Trump claims 'big, beautiful' deal in works as UK bars Putin from G20",
@@ -9377,20 +9377,20 @@
      "p": "2026-11-06T04:49:46Z"
     },
     {
-     "t": "Trump raises prospect of 'big, beautiful' Russia-Ukraine deal",
-     "u": "https://www.dw.com/en/trump-raises-prospect-of-big-beautiful-russia-ukraine-deal/a-79871394",
-     "d": "dw.com",
-     "c": "de",
-     "l": "en",
-     "p": "2026-11-05T23:32:29Z"
+     "t": "Michael Winiarski: Putin kan vara nöjd med Trumps plan för säkerhet i Europa",
+     "u": "https://www.dn.se/varlden/michael-winiarski-putin-kan-vara-nojd-med-trumps-plan-for-sakerhet-i-europa/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-10T16:23:57Z"
     },
     {
-     "t": "Мерц і Трамп обговорили телефоном війну в Україні",
-     "u": "https://www.dw.com/uk/merc-i-tramp-obgovorili-telefonom-vijnu-v-ukraini/a-79877169",
-     "d": "dw.com",
-     "c": "de",
-     "l": "uk",
-     "p": "2026-11-06T14:22:01Z"
+     "t": "Trump: \"Kommer bli ett avtal med Ryssland",
+     "u": "https://www.di.se/nyheter/trump-kommer-bli-ett-avtal-med-ryssland/",
+     "d": "di.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-06T04:08:38Z"
     }
    ],
    "abroad_first": "2026-11-05T23:32:29Z",
@@ -9782,7 +9782,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-12T12:45:39Z",
+   "checked": "2026-11-12T19:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10199,7 +10199,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-12T12:45:39Z",
+   "checked": "2026-11-12T19:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10810,22 +10810,21 @@
    "headline": "ANC erleidet historische Niederlage bei Kommunalwahl in Südafrika",
    "headline_en": "South Africa's ANC facing worst-ever performance in local elections",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-11T19:58:34Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-12T08:12:42Z",
    "weekly": [
     0,
     0,
-    0,
-    14
+    1,
+    13
    ],
-   "this_week": 14,
-   "velocity": 2.4,
+   "this_week": 13,
+   "velocity": 13,
    "markets": {
     "de": 6,
     "es": 1,
     "intl": 1,
-    "uk": 1,
-    "us": 1
+    "uk": 2
    },
    "outlets": 7,
    "samples": [
@@ -10855,7 +10854,7 @@
     }
    ],
    "abroad_first": "2026-11-07T12:29:59Z",
-   "markets_abroad": 5,
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   },
@@ -11304,6 +11303,59 @@
    ],
    "abroad_first": "2026-11-11T09:11:21Z",
    "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3607": {
+   "id": "3607",
+   "first_seen": "2026-11-08T06:14:46Z",
+   "headline": "Neunter Spieltag: Bayern muss am Ende zittern, BVB bleibt oben dran",
+   "headline_en": "European football: Bayern beat Mainz but Neuer's record-breaking day turns sour",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-12T08:12:44Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2.6,
+   "markets": {
+    "de": 8,
+    "uk": 1,
+    "intl": 1
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "Neunter Spieltag: Bayern muss am Ende zittern, BVB bleibt oben dran",
+     "u": "https://www.welt.de/sport/fussball/bundesliga/article6aef2374798c07f951a8f276/neunter-spieltag-bayern-muss-am-ende-zittern-bvb-bleibt-oben-dran.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-07T14:04:40Z"
+    },
+    {
+     "t": "Neuer-Schock und Kompany-Hoffnung: Bayern rückt zusammen",
+     "u": "https://www.welt.de/regionales/bayern/article6af041ba1125adfe9365c388/neuer-schock-und-kompany-hoffnung-bayern-rueckt-zusammen.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-08T09:32:42Z"
+    },
+    {
+     "t": "FC Bayern: \"Wahrscheinlich etwas Ernsthaftes\" - In seinem Rekordspiel muss Neuer vom Platz",
+     "u": "https://www.welt.de/sport/fussball/bundesliga/article6aef56187c71507610467c9f/fc-bayern-wahrscheinlich-etwas-ernsthaftes-in-seinem-rekordspiel-muss-neuer-vom-platz.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-07T18:00:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-07T14:04:40Z",
+   "markets_abroad": 3,
    "subjects": [],
    "relevant": false
   }
