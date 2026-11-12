@@ -1,14 +1,15 @@
 {
- "last_run": "2026-11-12T01:15:36Z",
+ "last_run": "2026-11-12T01:30:52Z",
  "source": "corpus-api",
- "high_water": "2026-11-12T00:58:10Z",
+ "high_water": "2026-11-12T01:28:58Z",
  "recent": {
-  "103fa4a57d26": "2026-11-12T00:58:09Z",
-  "1de8dafe00de": "2026-11-12T00:58:10Z"
+  "054d3a949ad8": "2026-11-12T01:28:57Z",
+  "daa57f76f4fd": "2026-11-12T01:28:57Z",
+  "d9b73df77dbb": "2026-11-12T01:28:58Z"
  },
  "pages": 1,
- "received": 2,
- "tagged": 0,
+ "received": 5,
+ "tagged": 1,
  "rebuilt": false,
  "markets": [
   "de",
