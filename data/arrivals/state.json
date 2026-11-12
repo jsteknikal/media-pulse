@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-12T19:01:01Z",
+  "last_run": "2026-11-12T22:01:03Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 43,
+  "similar_left": 37,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -3531,7 +3531,7 @@
    "headline_en": "US, Russia block rival Western Sahara resolutions",
    "headline_fi": null,
    "markets_abroad": 4,
-   "checked": "2026-11-12T15:45:40Z",
+   "checked": "2026-11-12T22:01:03Z",
    "check_how": "url",
    "check_error": null,
    "subjects": [
@@ -4673,7 +4673,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-12T15:45:40Z",
+   "checked": "2026-11-12T22:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -4784,7 +4784,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-12T15:45:40Z",
+   "checked": "2026-11-12T22:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7055,14 +7055,14 @@
    "headline_en": "Ousted Paraguayan president placed under house arrest after bank collapse",
    "headline_fi": "Paraguay ajautui pankkikriisiin - presidentti erosi",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:06Z",
+   "last_seen": "2026-11-12T20:32:46Z",
    "weekly": [
     1,
     0,
-    39,
-    98
+    40,
+    97
    ],
-   "this_week": 98,
+   "this_week": 97,
    "velocity": 63,
    "markets": {
     "se": 2,
@@ -7316,7 +7316,7 @@
    "headline_en": "In Mississippi, voters await cliffhanger Senate result with hope and frustration",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:11:58Z",
+   "last_seen": "2026-11-12T20:32:40Z",
    "weekly": [
     0,
     4,
@@ -7576,7 +7576,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-12T15:45:40Z",
+   "checked": "2026-11-12T22:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7698,7 +7698,7 @@
    "headline_en": "Live Updates: Trump Names Stephen Miller His Chief of Staff, Replacing Susie Wiles",
    "headline_fi": "Trumpin luottomies Miller nousee kansliapäälliköksi",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:10Z",
+   "last_seen": "2026-11-12T20:32:49Z",
    "weekly": [
     0,
     0,
@@ -7765,7 +7765,7 @@
    "headline_en": "Trump teases 'big agreement' after meeting Putin envoy but not Ukrainian officials",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:57Z",
+   "last_seen": "2026-11-12T20:33:32Z",
    "weekly": [
     0,
     0,
@@ -7833,7 +7833,7 @@
    "headline_en": "U.S. adds 165,000 jobs in October, exceeding forecasts",
    "headline_fi": "PÖRSSIT: Wall Street toipuu romahduksesta - Sirujätit kovassa nousussa",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:51Z",
+   "last_seen": "2026-11-12T20:33:27Z",
    "weekly": [
     0,
     0,
@@ -7902,7 +7902,7 @@
    "headline_en": "Tesla’s Cybertruck heads for an exit after years of hype and division",
    "headline_fi": "Elon Musk: Tesla ajaa alas Cybertruckin valmistuksen",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:23Z",
+   "last_seen": "2026-11-12T20:33:01Z",
    "weekly": [
     0,
     0,
@@ -7971,7 +7971,7 @@
    "headline_en": "Germany news: Son of Iran's last shah takes center stage in Frankfurt",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:31Z",
+   "last_seen": "2026-11-12T20:33:08Z",
    "weekly": [
     3,
     42,
@@ -8024,14 +8024,14 @@
    "headline_en": "Could Russell Brand go to prison if convicted – and how long would he be jailed for?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:08Z",
+   "last_seen": "2026-11-12T20:32:48Z",
    "weekly": [
-    17,
     15,
-    20,
-    71
+    15,
+    24,
+    67
    ],
-   "this_week": 71,
+   "this_week": 67,
    "velocity": 5.142857142857143,
    "markets": {
     "uk": 6,
@@ -8078,7 +8078,7 @@
    "headline_en": null,
    "headline_fi": "Ruotsin punavihreät saattoivat pelata itsensä ulos vaalivoitosta huolimatta",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:19Z",
+   "last_seen": "2026-11-12T20:32:58Z",
    "weekly": [
     32,
     30,
@@ -8185,7 +8185,7 @@
    "headline_en": "Krakow shooting latest: Gunman in military gear shot by police after killing five using ‘army-style’ rifle",
    "headline_fi": "Sisäministeri: Puolan ampuja oli \"kiinnostunut äärioikeistolaisesta ideologiasta",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:22Z",
+   "last_seen": "2026-11-12T20:33:00Z",
    "weekly": [
     0,
     0,
@@ -8255,7 +8255,7 @@
    "headline_en": "Trump offers UFC chief Dana White press secretary job",
    "headline_fi": "Melkoinen hurja joukko tulossa Valkoisen talon tiedotusosastolle, jos hyväksyvät Trumpin tarjouksen",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:07Z",
+   "last_seen": "2026-11-12T20:32:47Z",
    "weekly": [
     0,
     0,
@@ -8547,7 +8547,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:13:08Z",
+   "last_seen": "2026-11-12T20:33:42Z",
    "weekly": [
     0,
     2,
@@ -8600,7 +8600,7 @@
    "headline_en": "Ukraine war briefing: Russia ramping up attacks to 'pressure' Kyiv at trilateral talks, Zelenskyy says",
    "headline_fi": "Italian ulkoministeri sanoo joutuneensa Venäjä-mielisten hakkereiden kohteeksi",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:01Z",
+   "last_seen": "2026-11-12T20:32:42Z",
    "weekly": [
     0,
     0,
@@ -8671,7 +8671,7 @@
    "headline_en": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
    "headline_fi": "Trump töräytti: \"Vankilaan pitäisi panna nämä KIRISTÄJÄT",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:13:02Z",
+   "last_seen": "2026-11-12T20:33:36Z",
    "weekly": [
     0,
     0,
@@ -8740,7 +8740,7 @@
    "headline_en": "Protesters break into Microsoft data centre construction site in Amsterdam",
    "headline_fi": "Aktivistit tunkeutuivat Microsoftin datakeskustyömaalle",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:15Z",
+   "last_seen": "2026-11-12T20:32:53Z",
    "weekly": [
     0,
     0,
@@ -8809,14 +8809,14 @@
    "headline_en": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:11:57Z",
+   "last_seen": "2026-11-12T20:32:37Z",
    "weekly": [
     1,
     4,
     3,
-    376
+    389
    ],
-   "this_week": 376,
+   "this_week": 389,
    "velocity": 55,
    "markets": {
     "uk": 4,
@@ -8948,14 +8948,14 @@
    "headline_en": "Russell Brand suspected to have attacked at least 10 other women",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:54Z",
+   "last_seen": "2026-11-12T20:33:29Z",
    "weekly": [
     0,
     0,
-    4,
-    23
+    6,
+    21
    ],
-   "this_week": 23,
+   "this_week": 21,
    "velocity": 5.75,
    "markets": {
     "de": 3,
@@ -9002,7 +9002,7 @@
    "headline_en": "COP31 Action Tracker: US midterms and Brazil Roadmaps - edie",
    "headline_fi": "Keskuskauppakamari: Päästövähennykset eivät enää yksin riitä – ilmastonmuutokseen on myös sopeuduttava",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:21Z",
+   "last_seen": "2026-11-12T20:32:59Z",
    "weekly": [
     3,
     1,
@@ -9095,7 +9095,7 @@
    "headline_en": "Brazilian Grand Prix briefing: Lando Norris wins rainy thriller, Mercedes seals team title",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:52Z",
+   "last_seen": "2026-11-12T20:33:27Z",
    "weekly": [
     0,
     0,
@@ -9150,7 +9150,7 @@
    "headline_en": null,
    "headline_fi": "10 min: Susanna Tapani huippupaikassa",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:28Z",
+   "last_seen": "2026-11-12T20:33:05Z",
    "weekly": [
     0,
     0,
@@ -9175,20 +9175,21 @@
    "headline": "Norris siegt bei der Formel 1 in São Paulo - Mercedes jubelt über Team-WM",
    "headline_en": "Dominant Lando Norris powers to victory in São Paulo F1 Grand Prix",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-12T08:12:51Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-12T20:33:27Z",
    "weekly": [
     0,
     0,
-    0,
-    20
+    1,
+    19
    ],
-   "this_week": 20,
-   "velocity": 4,
+   "this_week": 19,
+   "velocity": 19,
    "markets": {
     "de": 5,
-    "uk": 4,
-    "intl": 1
+    "uk": 3,
+    "intl": 1,
+    "us": 1
    },
    "outlets": 8,
    "samples": [
@@ -9218,7 +9219,7 @@
     }
    ],
    "abroad_first": "2026-11-05T09:00:03Z",
-   "markets_abroad": 3,
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   },
@@ -9350,7 +9351,7 @@
    "headline_en": "Ukraine live: Trump claims 'big, beautiful' deal in works as UK bars Putin from G20",
    "headline_fi": "Trump: Sopimus Ukrainan sodan päättämisestä voi koskea koko Eurooppaa - pelot heräävät",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:36Z",
+   "last_seen": "2026-11-12T20:33:13Z",
    "weekly": [
     0,
     0,
@@ -9606,7 +9607,7 @@
    "headline_en": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:29Z",
+   "last_seen": "2026-11-12T20:33:06Z",
    "weekly": [
     0,
     0,
@@ -9653,7 +9654,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-12T15:45:40Z",
+   "checked": "2026-11-12T22:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9664,7 +9665,7 @@
    "headline_en": "Gaza: Rains add misery to humanitarian catastrophe",
    "headline_fi": "Sadevesi tulvi kymmeniin tuhansiin telttoihin Gazassa",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:28Z",
+   "last_seen": "2026-11-12T20:33:05Z",
    "weekly": [
     0,
     0,
@@ -9733,7 +9734,7 @@
    "headline_en": "Maraykanka oo sheegay inuu $20 Malyan siin doono ciddii keenta xog ku saabsan Nukliyeerka Iiraan - BBC News Somali",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:50Z",
+   "last_seen": "2026-11-12T20:33:25Z",
    "weekly": [
     0,
     0,
@@ -9793,7 +9794,7 @@
    "headline_en": null,
    "headline_fi": "Ylen asiantuntija nimeää ratkaisevan eron HJK:n ja FC Interin välillä: \"Pöyhkeä pyörremyrsky\" on nyt mestarisuosikki",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:54Z",
+   "last_seen": "2026-11-12T20:33:30Z",
    "weekly": [
     7,
     13,
@@ -9801,7 +9802,7 @@
     28
    ],
    "this_week": 28,
-   "velocity": 2.076923076923077,
+   "velocity": 4.666666666666667,
    "markets": {
     "fi": 10
    },
@@ -9819,7 +9820,7 @@
    "headline_en": "Alcaraz beats Shelton to win Paris Masters, avenges US Open loss",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:49Z",
+   "last_seen": "2026-11-12T20:33:25Z",
    "weekly": [
     0,
     0,
@@ -9872,7 +9873,7 @@
    "headline_en": "Egypt train crash leaves several dead, many injured",
    "headline_fi": "Junaturma Egyptissä - neljä kuollut, kymmeniä loukkaantunut",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:13:07Z",
+   "last_seen": "2026-11-12T20:33:40Z",
    "weekly": [
     0,
     0,
@@ -9981,14 +9982,14 @@
    "headline_en": "Former Australian cricketer Khawaja claims entire team knew about 'Sandpapergate'",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:05Z",
+   "last_seen": "2026-11-12T20:32:39Z",
    "weekly": [
     0,
     0,
     0,
-    24
+    25
    ],
-   "this_week": 24,
+   "this_week": 25,
    "velocity": 3.2,
    "markets": {
     "intl": 4,
@@ -10034,7 +10035,7 @@
    "headline_en": null,
    "headline_fi": "Sosialidemokraatit esittää hallitusta ilman vasemmistopuoluetta",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:27Z",
+   "last_seen": "2026-11-12T20:33:04Z",
    "weekly": [
     2,
     2,
@@ -10090,7 +10091,7 @@
    "headline_en": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:02Z",
+   "last_seen": "2026-11-12T20:32:43Z",
    "weekly": [
     4,
     0,
@@ -10139,7 +10140,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-12T15:45:40Z",
+   "checked": "2026-11-12T22:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10210,7 +10211,7 @@
    "headline_en": "A bleak Booker winner for our chaotic times - will readers come along for the ride?",
    "headline_fi": "Kirjallisuuden Booker-palkinnolle kaikkien aikojen vanhin voittaja",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:30Z",
+   "last_seen": "2026-11-12T20:33:07Z",
    "weekly": [
     0,
     0,
@@ -10278,7 +10279,7 @@
    "headline_en": "US forces 'disabled' commercial vessel in Gulf of Oman",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:10Z",
+   "last_seen": "2026-11-12T20:32:49Z",
    "weekly": [
     0,
     0,
@@ -10326,7 +10327,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-12T15:45:40Z",
+   "checked": "2026-11-12T22:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10337,7 +10338,7 @@
    "headline_en": "Trump reverses stance, alleges fraud in recent US midterm elections",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:53Z",
+   "last_seen": "2026-11-12T20:33:28Z",
    "weekly": [
     0,
     0,
@@ -10392,7 +10393,7 @@
    "headline_en": "Germany news: Merz to nominate Aigner for president",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:27Z",
+   "last_seen": "2026-11-12T20:33:04Z",
    "weekly": [
     0,
     0,
@@ -10443,7 +10444,7 @@
    "headline_en": "Trump Says Immigration Crackdown May Have 'Hurt' Republicans in Midterms",
    "headline_fi": "Trump tunnusti saattaneensa tehdä virheen",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:31Z",
+   "last_seen": "2026-11-12T20:33:08Z",
    "weekly": [
     0,
     0,
@@ -10514,14 +10515,14 @@
    "headline_en": "Senior US soldier arrested in UK on suspicion of spying for Russia",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:24Z",
+   "last_seen": "2026-11-12T20:32:37Z",
    "weekly": [
     0,
     0,
     0,
-    18
+    19
    ],
-   "this_week": 18,
+   "this_week": 19,
    "velocity": 3,
    "markets": {
     "se": 3,
@@ -10583,7 +10584,7 @@
    "headline_en": "Merz accused of 'blackmail' by Slovakian PM after demand for Ukraine aid in EU budget",
    "headline_fi": "Eurooppa ei ole uhri vaan saamaton",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:23Z",
+   "last_seen": "2026-11-12T20:33:01Z",
    "weekly": [
     7,
     0,
@@ -10651,14 +10652,14 @@
    "headline_en": "Meghan's father Thomas Markle appears in court over child sex abuse material",
    "headline_fi": "Poliisi pyysi Meghanin veljeltä anteeksi - lapsipornotutkinnassa kiusallinen käänne",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:19Z",
+   "last_seen": "2026-11-12T20:32:57Z",
    "weekly": [
     0,
-    58,
+    59,
     6,
-    50
+    49
    ],
-   "this_week": 50,
+   "this_week": 49,
    "velocity": 4.7,
    "markets": {
     "de": 4,
@@ -10705,14 +10706,14 @@
    "headline_en": "David Walliams accused of sexual misconduct in Guardian and ITN investigation",
    "headline_fi": "Koomikko David Walliamsia syytetään seksuaalisesta hyväksikäytöstä, joukossa alaikäisiä tyttöjä",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:01Z",
+   "last_seen": "2026-11-12T20:32:39Z",
    "weekly": [
     0,
     0,
     0,
-    29
+    31
    ],
-   "this_week": 29,
+   "this_week": 31,
    "velocity": 3.2,
    "markets": {
     "uk": 8,
@@ -10758,7 +10759,7 @@
    "headline_en": "Turkey steel plant blast kills at least 17",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:35Z",
+   "last_seen": "2026-11-12T20:33:12Z",
    "weekly": [
     0,
     0,
@@ -10811,7 +10812,7 @@
    "headline_en": "South Africa's ANC facing worst-ever performance in local elections",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:42Z",
+   "last_seen": "2026-11-12T20:33:19Z",
    "weekly": [
     0,
     0,
@@ -10865,7 +10866,7 @@
    "headline_en": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
    "headline_fi": "Kolmea miestä syytetään terrori-iskun suunnitellusta Fairford lentotukikohtaan",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:16Z",
+   "last_seen": "2026-11-12T20:32:55Z",
    "weekly": [
     0,
     0,
@@ -10933,7 +10934,7 @@
    "headline_en": "Qatar LNG Loadings Pick Up to Around Half of Pre-War Levels",
    "headline_fi": "Yhdysvallat pidättäytyy iskuista Iraniin, sanoo Trump",
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:34Z",
+   "last_seen": "2026-11-12T20:33:11Z",
    "weekly": [
     0,
     0,
@@ -11002,7 +11003,7 @@
    "headline_en": "Anthropic's IPO Valuation Raises A Question: Is AI Worth Its Cost?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:38Z",
+   "last_seen": "2026-11-12T20:33:15Z",
    "weekly": [
     6,
     0,
@@ -11051,7 +11052,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-12T15:45:40Z",
+   "checked": "2026-11-12T22:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11062,7 +11063,7 @@
    "headline_en": "Russian ambassador to US dies, foreign ministry says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:26Z",
+   "last_seen": "2026-11-12T20:33:03Z",
    "weekly": [
     0,
     0,
@@ -11131,7 +11132,7 @@
    "headline_en": "Ukraine war live: Trump sees 'strong inclination' to end war ahead of Abu Dhabi talks",
    "headline_fi": "Tietomurto saattoi paljastaa Venäjän massiiviset tappiot Ukrainassa",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:26Z",
+   "last_seen": "2026-11-12T20:33:04Z",
    "weekly": [
     0,
     0,
@@ -11201,7 +11202,7 @@
    "headline_en": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
    "headline_fi": "Barcelonassa puhkesi mellakka - kauppoja ryöstetty, yhteenottoja poliisin kanssa",
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:01Z",
+   "last_seen": "2026-11-12T20:32:42Z",
    "weekly": [
     4,
     0,
@@ -11258,7 +11259,7 @@
    "headline_en": "Spain general strike: Thousands gather in Madrid to protest",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T08:12:07Z",
+   "last_seen": "2026-11-12T20:32:47Z",
    "weekly": [
     2,
     2,
@@ -11313,7 +11314,7 @@
    "headline_en": "European football: Bayern beat Mainz but Neuer's record-breaking day turns sour",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T08:12:44Z",
+   "last_seen": "2026-11-12T20:33:20Z",
    "weekly": [
     0,
     0,
