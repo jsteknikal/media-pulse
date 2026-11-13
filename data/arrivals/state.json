@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-13T07:30:52Z",
+  "last_run": "2026-11-13T10:30:56Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 41,
+  "similar_left": 35,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -1622,22 +1622,14 @@
    "this_week": 50,
    "velocity": 4.636363636363637,
    "markets": {
-    "se": 4,
     "intl": 1,
     "uk": 1,
     "fi": 2,
-    "de": 2
+    "de": 2,
+    "se": 1
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
-    {
-     "t": "Iowa ser ut att gå mot rekordstort valdeltagande",
-     "u": "https://www.dn.se/direkt/2026-11-03/iowa-ser-ut-att-ga-mot-rekordstort-valdeltagande/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-03T21:22:59Z"
-    },
     {
      "t": "Spain's transport minister resigns over Urda train crash",
      "u": "https://www.euronews.com/2026/11/03/spains-transport-minister-oscar-puente-resigns-over-urda-train-crash-that-killed-69",
@@ -1653,6 +1645,14 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-03T20:36:14Z"
+    },
+    {
+     "t": "Nach zwei tödlichen Zugunglücken: Spaniens Verkehrsminister tritt...",
+     "u": "https://www.diepresse.com/41417111/nach-zwei-toedlichen-zugungluecken-spaniens-verkehrsminister-tritt",
+     "d": "diepresse.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-03T20:31:22Z"
     }
    ],
    "abroad_first": "2026-11-01T14:46:40Z",
@@ -1956,10 +1956,9 @@
     "uk": 1,
     "fi": 1,
     "intl": 1,
-    "de": 1,
-    "se": 2
+    "de": 1
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
      "t": "Annie Andrews Defeats Darline Graham in South Carolina Senate Race",
@@ -1989,7 +1988,7 @@
    "abroad_first": "2026-11-03T14:35:26Z",
    "headline_en": "Annie Andrews Defeats Darline Graham in South Carolina Senate Race",
    "headline_fi": "Asiantuntijalta tyly arvio: Julkinen mielipide kääntyi Trumpia vastaan",
-   "markets_abroad": 5,
+   "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
@@ -2535,10 +2534,9 @@
    "velocity": 38,
    "markets": {
     "intl": 1,
-    "se": 6,
     "uk": 3
    },
-   "outlets": 5,
+   "outlets": 4,
    "samples": [
     {
      "t": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats",
@@ -2549,26 +2547,26 @@
      "p": "2026-11-04T00:41:20Z"
     },
     {
-     "t": "CNN: Demokraterna får majoritet i representanthuset",
-     "u": "https://www.dn.se/direkt/2026-11-04/cnn-demokraterna-far-majoritet-i-representanthuset/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-04T03:05:53Z"
-    },
-    {
      "t": "Democrat Jon Ossoff projected to hold key Georgia Senate seat",
      "u": "https://www.bbc.com/news/videos/ck7vp45ydgryo",
      "d": "bbc.com",
      "c": "uk",
      "l": "en",
      "p": "2026-11-04T01:35:38Z"
+    },
+    {
+     "t": "Jon Ossoff wins Georgia Senate race over Republican Mike Collins",
+     "u": "https://www.theguardian.com/us-news/2026/nov/03/jon-ossoff-mike-collins-georgia-senate",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-04T00:57:23Z"
     }
    ],
    "abroad_first": "2026-11-04T00:41:20Z",
    "headline_en": "Senator Jon Ossoff wins reelection, holding Georgia for Democrats",
    "headline_fi": null,
-   "markets_abroad": 3,
+   "markets_abroad": 2,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
@@ -2814,10 +2812,9 @@
     "de": 2,
     "us": 3,
     "uk": 3,
-    "intl": 1,
-    "se": 1
+    "intl": 1
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
     {
      "t": "Morgenüberblick zu Midterms: Diese fünf Ergebnisse der US-Wahl sind schon klar",
@@ -2847,7 +2844,7 @@
    "abroad_first": "2026-11-03T00:00:00Z",
    "headline_en": "Roy Cooper Flips North Carolina Senate Seat to Democrats by Defeating Michael Whatley",
    "headline_fi": null,
-   "markets_abroad": 5,
+   "markets_abroad": 4,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
@@ -3556,10 +3553,9 @@
    "markets": {
     "intl": 5,
     "uk": 3,
-    "se": 1,
     "de": 1
    },
-   "outlets": 7,
+   "outlets": 6,
    "samples": [
     {
      "t": "US strikes Iran's Qeshm Island ahead of midterm elections",
@@ -3578,18 +3574,18 @@
      "p": "2026-11-03T03:18:36Z"
     },
     {
-     "t": "USA: Nya attacker mot Iran",
-     "u": "https://www.dn.se/direkt/mellanostern/2026-11-07/usa-nya-attacker-mot-iran/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-07T04:06:51Z"
+     "t": "Explosions heard as US conducts 'defensive strikes' against Iran in Strait of Hormuz",
+     "u": "https://www.independent.co.uk/news/world/middle-east/us-strikes-iran-qeshm-island-trump-strait-hormuz-b3078007.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-03T04:47:58Z"
     }
    ],
    "abroad_first": "2026-11-03T02:51:33Z",
    "headline_en": "US strikes Iran's Qeshm Island ahead of midterm elections",
    "headline_fi": null,
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "checked": "2026-11-05T13:38:26Z",
    "check_how": "url",
    "check_error": null,
@@ -4216,7 +4212,7 @@
     "us": 2,
     "de": 5,
     "intl": 1,
-    "se": 2
+    "se": 1
    },
    "outlets": 6,
    "samples": [
@@ -4635,10 +4631,9 @@
    "markets": {
     "uk": 3,
     "us": 4,
-    "de": 2,
-    "se": 1
+    "de": 2
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
      "t": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
@@ -4668,12 +4663,12 @@
    "abroad_first": "2026-11-03T00:00:00Z",
    "headline_en": "Adam Hamilton wins in Kansas to become state's first Democrat in Senate since 1932",
    "headline_fi": null,
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "subjects": [
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-13T04:15:36Z",
+   "checked": "2026-11-13T10:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -4784,7 +4779,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-13T04:15:36Z",
+   "checked": "2026-11-13T10:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -6364,11 +6359,11 @@
    "this_week": 20,
    "velocity": 4,
    "markets": {
-    "se": 5,
+    "se": 1,
     "fi": 3,
     "de": 2
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
      "t": "Marius Borg Høiby ska försättas på fri fot",
@@ -6379,20 +6374,20 @@
      "p": "2026-11-02T16:15:13Z"
     },
     {
-     "t": "Då möts Haaland och Norwegian i rätten",
-     "u": "https://www.dn.se/direkt/2026-11-04/da-mots-haaland-och-norwegian-i-ratten/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-04T15:40:34Z"
-    },
-    {
      "t": "Sohn der norwegischen Königin: Marius Borg Høiby soll aus U-Haft entlassen werden",
      "u": "https://www.welt.de/vermischtes/kriminalitaet/article6ae8d036482c56d13c43acfd/sohn-der-norwegischen-koenigin-marius-borg-hiby-soll-aus-u-haft-entlassen-werden.html",
      "d": "welt.de",
      "c": "de",
      "l": "de",
      "p": "2026-11-02T18:19:34Z"
+    },
+    {
+     "t": "Marius Borg Høiby muss doch erst mal weiter in Untersuchungshaft bleiben",
+     "u": "https://www.spiegel.de/panorama/justiz/marius-borg-hoiby-muss-doch-erst-mal-weiter-in-untersuchungshaft-bleiben-a-3e18db74-80c6-408d-ad9f-ebab87dc7866",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-04T16:42:00Z"
     }
    ],
    "abroad_first": "2026-11-02T16:15:13Z",
@@ -6721,10 +6716,9 @@
     "us": 1,
     "de": 3,
     "uk": 4,
-    "intl": 1,
-    "se": 1
+    "intl": 1
    },
-   "outlets": 9,
+   "outlets": 8,
    "samples": [
     {
      "t": "Joshua Wong, Hong Kong Democracy Activist, Is Sentenced to 10 Years in Prison",
@@ -6752,7 +6746,7 @@
     }
    ],
    "abroad_first": "2026-11-05T03:06:57Z",
-   "markets_abroad": 5,
+   "markets_abroad": 4,
    "subjects": [
     "policy",
     "geopolitics"
@@ -7065,22 +7059,13 @@
    "this_week": 97,
    "velocity": 63,
    "markets": {
-    "se": 2,
     "uk": 2,
     "us": 2,
     "es": 2,
     "fi": 2
    },
-   "outlets": 7,
+   "outlets": 6,
    "samples": [
-    {
-     "t": "Signalfel stoppar tåg norr om Stockholm",
-     "u": "https://www.dn.se/direkt/2026-11-05/signalfel-stoppar-tag-norr-om-stockholm/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-05T18:14:10Z"
-    },
     {
      "t": "La crisis del Ueno Bank en Paraguay precipitó una crisis política en el país",
      "u": "https://www.bbc.com/mundo/watch/cmje5q2gd2pdo",
@@ -7096,14 +7081,20 @@
      "c": "us",
      "l": "es",
      "p": "2026-11-06T23:24:51Z"
+    },
+    {
+     "t": "Crónica en redes de una caída",
+     "u": "https://elpais.com/opinion/2026-11-09/cronica-en-redes-de-una-caida.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-09T04:30:01Z"
     }
    ],
    "abroad_first": "2026-11-05T00:00:00Z",
-   "markets_abroad": 4,
-   "subjects": [
-    "business"
-   ],
-   "relevant": true,
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false,
    "checked": "2026-11-06T19:30:49Z",
    "check_how": "url",
    "check_error": null,
@@ -7134,7 +7125,7 @@
    "this_week": 16,
    "velocity": 3.2,
    "markets": {
-    "se": 3,
+    "se": 1,
     "uk": 5,
     "intl": 1,
     "fi": 1
@@ -7150,28 +7141,26 @@
      "p": "2026-11-04T16:16:03Z"
     },
     {
-     "t": "Oljepriset rasar efter Vances utspel om Iran",
-     "u": "https://www.dn.se/direkt/2026-11-04/oljepriset-rasar-efter-vances-utspel-om-iran/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-04T17:23:41Z"
-    },
-    {
      "t": "British healthcare worker with Ebola to be evacuated from DRC to UK, document shows",
      "u": "https://www.theguardian.com/world/2026/nov/04/british-healthcare-worker-ebola-evacuated-drc-to-uk-document-shows",
      "d": "theguardian.com",
      "c": "uk",
      "l": "en",
      "p": "2026-11-04T16:32:31Z"
+    },
+    {
+     "t": "British man being treated for Ebola in Congo is being evacuated to the UK",
+     "u": "https://www.independent.co.uk/news/ebola-british-congo-royal-free-hospital-europe-b3079754.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-05T12:27:48Z"
     }
    ],
    "abroad_first": "2026-11-04T16:14:05Z",
    "markets_abroad": 3,
-   "subjects": [
-    "geopolitics"
-   ],
-   "relevant": true,
+   "subjects": [],
+   "relevant": false,
    "checked": "2026-11-06T19:30:49Z",
    "check_how": "url",
    "check_error": null,
@@ -7316,14 +7305,14 @@
    "headline_en": "In Mississippi, voters await cliffhanger Senate result with hope and frustration",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:32:40Z",
+   "last_seen": "2026-11-13T08:44:14Z",
    "weekly": [
     0,
     4,
-    17,
-    59
+    25,
+    61
    ],
-   "this_week": 59,
+   "this_week": 61,
    "velocity": 2.888888888888889,
    "markets": {
     "uk": 3,
@@ -7378,29 +7367,12 @@
    "this_week": 24,
    "velocity": 4.6,
    "markets": {
-    "se": 2,
     "uk": 4,
     "intl": 2,
     "us": 2
    },
-   "outlets": 7,
+   "outlets": 6,
    "samples": [
-    {
-     "t": "Branta börsras i Asien",
-     "u": "https://www.dn.se/direkt/2026-11-06/branta-borsras-i-asien/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-06T04:18:27Z"
-    },
-    {
-     "t": "Rubio avfärdar uppgifter om avgång",
-     "u": "https://www.dn.se/direkt/2026-11-05/rubio-avfardar-uppgifter-om-avgang/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-05T22:35:41Z"
-    },
     {
      "t": "LA's newer, bluer wave: Nithya Raman leads way as city's progressives make their mark",
      "u": "https://www.theguardian.com/us-news/2026/nov/07/los-angeles-mayor-nithya-raman-progressives-dsa",
@@ -7408,10 +7380,26 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-07T15:00:14Z"
+    },
+    {
+     "t": "ロサンゼルス市長選、「民主社会主義」新人が現職破る　ＮＹに続き",
+     "u": "https://www.reuters.com/jp/world/us/6ZBZBPWY6ZMQFHIVFLTOIZADFI-2026-11-06/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-06T01:33:11Z"
+    },
+    {
+     "t": "Democratic Socialist Mayors Will Now Run LA, New York, and D.C. After Nithya Raman’s Win",
+     "u": "https://time.com/article/2026/11/05/democratic-socialist-mayors-la-dc-new-york-city-nithya-raman-election/",
+     "d": "time.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-05T20:08:16Z"
     }
    ],
    "abroad_first": "2026-11-05T19:41:41Z",
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "subjects": [],
    "relevant": false
   },
@@ -7487,11 +7475,10 @@
    "markets": {
     "uk": 5,
     "de": 1,
-    "se": 1,
     "us": 2,
     "intl": 1
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
     {
      "t": "Three executed across the US on same day – for the second time this year",
@@ -7519,7 +7506,7 @@
     }
    ],
    "abroad_first": "2026-11-05T19:21:32Z",
-   "markets_abroad": 5,
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   },
@@ -7576,7 +7563,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-13T04:15:36Z",
+   "checked": "2026-11-13T10:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7967,18 +7954,18 @@
   "3544": {
    "id": "3544",
    "first_seen": "2026-11-07T17:50:58Z",
-   "headline": "Merz folgt Söders Vorschlag: Ilse Aigner soll Bundespräsidentin werden - Linke schimpft über \"parteipolitischen Wanderpokal\"",
+   "headline": "Bundespräsidentenwahl: Ungekürte Kandidatin Ilse Aigner - Kritik an Kanzler Merz",
    "headline_en": "Germany news: Son of Iran's last shah takes center stage in Frankfurt",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:33:08Z",
+   "last_seen": "2026-11-13T08:44:05Z",
    "weekly": [
-    3,
-    42,
-    21,
-    95
+    14,
+    32,
+    43,
+    74
    ],
-   "this_week": 95,
+   "this_week": 74,
    "velocity": 3.8,
    "markets": {
     "de": 10
@@ -8088,19 +8075,11 @@
    "this_week": 75,
    "velocity": 1.9189189189189189,
    "markets": {
-    "se": 9,
+    "se": 6,
     "fi": 1
    },
    "outlets": 4,
    "samples": [
-    {
-     "t": "Kristersson: SD:s besked är välkommet",
-     "u": "https://www.dn.se/direkt/2026-11-06/kristersson-sds-besked-ar-valkommet/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-06T11:53:05Z"
-    },
     {
      "t": "Insändare. Noterat av DN:s läsare den 6 november",
      "u": "https://www.dn.se/insandare/noterat-av-dns-lasare-den-6-november-3/",
@@ -8110,12 +8089,20 @@
      "p": "2026-11-06T17:23:29Z"
     },
     {
-     "t": "David Druid fortsätter paus i radio",
-     "u": "https://www.dn.se/direkt/2026-11-06/david-druid-fortsatter-paus-i-radio/",
+     "t": "Dags för S att sätta dagordningen",
+     "u": "https://www.di.se/debatt/dags-for-s-att-satta-dagordningen/",
+     "d": "di.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-08T18:58:23Z"
+    },
+    {
+     "t": "Jimmie Åkesson: SD beredda att tolerera Ulf Kristersson -går i full opposition",
+     "u": "https://www.dn.se/direkt/2026-11-06/jimmie-akesson-sd-beredda-att-tolerera-ulf-kristersson-gar-i-full-opposition/",
      "d": "dn.se",
      "c": "se",
      "l": "sv",
-     "p": "2026-11-06T13:04:48Z"
+     "p": "2026-11-06T11:29:36Z"
     }
    ],
    "abroad_first": "2026-11-06T11:29:36Z",
@@ -8140,22 +8127,13 @@
    "this_week": 15,
    "velocity": 2.6,
    "markets": {
-    "se": 2,
     "de": 4,
     "fi": 2,
     "uk": 1,
     "intl": 1
    },
-   "outlets": 9,
+   "outlets": 8,
    "samples": [
-    {
-     "t": "Vägrade betala - körde på anställd",
-     "u": "https://www.dn.se/direkt/2026-11-02/vagrade-betala-korde-pa-anstalld/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-02T16:43:42Z"
-    },
     {
      "t": "Flugzeug muss wegen Bombendrohung in Budapest notlanden",
      "u": "https://www.spiegel.de/ausland/ungarn-flugzeug-muss-wegen-bombendrohung-in-budapest-notlanden-a-c17974e2-af3e-419e-a630-e8f4cde67c21",
@@ -8165,16 +8143,24 @@
      "p": "2026-11-02T20:13:00Z"
     },
     {
-     "t": "Bombhot mot Londonplan",
-     "u": "https://www.dn.se/direkt/2026-11-02/bombhot-mot-londonplan/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-02T15:14:27Z"
+     "t": "Wizz Air flight from London in emergency landing after bomb threat",
+     "u": "https://www.bbc.com/news/articles/c6rryvwre0p5o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-02T14:35:38Z"
+    },
+    {
+     "t": "У Європі сім літаків за добу отримали погрози про мінування",
+     "u": "https://www.dw.com/uk/u-evropi-sim-litakiv-za-dobu-otrimali-povidomlenna-pro-zagrozu-vibuhu/a-79849019",
+     "d": "dw.com",
+     "c": "de",
+     "l": "uk",
+     "p": "2026-11-04T02:26:19Z"
     }
    ],
    "abroad_first": "2026-11-02T14:01:49Z",
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "subjects": [],
    "relevant": false
   },
@@ -8185,7 +8171,7 @@
    "headline_en": "Krakow shooting latest: Gunman in military gear shot by police after killing five using ‘army-style’ rifle",
    "headline_fi": "Sisäministeri: Puolan ampuja oli \"kiinnostunut äärioikeistolaisesta ideologiasta",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:00Z",
+   "last_seen": "2026-11-13T08:44:36Z",
    "weekly": [
     0,
     0,
@@ -8255,7 +8241,7 @@
    "headline_en": "Trump offers UFC chief Dana White press secretary job",
    "headline_fi": "Melkoinen hurja joukko tulossa Valkoisen talon tiedotusosastolle, jos hyväksyvät Trumpin tarjouksen",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:32:47Z",
+   "last_seen": "2026-11-13T08:44:20Z",
    "weekly": [
     0,
     0,
@@ -8266,13 +8252,12 @@
    "velocity": 11.8,
    "markets": {
     "es": 1,
-    "se": 1,
     "us": 2,
     "de": 2,
     "intl": 1,
     "fi": 3
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
     {
      "t": "Trump ofrece su portavocía a un exluchador profesional",
@@ -8283,24 +8268,24 @@
      "p": "2026-11-07T19:17:53Z"
     },
     {
-     "t": "29-åring satte nytt världsrekord över Atlanten",
-     "u": "https://www.dn.se/direkt/2026-11-08/29-aring-satte-nytt-varldsrekord-over-atlanten/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-08T04:49:52Z"
-    },
-    {
      "t": "Trump offers UFC chief Dana White press secretary job",
      "u": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html",
      "d": "cnbc.com",
      "c": "us",
      "l": "en",
      "p": "2026-11-07T18:51:42Z"
+    },
+    {
+     "t": "Trump tritt mit Kampfsportboss White vor die Presse im Weißen Haus",
+     "u": "https://www.spiegel.de/ausland/donald-trump-tritt-mit-kampfsportboss-dana-white-vor-die-presse-im-weissen-haus-a-3d45812a-34ee-4b72-82ee-f26dbf9e1401",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-10T04:32:00Z"
     }
    ],
    "abroad_first": "2026-11-07T18:51:42Z",
-   "markets_abroad": 5,
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   },
@@ -8547,14 +8532,14 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:33:42Z",
+   "last_seen": "2026-11-13T08:45:07Z",
    "weekly": [
     0,
-    2,
-    5,
-    20
+    4,
+    6,
+    17
    ],
-   "this_week": 20,
+   "this_week": 17,
    "velocity": 4,
    "markets": {
     "de": 10
@@ -8600,7 +8585,7 @@
    "headline_en": "Ukraine war briefing: Russia ramping up attacks to 'pressure' Kyiv at trilateral talks, Zelenskyy says",
    "headline_fi": "Italian ulkoministeri sanoo joutuneensa Venäjä-mielisten hakkereiden kohteeksi",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:32:42Z",
+   "last_seen": "2026-11-13T08:44:16Z",
    "weekly": [
     0,
     0,
@@ -8611,10 +8596,10 @@
    "velocity": 4.4,
    "markets": {
     "uk": 1,
-    "se": 3,
     "de": 4,
     "intl": 1,
-    "fi": 1
+    "fi": 1,
+    "se": 2
    },
    "outlets": 8,
    "samples": [
@@ -8627,20 +8612,20 @@
      "p": "2026-11-08T04:10:42Z"
     },
     {
-     "t": "Fem bilar i krock på E4:an",
-     "u": "https://www.dn.se/direkt/2026-11-07/fem-bilar-i-krock-pa-e4an/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-07T13:26:19Z"
-    },
-    {
      "t": "Antonio Tajani: Italiens Außenminister prangert Hackerangriffe an",
      "u": "https://www.spiegel.de/ausland/italien-aussenminister-antonio-tajani-prangert-hacker-angriffe-an-a-cb655674-9ea2-4f6f-abf3-9d8fd660cd71",
      "d": "spiegel.de",
      "c": "de",
      "l": "de",
      "p": "2026-11-07T23:57:00Z"
+    },
+    {
+     "t": "Antonio Tajani: Außenminister von Italien ist Opfer von Hacker-Angriffen",
+     "u": "https://www.faz.net/aktuell/politik/ausland/antonio-tajani-aussenminister-von-italien-ist-opfer-von-hacker-angriffen-201661958.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-07T19:38:53Z"
     }
    ],
    "abroad_first": "2026-11-07T11:15:18Z",
@@ -8671,7 +8656,7 @@
    "headline_en": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
    "headline_fi": "Trump töräytti: \"Vankilaan pitäisi panna nämä KIRISTÄJÄT",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:36Z",
+   "last_seen": "2026-11-13T08:45:03Z",
    "weekly": [
     0,
     0,
@@ -8681,22 +8666,13 @@
    "this_week": 19,
    "velocity": 3.8,
    "markets": {
-    "se": 4,
     "us": 1,
     "intl": 2,
     "de": 2,
     "fi": 1
    },
-   "outlets": 7,
+   "outlets": 6,
    "samples": [
-    {
-     "t": "Fransk polismans hem brändes ned",
-     "u": "https://www.dn.se/direkt/2026-11-07/fransk-polismans-hem-brandes-ned/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-07T22:11:06Z"
-    },
     {
      "t": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
      "u": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html",
@@ -8706,16 +8682,24 @@
      "p": "2026-11-07T20:28:17Z"
     },
     {
-     "t": "Trump vill att UFC-topp blir presschef",
-     "u": "https://www.dn.se/direkt/2026-11-07/trump-vill-att-ufc-topp-blir-presschef/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-07T18:46:34Z"
+     "t": "トランプ氏、民主党「脅迫」の調査指示　証拠示さず",
+     "u": "https://www.reuters.com/jp/world/security/H5PBIN2YSBOVBPXLBCIO7QYOQY-2026-11-07/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-07T20:46:20Z"
+    },
+    {
+     "t": "Liveticker USA unter Trump: Trump beauftragt Justizministerium mit Untersuchung gegen Demokraten",
+     "u": "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-trump-beauftragt-justizministerium-mit-untersuchung-gegen-demokraten-faz-19444916.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-08T02:45:27Z"
     }
    ],
    "abroad_first": "2026-11-07T18:46:34Z",
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "subjects": [
     "policy"
    ],
@@ -8805,18 +8789,18 @@
   "3511": {
    "id": "3511",
    "first_seen": "2026-11-06T17:15:52Z",
-   "headline": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
+   "headline": "Nvidia就黄仁勋与疑似中国间谍有婚外情展开调查",
    "headline_en": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:32:37Z",
+   "last_seen": "2026-11-13T08:44:03Z",
    "weekly": [
     1,
     4,
-    3,
-    389
+    8,
+    558
    ],
-   "this_week": 389,
+   "this_week": 558,
    "velocity": 55,
    "markets": {
     "uk": 4,
@@ -8960,8 +8944,8 @@
    "markets": {
     "de": 3,
     "uk": 3,
-    "se": 3,
-    "us": 1
+    "us": 1,
+    "se": 1
    },
    "outlets": 7,
    "samples": [
@@ -8982,12 +8966,12 @@
      "p": "2026-11-06T19:23:24Z"
     },
     {
-     "t": "Bonusprinsen överfallen i sitt hem",
-     "u": "https://www.dn.se/direkt/2026-11-07/bonusprinsen-overfallen-i-sitt-hem/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-07T14:58:20Z"
+     "t": "Police Chief Says He 'Wouldn't Be Surprised' by Further Russell Brand Accusations",
+     "u": "https://www.nytimes.com/2026/11/06/arts/russell-brand-rape-sexual-assault-police-commissioner.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-06T16:00:28Z"
     }
    ],
    "abroad_first": "2026-11-05T17:17:13Z",
@@ -9002,14 +8986,14 @@
    "headline_en": "COP31 Action Tracker: US midterms and Brazil Roadmaps - edie",
    "headline_fi": "Keskuskauppakamari: Päästövähennykset eivät enää yksin riitä – ilmastonmuutokseen on myös sopeuduttava",
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:32:59Z",
+   "last_seen": "2026-11-13T08:44:22Z",
    "weekly": [
     3,
     1,
-    5,
-    46
+    8,
+    48
    ],
-   "this_week": 46,
+   "this_week": 48,
    "velocity": 9.2,
    "markets": {
     "uk": 4,
@@ -9095,7 +9079,7 @@
    "headline_en": "Brazilian Grand Prix briefing: Lando Norris wins rainy thriller, Mercedes seals team title",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:27Z",
+   "last_seen": "2026-11-13T08:44:57Z",
    "weekly": [
     0,
     0,
@@ -9150,14 +9134,14 @@
    "headline_en": null,
    "headline_fi": "10 min: Susanna Tapani huippupaikassa",
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:33:05Z",
+   "last_seen": "2026-11-13T08:44:40Z",
    "weekly": [
     0,
     0,
-    4,
-    55
+    18,
+    41
    ],
-   "this_week": 55,
+   "this_week": 41,
    "velocity": 9,
    "markets": {
     "fi": 10
@@ -9176,14 +9160,14 @@
    "headline_en": "Dominant Lando Norris powers to victory in São Paulo F1 Grand Prix",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:33:27Z",
+   "last_seen": "2026-11-13T08:44:57Z",
    "weekly": [
     0,
     0,
-    1,
-    19
+    3,
+    17
    ],
-   "this_week": 19,
+   "this_week": 17,
    "velocity": 19,
    "markets": {
     "de": 5,
@@ -9430,21 +9414,13 @@
    "this_week": 14,
    "velocity": 2.4,
    "markets": {
-    "se": 7,
     "uk": 1,
     "us": 1,
-    "fi": 1
+    "fi": 1,
+    "se": 1
    },
-   "outlets": 5,
+   "outlets": 4,
    "samples": [
-    {
-     "t": "NBC: Demokraterna vinner i Georgia",
-     "u": "https://www.dn.se/direkt/2026-11-04/nbc-demokraterna-vinner-i-georgia/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-04T00:42:42Z"
-    },
     {
      "t": "Ukraine-Russia war latest: UK breaks with Trump by refusing to invite Putin to G20 summit",
      "u": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-uk-putin-g20-b3079889.html",
@@ -9454,12 +9430,20 @@
      "p": "2026-11-05T15:27:40Z"
     },
     {
-     "t": "Röstningen i gång - resultaten rullar in",
-     "u": "https://www.dn.se/direkt/2026-11-04/rostningen-i-gang-resultaten-rullar-in/",
-     "d": "dn.se",
+     "t": "Canadian prime minister says Russian athletes won't compete for their country at World Juniors",
+     "u": "https://www.nytimes.com/athletic/7751385/2026/11/03/russia-canada-world-juniors-ban/",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-03T22:35:29Z"
+    },
+    {
+     "t": "Ishockey: Kanadas besked: Inget Ryssland i JVM",
+     "u": "https://www.svt.se/sport/ishockey/kanadas-besked-inget-ryssland-i-jvm",
+     "d": "svt.se",
      "c": "se",
      "l": "sv",
-     "p": "2026-11-04T00:13:46Z"
+     "p": "2026-11-03T22:35:13Z"
     }
    ],
    "abroad_first": "2026-11-03T22:35:13Z",
@@ -9607,14 +9591,14 @@
    "headline_en": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:06Z",
+   "last_seen": "2026-11-13T08:44:24Z",
    "weekly": [
     0,
     0,
     0,
-    18
+    19
    ],
-   "this_week": 18,
+   "this_week": 19,
    "velocity": 3.4,
    "markets": {
     "intl": 4,
@@ -9654,7 +9638,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-13T04:15:36Z",
+   "checked": "2026-11-13T10:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9665,14 +9649,14 @@
    "headline_en": "Gaza: Rains add misery to humanitarian catastrophe",
    "headline_fi": "Sadevesi tulvi kymmeniin tuhansiin telttoihin Gazassa",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:05Z",
+   "last_seen": "2026-11-13T08:44:27Z",
    "weekly": [
     0,
     0,
     0,
-    20
+    21
    ],
-   "this_week": 20,
+   "this_week": 21,
    "velocity": 4,
    "markets": {
     "fi": 1,
@@ -9734,7 +9718,7 @@
    "headline_en": "Maraykanka oo sheegay inuu $20 Malyan siin doono ciddii keenta xog ku saabsan Nukliyeerka Iiraan - BBC News Somali",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:25Z",
+   "last_seen": "2026-11-13T08:44:55Z",
    "weekly": [
     0,
     0,
@@ -9746,10 +9730,9 @@
    "markets": {
     "de": 1,
     "uk": 5,
-    "se": 3,
     "intl": 1
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
      "t": "انتقادات ومقاطعة لمنح نجل شاه إيران السابق جائزة الحرية الألمانية",
@@ -9777,7 +9760,7 @@
     }
    ],
    "abroad_first": "2026-11-05T07:36:25Z",
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "subjects": [
     "geopolitics",
     "sustainability"
@@ -9794,7 +9777,7 @@
    "headline_en": null,
    "headline_fi": "Ylen asiantuntija nimeää ratkaisevan eron HJK:n ja FC Interin välillä: \"Pöyhkeä pyörremyrsky\" on nyt mestarisuosikki",
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:33:30Z",
+   "last_seen": "2026-11-13T08:44:59Z",
    "weekly": [
     7,
     13,
@@ -9819,16 +9802,16 @@
    "headline": "Ben Shelton - Carlos Alcaraz en directo, la final del Masters 1000 de París en vivo",
    "headline_en": "Alcaraz beats Shelton to win Paris Masters, avenges US Open loss",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-12T20:33:25Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-13T08:44:55Z",
    "weekly": [
     0,
     0,
-    0,
-    23
+    3,
+    20
    ],
-   "this_week": 23,
-   "velocity": 4.6,
+   "this_week": 20,
+   "velocity": 6.666666666666667,
    "markets": {
     "es": 4,
     "intl": 4,
@@ -9873,7 +9856,7 @@
    "headline_en": "Egypt train crash leaves several dead, many injured",
    "headline_fi": "Junaturma Egyptissä - neljä kuollut, kymmeniä loukkaantunut",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:40Z",
+   "last_seen": "2026-11-13T08:45:06Z",
    "weekly": [
     0,
     0,
@@ -9978,33 +9961,33 @@
   "3531": {
    "id": "3531",
    "first_seen": "2026-11-07T05:42:45Z",
-   "headline": "Sandpapergate: Khawaja claims 'all' of Australia team were aware of 2018 ball-tampering",
-   "headline_en": "Former Australian cricketer Khawaja claims entire team knew about 'Sandpapergate'",
+   "headline": "BBC Audio | Test Match Special | Khawaja's 'sandpapergate' revelations",
+   "headline_en": "BBC Audio | Test Match Special | Khawaja's 'sandpapergate' revelations",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-12T20:32:39Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-13T08:44:05Z",
    "weekly": [
     0,
     0,
-    0,
-    25
+    3,
+    31
    ],
-   "this_week": 25,
-   "velocity": 3.2,
+   "this_week": 31,
+   "velocity": 10.333333333333334,
    "markets": {
-    "intl": 4,
     "uk": 5,
+    "intl": 4,
     "us": 1
    },
    "outlets": 7,
    "samples": [
     {
-     "t": "Former Australian cricketer Khawaja claims entire team knew about 'Sandpapergate'",
-     "u": "https://www.scmp.com/sport/cricket/article/3373628/former-australian-cricketer-usman-khawaja-claims-entire-team-knew-about-sandpapergate",
-     "d": "scmp.com",
-     "c": "intl",
+     "t": "BBC Audio | Test Match Special | Khawaja's 'sandpapergate' revelations",
+     "u": "https://www.bbc.com/audio/play/p0pm6468",
+     "d": "bbc.com",
+     "c": "uk",
      "l": "en",
-     "p": "2026-11-07T04:00:13Z"
+     "p": "2026-11-09T22:22:59Z"
     },
     {
      "t": "Australian cricketer Usman Khawaja disputes findings in 2018 ball-tampering probe",
@@ -10015,12 +9998,12 @@
      "p": "2026-11-07T01:34:01Z"
     },
     {
-     "t": "Khawaja denies throwing 'anyone under the bus' with comments about ball-tampering scandal",
-     "u": "https://www.reuters.com/sports/cricket/khawaja-denies-throwing-anyone-under-bus-with-comments-about-ball-tampering-2026-11-08/",
-     "d": "reuters.com",
-     "c": "intl",
+     "t": "Usman Khawaja reveals true extent of Australia’s sandpaper scandal: ‘It was all of us’",
+     "u": "https://www.independent.co.uk/sport/cricket/usman-khawaja-australia-sandpaper-gate-pat-cummins-steve-smith-warner-bancroft-b3080842.html",
+     "d": "independent.co.uk",
+     "c": "uk",
      "l": "en",
-     "p": "2026-11-08T05:01:35Z"
+     "p": "2026-11-06T22:10:37Z"
     }
    ],
    "abroad_first": "2026-11-06T22:06:57Z",
@@ -10033,22 +10016,22 @@
    "first_seen": "2026-11-10T07:09:36Z",
    "headline": "8 november: Här är dagens nyheter",
    "headline_en": null,
-   "headline_fi": "Sosialidemokraatit esittää hallitusta ilman vasemmistopuoluetta",
+   "headline_fi": "Ruotsin vasemmistopuolue pettyi demarien ilmoitukseen ja syyttää keskustaa - \"Kiristystä",
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:33:04Z",
+   "last_seen": "2026-11-13T08:44:21Z",
    "weekly": [
     2,
     2,
-    9,
-    41
+    10,
+    47
    ],
-   "this_week": 41,
-   "velocity": 3.7777777777777777,
+   "this_week": 47,
+   "velocity": 4.7,
    "markets": {
-    "se": 8,
-    "fi": 2
+    "se": 3,
+    "fi": 3
    },
-   "outlets": 4,
+   "outlets": 3,
    "samples": [
     {
      "t": "8 november: Här är dagens nyheter",
@@ -10059,27 +10042,25 @@
      "p": "2026-11-08T20:07:09Z"
     },
     {
-     "t": "Nvidia utreder vd:s relation med spion",
-     "u": "https://www.dn.se/direkt/2026-11-08/nvidia-utreder-vds-relation-med-spion/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-08T20:17:01Z"
-    },
-    {
      "t": "V-toppen: C och S vet att vi inte kan säga ja",
      "u": "https://www.dn.se/direkt/2026-11-08/v-toppen-c-och-s-vet-att-vi-inte-kan-saga-ja/",
      "d": "dn.se",
      "c": "se",
      "l": "sv",
      "p": "2026-11-08T17:56:15Z"
+    },
+    {
+     "t": "Insändare. Nästan omöjligt förena nyliberalism och kommunism",
+     "u": "https://www.dn.se/insandare/nastan-omojligt-forena-nyliberalism-och-kommunism/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-12T19:02:41Z"
     }
    ],
    "abroad_first": "2026-11-08T17:04:15Z",
    "markets_abroad": 1,
    "subjects": [
-    "tech",
-    "business",
     "policy"
    ],
    "relevant": true
@@ -10103,10 +10084,9 @@
    "markets": {
     "intl": 3,
     "de": 4,
-    "us": 2,
-    "se": 1
+    "us": 2
    },
-   "outlets": 7,
+   "outlets": 6,
    "samples": [
     {
      "t": "Iran sent nuclear proposal to the US via Qatar, senior Iranian official tells Reuters",
@@ -10134,13 +10114,13 @@
     }
    ],
    "abroad_first": "2026-11-04T04:39:31Z",
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "subjects": [
     "geopolitics",
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-13T04:15:36Z",
+   "checked": "2026-11-13T10:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10163,10 +10143,9 @@
    "markets": {
     "intl": 4,
     "de": 2,
-    "se": 1,
     "uk": 1
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
      "t": "トランプ氏、カタール首相と9日会談へ　対イラン外交難航",
@@ -10185,16 +10164,16 @@
      "p": "2026-11-08T18:58:06Z"
     },
     {
-     "t": "Trump: Osannolikt med nya attacker mot Iran",
-     "u": "https://www.dn.se/direkt/mellanostern/2026-11-08/trump-osannolikt-med-nya-attacker-mot-iran/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-08T18:26:19Z"
+     "t": "Iran threatens to 'rain down hell' if US escalates war",
+     "u": "https://www.aljazeera.com/news/2026/11/8/iran-threatens-to-rain-down-hell-if-us-escalates-war",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-08T20:13:39Z"
     }
    ],
    "abroad_first": "2026-11-05T07:36:25Z",
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "subjects": [
     "geopolitics",
     "sustainability"
@@ -10211,7 +10190,7 @@
    "headline_en": "A bleak Booker winner for our chaotic times - will readers come along for the ride?",
    "headline_fi": "Kirjallisuuden Booker-palkinnolle kaikkien aikojen vanhin voittaja",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:07Z",
+   "last_seen": "2026-11-13T08:44:41Z",
    "weekly": [
     0,
     0,
@@ -10279,7 +10258,7 @@
    "headline_en": "US forces 'disabled' commercial vessel in Gulf of Oman",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:32:49Z",
+   "last_seen": "2026-11-13T08:44:29Z",
    "weekly": [
     0,
     0,
@@ -10327,7 +10306,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-13T04:15:36Z",
+   "checked": "2026-11-13T10:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10338,23 +10317,23 @@
    "headline_en": "Trump reverses stance, alleges fraud in recent US midterm elections",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:28Z",
+   "last_seen": "2026-11-13T08:44:28Z",
    "weekly": [
     0,
     0,
     0,
-    14
+    15
    ],
-   "this_week": 14,
-   "velocity": 2.4,
+   "this_week": 15,
+   "velocity": 3,
    "markets": {
     "intl": 1,
-    "de": 4,
+    "de": 2,
     "se": 2,
-    "uk": 1,
+    "uk": 2,
     "us": 2
    },
-   "outlets": 9,
+   "outlets": 7,
    "samples": [
     {
      "t": "Trump reverses stance, alleges fraud in recent US midterm elections",
@@ -10373,15 +10352,15 @@
      "p": "2026-11-09T19:57:00Z"
     },
     {
-     "t": "Nytt pensionsavtal klart",
-     "u": "https://www.dn.se/direkt/2026-11-09/nytt-pensionsavtal-klart/",
-     "d": "dn.se",
+     "t": "Trump ifrågasätter resultatet i mellanårsvalet",
+     "u": "https://www.svt.se/nyheter/utrikes/trump-ifragasatter-resultatet-i-mellanarsvalet",
+     "d": "svt.se",
      "c": "se",
      "l": "sv",
-     "p": "2026-11-09T15:51:08Z"
+     "p": "2026-11-09T15:45:56Z"
     }
    ],
-   "abroad_first": "2026-11-09T15:45:56Z",
+   "abroad_first": "2026-11-09T15:19:06Z",
    "markets_abroad": 5,
    "subjects": [],
    "relevant": false
@@ -10392,16 +10371,16 @@
    "headline": "Brandenburg/Berlin: Leiche der vermissten Lisa gefunden - Verdächtiger festgenommen",
    "headline_en": "Germany news: Merz to nominate Aigner for president",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-12T20:33:04Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-13T08:44:40Z",
    "weekly": [
     0,
     0,
-    0,
-    15
+    1,
+    14
    ],
-   "this_week": 15,
-   "velocity": 3,
+   "this_week": 14,
+   "velocity": 14,
    "markets": {
     "de": 10
    },
@@ -10440,18 +10419,18 @@
   "3641": {
    "id": "3641",
    "first_seen": "2026-11-09T06:37:38Z",
-   "headline": "Trump tunnusti saattaneensa tehdä virheen",
+   "headline": "Trump kritisiert eigene Abschiebepolitik: \"Wir haben auch Leute abgeholt, die gute Jobs hatten\"",
    "headline_en": "Trump Says Immigration Crackdown May Have 'Hurt' Republicans in Midterms",
    "headline_fi": "Trump tunnusti saattaneensa tehdä virheen",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:08Z",
+   "last_seen": "2026-11-13T08:44:25Z",
    "weekly": [
     0,
     0,
     0,
-    16
+    17
    ],
-   "this_week": 16,
+   "this_week": 17,
    "velocity": 3.2,
    "markets": {
     "fi": 2,
@@ -10515,7 +10494,7 @@
    "headline_en": "Senior US soldier arrested in UK on suspicion of spying for Russia",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:32:37Z",
+   "last_seen": "2026-11-13T08:44:12Z",
    "weekly": [
     0,
     0,
@@ -10525,7 +10504,7 @@
    "this_week": 19,
    "velocity": 3,
    "markets": {
-    "se": 3,
+    "se": 2,
     "intl": 2,
     "us": 1,
     "uk": 3,
@@ -10582,24 +10561,23 @@
    "first_seen": "2026-11-11T07:42:21Z",
    "headline": "Finanzierung für Kiew: Merz droht mit Blockade des EU-Haushalts und fordert Ukraine-Hilfen von allen Mitgliedstaaten",
    "headline_en": "Merz accused of 'blackmail' by Slovakian PM after demand for Ukraine aid in EU budget",
-   "headline_fi": "Eurooppa ei ole uhri vaan saamaton",
-   "state": "acceleration",
-   "last_seen": "2026-11-12T20:33:01Z",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:08Z",
    "weekly": [
-    7,
     0,
-    6,
-    19
+    0,
+    0,
+    26
    ],
-   "this_week": 19,
-   "velocity": 3,
+   "this_week": 26,
+   "velocity": 5.2,
    "markets": {
     "de": 5,
     "uk": 1,
-    "intl": 3,
-    "fi": 1
+    "intl": 4
    },
-   "outlets": 8,
+   "outlets": 6,
    "samples": [
     {
      "t": "Finanzierung für Kiew: Merz droht mit Blockade des EU-Haushalts und fordert Ukraine-Hilfen von allen Mitgliedstaaten",
@@ -10610,20 +10588,20 @@
      "p": "2026-11-09T20:19:47Z"
     },
     {
-     "t": "Мерц висунув ЄС ультиматум через фінансування України - FT",
-     "u": "https://www.dw.com/uk/merc-prigroziv-zablokuvati-budzet-es-akso-ne-vsi-cleni-bloku-dopomagatimut-ukraini-ft/a-79904894",
-     "d": "dw.com",
-     "c": "de",
-     "l": "uk",
-     "p": "2026-11-09T18:36:55Z"
-    },
-    {
      "t": "Τελεσίγραφο Μερτς για την Ουκρανία και τον ευρωπαϊκό προϋπολογισμό",
      "u": "https://www.dw.com/el/%CF%84%CE%B5%CE%BB%CE%B5%CF%83%CE%AF%CE%B3%CF%81%CE%B1%CF%86%CE%BF-%CE%BC%CE%B5%CF%81%CF%84%CF%82-%CE%B3%CE%B9%CE%B1-%CF%84%CE%B7%CE%BD-%CE%BF%CF%85%CE%BA%CF%81%CE%B1%CE%BD%CE%AF%CE%B1-%CE%BA%CE%B1%CE%B9-%CF%84%CE%BF%CE%BD-%CE%B5%CF%85%CF%81%CF%89%CF%80%CE%B1%CF%8A%CE%BA%CF%8C-%CF%80%CF%81%CE%BF%CF%8B%CF%80%CE%BF%CE%BB%CE%BF%CE%B3%CE%B9%CF%83%CE%BC%CF%8C/a-79912524",
      "d": "dw.com",
      "c": "de",
      "l": "ell",
      "p": "2026-11-10T17:21:11Z"
+    },
+    {
+     "t": "Merz accused of 'blackmail' by Slovakian PM after demand for Ukraine aid in EU budget",
+     "u": "https://www.theguardian.com/world/2026/nov/10/friedrich-merz-accused-blackmail-ukraine-aid-eu-budget",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-10T16:44:27Z"
     }
    ],
    "abroad_first": "2026-11-09T18:36:55Z",
@@ -10706,7 +10684,7 @@
    "headline_en": "David Walliams accused of sexual misconduct in Guardian and ITN investigation",
    "headline_fi": "Koomikko David Walliamsia syytetään seksuaalisesta hyväksikäytöstä, joukossa alaikäisiä tyttöjä",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:32:39Z",
+   "last_seen": "2026-11-13T08:44:13Z",
    "weekly": [
     0,
     0,
@@ -10759,7 +10737,7 @@
    "headline_en": "Turkey steel plant blast kills at least 17",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:12Z",
+   "last_seen": "2026-11-13T08:44:45Z",
    "weekly": [
     0,
     0,
@@ -10767,13 +10745,13 @@
     15
    ],
    "this_week": 15,
-   "velocity": 1.6,
+   "velocity": 3,
    "markets": {
-    "intl": 2,
+    "intl": 3,
     "de": 5,
-    "se": 1
+    "uk": 2
    },
-   "outlets": 6,
+   "outlets": 7,
    "samples": [
     {
      "t": "Turkey steel plant blast kills at least 17",
@@ -10792,15 +10770,15 @@
      "p": "2026-11-09T15:52:52Z"
     },
     {
-     "t": "Explosion at Turkish steel plant kills at least 16 people",
-     "u": "https://www.aljazeera.com/news/2026/11/9/explosion-at-turkish-steel-plant-kills-at-least-16-people",
-     "d": "aljazeera.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-09T19:58:40Z"
+     "t": "Explosion in Stahlwerk in Izmir: 16 Tote",
+     "u": "https://www.faz.net/aktuell/gesellschaft/ungluecke/explosion-in-stahlwerk-in-izmir-16-tote-201667382.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-09T18:21:55Z"
     }
    ],
-   "abroad_first": "2026-11-09T15:17:08Z",
+   "abroad_first": "2026-11-09T13:30:28Z",
    "markets_abroad": 3,
    "subjects": [],
    "relevant": false
@@ -10866,7 +10844,7 @@
    "headline_en": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
    "headline_fi": "Kolmea miestä syytetään terrori-iskun suunnitellusta Fairford lentotukikohtaan",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:32:55Z",
+   "last_seen": "2026-11-13T08:44:33Z",
    "weekly": [
     0,
     0,
@@ -10934,7 +10912,7 @@
    "headline_en": "Qatar LNG Loadings Pick Up to Around Half of Pre-War Levels",
    "headline_fi": "Yhdysvallat pidättäytyy iskuista Iraniin, sanoo Trump",
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:11Z",
+   "last_seen": "2026-11-13T08:44:44Z",
    "weekly": [
     0,
     0,
@@ -11052,7 +11030,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-13T04:15:36Z",
+   "checked": "2026-11-13T10:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11063,7 +11041,7 @@
    "headline_en": "Russian ambassador to US dies, foreign ministry says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:03Z",
+   "last_seen": "2026-11-13T08:44:39Z",
    "weekly": [
     0,
     0,
@@ -11073,7 +11051,7 @@
    "this_week": 15,
    "velocity": 3,
    "markets": {
-    "se": 2,
+    "se": 1,
     "intl": 3,
     "uk": 1,
     "fi": 1,
@@ -11132,14 +11110,14 @@
    "headline_en": "Ukraine war live: Trump sees 'strong inclination' to end war ahead of Abu Dhabi talks",
    "headline_fi": "Tietomurto saattoi paljastaa Venäjän massiiviset tappiot Ukrainassa",
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:33:04Z",
+   "last_seen": "2026-11-13T08:44:02Z",
    "weekly": [
     0,
     0,
     2,
-    14
+    15
    ],
-   "this_week": 14,
+   "this_week": 15,
    "velocity": 7,
    "markets": {
     "fi": 1,
@@ -11202,9 +11180,9 @@
    "headline_en": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
    "headline_fi": "Barcelonassa puhkesi mellakka - kauppoja ryöstetty, yhteenottoja poliisin kanssa",
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:32:42Z",
+   "last_seen": "2026-11-13T08:44:17Z",
    "weekly": [
-    4,
+    3,
     0,
     1,
     26
@@ -11314,7 +11292,7 @@
    "headline_en": "European football: Bayern beat Mainz but Neuer's record-breaking day turns sour",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:33:20Z",
+   "last_seen": "2026-11-13T08:44:51Z",
    "weekly": [
     0,
     0,
@@ -11363,18 +11341,18 @@
   "3762": {
    "id": "3762",
    "first_seen": "2026-11-11T19:58:05Z",
-   "headline": "USA make Pep Guardiola ‘top target’ to replace Mauricio Pochettino",
+   "headline": "Manchester United make formal contact with U.S. Soccer over Mauricio Pochettino",
    "headline_en": "USMNT unaffected by Pochettino-to-Manchester United reports, Antonee Robinson says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-12T20:32:37Z",
+   "last_seen": "2026-11-13T08:44:10Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    21
    ],
-   "this_week": 13,
+   "this_week": 21,
    "velocity": 1,
    "markets": {
     "us": 2,
@@ -11413,7 +11391,7 @@
    "subjects": [
     "business"
    ],
-   "relevant": true,
+   "relevant": false,
    "checked": "2026-11-13T07:30:52Z",
    "check_how": "url",
    "check_error": null
@@ -11441,6 +11419,347 @@
    "samples": [],
    "abroad_first": "2026-11-10T07:09:59Z",
    "markets_abroad": 0,
+   "subjects": [],
+   "relevant": false
+  },
+  "3785": {
+   "id": "3785",
+   "first_seen": "2026-11-12T08:12:04Z",
+   "headline": "Hegseth awards medal to soldier who rebuked his group outside Tomb of the Unknown Soldier",
+   "headline_en": "Hegseth and team reprimanded by Army guard at solemn war memorial",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:18Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    32
+   ],
+   "this_week": 32,
+   "velocity": 2.2,
+   "markets": {
+    "uk": 6,
+    "intl": 2,
+    "de": 1,
+    "us": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Hegseth and team reprimanded by Army guard at solemn war memorial",
+     "u": "https://www.bbc.com/news/articles/cmvg2r3dq7xno",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-11T22:55:55Z"
+    },
+    {
+     "t": "Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier",
+     "u": "https://www.aljazeera.com/news/2026/11/12/hegseth-entourage-reprimanded-by-guard-at-tomb-of-the-unknown-soldier",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-12T00:42:37Z"
+    },
+    {
+     "t": "Guard appears to rebuke Hegseth's delegation at Tomb of the Unknown Soldier",
+     "u": "https://www.reuters.com/world/us/guard-appears-rebuke-hegseths-delegation-tomb-unknown-soldier-2026-11-11/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-11T23:10:17Z"
+    }
+   ],
+   "abroad_first": "2026-11-11T21:43:35Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-13T10:30:56Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-12T18:22:22Z",
+    "d": "mtvuutiset.fi",
+    "u": "https://www.mtvuutiset.fi/artikkeli/sotilas-huusi-hegsethille-sai-mitalin-rakastamme/9420440",
+    "t": "Sotilas huusi Hegsethille - sai mitalin: \"Rakastamme\"",
+    "s": 0.91
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-13T10:30:56Z"
+  },
+  "3814": {
+   "id": "3814",
+   "first_seen": "2026-11-13T08:44:00Z",
+   "headline": "Eikö sähköpostisi toimi? Microsoftilla laajoja häiriöitä",
+   "headline_en": "Microsoft reports mass outages in US, impacting customer accessibility",
+   "headline_fi": "Eikö sähköpostisi toimi? Microsoftilla laajoja häiriöitä",
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:00Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    30
+   ],
+   "this_week": 30,
+   "velocity": 6,
+   "markets": {
+    "fi": 2,
+    "uk": 3,
+    "de": 3,
+    "intl": 1,
+    "us": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "微軟系統全球癱瘓：Outlook、Teams、Copilot受影響",
+     "u": "https://www.bbc.com/zhongwen/articles/crvg2d7v05yno/trad",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "zh",
+     "p": "2026-11-13T03:38:32Z"
+    },
+    {
+     "t": "Una falla en Microsoft deja fuera de servicio el correo electrónico de Outlook y otras plataformas",
+     "u": "https://www.bbc.com/mundo/articles/cm20v6ed340wo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "es",
+     "p": "2026-11-12T20:36:25Z"
+    },
+    {
+     "t": "Microsoft reports mass outages in US, impacting customer accessibility",
+     "u": "https://www.dw.com/en/microsoft-reports-mass-outages-in-us-impacting-customer-accessibility/a-79935611",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-12T21:19:47Z"
+    }
+   ],
+   "abroad_first": "2026-11-12T20:25:29Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "tech",
+    "sustainability"
+   ],
+   "relevant": true,
+   "checked": "2026-11-13T10:30:56Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-12T21:02:23Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20256706",
+    "t": "Outlookissa ja Teamsissa yhteysongelmia - Microsoft ratkoo tilannetta",
+    "s": 0.864
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-13T10:30:56Z"
+  },
+  "3753": {
+   "id": "3753",
+   "first_seen": "2026-11-11T07:42:35Z",
+   "headline": "Tavio lyö löylyä Somalia-kohuun - tiukka kysymys muille puolueille",
+   "headline_en": null,
+   "headline_fi": "Orpo: Taviolla oli oikeus hylätä Somalia-hankkeiden rahoitus",
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:24Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    15
+   ],
+   "this_week": 15,
+   "velocity": 1.2,
+   "markets": {
+    "fi": 6
+   },
+   "outlets": 5,
+   "samples": [],
+   "abroad_first": "2026-11-11T07:42:35Z",
+   "markets_abroad": 0,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true
+  },
+  "3826": {
+   "id": "3826",
+   "first_seen": "2026-11-13T08:44:07Z",
+   "headline": "Nvidia-Affäre: Jensen Huang und Trumps Handelsminister Lutnick müssen sich im Senat erklären",
+   "headline_en": "Trump Wants Apple's Tim Cook to Replace Jensen Huang as NVIDIA CEO",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:07Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.8,
+   "markets": {
+    "de": 2,
+    "us": 3,
+    "intl": 2
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Nvidia-Affäre: Jensen Huang und Trumps Handelsminister Lutnick müssen sich im Senat erklären",
+     "u": "https://www.spiegel.de/ausland/nvidia-affaere-jensen-huang-und-trumps-handelsminister-lutnick-muessen-sich-im-senat-erklaeren-a-14e96682-03e3-4763-a673-f16a0bcfd5d1",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-13T04:04:00Z"
+    },
+    {
+     "t": "Trump Wants Apple's Tim Cook to Replace Jensen Huang as NVIDIA CEO",
+     "u": "https://time.com/article/2026/11/12/trump-wants-apple-s-tim-cook-to-replace-jenson-huang-as-nvidia-ceo/",
+     "d": "time.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-12T16:01:40Z"
+    },
+    {
+     "t": "7 People Nvidia Could Consider For Its Next C.E.O.",
+     "u": "https://www.nytimes.com/2026/11/12/technology/jensen-huang-nvidia-successor.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-12T22:56:01Z"
+    }
+   ],
+   "abroad_first": "2026-11-12T00:00:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-13T10:30:56Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-11T22:41:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/taloussanomat/art-2000012406061.html",
+    "t": "WSJ: Nvidia valmistautuu erottamaan johtajansa - jo toinen väitetty salasuhde paljastui",
+    "s": 0.855
+   },
+   "fi_count": 5,
+   "arrived_at": "2026-11-13T10:30:56Z"
+  },
+  "3777": {
+   "id": "3777",
+   "first_seen": "2026-11-12T08:11:59Z",
+   "headline": "Rakennus romahti New Yorkissa - CNN: Ainakin kaksi kuollut",
+   "headline_en": "NYC building collapse kills two and leaves others trapped in rubble",
+   "headline_fi": "Rakennus romahti New Yorkissa - CNN: Ainakin kaksi kuollut",
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:09Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    34
+   ],
+   "this_week": 34,
+   "velocity": 2.2,
+   "markets": {
+    "fi": 3,
+    "se": 2,
+    "intl": 2,
+    "uk": 3
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Minst en död och tolv skadade efter husras i Brooklyn",
+     "u": "https://www.svt.se/nyheter/utrikes/minst-en-dod-och-tolv-skadade-efter-husras-i-brooklyn",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-11T23:53:00Z"
+    },
+    {
+     "t": "NYC building collapse kills two and leaves others trapped in rubble",
+     "u": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
+     "d": "euronews.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-12T04:07:38Z"
+    },
+    {
+     "t": "Building collapse in Brooklyn kills two, injures more than a dozen",
+     "u": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-12T03:31:08Z"
+    }
+   ],
+   "abroad_first": "2026-11-11T22:27:06Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3786": {
+   "id": "3786",
+   "first_seen": "2026-11-12T08:12:04Z",
+   "headline": "Harry Kane wins record 126th England cap, pulling clear of Peter Shilton",
+   "headline_en": "Harry Kane wins record 126th England cap, pulling clear of Peter Shilton",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-13T08:44:08Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    20
+   ],
+   "this_week": 20,
+   "velocity": 20,
+   "markets": {
+    "uk": 5,
+    "se": 1,
+    "intl": 4
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Harry Kane wins record 126th England cap, pulling clear of Peter Shilton",
+     "u": "https://www.theguardian.com/football/2026/nov/12/harry-kane-wins-record-126th-england-cap",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-12T18:35:42Z"
+    },
+    {
+     "t": "Harry Kane: How England captain's 'fairytale' came true as he closes in on appearance record",
+     "u": "https://www.bbc.co.uk/sport/football/articles/c60qkdj4lp34o",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-11T16:44:58Z"
+    },
+    {
+     "t": "Fotboll: Harry Kane historisk - flest landskamper någonsin",
+     "u": "https://www.svt.se/sport/fotboll/harry-kane-historisk-flest-landskamper-nagonsin",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-12T21:42:07Z"
+    }
+   ],
+   "abroad_first": "2026-11-11T16:13:55Z",
+   "markets_abroad": 3,
    "subjects": [],
    "relevant": false
   }
