@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-13T20:01:02Z",
+  "last_run": "2026-11-13T23:15:37Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 41,
+  "similar_left": 36,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -4668,7 +4668,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-13T16:45:39Z",
+   "checked": "2026-11-13T23:15:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7305,14 +7305,14 @@
    "headline_en": "In Mississippi, voters await cliffhanger Senate result with hope and frustration",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:14Z",
+   "last_seen": "2026-11-13T21:02:56Z",
    "weekly": [
     0,
     4,
     25,
-    61
+    62
    ],
-   "this_week": 61,
+   "this_week": 62,
    "velocity": 2.888888888888889,
    "markets": {
     "uk": 3,
@@ -7563,7 +7563,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-13T16:45:39Z",
+   "checked": "2026-11-13T23:15:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7958,7 +7958,7 @@
    "headline_en": "Germany news: Son of Iran's last shah takes center stage in Frankfurt",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:05Z",
+   "last_seen": "2026-11-13T21:03:00Z",
    "weekly": [
     14,
     32,
@@ -7966,27 +7966,20 @@
     74
    ],
    "this_week": 74,
-   "velocity": 3.8,
+   "velocity": 1.7209302325581395,
    "markets": {
-    "de": 10
+    "de": 9,
+    "intl": 1
    },
    "outlets": 6,
    "samples": [
     {
-     "t": "Merz folgt Söders Vorschlag: Ilse Aigner soll Bundespräsidentin werden - Linke schimpft über \"parteipolitischen Wanderpokal\"",
-     "u": "https://www.welt.de/politik/deutschland/article6af0cd0280d3a1c6aa66d965/merz-folgt-soeders-vorschlag-ilse-aigner-soll-bundespraesidentin-werden-linke-schimpft-ueber-parteipolitischen-wanderpokal.html",
-     "d": "welt.de",
+     "t": "Bundespräsidentenwahl: Ungekürte Kandidatin Ilse Aigner - Kritik an Kanzler Merz",
+     "u": "https://www.wiwo.de/politik/deutschland/bundespraesidentenwahl-ungekuerte-kandidatin-ilse-aigner-kritik-an-kanzler-merz/100268049.html",
+     "d": "wiwo.de",
      "c": "de",
      "l": "de",
-     "p": "2026-11-08T19:29:35Z"
-    },
-    {
-     "t": "Steinmeier-Nachfolge: Merz folgt Söders Vorschlag - Ilse Aigner soll Bundespräsidentin werden",
-     "u": "https://www.welt.de/politik/deutschland/article6af0cd0280d3a1c6aa66d965/steinmeier-nachfolge-merz-folgt-soeders-vorschlag-ilse-aigner-soll-bundespraesidentin-werden.html",
-     "d": "welt.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-08T19:29:35Z"
+     "p": "2026-11-07T15:14:08Z"
     },
     {
      "t": "Aigner vor der Nominierung: Was die Entscheidung in der P-Frage bedeutet",
@@ -7995,14 +7988,34 @@
      "c": "de",
      "l": "de",
      "p": "2026-11-08T04:00:13Z"
+    },
+    {
+     "t": "Merz folgt Söders Vorschlag: Ilse Aigner soll Bundespräsidentin werden - Linke schimpft über \"parteipolitischen Wanderpokal\"",
+     "u": "https://www.welt.de/politik/deutschland/article6af0cd0280d3a1c6aa66d965/merz-folgt-soeders-vorschlag-ilse-aigner-soll-bundespraesidentin-werden-linke-schimpft-ueber-parteipolitischen-wanderpokal.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-08T19:29:35Z"
     }
    ],
    "abroad_first": "2026-11-05T16:40:00Z",
-   "markets_abroad": 1,
+   "markets_abroad": 2,
    "subjects": [
     "geopolitics"
    ],
-   "relevant": true
+   "relevant": true,
+   "checked": "2026-11-13T23:15:37Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-08T22:39:57Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20255760",
+    "t": "Saksan liittokansleri Friedrich Merz esittää Ilse Aigneria seuraavaksi liittopresidentiksi",
+    "s": 0.889
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-13T23:15:37Z"
   },
   "3536": {
    "id": "3536",
@@ -8171,7 +8184,7 @@
    "headline_en": "Krakow shooting latest: Gunman in military gear shot by police after killing five using ‘army-style’ rifle",
    "headline_fi": "Sisäministeri: Puolan ampuja oli \"kiinnostunut äärioikeistolaisesta ideologiasta",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:36Z",
+   "last_seen": "2026-11-13T21:03:28Z",
    "weekly": [
     0,
     0,
@@ -8241,7 +8254,7 @@
    "headline_en": "Trump offers UFC chief Dana White press secretary job",
    "headline_fi": "Melkoinen hurja joukko tulossa Valkoisen talon tiedotusosastolle, jos hyväksyvät Trumpin tarjouksen",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:20Z",
+   "last_seen": "2026-11-13T21:03:13Z",
    "weekly": [
     0,
     0,
@@ -8532,7 +8545,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:45:07Z",
+   "last_seen": "2026-11-13T21:03:57Z",
    "weekly": [
     0,
     4,
@@ -8585,7 +8598,7 @@
    "headline_en": "Ukraine war briefing: Russia ramping up attacks to 'pressure' Kyiv at trilateral talks, Zelenskyy says",
    "headline_fi": "Italian ulkoministeri sanoo joutuneensa Venäjä-mielisten hakkereiden kohteeksi",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:16Z",
+   "last_seen": "2026-11-13T21:03:09Z",
    "weekly": [
     0,
     0,
@@ -8656,7 +8669,7 @@
    "headline_en": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
    "headline_fi": "Trump töräytti: \"Vankilaan pitäisi panna nämä KIRISTÄJÄT",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:45:03Z",
+   "last_seen": "2026-11-13T21:03:53Z",
    "weekly": [
     0,
     0,
@@ -8793,31 +8806,31 @@
    "headline_en": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:03Z",
+   "last_seen": "2026-11-13T21:02:54Z",
    "weekly": [
     1,
     4,
     8,
-    558
+    567
    ],
-   "this_week": 558,
-   "velocity": 55,
+   "this_week": 567,
+   "velocity": 70.875,
    "markets": {
-    "uk": 4,
+    "uk": 5,
     "us": 2,
-    "de": 2,
+    "de": 1,
     "es": 1,
     "intl": 1
    },
    "outlets": 7,
    "samples": [
     {
-     "t": "黃仁勳與疑似中國間諜婚外情：目前我們知道什麼？",
-     "u": "https://www.bbc.com/zhongwen/articles/cw8dzd17n70no/trad",
+     "t": "Nvidia就黄仁勋与疑似中国间谍有婚外情展开调查",
+     "u": "https://www.bbc.com/zhongwen/articles/cmewevvp5x5lo/simp",
      "d": "bbc.com",
      "c": "uk",
      "l": "zh",
-     "p": "2026-11-09T17:25:50Z"
+     "p": "2026-11-09T01:37:14Z"
     },
     {
      "t": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
@@ -8828,12 +8841,12 @@
      "p": "2026-11-09T19:33:23Z"
     },
     {
-     "t": "The AI poster boy, the 'Chinese spy' and Trump: how an affair may have harmed US security",
-     "u": "https://www.theguardian.com/technology/2026/nov/09/nvidia-affair-huang-trump-national-security",
+     "t": "Silicon Valley and Trump rally behind Nvidia CEO after his affair with alleged Chinese spy",
+     "u": "https://www.theguardian.com/technology/2026/nov/09/nvidia-jensen-huang-affair-trump-musk",
      "d": "theguardian.com",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-09T20:01:05Z"
+     "p": "2026-11-09T16:42:35Z"
     }
    ],
    "abroad_first": "2026-11-05T13:41:00Z",
@@ -8986,9 +8999,9 @@
    "headline_en": "COP31 Action Tracker: US midterms and Brazil Roadmaps - edie",
    "headline_fi": "Keskuskauppakamari: Päästövähennykset eivät enää yksin riitä – ilmastonmuutokseen on myös sopeuduttava",
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:22Z",
+   "last_seen": "2026-11-13T21:03:15Z",
    "weekly": [
-    3,
+    2,
     1,
     8,
     48
@@ -9079,7 +9092,7 @@
    "headline_en": "Brazilian Grand Prix briefing: Lando Norris wins rainy thriller, Mercedes seals team title",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:57Z",
+   "last_seen": "2026-11-13T21:03:47Z",
    "weekly": [
     0,
     0,
@@ -9134,7 +9147,7 @@
    "headline_en": null,
    "headline_fi": "10 min: Susanna Tapani huippupaikassa",
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:40Z",
+   "last_seen": "2026-11-13T21:03:31Z",
    "weekly": [
     0,
     0,
@@ -9142,7 +9155,7 @@
     41
    ],
    "this_week": 41,
-   "velocity": 9,
+   "velocity": 2.2777777777777777,
    "markets": {
     "fi": 10
    },
@@ -9160,7 +9173,7 @@
    "headline_en": "Dominant Lando Norris powers to victory in São Paulo F1 Grand Prix",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:57Z",
+   "last_seen": "2026-11-13T21:03:47Z",
    "weekly": [
     0,
     0,
@@ -9591,7 +9604,7 @@
    "headline_en": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:24Z",
+   "last_seen": "2026-11-13T21:03:17Z",
    "weekly": [
     0,
     0,
@@ -9638,7 +9651,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-13T16:45:39Z",
+   "checked": "2026-11-13T23:15:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9649,7 +9662,7 @@
    "headline_en": "Gaza: Rains add misery to humanitarian catastrophe",
    "headline_fi": "Sadevesi tulvi kymmeniin tuhansiin telttoihin Gazassa",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:27Z",
+   "last_seen": "2026-11-13T21:03:19Z",
    "weekly": [
     0,
     0,
@@ -9718,7 +9731,7 @@
    "headline_en": "Maraykanka oo sheegay inuu $20 Malyan siin doono ciddii keenta xog ku saabsan Nukliyeerka Iiraan - BBC News Somali",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:55Z",
+   "last_seen": "2026-11-13T21:03:46Z",
    "weekly": [
     0,
     0,
@@ -9777,7 +9790,7 @@
    "headline_en": null,
    "headline_fi": "Ylen asiantuntija nimeää ratkaisevan eron HJK:n ja FC Interin välillä: \"Pöyhkeä pyörremyrsky\" on nyt mestarisuosikki",
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:59Z",
+   "last_seen": "2026-11-13T21:03:49Z",
    "weekly": [
     7,
     13,
@@ -9803,7 +9816,7 @@
    "headline_en": "Alcaraz beats Shelton to win Paris Masters, avenges US Open loss",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:55Z",
+   "last_seen": "2026-11-13T21:03:45Z",
    "weekly": [
     0,
     0,
@@ -9856,7 +9869,7 @@
    "headline_en": "Egypt train crash leaves several dead, many injured",
    "headline_fi": "Junaturma Egyptissä - neljä kuollut, kymmeniä loukkaantunut",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:45:06Z",
+   "last_seen": "2026-11-13T21:03:56Z",
    "weekly": [
     0,
     0,
@@ -9965,14 +9978,14 @@
    "headline_en": "BBC Audio | Test Match Special | Khawaja's 'sandpapergate' revelations",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:05Z",
+   "last_seen": "2026-11-13T21:02:57Z",
    "weekly": [
     0,
     0,
     3,
-    31
+    32
    ],
-   "this_week": 31,
+   "this_week": 32,
    "velocity": 10.333333333333334,
    "markets": {
     "uk": 5,
@@ -10018,7 +10031,7 @@
    "headline_en": null,
    "headline_fi": "Ruotsin vasemmistopuolue pettyi demarien ilmoitukseen ja syyttää keskustaa - \"Kiristystä",
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:21Z",
+   "last_seen": "2026-11-13T21:03:14Z",
    "weekly": [
     2,
     2,
@@ -10120,7 +10133,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-13T16:45:39Z",
+   "checked": "2026-11-13T23:15:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10188,9 +10201,9 @@
    "first_seen": "2026-11-10T19:22:20Z",
    "headline": "Букеровскую премию 2026 года получил фантаст М. Джон Харрисон за роман \"Конец всего\" о мире после катастрофы",
    "headline_en": "A bleak Booker winner for our chaotic times - will readers come along for the ride?",
-   "headline_fi": "Kirjallisuuden Booker-palkinnolle kaikkien aikojen vanhin voittaja",
+   "headline_fi": "Kaikkien aikojen vanhimman Booker-voittajan teos heijastelee tekoälyyn liittyviä huolia",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:41Z",
+   "last_seen": "2026-11-13T21:03:32Z",
    "weekly": [
     0,
     0,
@@ -10198,7 +10211,7 @@
     19
    ],
    "this_week": 19,
-   "velocity": 3.6,
+   "velocity": 3.8,
    "markets": {
     "uk": 5,
     "de": 2,
@@ -10258,7 +10271,7 @@
    "headline_en": "US forces 'disabled' commercial vessel in Gulf of Oman",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:29Z",
+   "last_seen": "2026-11-13T21:03:21Z",
    "weekly": [
     0,
     0,
@@ -10306,7 +10319,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-13T16:45:39Z",
+   "checked": "2026-11-13T23:15:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10317,7 +10330,7 @@
    "headline_en": "Trump reverses stance, alleges fraud in recent US midterm elections",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:28Z",
+   "last_seen": "2026-11-13T21:03:20Z",
    "weekly": [
     0,
     0,
@@ -10372,7 +10385,7 @@
    "headline_en": "Germany news: Merz to nominate Aigner for president",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:40Z",
+   "last_seen": "2026-11-13T21:03:31Z",
    "weekly": [
     0,
     0,
@@ -10423,7 +10436,7 @@
    "headline_en": "Trump Says Immigration Crackdown May Have 'Hurt' Republicans in Midterms",
    "headline_fi": "Trump tunnusti saattaneensa tehdä virheen",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:25Z",
+   "last_seen": "2026-11-13T21:03:17Z",
    "weekly": [
     0,
     0,
@@ -10494,7 +10507,7 @@
    "headline_en": "Senior US soldier arrested in UK on suspicion of spying for Russia",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:12Z",
+   "last_seen": "2026-11-13T21:03:06Z",
    "weekly": [
     0,
     0,
@@ -10563,7 +10576,7 @@
    "headline_en": "Merz accused of 'blackmail' by Slovakian PM after demand for Ukraine aid in EU budget",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:08Z",
+   "last_seen": "2026-11-13T21:03:03Z",
    "weekly": [
     0,
     0,
@@ -10684,14 +10697,14 @@
    "headline_en": "David Walliams accused of sexual misconduct in Guardian and ITN investigation",
    "headline_fi": "Koomikko David Walliamsia syytetään seksuaalisesta hyväksikäytöstä, joukossa alaikäisiä tyttöjä",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:13Z",
+   "last_seen": "2026-11-13T21:02:55Z",
    "weekly": [
     0,
     0,
     0,
-    31
+    33
    ],
-   "this_week": 31,
+   "this_week": 33,
    "velocity": 3.2,
    "markets": {
     "uk": 8,
@@ -10737,7 +10750,7 @@
    "headline_en": "Turkey steel plant blast kills at least 17",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:45Z",
+   "last_seen": "2026-11-13T21:03:36Z",
    "weekly": [
     0,
     0,
@@ -10844,7 +10857,7 @@
    "headline_en": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
    "headline_fi": "Kolmea miestä syytetään terrori-iskun suunnitellusta Fairford lentotukikohtaan",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:33Z",
+   "last_seen": "2026-11-13T21:03:25Z",
    "weekly": [
     0,
     0,
@@ -10912,7 +10925,7 @@
    "headline_en": "Qatar LNG Loadings Pick Up to Around Half of Pre-War Levels",
    "headline_fi": "Yhdysvallat pidättäytyy iskuista Iraniin, sanoo Trump",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:44Z",
+   "last_seen": "2026-11-13T21:03:35Z",
    "weekly": [
     0,
     0,
@@ -10920,13 +10933,14 @@
     15
    ],
    "this_week": 15,
-   "velocity": 1.6,
+   "velocity": 3,
    "markets": {
     "us": 1,
+    "intl": 4,
     "fi": 2,
     "se": 1,
-    "intl": 1,
-    "uk": 3
+    "uk": 1,
+    "de": 1
    },
    "outlets": 8,
    "samples": [
@@ -10939,24 +10953,24 @@
      "p": "2026-11-10T12:48:01Z"
     },
     {
+     "t": "'Positive momentum': Is the US war on Iran about to end?",
+     "u": "https://www.aljazeera.com/news/2026/11/10/positive-momentum-is-the-us-war-on-iran-about-to-end",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-10T15:18:32Z"
+    },
+    {
      "t": "Trump om Irankriget: \"I princip över",
      "u": "https://www.di.se/nyheter/trump-om-irankriget-i-princip-over/",
      "d": "di.se",
      "c": "se",
      "l": "sv",
      "p": "2026-11-10T04:12:53Z"
-    },
-    {
-     "t": "Trump says war 'effectively over', Iran demands 'surrender'",
-     "u": "https://www.aljazeera.com/news/liveblog/2026/11/9/iran-war-live-trump-says-war-effectively-over-iran-demands-surrender",
-     "d": "aljazeera.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-09T23:55:23Z"
     }
    ],
-   "abroad_first": "2026-11-09T22:58:31Z",
-   "markets_abroad": 4,
+   "abroad_first": "2026-11-08T20:13:00Z",
+   "markets_abroad": 5,
    "subjects": [
     "geopolitics"
    ],
@@ -11030,7 +11044,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-13T16:45:39Z",
+   "checked": "2026-11-13T23:15:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11041,7 +11055,7 @@
    "headline_en": "Russian ambassador to US dies, foreign ministry says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:39Z",
+   "last_seen": "2026-11-13T21:03:30Z",
    "weekly": [
     0,
     0,
@@ -11110,7 +11124,7 @@
    "headline_en": "Ukraine war live: Trump sees 'strong inclination' to end war ahead of Abu Dhabi talks",
    "headline_fi": "Tietomurto saattoi paljastaa Venäjän massiiviset tappiot Ukrainassa",
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:02Z",
+   "last_seen": "2026-11-13T21:02:59Z",
    "weekly": [
     0,
     0,
@@ -11180,7 +11194,7 @@
    "headline_en": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
    "headline_fi": "Barcelonassa puhkesi mellakka - kauppoja ryöstetty, yhteenottoja poliisin kanssa",
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:17Z",
+   "last_seen": "2026-11-13T21:03:10Z",
    "weekly": [
     3,
     0,
@@ -11292,7 +11306,7 @@
    "headline_en": "European football: Bayern beat Mainz but Neuer's record-breaking day turns sour",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:51Z",
+   "last_seen": "2026-11-13T21:03:41Z",
    "weekly": [
     0,
     0,
@@ -11342,48 +11356,48 @@
    "id": "3762",
    "first_seen": "2026-11-11T19:58:05Z",
    "headline": "Manchester United make formal contact with U.S. Soccer over Mauricio Pochettino",
-   "headline_en": "USMNT unaffected by Pochettino-to-Manchester United reports, Antonee Robinson says",
+   "headline_en": "Manchester United make formal contact with U.S. Soccer over Mauricio Pochettino",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-13T08:44:10Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-13T21:02:55Z",
    "weekly": [
     0,
-    0,
-    0,
-    21
+    1,
+    3,
+    23
    ],
-   "this_week": 21,
-   "velocity": 1,
+   "this_week": 23,
+   "velocity": 7.666666666666667,
    "markets": {
-    "us": 2,
-    "uk": 2,
-    "intl": 1
+    "us": 5,
+    "uk": 3,
+    "intl": 2
    },
    "outlets": 4,
    "samples": [
     {
-     "t": "USMNT unaffected by Pochettino-to-Manchester United reports, Antonee Robinson says",
-     "u": "https://www.nytimes.com/athletic/7770289/2026/11/10/mauricio-pochettino-manchester-united-antonee-robinson-usmnt/",
+     "t": "Manchester United make formal contact with U.S. Soccer over Mauricio Pochettino",
+     "u": "https://www.nytimes.com/athletic/7772824/2026/11/11/mauricio-pochettino-manchester-united-us-soccer/",
      "d": "nytimes.com",
      "c": "us",
      "l": "en",
-     "p": "2026-11-10T17:20:27Z"
+     "p": "2026-11-11T20:20:44Z"
     },
     {
-     "t": "Pochettino's U.S. Soccer contract buyout revealed as Man United links intensify",
-     "u": "https://www.nytimes.com/athletic/7769270/2026/11/09/mauricio-pochettino-contract-buyout-us-soccer-manchester-united/",
+     "t": "Mauricio Pochettino to sign two-and-a-half year contract at Manchester United",
+     "u": "https://www.nytimes.com/athletic/7776293/2026/11/12/mauricio-pochettino-manchester-united-contract-length/",
      "d": "nytimes.com",
      "c": "us",
      "l": "en",
-     "p": "2026-11-10T04:05:23Z"
+     "p": "2026-11-12T22:47:41Z"
     },
     {
-     "t": "Mauricio Pochettino interested in leaving USMNT job for Manchester United",
-     "u": "https://www.theguardian.com/football/2026/nov/10/mauricio-pochettino-interested-manchester-united-usmnt-release-clause",
-     "d": "theguardian.com",
+     "t": "USA make Pep Guardiola ‘top target’ to replace Mauricio Pochettino",
+     "u": "https://www.independent.co.uk/sport/football/pep-guardiola-usa-next-coach-manager-mauricio-pochettino-b3084026.html",
+     "d": "independent.co.uk",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-10T16:10:38Z"
+     "p": "2026-11-12T16:21:36Z"
     }
    ],
    "abroad_first": "2026-11-10T04:05:23Z",
@@ -11391,8 +11405,8 @@
    "subjects": [
     "business"
    ],
-   "relevant": false,
-   "checked": "2026-11-13T07:30:52Z",
+   "relevant": true,
+   "checked": "2026-11-13T23:15:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11429,7 +11443,7 @@
    "headline_en": "Hegseth and team reprimanded by Army guard at solemn war memorial",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:18Z",
+   "last_seen": "2026-11-13T21:03:11Z",
    "weekly": [
     0,
     0,
@@ -11497,14 +11511,14 @@
    "headline_en": "Microsoft reports mass outages in US, impacting customer accessibility",
    "headline_fi": "Eikö sähköpostisi toimi? Microsoftilla laajoja häiriöitä",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:00Z",
+   "last_seen": "2026-11-13T21:02:54Z",
    "weekly": [
     0,
     0,
     0,
-    30
+    33
    ],
-   "this_week": 30,
+   "this_week": 33,
    "velocity": 6,
    "markets": {
     "fi": 2,
@@ -11563,18 +11577,18 @@
   "3753": {
    "id": "3753",
    "first_seen": "2026-11-11T07:42:35Z",
-   "headline": "Tavio lyö löylyä Somalia-kohuun - tiukka kysymys muille puolueille",
+   "headline": "Hyrkkö löylyttää Orpoa Tavion Somalia-päätöksestä: \"Julmaa peliä",
    "headline_en": null,
    "headline_fi": "Orpo: Taviolla oli oikeus hylätä Somalia-hankkeiden rahoitus",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:24Z",
+   "last_seen": "2026-11-13T21:02:55Z",
    "weekly": [
     0,
     0,
     0,
-    15
+    17
    ],
-   "this_week": 15,
+   "this_week": 17,
    "velocity": 1.2,
    "markets": {
     "fi": 6
@@ -11595,7 +11609,7 @@
    "headline_en": "Trump Wants Apple's Tim Cook to Replace Jensen Huang as NVIDIA CEO",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:07Z",
+   "last_seen": "2026-11-13T21:03:03Z",
    "weekly": [
     0,
     0,
@@ -11663,7 +11677,7 @@
    "headline_en": "NYC building collapse kills two and leaves others trapped in rubble",
    "headline_fi": "Rakennus romahti New Yorkissa - CNN: Ainakin kaksi kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:09Z",
+   "last_seen": "2026-11-13T21:03:04Z",
    "weekly": [
     0,
     0,
@@ -11713,18 +11727,18 @@
   "3786": {
    "id": "3786",
    "first_seen": "2026-11-12T08:12:04Z",
-   "headline": "Harry Kane wins record 126th England cap, pulling clear of Peter Shilton",
+   "headline": "Harry Kane hints at playing two more World Cups for England after Luka Modric inspiration",
    "headline_en": "Harry Kane wins record 126th England cap, pulling clear of Peter Shilton",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:08Z",
+   "last_seen": "2026-11-13T21:02:56Z",
    "weekly": [
     0,
     0,
     1,
-    20
+    21
    ],
-   "this_week": 20,
+   "this_week": 21,
    "velocity": 20,
    "markets": {
     "uk": 5,
@@ -11770,7 +11784,7 @@
    "headline_en": "Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:06Z",
+   "last_seen": "2026-11-13T21:03:02Z",
    "weekly": [
     0,
     0,
@@ -11837,7 +11851,7 @@
    "headline_en": "German FA to hold talks with Felix Nmecha over links to Christian evangelical group",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:02Z",
+   "last_seen": "2026-11-13T21:02:59Z",
    "weekly": [
     0,
     0,
@@ -11845,13 +11859,21 @@
     13
    ],
    "this_week": 13,
-   "velocity": 1,
+   "velocity": 2.6,
    "markets": {
-    "us": 1,
-    "de": 4
+    "de": 9,
+    "us": 1
    },
-   "outlets": 4,
+   "outlets": 5,
    "samples": [
+    {
+     "t": "Fussball: Felix Nmecha bringt mit seinem Torjubel die Dortmunder Fans in Rage",
+     "u": "https://www.nzz.ch/sport/fussball/felix-nmecha-bringt-mit-seinem-torjubel-die-dortmunder-fans-in-rage-nun-reagieren-der-verein-und-der-dfb-ld.10062033",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-12T16:03:40Z"
+    },
     {
      "t": "German FA to hold talks with Felix Nmecha over links to Christian evangelical group",
      "u": "https://www.nytimes.com/athletic/7767974/2026/11/09/felix-nmecha-celebration-crown-germany-dortmund/",
@@ -11867,14 +11889,6 @@
      "c": "de",
      "l": "de",
      "p": "2026-11-08T12:23:00Z"
-    },
-    {
-     "t": "Borussia Dortmund: Umstrittener Jubel - wieder spaltet Nmecha die BVB-Fans",
-     "u": "https://www.welt.de/sport/fussball/bundesliga/borussia-dortmund/article6af037dad487d5232edf0951/borussia-dortmund-umstrittener-jubel-wieder-spaltet-nmecha-die-bvb-fans.html",
-     "d": "welt.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-08T13:32:00Z"
     }
    ],
    "abroad_first": "2026-11-08T12:23:00Z",
@@ -11894,7 +11908,7 @@
    "headline_en": null,
    "headline_fi": "Ruotsidemokraattien kansanedustaja eroaa ahdistelusyytösten takia",
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:23Z",
+   "last_seen": "2026-11-13T21:03:15Z",
    "weekly": [
     0,
     0,
@@ -11946,11 +11960,11 @@
    "headline_en": "Famed ship SS United States to be sunk off coast of Florida",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T08:44:11Z",
+   "last_seen": "2026-11-13T21:03:06Z",
    "weekly": [
     0,
-    4,
-    2,
+    5,
+    1,
     13
    ],
    "this_week": 13,
@@ -11998,7 +12012,7 @@
    "headline_en": "Mercedes-Benz halts new investment in German plants, considers closures",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T08:44:01Z",
+   "last_seen": "2026-11-13T21:02:58Z",
    "weekly": [
     0,
     0,
@@ -12043,6 +12057,65 @@
    "markets_abroad": 3,
    "subjects": [],
    "relevant": false
+  },
+  "3776": {
+   "id": "3776",
+   "first_seen": "2026-11-12T08:11:59Z",
+   "headline": "12 november: Nattens nyheter",
+   "headline_en": "Israeli strike on Nasser Hospital kills at least six, Gaza civil defence agency says",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-13T21:03:08Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 1.4,
+   "markets": {
+    "se": 2,
+    "uk": 2,
+    "us": 1,
+    "intl": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "12 november: Nattens nyheter",
+     "u": "https://www.svt.se/nyheter/utrikes/12-november-nattens-nyheter-5xntgw",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-12T04:30:22Z"
+    },
+    {
+     "t": "Israeli strike on Nasser Hospital kills at least six, Gaza civil defence agency says",
+     "u": "https://www.bbc.com/news/articles/ckzd9p7e4eqeo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-12T03:32:54Z"
+    },
+    {
+     "t": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
+     "u": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-12T03:11:10Z"
+    }
+   ],
+   "abroad_first": "2026-11-11T23:22:50Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-13T23:15:37Z",
+   "check_how": "url",
+   "check_error": null
   }
  }
 }
