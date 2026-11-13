@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-13T16:45:39Z",
+  "last_run": "2026-11-13T20:01:02Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 38,
+  "similar_left": 41,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9766,7 +9766,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-13T13:45:39Z",
+   "checked": "2026-11-13T20:01:02Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10179,7 +10179,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-13T13:45:39Z",
+   "checked": "2026-11-13T20:01:02Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11759,6 +11759,287 @@
     }
    ],
    "abroad_first": "2026-11-11T16:13:55Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3823": {
+   "id": "3823",
+   "first_seen": "2026-11-13T08:44:06Z",
+   "headline": "US-Senat lädt Ex-Nvidia-Chef Jensen Huang vor",
+   "headline_en": "Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:06Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2.6,
+   "markets": {
+    "de": 5,
+    "us": 1,
+    "intl": 4
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "US-Senat lädt Ex-Nvidia-Chef Jensen Huang vor",
+     "u": "https://www.faz.net/aktuell/wirtschaft/unternehmen/us-senat-laedt-ex-nvidia-chef-jensen-huang-vor-accg-201679188.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-13T04:17:20Z"
+    },
+    {
+     "t": "Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
+     "u": "https://www.nytimes.com/2026/11/12/us/politics/lutnick-nvidia-commerce-china-chips.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-13T00:46:55Z"
+    },
+    {
+     "t": "Spionage-Affäre: Nvidia-Aktien büßen nach Jensen Huangs Rücktritt an Wert ein",
+     "u": "https://www.spiegel.de/wirtschaft/spionage-affaere-nvidia-aktien-buessen-nach-jensen-huangs-ruecktritt-an-wert-ein-a-a7155d5a-d0f2-43d4-b287-1f89bcb863ea",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-12T22:39:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-12T16:23:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-13T20:01:02Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-12T17:15:42Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/32e3e916-597e-4e63-9b85-5fadd7abb1fc",
+    "t": "Nvidiasta syrjäytetty Huang joutuu todistamaan kongressin eteen",
+    "s": 0.866
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-13T20:01:02Z"
+  },
+  "3729": {
+   "id": "3729",
+   "first_seen": "2026-11-10T19:22:38Z",
+   "headline": "Fussball: Felix Nmecha bringt mit seinem Torjubel die Dortmunder Fans in Rage",
+   "headline_en": "German FA to hold talks with Felix Nmecha over links to Christian evangelical group",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:02Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 1,
+   "markets": {
+    "us": 1,
+    "de": 4
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "German FA to hold talks with Felix Nmecha over links to Christian evangelical group",
+     "u": "https://www.nytimes.com/athletic/7767974/2026/11/09/felix-nmecha-celebration-crown-germany-dortmund/",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-09T17:05:11Z"
+    },
+    {
+     "t": "Nach Jubelgeste: BVB-Fanabteilung kritisiert Nmecha für Nähe zu evangelikalen Netzwerken",
+     "u": "https://www.spiegel.de/sport/fussball/felix-nmecha-bvb-fans-kritisieren-jubelgeste-und-naehe-zu-evangelikalen-netzwerken-a-04f5a7c5-7c33-44f6-95eb-d6c97cb93abe",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-08T12:23:00Z"
+    },
+    {
+     "t": "Borussia Dortmund: Umstrittener Jubel - wieder spaltet Nmecha die BVB-Fans",
+     "u": "https://www.welt.de/sport/fussball/bundesliga/borussia-dortmund/article6af037dad487d5232edf0951/borussia-dortmund-umstrittener-jubel-wieder-spaltet-nmecha-die-bvb-fans.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-08T13:32:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-08T12:23:00Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-13T20:01:02Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3839": {
+   "id": "3839",
+   "first_seen": "2026-11-13T08:44:23Z",
+   "headline": "Ruotsidemokraattien kansanedustaja eroaa ahdistelusyytösten takia",
+   "headline_en": null,
+   "headline_fi": "Ruotsidemokraattien kansanedustaja eroaa ahdistelusyytösten takia",
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:23Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2.6,
+   "markets": {
+    "fi": 2,
+    "se": 3
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "Efter DN:s granskning: Rasmus Giertz (SD) avgår som riksdagsledamot",
+     "u": "https://www.dn.se/sverige/efter-dns-granskning-rasmus-giertz-sd-avgar-som-riksdagsledamot/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-12T16:50:44Z"
+    },
+    {
+     "t": "12 november: Missa inte dagens nyheter",
+     "u": "https://www.dn.se/varlden/12-november-missa-inte-dagens-nyheter/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-12T20:04:03Z"
+    },
+    {
+     "t": "Rasmus Giertz (SD) avgår enligt Aftonbladet",
+     "u": "https://www.svt.se/nyheter/lokalt/dalarna/rasmus-giertz-sd-lamnar-riksdagen-enligt-aftonbladet",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-12T16:37:02Z"
+    }
+   ],
+   "abroad_first": "2026-11-12T16:37:02Z",
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
+  },
+  "3784": {
+   "id": "3784",
+   "first_seen": "2026-11-12T08:12:03Z",
+   "headline": "Famed ship SS United States to be sunk off coast of Florida",
+   "headline_en": "Famed ship SS United States to be sunk off coast of Florida",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-13T08:44:11Z",
+   "weekly": [
+    0,
+    4,
+    2,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 3.5,
+   "markets": {
+    "uk": 3,
+    "us": 4
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Famed ship SS United States to be sunk off coast of Florida",
+     "u": "https://www.bbc.com/news/articles/c3x298n87rn2o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-11T18:42:27Z"
+    },
+    {
+     "t": "SS United States Sinking Moved Up to Wednesday Due to Weather Concerns",
+     "u": "https://gcaptain.com/ss-united-states-sinking-moved-up-to-wednesday-due-to-weather-concerns/",
+     "d": "gcaptain.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-10T16:08:17Z"
+    },
+    {
+     "t": "This 1,000 ft ocean liner once carried world leaders. Now it's being sunk deliberately",
+     "u": "https://www.independent.co.uk/news/world/americas/ss-united-states-sinking-ship-reef-florida-b3081522.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-09T09:45:12Z"
+    }
+   ],
+   "abroad_first": "2026-11-09T09:45:12Z",
+   "markets_abroad": 2,
+   "subjects": [],
+   "relevant": false
+  },
+  "3815": {
+   "id": "3815",
+   "first_seen": "2026-11-13T08:44:01Z",
+   "headline": "Mercedes-Benz: Mercedes friert Investitionen in Deutschland ein - Werksschließungen werden vorbereitet",
+   "headline_en": "Mercedes-Benz halts new investment in German plants, considers closures",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-13T08:44:01Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2.6,
+   "markets": {
+    "de": 4,
+    "intl": 3,
+    "se": 3
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Mercedes-Benz: Mercedes friert Investitionen in Deutschland ein - Werksschließungen werden vorbereitet",
+     "u": "https://www.wiwo.de/unternehmen/auto/mercedes-benz-mercedes-friert-investitionen-in-deutschland-ein-werksschliessungen-werden-vorbereitet/100269484.html",
+     "d": "wiwo.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-12T16:36:14Z"
+    },
+    {
+     "t": "Mercedes-Benz halts new investment in German plants, considers closures",
+     "u": "https://www.euronews.com/2026/11/12/mercedes-benz-halts-new-investment-in-german-plants-considers-closures",
+     "d": "euronews.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-12T19:22:02Z"
+    },
+    {
+     "t": "Mercedes-Benz halts German investments as plant closures loom",
+     "u": "https://www.reuters.com/world/mercedes-benz-halts-german-investments-plant-closures-loom-2026-11-12/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-12T16:43:29Z"
+    }
+   ],
+   "abroad_first": "2026-11-12T15:57:46Z",
    "markets_abroad": 3,
    "subjects": [],
    "relevant": false
