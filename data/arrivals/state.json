@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-13T04:15:36Z",
+  "last_run": "2026-11-13T07:30:52Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 41,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -8491,16 +8491,16 @@
    "headline": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office",
    "headline_en": "Trump signs proclamation to try to prevent changes to gold-covered Oval Office",
    "headline_fi": "Trump haluaa suojella ovaalihuoneen \"tyhmiltä ihmisiltä",
-   "state": "emergence",
-   "last_seen": "2026-11-11T19:59:19Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-12T20:33:56Z",
    "weekly": [
     0,
     0,
-    0,
-    14
+    2,
+    12
    ],
-   "this_week": 14,
-   "velocity": 2.8,
+   "this_week": 12,
+   "velocity": 6,
    "markets": {
     "uk": 5,
     "fi": 1,
@@ -8879,7 +8879,7 @@
    "headline_en": "Herbert Blomstedt, renowned conductor with a seven-decade career, dies aged 99",
    "headline_fi": "Tähtikapellimestari Herbert Blomstedt on kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-09T06:38:28Z",
+   "last_seen": "2026-11-10T19:23:23Z",
    "weekly": [
     0,
     0,
@@ -9537,7 +9537,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-09T16:01:03Z",
+   "checked": "2026-11-13T07:30:52Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9783,7 +9783,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-13T01:01:10Z",
+   "checked": "2026-11-13T07:30:52Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10200,7 +10200,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-13T01:01:10Z",
+   "checked": "2026-11-13T07:30:52Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11357,6 +11357,90 @@
    ],
    "abroad_first": "2026-11-07T14:04:40Z",
    "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3762": {
+   "id": "3762",
+   "first_seen": "2026-11-11T19:58:05Z",
+   "headline": "USA make Pep Guardiola ‘top target’ to replace Mauricio Pochettino",
+   "headline_en": "USMNT unaffected by Pochettino-to-Manchester United reports, Antonee Robinson says",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-12T20:32:37Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 1,
+   "markets": {
+    "us": 2,
+    "uk": 2,
+    "intl": 1
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "USMNT unaffected by Pochettino-to-Manchester United reports, Antonee Robinson says",
+     "u": "https://www.nytimes.com/athletic/7770289/2026/11/10/mauricio-pochettino-manchester-united-antonee-robinson-usmnt/",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-10T17:20:27Z"
+    },
+    {
+     "t": "Pochettino's U.S. Soccer contract buyout revealed as Man United links intensify",
+     "u": "https://www.nytimes.com/athletic/7769270/2026/11/09/mauricio-pochettino-contract-buyout-us-soccer-manchester-united/",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-10T04:05:23Z"
+    },
+    {
+     "t": "Mauricio Pochettino interested in leaving USMNT job for Manchester United",
+     "u": "https://www.theguardian.com/football/2026/nov/10/mauricio-pochettino-interested-manchester-united-usmnt-release-clause",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-10T16:10:38Z"
+    }
+   ],
+   "abroad_first": "2026-11-10T04:05:23Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-13T07:30:52Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3707": {
+   "id": "3707",
+   "first_seen": "2026-11-10T07:09:59Z",
+   "headline": "BBC haastatteli Teemu Pukin viimeisestä ottelusta Erkka V. Lehtolaa: \"Hän on edelleen iso sankari",
+   "headline_en": null,
+   "headline_fi": "BBC haastatteli Teemu Pukin viimeisestä ottelusta Erkka V. Lehtolaa: \"Hän on edelleen iso sankari",
+   "state": "acceleration",
+   "last_seen": "2026-11-12T20:33:41Z",
+   "weekly": [
+    10,
+    0,
+    1,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 12,
+   "markets": {
+    "fi": 10
+   },
+   "outlets": 3,
+   "samples": [],
+   "abroad_first": "2026-11-10T07:09:59Z",
+   "markets_abroad": 0,
    "subjects": [],
    "relevant": false
   }
