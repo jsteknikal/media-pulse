@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-14T17:30:51Z",
+  "last_run": "2026-11-14T20:30:51Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 35,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -4668,7 +4668,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T11:30:51Z",
+   "checked": "2026-11-14T20:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9649,7 +9649,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T11:30:51Z",
+   "checked": "2026-11-14T20:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10132,7 +10132,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-14T11:30:51Z",
+   "checked": "2026-11-14T20:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10318,7 +10318,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T11:30:51Z",
+   "checked": "2026-11-14T20:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11043,7 +11043,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T11:30:51Z",
+   "checked": "2026-11-14T20:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11405,7 +11405,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T11:30:51Z",
+   "checked": "2026-11-14T20:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11850,7 +11850,7 @@
    "headline_en": "German FA to hold talks with Felix Nmecha over links to Christian evangelical group",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:02:59Z",
+   "last_seen": "2026-11-14T09:14:37Z",
    "weekly": [
     0,
     0,
@@ -11896,7 +11896,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T08:30:49Z",
+   "checked": "2026-11-14T20:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11907,7 +11907,7 @@
    "headline_en": null,
    "headline_fi": "Ruotsidemokraattien kansanedustaja eroaa ahdistelusyytösten takia",
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:15Z",
+   "last_seen": "2026-11-14T09:15:01Z",
    "weekly": [
     0,
     0,
@@ -11959,7 +11959,7 @@
    "headline_en": "Famed ship SS United States to be sunk off coast of Florida",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:03:06Z",
+   "last_seen": "2026-11-14T09:14:53Z",
    "weekly": [
     0,
     5,
@@ -12064,7 +12064,7 @@
    "headline_en": "Israeli strike on Nasser Hospital kills at least six, Gaza civil defence agency says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:08Z",
+   "last_seen": "2026-11-14T09:14:55Z",
    "weekly": [
     0,
     0,
@@ -12112,7 +12112,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T05:15:44Z",
+   "checked": "2026-11-14T20:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12172,7 +12172,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T11:30:51Z",
+   "checked": "2026-11-14T20:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12487,6 +12487,87 @@
    ],
    "abroad_first": "2026-11-11T01:37:01Z",
    "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3797": {
+   "id": "3797",
+   "first_seen": "2026-11-12T08:12:17Z",
+   "headline": "Исследование: 75% женщин в бундесвере сталкивались с домогательствами",
+   "headline_en": "Study reveals widespread sexual misconduct in Bundeswehr",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:14:37Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 11,
+   "markets": {
+    "de": 9,
+    "intl": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Исследование: 75% женщин в бундесвере сталкивались с домогательствами",
+     "u": "https://www.dw.com/ru/issledovanie-75-zensin-v-bundesvere-stalkivalis-s-domogatelstvami/a-79923070",
+     "d": "dw.com",
+     "c": "de",
+     "l": "ru",
+     "p": "2026-11-11T17:43:28Z"
+    },
+    {
+     "t": "Meinung: Die Lage am Morgen - Wie sicher sind Frauen bei der Bundeswehr?",
+     "u": "https://www.spiegel.de/politik/deutschland/news-umfrage-zu-ilse-aigner-skandal-um-barmherzige-brueder-uebergriffe-bei-der-bundeswehr-a-e0059027-24a4-4041-96ca-ad41c966cfbb",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-11T04:46:00Z"
+    },
+    {
+     "t": "Study reveals widespread sexual misconduct in Bundeswehr",
+     "u": "https://www.dw.com/en/study-reveals-widespread-sexual-misconduct-in-bundeswehr/video-79923238",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-11T19:25:53Z"
+    }
+   ],
+   "abroad_first": "2026-11-11T04:01:00Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-14T20:30:51Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3872": {
+   "id": "3872",
+   "first_seen": "2026-11-14T09:14:45Z",
+   "headline": "Fem SAS-plan på väg mot USA",
+   "headline_en": null,
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-14T09:14:45Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2.6,
+   "markets": {},
+   "outlets": 0,
+   "samples": [],
+   "abroad_first": "2026-11-14T09:14:45Z",
+   "markets_abroad": 0,
    "subjects": [],
    "relevant": false
   }
