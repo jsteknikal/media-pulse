@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-14T05:15:44Z",
+  "last_run": "2026-11-14T08:30:49Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 42,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9779,7 +9779,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-14T02:15:37Z",
+   "checked": "2026-11-14T08:30:49Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10192,7 +10192,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-14T02:15:37Z",
+   "checked": "2026-11-14T08:30:49Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11897,7 +11897,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T02:15:37Z",
+   "checked": "2026-11-14T08:30:49Z",
    "check_how": "url",
    "check_error": null
   },
