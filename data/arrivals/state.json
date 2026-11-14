@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-14T08:30:49Z",
+  "last_run": "2026-11-14T11:30:51Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 42,
+  "similar_left": 36,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -4668,7 +4668,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T05:15:44Z",
+   "checked": "2026-11-14T11:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -7305,14 +7305,14 @@
    "headline_en": "In Mississippi, voters await cliffhanger Senate result with hope and frustration",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:02:56Z",
+   "last_seen": "2026-11-14T09:14:34Z",
    "weekly": [
     0,
     4,
-    25,
-    62
+    27,
+    67
    ],
-   "this_week": 62,
+   "this_week": 67,
    "velocity": 2.888888888888889,
    "markets": {
     "uk": 3,
@@ -7563,7 +7563,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T05:15:44Z",
+   "checked": "2026-11-14T11:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -8180,36 +8180,29 @@
   "3597": {
    "id": "3597",
    "first_seen": "2026-11-08T06:14:39Z",
-   "headline": "Sisäministeri: Puolan ampuja oli \"kiinnostunut äärioikeistolaisesta ideologiasta",
+   "headline": "Vittnet i Krakow: \"Var som en avrättning",
    "headline_en": "Krakow shooting latest: Gunman in military gear shot by police after killing five using ‘army-style’ rifle",
-   "headline_fi": "Sisäministeri: Puolan ampuja oli \"kiinnostunut äärioikeistolaisesta ideologiasta",
-   "state": "emergence",
-   "last_seen": "2026-11-13T21:03:28Z",
+   "headline_fi": "Kirurgit riensivät ampumapaikalle, sadat luovuttivat verta haavoittuneelle poliisille - Krakovan sankareille kiitosta",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:15:11Z",
    "weekly": [
     0,
     0,
-    0,
-    164
+    59,
+    105
    ],
-   "this_week": 164,
-   "velocity": 32.6,
+   "this_week": 105,
+   "velocity": 1.7796610169491525,
    "markets": {
-    "fi": 3,
-    "de": 3,
     "se": 1,
-    "uk": 2,
-    "intl": 1
+    "uk": 3,
+    "intl": 1,
+    "fi": 1,
+    "de": 3,
+    "us": 1
    },
-   "outlets": 7,
+   "outlets": 9,
    "samples": [
-    {
-     "t": "Poljska: Najmanje šestoro mrtvih u pucnjavi u Krakovu, napadač uhapšen",
-     "u": "https://www.dw.com/sr/poljska-najmanje-%C5%A1estoro-mrtvih-u-pucnjavi-u-krakovu-napada%C4%8D-uhap%C5%A1en/a-79888184",
-     "d": "dw.com",
-     "c": "de",
-     "l": "srp",
-     "p": "2026-11-07T19:57:57Z"
-    },
     {
      "t": "Vittnet i Krakow: \"Var som en avrättning",
      "u": "https://www.svt.se/nyheter/utrikes/vittnet-i-krakow-var-som-en-avrattning",
@@ -8225,12 +8218,19 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-07T15:31:20Z"
+    },
+    {
+     "t": "Lincolnshire man recalls how he escaped Krakow shooting",
+     "u": "https://www.bbc.co.uk/news/articles/c65yn18xewx9o",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-08T16:47:36Z"
     }
    ],
    "abroad_first": "2026-11-07T15:31:20Z",
-   "markets_abroad": 4,
+   "markets_abroad": 5,
    "subjects": [
-    "policy",
     "geopolitics"
    ],
    "relevant": false,
@@ -8250,44 +8250,26 @@
   "3598": {
    "id": "3598",
    "first_seen": "2026-11-08T06:14:39Z",
-   "headline": "Trump ofrece su portavocía a un exluchador profesional",
-   "headline_en": "Trump offers UFC chief Dana White press secretary job",
+   "headline": "29-åring satte nytt världsrekord över Atlanten",
+   "headline_en": "Trump asks UFC chief Dana White to be White House press secretary",
    "headline_fi": "Melkoinen hurja joukko tulossa Valkoisen talon tiedotusosastolle, jos hyväksyvät Trumpin tarjouksen",
-   "state": "emergence",
-   "last_seen": "2026-11-13T21:03:13Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:15:00Z",
    "weekly": [
     0,
     0,
-    0,
-    60
+    20,
+    40
    ],
-   "this_week": 60,
-   "velocity": 11.8,
+   "this_week": 40,
+   "velocity": 2,
    "markets": {
-    "es": 1,
-    "us": 2,
-    "de": 2,
-    "intl": 1,
-    "fi": 3
+    "de": 3,
+    "intl": 2,
+    "fi": 4
    },
-   "outlets": 7,
+   "outlets": 8,
    "samples": [
-    {
-     "t": "Trump ofrece su portavocía a un exluchador profesional",
-     "u": "https://elpais.com/internacional/2026-11-07/trump-ofrece-su-portavocia-a-un-exluchador-profesional.html",
-     "d": "elpais.com",
-     "c": "es",
-     "l": "es",
-     "p": "2026-11-07T19:17:53Z"
-    },
-    {
-     "t": "Trump offers UFC chief Dana White press secretary job",
-     "u": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html",
-     "d": "cnbc.com",
-     "c": "us",
-     "l": "en",
-     "p": "2026-11-07T18:51:42Z"
-    },
     {
      "t": "Trump tritt mit Kampfsportboss White vor die Presse im Weißen Haus",
      "u": "https://www.spiegel.de/ausland/donald-trump-tritt-mit-kampfsportboss-dana-white-vor-die-presse-im-weissen-haus-a-3d45812a-34ee-4b72-82ee-f26dbf9e1401",
@@ -8295,10 +8277,26 @@
      "c": "de",
      "l": "de",
      "p": "2026-11-10T04:32:00Z"
+    },
+    {
+     "t": "Trump asks UFC chief Dana White to be White House press secretary",
+     "u": "https://www.aljazeera.com/news/2026/11/8/trump-asks-ufc-chief-dana-white-to-be-white-house-press-secretary",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-08T03:12:44Z"
+    },
+    {
+     "t": "Donald Trump bietet UFC-Chef Dana White Job an - der will für Gespräch nach Washington reisen",
+     "u": "https://www.spiegel.de/ausland/donald-trump-bietet-ufc-chef-dana-white-job-als-sprecher-an-der-will-fuer-gespraech-anreisen-a-3fcc68a9-735c-4f0e-ace7-82130710182a",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-08T03:32:00Z"
     }
    ],
    "abroad_first": "2026-11-07T18:51:42Z",
-   "markets_abroad": 4,
+   "markets_abroad": 2,
    "subjects": [],
    "relevant": false
   },
@@ -8806,14 +8804,14 @@
    "headline_en": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:02:54Z",
+   "last_seen": "2026-11-14T09:14:26Z",
    "weekly": [
     1,
     4,
-    8,
-    567
+    14,
+    617
    ],
-   "this_week": 567,
+   "this_week": 617,
    "velocity": 70.875,
    "markets": {
     "uk": 5,
@@ -8999,14 +8997,14 @@
    "headline_en": "COP31 Action Tracker: US midterms and Brazil Roadmaps - edie",
    "headline_fi": "Keskuskauppakamari: Päästövähennykset eivät enää yksin riitä – ilmastonmuutokseen on myös sopeuduttava",
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:03:15Z",
+   "last_seen": "2026-11-14T09:14:50Z",
    "weekly": [
     2,
     1,
     8,
-    48
+    52
    ],
-   "this_week": 48,
+   "this_week": 52,
    "velocity": 9.2,
    "markets": {
     "uk": 4,
@@ -9090,25 +9088,25 @@
    "first_seen": "2026-11-08T06:14:46Z",
    "headline": "Brazilian Grand Prix briefing: Lando Norris wins rainy thriller, Mercedes seals team title",
    "headline_en": "Brazilian Grand Prix briefing: Lando Norris wins rainy thriller, Mercedes seals team title",
-   "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-13T21:03:47Z",
+   "headline_fi": "George Russell pyörähteli pelottavalla tavalla F1-varikolla - katso kuvat hurjasta vaaratilanteesta",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:15:29Z",
    "weekly": [
     0,
     0,
-    0,
-    29
+    7,
+    22
    ],
-   "this_week": 29,
-   "velocity": 5.8,
+   "this_week": 22,
+   "velocity": 3.142857142857143,
    "markets": {
     "us": 1,
-    "uk": 3,
-    "de": 3,
-    "intl": 2,
-    "es": 1
+    "intl": 1,
+    "de": 6,
+    "fi": 1,
+    "uk": 1
    },
-   "outlets": 9,
+   "outlets": 10,
    "samples": [
     {
      "t": "Brazilian Grand Prix briefing: Lando Norris wins rainy thriller, Mercedes seals team title",
@@ -9119,24 +9117,24 @@
      "p": "2026-11-08T18:45:28Z"
     },
     {
-     "t": "Sao Paulo Grand Prix: Lando Norris and George Russell hoping for more rain in race after wet qualifying",
-     "u": "https://www.bbc.co.uk/sport/formula1/articles/cmde81d9nkxko",
-     "d": "bbc.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-07T23:53:30Z"
+     "t": "Ｆ１＝ブラジルＧＰ予選、ノリスが3年連続のＰＰ獲得",
+     "u": "https://www.reuters.com/jp/life/sports/XWD3FLAUSZN2VCVEXDBLZD7S34-2026-11-08/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-08T01:33:42Z"
     },
     {
-     "t": "Lando Norris claims pole for F1 São Paulo GP as rain disrupts qualifying",
-     "u": "https://www.theguardian.com/sport/2026/nov/07/lando-norris-claims-pole-for-f1-sao-paulo-gp-as-rain-disrupts-qualifying",
-     "d": "theguardian.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-07T20:53:55Z"
+     "t": "Lando Norris gewinnt Qualifikation zum Grand Prix in São Paulo",
+     "u": "https://www.faz.net/aktuell/sport/formel-1/lando-norris-gewinnt-qualifikation-zum-grand-prix-in-sao-paulo-accg-201662501.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-08T08:50:42Z"
     }
    ],
    "abroad_first": "2026-11-07T20:33:58Z",
-   "markets_abroad": 5,
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   },
@@ -9147,14 +9145,14 @@
    "headline_en": null,
    "headline_fi": "10 min: Susanna Tapani huippupaikassa",
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:03:31Z",
+   "last_seen": "2026-11-14T09:14:46Z",
    "weekly": [
     0,
-    0,
-    18,
-    41
+    4,
+    15,
+    51
    ],
-   "this_week": 41,
+   "this_week": 51,
    "velocity": 2.2777777777777777,
    "markets": {
     "fi": 10
@@ -9173,14 +9171,14 @@
    "headline_en": "Dominant Lando Norris powers to victory in São Paulo F1 Grand Prix",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:03:47Z",
+   "last_seen": "2026-11-14T09:15:29Z",
    "weekly": [
     0,
     0,
-    3,
-    17
+    6,
+    14
    ],
-   "this_week": 17,
+   "this_week": 14,
    "velocity": 19,
    "markets": {
     "de": 5,
@@ -9600,34 +9598,26 @@
   "3605": {
    "id": "3605",
    "first_seen": "2026-11-08T06:14:45Z",
-   "headline": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
-   "headline_en": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
+   "headline": "Trump says Iran is sealed off. But can new US task force stop weapons flow?",
+   "headline_en": "Trump says Iran is sealed off. But can new US task force stop weapons flow?",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-13T21:03:17Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:15:02Z",
    "weekly": [
     0,
     0,
-    0,
-    19
+    6,
+    13
    ],
-   "this_week": 19,
-   "velocity": 3.4,
+   "this_week": 13,
+   "velocity": 2.1666666666666665,
    "markets": {
-    "intl": 4,
-    "uk": 4,
-    "us": 2
+    "intl": 3,
+    "us": 3,
+    "uk": 4
    },
    "outlets": 5,
    "samples": [
-    {
-     "t": "EXCLUSIVE: Expanding on naval blockade, US military looks to restrict Iranian land commerce",
-     "u": "https://www.reuters.com/world/middle-east/expanding-naval-blockade-us-military-looks-restrict-iranian-land-commerce-2026-11-07/",
-     "d": "reuters.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-07T13:36:42Z"
-    },
     {
      "t": "Trump says Iran is sealed off. But can new US task force stop weapons flow?",
      "u": "https://www.aljazeera.com/news-analysis/2026/11/9/trump-says-iran-is-sealed-off-but-can-new-us-task-force-stop-weapons-flow",
@@ -9643,6 +9633,14 @@
      "c": "intl",
      "l": "en",
      "p": "2026-11-08T02:34:04Z"
+    },
+    {
+     "t": "US task force to cut off Iran's transport of advanced weapons: What we know",
+     "u": "https://www.aljazeera.com/news/2026/11/8/us-task-force-to-cut-off-irans-transport-of-advanced-weapons-what-we-know",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-08T14:06:19Z"
     }
    ],
    "abroad_first": "2026-11-07T13:36:42Z",
@@ -9651,35 +9649,44 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T05:15:44Z",
+   "checked": "2026-11-14T11:30:51Z",
    "check_how": "url",
    "check_error": null
   },
   "3656": {
    "id": "3656",
    "first_seen": "2026-11-09T06:37:56Z",
-   "headline": "Sadevesi tulvi kymmeniin tuhansiin telttoihin Gazassa",
-   "headline_en": "Gaza: Rains add misery to humanitarian catastrophe",
+   "headline": "BBC World Service - The Documentary Podcast, Living through the Gaza floods",
+   "headline_en": "BBC World Service - The Documentary Podcast, Living through the Gaza floods",
    "headline_fi": "Sadevesi tulvi kymmeniin tuhansiin telttoihin Gazassa",
-   "state": "emergence",
-   "last_seen": "2026-11-13T21:03:19Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:14:31Z",
    "weekly": [
     0,
     0,
-    0,
-    21
+    4,
+    18
    ],
-   "this_week": 21,
-   "velocity": 4,
+   "this_week": 18,
+   "velocity": 4.5,
    "markets": {
+    "uk": 1,
     "fi": 1,
     "de": 5,
-    "intl": 2,
-    "es": 1,
-    "se": 1
+    "intl": 1,
+    "se": 1,
+    "es": 1
    },
-   "outlets": 7,
+   "outlets": 8,
    "samples": [
+    {
+     "t": "BBC World Service - The Documentary Podcast, Living through the Gaza floods",
+     "u": "https://www.bbc.co.uk/programmes/p0pmwzsh",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-14T00:00:00Z"
+    },
     {
      "t": "Gaza: Rains add misery to humanitarian catastrophe",
      "u": "https://www.dw.com/en/gaza-rains-add-misery-to-humanitarian-catastrophe/a-79889580",
@@ -9695,18 +9702,10 @@
      "c": "de",
      "l": "sqi",
      "p": "2026-11-11T18:40:58Z"
-    },
-    {
-     "t": "Photos: Heavy rains leave tens of thousands without shelter in Gaza",
-     "u": "https://www.aljazeera.com/gallery/2026/11/8/photos-heavy-rains-leave-tens-of-thousands-without-shelter-in-gaza",
-     "d": "aljazeera.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-08T06:55:24Z"
     }
    ],
    "abroad_first": "2026-11-07T11:10:02Z",
-   "markets_abroad": 4,
+   "markets_abroad": 5,
    "subjects": [
     "geopolitics"
    ],
@@ -9786,18 +9785,18 @@
   "3682": {
    "id": "3682",
    "first_seen": "2026-11-09T18:50:58Z",
-   "headline": "Ylen asiantuntija nimeää ratkaisevan eron HJK:n ja FC Interin välillä: \"Pöyhkeä pyörremyrsky\" on nyt mestarisuosikki",
+   "headline": "Jalkapallokannattajat aiheuttivat hässäkän Helsingissä - poliisi turvautui voimakeinoihin",
    "headline_en": null,
    "headline_fi": "Ylen asiantuntija nimeää ratkaisevan eron HJK:n ja FC Interin välillä: \"Pöyhkeä pyörremyrsky\" on nyt mestarisuosikki",
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:03:49Z",
+   "last_seen": "2026-11-14T09:15:31Z",
    "weekly": [
-    7,
-    13,
     6,
-    28
+    13,
+    7,
+    27
    ],
-   "this_week": 28,
+   "this_week": 27,
    "velocity": 4.666666666666667,
    "markets": {
     "fi": 10
@@ -9869,7 +9868,7 @@
    "headline_en": "Egypt train crash leaves several dead, many injured",
    "headline_fi": "Junaturma Egyptissä - neljä kuollut, kymmeniä loukkaantunut",
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:56Z",
+   "last_seen": "2026-11-14T09:15:35Z",
    "weekly": [
     0,
     0,
@@ -9974,15 +9973,15 @@
   "3531": {
    "id": "3531",
    "first_seen": "2026-11-07T05:42:45Z",
-   "headline": "BBC Audio | Test Match Special | Khawaja's 'sandpapergate' revelations",
+   "headline": "Pat Cummins calls Usman Khawaja sandpaper claims 'wrong' and 'nonsense'",
    "headline_en": "BBC Audio | Test Match Special | Khawaja's 'sandpapergate' revelations",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:02:57Z",
+   "last_seen": "2026-11-14T09:14:29Z",
    "weekly": [
     0,
     0,
-    3,
+    6,
     32
    ],
    "this_week": 32,
@@ -10031,14 +10030,14 @@
    "headline_en": null,
    "headline_fi": "Ruotsin vasemmistopuolue pettyi demarien ilmoitukseen ja syyttää keskustaa - \"Kiristystä",
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:03:14Z",
+   "last_seen": "2026-11-14T09:14:50Z",
    "weekly": [
     2,
     2,
     10,
-    47
+    53
    ],
-   "this_week": 47,
+   "this_week": 53,
    "velocity": 4.7,
    "markets": {
     "se": 3,
@@ -10133,7 +10132,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-14T05:15:44Z",
+   "checked": "2026-11-14T11:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10203,14 +10202,14 @@
    "headline_en": "A bleak Booker winner for our chaotic times - will readers come along for the ride?",
    "headline_fi": "Kaikkien aikojen vanhimman Booker-voittajan teos heijastelee tekoälyyn liittyviä huolia",
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:32Z",
+   "last_seen": "2026-11-14T09:14:48Z",
    "weekly": [
     0,
     0,
     0,
-    19
+    21
    ],
-   "this_week": 19,
+   "this_week": 21,
    "velocity": 3.8,
    "markets": {
     "uk": 5,
@@ -10270,20 +10269,20 @@
    "headline": "US forces 'disabled' commercial vessel in Gulf of Oman",
    "headline_en": "US forces 'disabled' commercial vessel in Gulf of Oman",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-13T21:03:21Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:15:05Z",
    "weekly": [
     0,
     0,
-    0,
-    16
+    2,
+    14
    ],
-   "this_week": 16,
-   "velocity": 3,
+   "this_week": 14,
+   "velocity": 7,
    "markets": {
-    "intl": 5,
+    "intl": 4,
     "uk": 2,
-    "us": 2,
+    "us": 3,
     "de": 1
    },
    "outlets": 9,
@@ -10319,7 +10318,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T05:15:44Z",
+   "checked": "2026-11-14T11:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10330,7 +10329,7 @@
    "headline_en": "Trump reverses stance, alleges fraud in recent US midterm elections",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:20Z",
+   "last_seen": "2026-11-14T09:15:04Z",
    "weekly": [
     0,
     0,
@@ -10436,7 +10435,7 @@
    "headline_en": "Trump Says Immigration Crackdown May Have 'Hurt' Republicans in Midterms",
    "headline_fi": "Trump tunnusti saattaneensa tehdä virheen",
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:17Z",
+   "last_seen": "2026-11-14T09:15:03Z",
    "weekly": [
     0,
     0,
@@ -10504,10 +10503,10 @@
    "id": "3750",
    "first_seen": "2026-11-11T07:42:33Z",
    "headline": "Amerikansk soldat gripen - spionkopplingar till Ryssland",
-   "headline_en": "Senior US soldier arrested in UK on suspicion of spying for Russia",
+   "headline_en": "US soldier arrested in UK on suspicion of spying for Russia",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:06Z",
+   "last_seen": "2026-11-14T09:14:53Z",
    "weekly": [
     0,
     0,
@@ -10515,12 +10514,12 @@
     19
    ],
    "this_week": 19,
-   "velocity": 3,
+   "velocity": 3.8,
    "markets": {
     "se": 2,
+    "uk": 4,
     "intl": 2,
     "us": 1,
-    "uk": 3,
     "de": 1
    },
    "outlets": 7,
@@ -10534,20 +10533,20 @@
      "p": "2026-11-10T19:06:36Z"
     },
     {
-     "t": "Senior US soldier arrested in UK on suspicion of spying for Russia",
-     "u": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809",
-     "d": "ft.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-10T19:54:37Z"
+     "t": "米陸軍兵士をイギリスで逮捕、ロシアのスパイ容疑で",
+     "u": "https://www.bbc.com/japanese/articles/c9x2ey0eky6no",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ja",
+     "p": "2026-11-11T00:40:01Z"
     },
     {
-     "t": "US Soldier Is Arrested in UK on Suspicion of Spying for Russia",
-     "u": "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html",
-     "d": "nytimes.com",
-     "c": "us",
+     "t": "US soldier arrested in UK on suspicion of spying for Russia",
+     "u": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage",
+     "d": "aljazeera.com",
+     "c": "intl",
      "l": "en",
-     "p": "2026-11-10T19:52:40Z"
+     "p": "2026-11-10T20:41:53Z"
     }
    ],
    "abroad_first": "2026-11-10T18:58:45Z",
@@ -10576,14 +10575,14 @@
    "headline_en": "Merz accused of 'blackmail' by Slovakian PM after demand for Ukraine aid in EU budget",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:03Z",
+   "last_seen": "2026-11-14T09:14:41Z",
    "weekly": [
     0,
     0,
     0,
-    26
+    27
    ],
-   "this_week": 26,
+   "this_week": 27,
    "velocity": 5.2,
    "markets": {
     "de": 5,
@@ -10694,25 +10693,33 @@
    "id": "3737",
    "first_seen": "2026-11-11T07:42:17Z",
    "headline": "World at One and PM Highlights - David Walliams accused of grooming girls as young as 15 - BBC Sounds",
-   "headline_en": "David Walliams accused of sexual misconduct in Guardian and ITN investigation",
+   "headline_en": "World at One and PM Highlights - David Walliams accused of grooming girls as young as 15 - BBC Sounds",
    "headline_fi": "Koomikko David Walliamsia syytetään seksuaalisesta hyväksikäytöstä, joukossa alaikäisiä tyttöjä",
-   "state": "emergence",
-   "last_seen": "2026-11-13T21:02:55Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:14:30Z",
    "weekly": [
     0,
     0,
-    0,
-    33
+    1,
+    49
    ],
-   "this_week": 33,
-   "velocity": 3.2,
+   "this_week": 49,
+   "velocity": 49,
    "markets": {
     "uk": 8,
-    "fi": 1,
-    "intl": 1
+    "de": 1,
+    "fi": 1
    },
    "outlets": 6,
    "samples": [
+    {
+     "t": "World at One and PM Highlights - David Walliams accused of grooming girls as young as 15 - BBC Sounds",
+     "u": "https://www.bbc.co.uk/sounds/play/curation/m001bm45/p0pmb6x4",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-10T19:45:45Z"
+    },
     {
      "t": "David Walliams accused of sexual misconduct in Guardian and ITN investigation",
      "u": "https://www.bbc.co.uk/news/articles/ckn8w8p9370zo",
@@ -10728,14 +10735,6 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-10T18:43:43Z"
-    },
-    {
-     "t": "World at One and PM Highlights - David Walliams accused of grooming girls as young as 15 - BBC Sounds",
-     "u": "https://www.bbc.co.uk/sounds/play/curation/m001bm45/p0pmb6x4",
-     "d": "bbc.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-10T19:45:45Z"
     }
    ],
    "abroad_first": "2026-11-10T12:46:29Z",
@@ -10750,7 +10749,7 @@
    "headline_en": "Turkey steel plant blast kills at least 17",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:36Z",
+   "last_seen": "2026-11-14T09:15:19Z",
    "weekly": [
     0,
     0,
@@ -10857,7 +10856,7 @@
    "headline_en": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
    "headline_fi": "Kolmea miestä syytetään terrori-iskun suunnitellusta Fairford lentotukikohtaan",
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:25Z",
+   "last_seen": "2026-11-14T09:15:09Z",
    "weekly": [
     0,
     0,
@@ -10865,15 +10864,23 @@
     21
    ],
    "this_week": 21,
-   "velocity": 1.6,
+   "velocity": 4.2,
    "markets": {
-    "uk": 5,
-    "us": 1,
+    "intl": 1,
     "fi": 1,
-    "de": 1
+    "uk": 4,
+    "us": 1
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
+    {
+     "t": "米司法省、英基地攻撃準備で3人起訴　拘置所から計画調整か",
+     "u": "https://www.reuters.com/jp/world/security/JW5C2ESXA5LJXLFHNMDUR6RSZQ-2026-11-10/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-10T23:46:17Z"
+    },
     {
      "t": "واشنطن تتهم ثلاثة أشخاص مرتبطين بإيران بالتخطيط لهجمات، بينها استهداف قاعدة جوية في بريطانيا - BBC News عربي",
      "u": "https://www.bbc.com/arabic/articles/c8dx16z6kyw5o",
@@ -10889,14 +10896,6 @@
      "c": "uk",
      "l": "zh",
      "p": "2026-11-11T03:12:53Z"
-    },
-    {
-     "t": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-     "u": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo",
-     "d": "bbc.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-11T01:01:20Z"
     }
    ],
    "abroad_first": "2026-11-10T20:46:12Z",
@@ -10925,7 +10924,7 @@
    "headline_en": "Qatar LNG Loadings Pick Up to Around Half of Pre-War Levels",
    "headline_fi": "Yhdysvallat pidättäytyy iskuista Iraniin, sanoo Trump",
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:35Z",
+   "last_seen": "2026-11-14T09:15:19Z",
    "weekly": [
     0,
     0,
@@ -11044,7 +11043,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T05:15:44Z",
+   "checked": "2026-11-14T11:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11055,7 +11054,7 @@
    "headline_en": "Russian ambassador to US dies, foreign ministry says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:30Z",
+   "last_seen": "2026-11-14T09:15:14Z",
    "weekly": [
     0,
     0,
@@ -11124,7 +11123,7 @@
    "headline_en": "Ukraine war live: Trump sees 'strong inclination' to end war ahead of Abu Dhabi talks",
    "headline_fi": "Tietomurto saattoi paljastaa Venäjän massiiviset tappiot Ukrainassa",
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:02:59Z",
+   "last_seen": "2026-11-14T09:14:37Z",
    "weekly": [
     0,
     0,
@@ -11194,7 +11193,7 @@
    "headline_en": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
    "headline_fi": "Barcelonassa puhkesi mellakka - kauppoja ryöstetty, yhteenottoja poliisin kanssa",
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:03:10Z",
+   "last_seen": "2026-11-14T09:14:57Z",
    "weekly": [
     3,
     0,
@@ -11355,18 +11354,18 @@
   "3762": {
    "id": "3762",
    "first_seen": "2026-11-11T19:58:05Z",
-   "headline": "Manchester United make formal contact with U.S. Soccer over Mauricio Pochettino",
+   "headline": "Michael Carrick sacked by Man United with club stuck in relegation zone after latest crisis",
    "headline_en": "Manchester United make formal contact with U.S. Soccer over Mauricio Pochettino",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:02:55Z",
+   "last_seen": "2026-11-14T09:14:33Z",
    "weekly": [
     0,
     1,
     3,
-    23
+    28
    ],
-   "this_week": 23,
+   "this_week": 28,
    "velocity": 7.666666666666667,
    "markets": {
     "us": 5,
@@ -11406,7 +11405,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T05:15:44Z",
+   "checked": "2026-11-14T11:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11443,7 +11442,7 @@
    "headline_en": "Hegseth and team reprimanded by Army guard at solemn war memorial",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:11Z",
+   "last_seen": "2026-11-14T09:14:58Z",
    "weekly": [
     0,
     0,
@@ -11507,18 +11506,18 @@
   "3814": {
    "id": "3814",
    "first_seen": "2026-11-13T08:44:00Z",
-   "headline": "Eikö sähköpostisi toimi? Microsoftilla laajoja häiriöitä",
+   "headline": "微軟系統全球癱瘓：Outlook、Teams、Copilot受影響",
    "headline_en": "Microsoft reports mass outages in US, impacting customer accessibility",
    "headline_fi": "Eikö sähköpostisi toimi? Microsoftilla laajoja häiriöitä",
    "state": "emergence",
-   "last_seen": "2026-11-13T21:02:54Z",
+   "last_seen": "2026-11-14T09:14:29Z",
    "weekly": [
     0,
     0,
     0,
-    33
+    61
    ],
-   "this_week": 33,
+   "this_week": 61,
    "velocity": 6,
    "markets": {
     "fi": 2,
@@ -11577,23 +11576,23 @@
   "3753": {
    "id": "3753",
    "first_seen": "2026-11-11T07:42:35Z",
-   "headline": "Hyrkkö löylyttää Orpoa Tavion Somalia-päätöksestä: \"Julmaa peliä",
+   "headline": "Tavio lyö löylyä Somalia-kohuun - tiukka kysymys muille puolueille",
    "headline_en": null,
-   "headline_fi": "Orpo: Taviolla oli oikeus hylätä Somalia-hankkeiden rahoitus",
+   "headline_fi": "Tavio lyö löylyä Somalia-kohuun - tiukka kysymys muille puolueille",
    "state": "emergence",
-   "last_seen": "2026-11-13T21:02:55Z",
+   "last_seen": "2026-11-14T09:14:25Z",
    "weekly": [
     0,
     0,
     0,
-    17
+    18
    ],
-   "this_week": 17,
-   "velocity": 1.2,
+   "this_week": 18,
+   "velocity": 3.6,
    "markets": {
-    "fi": 6
+    "fi": 10
    },
-   "outlets": 5,
+   "outlets": 4,
    "samples": [],
    "abroad_first": "2026-11-11T07:42:35Z",
    "markets_abroad": 0,
@@ -11609,14 +11608,14 @@
    "headline_en": "Trump Wants Apple's Tim Cook to Replace Jensen Huang as NVIDIA CEO",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:03Z",
+   "last_seen": "2026-11-14T09:14:40Z",
    "weekly": [
     0,
     0,
     0,
-    14
+    15
    ],
-   "this_week": 14,
+   "this_week": 15,
    "velocity": 2.8,
    "markets": {
     "de": 2,
@@ -11673,18 +11672,18 @@
   "3777": {
    "id": "3777",
    "first_seen": "2026-11-12T08:11:59Z",
-   "headline": "Rakennus romahti New Yorkissa - CNN: Ainakin kaksi kuollut",
+   "headline": "'Who will be held accountable?': fatal Brooklyn building collapse devastates community",
    "headline_en": "NYC building collapse kills two and leaves others trapped in rubble",
    "headline_fi": "Rakennus romahti New Yorkissa - CNN: Ainakin kaksi kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:04Z",
+   "last_seen": "2026-11-14T09:14:29Z",
    "weekly": [
     0,
     0,
     0,
-    34
+    41
    ],
-   "this_week": 34,
+   "this_week": 41,
    "velocity": 2.2,
    "markets": {
     "fi": 3,
@@ -11731,14 +11730,14 @@
    "headline_en": "Harry Kane wins record 126th England cap, pulling clear of Peter Shilton",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:02:56Z",
+   "last_seen": "2026-11-14T09:14:34Z",
    "weekly": [
     0,
     0,
     1,
-    21
+    22
    ],
-   "this_week": 21,
+   "this_week": 22,
    "velocity": 20,
    "markets": {
     "uk": 5,
@@ -11780,18 +11779,18 @@
   "3823": {
    "id": "3823",
    "first_seen": "2026-11-13T08:44:06Z",
-   "headline": "US-Senat lädt Ex-Nvidia-Chef Jensen Huang vor",
+   "headline": "World in brief: Bessent blames Lutnick for lax chip controls; Microsoft outage enters second day",
    "headline_en": "Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:03:02Z",
+   "last_seen": "2026-11-14T09:14:25Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    32
    ],
-   "this_week": 13,
+   "this_week": 32,
    "velocity": 2.6,
    "markets": {
     "de": 5,
@@ -12012,14 +12011,14 @@
    "headline_en": "Mercedes-Benz halts new investment in German plants, considers closures",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-13T21:02:58Z",
+   "last_seen": "2026-11-14T09:14:35Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    15
    ],
-   "this_week": 13,
+   "this_week": 15,
    "velocity": 2.6,
    "markets": {
     "de": 4,
@@ -12116,6 +12115,380 @@
    "checked": "2026-11-14T05:15:44Z",
    "check_how": "url",
    "check_error": null
+  },
+  "3858": {
+   "id": "3858",
+   "first_seen": "2026-11-14T09:14:30Z",
+   "headline": "Chiclayo, Pope Leo's Other Home, Comes Out In Force to Welcome Father Robert",
+   "headline_en": "Chiclayo, Pope Leo's Other Home, Comes Out In Force to Welcome Father Robert",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:14:30Z",
+   "weekly": [
+    43,
+    15,
+    29,
+    65
+   ],
+   "this_week": 65,
+   "velocity": 2.2413793103448274,
+   "markets": {
+    "us": 1,
+    "de": 4,
+    "uk": 3,
+    "se": 1,
+    "intl": 1
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "Chiclayo, Pope Leo's Other Home, Comes Out In Force to Welcome Father Robert",
+     "u": "https://www.nytimes.com/2026/11/13/world/europe/pope-leo-xiv-peru-chiclayo.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-13T22:21:04Z"
+    },
+    {
+     "t": "Pope Leo urges Argentina's Milei to put people before the economy",
+     "u": "https://www.dw.com/en/pope-leo-urges-argentinas-milei-to-put-people-before-the-economy/a-79894779",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-09T01:35:52Z"
+    },
+    {
+     "t": "Pope Leo gives health update as he begins Latin America tour after cancer surgery",
+     "u": "https://www.independent.co.uk/tv/news/pope-leo-good-health-cancer-south-america-tour-b3081072.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-07T20:11:32Z"
+    }
+   ],
+   "abroad_first": "2026-11-07T20:11:32Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-14T11:30:51Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3866": {
+   "id": "3866",
+   "first_seen": "2026-11-14T09:14:41Z",
+   "headline": "Fem länder och EU talar för Europa i förhandlingarna",
+   "headline_en": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
+   "headline_fi": "Tutkija: Euroopan sotilasmahdit voisivat turvata rauhaa Ukrainassa, ja siksi ne halutaan neuvottelemaan Venäjän kanssa",
+   "state": "emergence",
+   "last_seen": "2026-11-14T09:14:41Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    25
+   ],
+   "this_week": 25,
+   "velocity": 5,
+   "markets": {
+    "de": 5,
+    "intl": 2,
+    "fi": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Мирні переговори щодо України: Європа визначилась з представництвом",
+     "u": "https://www.dw.com/uk/mirni-peregovori-sodo-ukraini-evropa-viznacilas-z-predstavnictvom/a-79944763",
+     "d": "dw.com",
+     "c": "de",
+     "l": "uk",
+     "p": "2026-11-13T19:53:19Z"
+    },
+    {
+     "t": "الاتحاد الأوروبي يحجز مقعده ويحدد ممثليه في مفاوضات أوكرانيا",
+     "u": "https://www.dw.com/ar/%D9%82%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D8%A7%D8%AA%D8%AD%D8%A7%D8%AF-%D8%A7%D9%84%D8%A3%D9%88%D8%B1%D9%88%D8%A8%D9%8A-%D9%8A%D8%AA%D9%81%D9%82%D9%88%D9%86-%D8%B9%D9%84%D9%89-%D8%A2%D9%84%D9%8A%D8%A9-%D8%AA%D9%85%D8%AB%D9%8A%D9%84-%D8%A7%D9%84%D9%82%D8%A7%D8%B1%D8%A9-%D9%81%D9%8A-%D8%A7%D9%84%D9%85%D9%81%D8%A7%D9%88%D8%B6%D8%A7%D8%AA-%D8%A7%D9%84%D8%AE%D8%A7%D8%B5%D8%A9-%D8%A8%D8%A5%D9%86%D9%87%D8%A7%D8%A1-%D8%A7%D9%84%D8%AD%D8%B1%D8%A8-%D9%81%D9%8A-%D8%A3%D9%88%D9%83%D8%B1%D8%A7%D9%86%D9%8A%D8%A7/a-79944547",
+     "d": "dw.com",
+     "c": "de",
+     "l": "ar",
+     "p": "2026-11-13T19:12:07Z"
+    },
+    {
+     "t": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
+     "u": "https://www.politico.eu/article/eu-deal-on-ukraine-talks-overshadows-ai-focused-summit-in-dublin/",
+     "d": "politico.eu",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-13T19:10:16Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T15:39:14Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "geopolitics",
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-14T11:30:51Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-13T01:45:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012409210.html",
+    "t": "Kushner: Venäjä ja Ukraina hyväksyivät Euroopan mukaan rauhanneuvotteluihin",
+    "s": 0.852
+   },
+   "fi_count": 4,
+   "arrived_at": "2026-11-14T11:30:51Z"
+  },
+  "3852": {
+   "id": "3852",
+   "first_seen": "2026-11-14T09:14:26Z",
+   "headline": "US FAA grounds all departing flights due to extraordinary circumstance, safety reasons",
+   "headline_en": "US FAA grounds all departing flights due to extraordinary circumstance, safety reasons",
+   "headline_fi": "Näin lennonjohto ilmoitti valtakunnallisesta lentokiellosta",
+   "state": "emergence",
+   "last_seen": "2026-11-14T09:14:26Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    54
+   ],
+   "this_week": 54,
+   "velocity": 10.8,
+   "markets": {
+    "intl": 1,
+    "fi": 1,
+    "us": 2,
+    "es": 1,
+    "uk": 1,
+    "de": 3
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "US FAA grounds all departing flights due to extraordinary circumstance, safety reasons",
+     "u": "https://www.reuters.com/world/us/faa-issues-national-ground-stop-due-extraordinary-circumstance-reasons-safety-2026-11-13/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-13T21:08:34Z"
+    },
+    {
+     "t": "Live Updates: FAA Declares Nationwide Ground Stop of Flights",
+     "u": "https://www.nytimes.com/live/2026/11/13/us/ground-stop-nationwide-flights-faa/nationwide-ground-stop-flights-faa",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-13T21:24:05Z"
+    },
+    {
+     "t": "Claves del cierre del espacio aéreo en Estados Unidos: qué se sabe del fallo que ha dejado en tierra todos los vuelos",
+     "u": "https://elpais.com/us/2026-11-13/claves-del-cierre-del-espacio-aereo-en-estados-unidos-que-se-sabe-del-fallo-que-ha-dejado-en-tierra-todos-los-vuelos.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-13T23:39:38Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T21:08:34Z",
+   "markets_abroad": 5,
+   "subjects": [],
+   "relevant": false
+  },
+  "3848": {
+   "id": "3848",
+   "first_seen": "2026-11-14T09:14:24Z",
+   "headline": "Rescue efforts under way after tanker strikes river cruise boat in US",
+   "headline_en": "Rescue efforts under way after tanker strikes river cruise boat in US",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-14T09:14:24Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    40
+   ],
+   "this_week": 40,
+   "velocity": 8,
+   "markets": {
+    "intl": 3,
+    "de": 4,
+    "us": 1,
+    "uk": 2
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Rescue efforts under way after tanker strikes river cruise boat in US",
+     "u": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-13T22:47:16Z"
+    },
+    {
+     "t": "New Orleans: \"Wie bei der Titanic\" - Kreuzfahrtschiff mit 130 Passagieren kollidiert mit Tanker und sinkt",
+     "u": "https://www.welt.de/vermischtes/article6af7770c7f8bbad09ea62d88/new-orleans-wie-bei-der-titanic-kreuzfahrtschiff-mit-130-passagieren-kollidiert-mit-tanker-und-sinkt.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-13T23:45:00Z"
+    },
+    {
+     "t": "Schiffsdrama auf dem Mississippi: Tanker rammt Kreuzfahrtschiff",
+     "u": "https://www.nzz.ch/panorama/tankschiff-rammt-kreuzfahrtschiff-auf-dem-mississippi-in-new-orleans-ld.10063636",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-13T22:01:21Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T00:00:00Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3851": {
+   "id": "3851",
+   "first_seen": "2026-11-14T09:14:25Z",
+   "headline": "USA: \"Kommunikationsproblem\" - US‑Luftfahrtbehörde stoppt Flugverkehr im gesamten Land",
+   "headline_en": "FAA issues US national ground stop on all flights",
+   "headline_fi": "Koko lentoliikenne poikki Yhdysvalloissa",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:14:25Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    39
+   ],
+   "this_week": 39,
+   "velocity": 39,
+   "markets": {
+    "de": 2,
+    "us": 3,
+    "intl": 1,
+    "fi": 1,
+    "uk": 1,
+    "es": 1,
+    "se": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "USA: \"Kommunikationsproblem\" - US‑Luftfahrtbehörde stoppt Flugverkehr im gesamten Land",
+     "u": "https://www.handelsblatt.com/politik/international/usa-kommunikationsproblem-usluftfahrtbehoerde-stoppt-flugverkehr-im-gesamten-land/100269817.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-13T21:19:36Z"
+    },
+    {
+     "t": "FAA issues US national ground stop on all flights",
+     "u": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-13T21:16:20Z"
+    },
+    {
+     "t": "College football games could be derailed by the FAA ground stop",
+     "u": "https://www.businessinsider.com/college-football-games-canceled-postponed-faa-ground-stop-2026-11",
+     "d": "businessinsider.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-14T00:00:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T00:00:00Z",
+   "markets_abroad": 6,
+   "subjects": [],
+   "relevant": false
+  },
+  "3867": {
+   "id": "3867",
+   "first_seen": "2026-11-14T09:14:43Z",
+   "headline": "Nationellt flygstopp i USA",
+   "headline_en": null,
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-14T09:14:43Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    17
+   ],
+   "this_week": 17,
+   "velocity": 3.4,
+   "markets": {},
+   "outlets": 0,
+   "samples": [],
+   "abroad_first": "2026-11-14T09:14:43Z",
+   "markets_abroad": 0,
+   "subjects": [],
+   "relevant": false
+  },
+  "3819": {
+   "id": "3819",
+   "first_seen": "2026-11-13T08:44:04Z",
+   "headline": "Chuck Schumer faces challenge for Senate leadership from rival Democrat",
+   "headline_en": "US senator Van Hollen to challenge Schumer for Senate majority leader",
+   "headline_fi": "Marylandin senaattori haastaa pitkään demokraatteja johtaneen Schumerin",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T09:14:35Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    17
+   ],
+   "this_week": 17,
+   "velocity": 9,
+   "markets": {
+    "intl": 3,
+    "es": 1,
+    "us": 3,
+    "fi": 1,
+    "uk": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "US senator Van Hollen to challenge Schumer for Senate majority leader",
+     "u": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader",
+     "d": "euronews.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-13T04:16:44Z"
+    },
+    {
+     "t": "Chris Van Hollen desafía a Chuck Schumer por el liderazgo demócrata en el Senado",
+     "u": "https://elpais.com/us/2026-11-13/chris-van-hollen-desafia-a-chuck-schumer-por-el-liderazgo-democrata-en-el-senado.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-13T03:30:32Z"
+    },
+    {
+     "t": "Chuck Schumer faces challenge for Senate leadership from rival Democrat",
+     "u": "https://www.ft.com/content/1f0996cf-1f84-42ca-a574-898f8578deb7",
+     "d": "ft.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-13T04:24:51Z"
+    }
+   ],
+   "abroad_first": "2026-11-11T01:37:01Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
   }
  }
 }
