@@ -1,5 +1,5 @@
 {
- "time": "2026-11-14T09:00:57Z",
+ "time": "2026-11-14T09:15:37Z",
  "new_articles": 0,
  "sources": [
   {
@@ -54,12 +54,17 @@
   },
   {
    "id": "esg-news",
-   "state": "ok",
-   "fetched": 50,
+   "state": "partial",
+   "fetched": 0,
    "new": 0,
-   "errors": [],
+   "errors": [
+    "https://esgnews.com/feed/: TimeoutError: The read operation timed out"
+   ],
    "feeds_used": [
-    "https://esgnews.com/feed/"
+    "https://esgnews.com/comments/feed/"
+   ],
+   "discovered": [
+    "https://esgnews.com/comments/feed/"
    ]
   },
   {
