@@ -1,5 +1,5 @@
 {
- "time": "2026-11-14T06:00:57Z",
+ "time": "2026-11-14T06:15:47Z",
  "new_articles": 0,
  "sources": [
   {
@@ -54,13 +54,18 @@
   },
   {
    "id": "esg-news",
-   "state": "failed",
+   "state": "partial",
    "fetched": 0,
    "new": 0,
    "errors": [
     "https://esgnews.com/feed/: HTTPError: HTTP Error 500: Internal Server Error"
    ],
-   "feeds_used": []
+   "feeds_used": [
+    "https://esgnews.com/comments/feed/"
+   ],
+   "discovered": [
+    "https://esgnews.com/comments/feed/"
+   ]
   },
   {
    "id": "responsible-investor",
