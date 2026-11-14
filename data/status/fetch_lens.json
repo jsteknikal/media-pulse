@@ -1,5 +1,5 @@
 {
- "time": "2026-11-14T06:15:47Z",
+ "time": "2026-11-14T06:30:53Z",
  "new_articles": 0,
  "sources": [
   {
@@ -54,17 +54,12 @@
   },
   {
    "id": "esg-news",
-   "state": "partial",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 50,
    "new": 0,
-   "errors": [
-    "https://esgnews.com/feed/: HTTPError: HTTP Error 500: Internal Server Error"
-   ],
+   "errors": [],
    "feeds_used": [
-    "https://esgnews.com/comments/feed/"
-   ],
-   "discovered": [
-    "https://esgnews.com/comments/feed/"
+    "https://esgnews.com/feed/"
    ]
   },
   {
