@@ -1,12 +1,12 @@
 {
- "time": "2026-11-14T02:15:37Z",
- "new_articles": 0,
+ "time": "2026-11-14T02:30:49Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "yle-uutiset",
    "state": "ok",
    "fetched": 31,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
@@ -159,11 +159,11 @@
    "fetched": 0,
    "new": 0,
    "errors": [
-    "https://www.uusisuomi.fi/rss/uusimmat.xml: ParseError: not well-formed (invalid token): line 1, column 91660",
-    "https://www.uusisuomi.fi/rss/uutiset.xml: ParseError: not well-formed (invalid token): line 1, column 91660",
-    "https://www.uusisuomi.fi/feed: ParseError: not well-formed (invalid token): line 1, column 91660",
-    "https://www.uusisuomi.fi/api/feed/rss: ParseError: not well-formed (invalid token): line 1, column 91660",
-    "https://www.uusisuomi.fi/rss/uusisuomi.xml: ParseError: not well-formed (invalid token): line 1, column 91660"
+    "https://www.uusisuomi.fi/rss/uusimmat.xml: ParseError: not well-formed (invalid token): line 1, column 91655",
+    "https://www.uusisuomi.fi/rss/uutiset.xml: ParseError: not well-formed (invalid token): line 1, column 91655",
+    "https://www.uusisuomi.fi/feed: ParseError: not well-formed (invalid token): line 1, column 91655",
+    "https://www.uusisuomi.fi/api/feed/rss: ParseError: not well-formed (invalid token): line 1, column 91655",
+    "https://www.uusisuomi.fi/rss/uusisuomi.xml: ParseError: not well-formed (invalid token): line 1, column 91655"
    ],
    "feeds_used": [],
    "discovered": [
