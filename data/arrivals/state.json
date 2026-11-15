@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-14T23:30:51Z",
+  "last_run": "2026-11-15T02:45:37Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 41,
+  "similar_left": 35,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -4668,7 +4668,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9665,7 +9665,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10148,7 +10148,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10334,7 +10334,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11059,7 +11059,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11421,7 +11421,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11912,7 +11912,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12128,7 +12128,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12188,7 +12188,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12573,7 +12573,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-14T20:30:51Z",
+   "checked": "2026-11-15T02:45:37Z",
    "check_how": "url",
    "check_error": null
   },
