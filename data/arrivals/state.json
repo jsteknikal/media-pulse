@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-15T05:45:39Z",
+  "last_run": "2026-11-15T09:00:57Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 43,
+  "similar_left": 33,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -4668,7 +4668,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9665,7 +9665,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10148,7 +10148,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10334,7 +10334,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10400,14 +10400,14 @@
    "headline_en": "Germany news: Merz to nominate Aigner for president",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-13T21:03:31Z",
+   "last_seen": "2026-11-14T21:31:44Z",
    "weekly": [
     0,
     0,
-    1,
-    14
+    3,
+    12
    ],
-   "this_week": 14,
+   "this_week": 12,
    "velocity": 14,
    "markets": {
     "de": 10
@@ -11059,7 +11059,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11421,7 +11421,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11912,7 +11912,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12128,7 +12128,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12188,7 +12188,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12573,7 +12573,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-15T02:45:37Z",
+   "checked": "2026-11-15T09:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12629,6 +12629,306 @@
     "business"
    ],
    "relevant": true
+  },
+  "3766": {
+   "id": "3766",
+   "first_seen": "2026-11-11T19:58:09Z",
+   "headline": "Scott Bessent moved to military base for safety after Iran threats and photo exposing his $12M home",
+   "headline_en": "Scott Bessent moved to military base for safety after Iran threats and photo exposing his $12M home",
+   "headline_fi": "Iran-uhkaukset ajoivat Yhdysvaltain valtiovarainministerin kotoaan",
+   "state": "emergence",
+   "last_seen": "2026-11-14T21:31:37Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "uk": 4,
+    "de": 1,
+    "intl": 1,
+    "us": 1,
+    "se": 2,
+    "fi": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Scott Bessent moved to military base for safety after Iran threats and photo exposing his $12M home",
+     "u": "https://www.independent.co.uk/news/world/americas/us-politics/scott-bessent-iran-threats-military-b3082943.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-11T09:09:21Z"
+    },
+    {
+     "t": "Morddrohungen: Angst vor iranischem Anschlag - US-Finanzminister Bessent zieht auf Militärstützpunkt",
+     "u": "https://www.welt.de/politik/ausland/article6af3c34cf0b67a4b24664f2f/morddrohungen-angst-vor-iranischem-anschlag-us-finanzminister-bessent-zieht-auf-militaerstuetzpunkt.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-11T01:29:47Z"
+    },
+    {
+     "t": "US Treasury chief Bessent moved to military base after Iranian threats, NYT reports",
+     "u": "https://www.reuters.com/world/middle-east/us-treasury-chief-bessent-moved-military-base-after-iranian-threats-nyt-reports-2026-11-11/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-10T20:00:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-10T20:00:00Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "geopolitics",
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-15T09:00:57Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-11T17:53:36Z",
+    "d": "mtvuutiset.fi",
+    "u": "https://www.mtvuutiset.fi/artikkeli/iran-uhkaukset-ajoivat-yhdysvaltain-valtiovarainministerin-kotoaan/9419728",
+    "t": "Iran-uhkaukset ajoivat Yhdysvaltain valtiovarainministerin kotoaan",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-15T09:00:57Z"
+  },
+  "3817": {
+   "id": "3817",
+   "first_seen": "2026-11-13T08:44:01Z",
+   "headline": "US Senate Banking Committee chair calls on Jensen Huang, Lutnick to testify",
+   "headline_en": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-14T21:31:06Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 1.8,
+   "markets": {
+    "de": 4,
+    "intl": 3,
+    "se": 1,
+    "us": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Nvidia-Affäre: Jensen Huang und Trumps Handelsminister Lutnick müssen sich im Senat erklären",
+     "u": "https://www.spiegel.de/ausland/nvidia-affaere-jensen-huang-und-trumps-handelsminister-lutnick-muessen-sich-im-senat-erklaeren-a-14e96682-03e3-4763-a673-f16a0bcfd5d1",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-13T04:04:00Z"
+    },
+    {
+     "t": "エヌビディア前ＣＥＯと商務長官の議会証言要請＝上院委員長",
+     "u": "https://www.reuters.com/jp/business/WKAU7DU7XFOWLDY6CBNVQL74OI-2026-11-13/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-13T02:09:00Z"
+    },
+    {
+     "t": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
+     "u": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-13T01:55:38Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T00:15:33Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-15T09:00:57Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-11T22:41:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/taloussanomat/art-2000012406061.html",
+    "t": "WSJ: Nvidia valmistautuu erottamaan johtajansa - jo toinen väitetty salasuhde paljastui",
+    "s": 0.855
+   },
+   "fi_count": 5,
+   "arrived_at": "2026-11-15T09:00:57Z"
+  },
+  "3680": {
+   "id": "3680",
+   "first_seen": "2026-11-09T18:50:56Z",
+   "headline": "Alman Federal Meclisi önünde Filistin bayrağı krizi",
+   "headline_en": "Germany news: Merz to nominate Aigner for president",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-14T21:31:45Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "de": 10
+   },
+   "outlets": 3,
+   "samples": [
+    {
+     "t": "Alman Federal Meclisi önünde Filistin bayrağı krizi",
+     "u": "https://www.dw.com/tr/berlinde-federal-meclis-binas%C4%B1-%C3%B6n%C3%BCnde-bayrak-krizi-alman-bayra%C4%9F%C4%B1n%C4%B1-indirip-filistin-bayra%C4%9F%C4%B1-ast%C4%B1/a-79891861",
+     "d": "dw.com",
+     "c": "de",
+     "l": "tr",
+     "p": "2026-11-08T15:25:02Z"
+    },
+    {
+     "t": "В Берлине активисты заменили флаг ФРГ у Рейхстага на палестинский",
+     "u": "https://www.dw.com/ru/v-berline-aktivisty-zamenili-flag-frg-u-rejhstaga-na-palestinskij/a-79893043",
+     "d": "dw.com",
+     "c": "de",
+     "l": "ru",
+     "p": "2026-11-08T19:28:55Z"
+    },
+    {
+     "t": "Чоловік замінив прапор ФРН перед Рейхстагом на палестинський",
+     "u": "https://www.dw.com/uk/u-berlini-colovik-zaminiv-prapor-nimeccini-na-palestinskij-na-sogli-pered-rejhstagom/a-79893672",
+     "d": "dw.com",
+     "c": "de",
+     "l": "uk",
+     "p": "2026-11-08T19:14:15Z"
+    }
+   ],
+   "abroad_first": "2026-11-07T09:08:30Z",
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
+  },
+  "3738": {
+   "id": "3738",
+   "first_seen": "2026-11-11T07:42:17Z",
+   "headline": "WASHINGTON",
+   "headline_en": "WASHINGTON",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-14T21:31:30Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "us": 3,
+    "de": 3,
+    "uk": 1,
+    "intl": 3
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "WASHINGTON",
+     "u": "https://www.nytimes.com/2026/11/10/us/politics/republican-house-leader-scalise-jordan.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-10T19:30:07Z"
+    },
+    {
+     "t": "USA: Republikaner Jim Jordan wird Minderheitsführer im Repräsentantenhaus",
+     "u": "https://www.spiegel.de/ausland/usa-republikaner-jim-jordan-wird-minderheitsfuehrer-im-repraesentantenhaus-a-a9c024db-837a-42ac-9beb-f7c0d0fba244",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-10T20:45:00Z"
+    },
+    {
+     "t": "Republicans elect Jim Jordan as House minority leader after midterm defeats",
+     "u": "https://www.theguardian.com/us-news/2026/nov/10/jim-jordan-house-republican-leader",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-10T19:40:10Z"
+    }
+   ],
+   "abroad_first": "2026-11-10T14:28:00Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3741": {
+   "id": "3741",
+   "first_seen": "2026-11-11T07:42:19Z",
+   "headline": "Formula 1 set for Qatar and Abu Dhabi races after Imola snub",
+   "headline_en": "Formula 1 set for Qatar and Abu Dhabi races after Imola snub",
+   "headline_fi": "F1-sarjassa iso päätös - turvallisuusuhat eivät päätä huimaa",
+   "state": "acceleration",
+   "last_seen": "2026-11-14T21:31:18Z",
+   "weekly": [
+    6,
+    0,
+    1,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 12,
+   "markets": {
+    "uk": 4,
+    "us": 2,
+    "fi": 1,
+    "de": 1,
+    "intl": 2
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Formula 1 set for Qatar and Abu Dhabi races after Imola snub",
+     "u": "https://www.cityam.com/formula-1-set-for-qatar-and-abu-dhabi-races-after-imola-snub/",
+     "d": "cityam.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-10T15:08:27Z"
+    },
+    {
+     "t": "F1 presses ahead with plan to hold season finale in Middle East despite safety concerns",
+     "u": "https://www.theguardian.com/sport/2026/nov/10/f1-season-finale-middle-east-conflict-formula-one-abu-dhabi-imola-qatar",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-10T17:18:35Z"
+    },
+    {
+     "t": "What to watch as the season ends. Plus: Lance Stroll's dismal DNF streak",
+     "u": "https://www.nytimes.com/athletic/7779470/2026/11/13/f1-season-ending-storylines-prime-tire/",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-13T20:36:44Z"
+    }
+   ],
+   "abroad_first": "2026-11-08T19:01:25Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
   }
  }
 }
