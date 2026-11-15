@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-15T09:00:57Z",
+  "last_run": "2026-11-15T12:00:58Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 33,
+  "similar_left": 40,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -7301,18 +7301,18 @@
   "3454": {
    "id": "3454",
    "first_seen": "2026-11-05T16:46:19Z",
-   "headline": "Demokraattien enemmistö senaatissa kasvaa: Mississippin vaalit ratkesivat viimein",
+   "headline": "Making ends meet in Mississippi: How high prices led to an election upset",
    "headline_en": "BBC News - Americast, The Democrats pull off an historic victory in Mississippi",
    "headline_fi": "Demokraattien enemmistö senaatissa kasvaa: Mississippin vaalit ratkesivat viimein",
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:06Z",
+   "last_seen": "2026-11-15T09:38:12Z",
    "weekly": [
     0,
     4,
-    27,
-    67
+    28,
+    69
    ],
-   "this_week": 67,
+   "this_week": 69,
    "velocity": 2.4814814814814814,
    "markets": {
     "fi": 2,
@@ -8820,14 +8820,14 @@
    "headline_en": "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:00Z",
+   "last_seen": "2026-11-15T09:38:06Z",
    "weekly": [
     1,
     4,
-    15,
-    616
+    43,
+    617
    ],
-   "this_week": 616,
+   "this_week": 617,
    "velocity": 70.875,
    "markets": {
     "uk": 5,
@@ -9010,24 +9010,25 @@
    "id": "3636",
    "first_seen": "2026-11-09T06:37:35Z",
    "headline": "COP31: ما المتوقع من المؤتمر الذي تستضيفه أنطاليا؟ - BBC News عربي",
-   "headline_en": "COP31 Action Tracker: US midterms and Brazil Roadmaps - edie",
+   "headline_en": "Video. Turkey: Delegates arrive in Antalya as COP31 climate talks begin",
    "headline_fi": "Keskuskauppakamari: Päästövähennykset eivät enää yksin riitä – ilmastonmuutokseen on myös sopeuduttava",
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:22Z",
+   "last_seen": "2026-11-15T09:38:27Z",
    "weekly": [
     2,
-    1,
-    8,
-    52
+    2,
+    18,
+    45
    ],
-   "this_week": 52,
-   "velocity": 9.2,
+   "this_week": 45,
+   "velocity": 2.5,
    "markets": {
-    "uk": 4,
-    "de": 4,
-    "fi": 2
+    "uk": 2,
+    "de": 1,
+    "fi": 3,
+    "intl": 4
    },
-   "outlets": 6,
+   "outlets": 7,
    "samples": [
     {
      "t": "COP31: ما المتوقع من المؤتمر الذي تستضيفه أنطاليا؟ - BBC News عربي",
@@ -9038,24 +9039,24 @@
      "p": "2026-11-09T17:57:35Z"
     },
     {
-     "t": "COP31: क्या अंतालिया में निकलेगा संकट का ठोस हल?",
-     "u": "https://www.dw.com/hi/as-cop31-turkey-kicks-off-can-world-move-beyond-big-promises/a-79891731",
-     "d": "dw.com",
-     "c": "de",
-     "l": "hi",
-     "p": "2026-11-08T15:13:02Z"
-    },
-    {
      "t": "Lektion gelernt? Die EU will nicht mehr zahlen und fährt ohne...",
      "u": "https://www.diepresse.com/41414359/lektion-gelernt-die-eu-faehrt-ohne-geld-zur-klimakonferenz",
      "d": "diepresse.com",
      "c": "de",
      "l": "de",
      "p": "2026-11-09T04:57:53Z"
+    },
+    {
+     "t": "Video. Turkey: Delegates arrive in Antalya as COP31 climate talks begin",
+     "u": "https://www.euronews.com/video/2026/11/09/turkey-delegates-arrive-in-antalya-as-cop31-climate-talks-begin",
+     "d": "euronews.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-09T21:23:15Z"
     }
    ],
    "abroad_first": "2026-11-03T17:17:42Z",
-   "markets_abroad": 2,
+   "markets_abroad": 3,
    "subjects": [
     "sustainability"
    ],
@@ -9794,7 +9795,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-15T05:45:39Z",
+   "checked": "2026-11-15T12:00:58Z",
    "check_how": "url",
    "check_error": null
   },
@@ -9993,14 +9994,14 @@
    "headline_en": "BBC Audio | Test Match Special | Khawaja's 'sandpapergate' revelations",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:02Z",
+   "last_seen": "2026-11-15T09:38:03Z",
    "weekly": [
     0,
     0,
-    6,
-    32
+    10,
+    29
    ],
-   "this_week": 32,
+   "this_week": 29,
    "velocity": 10.333333333333334,
    "markets": {
     "uk": 5,
@@ -10207,7 +10208,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-15T05:45:39Z",
+   "checked": "2026-11-15T12:00:58Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10218,7 +10219,7 @@
    "headline_en": "A bleak Booker winner for our chaotic times - will readers come along for the ride?",
    "headline_fi": "Kaikkien aikojen vanhimman Booker-voittajan teos heijastelee tekoälyyn liittyviä huolia",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:20Z",
+   "last_seen": "2026-11-15T09:38:43Z",
    "weekly": [
     0,
     0,
@@ -10345,7 +10346,7 @@
    "headline_en": "Trump reverses stance, alleges fraud in recent US midterm elections",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:35Z",
+   "last_seen": "2026-11-15T09:38:54Z",
    "weekly": [
     0,
     0,
@@ -10449,25 +10450,24 @@
    "first_seen": "2026-11-09T06:37:38Z",
    "headline": "Trump kritisiert eigene Abschiebepolitik: \"Wir haben auch Leute abgeholt, die gute Jobs hatten\"",
    "headline_en": "Trump Says Immigration Crackdown May Have 'Hurt' Republicans in Midterms",
-   "headline_fi": "Trump tunnusti saattaneensa tehdä virheen",
-   "state": "emergence",
-   "last_seen": "2026-11-14T21:31:33Z",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-15T09:38:53Z",
    "weekly": [
     0,
     0,
-    0,
-    17
+    4,
+    13
    ],
-   "this_week": 17,
-   "velocity": 3.2,
+   "this_week": 13,
+   "velocity": 3.25,
    "markets": {
-    "fi": 2,
-    "de": 4,
-    "us": 2,
+    "de": 5,
+    "us": 3,
     "uk": 1,
     "intl": 1
    },
-   "outlets": 9,
+   "outlets": 7,
    "samples": [
     {
      "t": "Trump kritisiert eigene Abschiebepolitik: \"Wir haben auch Leute abgeholt, die gute Jobs hatten\"",
@@ -10522,7 +10522,7 @@
    "headline_en": "US soldier arrested in UK on suspicion of spying for Russia",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:24Z",
+   "last_seen": "2026-11-15T09:38:46Z",
    "weekly": [
     0,
     0,
@@ -10591,7 +10591,7 @@
    "headline_en": "Merz accused of 'blackmail' by Slovakian PM after demand for Ukraine aid in EU budget",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:13Z",
+   "last_seen": "2026-11-15T09:38:37Z",
    "weekly": [
     0,
     0,
@@ -10712,7 +10712,7 @@
    "headline_en": "World at One and PM Highlights - David Walliams accused of grooming girls as young as 15 - BBC Sounds",
    "headline_fi": "Koomikko David Walliamsia syytetään seksuaalisesta hyväksikäytöstä, joukossa alaikäisiä tyttöjä",
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:30:57Z",
+   "last_seen": "2026-11-15T09:38:16Z",
    "weekly": [
     0,
     0,
@@ -10765,7 +10765,7 @@
    "headline_en": "Turkey steel plant blast kills at least 17",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:49Z",
+   "last_seen": "2026-11-15T09:39:06Z",
    "weekly": [
     0,
     0,
@@ -10872,7 +10872,7 @@
    "headline_en": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
    "headline_fi": "Kolmea miestä syytetään terrori-iskun suunnitellusta Fairford lentotukikohtaan",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:39Z",
+   "last_seen": "2026-11-15T09:38:58Z",
    "weekly": [
     0,
     0,
@@ -10940,7 +10940,7 @@
    "headline_en": "Qatar LNG Loadings Pick Up to Around Half of Pre-War Levels",
    "headline_fi": "Yhdysvallat pidättäytyy iskuista Iraniin, sanoo Trump",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:48Z",
+   "last_seen": "2026-11-15T09:39:05Z",
    "weekly": [
     0,
     0,
@@ -11070,7 +11070,7 @@
    "headline_en": "Russian ambassador to US dies, foreign ministry says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:44Z",
+   "last_seen": "2026-11-15T09:39:02Z",
    "weekly": [
     0,
     0,
@@ -11205,30 +11205,37 @@
   "3780": {
    "id": "3780",
    "first_seen": "2026-11-12T08:12:01Z",
-   "headline": "Massiva protester lamslår delar av Spanien",
-   "headline_en": "Workers in Spain Stage a General Strike for the First Time in 14 Years",
+   "headline": "BBC Radio 4 - From Our Own Correspondent, Spain on strike over housing crisis",
+   "headline_en": "BBC Radio 4 - From Our Own Correspondent, Spain on strike over housing crisis",
    "headline_fi": "Barcelonassa puhkesi mellakka - kauppoja ryöstetty, yhteenottoja poliisin kanssa",
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:27Z",
+   "last_seen": "2026-11-15T09:38:33Z",
    "weekly": [
     3,
     0,
     1,
-    26
+    28
    ],
-   "this_week": 26,
-   "velocity": 26,
+   "this_week": 28,
+   "velocity": 28,
    "markets": {
+    "uk": 2,
     "se": 3,
-    "uk": 1,
     "de": 2,
     "us": 1,
     "fi": 1,
-    "es": 1,
     "intl": 1
    },
    "outlets": 10,
    "samples": [
+    {
+     "t": "BBC Radio 4 - From Our Own Correspondent, Spain on strike over housing crisis",
+     "u": "https://www.bbc.co.uk/programmes/m003493m",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-14T00:00:00Z"
+    },
     {
      "t": "Massiva protester lamslår delar av Spanien",
      "u": "https://www.dn.se/direkt/2026-11-11/massiva-protester-lamslar-delar-av-spanien/",
@@ -11244,18 +11251,10 @@
      "c": "se",
      "l": "sv",
      "p": "2026-11-11T19:43:06Z"
-    },
-    {
-     "t": "En imágenes: decenas de detenidos en la primera huelga general en España en 14 años",
-     "u": "https://www.bbc.com/mundo/articles/ckx28e5lj300o",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "es",
-     "p": "2026-11-11T16:59:13Z"
     }
    ],
    "abroad_first": "2026-11-10T04:45:01Z",
-   "markets_abroad": 6,
+   "markets_abroad": 5,
    "subjects": [],
    "relevant": false
   },
@@ -11266,15 +11265,15 @@
    "headline_en": "Spain general strike: Thousands gather in Madrid to protest",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-12T20:32:47Z",
+   "last_seen": "2026-11-15T09:38:51Z",
    "weekly": [
     2,
-    2,
     1,
-    14
+    1,
+    13
    ],
-   "this_week": 14,
-   "velocity": 14,
+   "this_week": 13,
+   "velocity": 13,
    "markets": {
     "uk": 4,
     "us": 2,
@@ -11374,14 +11373,14 @@
    "headline_en": "Manchester United make formal contact with U.S. Soccer over Mauricio Pochettino",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:06Z",
+   "last_seen": "2026-11-15T09:38:10Z",
    "weekly": [
     0,
     1,
     3,
-    28
+    32
    ],
-   "this_week": 28,
+   "this_week": 32,
    "velocity": 7.666666666666667,
    "markets": {
     "us": 5,
@@ -11455,10 +11454,10 @@
    "id": "3785",
    "first_seen": "2026-11-12T08:12:04Z",
    "headline": "Hegseth awards medal to soldier who rebuked his group outside Tomb of the Unknown Soldier",
-   "headline_en": "Hegseth and team reprimanded by Army guard at solemn war memorial",
-   "headline_fi": null,
+   "headline_en": "Hegseth awards medal to soldier who rebuked his group outside Tomb of the Unknown Soldier",
+   "headline_fi": "Sotilas huusi Hegsethille - sai mitalin: \"Rakastamme\"",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:28Z",
+   "last_seen": "2026-11-15T09:38:49Z",
    "weekly": [
     0,
     0,
@@ -11466,30 +11465,31 @@
     32
    ],
    "this_week": 32,
-   "velocity": 2.2,
+   "velocity": 6.4,
    "markets": {
-    "uk": 6,
     "intl": 2,
-    "de": 1,
-    "us": 1
+    "se": 1,
+    "fi": 1,
+    "uk": 1,
+    "us": 2
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
-     "t": "Hegseth and team reprimanded by Army guard at solemn war memorial",
-     "u": "https://www.bbc.com/news/articles/cmvg2r3dq7xno",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-11T22:55:55Z"
-    },
-    {
-     "t": "Hegseth entourage reprimanded by guard at Tomb of the Unknown Soldier",
-     "u": "https://www.aljazeera.com/news/2026/11/12/hegseth-entourage-reprimanded-by-guard-at-tomb-of-the-unknown-soldier",
-     "d": "aljazeera.com",
+     "t": "Hegseth awards medal to soldier who rebuked his group outside Tomb of the Unknown Soldier",
+     "u": "https://www.reuters.com/world/us/hegseth-awards-medal-soldier-who-rebuked-his-group-outside-tomb-unknown-soldier-2026-11-12/",
+     "d": "reuters.com",
      "c": "intl",
      "l": "en",
-     "p": "2026-11-12T00:42:37Z"
+     "p": "2026-11-12T21:49:57Z"
+    },
+    {
+     "t": "Hegsteh blev tillrättavisad - ger soldaten medalj",
+     "u": "https://www.dn.se/direkt/2026-11-12/hegsteh-blev-tillrattavisad-ger-soldaten-medalj/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-12T19:08:25Z"
     },
     {
      "t": "Guard appears to rebuke Hegseth's delegation at Tomb of the Unknown Soldier",
@@ -11526,14 +11526,14 @@
    "headline_en": "Microsoft reports mass outages in US, impacting customer accessibility",
    "headline_fi": "Eikö sähköpostisi toimi? Microsoftilla laajoja häiriöitä",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:02Z",
+   "last_seen": "2026-11-15T09:38:20Z",
    "weekly": [
     0,
     0,
     0,
-    61
+    62
    ],
-   "this_week": 61,
+   "this_week": 62,
    "velocity": 6,
    "markets": {
     "fi": 2,
@@ -11596,7 +11596,7 @@
    "headline_en": null,
    "headline_fi": "Tavio lyö löylyä Somalia-kohuun - tiukka kysymys muille puolueille",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:30:59Z",
+   "last_seen": "2026-11-15T09:38:17Z",
    "weekly": [
     0,
     0,
@@ -11624,7 +11624,7 @@
    "headline_en": "Trump Wants Apple's Tim Cook to Replace Jensen Huang as NVIDIA CEO",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:12Z",
+   "last_seen": "2026-11-15T09:38:37Z",
    "weekly": [
     0,
     0,
@@ -11689,10 +11689,10 @@
    "id": "3777",
    "first_seen": "2026-11-12T08:11:59Z",
    "headline": "'Who will be held accountable?': fatal Brooklyn building collapse devastates community",
-   "headline_en": "NYC building collapse kills two and leaves others trapped in rubble",
+   "headline_en": "'Who will be held accountable?': fatal Brooklyn building collapse devastates community",
    "headline_fi": "Rakennus romahti New Yorkissa - CNN: Ainakin kaksi kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:02Z",
+   "last_seen": "2026-11-15T09:38:20Z",
    "weekly": [
     0,
     0,
@@ -11700,38 +11700,38 @@
     41
    ],
    "this_week": 41,
-   "velocity": 2.2,
+   "velocity": 8.2,
    "markets": {
+    "uk": 2,
+    "us": 3,
     "fi": 3,
-    "se": 2,
-    "intl": 2,
-    "uk": 3
+    "se": 2
    },
-   "outlets": 9,
+   "outlets": 6,
    "samples": [
     {
-     "t": "Minst en död och tolv skadade efter husras i Brooklyn",
-     "u": "https://www.svt.se/nyheter/utrikes/minst-en-dod-och-tolv-skadade-efter-husras-i-brooklyn",
-     "d": "svt.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-11T23:53:00Z"
+     "t": "'Who will be held accountable?': fatal Brooklyn building collapse devastates community",
+     "u": "https://www.theguardian.com/us-news/2026/nov/12/nyc-building-collapse-reaction",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-12T19:49:24Z"
     },
     {
-     "t": "NYC building collapse kills two and leaves others trapped in rubble",
-     "u": "https://www.euronews.com/2026/11/12/at-least-two-dead-while-others-are-trapped-in-the-rubble-after-a-building-collapse-in-new-",
-     "d": "euronews.com",
-     "c": "intl",
+     "t": "Pregnant Woman Among Those Rescued From Brooklyn Building Collapse",
+     "u": "https://www.nytimes.com/2026/11/12/nyregion/brooklyn-building-collapse-pregnant-woman-rescued.html",
+     "d": "nytimes.com",
+     "c": "us",
      "l": "en",
-     "p": "2026-11-12T04:07:38Z"
+     "p": "2026-11-12T18:37:57Z"
     },
     {
-     "t": "Building collapse in Brooklyn kills two, injures more than a dozen",
-     "u": "https://www.aljazeera.com/news/2026/11/12/building-collapse-in-brooklyn-kills-two-injures-more-than-a-dozen",
-     "d": "aljazeera.com",
-     "c": "intl",
+     "t": "What we know about Brooklyn building collapse that killed eight people",
+     "u": "https://www.bbc.com/news/articles/cm20v66jq611o",
+     "d": "bbc.com",
+     "c": "uk",
      "l": "en",
-     "p": "2026-11-12T03:31:08Z"
+     "p": "2026-11-12T19:09:25Z"
     }
    ],
    "abroad_first": "2026-11-11T22:27:06Z",
@@ -11746,7 +11746,7 @@
    "headline_en": "Harry Kane wins record 126th England cap, pulling clear of Peter Shilton",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:07Z",
+   "last_seen": "2026-11-15T09:38:34Z",
    "weekly": [
     0,
     0,
@@ -11799,14 +11799,14 @@
    "headline_en": "Lutnick Took a Softer Line on Nvidia as Calls for Tougher Controls Grew",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:30:59Z",
+   "last_seen": "2026-11-15T09:38:11Z",
    "weekly": [
     0,
     0,
     0,
-    32
+    34
    ],
-   "this_week": 32,
+   "this_week": 34,
    "velocity": 2.6,
    "markets": {
     "de": 5,
@@ -11923,7 +11923,7 @@
    "headline_en": null,
    "headline_fi": "Ruotsidemokraattien kansanedustaja eroaa ahdistelusyytösten takia",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:32Z",
+   "last_seen": "2026-11-15T09:38:52Z",
    "weekly": [
     0,
     0,
@@ -11975,7 +11975,7 @@
    "headline_en": "Famed ship SS United States to be sunk off coast of Florida",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:24Z",
+   "last_seen": "2026-11-15T09:38:46Z",
    "weekly": [
     0,
     5,
@@ -11983,10 +11983,10 @@
     13
    ],
    "this_week": 13,
-   "velocity": 3.5,
+   "velocity": 13,
    "markets": {
     "uk": 3,
-    "us": 4
+    "us": 7
    },
    "outlets": 6,
    "samples": [
@@ -12027,14 +12027,14 @@
    "headline_en": "Mercedes-Benz halts new investment in German plants, considers closures",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:08Z",
+   "last_seen": "2026-11-15T09:38:31Z",
    "weekly": [
     0,
     0,
     0,
-    15
+    16
    ],
-   "this_week": 15,
+   "this_week": 16,
    "velocity": 2.6,
    "markets": {
     "de": 4,
@@ -12077,25 +12077,25 @@
    "id": "3776",
    "first_seen": "2026-11-12T08:11:59Z",
    "headline": "12 november: Nattens nyheter",
-   "headline_en": "Israeli strike on Nasser Hospital kills at least six, Gaza civil defence agency says",
+   "headline_en": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:26Z",
+   "last_seen": "2026-11-15T09:38:29Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    14
    ],
-   "this_week": 13,
-   "velocity": 1.4,
+   "this_week": 14,
+   "velocity": 2.8,
    "markets": {
-    "se": 2,
+    "se": 3,
+    "us": 3,
     "uk": 2,
-    "us": 1,
-    "intl": 1
+    "de": 2
    },
-   "outlets": 5,
+   "outlets": 8,
    "samples": [
     {
      "t": "12 november: Nattens nyheter",
@@ -12106,20 +12106,20 @@
      "p": "2026-11-12T04:30:22Z"
     },
     {
-     "t": "Israeli strike on Nasser Hospital kills at least six, Gaza civil defence agency says",
-     "u": "https://www.bbc.com/news/articles/ckzd9p7e4eqeo",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-12T03:32:54Z"
-    },
-    {
      "t": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
      "u": "https://www.nytimes.com/2026/11/11/world/middleeast/nasser-hospital-gaza-strike-israel.html",
      "d": "nytimes.com",
      "c": "us",
      "l": "en",
      "p": "2026-11-12T03:11:10Z"
+    },
+    {
+     "t": "Israeli strike on Nasser Hospital kills at least six, Gaza civil defence agency says",
+     "u": "https://www.bbc.com/news/articles/ckzd9p7e4eqeo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-12T03:32:54Z"
     }
    ],
    "abroad_first": "2026-11-11T23:22:50Z",
@@ -12199,14 +12199,14 @@
    "headline_en": "EU deal on Ukraine talks overshadows AI-focused summit in Dublin",
    "headline_fi": "Tutkija: Euroopan sotilasmahdit voisivat turvata rauhaa Ukrainassa, ja siksi ne halutaan neuvottelemaan Venäjän kanssa",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:13Z",
+   "last_seen": "2026-11-15T09:38:25Z",
    "weekly": [
     0,
     0,
     0,
-    25
+    34
    ],
-   "this_week": 25,
+   "this_week": 34,
    "velocity": 5,
    "markets": {
     "de": 5,
@@ -12263,18 +12263,18 @@
   "3852": {
    "id": "3852",
    "first_seen": "2026-11-14T09:14:26Z",
-   "headline": "Alaska och Hawaii omfattas inte av flygstoppet",
+   "headline": "Näin lennonjohto ilmoitti valtakunnallisesta lentokiellosta",
    "headline_en": "US FAA grounds all departing flights due to extraordinary circumstance, safety reasons",
    "headline_fi": "Näin lennonjohto ilmoitti valtakunnallisesta lentokiellosta",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:30:56Z",
+   "last_seen": "2026-11-15T09:38:04Z",
    "weekly": [
     0,
     0,
     0,
-    56
+    101
    ],
-   "this_week": 56,
+   "this_week": 101,
    "velocity": 10.8,
    "markets": {
     "intl": 1,
@@ -12323,14 +12323,14 @@
    "headline_en": "Rescue efforts under way after tanker strikes river cruise boat in US",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:30:58Z",
+   "last_seen": "2026-11-15T09:38:11Z",
    "weekly": [
     0,
     0,
     0,
-    41
+    48
    ],
-   "this_week": 41,
+   "this_week": 48,
    "velocity": 8,
    "markets": {
     "intl": 3,
@@ -12373,18 +12373,18 @@
   "3851": {
    "id": "3851",
    "first_seen": "2026-11-14T09:14:25Z",
-   "headline": "FBI reportedly probes software update behind US flight ground stop",
+   "headline": "全米の空港で航空機に約4時間の地上待機命令　「通信障害」と運輸長官は説明",
    "headline_en": "FAA issues US national ground stop on all flights",
    "headline_fi": "Koko lentoliikenne poikki Yhdysvalloissa",
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:30:57Z",
+   "last_seen": "2026-11-15T09:38:05Z",
    "weekly": [
     0,
     0,
     1,
-    40
+    73
    ],
-   "this_week": 40,
+   "this_week": 73,
    "velocity": 39,
    "markets": {
     "de": 2,
@@ -12424,10 +12424,8 @@
    ],
    "abroad_first": "2026-11-13T00:00:00Z",
    "markets_abroad": 6,
-   "subjects": [
-    "tech"
-   ],
-   "relevant": true,
+   "subjects": [],
+   "relevant": false,
    "checked": "2026-11-14T23:30:51Z",
    "check_how": "url",
    "check_error": null,
@@ -12448,7 +12446,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:15Z",
+   "last_seen": "2026-11-15T09:38:39Z",
    "weekly": [
     0,
     0,
@@ -12472,14 +12470,14 @@
    "headline_en": "US senator Van Hollen to challenge Schumer for Senate majority leader",
    "headline_fi": "Marylandin senaattori haastaa pitkään demokraatteja johtaneen Schumerin",
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:07Z",
+   "last_seen": "2026-11-15T09:38:12Z",
    "weekly": [
     0,
     0,
     1,
-    17
+    20
    ],
-   "this_week": 17,
+   "this_week": 20,
    "velocity": 9,
    "markets": {
     "intl": 3,
@@ -12527,14 +12525,14 @@
    "headline_en": "Study reveals widespread sexual misconduct in Bundeswehr",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-14T21:31:10Z",
+   "last_seen": "2026-11-15T09:38:33Z",
    "weekly": [
     0,
     0,
     1,
-    13
+    14
    ],
-   "this_week": 13,
+   "this_week": 14,
    "velocity": 11,
    "markets": {
     "de": 9,
@@ -12584,7 +12582,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:17Z",
+   "last_seen": "2026-11-15T09:38:40Z",
    "weekly": [
     0,
     0,
@@ -12608,7 +12606,7 @@
    "headline_en": null,
    "headline_fi": "THL viikolla 47/2026",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:30:56Z",
+   "last_seen": "2026-11-15T09:38:15Z",
    "weekly": [
     0,
     0,
@@ -12633,18 +12631,18 @@
   "3766": {
    "id": "3766",
    "first_seen": "2026-11-11T19:58:09Z",
-   "headline": "Scott Bessent moved to military base for safety after Iran threats and photo exposing his $12M home",
+   "headline": "Iran-Krieg: Drei Öltanker in Straße von Hormus nach Minenkontakt in Brand",
    "headline_en": "Scott Bessent moved to military base for safety after Iran threats and photo exposing his $12M home",
    "headline_fi": "Iran-uhkaukset ajoivat Yhdysvaltain valtiovarainministerin kotoaan",
    "state": "emergence",
-   "last_seen": "2026-11-14T21:31:37Z",
+   "last_seen": "2026-11-15T09:38:22Z",
    "weekly": [
     0,
     0,
     0,
-    12
+    13
    ],
-   "this_week": 12,
+   "this_week": 13,
    "velocity": 2.4,
    "markets": {
     "uk": 4,
@@ -12926,6 +12924,552 @@
     }
    ],
    "abroad_first": "2026-11-08T19:01:25Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3889": {
+   "id": "3889",
+   "first_seen": "2026-11-15T09:38:10Z",
+   "headline": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+   "headline_en": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+   "headline_fi": "Zelenskyi sai kalliin ehdotuksen - kriittinen alue vaihtokauppana Nato-jäsenyydestä",
+   "state": "emergence",
+   "last_seen": "2026-11-15T09:38:10Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    28
+   ],
+   "this_week": 28,
+   "velocity": 5.6,
+   "markets": {
+    "intl": 2,
+    "de": 3,
+    "uk": 2,
+    "fi": 1,
+    "us": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+     "u": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-14T16:53:39Z"
+    },
+    {
+     "t": "Зеленски: САД предложиле откажување од Донбас за членство во НАТО",
+     "u": "https://www.dw.com/mk/zelenski-za-clenstvo-na-ukraina-vo-nato-vo-zamena-za-donbas-bi-mozelo-da-se-resava-na-referendum/a-79948312",
+     "d": "dw.com",
+     "c": "de",
+     "l": "mkd",
+     "p": "2026-11-14T13:43:18Z"
+    },
+    {
+     "t": "Донбас в обмін на членство в НАТО: що розповів Зеленський про переговори з РФ і США",
+     "u": "https://www.bbc.com/ukrainian/articles/cmrrg99qve9ro",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "uk",
+     "p": "2026-11-14T11:46:34Z"
+    }
+   ],
+   "abroad_first": "2026-11-14T10:48:19Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-15T12:00:58Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-14T11:24:50Z",
+    "d": "mtvuutiset.fi",
+    "u": "https://www.mtvuutiset.fi/artikkeli/zelenskyi-sai-kalliin-ehdotuksen-kriittinen-alue-vaihtokauppana-nato-jasenyydesta/9421086",
+    "t": "Zelenskyi sai kalliin ehdotuksen - kriittinen alue vaihtokauppana Nato-jäsenyydestä",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-15T12:00:58Z"
+  },
+  "3911": {
+   "id": "3911",
+   "first_seen": "2026-11-15T09:38:28Z",
+   "headline": "Берлін: Відмова хокеїстам з РФ у візах не вирішить проблему",
+   "headline_en": "Norway says Russian, Belarusian athletes barred from competitions it hosts",
+   "headline_fi": "Norja aikoo estää venäläisurheilijoiden maahantulon",
+   "state": "acceleration",
+   "last_seen": "2026-11-15T09:38:28Z",
+   "weekly": [
+    0,
+    8,
+    11,
+    24
+   ],
+   "this_week": 24,
+   "velocity": 2.1818181818181817,
+   "markets": {
+    "de": 1,
+    "intl": 2,
+    "se": 1,
+    "fi": 2
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Берлін: Відмова хокеїстам з РФ у візах не вирішить проблему",
+     "u": "https://www.dw.com/uk/u-nimeccini-vvazaut-so-vidmova-hokeistam-z-rf-u-vizah-ne-virisit-problemu/a-79944157",
+     "d": "dw.com",
+     "c": "de",
+     "l": "uk",
+     "p": "2026-11-13T18:01:46Z"
+    },
+    {
+     "t": "スキー＝フィンランドとノルウェーもロ選手入国拒否、ポーランドに続き",
+     "u": "https://www.reuters.com/jp/life/sports/AJW5UMYUJRNF5GBVYJR5RQVHWI-2026-11-13/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-13T01:16:43Z"
+    },
+    {
+     "t": "Norway says Russian, Belarusian athletes barred from competitions it hosts",
+     "u": "https://www.reuters.com/world/norway-says-russian-belarusian-athletes-barred-competitions-it-hosts-2026-11-12/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-12T21:30:39Z"
+    }
+   ],
+   "abroad_first": "2026-11-12T19:42:41Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-15T12:00:58Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3862": {
+   "id": "3862",
+   "first_seen": "2026-11-14T09:14:32Z",
+   "headline": "Microsoftin häiriöiden taustalla tekninen ongelma - yhtiö pyytää anteeksi",
+   "headline_en": "Microsoft struggling to restore Outlook and Teams after global outage",
+   "headline_fi": "Microsoftin häiriöiden taustalla tekninen ongelma - yhtiö pyytää anteeksi",
+   "state": "emergence",
+   "last_seen": "2026-11-15T09:38:04Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.4,
+   "markets": {
+    "uk": 5,
+    "intl": 1,
+    "fi": 2,
+    "us": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Microsoft struggling to restore Outlook and Teams after global outage",
+     "u": "https://www.cityam.com/microsoft-struggling-to-restore-outlook-and-teams-after-global-outage/",
+     "d": "cityam.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-13T07:30:43Z"
+    },
+    {
+     "t": "Microsoft says services still returning amid widespread outage",
+     "u": "https://www.aljazeera.com/news/2026/11/13/microsoft-says-services-still-returning-amid-widespread-outage",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-13T20:16:13Z"
+    },
+    {
+     "t": "Microsoft outage leaves courts and Whitehall in the dark",
+     "u": "https://www.cityam.com/microsoft-outage-leaves-courts-and-whitehall-in-the-dark/",
+     "d": "cityam.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-13T11:40:46Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T03:38:32Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-15T12:00:58Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-12T21:49:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/digitoday/art-2000012409168.html",
+    "t": "Eikö sähköpostisi toimi? Microsoftilla laajoja häiriöitä",
+    "s": 0.848
+   },
+   "fi_count": 7,
+   "arrived_at": "2026-11-15T12:00:58Z"
+  },
+  "3884": {
+   "id": "3884",
+   "first_seen": "2026-11-15T09:38:07Z",
+   "headline": "فيسبوك: إيطاليا تُغرم ميتا 805 ملايين يورو بسبب وصولها إلى صور مستخدمي \"أندرويد\" دون موافقتهم - BBC News عربي",
+   "headline_en": "Italy fines Meta $880m over photo privacy",
+   "headline_fi": "Meta sai yli 800 miljoonan euron sakot Italialta",
+   "state": "emergence",
+   "last_seen": "2026-11-15T09:38:07Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    24
+   ],
+   "this_week": 24,
+   "velocity": 4.8,
+   "markets": {
+    "uk": 1,
+    "fi": 1,
+    "de": 2,
+    "se": 1,
+    "intl": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "فيسبوك: إيطاليا تُغرم ميتا 805 ملايين يورو بسبب وصولها إلى صور مستخدمي \"أندرويد\" دون موافقتهم - BBC News عربي",
+     "u": "https://www.bbc.com/arabic/articles/cw3dgep0l30ko",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ar",
+     "p": "2026-11-15T03:02:18Z"
+    },
+    {
+     "t": "Публікація фото без згоди: Італія оштрафувала Meta на €805 млн",
+     "u": "https://www.dw.com/uk/italia-ostrafuvala-meta-na-805-mln-evro-cerez-foto-koristuvaciv/a-79949013",
+     "d": "dw.com",
+     "c": "de",
+     "l": "uk",
+     "p": "2026-11-14T16:14:05Z"
+    },
+    {
+     "t": "Italienska miljardböter för Meta",
+     "u": "https://www.di.se/nyheter/italienska-miljardboter-for-meta/",
+     "d": "di.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-14T15:15:26Z"
+    }
+   ],
+   "abroad_first": "2026-11-14T15:15:26Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3722": {
+   "id": "3722",
+   "first_seen": "2026-11-10T19:22:23Z",
+   "headline": "Resolution om riksrätt mot Hegseth lagd",
+   "headline_en": "Photos: Crowds greet Pope Leo in Argentina after 40-year wait",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-15T09:38:56Z",
+   "weekly": [
+    0,
+    1,
+    1,
+    19
+   ],
+   "this_week": 19,
+   "velocity": 19,
+   "markets": {
+    "intl": 3,
+    "de": 2,
+    "uk": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Photos: Crowds greet Pope Leo in Argentina after 40-year wait",
+     "u": "https://www.aljazeera.com/gallery/2026/11/10/photos-historic-crowds-greet-pope-leo-xiv-in-argentina-after-40-year-wait",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-10T17:48:27Z"
+    },
+    {
+     "t": "Pope Leo draws 2.5 million to Argentina mass, warns against austerity",
+     "u": "https://www.dw.com/en/pope-leo-draws-25-million-in-buenos-aires-renews-warning-over-mileis-austerity/a-79904137",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-09T18:38:44Z"
+    },
+    {
+     "t": "Pope meets with clergy abuse survivors in Argentina",
+     "u": "https://www.aljazeera.com/news/2026/11/9/pope-meets-with-clergy-abuse-survivors-in-argentina",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-09T22:14:37Z"
+    }
+   ],
+   "abroad_first": "2026-11-09T18:38:44Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3896": {
+   "id": "3896",
+   "first_seen": "2026-11-15T09:38:14Z",
+   "headline": "Wales v New Zealand: The magical day Wales beat the All Blacks again",
+   "headline_en": "Wales v New Zealand: The magical day Wales beat the All Blacks again",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-15T09:38:14Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    18
+   ],
+   "this_week": 18,
+   "velocity": 3.6,
+   "markets": {
+    "uk": 9,
+    "intl": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Wales v New Zealand: The magical day Wales beat the All Blacks again",
+     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cmkg57rz2re9o",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-14T19:33:46Z"
+    },
+    {
+     "t": "Wales bury 73-year All Blacks hoodoo with seismic victory over New Zealand",
+     "u": "https://www.theguardian.com/sport/2026/nov/14/wales-new-zealand-nations-championship-match-report",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-14T16:01:57Z"
+    },
+    {
+     "t": "Wales 35-28 New Zealand: Captain Dewi Lake believed in All Blacks history",
+     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/c820q64ezyn7o",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-14T18:30:58Z"
+    }
+   ],
+   "abroad_first": "2026-11-14T16:01:57Z",
+   "markets_abroad": 2,
+   "subjects": [],
+   "relevant": false
+  },
+  "3825": {
+   "id": "3825",
+   "first_seen": "2026-11-13T08:44:07Z",
+   "headline": "Sebastian Aholla koskettava hetki Veikkaus-areenan käytävällä - \"Eivät ole ikinä nähneet",
+   "headline_en": null,
+   "headline_fi": "Päävalmentajalta huima tunnustus Sebastian Ahosta: \"En tiedä selviääkö hän\"",
+   "state": "emergence",
+   "last_seen": "2026-11-15T09:38:17Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    16
+   ],
+   "this_week": 16,
+   "velocity": 1.2,
+   "markets": {
+    "fi": 6
+   },
+   "outlets": 3,
+   "samples": [],
+   "abroad_first": "2026-11-13T08:44:07Z",
+   "markets_abroad": 0,
+   "subjects": [],
+   "relevant": false
+  },
+  "3853": {
+   "id": "3853",
+   "first_seen": "2026-11-14T09:14:26Z",
+   "headline": "US lifts ground stop for airports hours after halting all departures",
+   "headline_en": "US lifts ground stop for airports hours after halting all departures",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-15T09:38:15Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    16
+   ],
+   "this_week": 16,
+   "velocity": 1.8,
+   "markets": {
+    "de": 1,
+    "uk": 4,
+    "us": 4
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "US lifts ground stop for airports hours after halting all departures",
+     "u": "https://www.dw.com/en/us-lifts-nationwide-ground-stop-for-airports-hours-after-halting-all-departures/a-79945062",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-13T21:16:20Z"
+    },
+    {
+     "t": "لغو دستور توقف سراسری پروازها در آمریکا؛ وزیر حمل‌ونقل: پیامدهای اختلال تا چند روز ادامه خواهد داشت",
+     "u": "https://www.bbc.com/persian/articles/cqevry3mv2pvo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "fa",
+     "p": "2026-11-14T03:11:28Z"
+    },
+    {
+     "t": "What to Know About Friday's Nationwide Ground Stop",
+     "u": "https://www.nytimes.com/live/2026/11/13/us/ground-stop-nationwide-flights-faa/faa-ground-stop-cause-flights",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-14T04:47:29Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T16:48:00Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3902": {
+   "id": "3902",
+   "first_seen": "2026-11-15T09:38:23Z",
+   "headline": "Ungarn: Korruptionsvorwürfe gegen Minister von Orbán - Ermittler finden Millionen Euro vergraben im Wald",
+   "headline_en": "Nearly €20m in cash found buried, hidden in Hungary corruption case",
+   "headline_fi": "Metsistä ja maatiloilta löytyi 18 miljoonan euron käteisjemma Unkarissa",
+   "state": "emergence",
+   "last_seen": "2026-11-15T09:38:23Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 2.8,
+   "markets": {
+    "de": 5,
+    "es": 1,
+    "uk": 2,
+    "fi": 1,
+    "intl": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Ungarn: Korruptionsvorwürfe gegen Minister von Orbán - Ermittler finden Millionen Euro vergraben im Wald",
+     "u": "https://www.welt.de/politik/ausland/article6af8b5b3e4b0d5b0f1def4f1/ungarn-korruptionsvorwuerfe-gegen-minister-von-orban-ermittler-finden-millionen-euro-vergraben-im-wald.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-14T19:42:22Z"
+    },
+    {
+     "t": "Hungría halla más de 17 millones de euros supuestamente escondidos por un exministro de Víktor Orbán",
+     "u": "https://elpais.com/internacional/2026-11-14/hungria-halla-mas-de-17-millones-de-euros-supuestamente-escondidos-por-un-exministro-de-viktor-orban.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-14T21:23:44Z"
+    },
+    {
+     "t": "Бывший венгерский министр времен Орбана закопал валюту на $20 млн в лесах и на фермах",
+     "u": "https://www.bbc.com/russian/articles/cv8e0k7rj5pgo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ru",
+     "p": "2026-11-14T16:36:17Z"
+    }
+   ],
+   "abroad_first": "2026-11-14T10:53:28Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3888": {
+   "id": "3888",
+   "first_seen": "2026-11-15T09:38:09Z",
+   "headline": "SpaceX's Starship captured by launchpad arms in dramatic first",
+   "headline_en": "SpaceX's Starship captured by launchpad arms in dramatic first",
+   "headline_fi": "SpaceX:n Starship palasi ensi kertaa onnistuneesti laukaisutornilleen",
+   "state": "emergence",
+   "last_seen": "2026-11-15T09:38:09Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2.6,
+   "markets": {
+    "intl": 2,
+    "de": 3,
+    "us": 1,
+    "uk": 2,
+    "fi": 2
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "SpaceX's Starship captured by launchpad arms in dramatic first",
+     "u": "https://www.aljazeera.com/news/2026/11/15/spacexs-starship-captured-by-launchpad-arms-in-dramatic-first",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-15T00:14:22Z"
+    },
+    {
+     "t": "SpaceX fängt Starship-Rakete am Startturm erstmals wieder auf",
+     "u": "https://www.spiegel.de/ausland/spacex-faengt-starship-rakete-am-startturm-erstmals-wieder-auf-a-8995a28f-b04d-4a0f-a6bd-1b2298f5b450",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-14T21:47:00Z"
+    },
+    {
+     "t": "SpaceX Makes History With Successful Rocket Catch in Texas",
+     "u": "https://www.nytimes.com/2026/11/14/science/spacex-starship-first-catch.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-15T00:36:32Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T20:12:02Z",
    "markets_abroad": 4,
    "subjects": [],
    "relevant": false
