@@ -1,12 +1,12 @@
 {
- "time": "2026-11-16T09:15:40Z",
- "new_articles": 2,
+ "time": "2026-11-16T09:30:52Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
    "state": "ok",
    "fetched": 10,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://www.uusiouutiset.fi/feed/"
@@ -76,7 +76,7 @@
    "id": "euobserver",
    "state": "ok",
    "fetched": 20,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://euobserver.com/rss"
