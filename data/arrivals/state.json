@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-16T16:01:09Z",
+  "last_run": "2026-11-16T19:01:15Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 36,
+  "similar_left": 39,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9795,7 +9795,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-16T12:45:53Z",
+   "checked": "2026-11-16T19:01:15Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11978,14 +11978,14 @@
    "headline_en": "Famed ship SS United States to be sunk off coast of Florida",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-15T21:54:08Z",
+   "last_seen": "2026-11-16T10:01:23Z",
    "weekly": [
     0,
-    5,
+    6,
     1,
-    13
+    12
    ],
-   "this_week": 13,
+   "this_week": 12,
    "velocity": 13,
    "markets": {
     "uk": 3,
@@ -12830,7 +12830,7 @@
    "headline_en": "WASHINGTON",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-15T21:54:12Z",
+   "last_seen": "2026-11-16T10:01:27Z",
    "weekly": [
     0,
     0,
@@ -13056,7 +13056,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-16T12:45:53Z",
+   "checked": "2026-11-16T19:01:15Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13483,10 +13483,10 @@
    "id": "3835",
    "first_seen": "2026-11-13T08:44:16Z",
    "headline": "Tällainen alus on Naro-Fominsk, johon Ukraina iski Suomenlahdella",
-   "headline_en": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+   "headline_en": "Estonia Confirms Multiple Drone Hits on Russian Corvette in the Baltic",
    "headline_fi": "Tällainen alus on Naro-Fominsk, johon Ukraina iski Suomenlahdella",
    "state": "emergence",
-   "last_seen": "2026-11-15T21:53:55Z",
+   "last_seen": "2026-11-16T10:01:11Z",
    "weekly": [
     0,
     0,
@@ -13494,13 +13494,22 @@
     12
    ],
    "this_week": 12,
-   "velocity": 1.6,
+   "velocity": 2.4,
    "markets": {
-    "fi": 7,
+    "fi": 8,
+    "us": 1,
     "uk": 1
    },
-   "outlets": 4,
+   "outlets": 6,
    "samples": [
+    {
+     "t": "Estonia Confirms Multiple Drone Hits on Russian Corvette in the Baltic",
+     "u": "https://maritime-executive.com/article/estonia-confirms-ukrainian-drone-hits-on-russian-corvette-in-the-baltic",
+     "d": "maritime-executive.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-13T20:04:53Z"
+    },
     {
      "t": "Russian warship hit by Ukrainian drone in Gulf of Finland",
      "u": "https://www.bbc.com/news/articles/cmn0d33zz34zo",
@@ -13511,11 +13520,23 @@
     }
    ],
    "abroad_first": "2026-11-12T20:09:16Z",
-   "markets_abroad": 1,
+   "markets_abroad": 2,
    "subjects": [
     "geopolitics"
    ],
-   "relevant": true
+   "relevant": true,
+   "checked": "2026-11-16T19:01:15Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-11T19:19:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012405887.html",
+    "t": "Ukraina sanoo iskeneensä sotalaivaan Suomenlahdella",
+    "s": null
+   },
+   "fi_count": 9,
+   "arrived_at": "2026-11-16T19:01:15Z"
   },
   "3855": {
    "id": "3855",
@@ -13571,7 +13592,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-16T12:45:53Z",
+   "checked": "2026-11-16T19:01:15Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13891,7 +13912,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-16T12:45:53Z",
+   "checked": "2026-11-16T19:01:15Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14107,6 +14128,66 @@
    "markets_abroad": 4,
    "subjects": [],
    "relevant": false
+  },
+  "3945": {
+   "id": "3945",
+   "first_seen": "2026-11-16T10:00:52Z",
+   "headline": "Liveblog Nahost: Jemenitische Armee zieht sich von Bab al-Mandab zurück",
+   "headline_en": "Iran drone attack on US: Islamic Revolutionary Guard Corps target America military base in Bahrain wit six drones - BBC News Pidgin",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-16T10:00:52Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "de": 4,
+    "uk": 3,
+    "intl": 1,
+    "us": 1,
+    "se": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Liveblog Nahost: Jemenitische Armee zieht sich von Bab al-Mandab zurück",
+     "u": "https://www.faz.net/aktuell/politik/ausland/liveblog-nahost-jemenitische-armee-zieht-sich-von-bab-al-mandab-zurueck-faz-200583539.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-15T15:18:40Z"
+    },
+    {
+     "t": "Iran drone attack on US: Islamic Revolutionary Guard Corps target America military base in Bahrain wit six drones - BBC News Pidgin",
+     "u": "https://www.bbc.com/pidgin/articles/c63rgxy220p9o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-15T15:59:45Z"
+    },
+    {
+     "t": "Iran targets US military base in Bahrain with drone attack",
+     "u": "https://www.bbc.com/news/articles/cqn4e2py48kwo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-15T13:42:58Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T04:21:58Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-16T19:01:15Z",
+   "check_how": "url",
+   "check_error": null
   }
  }
 }
