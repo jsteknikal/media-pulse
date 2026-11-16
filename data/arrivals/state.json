@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-16T03:31:03Z",
+  "last_run": "2026-11-16T06:45:38Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 36,
+  "similar_left": 41,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9795,7 +9795,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-16T00:30:52Z",
+   "checked": "2026-11-16T06:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13052,7 +13052,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-16T00:30:52Z",
+   "checked": "2026-11-16T06:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13471,6 +13471,227 @@
    ],
    "abroad_first": "2026-11-13T20:12:02Z",
    "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "3835": {
+   "id": "3835",
+   "first_seen": "2026-11-13T08:44:16Z",
+   "headline": "Tällainen alus on Naro-Fominsk, johon Ukraina iski Suomenlahdella",
+   "headline_en": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+   "headline_fi": "Tällainen alus on Naro-Fominsk, johon Ukraina iski Suomenlahdella",
+   "state": "emergence",
+   "last_seen": "2026-11-15T21:53:55Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 1.6,
+   "markets": {
+    "fi": 7,
+    "uk": 1
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "Russian warship hit by Ukrainian drone in Gulf of Finland",
+     "u": "https://www.bbc.com/news/articles/cmn0d33zz34zo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-12T20:09:16Z"
+    }
+   ],
+   "abroad_first": "2026-11-12T20:09:16Z",
+   "markets_abroad": 1,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
+  },
+  "3855": {
+   "id": "3855",
+   "first_seen": "2026-11-14T09:14:27Z",
+   "headline": "German spies handed new powers to tackle 'hybrid threats' from abroad",
+   "headline_en": "German spies handed new powers to tackle 'hybrid threats' from abroad",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-15T21:53:43Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2,
+   "markets": {
+    "uk": 2,
+    "de": 7,
+    "intl": 1
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "German spies handed new powers to tackle 'hybrid threats' from abroad",
+     "u": "https://www.bbc.com/news/articles/c6jre3z03w4go",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-13T15:42:52Z"
+    },
+    {
+     "t": "Gjermani: Çfarë parashikon reforma e shërbimeve sekrete?",
+     "u": "https://www.dw.com/sq/bnd-dhe-zyra-p%C3%ABr-mbrojtjen-e-kushtetut%C3%ABs-v%C3%ABrtet%C3%AB-sh%C3%ABrbime-sekrete-apo-tig%C3%ABr-prej-letre/a-79945210",
+     "d": "dw.com",
+     "c": "de",
+     "l": "sqi",
+     "p": "2026-11-13T22:13:42Z"
+    },
+    {
+     "t": "Бундестаг схвалив реформу спецслужб із правом на кібероперації",
+     "u": "https://www.dw.com/uk/bundestag-shvaliv-reformu-specsluzb-iz-pravom-na-kiberoperacii/a-79944822",
+     "d": "dw.com",
+     "c": "de",
+     "l": "uk",
+     "p": "2026-11-13T20:50:28Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T04:23:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-16T06:45:38Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3859": {
+   "id": "3859",
+   "first_seen": "2026-11-14T09:14:30Z",
+   "headline": "Украина тинчлик истайдими - Путин талабларини кучайтирди - BBC News O'zbek",
+   "headline_en": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+   "headline_fi": "EU-johtajan arvio: Eurooppa on johdatettu \"ansaan",
+   "state": "acceleration",
+   "last_seen": "2026-11-15T21:53:42Z",
+   "weekly": [
+    0,
+    0,
+    2,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 6,
+   "markets": {
+    "uk": 6,
+    "de": 1,
+    "intl": 2,
+    "fi": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Украина тинчлик истайдими - Путин талабларини кучайтирди - BBC News O'zbek",
+     "u": "https://www.bbc.com/uzbek/articles/c59vwnpvp4l1o/cyr",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ru",
+     "p": "2026-11-14T10:45:34Z"
+    },
+    {
+     "t": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+     "u": "https://www.bbc.com/news/articles/cq39glwprknjo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-13T16:40:31Z"
+    },
+    {
+     "t": "Un inflexible Putin eleva sus exigencias para alcanzar la paz con Ucrania",
+     "u": "https://www.bbc.com/mundo/articles/crn80jqyw993o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "es",
+     "p": "2026-11-14T03:06:55Z"
+    }
+   ],
+   "abroad_first": "2026-11-12T15:30:49Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics",
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-16T06:45:38Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-12T20:01:04Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/0a1d5e0d-5bad-4734-a48e-8130a7ed6f1b",
+    "t": "EU-johtajan arvio: Eurooppa on johdatettu \"ansaan",
+    "s": null
+   },
+   "fi_count": 4,
+   "arrived_at": "2026-11-16T06:45:38Z"
+  },
+  "3725": {
+   "id": "3725",
+   "first_seen": "2026-11-10T19:22:26Z",
+   "headline": "Judo star Teddy Riner announces plan to run in France's presidential election",
+   "headline_en": "Judo star Teddy Riner announces plan to run in France's presidential election",
+   "headline_fi": "Judotähti Teddy Riner ilmoittautui mukaan presidenttikisaan",
+   "state": "emergence",
+   "last_seen": "2026-11-15T21:53:29Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 1.8,
+   "markets": {
+    "fi": 1,
+    "uk": 3,
+    "es": 1,
+    "intl": 1,
+    "us": 1,
+    "de": 2
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Judo star Teddy Riner announces plan to run in France's presidential election",
+     "u": "https://www.theguardian.com/world/2026/nov/09/judo-star-teddy-riner-plan-france-presidential-election",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-09T16:24:50Z"
+    },
+    {
+     "t": "Un magma de 39 candidatos para sustituir a Macron en Francia",
+     "u": "https://elpais.com/internacional/2026-11-11/un-magma-de-39-candidatos-para-sustituir-a-macron-en-francia.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-11T04:40:00Z"
+    },
+    {
+     "t": "Three-time Olympic judo champion announces bid for French presidency",
+     "u": "https://www.independent.co.uk/sport/olympics/teddy-riner-french-presidency-emmanuel-macron-b3081659.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-09T11:56:18Z"
+    }
+   ],
+   "abroad_first": "2026-11-09T11:43:05Z",
+   "markets_abroad": 5,
    "subjects": [],
    "relevant": false
   }
