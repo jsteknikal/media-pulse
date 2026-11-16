@@ -1,5 +1,5 @@
 {
- "time": "2026-11-16T22:45:47Z",
+ "time": "2026-11-16T23:01:07Z",
  "new_articles": 0,
  "sources": [
   {
@@ -34,13 +34,13 @@
   },
   {
    "id": "climate-home",
-   "state": "ok",
-   "fetched": 40,
+   "state": "failed",
+   "fetched": 0,
    "new": 0,
-   "errors": [],
-   "feeds_used": [
-    "https://www.climatechangenews.com/feed/"
-   ]
+   "errors": [
+    "https://www.climatechangenews.com/feed/: IncompleteRead: IncompleteRead(7585 bytes read)"
+   ],
+   "feeds_used": []
   },
   {
    "id": "esg-today",
