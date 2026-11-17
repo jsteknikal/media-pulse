@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-17T04:15:43Z",
+  "last_run": "2026-11-17T07:30:56Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 39,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9796,7 +9796,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-17T01:15:41Z",
+   "checked": "2026-11-17T07:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13055,7 +13055,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-17T01:15:41Z",
+   "checked": "2026-11-17T07:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13591,7 +13591,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-17T01:15:41Z",
+   "checked": "2026-11-17T07:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13911,7 +13911,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-17T01:15:41Z",
+   "checked": "2026-11-17T07:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14184,7 +14184,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-17T01:15:41Z",
+   "checked": "2026-11-17T07:30:56Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14242,6 +14242,117 @@
    "subjects": [
     "policy"
    ],
+   "relevant": false
+  },
+  "3895": {
+   "id": "3895",
+   "first_seen": "2026-11-15T09:38:14Z",
+   "headline": "'No such thing as a free lunch,' says Milburn as he warns it will take a decade for UK benefits bill to come down",
+   "headline_en": "BBC Radio 4 - The Briefing Room, How do you get young people off benefits and into work?",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-16T22:19:00Z",
+   "weekly": [
+    0,
+    3,
+    2,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 6,
+   "markets": {
+    "uk": 5,
+    "intl": 1
+   },
+   "outlets": 3,
+   "samples": [
+    {
+     "t": "BBC Radio 4 - The Briefing Room, How do you get young people off benefits and into work?",
+     "u": "https://www.bbc.co.uk/programmes/m003418b",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-12T16:05:42Z"
+    },
+    {
+     "t": "Newscast - A Very Public Row On The Right - BBC Sounds",
+     "u": "https://www.bbc.co.uk/sounds/play/curation/m001bm45/p0pm3wlj",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-14T18:53:21Z"
+    },
+    {
+     "t": "Youth unemployment review: What Alan Milburn’s report might say",
+     "u": "https://www.independent.co.uk/bulletin/news/youth-unemployment-review-alan-milburn-neets-labour-b3085014.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-14T16:33:12Z"
+    }
+   ],
+   "abroad_first": "2026-11-10T17:49:10Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-17T07:30:56Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3623": {
+   "id": "3623",
+   "first_seen": "2026-11-08T18:25:21Z",
+   "headline": "De Zerbi declines to blame VAR as Tottenham lose to Leeds",
+   "headline_en": "De Zerbi declines to blame VAR as Tottenham lose to Leeds",
+   "headline_fi": "Kyseenalainen tuomio kuohuttaa Valioliigassa, Pasi Rautiaiselta kritiikkiä Viaplaylla",
+   "state": "emergence",
+   "last_seen": "2026-11-13T21:03:55Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "intl": 2,
+    "fi": 1,
+    "us": 3,
+    "uk": 4
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "De Zerbi declines to blame VAR as Tottenham lose to Leeds",
+     "u": "https://www.reuters.com/sports/soccer/de-zerbi-declines-blame-var-tottenham-lose-leeds-2026-11-07/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-07T15:40:21Z"
+    },
+    {
+     "t": "Okafor secures Leeds win at home to Tottenham",
+     "u": "https://www.reuters.com/sports/soccer/okafor-secures-leeds-win-home-tottenham-2026-11-07/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-07T14:38:16Z"
+    },
+    {
+     "t": "Okafor ends Tottenham's winning run. How lucky was Leeds' Bogle? What went wrong for De Zerbi?",
+     "u": "https://www.nytimes.com/athletic/7755650/2026/11/07/leeds-1-tottenham-0-okafor-bogle-tel-de-zerbi/",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-07T14:31:27Z"
+    }
+   ],
+   "abroad_first": "2026-11-07T13:39:48Z",
+   "markets_abroad": 3,
+   "subjects": [],
    "relevant": false
   }
  }
