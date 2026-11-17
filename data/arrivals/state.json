@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-17T20:01:05Z",
+  "last_run": "2026-11-17T23:01:17Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -7302,26 +7302,34 @@
    "id": "3454",
    "first_seen": "2026-11-05T16:46:19Z",
    "headline": "Making ends meet in Mississippi: How high prices led to an election upset",
-   "headline_en": "BBC News - Americast, The Democrats pull off an historic victory in Mississippi",
+   "headline_en": "Making ends meet in Mississippi: How high prices led to an election upset",
    "headline_fi": "Demokraattien enemmistö senaatissa kasvaa: Mississippin vaalit ratkesivat viimein",
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:28:08Z",
+   "last_seen": "2026-11-17T22:55:39Z",
    "weekly": [
     3,
     2,
-    30,
-    66
+    31,
+    65
    ],
-   "this_week": 66,
-   "velocity": 2.4814814814814814,
+   "this_week": 65,
+   "velocity": 2.096774193548387,
    "markets": {
+    "intl": 3,
     "fi": 2,
     "uk": 1,
-    "de": 4,
-    "intl": 2
+    "de": 3
    },
    "outlets": 7,
    "samples": [
+    {
+     "t": "Making ends meet in Mississippi: How high prices led to an election upset",
+     "u": "https://www.reuters.com/video/watch/idRW829613112026RP1/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-14T01:27:54Z"
+    },
     {
      "t": "BBC News - Americast, The Democrats pull off an historic victory in Mississippi",
      "u": "https://www.bbc.co.uk/programmes/w3ct8m02",
@@ -7337,14 +7345,6 @@
      "c": "de",
      "l": "de",
      "p": "2026-11-12T04:35:48Z"
-    },
-    {
-     "t": "Democrat Scott Colom wins closely-watched US Senate race in Mississippi",
-     "u": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi",
-     "d": "aljazeera.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-11T23:05:34Z"
     }
    ],
    "abroad_first": "2026-11-03T10:16:26Z",
@@ -8820,14 +8820,14 @@
    "headline_en": "Nvidia shares fall as AI giant rocked by Jensen Huang’s resignation",
    "headline_fi": "Trumpin hallinnosta jyrähdys Nvidialle - 10 päivää aikaa selvittää tilanne",
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:24Z",
+   "last_seen": "2026-11-17T22:54:53Z",
    "weekly": [
     1,
     4,
-    262,
-    566
+    264,
+    579
    ],
-   "this_week": 566,
+   "this_week": 579,
    "velocity": 2.898936170212766,
    "markets": {
     "fi": 1,
@@ -10150,7 +10150,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-17T16:45:43Z",
+   "checked": "2026-11-17T23:01:17Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10336,7 +10336,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-17T16:45:43Z",
+   "checked": "2026-11-17T23:01:17Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10713,14 +10713,14 @@
    "headline_en": "All the concerning themes in David Walliams’s bestselling children’s books",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:47Z",
+   "last_seen": "2026-11-17T22:55:18Z",
    "weekly": [
     0,
-    0,
-    15,
-    38
+    1,
+    19,
+    33
    ],
-   "this_week": 38,
+   "this_week": 33,
    "velocity": 2.533333333333333,
    "markets": {
     "uk": 10
@@ -11059,7 +11059,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-17T16:45:43Z",
+   "checked": "2026-11-17T23:01:17Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11070,7 +11070,7 @@
    "headline_en": "Russian ambassador to US dies, foreign ministry says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:35Z",
+   "last_seen": "2026-11-17T22:56:06Z",
    "weekly": [
     0,
     0,
@@ -11209,7 +11209,7 @@
    "headline_en": "BBC Radio 4 - From Our Own Correspondent, Spain on strike over housing crisis",
    "headline_fi": "Barcelonassa puhkesi mellakka - kauppoja ryöstetty, yhteenottoja poliisin kanssa",
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:28:22Z",
+   "last_seen": "2026-11-17T22:55:53Z",
    "weekly": [
     2,
     1,
@@ -11265,7 +11265,7 @@
    "headline_en": "Spain general strike: Thousands gather in Madrid to protest",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:28:31Z",
+   "last_seen": "2026-11-17T22:56:02Z",
    "weekly": [
     1,
     1,
@@ -11373,14 +11373,14 @@
    "headline_en": "Manchester United make formal contact with U.S. Soccer over Mauricio Pochettino",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:35Z",
+   "last_seen": "2026-11-17T22:54:58Z",
    "weekly": [
     1,
     0,
     6,
-    39
+    40
    ],
-   "this_week": 39,
+   "this_week": 40,
    "velocity": 11.333333333333334,
    "markets": {
     "us": 7,
@@ -11455,7 +11455,7 @@
    "headline_en": "Hegseth awards medal to soldier who rebuked his group outside Tomb of the Unknown Soldier",
    "headline_fi": "Sotilas huusi Hegsethille - sai mitalin: \"Rakastamme\"",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:31Z",
+   "last_seen": "2026-11-17T22:56:02Z",
    "weekly": [
     0,
     0,
@@ -11524,7 +11524,7 @@
    "headline_en": "Microsoft's Global Outage and Fixes: What We Know",
    "headline_fi": "Eikö sähköpostisi toimi? Microsoftilla laajoja häiriöitä",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:16Z",
+   "last_seen": "2026-11-17T22:55:48Z",
    "weekly": [
     0,
     0,
@@ -11594,14 +11594,14 @@
    "headline_en": null,
    "headline_fi": "Ministeri eväsi rahat Somalia-hankkeilta - nyt tuli Orpon vastaus",
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:43Z",
+   "last_seen": "2026-11-17T22:54:56Z",
    "weekly": [
     0,
     0,
     6,
-    13
+    14
    ],
-   "this_week": 13,
+   "this_week": 14,
    "velocity": 18,
    "markets": {
     "fi": 10
@@ -11622,7 +11622,7 @@
    "headline_en": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:09Z",
+   "last_seen": "2026-11-17T22:55:40Z",
    "weekly": [
     0,
     0,
@@ -11690,7 +11690,7 @@
    "headline_en": "'Who will be held accountable?': fatal Brooklyn building collapse devastates community",
    "headline_fi": "Rakennus romahti New Yorkissa - CNN: Ainakin kaksi kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:47Z",
+   "last_seen": "2026-11-17T22:55:19Z",
    "weekly": [
     0,
     0,
@@ -11744,7 +11744,7 @@
    "headline_en": "Harry Kane hints at playing two more World Cups for England after Luka Modric inspiration",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:28:22Z",
+   "last_seen": "2026-11-17T22:55:54Z",
    "weekly": [
     0,
     0,
@@ -11924,7 +11924,7 @@
    "headline_en": null,
    "headline_fi": "Ruotsidemokraattien kansanedustaja eroaa ahdistelusyytösten takia",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:37Z",
+   "last_seen": "2026-11-17T22:55:08Z",
    "weekly": [
     0,
     0,
@@ -12028,7 +12028,7 @@
    "headline_en": "Mercedes-Benz halts new investment in German plants, considers closures",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:01Z",
+   "last_seen": "2026-11-17T22:55:32Z",
    "weekly": [
     0,
     0,
@@ -12081,7 +12081,7 @@
    "headline_en": "Strike on Gaza Hospital Kills at Least 6 and Injures 20, Rescuers Say",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:19Z",
+   "last_seen": "2026-11-17T22:55:51Z",
    "weekly": [
     0,
     0,
@@ -12129,7 +12129,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-17T16:45:43Z",
+   "checked": "2026-11-17T23:01:17Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12209,7 +12209,7 @@
    "headline_en": "EU chief diplomat Kallas blasts Russian peace demands as 'absurd'",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:30Z",
+   "last_seen": "2026-11-17T22:55:03Z",
    "weekly": [
     0,
     0,
@@ -12331,7 +12331,7 @@
    "headline_en": "Woman on cruise ship struck by a tanker said the riverboat started filling with water like the 'Titanic'",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:25Z",
+   "last_seen": "2026-11-17T22:54:59Z",
    "weekly": [
     0,
     0,
@@ -12385,14 +12385,14 @@
    "headline_en": "Thousands of US flights canceled, delayed as air travel system recovers from shutdown",
    "headline_fi": "Trump keksi syyllisen lentokaaokselle: Biden",
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:38Z",
+   "last_seen": "2026-11-17T22:54:54Z",
    "weekly": [
     0,
     0,
     1,
-    112
+    183
    ],
-   "this_week": 112,
+   "this_week": 183,
    "velocity": 112,
    "markets": {
     "intl": 1,
@@ -12454,14 +12454,14 @@
    "headline_en": "Dutch government holds weekend crisis talks to stave off collapse",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:54Z",
+   "last_seen": "2026-11-17T22:54:58Z",
    "weekly": [
     0,
     0,
     0,
-    22
+    23
    ],
-   "this_week": 22,
+   "this_week": 23,
    "velocity": 4.4,
    "markets": {
     "intl": 1
@@ -12491,7 +12491,7 @@
    "headline_en": "Chuck Schumer faces challenge for Senate leadership from rival Democrat",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:28:09Z",
+   "last_seen": "2026-11-17T22:55:40Z",
    "weekly": [
     0,
     0,
@@ -12545,7 +12545,7 @@
    "headline_en": "Study reveals widespread sexual misconduct in Bundeswehr",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:28:21Z",
+   "last_seen": "2026-11-17T22:55:53Z",
    "weekly": [
     0,
     0,
@@ -12591,7 +12591,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-17T16:45:43Z",
+   "checked": "2026-11-17T23:01:17Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12602,7 +12602,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:26Z",
+   "last_seen": "2026-11-17T22:55:57Z",
    "weekly": [
     0,
     0,
@@ -12655,7 +12655,7 @@
    "headline_en": "Scott Bessent moved to military base for safety after Iran threats and photo exposing his $12M home",
    "headline_fi": "Iran-uhkaukset ajoivat Yhdysvaltain valtiovarainministerin kotoaan",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:17Z",
+   "last_seen": "2026-11-17T22:55:49Z",
    "weekly": [
     0,
     0,
@@ -12663,17 +12663,25 @@
     13
    ],
    "this_week": 13,
-   "velocity": 2.4,
+   "velocity": 2.6,
    "markets": {
+    "de": 2,
     "uk": 4,
-    "de": 1,
     "intl": 1,
     "us": 1,
-    "se": 2,
+    "se": 1,
     "fi": 1
    },
    "outlets": 9,
    "samples": [
+    {
+     "t": "Iran-Krieg: Drei Öltanker in Straße von Hormus nach Minenkontakt in Brand",
+     "u": "https://www.handelsblatt.com/politik/international/iran-krieg-drei-oeltanker-in-strasse-von-hormus-nach-minenkontakt-in-brand/100136895.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-14T22:36:00Z"
+    },
     {
      "t": "Scott Bessent moved to military base for safety after Iran threats and photo exposing his $12M home",
      "u": "https://www.independent.co.uk/news/world/americas/us-politics/scott-bessent-iran-threats-military-b3082943.html",
@@ -12689,14 +12697,6 @@
      "c": "de",
      "l": "de",
      "p": "2026-11-11T01:29:47Z"
-    },
-    {
-     "t": "US Treasury chief Bessent moved to military base after Iranian threats, NYT reports",
-     "u": "https://www.reuters.com/world/middle-east/us-treasury-chief-bessent-moved-military-base-after-iranian-threats-nyt-reports-2026-11-11/",
-     "d": "reuters.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-10T20:00:00Z"
     }
    ],
    "abroad_first": "2026-11-10T20:00:00Z",
@@ -12955,7 +12955,7 @@
    "headline_en": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
    "headline_fi": "Zelenskyi sai kalliin ehdotuksen - kriittinen alue vaihtokauppana Nato-jäsenyydestä",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:55Z",
+   "last_seen": "2026-11-17T22:55:26Z",
    "weekly": [
     0,
     0,
@@ -13024,7 +13024,7 @@
    "headline_en": "Norway says Russian, Belarusian athletes barred from competitions it hosts",
    "headline_fi": "Norja aikoo estää venäläisurheilijoiden maahantulon",
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:51Z",
+   "last_seen": "2026-11-17T22:55:22Z",
    "weekly": [
     0,
     12,
@@ -13083,7 +13083,7 @@
    "headline_en": "Microsoft struggling to restore Outlook and Teams after global outage",
    "headline_fi": "Microsoftin häiriöiden taustalla tekninen ongelma - yhtiö pyytää anteeksi",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:05Z",
+   "last_seen": "2026-11-17T22:55:36Z",
    "weekly": [
     0,
     0,
@@ -13152,7 +13152,7 @@
    "headline_en": "Italy fines Meta $880m over photo privacy",
    "headline_fi": "Meta sai yli 800 miljoonan euron sakot Italialta",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:06Z",
+   "last_seen": "2026-11-17T22:55:37Z",
    "weekly": [
     0,
     0,
@@ -13260,7 +13260,7 @@
    "headline_en": "Wales v New Zealand: The magical day Wales beat the All Blacks again",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:42Z",
+   "last_seen": "2026-11-17T22:55:14Z",
    "weekly": [
     0,
     0,
@@ -13313,7 +13313,7 @@
    "headline_en": null,
    "headline_fi": "Sebastian Aholla koskettava hetki Veikkaus-areenan käytävällä - \"Eivät ole ikinä nähneet",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:15Z",
+   "last_seen": "2026-11-17T22:55:46Z",
    "weekly": [
     0,
     0,
@@ -13339,7 +13339,7 @@
    "headline_en": "US lifts ground stop for airports hours after halting all departures",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:44Z",
+   "last_seen": "2026-11-17T22:55:16Z",
    "weekly": [
     0,
     0,
@@ -13407,7 +13407,7 @@
    "headline_en": "Nearly €20m in cash found buried, hidden in Hungary corruption case",
    "headline_fi": "Metsistä ja maatiloilta löytyi 18 miljoonan euron käteisjemma Unkarissa",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:04Z",
+   "last_seen": "2026-11-17T22:55:34Z",
    "weekly": [
     0,
     0,
@@ -13462,7 +13462,7 @@
    "headline_en": "SpaceX's Starship captured by launchpad arms in dramatic first",
    "headline_fi": "SpaceX:n Starship palasi ensi kertaa onnistuneesti laukaisutornilleen",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:40Z",
+   "last_seen": "2026-11-17T22:55:11Z",
    "weekly": [
     0,
     0,
@@ -13517,14 +13517,14 @@
    "headline_en": "Estonia Confirms Multiple Drone Hits on Russian Corvette in the Baltic",
    "headline_fi": "Tällainen alus on Naro-Fominsk, johon Ukraina iski Suomenlahdella",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:21Z",
+   "last_seen": "2026-11-17T22:54:54Z",
    "weekly": [
     0,
     0,
     0,
-    12
+    13
    ],
-   "this_week": 12,
+   "this_week": 13,
    "velocity": 2.4,
    "markets": {
     "fi": 8,
@@ -13576,7 +13576,7 @@
    "headline_en": "German spies handed new powers to tackle 'hybrid threats' from abroad",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:58Z",
+   "last_seen": "2026-11-17T22:55:29Z",
    "weekly": [
     0,
     0,
@@ -13632,7 +13632,7 @@
    "headline_en": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
    "headline_fi": "EU-johtajan arvio: Eurooppa on johdatettu \"ansaan",
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:54Z",
+   "last_seen": "2026-11-17T22:55:25Z",
    "weekly": [
     0,
     0,
@@ -13757,7 +13757,7 @@
    "headline_en": "Ukraine war briefing: Energy attacks made possible by continuing Starshield restrictions, says Zelenskyy",
    "headline_fi": "Viron rajapäätös huolestuttaa rajakaupungin asukkaita - \"Tämä ala kärsii varmasti",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:30Z",
+   "last_seen": "2026-11-17T22:55:02Z",
    "weekly": [
     0,
     0,
@@ -13826,7 +13826,7 @@
    "headline_en": "Thousands rally against Czech government's plan to switch public media funding",
    "headline_fi": "Sadattuhannet marssivat Prahassa yleisradion puolesta - katso suorana",
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:51Z",
+   "last_seen": "2026-11-17T22:55:23Z",
    "weekly": [
     4,
     4,
@@ -13952,7 +13952,7 @@
    "headline_en": "World Champions Spain beaten 3-2 by 10-man England in Madrid",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:43Z",
+   "last_seen": "2026-11-17T22:55:14Z",
    "weekly": [
     0,
     0,
@@ -14057,7 +14057,7 @@
    "headline_en": "Lions beat Patriots as Aidan Hutchinson hurts knee celebrating sack on Drake Maye",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:48Z",
+   "last_seen": "2026-11-17T22:55:20Z",
    "weekly": [
     0,
     0,
@@ -14111,7 +14111,7 @@
    "headline_en": "Andreeva beats nerves, Svitolina to claim WTA Finals title",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:50Z",
+   "last_seen": "2026-11-17T22:55:22Z",
    "weekly": [
     0,
     0,
@@ -14225,7 +14225,7 @@
    "headline_en": "Nearly 2,200 migrants reach Canary Islands in 2 days, Spain says",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:44Z",
+   "last_seen": "2026-11-17T22:55:15Z",
    "weekly": [
     0,
     0,
@@ -14289,18 +14289,18 @@
   "3895": {
    "id": "3895",
    "first_seen": "2026-11-15T09:38:14Z",
-   "headline": "Children dropping out of school: What can politicians do about it?",
+   "headline": "'Complete reset' needed to get young people into work, says Milburn review",
    "headline_en": "BBC Radio 4 - The Briefing Room, How do you get young people off benefits and into work?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:25Z",
+   "last_seen": "2026-11-17T22:54:55Z",
    "weekly": [
     1,
     3,
     3,
-    29
+    40
    ],
-   "this_week": 29,
+   "this_week": 40,
    "velocity": 6,
    "markets": {
     "uk": 5,
@@ -14404,7 +14404,7 @@
    "headline_en": "Trump, Putin and Xi to discuss 'world peace,' China says",
    "headline_fi": "Trump saattaa tavata Kim Jong-unin",
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:26Z",
+   "last_seen": "2026-11-17T22:55:00Z",
    "weekly": [
     14,
     1,
@@ -14473,14 +14473,14 @@
    "headline_en": "Did Twilight predict Robert Pattinson’s future role as James Bond?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:29Z",
+   "last_seen": "2026-11-17T22:54:57Z",
    "weekly": [
     13,
-    6,
     7,
-    43
+    6,
+    45
    ],
-   "this_week": 43,
+   "this_week": 45,
    "velocity": 6.142857142857143,
    "markets": {
     "uk": 5,
@@ -14541,14 +14541,14 @@
    "headline_en": "Trump backs Jensen Huang’s return as Nvidia board reportedly says no",
    "headline_fi": "PÖRSSIT: Tekoälysektoria hakataan taas Wall Streetillä",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:24Z",
+   "last_seen": "2026-11-17T22:54:55Z",
    "weekly": [
     0,
     0,
     0,
-    22
+    23
    ],
-   "this_week": 22,
+   "this_week": 23,
    "velocity": 4.4,
    "markets": {
     "intl": 4,
@@ -14611,7 +14611,7 @@
    "headline_en": "California sues OpenAI over the rogue AI agents that hacked Hugging Face",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:33Z",
+   "last_seen": "2026-11-17T22:55:06Z",
    "weekly": [
     0,
     0,
@@ -14680,14 +14680,14 @@
    "headline_en": "United Airlines says technology issue affecting departing flights",
    "headline_fi": "Lentoyhtiö United kärsi erillisestä järjestelmähäiriöstä",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:29Z",
+   "last_seen": "2026-11-17T22:54:53Z",
    "weekly": [
     0,
     0,
     0,
-    15
+    16
    ],
-   "this_week": 15,
+   "this_week": 16,
    "velocity": 3,
    "markets": {
     "intl": 1,
@@ -14750,14 +14750,14 @@
    "headline_en": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin Gigafactory expansion",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:36Z",
+   "last_seen": "2026-11-17T22:54:57Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    14
    ],
-   "this_week": 13,
+   "this_week": 14,
    "velocity": 2.6,
    "markets": {
     "de": 5,
@@ -14798,7 +14798,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-17T16:45:43Z",
+   "checked": "2026-11-17T23:01:17Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14809,14 +14809,14 @@
    "headline_en": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:28Z",
+   "last_seen": "2026-11-17T22:54:59Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    14
    ],
-   "this_week": 13,
+   "this_week": 14,
    "velocity": 2.6,
    "markets": {
     "de": 4,
@@ -14858,7 +14858,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-17T16:45:43Z",
+   "checked": "2026-11-17T23:01:17Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14869,7 +14869,7 @@
    "headline_en": "5 countries announce plan to deport failed asylum-seekers to Rwanda",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-17T10:27:27Z",
+   "last_seen": "2026-11-17T22:55:01Z",
    "weekly": [
     0,
     2,
@@ -14923,7 +14923,7 @@
    "headline_en": "Florian Wirtz scores twice as Germany beat Netherlands 5-0 to reach Nations League quarter-finals",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:32Z",
+   "last_seen": "2026-11-17T22:55:04Z",
    "weekly": [
     0,
     0,
@@ -14977,7 +14977,7 @@
    "headline_en": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
    "headline_fi": "Suomen tukema ehdokas Gianni Infantinon haastajaksi julki",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:31Z",
+   "last_seen": "2026-11-17T22:55:04Z",
    "weekly": [
     0,
     0,
@@ -15031,7 +15031,7 @@
    "headline_en": "Founder of Guadalajara cartel dies in hospital after decades in prison",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:49Z",
+   "last_seen": "2026-11-17T22:55:20Z",
    "weekly": [
     0,
     0,
@@ -15085,7 +15085,7 @@
    "headline_en": "Grammy Awards: Raye and Rosalia lead nominations",
    "headline_fi": "Grammy-ehdokkuudet julki",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:32Z",
+   "last_seen": "2026-11-17T22:55:05Z",
    "weekly": [
     0,
     0,
@@ -15140,7 +15140,7 @@
    "headline_en": null,
    "headline_fi": "Kushner: Venäjä ja Ukraina hyväksyivät Euroopan mukaan rauhanneuvotteluihin",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:28:01Z",
+   "last_seen": "2026-11-17T22:55:31Z",
    "weekly": [
     0,
     0,
@@ -15237,6 +15237,59 @@
     "geopolitics"
    ],
    "relevant": true
+  },
+  "3930": {
+   "id": "3930",
+   "first_seen": "2026-11-16T10:00:36Z",
+   "headline": "全米で航空1万便以上が欠航・遅延　運行停止措置2日後も影響続く",
+   "headline_en": "Transportation head vows to find 'root cause' of ground stop. Trump breaks his silence on breakdown",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-17T22:54:54Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    18
+   ],
+   "this_week": 18,
+   "velocity": 9,
+   "markets": {
+    "uk": 4,
+    "de": 3,
+    "intl": 2
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Transportation head vows to find 'root cause' of ground stop. Trump breaks his silence on breakdown",
+     "u": "https://www.independent.co.uk/news/world/americas/congress-federal-aviation-administration-trump-joe-biden-united-states-b3085291.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-15T18:27:03Z"
+    },
+    {
+     "t": "US-Flugverkehr normalisiert sich wohl erst wieder am Montag",
+     "u": "https://www.diepresse.com/41456503/us-flugverkehr-normalisiert-sich-wohl-erst-wieder-am-montag",
+     "d": "diepresse.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-15T17:59:10Z"
+    },
+    {
+     "t": "全米で航空1万便以上が欠航・遅延　運行停止措置2日後も影響続く",
+     "u": "https://www.bbc.com/japanese/articles/cwg7lr8vxx8go",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ja",
+     "p": "2026-11-16T03:46:20Z"
+    }
+   ],
+   "abroad_first": "2026-11-14T02:45:52Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
   }
  }
 }
