@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-18T11:30:55Z",
+  "last_run": "2026-11-18T14:30:57Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 42,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9667,7 +9667,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-18T08:30:55Z",
+   "checked": "2026-11-18T14:30:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13958,7 +13958,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-18T08:30:55Z",
+   "checked": "2026-11-18T14:30:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14230,9 +14230,18 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-18T08:30:55Z",
+   "checked": "2026-11-18T14:30:57Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-17T17:21:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012417685.html",
+    "t": "USA:n tiedustelu epäilee Iranin suunnittelevan iskua Washingtoniin, kertoo CNN",
+    "s": 0.843
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-18T14:30:57Z"
   },
   "3678": {
    "id": "3678",
