@@ -1,6 +1,6 @@
 {
- "time": "2026-11-18T18:01:05Z",
- "new_articles": 0,
+ "time": "2026-11-18T18:15:57Z",
+ "new_articles": 1,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -24,13 +24,13 @@
   },
   {
    "id": "carbon-brief",
-   "state": "ok",
-   "fetched": 12,
+   "state": "failed",
+   "fetched": 0,
    "new": 0,
-   "errors": [],
-   "feeds_used": [
-    "https://www.carbonbrief.org/feed/"
-   ]
+   "errors": [
+    "https://www.carbonbrief.org/feed/: TimeoutError: The read operation timed out"
+   ],
+   "feeds_used": []
   },
   {
    "id": "climate-home",
@@ -56,7 +56,7 @@
    "id": "esg-news",
    "state": "ok",
    "fetched": 50,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://esgnews.com/feed/"
