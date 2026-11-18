@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-18T17:30:58Z",
+  "last_run": "2026-11-18T20:45:43Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 38,
+  "similar_left": 43,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9667,7 +9667,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-18T14:30:57Z",
+   "checked": "2026-11-18T20:45:43Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13958,7 +13958,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-18T14:30:57Z",
+   "checked": "2026-11-18T20:45:43Z",
    "check_how": "url",
    "check_error": null
   },
