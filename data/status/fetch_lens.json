@@ -1,5 +1,5 @@
 {
- "time": "2026-11-18T16:45:46Z",
+ "time": "2026-11-18T17:01:10Z",
  "new_articles": 1,
  "sources": [
   {
@@ -56,7 +56,7 @@
    "id": "esg-news",
    "state": "ok",
    "fetched": 50,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://esgnews.com/feed/"
@@ -76,7 +76,7 @@
    "id": "euobserver",
    "state": "ok",
    "fetched": 20,
-   "new": 0,
+   "new": 1,
    "errors": [],
    "feeds_used": [
     "https://euobserver.com/rss"
