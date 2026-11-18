@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-18T05:30:52Z",
+  "last_run": "2026-11-18T08:30:55Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 38,
+  "similar_left": 40,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9667,7 +9667,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-18T02:15:46Z",
+   "checked": "2026-11-18T08:30:55Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13072,9 +13072,18 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-18T02:15:46Z",
+   "checked": "2026-11-18T08:30:55Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-17T18:36:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/taitoluistelu/art-2000012419897.html",
+    "t": "Suomen päätös sai Venäjän raivon valtaan - \"Uusnatsismia",
+    "s": 0.87
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-18T08:30:55Z"
   },
   "3862": {
    "id": "3862",
@@ -13941,7 +13950,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-18T02:15:46Z",
+   "checked": "2026-11-18T08:30:55Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14214,7 +14223,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-18T02:15:46Z",
+   "checked": "2026-11-18T08:30:55Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14339,7 +14348,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-18T02:15:46Z",
+   "checked": "2026-11-18T08:30:55Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15207,7 +15216,7 @@
    "headline_en": "Finland bars Russian athletes from entering country over Ukraine war",
    "headline_fi": "Ovi säppiin venäläisurheilijoilta - iso lajiliitto kommentoi, tapetilla Suomen MM-kisat",
    "state": "emergence",
-   "last_seen": "2026-11-17T10:27:59Z",
+   "last_seen": "2026-11-17T22:55:30Z",
    "weekly": [
     0,
     0,
@@ -15287,6 +15296,136 @@
     }
    ],
    "abroad_first": "2026-11-14T02:45:52Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3977": {
+   "id": "3977",
+   "first_seen": "2026-11-17T10:27:35Z",
+   "headline": "Commerzbank-Übernahme: Was plant UniCredit für das Frankfurter Geldhaus?",
+   "headline_en": null,
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-17T22:55:07Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 12,
+   "markets": {
+    "de": 10
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Commerzbank-Übernahme: Was plant UniCredit für das Frankfurter Geldhaus?",
+     "u": "https://www.wiwo.de/unternehmen/banken/commerzbank-uebernahme-was-plant-unicredit-fuer-das-frankfurter-geldhaus/100269444.html",
+     "d": "wiwo.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-16T11:06:00Z"
+    },
+    {
+     "t": "Almanya'nın ikinci büyük bankası Commerzbank İtalyanlara satılıyor",
+     "u": "https://www.dw.com/tr/almanyan%C4%B1n-ikinci-b%C3%BCy%C3%BCk-bankas%C4%B1-commerzbank-i%CC%87talyanlara-sat%C4%B1l%C4%B1yor/a-79961197",
+     "d": "dw.com",
+     "c": "de",
+     "l": "tr",
+     "p": "2026-11-16T14:47:54Z"
+    },
+    {
+     "t": "EU genehmigt Übernahme der Commerzbank durch Unicredit",
+     "u": "https://www.dw.com/de/eu-genehmigt-%C3%BCbernahme-der-commerzbank-durch-unicredit/a-79960252",
+     "d": "dw.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-16T13:46:08Z"
+    }
+   ],
+   "abroad_first": "2026-11-16T06:43:31Z",
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
+  },
+  "3924": {
+   "id": "3924",
+   "first_seen": "2026-11-16T10:00:32Z",
+   "headline": "Kommentti: Huuhkajat näytti, mitä tunteiden ääripäät urheilussa tarkoittavat",
+   "headline_en": null,
+   "headline_fi": "Kommentti: Huuhkajat näytti, mitä tunteiden ääripäät urheilussa tarkoittavat",
+   "state": "emergence",
+   "last_seen": "2026-11-17T22:55:00Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.2,
+   "markets": {
+    "fi": 10
+   },
+   "outlets": 4,
+   "samples": [],
+   "abroad_first": "2026-11-16T10:00:32Z",
+   "markets_abroad": 0,
+   "subjects": [],
+   "relevant": false
+  },
+  "3887": {
+   "id": "3887",
+   "first_seen": "2026-11-15T09:38:08Z",
+   "headline": "What Wales and Craig Bellamy need to stay in Nations League top tier",
+   "headline_en": "What Wales and Craig Bellamy need to stay in Nations League top tier",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-17T22:54:59Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 10,
+   "markets": {
+    "uk": 6,
+    "intl": 3,
+    "se": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "What Wales and Craig Bellamy need to stay in Nations League top tier",
+     "u": "https://www.bbc.co.uk/sport/football/articles/cmx28nxw1elvo",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-14T20:52:48Z"
+    },
+    {
+     "t": "Wales suffer big Nations League blow in Norway as Erling Haaland extends record",
+     "u": "https://www.independent.co.uk/sport/football/norway-wales-result-nations-league-erling-haaland-b3085049.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-15T11:16:21Z"
+    },
+    {
+     "t": "サッカー＝ポルトガル、ロナルド代表引退後初戦でデンマークに大敗",
+     "u": "https://www.reuters.com/jp/life/sports/BW336GBIYBKUBPRUZ63KZ5TJ2Y-2026-11-15/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-15T01:01:31Z"
+    }
+   ],
+   "abroad_first": "2026-11-14T18:58:09Z",
    "markets_abroad": 3,
    "subjects": [],
    "relevant": false
