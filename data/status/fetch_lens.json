@@ -1,6 +1,6 @@
 {
- "time": "2026-11-18T18:15:57Z",
- "new_articles": 1,
+ "time": "2026-11-18T18:31:03Z",
+ "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
@@ -24,23 +24,23 @@
   },
   {
    "id": "carbon-brief",
+   "state": "ok",
+   "fetched": 12,
+   "new": 0,
+   "errors": [],
+   "feeds_used": [
+    "https://www.carbonbrief.org/feed/"
+   ]
+  },
+  {
+   "id": "climate-home",
    "state": "failed",
    "fetched": 0,
    "new": 0,
    "errors": [
-    "https://www.carbonbrief.org/feed/: TimeoutError: The read operation timed out"
+    "https://www.climatechangenews.com/feed/: TimeoutError: The read operation timed out"
    ],
    "feeds_used": []
-  },
-  {
-   "id": "climate-home",
-   "state": "ok",
-   "fetched": 40,
-   "new": 0,
-   "errors": [],
-   "feeds_used": [
-    "https://www.climatechangenews.com/feed/"
-   ]
   },
   {
    "id": "esg-today",
@@ -56,7 +56,7 @@
    "id": "esg-news",
    "state": "ok",
    "fetched": 50,
-   "new": 1,
+   "new": 0,
    "errors": [],
    "feeds_used": [
     "https://esgnews.com/feed/"
