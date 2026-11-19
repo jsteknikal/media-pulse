@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-19T09:15:45Z",
+  "last_run": "2026-11-19T12:31:00Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 43,
+  "similar_left": 32,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -10336,7 +10336,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-19T06:01:12Z",
+   "checked": "2026-11-19T12:31:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -11369,18 +11369,18 @@
   "3762": {
    "id": "3762",
    "first_seen": "2026-11-11T19:58:05Z",
-   "headline": "Pochettino assistants leave USMNT camp early to go to Manchester United: Sources",
+   "headline": "USMNT vs. Haiti live updates: Pochettino leads USA in farewell match in Concacaf Nations League",
    "headline_en": "Manchester United make formal contact with U.S. Soccer over Mauricio Pochettino",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:09Z",
+   "last_seen": "2026-11-19T11:39:18Z",
    "weekly": [
     1,
     3,
-    10,
-    37
+    17,
+    33
    ],
-   "this_week": 37,
+   "this_week": 33,
    "velocity": 11.333333333333334,
    "markets": {
     "us": 7,
@@ -11519,25 +11519,24 @@
    "first_seen": "2026-11-13T08:44:00Z",
    "headline": "微軟系統全球癱瘓：Outlook、Teams、Copilot受影響",
    "headline_en": "Microsoft's Global Outage and Fixes: What We Know",
-   "headline_fi": "Eikö sähköpostisi toimi? Microsoftilla laajoja häiriöitä",
-   "state": "emergence",
-   "last_seen": "2026-11-18T23:31:07Z",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-19T11:40:12Z",
    "weekly": [
     0,
     0,
-    0,
-    62
+    15,
+    47
    ],
-   "this_week": 62,
-   "velocity": 12.4,
+   "this_week": 47,
+   "velocity": 3.1333333333333333,
    "markets": {
     "uk": 1,
-    "fi": 1,
     "es": 1,
     "us": 2,
     "se": 1
    },
-   "outlets": 5,
+   "outlets": 4,
    "samples": [
     {
      "t": "微軟系統全球癱瘓：Outlook、Teams、Copilot受影響",
@@ -11567,8 +11566,7 @@
    "abroad_first": "2026-11-12T20:25:29Z",
    "markets_abroad": 4,
    "subjects": [
-    "tech",
-    "sustainability"
+    "tech"
    ],
    "relevant": true,
    "checked": "2026-11-13T10:30:56Z",
@@ -12126,7 +12124,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-19T06:01:12Z",
+   "checked": "2026-11-19T12:31:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12206,7 +12204,7 @@
    "headline_en": "EU chief diplomat Kallas blasts Russian peace demands as 'absurd'",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:25Z",
+   "last_seen": "2026-11-19T11:39:39Z",
    "weekly": [
     0,
     0,
@@ -12328,7 +12326,7 @@
    "headline_en": "Woman on cruise ship struck by a tanker said the riverboat started filling with water like the 'Titanic'",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:29:58Z",
+   "last_seen": "2026-11-19T11:39:08Z",
    "weekly": [
     0,
     0,
@@ -12382,14 +12380,14 @@
    "headline_en": "Thousands of US flights canceled, delayed as air travel system recovers from shutdown",
    "headline_fi": "Trump keksi syyllisen lentokaaokselle: Biden",
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:01Z",
+   "last_seen": "2026-11-19T11:39:11Z",
    "weekly": [
     0,
     0,
     1,
-    201
+    208
    ],
-   "this_week": 201,
+   "this_week": 208,
    "velocity": 112,
    "markets": {
     "intl": 1,
@@ -12451,7 +12449,7 @@
    "headline_en": "Dutch government holds weekend crisis talks to stave off collapse",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:22Z",
+   "last_seen": "2026-11-19T11:39:36Z",
    "weekly": [
     0,
     0,
@@ -12485,34 +12483,26 @@
    "id": "3819",
    "first_seen": "2026-11-13T08:44:04Z",
    "headline": "US senator Van Hollen to challenge Schumer for Senate majority leader",
-   "headline_en": "Chuck Schumer faces challenge for Senate leadership from rival Democrat",
+   "headline_en": "US senator Van Hollen to challenge Schumer for Senate majority leader",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:17Z",
+   "last_seen": "2026-11-19T11:39:24Z",
    "weekly": [
     0,
-    0,
-    3,
-    24
+    1,
+    2,
+    26
    ],
-   "this_week": 24,
-   "velocity": 25,
+   "this_week": 26,
+   "velocity": 13,
    "markets": {
     "intl": 2,
-    "es": 1,
-    "us": 4,
-    "uk": 3
+    "us": 5,
+    "uk": 2,
+    "es": 1
    },
-   "outlets": 7,
+   "outlets": 6,
    "samples": [
-    {
-     "t": "Chuck Schumer faces challenge for Senate leadership from rival Democrat",
-     "u": "https://www.ft.com/content/1f0996cf-1f84-42ca-a574-898f8578deb7",
-     "d": "ft.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-13T04:24:51Z"
-    },
     {
      "t": "US senator Van Hollen to challenge Schumer for Senate majority leader",
      "u": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader",
@@ -12522,12 +12512,20 @@
      "p": "2026-11-13T04:16:44Z"
     },
     {
-     "t": "Chris Van Hollen desafía a Chuck Schumer por el liderazgo demócrata en el Senado",
-     "u": "https://elpais.com/us/2026-11-13/chris-van-hollen-desafia-a-chuck-schumer-por-el-liderazgo-democrata-en-el-senado.html",
-     "d": "elpais.com",
-     "c": "es",
-     "l": "es",
-     "p": "2026-11-13T03:30:32Z"
+     "t": "Who Do Senate Democrats Support for Majority Leader?",
+     "u": "https://www.nytimes.com/interactive/2026/11/18/us/politics/schumer-senate-leader-endorsements.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-18T20:15:50Z"
+    },
+    {
+     "t": "Chuck Schumer faces challenge for Senate leadership from rival Democrat",
+     "u": "https://www.ft.com/content/1f0996cf-1f84-42ca-a574-898f8578deb7",
+     "d": "ft.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-13T04:24:51Z"
     }
    ],
    "abroad_first": "2026-11-11T01:37:01Z",
@@ -12588,7 +12586,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-19T06:01:12Z",
+   "checked": "2026-11-19T12:31:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12599,7 +12597,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:31:15Z",
+   "last_seen": "2026-11-19T11:40:16Z",
    "weekly": [
     0,
     0,
@@ -12951,16 +12949,16 @@
    "headline": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
    "headline_en": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
    "headline_fi": "Zelenskyi sai kalliin ehdotuksen - kriittinen alue vaihtokauppana Nato-jäsenyydestä",
-   "state": "emergence",
-   "last_seen": "2026-11-18T23:30:34Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-19T11:39:29Z",
    "weekly": [
     0,
     0,
-    0,
-    39
+    1,
+    40
    ],
-   "this_week": 39,
-   "velocity": 7.8,
+   "this_week": 40,
+   "velocity": 40,
    "markets": {
     "intl": 1,
     "de": 4,
@@ -13089,7 +13087,7 @@
    "headline_en": "Microsoft struggling to restore Outlook and Teams after global outage",
    "headline_fi": "Microsoftin häiriöiden taustalla tekninen ongelma - yhtiö pyytää anteeksi",
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:58Z",
+   "last_seen": "2026-11-19T11:40:04Z",
    "weekly": [
     0,
     0,
@@ -13158,7 +13156,7 @@
    "headline_en": null,
    "headline_fi": "Meta sai yli 800 miljoonan euron sakot Italialta",
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:59Z",
+   "last_seen": "2026-11-19T11:40:05Z",
    "weekly": [
     0,
     0,
@@ -13262,32 +13260,31 @@
    "id": "3896",
    "first_seen": "2026-11-15T09:38:14Z",
    "headline": "Wales' rugby pre-match haka light show was a year in the making",
-   "headline_en": "Wales v New Zealand: The magical day Wales beat the All Blacks again",
+   "headline_en": "Wales' rugby pre-match haka light show was a year in the making",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:44Z",
+   "last_seen": "2026-11-19T11:39:06Z",
    "weekly": [
     0,
     0,
     2,
-    26
+    29
    ],
-   "this_week": 26,
-   "velocity": 20,
+   "this_week": 29,
+   "velocity": 14.5,
    "markets": {
-    "uk": 8,
-    "intl": 1,
-    "us": 1
+    "uk": 9,
+    "intl": 1
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
-     "t": "Wales v New Zealand: The magical day Wales beat the All Blacks again",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/cmkg57rz2re9o",
+     "t": "Wales' rugby pre-match haka light show was a year in the making",
+     "u": "https://www.bbc.co.uk/news/articles/cmlyd21gg4dro",
      "d": "bbc.co.uk",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-14T19:33:46Z"
+     "p": "2026-11-16T19:49:22Z"
     },
     {
      "t": "Wales bury 73-year All Blacks hoodoo with seismic victory over New Zealand",
@@ -13298,16 +13295,16 @@
      "p": "2026-11-14T16:01:57Z"
     },
     {
-     "t": "Wales 35-28 New Zealand: Captain Dewi Lake believed in All Blacks history",
-     "u": "https://www.bbc.co.uk/sport/rugby-union/articles/c820q64ezyn7o",
-     "d": "bbc.co.uk",
+     "t": "The Guardian view on sporting triumphs: more than just a game",
+     "u": "https://www.theguardian.com/commentisfree/2026/nov/16/the-guardian-view-on-sporting-triumphs-more-than-just-a-game",
+     "d": "theguardian.com",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-14T18:30:58Z"
+     "p": "2026-11-16T18:36:12Z"
     }
    ],
    "abroad_first": "2026-11-14T16:01:57Z",
-   "markets_abroad": 3,
+   "markets_abroad": 2,
    "subjects": [],
    "relevant": false
   },
@@ -13344,7 +13341,7 @@
    "headline_en": "US lifts ground stop for airports hours after halting all departures",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:35Z",
+   "last_seen": "2026-11-19T11:39:45Z",
    "weekly": [
     0,
     0,
@@ -13412,14 +13409,14 @@
    "headline_en": "Viktor Orbán's party reels from $20mn hidden cash discovery",
    "headline_fi": "Metsistä ja maatiloilta löytyi 18 miljoonan euron käteisjemma Unkarissa",
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:37Z",
+   "last_seen": "2026-11-19T11:38:57Z",
    "weekly": [
     0,
     0,
     0,
-    21
+    22
    ],
-   "this_week": 21,
+   "this_week": 22,
    "velocity": 4.2,
    "markets": {
     "de": 6,
@@ -13466,16 +13463,16 @@
    "headline": "SpaceX's Starship captured by launchpad arms in dramatic first",
    "headline_en": "SpaceX's Starship captured by launchpad arms in dramatic first",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-18T23:30:40Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-19T11:39:49Z",
    "weekly": [
     0,
     0,
-    0,
-    24
+    1,
+    23
    ],
-   "this_week": 24,
-   "velocity": 4.8,
+   "this_week": 23,
+   "velocity": 23,
    "markets": {
     "intl": 3,
     "de": 4,
@@ -13594,7 +13591,7 @@
    "headline_en": "German spies handed new powers to tackle 'hybrid threats' from abroad",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:52Z",
+   "last_seen": "2026-11-19T11:40:00Z",
    "weekly": [
     0,
     0,
@@ -13650,14 +13647,14 @@
    "headline_en": "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:51Z",
+   "last_seen": "2026-11-19T11:39:58Z",
    "weekly": [
     0,
     0,
-    2,
-    16
+    5,
+    13
    ],
-   "this_week": 16,
+   "this_week": 13,
    "velocity": 8,
    "markets": {
     "uk": 6,
@@ -13771,10 +13768,10 @@
    "id": "3928",
    "first_seen": "2026-11-16T10:00:34Z",
    "headline": "Viron rajapäätös huolestuttaa rajakaupungin asukkaita - \"Tämä ala kärsii varmasti",
-   "headline_en": "Ukraine war briefing: Energy attacks made possible by continuing Starshield restrictions, says Zelenskyy",
+   "headline_en": "Estonia to close border with Russia after second alleged sabotage attempt",
    "headline_fi": "Viron rajapäätös huolestuttaa rajakaupungin asukkaita - \"Tämä ala kärsii varmasti",
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:05Z",
+   "last_seen": "2026-11-19T11:39:15Z",
    "weekly": [
     0,
     0,
@@ -13782,22 +13779,22 @@
     73
    ],
    "this_week": 73,
-   "velocity": 9,
+   "velocity": 14.6,
    "markets": {
-    "uk": 3,
-    "fi": 2,
+    "fi": 4,
+    "de": 2,
     "intl": 2,
-    "de": 3
+    "uk": 2
    },
    "outlets": 8,
    "samples": [
     {
-     "t": "Ukraine war briefing: Energy attacks made possible by continuing Starshield restrictions, says Zelenskyy",
-     "u": "https://www.theguardian.com/world/2026/nov/16/ukraine-war-briefing-energy-attacks-made-possible-by-continuing-starshield-restrictions-says-zelenskyy",
-     "d": "theguardian.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-16T02:40:38Z"
+     "t": "След нов опит за атентат: Естония затваря границата с Русия",
+     "u": "https://www.dw.com/bg/sled-nov-opit-za-atentat-estonia-zatvara-granicata-s-rusia/a-79956437",
+     "d": "dw.com",
+     "c": "de",
+     "l": "bul",
+     "p": "2026-11-16T10:05:17Z"
     },
     {
      "t": "Estonia to close border with Russia after second alleged sabotage attempt",
@@ -13808,12 +13805,12 @@
      "p": "2026-11-15T20:58:12Z"
     },
     {
-     "t": "Estland: Regierung will Grenzen zu Russland zum 1. Dezember schließen",
-     "u": "https://www.spiegel.de/ausland/estland-regierung-will-grenzen-zu-russland-zum-1-dezember-schliessen-a-e6ae48a9-aa70-4399-bcbb-b27ce32d5819",
-     "d": "spiegel.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-15T17:51:00Z"
+     "t": "Ukraine war briefing: Energy attacks made possible by continuing Starshield restrictions, says Zelenskyy",
+     "u": "https://www.theguardian.com/world/2026/nov/16/ukraine-war-briefing-energy-attacks-made-possible-by-continuing-starshield-restrictions-says-zelenskyy",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-16T02:40:38Z"
     }
    ],
    "abroad_first": "2026-11-15T15:59:13Z",
@@ -13843,22 +13840,22 @@
    "headline_en": "Thousands rally against Czech government's plan to switch public media funding",
    "headline_fi": "Sadattuhannet marssivat Prahassa yleisradion puolesta - katso suorana",
    "state": "acceleration",
-   "last_seen": "2026-11-17T22:55:23Z",
+   "last_seen": "2026-11-19T11:39:56Z",
    "weekly": [
     4,
-    4,
+    5,
     1,
-    22
+    21
    ],
-   "this_week": 22,
-   "velocity": 3.8,
+   "this_week": 21,
+   "velocity": 21,
    "markets": {
     "de": 5,
     "uk": 1,
     "fi": 2,
     "intl": 1
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
     {
      "t": "Zehntausende demonstrieren in Prag gegen Abschaffung von Rundfunkgebühr",
@@ -13966,26 +13963,33 @@
    "id": "3562",
    "first_seen": "2026-11-07T17:51:08Z",
    "headline": "England end Spain's long unbeaten run, Italy crash out of Nations League",
-   "headline_en": "World Champions Spain beaten 3-2 by 10-man England in Madrid",
+   "headline_en": "England end Spain's long unbeaten run, Italy crash out of Nations League",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:45Z",
+   "last_seen": "2026-11-19T11:39:53Z",
    "weekly": [
     0,
     0,
-    8,
-    31
+    10,
+    29
    ],
-   "this_week": 31,
-   "velocity": 3,
+   "this_week": 29,
+   "velocity": 2.9,
    "markets": {
     "intl": 3,
-    "uk": 4,
-    "de": 2,
-    "es": 1
+    "uk": 5,
+    "de": 2
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
+    {
+     "t": "England end Spain's long unbeaten run, Italy crash out of Nations League",
+     "u": "https://www.reuters.com/sports/soccer/england-end-spains-long-unbeaten-run-italy-crash-out-nations-league-2026-11-15/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-15T22:07:26Z"
+    },
     {
      "t": "World Champions Spain beaten 3-2 by 10-man England in Madrid",
      "u": "https://www.aljazeera.com/sports/2026/11/15/england-stun-spain-to-end-la-rojas-43-game-unbeaten-run",
@@ -14001,18 +14005,10 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-15T21:59:16Z"
-    },
-    {
-     "t": "England end Spain's long unbeaten run, Italy crash out of Nations League",
-     "u": "https://www.reuters.com/sports/soccer/england-end-spains-long-unbeaten-run-italy-crash-out-nations-league-2026-11-15/",
-     "d": "reuters.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-15T22:07:26Z"
     }
    ],
    "abroad_first": "2026-11-07T17:51:08Z",
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "subjects": [],
    "relevant": false
   },
@@ -14071,10 +14067,10 @@
    "id": "3932",
    "first_seen": "2026-11-16T10:00:37Z",
    "headline": "NFL injury roundup: QBs Drake Maye, Geno Smith hobbled",
-   "headline_en": "Lions beat Patriots as Aidan Hutchinson hurts knee celebrating sack on Drake Maye",
+   "headline_en": "NFL injury roundup: QBs Drake Maye, Geno Smith hobbled",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:37Z",
+   "last_seen": "2026-11-19T11:39:46Z",
    "weekly": [
     0,
     0,
@@ -14082,23 +14078,15 @@
     22
    ],
    "this_week": 22,
-   "velocity": 3,
+   "velocity": 4.4,
    "markets": {
-    "uk": 1,
     "intl": 2,
     "de": 3,
+    "uk": 1,
     "us": 4
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
-    {
-     "t": "Lions beat Patriots as Aidan Hutchinson hurts knee celebrating sack on Drake Maye",
-     "u": "https://www.theguardian.com/sport/2026/nov/15/nfl-sunday-football-scores",
-     "d": "theguardian.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-15T18:21:11Z"
-    },
     {
      "t": "NFL injury roundup: QBs Drake Maye, Geno Smith hobbled",
      "u": "https://www.reuters.com/sports/nfl-injury-roundup-qbs-drake-maye-geno-smith-hobbled--flm-2026-11-16/",
@@ -14114,6 +14102,14 @@
      "c": "de",
      "l": "de",
      "p": "2026-11-15T17:53:42Z"
+    },
+    {
+     "t": "Lions beat Patriots as Aidan Hutchinson hurts knee celebrating sack on Drake Maye",
+     "u": "https://www.theguardian.com/sport/2026/nov/15/nfl-sunday-football-scores",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-15T18:21:11Z"
     }
    ],
    "abroad_first": "2026-11-15T15:06:21Z",
@@ -14128,7 +14124,7 @@
    "headline_en": "Andreeva beats nerves, Svitolina to claim WTA Finals title",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:49Z",
+   "last_seen": "2026-11-19T11:39:56Z",
    "weekly": [
     0,
     0,
@@ -14182,14 +14178,14 @@
    "headline_en": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:00Z",
+   "last_seen": "2026-11-19T11:39:11Z",
    "weekly": [
     0,
-    23,
-    12,
-    30
+    24,
+    11,
+    33
    ],
-   "this_week": 30,
+   "this_week": 33,
    "velocity": 2.4166666666666665,
    "markets": {
     "de": 2,
@@ -14250,7 +14246,7 @@
    "headline_en": "Nearly 2,200 migrants reach Canary Islands in 2 days, Spain says",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:18Z",
+   "last_seen": "2026-11-19T11:39:25Z",
    "weekly": [
     0,
     0,
@@ -14318,14 +14314,14 @@
    "headline_en": "Milburn: Labour must back youth welfare reforms to prevent ‘lost generation’",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:02Z",
+   "last_seen": "2026-11-19T11:39:12Z",
    "weekly": [
     1,
     3,
-    4,
-    56
+    9,
+    51
    ],
-   "this_week": 56,
+   "this_week": 51,
    "velocity": 14,
    "markets": {
     "uk": 10
@@ -14428,14 +14424,14 @@
    "headline_en": "Trump, Putin and Xi to discuss 'world peace,' China says",
    "headline_fi": "Trump saattaa tavata Kim Jong-unin",
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:29:59Z",
+   "last_seen": "2026-11-19T11:38:54Z",
    "weekly": [
-    6,
-    1,
-    6,
-    119
+    7,
+    0,
+    8,
+    212
    ],
-   "this_week": 119,
+   "this_week": 212,
    "velocity": 16.8,
    "markets": {
     "fi": 2,
@@ -14497,14 +14493,14 @@
    "headline_en": "Did Twilight predict Robert Pattinson’s future role as James Bond?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:29:59Z",
+   "last_seen": "2026-11-19T11:39:09Z",
    "weekly": [
-    13,
-    8,
-    7,
-    62
+    5,
+    4,
+    6,
+    68
    ],
-   "this_week": 62,
+   "this_week": 68,
    "velocity": 6.142857142857143,
    "markets": {
     "uk": 5,
@@ -14565,7 +14561,7 @@
    "headline_en": "Trump backs Jensen Huang’s return as Nvidia board reportedly says no",
    "headline_fi": "PÖRSSIT: Tekoälysektoria hakataan taas Wall Streetillä",
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:13Z",
+   "last_seen": "2026-11-19T11:39:21Z",
    "weekly": [
     0,
     0,
@@ -14635,14 +14631,14 @@
    "headline_en": "California sues OpenAI over the rogue AI agents that hacked Hugging Face",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:27Z",
+   "last_seen": "2026-11-19T11:39:04Z",
    "weekly": [
     0,
     0,
     0,
-    16
+    17
    ],
-   "this_week": 16,
+   "this_week": 17,
    "velocity": 3,
    "markets": {
     "intl": 3,
@@ -14704,7 +14700,7 @@
    "headline_en": "United Airlines says technology issue affecting departing flights",
    "headline_fi": "Lentoyhtiö United kärsi erillisestä järjestelmähäiriöstä",
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:18Z",
+   "last_seen": "2026-11-19T11:39:33Z",
    "weekly": [
     0,
     0,
@@ -14774,14 +14770,14 @@
    "headline_en": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin Gigafactory expansion",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:21Z",
+   "last_seen": "2026-11-19T11:39:32Z",
    "weekly": [
     0,
     0,
     0,
-    14
+    15
    ],
-   "this_week": 14,
+   "this_week": 15,
    "velocity": 2.6,
    "markets": {
     "de": 5,
@@ -14822,9 +14818,18 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-19T06:01:12Z",
+   "checked": "2026-11-19T12:31:00Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-18T15:30:00Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/80f25cfe-f21b-456e-8b13-2acbabc4af0b",
+    "t": "Tesla polttaa miljardeja robotaksiin - Cybercabille pedataan tuotantoa Saksaan",
+    "s": 0.876
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-19T12:31:00Z"
   },
   "3964": {
    "id": "3964",
@@ -14833,7 +14838,7 @@
    "headline_en": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:22Z",
+   "last_seen": "2026-11-19T11:39:36Z",
    "weekly": [
     0,
     0,
@@ -14882,7 +14887,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-19T06:01:12Z",
+   "checked": "2026-11-19T12:31:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14893,14 +14898,14 @@
    "headline_en": "5 countries announce plan to deport failed asylum-seekers to Rwanda",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:04Z",
+   "last_seen": "2026-11-19T11:38:58Z",
    "weekly": [
     2,
     0,
-    1,
-    90
+    2,
+    92
    ],
-   "this_week": 90,
+   "this_week": 92,
    "velocity": 75,
    "markets": {
     "uk": 4,
@@ -14947,7 +14952,7 @@
    "headline_en": "Florian Wirtz scores twice as Germany beat Netherlands 5-0 to reach Nations League quarter-finals",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:26Z",
+   "last_seen": "2026-11-19T11:39:39Z",
    "weekly": [
     0,
     0,
@@ -14999,24 +15004,24 @@
    "first_seen": "2026-11-17T10:27:31Z",
    "headline": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
    "headline_en": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
-   "headline_fi": "Suomen tukema ehdokas Gianni Infantinon haastajaksi julki",
-   "state": "emergence",
-   "last_seen": "2026-11-18T23:30:07Z",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-19T11:39:02Z",
    "weekly": [
     0,
-    0,
-    0,
-    31
+    1,
+    11,
+    38
    ],
-   "this_week": 31,
-   "velocity": 4.6,
+   "this_week": 38,
+   "velocity": 3.4545454545454546,
    "markets": {
-    "de": 4,
-    "intl": 2,
-    "uk": 2,
-    "fi": 1
+    "de": 5,
+    "intl": 3,
+    "us": 1,
+    "uk": 1
    },
-   "outlets": 8,
+   "outlets": 6,
    "samples": [
     {
      "t": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
@@ -15027,24 +15032,24 @@
      "p": "2026-11-16T20:24:32Z"
     },
     {
-     "t": "French football chief Diallo to challenge Infantino for FIFA presidency",
-     "u": "https://www.reuters.com/sports/soccer/french-football-chief-diallo-challenge-infantino-fifa-presidency-2026-11-16/",
-     "d": "reuters.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-16T15:38:36Z"
-    },
-    {
-     "t": "FIFA-Wahl: Europa präsentiert Philippe Diallo als Infantino-Gegner",
-     "u": "https://www.dw.com/de/fifa-wahl-fff-chef-philippe-diallo-wird-europas-gegenkandidat-zu-gianni-infantino/a-79961195",
-     "d": "dw.com",
+     "t": "Philippe Diallo gegen Gianni Infantino: Wie will er das machen?",
+     "u": "https://www.faz.net/aktuell/sport/sportpolitik/philippe-diallo-gegen-gianni-infantino-wie-will-er-das-machen-201691054.html",
+     "d": "faz.net",
      "c": "de",
      "l": "de",
-     "p": "2026-11-16T15:22:58Z"
+     "p": "2026-11-17T15:53:25Z"
+    },
+    {
+     "t": "Philippe Diallo: Er soll Infantino stürzen",
+     "u": "https://www.zeit.de/sport/2026-11/philippe-diallo-uefa-kandidatur-praesident-fifa-gianni-infantino",
+     "d": "zeit.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-17T14:34:22Z"
     }
    ],
    "abroad_first": "2026-11-16T11:20:03Z",
-   "markets_abroad": 3,
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   },
@@ -15055,7 +15060,7 @@
    "headline_en": "Founder of Guadalajara cartel dies in hospital after decades in prison",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:32Z",
+   "last_seen": "2026-11-19T11:39:43Z",
    "weekly": [
     0,
     0,
@@ -15063,14 +15068,15 @@
     15
    ],
    "this_week": 15,
-   "velocity": 1.6,
+   "velocity": 3,
    "markets": {
     "intl": 2,
     "us": 2,
-    "uk": 1,
+    "de": 2,
+    "uk": 2,
     "es": 1
    },
-   "outlets": 6,
+   "outlets": 8,
    "samples": [
     {
      "t": "Founder of Guadalajara cartel dies in hospital after decades in prison",
@@ -15089,16 +15095,16 @@
      "p": "2026-11-15T23:37:37Z"
     },
     {
-     "t": "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
-     "u": "https://www.bbc.co.uk/news/articles/c51k9nkwrndxo",
-     "d": "bbc.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-15T23:52:10Z"
+     "t": "Morre Félix Gallardo, o \"chefe dos chefes\" do narcotráfico do México",
+     "u": "https://www.dw.com/pt-br/morre-miguel-%C3%A1ngel-f%C3%A9lix-gallardo-o-chefe-dos-chefes-do-tr%C3%A1fico-de-drogas-do-m%C3%A9xico/a-79956619",
+     "d": "dw.com",
+     "c": "de",
+     "l": "pt",
+     "p": "2026-11-16T10:02:49Z"
     }
    ],
    "abroad_first": "2026-11-15T16:30:00Z",
-   "markets_abroad": 4,
+   "markets_abroad": 5,
    "subjects": [],
    "relevant": false
   },
@@ -15109,7 +15115,7 @@
    "headline_en": "Grammy Awards: Raye and Rosalia lead nominations",
    "headline_fi": "Grammy-ehdokkuudet julki",
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:26Z",
+   "last_seen": "2026-11-19T11:39:40Z",
    "weekly": [
     0,
     0,
@@ -15269,7 +15275,7 @@
    "headline_en": "Transportation head vows to find 'root cause' of ground stop. Trump breaks his silence on breakdown",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:19Z",
+   "last_seen": "2026-11-19T11:39:34Z",
    "weekly": [
     0,
     0,
@@ -15277,30 +15283,14 @@
     19
    ],
    "this_week": 19,
-   "velocity": 9,
+   "velocity": 19,
    "markets": {
-    "uk": 4,
+    "uk": 5,
     "de": 3,
-    "intl": 2
+    "us": 2
    },
-   "outlets": 6,
+   "outlets": 7,
    "samples": [
-    {
-     "t": "Transportation head vows to find 'root cause' of ground stop. Trump breaks his silence on breakdown",
-     "u": "https://www.independent.co.uk/news/world/americas/congress-federal-aviation-administration-trump-joe-biden-united-states-b3085291.html",
-     "d": "independent.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-15T18:27:03Z"
-    },
-    {
-     "t": "US-Flugverkehr normalisiert sich wohl erst wieder am Montag",
-     "u": "https://www.diepresse.com/41456503/us-flugverkehr-normalisiert-sich-wohl-erst-wieder-am-montag",
-     "d": "diepresse.com",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-15T17:59:10Z"
-    },
     {
      "t": "全米で航空1万便以上が欠航・遅延　運行停止措置2日後も影響続く",
      "u": "https://www.bbc.com/japanese/articles/cwg7lr8vxx8go",
@@ -15308,12 +15298,42 @@
      "c": "uk",
      "l": "ja",
      "p": "2026-11-16T03:46:20Z"
+    },
+    {
+     "t": "Luftverkehr in den USA: Sean Duffy geht von schneller Normalisierung im US-Flugverkehr aus",
+     "u": "https://www.zeit.de/politik/ausland/2026-11/us-flugstopp-sean-duffy-flugsicherung-system-ausfall-gxe",
+     "d": "zeit.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-15T16:34:32Z"
+    },
+    {
+     "t": "Transportation head vows to find 'root cause' of ground stop. Trump breaks his silence on breakdown",
+     "u": "https://www.independent.co.uk/news/world/americas/congress-federal-aviation-administration-trump-joe-biden-united-states-b3085291.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-15T18:27:03Z"
     }
    ],
    "abroad_first": "2026-11-14T02:45:52Z",
    "markets_abroad": 3,
-   "subjects": [],
-   "relevant": false
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-19T12:31:00Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-14T11:21:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/suomi/art-2000012412517.html",
+    "t": "Joonas Nurmi on jumissa New Orleansissa ainakin 36 tuntia",
+    "s": 0.879
+   },
+   "fi_count": 9,
+   "arrived_at": "2026-11-19T12:31:00Z"
   },
   "3977": {
    "id": "3977",
@@ -15322,14 +15342,14 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:28Z",
+   "last_seen": "2026-11-19T11:39:26Z",
    "weekly": [
     0,
     0,
     1,
-    12
+    13
    ],
-   "this_week": 12,
+   "this_week": 13,
    "velocity": 12,
    "markets": {
     "de": 10
@@ -15373,7 +15393,7 @@
    "headline_en": null,
    "headline_fi": "Kommentti: Huuhkajat näytti, mitä tunteiden ääripäät urheilussa tarkoittavat",
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:23Z",
+   "last_seen": "2026-11-19T11:39:37Z",
    "weekly": [
     0,
     0,
@@ -15381,7 +15401,7 @@
     15
    ],
    "this_week": 15,
-   "velocity": 2.2,
+   "velocity": 3,
    "markets": {
     "fi": 10
    },
@@ -15399,7 +15419,7 @@
    "headline_en": "What Wales and Craig Bellamy need to stay in Nations League top tier",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:22Z",
+   "last_seen": "2026-11-19T11:39:37Z",
    "weekly": [
     0,
     0,
@@ -15407,13 +15427,12 @@
     14
    ],
    "this_week": 14,
-   "velocity": 10,
+   "velocity": 14,
    "markets": {
-    "uk": 6,
-    "intl": 3,
-    "se": 1
+    "uk": 9,
+    "intl": 1
    },
-   "outlets": 6,
+   "outlets": 4,
    "samples": [
     {
      "t": "What Wales and Craig Bellamy need to stay in Nations League top tier",
@@ -15424,24 +15443,24 @@
      "p": "2026-11-14T20:52:48Z"
     },
     {
-     "t": "Wales suffer big Nations League blow in Norway as Erling Haaland extends record",
-     "u": "https://www.independent.co.uk/sport/football/norway-wales-result-nations-league-erling-haaland-b3085049.html",
+     "t": "Norway 3-1 Wales: Erling Haaland on target in Nations League win",
+     "u": "https://www.bbc.com/sport/articles/ck3rgxwwqp0wo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-14T19:08:01Z"
+    },
+    {
+     "t": "Is Wales v Portugal on TV? Channel, kick-off time and how to watch Nations League decider",
+     "u": "https://www.independent.co.uk/sport/football/wales-portugal-tv-channel-time-nations-league-b3085882.html",
      "d": "independent.co.uk",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-15T11:16:21Z"
-    },
-    {
-     "t": "サッカー＝ポルトガル、ロナルド代表引退後初戦でデンマークに大敗",
-     "u": "https://www.reuters.com/jp/life/sports/BW336GBIYBKUBPRUZ63KZ5TJ2Y-2026-11-15/",
-     "d": "reuters.com",
-     "c": "intl",
-     "l": "ja",
-     "p": "2026-11-15T01:01:31Z"
+     "p": "2026-11-17T07:06:33Z"
     }
    ],
    "abroad_first": "2026-11-14T18:58:09Z",
-   "markets_abroad": 3,
+   "markets_abroad": 2,
    "subjects": [],
    "relevant": false
   },
@@ -15449,10 +15468,10 @@
    "id": "3927",
    "first_seen": "2026-11-16T10:00:33Z",
    "headline": "İngiltere'de Brand davasının ardından cinsel rıza yaşı tartışması",
-   "headline_en": "'Pull back the curtain' on treatment of sexual assault victims in court, says UK government adviser",
+   "headline_en": "Will the 'powerful men' debate change Scotland's sexual consent law?",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:40Z",
+   "last_seen": "2026-11-19T11:39:48Z",
    "weekly": [
     0,
     0,
@@ -15460,11 +15479,12 @@
     12
    ],
    "this_week": 12,
-   "velocity": 1.6,
+   "velocity": 2.4,
    "markets": {
-    "uk": 8
+    "uk": 9,
+    "de": 1
    },
-   "outlets": 4,
+   "outlets": 5,
    "samples": [
     {
      "t": "İngiltere'de Brand davasının ardından cinsel rıza yaşı tartışması",
@@ -15475,44 +15495,47 @@
      "p": "2026-11-16T00:06:08Z"
     },
     {
-     "t": "'Pull back the curtain' on treatment of sexual assault victims in court, says UK government adviser",
-     "u": "https://www.theguardian.com/law/2026/nov/15/examine-courts-treatment-sexual-assault-victims-says-government-adviser",
+     "t": "Will the 'powerful men' debate change Scotland's sexual consent law?",
+     "u": "https://www.bbc.co.uk/news/articles/cm79218jjpg3o",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-16T17:00:35Z"
+    },
+    {
+     "t": "Woman accusing David Walliams of grooming her backs staggered age of consent call",
+     "u": "https://www.theguardian.com/tv-and-radio/2026/nov/16/woman-accusing-david-walliams-grooming-backs-staggered-age-of-consent-call",
      "d": "theguardian.com",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-15T19:40:23Z"
-    },
-    {
-     "t": "Age of consent: Pat McFadden says changes to law will be 'discussed' after Brand allegations",
-     "u": "https://www.bbc.com/news/articles/cwdr1dmn563do",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-15T12:31:20Z"
+     "p": "2026-11-16T18:30:20Z"
     }
    ],
    "abroad_first": "2026-11-14T21:30:32Z",
-   "markets_abroad": 1,
+   "markets_abroad": 2,
    "subjects": [
     "policy"
    ],
-   "relevant": true
+   "relevant": true,
+   "checked": "2026-11-19T12:31:00Z",
+   "check_how": "url",
+   "check_error": null
   },
   "4055": {
    "id": "4055",
    "first_seen": "2026-11-18T11:05:18Z",
-   "headline": "Zum Schutz der Zweistaatenlösung: Großbritannien verhängt Sanktionen gegen israelische Baufirmen",
+   "headline": "Israel startar nytt angrepp mot Gaza",
    "headline_en": "UK sanctions eight Israeli construction firms over West Bank settlements",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:20Z",
+   "last_seen": "2026-11-19T11:39:33Z",
    "weekly": [
     0,
     0,
     0,
-    12
+    14
    ],
-   "this_week": 12,
+   "this_week": 14,
    "velocity": 2.4,
    "markets": {
     "de": 1,
@@ -15554,25 +15577,25 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-19T06:01:12Z",
+   "checked": "2026-11-19T12:31:00Z",
    "check_how": "url",
    "check_error": null
   },
   "3998": {
    "id": "3998",
    "first_seen": "2026-11-17T10:27:53Z",
-   "headline": "USA är inte längre fritt från mässling",
+   "headline": "US loses measles elimination status after 26 years amid record case numbers",
    "headline_en": "US and Mexico lose measles-free status",
    "headline_fi": "WSJ: Yhdysvallat menettää aseman tuhkarokosta vapaana maana",
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:10Z",
+   "last_seen": "2026-11-19T11:39:04Z",
    "weekly": [
     1,
     0,
-    1,
-    29
+    2,
+    33
    ],
-   "this_week": 29,
+   "this_week": 33,
    "velocity": 29,
    "markets": {
     "se": 1,
@@ -15621,7 +15644,7 @@
    "headline_en": null,
    "headline_fi": "73 min: Suomella ei juurikaan paikkoja",
    "state": "acceleration",
-   "last_seen": "2026-11-18T23:30:18Z",
+   "last_seen": "2026-11-19T11:39:33Z",
    "weekly": [
     1,
     2,
@@ -15699,25 +15722,35 @@
   "3947": {
    "id": "3947",
    "first_seen": "2026-11-16T10:00:53Z",
-   "headline": "Magdalena Andersson: Mycket välkommet besked.",
-   "headline_en": "NASA's Voyager 1 to hit new space distance record of one light-day",
+   "headline": "NASA's Voyager 1 hits record one light-day distance, 50 years after launch",
+   "headline_en": "NASA's Voyager 1 hits record one light-day distance, 50 years after launch",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:29:59Z",
+   "last_seen": "2026-11-19T11:39:10Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    18
    ],
-   "this_week": 13,
-   "velocity": 1.8,
+   "this_week": 18,
+   "velocity": 3.6,
    "markets": {
-    "intl": 2,
-    "fi": 1
+    "intl": 3,
+    "de": 1,
+    "fi": 1,
+    "uk": 1
    },
-   "outlets": 3,
+   "outlets": 5,
    "samples": [
+    {
+     "t": "NASA's Voyager 1 hits record one light-day distance, 50 years after launch",
+     "u": "https://www.aljazeera.com/news/2026/11/18/nasas-voyager-1-hits-record-one-light-day-distance-50-years-after-launch",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-18T23:35:12Z"
+    },
     {
      "t": "NASA's Voyager 1 to hit new space distance record of one light-day",
      "u": "https://www.aljazeera.com/news/2026/11/14/nasas-voyager-1-to-hit-new-space-distance-record-of-one-light-day",
@@ -15736,7 +15769,7 @@
     }
    ],
    "abroad_first": "2026-11-14T11:02:10Z",
-   "markets_abroad": 1,
+   "markets_abroad": 3,
    "subjects": [],
    "relevant": false
   },
@@ -15790,6 +15823,450 @@
    ],
    "abroad_first": "2026-11-14T14:37:30Z",
    "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "3747": {
+   "id": "3747",
+   "first_seen": "2026-11-11T07:42:24Z",
+   "headline": "Stock futures tick higher as traders brace for Nvidia earnings, Anthropic IPO this week: Live updates",
+   "headline_en": "Anthropic targets $1 trillion valuation with record IPO and placement plans",
+   "headline_fi": "Arvo 1 400 000 miljoonaa dollaria: Tekoäly-yhtiö listautumassa pörssiin",
+   "state": "acceleration",
+   "last_seen": "2026-11-19T11:38:54Z",
+   "weekly": [
+    87,
+    22,
+    45,
+    105
+   ],
+   "this_week": 105,
+   "velocity": 1.75,
+   "markets": {
+    "uk": 1,
+    "es": 1,
+    "intl": 2,
+    "fi": 1,
+    "us": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Anthropic targets $1 trillion valuation with record IPO and placement plans",
+     "u": "https://www.cityam.com/anthropic-targets-1-trillion-valuation-with-record-ipo-plans/",
+     "d": "cityam.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-10T12:38:18Z"
+    },
+    {
+     "t": "Anthropic: la madre de todas las salidas a Bolsa (que puede poner en riesgo a la humanidad con su IA) donde hay más en juego que mucho dinero",
+     "u": "https://elpais.com/economia/negocios/2026-11-14/anthropic-la-madre-de-todas-las-salidas-a-bolsa-que-puede-poner-en-riesgo-a-la-humanidad-con-sus-modelos-de-ia-donde-hay-mas-en-juego-que-muchisimo-dinero.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-14T16:45:00Z"
+    },
+    {
+     "t": "Anthropic’s IPO seeks up to $64.4B at a $1.4 trillion valuation",
+     "u": "https://thenextweb.com/news/anthropic-ipo-terms-1-4-trillion-valuation",
+     "d": "thenextweb.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-11T08:45:40Z"
+    }
+   ],
+   "abroad_first": "2026-11-10T12:38:18Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "tech",
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-19T12:31:00Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-10T14:35:43Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/a85058d8-8765-4a52-838e-322ed699e2f2",
+    "t": "PÖRSSIT: Wall Streetilla laskuavaus, Anthropicin anti fokuksessa",
+    "s": 0.863
+   },
+   "fi_count": 6,
+   "arrived_at": "2026-11-19T12:31:00Z"
+  },
+  "4027": {
+   "id": "4027",
+   "first_seen": "2026-11-18T11:05:01Z",
+   "headline": "'Crimea is turning into an island': How Ukraine hit Putin's prized bridge",
+   "headline_en": "Russia and Ukraine escalate attacks",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-19T11:39:03Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    22
+   ],
+   "this_week": 22,
+   "velocity": 2.2,
+   "markets": {
+    "de": 3,
+    "uk": 6,
+    "us": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Brücke zur Krim: Angriff auf Putins Prestigeobjekt",
+     "u": "https://www.zeit.de/politik/ausland/2026-11/bruecke-krim-strasse-von-kertsch-logistik-russland",
+     "d": "zeit.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-17T18:02:16Z"
+    },
+    {
+     "t": "Russia and Ukraine escalate attacks",
+     "u": "https://www.dw.com/en/russia-and-ukraine-escalate-attacks/video-79973874",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-17T17:26:11Z"
+    },
+    {
+     "t": "Ukraine’s attack on Kerch Bridge is a major blow to Putin and Russia’s control of Crimea",
+     "u": "https://www.independent.co.uk/news/world/europe/kerch-bridge-crimea-russia-ukraine-putin-b3086516.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T15:30:39Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T14:03:27Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-19T12:31:00Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4063": {
+   "id": "4063",
+   "first_seen": "2026-11-18T11:05:29Z",
+   "headline": "Testiviesti jäi monilta saamatta - Näin saat vaaratiedotteet puhelimeesi",
+   "headline_en": null,
+   "headline_fi": "Valtio lähettää Suomen jokaiseen puhelimeen 10 s vaarahälyn 8 pv päästä - Se soi vaikka laite olisi äänetön: Tästä kyse",
+   "state": "acceleration",
+   "last_seen": "2026-11-19T11:38:57Z",
+   "weekly": [
+    0,
+    3,
+    2,
+    22
+   ],
+   "this_week": 22,
+   "velocity": 4.5,
+   "markets": {
+    "fi": 9
+   },
+   "outlets": 5,
+   "samples": [],
+   "abroad_first": "2026-11-18T11:05:29Z",
+   "markets_abroad": 0,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true
+  },
+  "4087": {
+   "id": "4087",
+   "first_seen": "2026-11-19T11:39:00Z",
+   "headline": "Hegseth alardea de la captura de Maduro en la primera visita a Venezuela de un secretario de Defensa de EE.UU. en décadas",
+   "headline_en": "US Defense Secretary Hegseth vows to boost Venezuela military cooperation",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-19T11:39:00Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    18
+   ],
+   "this_week": 18,
+   "velocity": 3.6,
+   "markets": {
+    "uk": 2,
+    "intl": 2,
+    "us": 1,
+    "se": 2,
+    "de": 2
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Hegseth alardea de la captura de Maduro en la primera visita a Venezuela de un secretario de Defensa de EE.UU. en décadas",
+     "u": "https://www.bbc.com/mundo/articles/cw30gd28rjn9o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "es",
+     "p": "2026-11-18T23:11:04Z"
+    },
+    {
+     "t": "US Defense Secretary Hegseth vows to boost Venezuela military cooperation",
+     "u": "https://www.reuters.com/world/americas/us-defense-secretary-hegseth-vows-boost-venezuela-military-cooperation-2026-11-18/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-18T12:57:00Z"
+    },
+    {
+     "t": "US and Venezuela sign military agreement as Trump administration seeks to deepen ties",
+     "u": "https://apnews.com/live/trump-asia-china-xi-putin-ai-news-updates-11-18-2026",
+     "d": "apnews.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-18T07:01:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-18T07:01:00Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "geopolitics",
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-19T12:31:00Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4030": {
+   "id": "4030",
+   "first_seen": "2026-11-18T11:05:04Z",
+   "headline": "Deutsche Bank leak revives scrutiny over Epstein and oligarch ties",
+   "headline_en": "Deutsche Bank under fire after internal documents made public",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-19T11:39:06Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2,
+   "markets": {
+    "de": 8,
+    "intl": 1,
+    "uk": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Deutsche Bank under fire after internal documents made public",
+     "u": "https://www.dw.com/en/deutsche-bank-under-fire-after-internal-documents-made-public/a-79974543",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-17T18:32:15Z"
+    },
+    {
+     "t": "Deutsche Bank leaks test CEO Sewing's pledge to reform",
+     "u": "https://www.reuters.com/business/finance/deutsche-bank-leaks-test-ceo-sewings-pledge-reform-2026-11-17/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-17T18:54:44Z"
+    },
+    {
+     "t": "Deutsche Bank: Datenskandal gefährdet Sewings grosse Pläne",
+     "u": "https://www.nzz.ch/wirtschaft/die-deutsche-bank-hat-grosse-plaene-ein-datenleck-koennte-diese-gefaehrden-ld.10058672",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-18T04:30:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T10:25:01Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-19T12:31:00Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4025": {
+   "id": "4025",
+   "first_seen": "2026-11-18T11:05:00Z",
+   "headline": "Indigene im Amazonasgebiet zeigen sich am Waldrand und bitten um Hilfe",
+   "headline_en": "Rare encounter with isolated Indigenous people in Brazil raises concerns over their safety",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-19T11:39:03Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 1,
+   "markets": {
+    "uk": 2,
+    "intl": 2,
+    "de": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Rare encounter with isolated Indigenous people in Brazil raises concerns over their safety",
+     "u": "https://www.independent.co.uk/news/brazil-amazon-colombia-bogota-fears-b3086826.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-18T00:01:43Z"
+    },
+    {
+     "t": "Isolated Brazilian tribe emerges amid alarm over threats to group's way of life",
+     "u": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T21:40:56Z"
+    },
+    {
+     "t": "Rare images of Indigenous group in Amazon highlight threats, advocates say",
+     "u": "https://www.aljazeera.com/news/2026/11/18/rare-images-of-indigenous-group-in-amazon-highlight-threats-advocates-say",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-18T02:36:09Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T17:17:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-19T12:31:00Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4107": {
+   "id": "4107",
+   "first_seen": "2026-11-19T11:39:27Z",
+   "headline": "Längdskidor: SVT:s längdexpert Anders Blomquist reagerar på regeringens besked om ryska idrottare",
+   "headline_en": null,
+   "headline_fi": "Linn Svahn pitää Ruotsin hallituksen linjausta venäläishiihtäjistä oikeana: \"On väärin normalisoida Venäjän asemaa nyt",
+   "state": "acceleration",
+   "last_seen": "2026-11-19T11:39:27Z",
+   "weekly": [
+    10,
+    6,
+    1,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 12,
+   "markets": {
+    "se": 5,
+    "fi": 5
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "Längdskidor: SVT:s längdexpert Anders Blomquist reagerar på regeringens besked om ryska idrottare",
+     "u": "https://www.svt.se/sport/langdskidor/svts-langdexpert-anders-blomquist-reagerar-pa-regeringens-besked-om-ryska-idrottare",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-18T20:49:46Z"
+    },
+    {
+     "t": "Längdskidor: Det innebär regeringens besked kring ryska idrottare",
+     "u": "https://www.svt.se/sport/langdskidor/det-innebar-regeringens-besked-kring-ryska-idrottare",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-18T14:45:09Z"
+    },
+    {
+     "t": "Vintersport: Linn Svahn om regeringens besked att stoppa ryska åkare från skid-VM",
+     "u": "https://www.svt.se/sport/vintersport/linn-svahn-om-regeringens-besked-att-stoppa-ryska-akare-fran-skid-vm",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-18T16:59:46Z"
+    }
+   ],
+   "abroad_first": "2026-11-13T17:00:53Z",
+   "markets_abroad": 1,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
+  },
+  "4097": {
+   "id": "4097",
+   "first_seen": "2026-11-19T11:39:07Z",
+   "headline": "Trump, Putin and Xi to Meet for the First Time",
+   "headline_en": "Trump, Putin and Xi to Meet for the First Time",
+   "headline_fi": "Hakeem Jeffries on nousemassa Yhdysvaltojen ensimmäiseksi edustajainhuoneen mustaksi puhemieheksi",
+   "state": "acceleration",
+   "last_seen": "2026-11-19T11:39:07Z",
+   "weekly": [
+    1,
+    5,
+    1,
+    23
+   ],
+   "this_week": 23,
+   "velocity": 23,
+   "markets": {
+    "us": 2,
+    "de": 2,
+    "intl": 1,
+    "es": 1,
+    "se": 1,
+    "fi": 1,
+    "uk": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Trump, Putin and Xi to Meet for the First Time",
+     "u": "https://www.nytimes.com/2026/11/18/briefing/trump-putin-xi-meeting.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-18T22:42:26Z"
+    },
+    {
+     "t": "Демократи висунули Гакіма Джеффріса у спікери Палати представників",
+     "u": "https://www.dw.com/uk/demokrati-bacat-dzeffrisa-spikerom-palati-predstavnikiv/a-79986177",
+     "d": "dw.com",
+     "c": "de",
+     "l": "uk",
+     "p": "2026-11-18T21:00:48Z"
+    },
+    {
+     "t": "米民主党、次期下院議長候補にジェフリーズ氏　黒人初の議長へ前進",
+     "u": "https://www.reuters.com/jp/world/us/JHPO5RC6UBJJ7IWARKA6GGXHBY-2026-11-18/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "ja",
+     "p": "2026-11-18T21:59:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-18T15:38:02Z",
+   "markets_abroad": 6,
    "subjects": [],
    "relevant": false
   }
