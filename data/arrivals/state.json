@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-19T18:45:44Z",
+  "last_run": "2026-11-19T21:45:50Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 35,
+  "similar_left": 42,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9667,7 +9667,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-19T15:31:00Z",
+   "checked": "2026-11-19T21:45:50Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13955,7 +13955,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-19T15:31:00Z",
+   "checked": "2026-11-19T21:45:50Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16267,6 +16267,116 @@
    ],
    "abroad_first": "2026-11-18T15:38:02Z",
    "markets_abroad": 6,
+   "subjects": [],
+   "relevant": false
+  },
+  "3991": {
+   "id": "3991",
+   "first_seen": "2026-11-17T10:27:46Z",
+   "headline": "Iran's proxy in Iraq rakes in hundreds of millions through oil smuggling",
+   "headline_en": "Iran's proxy in Iraq rakes in hundreds of millions through oil smuggling",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-19T11:39:23Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 1,
+   "markets": {
+    "intl": 4,
+    "de": 1
+   },
+   "outlets": 3,
+   "samples": [
+    {
+     "t": "Iran's proxy in Iraq rakes in hundreds of millions through oil smuggling",
+     "u": "https://www.reuters.com/world/middle-east/irans-proxy-iraq-rakes-hundreds-millions-through-oil-smuggling-2026-11-16/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-16T07:55:00Z"
+    },
+    {
+     "t": "Iraq PM sacks nine officials over oil smuggling in pro-Iran stronghold",
+     "u": "https://www.aljazeera.com/news/2026/11/15/iraq-pm-sacks-nine-officials-over-oil-smuggling-in-pro-iran-stronghold",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-15T01:54:55Z"
+    },
+    {
+     "t": "العراق ـ إقالة تسعة مسؤولين كبار على خلفية قصية تهريب النفط في بابل",
+     "u": "https://www.dw.com/ar/%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82-%D9%80-%D9%88%D8%B3%D8%B7-%D8%AA%D9%88%D8%AA%D8%B1%D8%A7%D8%AA-%D9%85%D8%B9-%D9%81%D8%B5%D9%8A%D9%84-%D9%85%D9%82%D8%B1%D8%A8-%D9%85%D9%86-%D8%B7%D9%87%D8%B1%D8%A7%D9%86-%D8%A7%D9%84%D8%B2%D9%8A%D8%AF%D9%8A-%D9%8A%D9%82%D9%8A%D9%84-%D8%AA%D8%B3%D8%B9%D8%A9-%D9%85%D8%B3%D8%A4%D9%88%D9%84%D9%8A%D9%86/live-79926107",
+     "d": "dw.com",
+     "c": "de",
+     "l": "ar",
+     "p": "2026-11-12T07:51:49Z"
+    }
+   ],
+   "abroad_first": "2026-11-12T07:51:49Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-19T21:45:50Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4106": {
+   "id": "4106",
+   "first_seen": "2026-11-19T11:39:26Z",
+   "headline": "William and Kate to meet with Modi after game of street cricket on India tour",
+   "headline_en": "William and Kate to meet with Modi after game of street cricket on India tour",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-19T11:39:26Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "uk": 6,
+    "de": 1,
+    "intl": 3
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "William and Kate to meet with Modi after game of street cricket on India tour",
+     "u": "https://www.independent.co.uk/bulletin/news/prince-william-narendra-modi-meeting-b3085472.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-16T08:36:47Z"
+    },
+    {
+     "t": "William and Catherine celebrate Earthshot Prize winners in Mumbai",
+     "u": "https://www.bbc.co.uk/news/articles/cqlykve012d1o",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T17:25:23Z"
+    },
+    {
+     "t": "Kate and William change India travel plans for key meeting with Modi",
+     "u": "https://www.independent.co.uk/news/uk/home-news/kate-william-india-modi-earthshot-b3085255.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-15T16:38:40Z"
+    }
+   ],
+   "abroad_first": "2026-11-15T16:38:40Z",
+   "markets_abroad": 3,
    "subjects": [],
    "relevant": false
   }
