@@ -1,5 +1,5 @@
 {
- "time": "2026-11-20T06:01:01Z",
+ "time": "2026-11-20T06:15:45Z",
  "new_articles": 0,
  "sources": [
   {
@@ -14,19 +14,12 @@
   },
   {
    "id": "sitra",
-   "state": "partial",
-   "fetched": 0,
+   "state": "ok",
+   "fetched": 12,
    "new": 0,
-   "errors": [
-    "https://www.sitra.fi/feed/: HTTPError: HTTP Error 504: Gateway Time-out",
-    "https://www.sitra.fi/comments/feed/: HTTPError: HTTP Error 504: Gateway Time-out"
-   ],
+   "errors": [],
    "feeds_used": [
-    "https://www.sitra.fi/feed/podcast"
-   ],
-   "discovered": [
-    "https://www.sitra.fi/comments/feed/",
-    "https://www.sitra.fi/feed/podcast"
+    "https://www.sitra.fi/feed/"
    ]
   },
   {
