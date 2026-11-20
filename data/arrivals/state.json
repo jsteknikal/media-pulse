@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-20T16:30:58Z",
+  "last_run": "2026-11-20T19:45:40Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 44,
+  "similar_left": 36,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -10336,7 +10336,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-20T13:30:58Z",
+   "checked": "2026-11-20T19:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12125,7 +12125,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-20T13:30:58Z",
+   "checked": "2026-11-20T19:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12586,7 +12586,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-20T13:30:58Z",
+   "checked": "2026-11-20T19:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15596,7 +15596,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-20T13:30:58Z",
+   "checked": "2026-11-20T19:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16064,7 +16064,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-20T13:30:58Z",
+   "checked": "2026-11-20T19:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16122,7 +16122,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-20T13:30:58Z",
+   "checked": "2026-11-20T19:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16180,7 +16180,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-20T13:30:58Z",
+   "checked": "2026-11-20T19:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16704,7 +16704,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-20T13:30:58Z",
+   "checked": "2026-11-20T19:45:40Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16831,7 +16831,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-20T13:30:58Z",
+   "checked": "2026-11-20T19:45:40Z",
    "check_how": "url",
    "check_error": null
   },
