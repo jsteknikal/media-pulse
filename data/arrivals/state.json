@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-20T07:15:47Z",
+  "last_run": "2026-11-20T10:15:47Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 34,
+  "similar_left": 40,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9667,7 +9667,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-20T04:15:41Z",
+   "checked": "2026-11-20T10:15:47Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13952,9 +13952,18 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-20T04:15:41Z",
+   "checked": "2026-11-20T10:15:47Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-19T20:42:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012424951.html",
+    "t": "Huthit iskivät Saudi-Arabian pääkaupungin korkeimpaan pilvenpiirtäjään",
+    "s": 0.862
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-20T10:15:47Z"
   },
   "3562": {
    "id": "3562",
@@ -15667,7 +15676,7 @@
    "headline_en": "Russian military transport plane crashes in Siberia, killing 19, according to Defense Ministry",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-18T23:30:07Z",
+   "last_seen": "2026-11-20T00:00:56Z",
    "weekly": [
     0,
     0,
@@ -16327,7 +16336,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-20T04:15:41Z",
+   "checked": "2026-11-20T10:15:47Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16497,6 +16506,134 @@
    "markets_abroad": 5,
    "subjects": [],
    "relevant": false
+  },
+  "4061": {
+   "id": "4061",
+   "first_seen": "2026-11-18T11:05:29Z",
+   "headline": "US National Security Agency's classified internal network reportedly goes offline",
+   "headline_en": "US National Security Agency's classified internal network reportedly goes offline",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-20T00:00:50Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2,
+   "markets": {
+    "uk": 2,
+    "de": 5,
+    "es": 1,
+    "us": 1,
+    "intl": 1
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "US National Security Agency's classified internal network reportedly goes offline",
+     "u": "https://www.bbc.com/news/articles/cqvg2mg8g0pyo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T21:59:53Z"
+    },
+    {
+     "t": "National Security Agency network for internal communications goes down",
+     "u": "https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T19:00:21Z"
+    },
+    {
+     "t": "Internes Netzwerk der NSA ausgefallen",
+     "u": "https://www.diepresse.com/41464672/internes-netzwerk-der-nsa-ausgefallen",
+     "d": "diepresse.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-17T20:53:40Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T15:31:26Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-20T10:15:47Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "3958": {
+   "id": "3958",
+   "first_seen": "2026-11-17T10:27:26Z",
+   "headline": "Japan protests after Russian aircraft breach its airspace",
+   "headline_en": "Japan protests after Russian aircraft breach its airspace",
+   "headline_fi": "Japani moittii Venäjää epäillystä ilmatilaloukkauksesta",
+   "state": "emergence",
+   "last_seen": "2026-11-20T00:00:35Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.2,
+   "markets": {
+    "uk": 1,
+    "intl": 2,
+    "de": 5,
+    "fi": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Japan protests after Russian aircraft breach its airspace",
+     "u": "https://www.independent.co.uk/asia/japan/russian-aircraft-japan-airspace-violation-latest-b3086115.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T04:14:11Z"
+    },
+    {
+     "t": "Taiwan says two Russian military aircraft detected off its east coast",
+     "u": "https://www.reuters.com/business/aerospace-defense/taiwan-says-two-russian-military-aircraft-detected-off-its-east-coast-2026-11-17/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-16T23:33:00Z"
+    },
+    {
+     "t": "Japan scrambles jets to counter suspected Russian aircraft",
+     "u": "https://www.dw.com/en/japan-scrambles-jets-to-counter-suspected-russian-aircraft/a-79964537",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-17T03:29:55Z"
+    }
+   ],
+   "abroad_first": "2026-11-16T21:32:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-20T10:15:47Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-17T02:48:55Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20257343",
+    "t": "Japani moittii Venäjää epäillystä ilmatilaloukkauksesta",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-20T10:15:47Z"
   }
  }
 }
