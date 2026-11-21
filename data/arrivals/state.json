@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-20T23:01:05Z",
+  "last_run": "2026-11-21T02:15:39Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 44,
+  "similar_left": 35,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -9667,7 +9667,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-20T10:15:47Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -10336,7 +10336,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-20T19:45:40Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12125,7 +12125,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-20T19:45:40Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12586,7 +12586,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-20T19:45:40Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -13768,7 +13768,7 @@
    "headline_en": "Estonia to close border with Russia after second alleged sabotage attempt",
    "headline_fi": "Viron rajapäätös huolestuttaa rajakaupungin asukkaita - \"Tämä ala kärsii varmasti",
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:21Z",
+   "last_seen": "2026-11-21T00:37:15Z",
    "weekly": [
     0,
     0,
@@ -13837,14 +13837,14 @@
    "headline_en": "Thousands rally against Czech government's plan to switch public media funding",
    "headline_fi": "Sadattuhannet marssivat Prahassa yleisradion puolesta - katso suorana",
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:12:31Z",
+   "last_seen": "2026-11-21T00:38:15Z",
    "weekly": [
     4,
     5,
-    1,
-    21
+    3,
+    19
    ],
-   "this_week": 21,
+   "this_week": 19,
    "velocity": 21,
    "markets": {
     "de": 5,
@@ -13972,14 +13972,14 @@
    "headline_en": "England end Spain's long unbeaten run, Italy crash out of Nations League",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:12:29Z",
+   "last_seen": "2026-11-21T00:38:14Z",
    "weekly": [
     0,
     7,
-    5,
-    27
+    6,
+    26
    ],
-   "this_week": 27,
+   "this_week": 26,
    "velocity": 2.9,
    "markets": {
     "intl": 3,
@@ -14024,20 +14024,20 @@
    "headline": "SPD-Vorsitz: Giffey meldet Unterstützung für \"Herzens-Sozialdemokrat\" Heil an",
    "headline_en": null,
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-20T12:11:26Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-21T00:37:19Z",
    "weekly": [
     0,
     0,
-    0,
-    23
+    8,
+    15
    ],
-   "this_week": 23,
-   "velocity": 4.4,
+   "this_week": 15,
+   "velocity": 1.875,
    "markets": {
     "de": 10
    },
-   "outlets": 4,
+   "outlets": 5,
    "samples": [
     {
      "t": "SPD-Vorsitz: Giffey meldet Unterstützung für \"Herzens-Sozialdemokrat\" Heil an",
@@ -14056,12 +14056,12 @@
      "p": "2026-11-16T12:30:46Z"
     },
     {
-     "t": "Bundespolitik: Hubertus Heil will für SPD-Vorsitz kandidieren",
-     "u": "https://www.handelsblatt.com/politik/deutschland/bundespolitik-hubertus-heil-will-fuer-spd-vorsitz-kandidieren/100269928.html",
-     "d": "handelsblatt.com",
+     "t": "Hubertus Heil kandidiert für SPD-Vorsitz: Muss Lars Klingbeil weichen?",
+     "u": "https://www.faz.net/aktuell/politik/inland/hubertus-heil-kandidiert-fuer-spd-vorsitz-muss-lars-klingbeil-weichen-201685017.html",
+     "d": "faz.net",
      "c": "de",
      "l": "de",
-     "p": "2026-11-14T18:54:22Z"
+     "p": "2026-11-15T15:10:24Z"
     }
    ],
    "abroad_first": "2026-11-14T18:24:58Z",
@@ -14076,7 +14076,7 @@
    "headline_en": "NFL injury roundup: QBs Drake Maye, Geno Smith hobbled",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:12:24Z",
+   "last_seen": "2026-11-21T00:38:09Z",
    "weekly": [
     0,
     0,
@@ -14184,14 +14184,14 @@
    "headline_en": "Kuwait reports drone attacks as Iran, US trade attacks on Qeshm and Bahrain",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:46Z",
+   "last_seen": "2026-11-21T00:37:35Z",
    "weekly": [
     0,
-    25,
-    14,
-    31
+    33,
+    7,
+    30
    ],
-   "this_week": 31,
+   "this_week": 30,
    "velocity": 2.4166666666666665,
    "markets": {
     "de": 2,
@@ -14252,11 +14252,11 @@
    "headline_en": "Nearly 2,200 migrants reach Canary Islands in 2 days, Spain says",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:12:09Z",
+   "last_seen": "2026-11-21T00:37:56Z",
    "weekly": [
     0,
-    0,
-    10,
+    2,
+    8,
     20
    ],
    "this_week": 20,
@@ -14320,14 +14320,14 @@
    "headline_en": "Milburn: Labour must back youth welfare reforms to prevent ‘lost generation’",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:33Z",
+   "last_seen": "2026-11-21T00:37:24Z",
    "weekly": [
     2,
     3,
-    9,
-    55
+    11,
+    53
    ],
-   "this_week": 55,
+   "this_week": 53,
    "velocity": 14,
    "markets": {
     "uk": 10
@@ -14426,18 +14426,18 @@
   "3959": {
    "id": "3959",
    "first_seen": "2026-11-17T10:27:26Z",
-   "headline": "Vita huset: Trump, Xi och Putin ska träffas i Kina",
+   "headline": "Takimi historik në Shenzhen: A është ky një \"Jaltë e re\"?",
    "headline_en": "Trump, Putin and Xi to discuss 'world peace,' China says",
    "headline_fi": "Trump, Putin ja Xi kohtaavat historiallisessa huippukokouksessa, Euroopassa pelätään seurauksia",
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:18Z",
+   "last_seen": "2026-11-21T00:37:10Z",
    "weekly": [
-    7,
-    1,
-    9,
-    308
+    5,
+    3,
+    36,
+    280
    ],
-   "this_week": 308,
+   "this_week": 280,
    "velocity": 34.22222222222222,
    "markets": {
     "fi": 2,
@@ -14500,14 +14500,14 @@
    "headline_en": "Did Twilight predict Robert Pattinson’s future role as James Bond?",
    "headline_fi": "Yksityiskohtia julki: Näin Robert Pattinson valittiin Bondiksi",
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:29Z",
+   "last_seen": "2026-11-21T00:37:21Z",
    "weekly": [
     3,
     3,
-    8,
-    70
+    9,
+    69
    ],
-   "this_week": 70,
+   "this_week": 69,
    "velocity": 8.75,
    "markets": {
     "uk": 4,
@@ -14570,7 +14570,7 @@
    "headline_en": "Trump backs Jensen Huang’s return as Nvidia board reportedly says no",
    "headline_fi": "PÖRSSIT: Tekoälysektoria hakataan taas Wall Streetillä",
    "state": "emergence",
-   "last_seen": "2026-11-20T12:12:07Z",
+   "last_seen": "2026-11-21T00:37:54Z",
    "weekly": [
     0,
     0,
@@ -14639,7 +14639,7 @@
    "headline_en": "California sues OpenAI over the rogue AI agents that hacked Hugging Face",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:43Z",
+   "last_seen": "2026-11-21T00:37:33Z",
    "weekly": [
     0,
     0,
@@ -14708,7 +14708,7 @@
    "headline_en": "United Airlines says technology issue affecting departing flights",
    "headline_fi": "Lentoyhtiö United kärsi erillisestä järjestelmähäiriöstä",
    "state": "emergence",
-   "last_seen": "2026-11-20T12:12:14Z",
+   "last_seen": "2026-11-21T00:38:01Z",
    "weekly": [
     0,
     0,
@@ -14779,7 +14779,7 @@
    "headline_en": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin Gigafactory expansion",
    "headline_fi": "Tesla polttaa miljardeja robotaksiin - Cybercabille pedataan tuotantoa Saksaan",
    "state": "emergence",
-   "last_seen": "2026-11-20T12:12:12Z",
+   "last_seen": "2026-11-21T00:37:59Z",
    "weekly": [
     0,
     0,
@@ -14848,7 +14848,7 @@
    "headline_en": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
    "headline_fi": "USA:n tiedustelu epäilee Iranin suunnittelevan iskua Washingtoniin, kertoo CNN",
    "state": "emergence",
-   "last_seen": "2026-11-20T12:12:16Z",
+   "last_seen": "2026-11-21T00:38:03Z",
    "weekly": [
     0,
     0,
@@ -14917,14 +14917,14 @@
    "headline_en": "5 countries announce plan to deport failed asylum-seekers to Rwanda",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:37Z",
+   "last_seen": "2026-11-21T00:37:27Z",
    "weekly": [
     2,
     1,
-    2,
-    95
+    4,
+    93
    ],
-   "this_week": 95,
+   "this_week": 93,
    "velocity": 47.5,
    "markets": {
     "uk": 5,
@@ -14971,14 +14971,14 @@
    "headline_en": "Nations League: Wirtz doubles up as Germany rout Netherlands to top group",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:12:18Z",
+   "last_seen": "2026-11-21T00:38:04Z",
    "weekly": [
     0,
     0,
-    1,
-    24
+    2,
+    23
    ],
-   "this_week": 24,
+   "this_week": 23,
    "velocity": 24,
    "markets": {
     "de": 7,
@@ -15025,7 +15025,7 @@
    "headline_en": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:41Z",
+   "last_seen": "2026-11-21T00:37:31Z",
    "weekly": [
     0,
     7,
@@ -15079,7 +15079,7 @@
    "headline_en": "Founder of Guadalajara cartel dies in hospital after decades in prison",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:12:21Z",
+   "last_seen": "2026-11-21T00:38:07Z",
    "weekly": [
     0,
     0,
@@ -15134,7 +15134,7 @@
    "headline_en": "Grammy Awards: Raye and Rosalia lead nominations",
    "headline_fi": "Grammy-ehdokkuudet julki",
    "state": "emergence",
-   "last_seen": "2026-11-20T12:12:19Z",
+   "last_seen": "2026-11-21T00:38:04Z",
    "weekly": [
     0,
     0,
@@ -15294,14 +15294,14 @@
    "headline_en": "Transportation head vows to find 'root cause' of ground stop. Trump breaks his silence on breakdown",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:12:15Z",
+   "last_seen": "2026-11-21T00:38:01Z",
    "weekly": [
     0,
-    0,
-    4,
-    16
+    1,
+    5,
+    14
    ],
-   "this_week": 16,
+   "this_week": 14,
    "velocity": 19,
    "markets": {
     "uk": 5,
@@ -15361,7 +15361,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:48Z",
+   "last_seen": "2026-11-21T00:37:37Z",
    "weekly": [
     0,
     0,
@@ -15412,11 +15412,11 @@
    "headline_en": null,
    "headline_fi": "Kommentti: Huuhkajat näytti, mitä tunteiden ääripäät urheilussa tarkoittavat",
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:17Z",
+   "last_seen": "2026-11-21T00:37:09Z",
    "weekly": [
     0,
     0,
-    5,
+    6,
     15
    ],
    "this_week": 15,
@@ -15547,7 +15547,7 @@
    "headline_en": "UK sanctions eight Israeli construction firms over West Bank settlements",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:12:13Z",
+   "last_seen": "2026-11-21T00:38:00Z",
    "weekly": [
     0,
     0,
@@ -15596,7 +15596,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-20T19:45:40Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15607,14 +15607,14 @@
    "headline_en": "US and Mexico lose measles-free status",
    "headline_fi": "WSJ: Yhdysvallat menettää aseman tuhkarokosta vapaana maana",
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:25Z",
+   "last_seen": "2026-11-21T00:37:18Z",
    "weekly": [
     1,
     0,
-    2,
-    34
+    9,
+    27
    ],
-   "this_week": 34,
+   "this_week": 27,
    "velocity": 29,
    "markets": {
     "se": 1,
@@ -15745,14 +15745,14 @@
    "headline_en": "NASA's Voyager 1 hits record one light-day distance, 50 years after launch",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:28Z",
+   "last_seen": "2026-11-21T00:37:21Z",
    "weekly": [
     0,
     0,
-    1,
-    22
+    3,
+    20
    ],
-   "this_week": 22,
+   "this_week": 20,
    "velocity": 18,
    "markets": {
     "intl": 3,
@@ -15850,14 +15850,14 @@
    "headline_en": "Anthropic shares to open 20 per cent higher on blockbuster debut",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:16Z",
+   "last_seen": "2026-11-21T00:37:12Z",
    "weekly": [
     90,
-    25,
-    58,
-    196
+    27,
+    60,
+    192
    ],
-   "this_week": 196,
+   "this_week": 192,
    "velocity": 3.3793103448275863,
    "markets": {
     "uk": 1,
@@ -15919,7 +15919,7 @@
    "headline_en": "Russia and Ukraine escalate attacks",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:42Z",
+   "last_seen": "2026-11-21T00:37:32Z",
    "weekly": [
     0,
     0,
@@ -15982,18 +15982,18 @@
   "4063": {
    "id": "4063",
    "first_seen": "2026-11-18T11:05:29Z",
-   "headline": "Valtio lähettää Suomen jokaiseen puhelimeen 10 s vaarahälyn 8 pv päästä - Se soi vaikka laite olisi äänetön: Tästä kyse",
+   "headline": "Testiviesti jäi monilta saamatta - Näin saat vaaratiedotteet puhelimeesi",
    "headline_en": null,
    "headline_fi": "Valtio lähettää Suomen jokaiseen puhelimeen 10 s vaarahälyn 8 pv päästä - Se soi vaikka laite olisi äänetön: Tästä kyse",
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:36Z",
+   "last_seen": "2026-11-21T00:37:26Z",
    "weekly": [
     0,
     3,
-    2,
-    23
+    3,
+    22
    ],
-   "this_week": 23,
+   "this_week": 22,
    "velocity": 4.5,
    "markets": {
     "fi": 9
@@ -16014,7 +16014,7 @@
    "headline_en": "US Defense Secretary Hegseth vows to boost Venezuela military cooperation",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:38Z",
+   "last_seen": "2026-11-21T00:37:28Z",
    "weekly": [
     0,
     0,
@@ -16064,7 +16064,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-20T19:45:40Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16075,7 +16075,7 @@
    "headline_en": "Deutsche Bank under fire after internal documents made public",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:44Z",
+   "last_seen": "2026-11-21T00:37:34Z",
    "weekly": [
     0,
     0,
@@ -16122,7 +16122,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-20T19:45:40Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16133,7 +16133,7 @@
    "headline_en": "Rare encounter with isolated Indigenous people in Brazil raises concerns over their safety",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:42Z",
+   "last_seen": "2026-11-21T00:37:32Z",
    "weekly": [
     0,
     0,
@@ -16180,7 +16180,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-20T19:45:40Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16301,16 +16301,16 @@
    "headline": "العراق ـ اتهامات تهريب النفط تضع \"كتائب حزب الله\" في مواجهة مع بغداد",
    "headline_en": "Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-20T12:11:50Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-21T00:37:39Z",
    "weekly": [
     0,
     0,
-    0,
-    14
+    1,
+    13
    ],
-   "this_week": 14,
-   "velocity": 2.8,
+   "this_week": 13,
+   "velocity": 13,
    "markets": {
     "de": 4,
     "intl": 6
@@ -16360,7 +16360,7 @@
    "headline_en": "William and Kate to meet with Modi after game of street cricket on India tour",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:19Z",
+   "last_seen": "2026-11-21T00:37:13Z",
    "weekly": [
     0,
     0,
@@ -16655,7 +16655,7 @@
    "headline_en": "ICJ to rule on Rohingya genocide case against Myanmar: What to know",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:16Z",
+   "last_seen": "2026-11-21T00:37:11Z",
    "weekly": [
     0,
     0,
@@ -16704,7 +16704,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-20T19:45:40Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16783,7 +16783,7 @@
    "headline_en": "Explainer: What is the EU's new €45 billion Ukraine loan plan?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:20Z",
+   "last_seen": "2026-11-21T00:37:14Z",
    "weekly": [
     1,
     0,
@@ -16831,7 +16831,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-20T19:45:40Z",
+   "checked": "2026-11-21T02:15:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16842,7 +16842,7 @@
    "headline_en": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:35Z",
+   "last_seen": "2026-11-21T00:37:26Z",
    "weekly": [
     0,
     0,
@@ -16910,14 +16910,14 @@
    "headline_en": "White House replaces cyber security chief after tech outages",
    "headline_fi": "Trumpin hallinnon kyberjohtaja sai potkut, erottamista edelsivät useat tekniset häiriöt",
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:20Z",
+   "last_seen": "2026-11-21T00:37:09Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    14
    ],
-   "this_week": 13,
+   "this_week": 14,
    "velocity": 2.6,
    "markets": {
     "de": 5,
@@ -16978,14 +16978,14 @@
    "headline_en": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
    "headline_fi": "Pipo päätyi vahingossa Fionan aitaukseen - nyt kuuluisa virtahepo on vaarassa kuolla",
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:18Z",
+   "last_seen": "2026-11-21T00:37:08Z",
    "weekly": [
     0,
     0,
     0,
-    24
+    26
    ],
-   "this_week": 24,
+   "this_week": 26,
    "velocity": 1.2,
    "markets": {
     "de": 3,
@@ -17031,7 +17031,7 @@
    "headline_en": "Men guilty of abusing woman drugged and advertised for sex by husband",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:21Z",
+   "last_seen": "2026-11-21T00:37:14Z",
    "weekly": [
     7,
     4,
@@ -17084,7 +17084,7 @@
    "headline_en": "Van Gogh painting sells for $190.4m after row over Nazi history",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:38Z",
+   "last_seen": "2026-11-21T00:37:28Z",
    "weekly": [
     0,
     0,
@@ -17138,14 +17138,14 @@
    "headline_en": "Muslims to outnumber Christians globally by 2035, research shows",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T12:11:27Z",
+   "last_seen": "2026-11-21T00:37:08Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    14
    ],
-   "this_week": 13,
+   "this_week": 14,
    "velocity": 1.6,
    "markets": {
     "de": 6,
