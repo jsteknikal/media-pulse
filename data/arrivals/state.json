@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-21T08:15:41Z",
+  "last_run": "2026-11-21T11:30:51Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 35,
+  "similar_left": 39,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -15689,7 +15689,7 @@
    "headline_en": "Russian military transport plane crashes in Siberia, killing 19, according to Defense Ministry",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T00:00:56Z",
+   "last_seen": "2026-11-21T00:37:50Z",
    "weekly": [
     0,
     0,
@@ -16349,7 +16349,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-21T05:15:39Z",
+   "checked": "2026-11-21T11:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16472,14 +16472,14 @@
    "headline_en": "Ronaldinho oo dib garoomada ugu soo noqday isagoo 46 jir ah - BBC News Somali",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:12:20Z",
+   "last_seen": "2026-11-21T00:38:05Z",
    "weekly": [
-    1,
     0,
-    2,
-    13
+    0,
+    3,
+    12
    ],
-   "this_week": 13,
+   "this_week": 12,
    "velocity": 6.5,
    "markets": {
     "uk": 3,
@@ -16527,7 +16527,7 @@
    "headline_en": "US National Security Agency's classified internal network reportedly goes offline",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-20T00:00:50Z",
+   "last_seen": "2026-11-21T00:37:46Z",
    "weekly": [
     0,
     0,
@@ -16576,7 +16576,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-20T10:15:47Z",
+   "checked": "2026-11-21T11:30:51Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16587,7 +16587,7 @@
    "headline_en": "Japan protests after Russian aircraft breach its airspace",
    "headline_fi": "Japani moittii Venäjää epäillystä ilmatilaloukkauksesta",
    "state": "emergence",
-   "last_seen": "2026-11-20T00:00:35Z",
+   "last_seen": "2026-11-21T00:37:23Z",
    "weekly": [
     0,
     0,
@@ -16595,11 +16595,11 @@
     12
    ],
    "this_week": 12,
-   "velocity": 2.2,
+   "velocity": 2.4,
    "markets": {
-    "uk": 1,
+    "uk": 2,
     "intl": 2,
-    "de": 5,
+    "de": 4,
     "fi": 2
    },
    "outlets": 7,
@@ -16632,7 +16632,8 @@
    "abroad_first": "2026-11-16T21:32:00Z",
    "markets_abroad": 3,
    "subjects": [
-    "geopolitics"
+    "geopolitics",
+    "sustainability"
    ],
    "relevant": true,
    "checked": "2026-11-20T10:15:47Z",
@@ -17183,6 +17184,259 @@
    "markets_abroad": 3,
    "subjects": [],
    "relevant": false
+  },
+  "4003": {
+   "id": "4003",
+   "first_seen": "2026-11-17T10:27:56Z",
+   "headline": "Karin Kneissl behauptet, Österreich entziehe ihr die...",
+   "headline_en": "Austria's ex-foreign minister Kneissl says Vienna is revoking her citizenship, TASS reports",
+   "headline_fi": "Itävallan ex-ulkoministeri tanssi häissään Putinin kanssa - väittää nyt kansalaisuutensa olevan vaakalaudalla",
+   "state": "emergence",
+   "last_seen": "2026-11-21T00:37:40Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "de": 7,
+    "intl": 1,
+    "us": 1,
+    "fi": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Karin Kneissl behauptet, Österreich entziehe ihr die...",
+     "u": "https://www.diepresse.com/41460405/karin-kneissl-behauptet-oesterreich-entziehe-ihr-die",
+     "d": "diepresse.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-16T13:53:29Z"
+    },
+    {
+     "t": "Austria's ex-foreign minister Kneissl says Vienna is revoking her citizenship, TASS reports",
+     "u": "https://www.reuters.com/world/austrias-ex-foreign-minister-kneissl-says-vienna-is-revoking-her-citizenship-2026-11-16/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-16T09:07:00Z"
+    },
+    {
+     "t": "Kremlfreundliche Ex-Politikerin: Österreich prüft mögliche Ausbürgerung von früherer Außenministerin Kneissl",
+     "u": "https://www.spiegel.de/ausland/karin-kneissl-oesterreich-prueft-moegliche-ausbuergerung-von-ex-aussenministerin-a-660b3dfe-813f-4302-9f4a-be01faa67b02",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-18T15:35:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-16T06:43:31Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-21T11:30:51Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-16T20:29:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012416518.html",
+    "t": "Itävallan ex-ulkoministeri tanssi häissään Putinin kanssa - väittää nyt kansalaisuutensa olevan vaakalaudalla",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-21T11:30:51Z"
+  },
+  "4100": {
+   "id": "4100",
+   "first_seen": "2026-11-19T11:39:14Z",
+   "headline": "Donald Trump: Technikprobleme in Serie - Kritik in eigenen Reihen wächst",
+   "headline_en": "As Outages Multiply, New Yorkers Are Bracing? For What? No One Is Sure.",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-21T00:37:36Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 1.4,
+   "markets": {
+    "de": 2,
+    "us": 1,
+    "es": 2,
+    "uk": 1,
+    "intl": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Donald Trump: Technikprobleme in Serie - Kritik in eigenen Reihen wächst",
+     "u": "https://www.spiegel.de/ausland/donald-trump-technikprobleme-in-serie-kritik-in-eigenen-reihen-waechst-a-ac69b24a-5440-4007-a586-c375f20b6b68",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-18T00:32:00Z"
+    },
+    {
+     "t": "As Outages Multiply, New Yorkers Are Bracing? For What? No One Is Sure.",
+     "u": "https://www.nytimes.com/2026/11/18/nyregion/technology-disruptions-new-york-prepping.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-18T23:23:49Z"
+    },
+    {
+     "t": "Psicosis, conspiranoias y desconfianza en el Gobierno: la acumulación de fallos digitales inquieta a los estadounidenses",
+     "u": "https://elpais.com/us/2026-11-18/psicosis-conspiranoia-y-desconfianza-en-el-gobierno-la-acumulacion-de-fallos-en-el-sistema-inquieta-a-los-ciudadanos.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-18T04:45:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T18:24:58Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-21T11:30:51Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-20T02:01:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/digitoday/art-2000012425427.html",
+    "t": "Trumpin kyberjohtaja sai potkut - Yhdysvaltoja koetellut poikkeuksellinen häiriöaalto",
+    "s": 0.854
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-21T11:30:51Z"
+  },
+  "4046": {
+   "id": "4046",
+   "first_seen": "2026-11-18T11:05:12Z",
+   "headline": "Zerstörungen an Krim-Brücke: \"Ziemlich dumm\": Pistorius verurteilt US-Kritik an Ukraine",
+   "headline_en": "Ukraine war briefing: US criticism of Kyiv's deep strikes in Russia is 'quite stupid', says Germany",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-21T00:37:34Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 1.6,
+   "markets": {
+    "de": 4,
+    "uk": 1,
+    "intl": 3
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Ukraine-Krieg: USA kritisieren ukrainische Angriffe im inneren Russlands",
+     "u": "https://www.spiegel.de/ausland/ukraine-krieg-usa-kritisieren-ukrainische-angriffe-im-inneren-russlands-a-fc373566-240e-4b4f-bf86-dfa5f1ad41d0",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-17T19:44:00Z"
+    },
+    {
+     "t": "Ukraine war briefing: US criticism of Kyiv's deep strikes in Russia is 'quite stupid', says Germany",
+     "u": "https://www.theguardian.com/world/2026/nov/18/ukraine-war-briefing-us-criticises-kyiv-deep-strikes-russia",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-18T01:41:14Z"
+    },
+    {
+     "t": "Zerstörungen an Krim-Brücke: \"Ziemlich dumm\": Pistorius verurteilt US-Kritik an Ukraine",
+     "u": "https://www.zeit.de/news/2026-11/17/ziemlich-dumm-pistorius-verurteilt-us-kritik-an-ukraine",
+     "d": "zeit.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-18T01:21:17Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T19:44:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-21T11:30:51Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4022": {
+   "id": "4022",
+   "first_seen": "2026-11-18T11:04:59Z",
+   "headline": "Rassie Erasmus: South Africa head coach banned for six matches",
+   "headline_en": "Rassie Erasmus banned for six matches for questioning integrity of match officials",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-21T00:37:20Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 1.2,
+   "markets": {
+    "uk": 4,
+    "us": 1,
+    "intl": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Rassie Erasmus banned for six matches for questioning integrity of match officials",
+     "u": "https://www.independent.co.uk/sport/rugby/rugby-union/rassie-erasmus-ban-south-africa-springboks-world-rugby-b3086561.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T16:14:10Z"
+    },
+    {
+     "t": "Rassie Erasmus's tired ref-blaming act is wearing thin - South Africa deserves better | Robert Kitson",
+     "u": "https://www.theguardian.com/sport/2026/nov/17/rugby-union-rassie-erasmus-south-africa-france-referee-blaming",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T17:10:48Z"
+    },
+    {
+     "t": "Rassie Erasmus: South Africa head coach banned for six matches",
+     "u": "https://www.bbc.com/sport/rugby-union/articles/cj752w5q7z90o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T16:09:24Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T16:09:24Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-21T11:30:51Z",
+   "check_how": "url",
+   "check_error": null
   }
  }
 }
