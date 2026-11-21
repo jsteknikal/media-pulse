@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-21T20:39:58Z",
+  "last_run": "2026-11-21T23:45:37Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 37,
+  "similar_left": 41,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -16349,7 +16349,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-21T17:30:56Z",
+   "checked": "2026-11-21T23:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16576,7 +16576,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-21T17:30:56Z",
+   "checked": "2026-11-21T23:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17376,7 +17376,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-21T17:30:56Z",
+   "checked": "2026-11-21T23:45:37Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17434,9 +17434,63 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-21T17:30:56Z",
+   "checked": "2026-11-21T23:45:37Z",
    "check_how": "url",
    "check_error": null
+  },
+  "3963": {
+   "id": "3963",
+   "first_seen": "2026-11-17T10:27:28Z",
+   "headline": "'जेफ़्री एपस्टीन की हत्या हुई थी', फॉरेंसिक विशेषज्ञ ने ऑटोप्सी तस्वीरों के आधार पर किया दावा",
+   "headline_en": "BBC Audio | The Interview | Michael Freeman, forensic medicine expert: Why I dispute official ruling on Epstein's death",
+   "headline_fi": "Asiantuntija BBC:lle: Epstein todennäköisesti tapettiin",
+   "state": "emergence",
+   "last_seen": "2026-11-21T00:37:20Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "uk": 5,
+    "us": 2,
+    "fi": 1,
+    "de": 2
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "'जेफ़्री एपस्टीन की हत्या हुई थी', फॉरेंसिक विशेषज्ञ ने ऑटोप्सी तस्वीरों के आधार पर किया दावा",
+     "u": "https://www.bbc.com/hindi/articles/cjkgk3rwr797o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "hi",
+     "p": "2026-11-17T04:34:13Z"
+    },
+    {
+     "t": "BBC Audio | The Interview | Michael Freeman, forensic medicine expert: Why I dispute official ruling on Epstein's death",
+     "u": "https://www.bbc.com/audio/play/w3ct98l4",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-20T00:38:39Z"
+    },
+    {
+     "t": "Forensic expert says his analysis raises doubts about how Epstein died",
+     "u": "https://www.bbc.com/news/articles/c5n4exg1kkmyo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-16T18:57:48Z"
+    }
+   ],
+   "abroad_first": "2026-11-16T18:26:01Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
   }
  }
 }
