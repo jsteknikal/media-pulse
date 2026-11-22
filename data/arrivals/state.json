@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-21T23:45:37Z",
+  "last_run": "2026-11-22T03:01:00Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 41,
+  "similar_left": 29,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -12125,7 +12125,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-21T20:39:58Z",
+   "checked": "2026-11-22T03:01:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12586,7 +12586,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-21T20:39:58Z",
+   "checked": "2026-11-22T03:01:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14320,17 +14320,18 @@
    "headline_en": "Milburn: Labour must back youth welfare reforms to prevent ‘lost generation’",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:24Z",
+   "last_seen": "2026-11-22T01:43:34Z",
    "weekly": [
-    2,
-    3,
-    11,
-    53
+    1,
+    6,
+    20,
+    56
    ],
-   "this_week": 53,
-   "velocity": 14,
+   "this_week": 56,
+   "velocity": 2.8,
    "markets": {
-    "uk": 10
+    "uk": 9,
+    "intl": 1
    },
    "outlets": 5,
    "samples": [
@@ -14360,12 +14361,13 @@
     }
    ],
    "abroad_first": "2026-11-10T17:49:10Z",
-   "markets_abroad": 1,
+   "markets_abroad": 2,
    "subjects": [
+    "business",
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-18T08:30:55Z",
+   "checked": "2026-11-22T03:01:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14430,14 +14432,14 @@
    "headline_en": "Trump, Putin and Xi to discuss 'world peace,' China says",
    "headline_fi": "Trump, Putin ja Xi kohtaavat historiallisessa huippukokouksessa, Euroopassa pelätään seurauksia",
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:10Z",
+   "last_seen": "2026-11-22T01:42:55Z",
    "weekly": [
-    5,
-    3,
-    36,
-    280
+    1,
+    4,
+    51,
+    317
    ],
-   "this_week": 280,
+   "this_week": 317,
    "velocity": 34.22222222222222,
    "markets": {
     "fi": 2,
@@ -14500,14 +14502,14 @@
    "headline_en": "Did Twilight predict Robert Pattinson’s future role as James Bond?",
    "headline_fi": "Yksityiskohtia julki: Näin Robert Pattinson valittiin Bondiksi",
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:21Z",
+   "last_seen": "2026-11-22T01:43:25Z",
    "weekly": [
     3,
-    3,
-    9,
-    69
+    5,
+    8,
+    75
    ],
-   "this_week": 69,
+   "this_week": 75,
    "velocity": 8.75,
    "markets": {
     "uk": 4,
@@ -14570,14 +14572,14 @@
    "headline_en": "Trump backs Jensen Huang’s return as Nvidia board reportedly says no",
    "headline_fi": "PÖRSSIT: Tekoälysektoria hakataan taas Wall Streetillä",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:54Z",
+   "last_seen": "2026-11-22T01:43:21Z",
    "weekly": [
     0,
     0,
     0,
-    35
+    37
    ],
-   "this_week": 35,
+   "this_week": 37,
    "velocity": 7,
    "markets": {
     "de": 4,
@@ -14639,7 +14641,7 @@
    "headline_en": "California sues OpenAI over the rogue AI agents that hacked Hugging Face",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:33Z",
+   "last_seen": "2026-11-22T01:43:42Z",
    "weekly": [
     0,
     0,
@@ -14704,18 +14706,18 @@
   "3966": {
    "id": "3966",
    "first_seen": "2026-11-17T10:27:29Z",
-   "headline": "United Airlines says technology issue affecting departing flights",
+   "headline": "United Airlines reports widespread tech outage affecting departures",
    "headline_en": "United Airlines says technology issue affecting departing flights",
    "headline_fi": "Lentoyhtiö United kärsi erillisestä järjestelmähäiriöstä",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:38:01Z",
+   "last_seen": "2026-11-22T01:44:03Z",
    "weekly": [
     0,
     0,
     0,
-    17
+    18
    ],
-   "this_week": 17,
+   "this_week": 18,
    "velocity": 3.4,
    "markets": {
     "intl": 1,
@@ -14779,7 +14781,7 @@
    "headline_en": "Tesla goes all-in on the Cybercab with upcoming €3B Berlin Gigafactory expansion",
    "headline_fi": "Tesla polttaa miljardeja robotaksiin - Cybercabille pedataan tuotantoa Saksaan",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:59Z",
+   "last_seen": "2026-11-22T01:44:02Z",
    "weekly": [
     0,
     0,
@@ -14847,24 +14849,25 @@
    "headline": "Treffen von Trump, Putin und Xi naht * Japans Wirtschaft schrumpft...",
    "headline_en": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
    "headline_fi": "USA:n tiedustelu epäilee Iranin suunnittelevan iskua Washingtoniin, kertoo CNN",
-   "state": "emergence",
-   "last_seen": "2026-11-21T00:38:03Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-22T01:43:31Z",
    "weekly": [
     0,
     0,
-    0,
-    15
+    1,
+    17
    ],
-   "this_week": 15,
-   "velocity": 3,
+   "this_week": 17,
+   "velocity": 17,
    "markets": {
     "de": 4,
-    "intl": 2,
+    "intl": 1,
     "es": 1,
     "uk": 2,
-    "fi": 1
+    "fi": 1,
+    "us": 1
    },
-   "outlets": 8,
+   "outlets": 9,
    "samples": [
     {
      "t": "Treffen von Trump, Putin und Xi naht * Japans Wirtschaft schrumpft...",
@@ -14883,16 +14886,16 @@
      "p": "2026-11-16T09:36:21Z"
     },
     {
-     "t": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
-     "u": "https://www.aljazeera.com/news/2026/11/17/tankers-hit-in-strait-of-hormuz-as-drone-raises-alarm-at-iraq-gas-field",
-     "d": "aljazeera.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-17T03:12:54Z"
+     "t": "\"ثيودور روزفلت\".. ثالث حاملة طائرات أمريكية تنتشر الشرق الأوسط",
+     "u": "https://www.dw.com/ar/%D8%A7%D9%84%D9%82%D9%8A%D8%A7%D8%AF%D8%A9-%D8%A7%D9%84%D9%85%D8%B1%D9%83%D8%B2%D9%8A%D8%A9-%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9-%D8%AD%D8%A7%D9%85%D9%84%D8%A9-%D8%B7%D8%A7%D8%A6%D8%B1%D8%A7%D8%AA-%D8%AB%D8%A7%D9%84%D8%AB%D8%A9-%D8%AA%D8%B5%D9%84-%D8%A5%D9%84%D9%89-%D9%85%D9%86%D8%B7%D9%82%D8%A9-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7/live-79926107",
+     "d": "dw.com",
+     "c": "de",
+     "l": "ar",
+     "p": "2026-11-12T07:51:49Z"
     }
    ],
-   "abroad_first": "2026-11-15T15:16:47Z",
-   "markets_abroad": 4,
+   "abroad_first": "2026-11-12T07:51:49Z",
+   "markets_abroad": 5,
    "subjects": [
     "geopolitics"
    ],
@@ -14913,18 +14916,18 @@
   "3961": {
    "id": "3961",
    "first_seen": "2026-11-17T10:27:27Z",
-   "headline": "پنج کشور اتحادیه اروپا مرکز مهاجران اخراجی در رواندا می‌سازند",
+   "headline": "What do we know about EU countries' return hubs?",
    "headline_en": "5 countries announce plan to deport failed asylum-seekers to Rwanda",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:27Z",
+   "last_seen": "2026-11-22T01:42:57Z",
    "weekly": [
     2,
     1,
     4,
-    93
+    100
    ],
-   "this_week": 93,
+   "this_week": 100,
    "velocity": 47.5,
    "markets": {
     "uk": 5,
@@ -14967,18 +14970,18 @@
   "3970": {
    "id": "3970",
    "first_seen": "2026-11-17T10:27:32Z",
-   "headline": "Nations League: Deutschland stürmt mit Gala-Vorstellung zum Gruppensieg",
+   "headline": "Florian Wirtz scores twice as Germany beat Netherlands 5-0 to reach Nations League quarter-finals",
    "headline_en": "Nations League: Wirtz doubles up as Germany rout Netherlands to top group",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:38:04Z",
+   "last_seen": "2026-11-22T01:44:06Z",
    "weekly": [
     0,
     0,
-    2,
-    23
+    6,
+    21
    ],
-   "this_week": 23,
+   "this_week": 21,
    "velocity": 24,
    "markets": {
     "de": 7,
@@ -15021,18 +15024,18 @@
   "3969": {
    "id": "3969",
    "first_seen": "2026-11-17T10:27:31Z",
-   "headline": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
+   "headline": "German FA backs Gianni Infantino challenger Philippe Diallo for Fifa presidency",
    "headline_en": "France's Philippe Diallo to challenge Infantino for FIFA presidency",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:31Z",
+   "last_seen": "2026-11-22T01:43:02Z",
    "weekly": [
     0,
-    7,
-    5,
-    41
+    9,
+    4,
+    48
    ],
-   "this_week": 41,
+   "this_week": 48,
    "velocity": 3.4545454545454546,
    "markets": {
     "de": 5,
@@ -15134,14 +15137,14 @@
    "headline_en": "Grammy Awards: Raye and Rosalia lead nominations",
    "headline_fi": "Grammy-ehdokkuudet julki",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:38:04Z",
+   "last_seen": "2026-11-22T01:43:06Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    15
    ],
-   "this_week": 13,
+   "this_week": 15,
    "velocity": 2.6,
    "markets": {
     "de": 1,
@@ -15361,7 +15364,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:37Z",
+   "last_seen": "2026-11-22T01:43:43Z",
    "weekly": [
     0,
     0,
@@ -15547,7 +15550,7 @@
    "headline_en": "UK sanctions eight Israeli construction firms over West Bank settlements",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:38:00Z",
+   "last_seen": "2026-11-22T01:44:02Z",
    "weekly": [
     0,
     0,
@@ -15555,13 +15558,13 @@
     14
    ],
    "this_week": 14,
-   "velocity": 2.4,
+   "velocity": 2.8,
    "markets": {
     "de": 1,
-    "intl": 2,
-    "uk": 5
+    "intl": 1,
+    "uk": 4
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
      "t": "Zum Schutz der Zweistaatenlösung: Großbritannien verhängt Sanktionen gegen israelische Baufirmen",
@@ -15596,7 +15599,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-21T20:39:58Z",
+   "checked": "2026-11-22T03:01:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15604,43 +15607,34 @@
    "id": "3998",
    "first_seen": "2026-11-17T10:27:53Z",
    "headline": "アメリカの「はしか排除国」認定、26年ぶり取り消し　2年連続の記録的症例数を受け",
-   "headline_en": "US and Mexico lose measles-free status",
-   "headline_fi": "WSJ: Yhdysvallat menettää aseman tuhkarokosta vapaana maana",
+   "headline_en": "US loses measles elimination status after 26 years amid record case numbers",
+   "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:18Z",
+   "last_seen": "2026-11-22T01:43:17Z",
    "weekly": [
     1,
     0,
     9,
-    27
+    31
    ],
-   "this_week": 27,
-   "velocity": 29,
+   "this_week": 31,
+   "velocity": 3.4444444444444446,
    "markets": {
+    "uk": 3,
     "se": 1,
     "de": 1,
-    "uk": 1,
-    "fi": 1,
-    "intl": 2,
-    "us": 4
+    "intl": 3,
+    "us": 2
    },
-   "outlets": 8,
+   "outlets": 9,
    "samples": [
     {
-     "t": "USA är inte längre fritt från mässling",
-     "u": "https://www.dn.se/direkt/2026-11-17/usa-ar-inte-langre-fritt-fran-massling/",
-     "d": "dn.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-17T17:13:33Z"
-    },
-    {
-     "t": "US and Mexico lose measles-free status",
-     "u": "https://www.dw.com/en/us-and-mexico-lose-measles-free-status/a-79973966",
-     "d": "dw.com",
-     "c": "de",
-     "l": "en",
-     "p": "2026-11-17T16:40:10Z"
+     "t": "アメリカの「はしか排除国」認定、26年ぶり取り消し　2年連続の記録的症例数を受け",
+     "u": "https://www.bbc.com/japanese/articles/cm1wr0nrp1e7o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ja",
+     "p": "2026-11-20T01:57:10Z"
     },
     {
      "t": "US loses measles elimination status after 26 years amid record case numbers",
@@ -15649,6 +15643,14 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-17T16:13:18Z"
+    },
+    {
+     "t": "USA är inte längre fritt från mässling",
+     "u": "https://www.dn.se/direkt/2026-11-17/usa-ar-inte-langre-fritt-fran-massling/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-17T17:13:33Z"
     }
    ],
    "abroad_first": "2026-11-13T19:54:00Z",
@@ -15687,22 +15689,23 @@
    "first_seen": "2026-11-18T11:05:05Z",
    "headline": "Russian military transport plane crashes in Siberia, killing 19, according to Defense Ministry",
    "headline_en": "Russian military transport plane crashes in Siberia, killing 19, according to Defense Ministry",
-   "headline_fi": null,
+   "headline_fi": "Sotilaskone syöksyi maahan Venäjällä - jopa 17 kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:50Z",
+   "last_seen": "2026-11-22T01:43:55Z",
    "weekly": [
     0,
     0,
     0,
-    12
+    13
    ],
-   "this_week": 12,
-   "velocity": 2.4,
+   "this_week": 13,
+   "velocity": 2.6,
    "markets": {
     "us": 1,
     "uk": 3,
     "intl": 2,
-    "de": 4
+    "de": 3,
+    "fi": 1
    },
    "outlets": 8,
    "samples": [
@@ -15745,14 +15748,14 @@
    "headline_en": "NASA's Voyager 1 hits record one light-day distance, 50 years after launch",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:21Z",
+   "last_seen": "2026-11-22T01:42:59Z",
    "weekly": [
     0,
     0,
-    3,
-    20
+    10,
+    19
    ],
-   "this_week": 20,
+   "this_week": 19,
    "velocity": 18,
    "markets": {
     "intl": 3,
@@ -15850,14 +15853,14 @@
    "headline_en": "Anthropic shares to open 20 per cent higher on blockbuster debut",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:12Z",
+   "last_seen": "2026-11-22T01:42:53Z",
    "weekly": [
     90,
-    27,
-    60,
-    192
+    29,
+    66,
+    201
    ],
-   "this_week": 192,
+   "this_week": 201,
    "velocity": 3.3793103448275863,
    "markets": {
     "uk": 1,
@@ -15916,40 +15919,33 @@
    "id": "4027",
    "first_seen": "2026-11-18T11:05:01Z",
    "headline": "'Crimea is turning into an island': How Ukraine hit Putin's prized bridge",
-   "headline_en": "Russia and Ukraine escalate attacks",
-   "headline_fi": null,
+   "headline_en": "'Crimea is turning into an island': How Ukraine hit Putin's prized bridge",
+   "headline_fi": "Yksi kuva näyttää Krimin sillan massiiviset tuhot",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:32Z",
+   "last_seen": "2026-11-22T01:43:41Z",
    "weekly": [
     0,
     0,
     0,
-    22
+    23
    ],
-   "this_week": 22,
-   "velocity": 2.2,
+   "this_week": 23,
+   "velocity": 4.6,
    "markets": {
+    "intl": 1,
+    "uk": 5,
     "de": 3,
-    "uk": 6,
-    "us": 1
+    "fi": 1
    },
-   "outlets": 6,
+   "outlets": 8,
    "samples": [
     {
-     "t": "Brücke zur Krim: Angriff auf Putins Prestigeobjekt",
-     "u": "https://www.zeit.de/politik/ausland/2026-11/bruecke-krim-strasse-von-kertsch-logistik-russland",
-     "d": "zeit.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-17T18:02:16Z"
-    },
-    {
-     "t": "Russia and Ukraine escalate attacks",
-     "u": "https://www.dw.com/en/russia-and-ukraine-escalate-attacks/video-79973874",
-     "d": "dw.com",
-     "c": "de",
+     "t": "'Crimea is turning into an island': How Ukraine hit Putin's prized bridge",
+     "u": "https://www.aljazeera.com/news/2026/11/18/crimea-is-turning-into-an-island-how-ukraine-hit-putins-prized-bridge",
+     "d": "aljazeera.com",
+     "c": "intl",
      "l": "en",
-     "p": "2026-11-17T17:26:11Z"
+     "p": "2026-11-18T14:35:56Z"
     },
     {
      "t": "Ukraine’s attack on Kerch Bridge is a major blow to Putin and Russia’s control of Crimea",
@@ -15958,6 +15954,14 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-17T15:30:39Z"
+    },
+    {
+     "t": "Brücke zur Krim: Angriff auf Putins Prestigeobjekt",
+     "u": "https://www.zeit.de/politik/ausland/2026-11/bruecke-krim-strasse-von-kertsch-logistik-russland",
+     "d": "zeit.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-17T18:02:16Z"
     }
    ],
    "abroad_first": "2026-11-17T14:03:27Z",
@@ -15984,21 +15988,21 @@
    "first_seen": "2026-11-18T11:05:29Z",
    "headline": "Testiviesti jäi monilta saamatta - Näin saat vaaratiedotteet puhelimeesi",
    "headline_en": null,
-   "headline_fi": "Valtio lähettää Suomen jokaiseen puhelimeen 10 s vaarahälyn 8 pv päästä - Se soi vaikka laite olisi äänetön: Tästä kyse",
+   "headline_fi": "Testiviesti jäi monilta saamatta - Näin saat vaaratiedotteet puhelimeesi",
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:26Z",
+   "last_seen": "2026-11-22T01:43:37Z",
    "weekly": [
-    0,
+    1,
     3,
-    3,
+    2,
     22
    ],
    "this_week": 22,
-   "velocity": 4.5,
+   "velocity": 11,
    "markets": {
-    "fi": 9
+    "fi": 10
    },
-   "outlets": 5,
+   "outlets": 4,
    "samples": [],
    "abroad_first": "2026-11-18T11:05:29Z",
    "markets_abroad": 0,
@@ -16014,14 +16018,14 @@
    "headline_en": "US Defense Secretary Hegseth vows to boost Venezuela military cooperation",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:28Z",
+   "last_seen": "2026-11-22T01:43:38Z",
    "weekly": [
     0,
     0,
     0,
-    20
+    21
    ],
-   "this_week": 20,
+   "this_week": 21,
    "velocity": 3.6,
    "markets": {
     "uk": 2,
@@ -16064,7 +16068,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-21T20:39:58Z",
+   "checked": "2026-11-22T03:01:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16072,10 +16076,10 @@
    "id": "4030",
    "first_seen": "2026-11-18T11:05:04Z",
    "headline": "Deutsche Bank: Scurgere masivă de date interne cu implicații multiple",
-   "headline_en": "Deutsche Bank under fire after internal documents made public",
+   "headline_en": "Deutsche Bank leak revives scrutiny over Epstein and oligarch ties",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:34Z",
+   "last_seen": "2026-11-22T01:43:42Z",
    "weekly": [
     0,
     0,
@@ -16083,14 +16087,30 @@
     16
    ],
    "this_week": 16,
-   "velocity": 2,
+   "velocity": 3.2,
    "markets": {
-    "de": 8,
-    "intl": 1,
+    "de": 6,
+    "intl": 3,
     "uk": 1
    },
-   "outlets": 7,
+   "outlets": 5,
    "samples": [
+    {
+     "t": "Deutsche Bank: Scurgere masivă de date interne cu implicații multiple",
+     "u": "https://www.dw.com/ro/deutsche-bank-scurgere-masiv%C4%83-de-date-interne-cu-implica%C8%9Bii-financiare-juridice-%C8%99i-reputa%C8%9Bionale/a-79984330",
+     "d": "dw.com",
+     "c": "de",
+     "l": "ron",
+     "p": "2026-11-18T17:20:50Z"
+    },
+    {
+     "t": "Deutsche Bank leak revives scrutiny over Epstein and oligarch ties",
+     "u": "https://www.reuters.com/video/watch/idRW937718112026RP1/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-18T15:54:04Z"
+    },
     {
      "t": "Deutsche Bank under fire after internal documents made public",
      "u": "https://www.dw.com/en/deutsche-bank-under-fire-after-internal-documents-made-public/a-79974543",
@@ -16098,22 +16118,6 @@
      "c": "de",
      "l": "en",
      "p": "2026-11-17T18:32:15Z"
-    },
-    {
-     "t": "Deutsche Bank leaks test CEO Sewing's pledge to reform",
-     "u": "https://www.reuters.com/business/finance/deutsche-bank-leaks-test-ceo-sewings-pledge-reform-2026-11-17/",
-     "d": "reuters.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-17T18:54:44Z"
-    },
-    {
-     "t": "Deutsche Bank: Datenskandal gefährdet Sewings grosse Pläne",
-     "u": "https://www.nzz.ch/wirtschaft/die-deutsche-bank-hat-grosse-plaene-ein-datenleck-koennte-diese-gefaehrden-ld.10058672",
-     "d": "nzz.ch",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-18T04:30:00Z"
     }
    ],
    "abroad_first": "2026-11-17T10:25:01Z",
@@ -16122,7 +16126,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-21T20:39:58Z",
+   "checked": "2026-11-22T03:01:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16130,59 +16134,69 @@
    "id": "4025",
    "first_seen": "2026-11-18T11:05:00Z",
    "headline": "Indigene im Amazonasgebiet zeigen sich am Waldrand und bitten um Hilfe",
-   "headline_en": "Rare encounter with isolated Indigenous people in Brazil raises concerns over their safety",
+   "headline_en": "Uncontacted Awá of Brazil Emerge From Rainforest Seeking Food",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:32Z",
+   "last_seen": "2026-11-22T01:43:41Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    14
    ],
-   "this_week": 13,
-   "velocity": 1,
+   "this_week": 14,
+   "velocity": 2.8,
    "markets": {
-    "uk": 2,
+    "de": 3,
+    "us": 1,
     "intl": 2,
-    "de": 1
+    "uk": 4
    },
-   "outlets": 5,
+   "outlets": 9,
    "samples": [
     {
-     "t": "Rare encounter with isolated Indigenous people in Brazil raises concerns over their safety",
-     "u": "https://www.independent.co.uk/news/brazil-amazon-colombia-bogota-fears-b3086826.html",
-     "d": "independent.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-18T00:01:43Z"
+     "t": "Indigene im Amazonasgebiet zeigen sich am Waldrand und bitten um Hilfe",
+     "u": "https://www.nzz.ch/international/erster-kontakt-seit-50-jahren-indigene-im-amazonasgebiet-zeigen-sich-am-waldrand-und-bitten-um-hilfe-ld.10068101",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-19T01:05:43Z"
     },
     {
-     "t": "Isolated Brazilian tribe emerges amid alarm over threats to group's way of life",
-     "u": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
-     "d": "theguardian.com",
-     "c": "uk",
+     "t": "Uncontacted Awá of Brazil Emerge From Rainforest Seeking Food",
+     "u": "https://www.nytimes.com/2026/11/18/world/americas/brazil-amazon-indigenous-contact.html",
+     "d": "nytimes.com",
+     "c": "us",
      "l": "en",
-     "p": "2026-11-17T21:40:56Z"
+     "p": "2026-11-18T23:45:30Z"
     },
     {
-     "t": "Rare images of Indigenous group in Amazon highlight threats, advocates say",
-     "u": "https://www.aljazeera.com/news/2026/11/18/rare-images-of-indigenous-group-in-amazon-highlight-threats-advocates-say",
-     "d": "aljazeera.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-18T02:36:09Z"
+     "t": "Amazonasregenwald: Isoliert lebende Indigene tauchen überraschend in Dorf auf",
+     "u": "https://www.spiegel.de/wissenschaft/amazonasregenwald-in-brasilien-isoliert-lebende-awa-indigene-tauchen-in-dorf-auf-a-e70fbe07-91e0-4299-ad41-65592122178e",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-18T01:12:00Z"
     }
    ],
    "abroad_first": "2026-11-17T17:17:00Z",
-   "markets_abroad": 3,
+   "markets_abroad": 4,
    "subjects": [
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-21T20:39:58Z",
+   "checked": "2026-11-22T03:01:00Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-18T02:31:05Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20257573",
+    "t": "Harvinainen video eristyksissä elävästä alkuperäiskansasta herättää huolta",
+    "s": 0.843
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-22T03:01:00Z"
   },
   "4107": {
    "id": "4107",
@@ -16356,33 +16370,33 @@
   "4106": {
    "id": "4106",
    "first_seen": "2026-11-19T11:39:26Z",
-   "headline": "William and Kate to meet with Modi after game of street cricket on India tour",
-   "headline_en": "William and Kate to meet with Modi after game of street cricket on India tour",
+   "headline": "Kate and William to tour iconic Bollywood film company",
+   "headline_en": "Kate and William to tour iconic Bollywood film company",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-21T00:37:13Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-22T01:43:12Z",
    "weekly": [
     0,
     0,
-    0,
-    14
+    2,
+    17
    ],
-   "this_week": 14,
-   "velocity": 2.4,
+   "this_week": 17,
+   "velocity": 8.5,
    "markets": {
-    "uk": 6,
+    "uk": 8,
     "de": 1,
-    "intl": 3
+    "intl": 1
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
-     "t": "William and Kate to meet with Modi after game of street cricket on India tour",
-     "u": "https://www.independent.co.uk/bulletin/news/prince-william-narendra-modi-meeting-b3085472.html",
+     "t": "Kate and William to tour iconic Bollywood film company",
+     "u": "https://www.independent.co.uk/asia/india/kate-william-bollywood-mumbai-earthshot-b3085524.html",
      "d": "independent.co.uk",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-16T08:36:47Z"
+     "p": "2026-11-16T11:36:21Z"
     },
     {
      "t": "William and Catherine celebrate Earthshot Prize winners in Mumbai",
@@ -16393,18 +16407,24 @@
      "p": "2026-11-17T17:25:23Z"
     },
     {
-     "t": "Kate and William change India travel plans for key meeting with Modi",
-     "u": "https://www.independent.co.uk/news/uk/home-news/kate-william-india-modi-earthshot-b3085255.html",
+     "t": "Prince William calls for ‘urgency’ in fight against climate change at Earthshot Prize ceremony",
+     "u": "https://www.independent.co.uk/news/uk/home-news/prince-william-earthshot-environmental-awards-kate-india-b3086629.html",
      "d": "independent.co.uk",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-15T16:38:40Z"
+     "p": "2026-11-17T17:50:41Z"
     }
    ],
    "abroad_first": "2026-11-15T16:38:40Z",
    "markets_abroad": 3,
-   "subjects": [],
-   "relevant": false
+   "subjects": [
+    "business",
+    "sustainability"
+   ],
+   "relevant": true,
+   "checked": "2026-11-22T03:01:00Z",
+   "check_how": "url",
+   "check_error": null
   },
   "4042": {
    "id": "4042",
@@ -16527,21 +16547,21 @@
    "headline_en": "US National Security Agency's classified internal network reportedly goes offline",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:46Z",
+   "last_seen": "2026-11-22T01:43:51Z",
    "weekly": [
     0,
     0,
     0,
-    12
+    14
    ],
-   "this_week": 12,
-   "velocity": 2,
+   "this_week": 14,
+   "velocity": 2.8,
    "markets": {
     "uk": 2,
-    "de": 5,
-    "es": 1,
-    "us": 1,
-    "intl": 1
+    "intl": 2,
+    "de": 3,
+    "us": 2,
+    "es": 1
    },
    "outlets": 10,
    "samples": [
@@ -16554,28 +16574,26 @@
      "p": "2026-11-17T21:59:53Z"
     },
     {
+     "t": "Top-secret US security communications network is down, report says",
+     "u": "https://www.scmp.com/news/world/united-states-canada/article/3374800/top-secret-us-security-communications-network-down-report-says",
+     "d": "scmp.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-17T18:57:26Z"
+    },
+    {
      "t": "National Security Agency network for internal communications goes down",
      "u": "https://www.theguardian.com/us-news/2026/nov/17/nsa-national-security-classified-communications-network-down",
      "d": "theguardian.com",
      "c": "uk",
      "l": "en",
      "p": "2026-11-17T19:00:21Z"
-    },
-    {
-     "t": "Internes Netzwerk der NSA ausgefallen",
-     "u": "https://www.diepresse.com/41464672/internes-netzwerk-der-nsa-ausgefallen",
-     "d": "diepresse.com",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-17T20:53:40Z"
     }
    ],
    "abroad_first": "2026-11-17T15:31:26Z",
    "markets_abroad": 5,
-   "subjects": [
-    "tech"
-   ],
-   "relevant": true,
+   "subjects": [],
+   "relevant": false,
    "checked": "2026-11-21T23:45:37Z",
    "check_how": "url",
    "check_error": null
@@ -16583,18 +16601,18 @@
   "3958": {
    "id": "3958",
    "first_seen": "2026-11-17T10:27:26Z",
-   "headline": "Japan protests after Russian aircraft breach its airspace",
+   "headline": "Taiwan tracks 2 Russian warplanes off eastern coast ahead of Apec summit",
    "headline_en": "Japan protests after Russian aircraft breach its airspace",
    "headline_fi": "Japani moittii Venäjää epäillystä ilmatilaloukkauksesta",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:23Z",
+   "last_seen": "2026-11-22T01:43:33Z",
    "weekly": [
     0,
     0,
     0,
-    12
+    13
    ],
-   "this_week": 12,
+   "this_week": 13,
    "velocity": 2.4,
    "markets": {
     "uk": 2,
@@ -16656,14 +16674,14 @@
    "headline_en": "ICJ to rule on Rohingya genocide case against Myanmar: What to know",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:11Z",
+   "last_seen": "2026-11-22T01:42:58Z",
    "weekly": [
     0,
     0,
     0,
-    49
+    58
    ],
-   "this_week": 49,
+   "this_week": 58,
    "velocity": 1.8,
    "markets": {
     "de": 1,
@@ -16705,7 +16723,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-21T20:39:58Z",
+   "checked": "2026-11-22T03:01:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16716,14 +16734,14 @@
    "headline_en": "The City of London isn't up for more Brexit trauma",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T12:11:17Z",
+   "last_seen": "2026-11-22T01:43:06Z",
    "weekly": [
-    37,
-    16,
-    16,
-    46
+    23,
+    18,
+    17,
+    68
    ],
-   "this_week": 46,
+   "this_week": 68,
    "velocity": 2.875,
    "markets": {
     "intl": 4,
@@ -16784,7 +16802,7 @@
    "headline_en": "Explainer: What is the EU's new €45 billion Ukraine loan plan?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:14Z",
+   "last_seen": "2026-11-22T01:43:14Z",
    "weekly": [
     1,
     0,
@@ -16832,7 +16850,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-21T20:39:58Z",
+   "checked": "2026-11-22T03:01:00Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16841,25 +16859,34 @@
    "first_seen": "2026-11-19T11:38:56Z",
    "headline": "Südkoreas Hochschultest: Brillen gecheckt, Flüge ausgesetzt",
    "headline_en": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
-   "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-21T00:37:26Z",
+   "headline_fi": "Etelä-Koreassa yliopistojen pääsykokeen hiljaisuus on niin tärkeää, että lentokoneetkin jäivät maahan",
+   "state": "acceleration",
+   "last_seen": "2026-11-22T01:43:36Z",
    "weekly": [
     0,
     0,
-    0,
-    16
+    2,
+    15
    ],
-   "this_week": 16,
-   "velocity": 2,
+   "this_week": 15,
+   "velocity": 7.5,
    "markets": {
+    "de": 2,
     "us": 1,
-    "uk": 3,
     "intl": 4,
-    "de": 2
+    "fi": 2,
+    "uk": 1
    },
-   "outlets": 7,
+   "outlets": 9,
    "samples": [
+    {
+     "t": "Südkoreas Hochschultest: Brillen gecheckt, Flüge ausgesetzt",
+     "u": "https://www.faz.net/aktuell/wirtschaft/mehr-wirtschaft/suedkoreas-hochschultest-brillen-gecheckt-fluege-ausgesetzt-201696713.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-19T15:40:32Z"
+    },
     {
      "t": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
      "u": "https://www.nytimes.com/2026/11/18/world/asia/south-korea-cheating-college-exam-suneung.html",
@@ -16867,14 +16894,6 @@
      "c": "us",
      "l": "en",
      "p": "2026-11-19T01:44:43Z"
-    },
-    {
-     "t": "Sleeve checks and no smartglasses: South Korea races to protect all-important university exams against AI",
-     "u": "https://www.theguardian.com/world/2026/nov/18/south-korea-university-entrace-exams-ai-cheating-measures",
-     "d": "theguardian.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-18T02:03:27Z"
     },
     {
      "t": "In South Korea's make-or-break college exam, even a shirt button can raise suspicion",
@@ -16885,10 +16904,11 @@
      "p": "2026-11-19T04:20:28Z"
     }
    ],
-   "abroad_first": "2026-11-16T03:48:17Z",
+   "abroad_first": "2026-11-15T03:05:05Z",
    "markets_abroad": 4,
    "subjects": [
-    "tech"
+    "tech",
+    "policy"
    ],
    "relevant": true,
    "checked": "2026-11-20T13:30:58Z",
@@ -16907,18 +16927,18 @@
   "4134": {
    "id": "4134",
    "first_seen": "2026-11-20T12:11:20Z",
-   "headline": "White House replaces cyber security chief after tech outages",
+   "headline": "Trumpin hallinnon kyberjohtaja sai potkut, erottamista edelsivät useat tekniset häiriöt",
    "headline_en": "White House replaces cyber security chief after tech outages",
    "headline_fi": "Trumpin hallinnon kyberjohtaja sai potkut, erottamista edelsivät useat tekniset häiriöt",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:09Z",
+   "last_seen": "2026-11-22T01:43:09Z",
    "weekly": [
     0,
     0,
     0,
-    14
+    19
    ],
-   "this_week": 14,
+   "this_week": 19,
    "velocity": 2.6,
    "markets": {
     "de": 5,
@@ -16979,14 +16999,14 @@
    "headline_en": "Fiona the hippo undergoing care after swallowing a hat at Cincinnati Zoo",
    "headline_fi": "Pipo päätyi vahingossa Fionan aitaukseen - nyt kuuluisa virtahepo on vaarassa kuolla",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:08Z",
+   "last_seen": "2026-11-22T01:43:05Z",
    "weekly": [
     0,
     0,
     0,
-    26
+    39
    ],
-   "this_week": 26,
+   "this_week": 39,
    "velocity": 1.2,
    "markets": {
     "de": 3,
@@ -17028,18 +17048,18 @@
   "4135": {
    "id": "4135",
    "first_seen": "2026-11-20T12:11:21Z",
-   "headline": "Men guilty of abusing woman drugged and advertised for sex by husband",
+   "headline": "Police fear drug-rape cases could be ‘significantly’ more widespread after Philip Young conviction",
    "headline_en": "Men guilty of abusing woman drugged and advertised for sex by husband",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:14Z",
+   "last_seen": "2026-11-22T01:43:14Z",
    "weekly": [
     7,
     4,
     2,
-    15
+    25
    ],
-   "this_week": 15,
+   "this_week": 25,
    "velocity": 7.5,
    "markets": {
     "uk": 8,
@@ -17139,14 +17159,14 @@
    "headline_en": "Muslims to outnumber Christians globally by 2035, research shows",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:08Z",
+   "last_seen": "2026-11-22T01:43:07Z",
    "weekly": [
     0,
     0,
     0,
-    14
+    15
    ],
-   "this_week": 14,
+   "this_week": 15,
    "velocity": 1.6,
    "markets": {
     "de": 6,
@@ -17260,14 +17280,14 @@
    "headline_en": "As Outages Multiply, New Yorkers Are Bracing? For What? No One Is Sure.",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:36Z",
+   "last_seen": "2026-11-22T01:43:20Z",
    "weekly": [
     0,
     0,
     0,
-    12
+    18
    ],
-   "this_week": 12,
+   "this_week": 18,
    "velocity": 1.4,
    "markets": {
     "de": 2,
@@ -17325,34 +17345,26 @@
   "4046": {
    "id": "4046",
    "first_seen": "2026-11-18T11:05:12Z",
-   "headline": "Zerstörungen an Krim-Brücke: \"Ziemlich dumm\": Pistorius verurteilt US-Kritik an Ukraine",
+   "headline": "Ukraine war briefing: US criticism of Kyiv's deep strikes in Russia is 'quite stupid', says Germany",
    "headline_en": "Ukraine war briefing: US criticism of Kyiv's deep strikes in Russia is 'quite stupid', says Germany",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:34Z",
+   "last_seen": "2026-11-22T01:43:08Z",
    "weekly": [
     0,
     0,
     0,
-    12
+    16
    ],
-   "this_week": 12,
-   "velocity": 1.6,
+   "this_week": 16,
+   "velocity": 3.2,
    "markets": {
-    "de": 4,
     "uk": 1,
-    "intl": 3
+    "de": 8,
+    "intl": 1
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
-    {
-     "t": "Ukraine-Krieg: USA kritisieren ukrainische Angriffe im inneren Russlands",
-     "u": "https://www.spiegel.de/ausland/ukraine-krieg-usa-kritisieren-ukrainische-angriffe-im-inneren-russlands-a-fc373566-240e-4b4f-bf86-dfa5f1ad41d0",
-     "d": "spiegel.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-17T19:44:00Z"
-    },
     {
      "t": "Ukraine war briefing: US criticism of Kyiv's deep strikes in Russia is 'quite stupid', says Germany",
      "u": "https://www.theguardian.com/world/2026/nov/18/ukraine-war-briefing-us-criticises-kyiv-deep-strikes-russia",
@@ -17368,6 +17380,14 @@
      "c": "de",
      "l": "de",
      "p": "2026-11-18T01:21:17Z"
+    },
+    {
+     "t": "Ukraine-Krieg: USA kritisieren ukrainische Angriffe im inneren Russlands",
+     "u": "https://www.spiegel.de/ausland/ukraine-krieg-usa-kritisieren-ukrainische-angriffe-im-inneren-russlands-a-fc373566-240e-4b4f-bf86-dfa5f1ad41d0",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-17T19:44:00Z"
     }
    ],
    "abroad_first": "2026-11-17T19:44:00Z",
@@ -17445,14 +17465,14 @@
    "headline_en": "BBC Audio | The Interview | Michael Freeman, forensic medicine expert: Why I dispute official ruling on Epstein's death",
    "headline_fi": "Asiantuntija BBC:lle: Epstein todennäköisesti tapettiin",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:20Z",
+   "last_seen": "2026-11-22T01:43:18Z",
    "weekly": [
     0,
     0,
     0,
-    12
+    13
    ],
-   "this_week": 12,
+   "this_week": 13,
    "velocity": 2.4,
    "markets": {
     "uk": 5,
@@ -17489,6 +17509,496 @@
    ],
    "abroad_first": "2026-11-16T18:26:01Z",
    "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "4191": {
+   "id": "4191",
+   "first_seen": "2026-11-22T01:43:03Z",
+   "headline": "Dinamarca acusa a Rusia de intentar asesinar en su territorio a un rapero ucranio-estadounidense",
+   "headline_en": "Denmark to expel Russian diplomat over attempt to kill US-Ukrainian rapper",
+   "headline_fi": "Tanska syyttää Venäjää salamurhajuonesta - ryhtyi toimiin",
+   "state": "emergence",
+   "last_seen": "2026-11-22T01:43:03Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    26
+   ],
+   "this_week": 26,
+   "velocity": 5.2,
+   "markets": {
+    "es": 1,
+    "se": 1,
+    "fi": 1,
+    "uk": 3,
+    "intl": 2,
+    "us": 2
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "Dinamarca acusa a Rusia de intentar asesinar en su territorio a un rapero ucranio-estadounidense",
+     "u": "https://elpais.com/internacional/2026-11-20/dinamarca-acusa-a-rusia-de-intentar-asesinar-en-su-territorio-a-un-rapero-ucranio-estadounidense.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-20T19:37:05Z"
+    },
+    {
+     "t": "20 november: Här är dagens nyheter",
+     "u": "https://www.dn.se/varlden/20-november-har-ar-dagens-nyheter/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-20T20:08:33Z"
+    },
+    {
+     "t": "Denmark to expel Russian diplomat over attempt to kill US-Ukrainian rapper",
+     "u": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-20T18:16:12Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T15:43:39Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-22T03:01:00Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-20T16:12:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012427847.html",
+    "t": "Epäily: Venäjän tiedustelu värväsi tanskalaisia murhaamaan ukrainalaisen rap-artistin Tanskassa",
+    "s": 0.847
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-22T03:01:00Z"
+  },
+  "4051": {
+   "id": "4051",
+   "first_seen": "2026-11-18T11:05:14Z",
+   "headline": "EU and UK strike post-Brexit reset deal as Russian missiles hit Poland",
+   "headline_en": "EU and UK strike post-Brexit reset deal as Russian missiles hit Poland",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-22T01:42:55Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    19
+   ],
+   "this_week": 19,
+   "velocity": 19,
+   "markets": {
+    "intl": 3,
+    "uk": 7
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "EU and UK strike post-Brexit reset deal as Russian missiles hit Poland",
+     "u": "https://www.euronews.com/2026/11/20/europe-tonight-eu-and-uk-strike-post-brexit-reset-deal-as-russian-missiles-hit-poland",
+     "d": "euronews.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-20T17:02:14Z"
+    },
+    {
+     "t": "Burnham to set out options next month for long-term EU relationship",
+     "u": "https://www.bbc.co.uk/news/articles/cwm2j3nyd44ko",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-17T20:00:00Z"
+    },
+    {
+     "t": "英・EU、食品輸出や青少年プログラムなどで合意　関係深化を検討するとバーナム英首相",
+     "u": "https://www.bbc.com/japanese/articles/c61wr0wnnpxpo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ja",
+     "p": "2026-11-21T03:45:57Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T20:00:00Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "geopolitics",
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-22T03:01:00Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4176": {
+   "id": "4176",
+   "first_seen": "2026-11-22T01:42:54Z",
+   "headline": "Anthropic mathematician says he and Claude proved the Riemann hypothesis",
+   "headline_en": "Anthropic mathematician says he and Claude proved the Riemann hypothesis",
+   "headline_fi": "Matemaatikko väittää ratkaisseensa vuosisatoja vanhan arvoituksen tekoälyllä",
+   "state": "emergence",
+   "last_seen": "2026-11-22T01:42:54Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    17
+   ],
+   "this_week": 17,
+   "velocity": 3.4,
+   "markets": {
+    "intl": 3,
+    "es": 1,
+    "fi": 2,
+    "uk": 2,
+    "us": 1,
+    "de": 1
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "Anthropic mathematician says he and Claude proved the Riemann hypothesis",
+     "u": "https://thenextweb.com/news/anthropic-alpoge-claude-riemann-hypothesis-proof-lean",
+     "d": "thenextweb.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-21T13:12:58Z"
+    },
+    {
+     "t": "Anthropic staffer claims solution to mathematics' Riemann hypothesis",
+     "u": "https://www.ft.com/content/fa8eeb49-2cb4-4286-8131-03db15383d87",
+     "d": "ft.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-20T18:11:30Z"
+    },
+    {
+     "t": "Un matemático de Anthropic asegura haber resuelto la hipótesis de Riemann, el mayor enigma de las matemáticas, con ayuda de la IA",
+     "u": "https://elpais.com/us/2026-11-21/un-matematico-de-anthropic-asegura-haber-resuelto-la-hipotesis-de-riemann-el-mayor-enigma-de-las-matematicas-con-ayuda-de-la-ia.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-21T01:12:10Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T17:30:00Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-22T03:01:00Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-21T00:10:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012428284.html",
+    "t": "Matemaatikko teki hämmästyttävän väitteen - tekoäly saattoi ratkaista 167 vuotta vanhan arvoituksen",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-22T03:01:00Z"
+  },
+  "4217": {
+   "id": "4217",
+   "first_seen": "2026-11-22T01:43:28Z",
+   "headline": "高市首相首次访华被冷遇 或激发日本国内更多拥护",
+   "headline_en": "Power plays, verbal displays, Xi-Trump-Putin talk: historic Apec summit explained",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-22T01:43:28Z",
+   "weekly": [
+    1,
+    1,
+    1,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 13,
+   "markets": {
+    "de": 2,
+    "intl": 6,
+    "us": 1,
+    "uk": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "高市首相首次访华被冷遇 或激发日本国内更多拥护",
+     "u": "https://www.dw.com/zh/%E9%AB%98%E5%B8%82%E9%A6%96%E7%9B%B8%E9%A6%96%E6%AC%A1%E8%AE%BF%E5%8D%8E%E8%A2%AB%E5%86%B7%E9%81%87-%E6%88%96%E6%BF%80%E5%8F%91%E6%97%A5%E6%9C%AC%E5%9B%BD%E5%86%85%E6%9B%B4%E5%A4%9A%E6%8B%A5%E6%8A%A4/a-80005039",
+     "d": "dw.com",
+     "c": "de",
+     "l": "zh",
+     "p": "2026-11-20T15:12:21Z"
+    },
+    {
+     "t": "Power plays, verbal displays, Xi-Trump-Putin talk: historic Apec summit explained",
+     "u": "https://www.scmp.com/news/china/diplomacy/article/3375122/power-plays-verbal-displays-xi-trump-putin-talk-historic-apec-summit-explained",
+     "d": "scmp.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-19T15:13:57Z"
+    },
+    {
+     "t": "Xi greets Takaichi with a smile – but no words – as China-Japan freeze lingers",
+     "u": "https://www.scmp.com/news/china/diplomacy/article/3374944/xi-greets-takaichi-smile-no-words-china-japan-freeze-lingers",
+     "d": "scmp.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-18T13:37:03Z"
+    }
+   ],
+   "abroad_first": "2026-11-16T10:09:16Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics",
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-22T03:01:00Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4167": {
+   "id": "4167",
+   "first_seen": "2026-11-20T12:11:54Z",
+   "headline": "BASF stoppt Evonik-Übernahme: Warum der Plan gescheitert ist",
+   "headline_en": "BASF says it ends pursuit of Evonik after rejection of $12 billion bid",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-22T01:43:23Z",
+   "weekly": [
+    0,
+    0,
+    1,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 11,
+   "markets": {
+    "de": 8,
+    "intl": 2
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "BASF stoppt Evonik-Übernahme: Warum der Plan gescheitert ist",
+     "u": "https://www.wiwo.de/unternehmen/industrie/basf-stoppt-evonik-uebernahme-warum-der-plan-gescheitert-ist/100271329.html",
+     "d": "wiwo.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-19T16:42:36Z"
+    },
+    {
+     "t": "Chemieindustrie: BASF zieht Angebot für Evonik zurück",
+     "u": "https://www.handelsblatt.com/unternehmen/industrie/chemieindustrie-basf-zieht-angebot-fuer-evonik-zurueck/100271324.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-19T14:18:31Z"
+    },
+    {
+     "t": "Keine Fusion in der Chemiebranche: BASF sagt Evonik-Übernahme ab",
+     "u": "https://www.spiegel.de/wirtschaft/basf-sagt-evonik-uebernahme-ab-a-8ac0a370-d80e-4f40-834b-6ebbaec30a90",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-19T14:46:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-18T09:16:44Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-22T03:01:00Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4072": {
+   "id": "4072",
+   "first_seen": "2026-11-18T23:29:57Z",
+   "headline": "Trump nominee refuses to call Jan 6 an attack: ‘Were you alive on the planet’",
+   "headline_en": "Trump nominee refuses to call Jan 6 an attack: ‘Were you alive on the planet’",
+   "headline_fi": "Trumpin kyberjohtaja sai potkut - Yhdysvaltoja koetellut poikkeuksellinen häiriöaalto",
+   "state": "emergence",
+   "last_seen": "2026-11-22T01:43:16Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    13
+   ],
+   "this_week": 13,
+   "velocity": 2.6,
+   "markets": {
+    "uk": 5,
+    "us": 2,
+    "es": 1,
+    "fi": 2
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Trump nominee refuses to call Jan 6 an attack: ‘Were you alive on the planet’",
+     "u": "https://www.independent.co.uk/news/world/americas/us-politics/trump-nominee-michael-losapio-jan-6-attack-b3088251.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-19T20:28:53Z"
+    },
+    {
+     "t": "The Latest: Mullin faces Congress over flight disruptions, football trip and immigration",
+     "u": "https://www.independent.co.uk/news/world/americas/markwayne-mullin-donald-trump-hakeem-jeffries-xi-jinping-pete-hegseth-b3087367.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-18T16:32:52Z"
+    },
+    {
+     "t": "Rubio says tech outages are not part of 'systemic attack' against US",
+     "u": "https://www.bbc.com/news/articles/crkgvxxwpwz2o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-18T02:15:19Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T21:34:50Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "tech",
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-22T03:01:00Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-20T01:52:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/maailma/art-2000012425424.html",
+    "t": "Trumpin hallinnon kyberjohtaja sai potkut, erottamista edelsivät useat tekniset häiriöt",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-22T03:01:00Z"
+  },
+  "4182": {
+   "id": "4182",
+   "first_seen": "2026-11-22T01:42:57Z",
+   "headline": "Haiti police say at least 34 suspected gang members killed in raid",
+   "headline_en": "Haiti police say at least 34 suspected gang members killed in raid",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-22T01:42:57Z",
+   "weekly": [
+    14,
+    4,
+    5,
+    16
+   ],
+   "this_week": 16,
+   "velocity": 3.2,
+   "markets": {
+    "intl": 4,
+    "uk": 3,
+    "de": 2,
+    "es": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Haiti police say at least 34 suspected gang members killed in raid",
+     "u": "https://www.aljazeera.com/news/2026/11/19/haiti-police-say-at-least-34-suspected-gang-members-killed-in-raid",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-19T21:39:39Z"
+    },
+    {
+     "t": "Why are Bukele's Salvadoran troops in Haiti and what have they achieved?",
+     "u": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-19T20:54:08Z"
+    },
+    {
+     "t": "Qué tan poderosas son las pandillas a las que se enfrenta Bukele en Haití",
+     "u": "https://www.bbc.com/mundo/watch/cxj05r723gpjo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "es",
+     "p": "2026-11-16T19:14:07Z"
+    }
+   ],
+   "abroad_first": "2026-11-16T15:44:07Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "4204": {
+   "id": "4204",
+   "first_seen": "2026-11-22T01:43:15Z",
+   "headline": "Pilvinen ja lauha sää jatkuu, viikonloppua kohti viilenee",
+   "headline_en": null,
+   "headline_fi": "Pilvinen ja lauha sää jatkuu, viikonloppua kohti viilenee",
+   "state": "acceleration",
+   "last_seen": "2026-11-22T01:43:15Z",
+   "weekly": [
+    1,
+    7,
+    9,
+    15
+   ],
+   "this_week": 15,
+   "velocity": 1.6666666666666667,
+   "markets": {
+    "fi": 10
+   },
+   "outlets": 4,
+   "samples": [],
+   "abroad_first": "2026-11-22T01:43:15Z",
+   "markets_abroad": 0,
+   "subjects": [],
+   "relevant": false
+  },
+  "4005": {
+   "id": "4005",
+   "first_seen": "2026-11-17T10:27:57Z",
+   "headline": "Katso kuvista, miten Ruotsin prinsessa Estellen TET-viikko Helsingissä sujui",
+   "headline_en": null,
+   "headline_fi": "Tämä prinsessa Estellen vierailusta Helsingissä tiedetään - HBL: Suurlähettiläältä yllättävä arvio Stubbin roolista",
+   "state": "emergence",
+   "last_seen": "2026-11-22T01:42:57Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 1.6,
+   "markets": {
+    "fi": 8
+   },
+   "outlets": 5,
+   "samples": [],
+   "abroad_first": "2026-11-17T10:27:57Z",
+   "markets_abroad": 0,
    "subjects": [],
    "relevant": false
   }
