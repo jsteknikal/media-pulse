@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-22T09:15:38Z",
+  "last_run": "2026-11-22T12:15:41Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 33,
+  "similar_left": 44,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -16430,42 +16430,26 @@
    "id": "4042",
    "first_seen": "2026-11-18T11:05:11Z",
    "headline": "Israeli parliament elects new Knesset speaker backed by Netanyahu's opponents",
-   "headline_en": "Eisenkot-led bloc replaces Netanyahu ally as Knesset speaker",
+   "headline_en": "Israeli parliament elects new Knesset speaker backed by Netanyahu's opponents",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-20T00:01:00Z",
+   "last_seen": "2026-11-22T01:43:58Z",
    "weekly": [
-    0,
     1,
-    3,
+    0,
+    4,
     12
    ],
    "this_week": 12,
-   "velocity": 4,
+   "velocity": 3,
    "markets": {
-    "intl": 2,
-    "uk": 2,
     "us": 2,
-    "de": 2
+    "de": 4,
+    "intl": 1,
+    "uk": 3
    },
-   "outlets": 8,
+   "outlets": 9,
    "samples": [
-    {
-     "t": "Eisenkot-led bloc replaces Netanyahu ally as Knesset speaker",
-     "u": "https://www.reuters.com/world/middle-east/eisenkot-led-bloc-replaces-netanyahu-ally-knesset-speaker-2026-11-17/",
-     "d": "reuters.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-17T22:14:48Z"
-    },
-    {
-     "t": "انتخاب متان كهانا من حزب يقوده آيزنكوت رئيساً للكنيست الإسرائيلي - BBC News عربي",
-     "u": "https://www.bbc.com/arabic/articles/cm792d8pqy1ro",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "ar",
-     "p": "2026-11-18T03:46:15Z"
-    },
     {
      "t": "Israeli parliament elects new Knesset speaker backed by Netanyahu's opponents",
      "u": "https://apnews.com/article/israel-knesset-speaker-matan-kahana-342956b9475b69ba5181fd9057eb0b68",
@@ -16473,6 +16457,22 @@
      "c": "us",
      "l": "en",
      "p": "2026-11-17T21:23:26Z"
+    },
+    {
+     "t": "Israel: Eisenkot erringt in der Knesset einen Erfolg über Netanjahu",
+     "u": "https://www.faz.net/aktuell/politik/ausland/israel-eisenkot-erringt-in-der-knesset-einen-erfolg-ueber-netanjahu-201694496.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-18T15:37:54Z"
+    },
+    {
+     "t": "Eisenkot-led bloc replaces Netanyahu ally as Knesset speaker",
+     "u": "https://www.reuters.com/world/middle-east/eisenkot-led-bloc-replaces-netanyahu-ally-knesset-speaker-2026-11-17/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-17T22:14:48Z"
     }
    ],
    "abroad_first": "2026-11-17T21:23:26Z",
@@ -16481,7 +16481,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-20T07:15:47Z",
+   "checked": "2026-11-22T12:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17212,7 +17212,7 @@
    "headline_en": "Austria's ex-foreign minister Kneissl says Vienna is revoking her citizenship, TASS reports",
    "headline_fi": "Itävallan ex-ulkoministeri tanssi häissään Putinin kanssa - väittää nyt kansalaisuutensa olevan vaakalaudalla",
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:40Z",
+   "last_seen": "2026-11-22T01:43:45Z",
    "weekly": [
     0,
     0,
