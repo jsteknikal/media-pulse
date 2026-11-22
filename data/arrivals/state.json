@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-22T03:01:00Z",
+  "last_run": "2026-11-22T06:15:38Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 29,
+  "similar_left": 44,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -17396,9 +17396,18 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-21T23:45:37Z",
+   "checked": "2026-11-22T06:15:38Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-19T20:25:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012425088.html",
+    "t": "Putin puhui \"tuskallisesta\" kostosta",
+    "s": 0.849
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-22T06:15:38Z"
   },
   "4022": {
    "id": "4022",
