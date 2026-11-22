@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-22T18:45:49Z",
+  "last_run": "2026-11-22T22:00:31Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 32,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -12125,7 +12125,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12586,7 +12586,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14367,7 +14367,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15598,7 +15598,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16066,7 +16066,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16124,7 +16124,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16420,7 +16420,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16856,7 +16856,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17654,7 +17654,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17784,7 +17784,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17841,7 +17841,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18209,7 +18209,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18337,7 +18337,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-22T15:30:53Z",
+   "checked": "2026-11-22T22:00:31Z",
    "check_how": "url",
    "check_error": null
   },
