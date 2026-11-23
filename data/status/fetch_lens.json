@@ -1,15 +1,22 @@
 {
- "time": "2026-11-23T00:45:35Z",
+ "time": "2026-11-23T01:00:58Z",
  "new_articles": 0,
  "sources": [
   {
    "id": "uusiouutiset",
-   "state": "ok",
+   "state": "partial",
    "fetched": 10,
    "new": 0,
-   "errors": [],
+   "errors": [
+    "https://www.uusiouutiset.fi/feed/: TimeoutError: The read operation timed out",
+    "https://uusiouutiset.fi/comments/feed/: TimeoutError: The read operation timed out"
+   ],
    "feeds_used": [
-    "https://www.uusiouutiset.fi/feed/"
+    "https://uusiouutiset.fi/feed/"
+   ],
+   "discovered": [
+    "https://uusiouutiset.fi/feed/",
+    "https://uusiouutiset.fi/comments/feed/"
    ]
   },
   {
