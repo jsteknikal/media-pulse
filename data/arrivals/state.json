@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-23T01:00:58Z",
+  "last_run": "2026-11-23T04:01:03Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 31,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -12125,7 +12125,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -12586,7 +12586,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14367,7 +14367,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14432,14 +14432,14 @@
    "headline_en": "Trump, Putin and Xi to discuss 'world peace,' China says",
    "headline_fi": "Trump, Putin ja Xi kohtaavat historiallisessa huippukokouksessa, Euroopassa pelätään seurauksia",
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:05Z",
+   "last_seen": "2026-11-23T02:29:19Z",
    "weekly": [
     1,
-    4,
-    52,
-    331
+    6,
+    92,
+    289
    ],
-   "this_week": 331,
+   "this_week": 289,
    "velocity": 34.22222222222222,
    "markets": {
     "fi": 2,
@@ -14570,23 +14570,23 @@
    "first_seen": "2026-11-17T10:27:24Z",
    "headline": "Nvidia: Konzern schließt Rückkehr von Jensen Huang offenbar aus",
    "headline_en": "Trump backs Jensen Huang’s return as Nvidia board reportedly says no",
-   "headline_fi": "PÖRSSIT: Tekoälysektoria hakataan taas Wall Streetillä",
-   "state": "emergence",
-   "last_seen": "2026-11-22T14:08:23Z",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-23T02:29:35Z",
    "weekly": [
     0,
     0,
-    0,
-    39
+    11,
+    28
    ],
-   "this_week": 39,
-   "velocity": 7,
+   "this_week": 28,
+   "velocity": 2.5454545454545454,
    "markets": {
-    "de": 4,
-    "intl": 5,
-    "fi": 1
+    "de": 2,
+    "intl": 7,
+    "uk": 1
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
     {
      "t": "Nvidia: Konzern schließt Rückkehr von Jensen Huang offenbar aus",
@@ -14605,20 +14605,20 @@
      "p": "2026-11-17T08:10:57Z"
     },
     {
-     "t": "Nvidia: USA verschärfen Exportbeschränkungen für KI-Chips nach Skandal",
-     "u": "https://www.manager-magazin.de/unternehmen/tech/usa-verschaerfen-exportbeschraenkungen-fuer-ki-chips-a-5ca68afa-88cc-4b3f-8454-a8eb25e611fb",
-     "d": "manager-magazin.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-16T16:07:00Z"
+     "t": "China warns US of countermeasures over new AI chip remote access curbs",
+     "u": "https://thenextweb.com/news/china-warns-us-of-countermeasures-over-new-ai-chip-remote-access-curbs",
+     "d": "thenextweb.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-17T15:37:33Z"
     }
    ],
    "abroad_first": "2026-11-16T13:07:41Z",
-   "markets_abroad": 2,
+   "markets_abroad": 3,
    "subjects": [
     "tech",
-    "business",
-    "geopolitics"
+    "geopolitics",
+    "business"
    ],
    "relevant": true,
    "checked": "2026-11-17T10:30:57Z",
@@ -15549,7 +15549,7 @@
    "headline_en": "UK sanctions eight Israeli construction firms over West Bank settlements",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:09:23Z",
+   "last_seen": "2026-11-23T02:30:23Z",
    "weekly": [
     0,
     0,
@@ -15598,7 +15598,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15609,14 +15609,14 @@
    "headline_en": "US loses measles elimination status after 26 years amid record case numbers",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:45Z",
+   "last_seen": "2026-11-23T02:29:52Z",
    "weekly": [
     1,
     0,
-    9,
-    31
+    11,
+    29
    ],
-   "this_week": 31,
+   "this_week": 29,
    "velocity": 3.4444444444444446,
    "markets": {
     "uk": 3,
@@ -15690,7 +15690,7 @@
    "headline_en": "Russian military transport plane crashes in Siberia, killing 19, according to Defense Ministry",
    "headline_fi": "Sotilaskone syöksyi maahan Venäjällä - jopa 17 kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-22T14:09:16Z",
+   "last_seen": "2026-11-23T02:30:17Z",
    "weekly": [
     0,
     0,
@@ -15852,14 +15852,14 @@
    "headline_en": "Anthropic shares to open 20 per cent higher on blockbuster debut",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:07Z",
+   "last_seen": "2026-11-23T02:29:21Z",
    "weekly": [
-    90,
-    29,
-    66,
-    205
+    58,
+    15,
+    76,
+    190
    ],
-   "this_week": 205,
+   "this_week": 190,
    "velocity": 3.3793103448275863,
    "markets": {
     "uk": 1,
@@ -15921,7 +15921,7 @@
    "headline_en": "'Crimea is turning into an island': How Ukraine hit Putin's prized bridge",
    "headline_fi": "Yksi kuva näyttää Krimin sillan massiiviset tuhot",
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:28Z",
+   "last_seen": "2026-11-23T02:29:38Z",
    "weekly": [
     0,
     0,
@@ -15985,18 +15985,18 @@
   "4063": {
    "id": "4063",
    "first_seen": "2026-11-18T11:05:29Z",
-   "headline": "På tisdag klockan 12 får du ett meddelande i din telefon: Finlands nya varningssystem testas",
+   "headline": "Testiviesti jäi monilta saamatta - Näin saat vaaratiedotteet puhelimeesi",
    "headline_en": null,
    "headline_fi": "Testiviesti jäi monilta saamatta - Näin saat vaaratiedotteet puhelimeesi",
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:28Z",
+   "last_seen": "2026-11-23T02:29:38Z",
    "weekly": [
-    1,
-    4,
-    2,
-    23
+    3,
+    3,
+    3,
+    21
    ],
-   "this_week": 23,
+   "this_week": 21,
    "velocity": 11,
    "markets": {
     "fi": 10
@@ -16017,7 +16017,7 @@
    "headline_en": "US Defense Secretary Hegseth vows to boost Venezuela military cooperation",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:09:01Z",
+   "last_seen": "2026-11-23T02:30:05Z",
    "weekly": [
     0,
     0,
@@ -16066,7 +16066,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16077,7 +16077,7 @@
    "headline_en": "Deutsche Bank leak revives scrutiny over Epstein and oligarch ties",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:09:04Z",
+   "last_seen": "2026-11-23T02:30:07Z",
    "weekly": [
     0,
     0,
@@ -16124,7 +16124,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16135,7 +16135,7 @@
    "headline_en": "Uncontacted Awá of Brazil Emerge From Rainforest Seeking Food",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:09:03Z",
+   "last_seen": "2026-11-23T02:30:07Z",
    "weekly": [
     0,
     0,
@@ -16545,7 +16545,7 @@
    "headline_en": "US National Security Agency's classified internal network reportedly goes offline",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:09:12Z",
+   "last_seen": "2026-11-23T02:30:13Z",
    "weekly": [
     0,
     0,
@@ -16603,7 +16603,7 @@
    "headline_en": "Japan protests after Russian aircraft breach its airspace",
    "headline_fi": "Japani moittii Venäjää epäillystä ilmatilaloukkauksesta",
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:57Z",
+   "last_seen": "2026-11-23T02:30:01Z",
    "weekly": [
     0,
     0,
@@ -16672,7 +16672,7 @@
    "headline_en": "UN court rules Myanmar committed genocide in landmark verdict",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:15Z",
+   "last_seen": "2026-11-23T02:29:27Z",
    "weekly": [
     0,
     0,
@@ -16736,18 +16736,18 @@
   "4129": {
    "id": "4129",
    "first_seen": "2026-11-20T12:11:17Z",
-   "headline": "The City of London isn't up for more Brexit trauma",
+   "headline": "The EU that Burnham is eyeing up is very different to the one Britain left",
    "headline_en": "The City of London isn't up for more Brexit trauma",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:07:58Z",
+   "last_seen": "2026-11-23T02:29:14Z",
    "weekly": [
-    24,
-    17,
-    17,
-    76
+    19,
+    15,
+    29,
+    62
    ],
-   "this_week": 76,
+   "this_week": 62,
    "velocity": 2.875,
    "markets": {
     "intl": 4,
@@ -16808,11 +16808,11 @@
    "headline_en": "Explainer: What is the EU's new €45 billion Ukraine loan plan?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:28Z",
+   "last_seen": "2026-11-23T02:29:38Z",
    "weekly": [
     1,
-    0,
-    2,
+    1,
+    1,
     21
    ],
    "this_week": 21,
@@ -16856,7 +16856,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16937,7 +16937,7 @@
    "headline_en": "White House replaces cyber security chief after tech outages",
    "headline_fi": "Trumpin hallinnon kyberjohtaja sai potkut, erottamista edelsivät useat tekniset häiriöt",
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:04Z",
+   "last_seen": "2026-11-23T02:29:18Z",
    "weekly": [
     0,
     0,
@@ -17005,7 +17005,7 @@
    "headline_en": "Fiona the hippo dies 11 days after swallowing visitor’s hat, Cincinnati Zoo says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:21Z",
+   "last_seen": "2026-11-23T02:29:33Z",
    "weekly": [
     0,
     0,
@@ -17059,11 +17059,11 @@
    "headline_en": "Men guilty of abusing woman drugged and advertised for sex by husband",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:36Z",
+   "last_seen": "2026-11-23T02:29:45Z",
    "weekly": [
-    7,
-    4,
-    2,
+    8,
+    3,
+    1,
     27
    ],
    "this_week": 27,
@@ -17166,7 +17166,7 @@
    "headline_en": "Muslims to outnumber Christians globally by 2035, research shows",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:39Z",
+   "last_seen": "2026-11-23T02:29:46Z",
    "weekly": [
     0,
     0,
@@ -17288,7 +17288,7 @@
    "headline_en": "As Outages Multiply, New Yorkers Are Bracing? For What? No One Is Sure.",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:48Z",
+   "last_seen": "2026-11-23T02:29:55Z",
    "weekly": [
     0,
     0,
@@ -17358,7 +17358,7 @@
    "headline_en": "Ukraine war briefing: US criticism of Kyiv's deep strikes in Russia is 'quite stupid', says Germany",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:34Z",
+   "last_seen": "2026-11-23T02:29:43Z",
    "weekly": [
     0,
     0,
@@ -17537,7 +17537,7 @@
    "headline_en": "Denmark to expel Russian diplomat over attempt to kill US-Ukrainian rapper",
    "headline_fi": "Tanska syyttää Venäjää salamurhajuonesta - ryhtyi toimiin",
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:07Z",
+   "last_seen": "2026-11-23T02:29:22Z",
    "weekly": [
     0,
     0,
@@ -17607,14 +17607,14 @@
    "headline_en": "EU and UK strike post-Brexit reset deal as Russian missiles hit Poland",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:11Z",
+   "last_seen": "2026-11-23T02:29:24Z",
    "weekly": [
     0,
     0,
-    1,
-    24
+    2,
+    23
    ],
-   "this_week": 24,
+   "this_week": 23,
    "velocity": 19,
    "markets": {
     "intl": 3,
@@ -17654,7 +17654,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17665,14 +17665,14 @@
    "headline_en": "Anthropic mathematician says he and Claude proved the Riemann hypothesis",
    "headline_fi": "Matemaatikko väittää ratkaisseensa vuosisatoja vanhan arvoituksen tekoälyllä",
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:09Z",
+   "last_seen": "2026-11-23T02:29:13Z",
    "weekly": [
     0,
     0,
     0,
-    29
+    30
    ],
-   "this_week": 29,
+   "this_week": 30,
    "velocity": 3.4,
    "markets": {
     "intl": 3,
@@ -17735,14 +17735,14 @@
    "headline_en": "Power plays, verbal displays, Xi-Trump-Putin talk: historic Apec summit explained",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:37Z",
+   "last_seen": "2026-11-23T02:29:45Z",
    "weekly": [
     1,
     1,
-    1,
-    14
+    2,
+    13
    ],
-   "this_week": 14,
+   "this_week": 13,
    "velocity": 13,
    "markets": {
     "de": 2,
@@ -17784,7 +17784,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17841,7 +17841,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17852,7 +17852,7 @@
    "headline_en": "Trump nominee refuses to call Jan 6 an attack: ‘Were you alive on the planet’",
    "headline_fi": "Trumpin kyberjohtaja sai potkut - Yhdysvaltoja koetellut poikkeuksellinen häiriöaalto",
    "state": "emergence",
-   "last_seen": "2026-11-22T01:43:16Z",
+   "last_seen": "2026-11-23T02:29:51Z",
    "weekly": [
     0,
     0,
@@ -18027,14 +18027,14 @@
    "headline_en": "Russia-bound ship attacked in Gulf of Finland",
    "headline_fi": "Suora lähetys kello 17.15: Viranomaiset kertovat Suomeen ajautuneesta palavasta venäläisaluksesta",
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:07:59Z",
+   "last_seen": "2026-11-23T02:29:13Z",
    "weekly": [
     0,
     0,
     1,
-    78
+    79
    ],
-   "this_week": 78,
+   "this_week": 79,
    "velocity": 78,
    "markets": {
     "fi": 5,
@@ -18096,14 +18096,14 @@
    "headline_en": "Jewish Heirs and Consignors Settle Claim Over $180 Million van Gogh Ahead of Sale",
    "headline_fi": "Posketon soppa ökyhuutokaupassa - perilliset vetosivat natsivainoihin",
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:16Z",
+   "last_seen": "2026-11-23T02:29:28Z",
    "weekly": [
     0,
     0,
-    5,
-    20
+    8,
+    17
    ],
-   "this_week": 20,
+   "this_week": 17,
    "velocity": 4.5,
    "markets": {
     "de": 5,
@@ -18160,24 +18160,33 @@
    "id": "4172",
    "first_seen": "2026-11-20T12:12:13Z",
    "headline": "Nations agree to 'elaborate' on rules for AI-run 'killer robots' by 2028",
-   "headline_en": "U.N. Starts Uncertain Effort to Regulate Lethal Autonomous Weapons",
+   "headline_en": "Nations agree to 'elaborate' on rules for AI-run 'killer robots' by 2028",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-22T14:08:03Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-23T02:29:17Z",
    "weekly": [
     0,
     0,
-    0,
-    19
+    5,
+    14
    ],
-   "this_week": 19,
-   "velocity": 1.2,
+   "this_week": 14,
+   "velocity": 2.8,
    "markets": {
+    "intl": 3,
     "de": 5,
-    "us": 1
+    "us": 2
    },
-   "outlets": 6,
+   "outlets": 9,
    "samples": [
+    {
+     "t": "Nations agree to 'elaborate' on rules for AI-run 'killer robots' by 2028",
+     "u": "https://www.aljazeera.com/news/2026/11/21/nations-agree-to-draft-rules-for-killer-robots-at-arms-control-summit",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-21T10:25:29Z"
+    },
     {
      "t": "Autonome KI-Waffen: \"Gebremst wird erst, wenn es zu einem Unfall...",
      "u": "https://www.diepresse.com/41464938/autonome-ki-waffen-gebremst-wird-erst-wenn-es-zu-einem-unfall-kommt",
@@ -18187,29 +18196,22 @@
      "p": "2026-11-18T18:48:34Z"
     },
     {
-     "t": "Killerroboter: 128 Staaten beraten in Genf über KI-Waffenverbote",
-     "u": "https://www.faz.net/aktuell/politik/killerroboter-128-staaten-beraten-in-genf-ueber-ki-waffenverbote-accg-201687691.html",
-     "d": "faz.net",
+     "t": "UN-Waffenkonvention: Einsatz von Killerrobotern bleibt unklar",
+     "u": "https://www.dw.com/de/un-waffenkonvention-einsatz-von-killerrobotern-bleibt-unklar/a-80008965",
+     "d": "dw.com",
      "c": "de",
      "l": "de",
-     "p": "2026-11-16T14:10:53Z"
-    },
-    {
-     "t": "Wenn KI über Leben und Tod entscheidet: Debatte über autonome Waffen in Genf",
-     "u": "https://www.nzz.ch/pro/wenn-die-kuenstliche-intelligenz-das-militaerische-ziel-auswaehlt-ld.10059837",
-     "d": "nzz.ch",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-16T04:30:00Z"
+     "p": "2026-11-21T10:20:55Z"
     }
    ],
    "abroad_first": "2026-11-16T02:55:09Z",
-   "markets_abroad": 2,
+   "markets_abroad": 3,
    "subjects": [
-    "tech"
+    "tech",
+    "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-22T22:00:31Z",
+   "checked": "2026-11-23T04:01:03Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18220,7 +18222,7 @@
    "headline_en": "Costa eyes tax on Big Tech to boost EU budget after Trump's poor midterms showing",
    "headline_fi": "EU harkitsee budjettinsa rahoittamista digijättejä verottamalla",
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:22Z",
+   "last_seen": "2026-11-23T02:29:34Z",
    "weekly": [
     0,
     0,
@@ -18348,7 +18350,7 @@
    "headline_en": "What the Crimean bridge attack means for Russia",
    "headline_fi": "Putin puhui \"tuskallisesta\" kostosta",
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:01Z",
+   "last_seen": "2026-11-23T02:29:16Z",
    "weekly": [
     0,
     0,
@@ -18417,7 +18419,7 @@
    "headline_en": "Eleven killed in burst of violence during Mexican cartel leader's capture",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:00Z",
+   "last_seen": "2026-11-23T02:29:14Z",
    "weekly": [
     0,
     0,
@@ -18471,7 +18473,7 @@
    "headline_en": "Bayern Munich's Harry Kane facing around three months out with torn ankle ligaments",
    "headline_fi": "Harry Kanelle ikävä takaisku - edessä kuukausien sairausloma",
    "state": "emergence",
-   "last_seen": "2026-11-22T14:08:15Z",
+   "last_seen": "2026-11-23T02:29:27Z",
    "weekly": [
     0,
     0,
@@ -18517,6 +18519,204 @@
    "markets_abroad": 3,
    "subjects": [],
    "relevant": false
+  },
+  "4274": {
+   "id": "4274",
+   "first_seen": "2026-11-23T02:29:12Z",
+   "headline": "COP31: UN Climate summit runs into overtime as deal remains elusive",
+   "headline_en": "COP31: UN Climate summit runs into overtime as deal remains elusive",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-23T02:29:12Z",
+   "weekly": [
+    3,
+    39,
+    39,
+    64
+   ],
+   "this_week": 64,
+   "velocity": 1.641025641025641,
+   "markets": {
+    "de": 2,
+    "intl": 5,
+    "fi": 1,
+    "us": 1,
+    "se": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "COP31: UN Climate summit runs into overtime as deal remains elusive",
+     "u": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-overtime-as-deal-remains-elusive/live-79999516",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-20T09:52:58Z"
+    },
+    {
+     "t": "Fossil fuel impasse pushes COP31 climate talks into second day of overtime",
+     "u": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-22T04:51:35Z"
+    },
+    {
+     "t": "COP31: UN Climate summit runs into second day of overtime",
+     "u": "https://www.dw.com/en/cop31-un-climate-summit-runs-into-second-day-of-overtime/live-79999516",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-20T09:52:58Z"
+    }
+   ],
+   "abroad_first": "2026-11-17T14:00:00Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "sustainability",
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-23T04:01:03Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-21T13:51:04Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20258274",
+    "t": "Ilmastokokous venymässä huomisen puolelle - EU vaatii, että fossiilisista polttoaineista luopuminen on mukana päätöksessä",
+    "s": 0.864
+   },
+   "fi_count": 4,
+   "arrived_at": "2026-11-23T04:01:03Z"
+  },
+  "4275": {
+   "id": "4275",
+   "first_seen": "2026-11-23T02:29:18Z",
+   "headline": "Donald Trump vill stoppa AI-center utanför USA: \"Enorm skatt",
+   "headline_en": "Donald Trump threatens 'tremendous' tax on data centres built outside US",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-23T02:29:18Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    35
+   ],
+   "this_week": 35,
+   "velocity": 7,
+   "markets": {
+    "se": 1,
+    "de": 4,
+    "intl": 4,
+    "es": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Donald Trump vill stoppa AI-center utanför USA: \"Enorm skatt",
+     "u": "https://www.svt.se/nyheter/utrikes/donald-trump-vill-stoppa-ai-center-utanfor-usa-enorm-skatt",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-20T18:20:11Z"
+    },
+    {
+     "t": "Anthropic und Co: Trump droht KI-Konzernen, wenn sie Rechenzentren im Ausland bauen",
+     "u": "https://www.manager-magazin.de/politik/weltwirtschaft/anthropic-und-co-trump-droht-ki-konzernen-wenn-sie-rechenzentren-im-ausland-bauen-a-1134a73c-e73c-46e6-8794-a1f89dc0f7e3",
+     "d": "manager-magazin.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-21T08:38:00Z"
+    },
+    {
+     "t": "KI-Industrie: Trump warnt US-Konzerne vor Bau von KI-Rechenzentren im Ausland",
+     "u": "https://www.handelsblatt.com/politik/international/ki-industrie-trump-warnt-us-konzerne-vor-bau-von-ki-rechenzentren-im-ausland/100271667.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-20T19:15:12Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T18:08:18Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "tech",
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-23T04:01:03Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-21T16:57:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/taloussanomat/art-2000012428572.html",
+    "t": "Muhoksen kunnanjohtaja Trumpin uhkauksesta: En menetä yöuniani",
+    "s": 0.885
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-23T04:01:03Z"
+  },
+  "4277": {
+   "id": "4277",
+   "first_seen": "2026-11-23T02:29:25Z",
+   "headline": "Ungdomsutbyte mellan EU och Storbritannien",
+   "headline_en": "Transcript: Burnham's Brexit reset",
+   "headline_fi": "Analyysi: Britannia saa nuoret ja makkarat liikkeelle, mutta EU piti saneluvallan - ja suojautui Nigel Faragelta",
+   "state": "acceleration",
+   "last_seen": "2026-11-23T02:29:25Z",
+   "weekly": [
+    0,
+    2,
+    1,
+    14
+   ],
+   "this_week": 14,
+   "velocity": 14,
+   "markets": {
+    "fi": 2,
+    "intl": 1,
+    "uk": 5,
+    "de": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Transcript: Burnham's Brexit reset",
+     "u": "https://www.ft.com/content/f94736b9-11d4-49b6-83a1-f32bd6295546",
+     "d": "ft.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-20T21:51:43Z"
+    },
+    {
+     "t": "Rejoining EU 'on the table' as UK strikes deals on trade and young people",
+     "u": "https://www.theguardian.com/politics/2026/nov/21/rejoining-eu-uk-trade-youth-deals-ed-miliband",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-21T09:45:52Z"
+    },
+    {
+     "t": "Samiti BE - Mbretëri e Bashkuar: \"Marrëveshje historike\"",
+     "u": "https://www.dw.com/sq/samiti-be-mbret%C3%ABri-e-bashkuar-marr%C3%ABveshje-historike/a-80007501",
+     "d": "dw.com",
+     "c": "de",
+     "l": "sqi",
+     "p": "2026-11-20T23:34:15Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T10:02:56Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-23T04:01:03Z",
+   "check_how": "url",
+   "check_error": null
   }
  }
 }
