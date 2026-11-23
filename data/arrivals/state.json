@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-23T07:01:04Z",
+  "last_run": "2026-11-23T10:15:41Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 31,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -12125,7 +12125,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14367,7 +14367,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15598,7 +15598,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16066,7 +16066,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16124,7 +16124,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16310,15 +16310,15 @@
   "3991": {
    "id": "3991",
    "first_seen": "2026-11-17T10:27:46Z",
-   "headline": "العراق ـ اتهامات تهريب النفط تضع \"كتائب حزب الله\" في مواجهة مع بغداد",
+   "headline": "Iraqi government's control of Jurf Al Sakhar marks rare success - but key issues remain | The National",
    "headline_en": "Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-21T00:37:39Z",
+   "last_seen": "2026-11-22T14:08:25Z",
    "weekly": [
     0,
     0,
-    1,
+    3,
     13
    ],
    "this_week": 13,
@@ -16361,7 +16361,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-21T23:45:37Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16431,7 +16431,7 @@
    "headline_en": "Israeli parliament elects new Knesset speaker backed by Netanyahu's opponents",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-22T01:43:58Z",
+   "last_seen": "2026-11-23T02:30:20Z",
    "weekly": [
     1,
     0,
@@ -16479,7 +16479,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-22T12:15:41Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16856,7 +16856,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16867,14 +16867,14 @@
    "headline_en": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
    "headline_fi": "Etelä-Koreassa yliopistojen pääsykokeen hiljaisuus on niin tärkeää, että lentokoneetkin jäivät maahan",
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:09:00Z",
+   "last_seen": "2026-11-23T02:30:04Z",
    "weekly": [
     0,
     0,
-    3,
-    14
+    5,
+    12
    ],
-   "this_week": 14,
+   "this_week": 12,
    "velocity": 7.5,
    "markets": {
     "de": 2,
@@ -17422,10 +17422,10 @@
    "id": "4022",
    "first_seen": "2026-11-18T11:04:59Z",
    "headline": "Rassie Erasmus: South Africa head coach banned for six matches",
-   "headline_en": "Rassie Erasmus banned for six matches for questioning integrity of match officials",
+   "headline_en": "Rassie Erasmus: South Africa head coach banned for six matches",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-21T00:37:20Z",
+   "last_seen": "2026-11-23T02:29:54Z",
    "weekly": [
     0,
     0,
@@ -17433,30 +17433,14 @@
     12
    ],
    "this_week": 12,
-   "velocity": 1.2,
+   "velocity": 2.4,
    "markets": {
-    "uk": 4,
-    "us": 1,
-    "intl": 1
+    "uk": 7,
+    "intl": 2,
+    "us": 1
    },
    "outlets": 5,
    "samples": [
-    {
-     "t": "Rassie Erasmus banned for six matches for questioning integrity of match officials",
-     "u": "https://www.independent.co.uk/sport/rugby/rugby-union/rassie-erasmus-ban-south-africa-springboks-world-rugby-b3086561.html",
-     "d": "independent.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-17T16:14:10Z"
-    },
-    {
-     "t": "Rassie Erasmus's tired ref-blaming act is wearing thin - South Africa deserves better | Robert Kitson",
-     "u": "https://www.theguardian.com/sport/2026/nov/17/rugby-union-rassie-erasmus-south-africa-france-referee-blaming",
-     "d": "theguardian.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-17T17:10:48Z"
-    },
     {
      "t": "Rassie Erasmus: South Africa head coach banned for six matches",
      "u": "https://www.bbc.com/sport/rugby-union/articles/cj752w5q7z90o",
@@ -17464,6 +17448,22 @@
      "c": "uk",
      "l": "en",
      "p": "2026-11-17T16:09:24Z"
+    },
+    {
+     "t": "Rugby-Battered Boks and All Black battle for place in Nations Championship final",
+     "u": "https://www.reuters.com/sports/rugby-battered-boks-all-black-battle-place-nations-championship-final-2026-11-20/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-20T00:02:15Z"
+    },
+    {
+     "t": "Steve Borthwick and Fabien Galthie underline importance of respect for officials after Rassie Erasmus comments",
+     "u": "https://www.independent.co.uk/sport/rugby/rugby-union/borthwick-galthie-rassie-erasmus-springboks-ireland-b3088108.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-19T18:00:39Z"
     }
    ],
    "abroad_first": "2026-11-17T16:09:24Z",
@@ -17472,7 +17472,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-21T23:45:37Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17654,7 +17654,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17784,7 +17784,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17841,7 +17841,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18211,7 +18211,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18714,9 +18714,63 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-23T04:01:03Z",
+   "checked": "2026-11-23T10:15:41Z",
    "check_how": "url",
    "check_error": null
+  },
+  "4139": {
+   "id": "4139",
+   "first_seen": "2026-11-20T12:11:23Z",
+   "headline": "Volkswagen fordert in Tarifkonflikt drastische Einschnitte von Belegschaft",
+   "headline_en": null,
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-23T02:29:51Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "de": 3,
+    "es": 1,
+    "se": 1,
+    "intl": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Volkswagen fordert in Tarifkonflikt drastische Einschnitte von Belegschaft",
+     "u": "https://www.derstandard.at/story/3000000350129/volkswagen-fordert-in-tarifkonflikt-drastische-einschnitte-von-belegschaft",
+     "d": "derstandard.at",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-19T15:08:50Z"
+    },
+    {
+     "t": "IG-Metall-Rechnung: So viel könnten die VW-Forderungen die Beschäftigten kosten",
+     "u": "https://www.handelsblatt.com/politik/deutschland/ig-metall-rechnung-so-viel-koennten-die-vw-forderungen-die-beschaeftigten-kosten/100271431.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-20T03:00:07Z"
+    },
+    {
+     "t": "VW presenta sus planes para reducir costes: congelaciones salariales y más horas de trabajo por el mismo sueldo",
+     "u": "https://elpais.com/economia/2026-11-19/vw-presenta-sus-planes-para-reducir-costes-congelaciones-salariales-y-mas-horas-de-trabajo-por-el-mismo-sueldo.html",
+     "d": "elpais.com",
+     "c": "es",
+     "l": "es",
+     "p": "2026-11-19T16:38:12Z"
+    }
+   ],
+   "abroad_first": "2026-11-19T15:00:00Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
   }
  }
 }
