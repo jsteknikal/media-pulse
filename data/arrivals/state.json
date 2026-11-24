@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-24T08:31:01Z",
+  "last_run": "2026-11-24T11:45:39Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 29,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -12128,7 +12128,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14370,7 +14370,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15601,7 +15601,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16069,7 +16069,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16127,7 +16127,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16365,7 +16365,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16859,7 +16859,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17659,7 +17659,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17789,7 +17789,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17846,7 +17846,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17856,23 +17856,23 @@
    "headline": "Trump nominee refuses to call Jan 6 an attack: ‘Were you alive on the planet’",
    "headline_en": "Trump nominee refuses to call Jan 6 an attack: ‘Were you alive on the planet’",
    "headline_fi": "Trumpin kyberjohtaja sai potkut - Yhdysvaltoja koetellut poikkeuksellinen häiriöaalto",
-   "state": "emergence",
-   "last_seen": "2026-11-23T14:37:20Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-24T03:05:08Z",
    "weekly": [
     0,
     0,
-    0,
-    13
+    1,
+    12
    ],
-   "this_week": 13,
-   "velocity": 2.6,
+   "this_week": 12,
+   "velocity": 12,
    "markets": {
-    "uk": 5,
-    "us": 2,
+    "uk": 6,
+    "us": 1,
     "es": 1,
     "fi": 2
    },
-   "outlets": 8,
+   "outlets": 7,
    "samples": [
     {
      "t": "Trump nominee refuses to call Jan 6 an attack: ‘Were you alive on the planet’",
@@ -18217,7 +18217,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18720,7 +18720,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-24T05:15:41Z",
+   "checked": "2026-11-24T11:45:39Z",
    "check_how": "url",
    "check_error": null
   },
@@ -19197,6 +19197,457 @@
    "subjects": [
     "business"
    ],
+   "relevant": false
+  },
+  "4213": {
+   "id": "4213",
+   "first_seen": "2026-11-22T01:43:24Z",
+   "headline": "در سایه تهدید حملات تازه؛ آلمان و قطر خواستار دیپلماسی برای ایران",
+   "headline_en": "Qatar and Germany deepen strategic ties during emir's Berlin visit",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-24T03:05:01Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.2,
+   "markets": {
+    "de": 8,
+    "intl": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "در سایه تهدید حملات تازه؛ آلمان و قطر خواستار دیپلماسی برای ایران",
+     "u": "https://www.dw.com/fa-ir/%D8%AF%D8%B1-%D8%B3%D8%A7%DB%8C%D9%87-%D8%AA%D9%87%D8%AF%DB%8C%D8%AF-%D8%AD%D9%85%D9%84%D8%A7%D8%AA-%D8%AA%D8%A7%D8%B2%D9%87-%D8%A2%D9%84%D9%85%D8%A7%D9%86-%D9%88-%D9%82%D8%B7%D8%B1-%D8%AE%D9%88%D8%A7%D8%B3%D8%AA%D8%A7%D8%B1-%D8%AF%DB%8C%D9%BE%D9%84%D9%85%D8%A7%D8%B3%DB%8C-%D8%A8%D8%B1%D8%A7%DB%8C-%D8%A7%DB%8C%D8%B1%D8%A7%D9%86/live-79998720",
+     "d": "dw.com",
+     "c": "de",
+     "l": "fa",
+     "p": "2026-11-20T07:11:33Z"
+    },
+    {
+     "t": "Katar: Friedrich Merz begrüßt Milliarden-Investitionen in Deutschland",
+     "u": "https://www.spiegel.de/wirtschaft/katar-friedrich-merz-begruesst-milliarden-investitionen-in-deutschland-a-43570797-3fed-4b48-91a3-5bcd3d31d2d0",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-20T15:52:00Z"
+    },
+    {
+     "t": "Staatsbesuch: Katar will weitere 15 Milliarden Euro in deutsche Unternehmen investieren",
+     "u": "https://www.manager-magazin.de/politik/katar-will-weitere-15-milliarden-euro-in-deutsche-unternehmen-investieren-a-b8e90bca-7f55-493e-86f4-317be602b8b7",
+     "d": "manager-magazin.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-20T17:36:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T06:41:49Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "business",
+    "sustainability"
+   ],
+   "relevant": true,
+   "checked": "2026-11-24T11:45:39Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4185": {
+   "id": "4185",
+   "first_seen": "2026-11-22T01:42:59Z",
+   "headline": "GTA VI made $3.79B on launch day, Take-Two says, a record for entertainment",
+   "headline_en": "GTA VI made $3.79B on launch day, Take-Two says, a record for entertainment",
+   "headline_fi": "GTA VI rikkoi ennätyksen, on takonut lähes 4 miljardin dollarin tuotot",
+   "state": "emergence",
+   "last_seen": "2026-11-24T03:04:46Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.2,
+   "markets": {
+    "intl": 2,
+    "us": 3,
+    "fi": 2,
+    "uk": 1,
+    "de": 2
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "GTA VI made $3.79B on launch day, Take-Two says, a record for entertainment",
+     "u": "https://thenextweb.com/news/gta-vi-3-79b-day-one-sales-biggest-launch",
+     "d": "thenextweb.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-20T20:02:45Z"
+    },
+    {
+     "t": "Grand Theft Auto VI smashes records with $3.8bn in sales",
+     "u": "https://www.ft.com/content/6648bce8-41fc-4542-8f24-ab37f8acd5d7",
+     "d": "ft.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-20T21:05:48Z"
+    },
+    {
+     "t": "Grand Theft Auto VI Made $3.79 Billion in a Single Day",
+     "u": "https://www.nytimes.com/2026/11/20/arts/grand-theft-auto-vi-sales-revenue.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-20T21:21:39Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T00:00:00Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-24T11:45:39Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-20T20:58:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/popkulttuuri/art-2000012428155.html",
+    "t": "GTA VI rikkoi ennätyksen, on takonut lähes 4 miljardin dollarin tuotot",
+    "s": null
+   },
+   "fi_count": 6,
+   "arrived_at": "2026-11-24T11:45:39Z"
+  },
+  "4246": {
+   "id": "4246",
+   "first_seen": "2026-11-22T14:08:08Z",
+   "headline": "Trump says reported FBI database hack is 'not good'",
+   "headline_en": "Trump says reported FBI database hack is 'not good'",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-24T03:04:42Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2,
+   "markets": {
+    "us": 1,
+    "uk": 2,
+    "de": 3,
+    "intl": 3,
+    "se": 1
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "Trump says reported FBI database hack is 'not good'",
+     "u": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good/",
+     "d": "techcrunch.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-21T18:44:53Z"
+    },
+    {
+     "t": "USDA, FBI breached by hackers amid spate of tech outages - reports",
+     "u": "https://www.theguardian.com/us-news/2026/nov/21/usda-fbi-outages-cyber-attack",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-21T14:09:02Z"
+    },
+    {
+     "t": "FBI reportedly investigating apparent hack of its criminal database",
+     "u": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-21T09:34:20Z"
+    }
+   ],
+   "abroad_first": "2026-11-21T06:42:00Z",
+   "markets_abroad": 5,
+   "subjects": [
+    "tech",
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-24T11:45:39Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-23T10:14:00Z",
+    "d": "tivi.fi",
+    "u": "https://www.tivi.fi/uutiset/a/6cc171e6-e6d8-4e75-aec2-1f709723bfc7",
+    "t": "Trumpilta hämmentävä reaktio kyberhyökkäykseen: Valitti heti Ukrainasta",
+    "s": 0.907
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-24T11:45:39Z"
+  },
+  "4234": {
+   "id": "4234",
+   "first_seen": "2026-11-22T14:08:01Z",
+   "headline": "Ukraine war briefing: European leaders react with anger and alarm after Russian missiles crash in Poland",
+   "headline_en": "Ukraine war briefing: European leaders react with anger and alarm after Russian missiles crash in Poland",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-24T03:04:32Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.2,
+   "markets": {
+    "uk": 2,
+    "intl": 3,
+    "de": 5
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Ukraine war briefing: European leaders react with anger and alarm after Russian missiles crash in Poland",
+     "u": "https://www.theguardian.com/world/2026/nov/21/ukraine-war-briefing-european-leaders-react-with-anger-and-alarm-after-russian-missiles-crash-in-poland",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-21T02:41:14Z"
+    },
+    {
+     "t": "NATO will defend every inch of Polish territory, Rutte says",
+     "u": "https://www.reuters.com/world/nato-will-defend-every-inch-polish-territory-rutte-says-2026-11-21/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-21T14:03:21Z"
+    },
+    {
+     "t": "Luftraum verletzt: Russische Rakete abgestürzt - \"Nato wird jeden Zentimeter von Polen verteidigen\", betont Rutte",
+     "u": "https://www.welt.de/politik/ausland/article6b01d13073a6d0d4d9e1127e/luftraum-verletzt-russische-rakete-abgestuerzt-nato-wird-jeden-zentimeter-von-polen-verteidigen-betont-rutte.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-21T18:26:31Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T17:56:14Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-24T11:45:39Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4199": {
+   "id": "4199",
+   "first_seen": "2026-11-22T01:43:08Z",
+   "headline": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
+   "headline_en": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
+   "headline_fi": "Teloitus sai vangin huutamaan kivusta Texasissa",
+   "state": "emergence",
+   "last_seen": "2026-11-24T03:04:57Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.2,
+   "markets": {
+    "us": 1,
+    "uk": 7,
+    "fi": 1,
+    "intl": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Texas execution took over an hour as staff struggled to find vein; Reinaldo Dennes moaned about pain",
+     "u": "https://www.cnn.com/2026/11/19/us/texas-execution-reinaldo-dennes",
+     "d": "cnn.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-20T02:36:11Z"
+    },
+    {
+     "t": "Во время казни в Техасе, продлившейся более часа, осужденный кричал от боли",
+     "u": "https://www.bbc.com/russian/articles/cr894y2q752xo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ru",
+     "p": "2026-11-20T17:59:43Z"
+    },
+    {
+     "t": "Osuđenik na smrt vrištao sat vremena tokom pogubljenja u Teksasu",
+     "u": "https://www.bbc.com/serbian/articles/cm8x0479v42do/lat",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "srp",
+     "p": "2026-11-20T15:27:11Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T02:36:11Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "4238": {
+   "id": "4238",
+   "first_seen": "2026-11-22T14:08:03Z",
+   "headline": "Suurin osa Brysselin lentoaseman lennoista perutaan maanantaina",
+   "headline_en": "Major European airport ‘cancels majority of flights’ and warns of travel chaos",
+   "headline_fi": "Suurin osa Brysselin lentoaseman lennoista perutaan maanantaina",
+   "state": "emergence",
+   "last_seen": "2026-11-24T03:04:25Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 1.4,
+   "markets": {
+    "fi": 1,
+    "uk": 1
+   },
+   "outlets": 2,
+   "samples": [
+    {
+     "t": "Major European airport ‘cancels majority of flights’ and warns of travel chaos",
+     "u": "https://www.independent.co.uk/travel/news-and-advice/brussels-airport-flights-cancelled-nationwide-strike-b3089235.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-21T18:44:06Z"
+    }
+   ],
+   "abroad_first": "2026-11-21T18:44:06Z",
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
+  },
+  "4282": {
+   "id": "4282",
+   "first_seen": "2026-11-23T14:36:32Z",
+   "headline": "Liveticker USA unter Trump: Gouverneur von Washington: ICE ist \"völlig außer Kontrolle\"",
+   "headline_en": "US: ICE arrests 2 at Seattle airport in 'chilling' scenes -- governor",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-24T03:04:22Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2.4,
+   "markets": {
+    "de": 4,
+    "uk": 3,
+    "intl": 3
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Liveticker USA unter Trump: Gouverneur von Washington: ICE ist \"völlig außer Kontrolle\"",
+     "u": "https://www.faz.net/aktuell/politik/usa-unter-trump/liveticker-usa-unter-trump-gouverneur-von-washington-ice-ist-voellig-ausser-kontrolle-faz-19444916.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-22T12:17:48Z"
+    },
+    {
+     "t": "US-Einwanderungsbehörde ICE: US-Gouverneur kritisiert ICE-Einsatz am Flughafen Seattle",
+     "u": "https://www.zeit.de/politik/ausland/2026-11/ice-festnahme-flughafen-seattle-bob-ferguson-gxe",
+     "d": "zeit.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-22T07:53:59Z"
+    },
+    {
+     "t": "US: ICE arrests 2 at Seattle airport in 'chilling' scenes -- governor",
+     "u": "https://www.dw.com/en/us-ice-arrests-2-at-seattle-airport-in-chilling-scenes-governor/a-80012480",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-22T07:27:55Z"
+    }
+   ],
+   "abroad_first": "2026-11-22T02:14:54Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
+  },
+  "4257": {
+   "id": "4257",
+   "first_seen": "2026-11-22T14:08:23Z",
+   "headline": "Nytt gripande efter mord i Bagarmossen",
+   "headline_en": "Former Costa Concordia captain released from prison on probation",
+   "headline_fi": "Costa Concordian \"pelkurikapteeni\" vapautettiin vankilasta vuosia etuajassa",
+   "state": "emergence",
+   "last_seen": "2026-11-24T03:04:19Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    12
+   ],
+   "this_week": 12,
+   "velocity": 2,
+   "markets": {
+    "de": 3,
+    "intl": 1,
+    "fi": 2
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "\"Kapitän Feigling\" der Costa Concordia vorzeitig aus der Haft entlassen",
+     "u": "https://www.derstandard.at/story/3000000350359/kapitaen-feigling-der-costa-concordia-vorzeitig-aus-der-haft-entlassen",
+     "d": "derstandard.at",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-21T11:55:20Z"
+    },
+    {
+     "t": "Francesco Schettino: Ex-Kapitän der Costa Concordia verlässt Gefängnis",
+     "u": "https://www.faz.net/aktuell/gesellschaft/kriminalitaet/francesco-schettino-ex-kapitaen-der-costa-concordia-verlaesst-gefaengnis-accg-201704989.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-21T16:02:07Z"
+    },
+    {
+     "t": "\"Costa Concordia\": Kapitän Francesco Schettino darf das Gefängnis verlassen",
+     "u": "https://www.spiegel.de/panorama/costa-concordia-kapitaen-francesco-schettino-darf-das-gefaengnis-verlassen-a-6fc5504e-dccd-48c0-a38b-c59679782475",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-21T16:25:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-21T11:55:20Z",
+   "markets_abroad": 2,
+   "subjects": [],
    "relevant": false
   }
  }
