@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-24T02:01:03Z",
+  "last_run": "2026-11-24T05:15:41Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 33,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -10588,42 +10588,42 @@
   "3743": {
    "id": "3743",
    "first_seen": "2026-11-11T07:42:21Z",
-   "headline": "Merz: Putinin, Xin ja Trumpin huippukokous oli \"vain valokuvatilaisuus",
-   "headline_en": "European leaders unite in Berlin to reaffirm support for Ukraine",
+   "headline": "Ringen um Billionen-Haushalt: Neue EU-Digitalsteuer soll Streit um Haushalt entschärfen",
+   "headline_en": "EU budget: Costa pitches more cuts, Big Tech tax to break deadlock",
    "headline_fi": "Merz: Putinin, Xin ja Trumpin huippukokous oli \"vain valokuvatilaisuus",
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:26Z",
+   "last_seen": "2026-11-24T03:04:56Z",
    "weekly": [
-    1,
-    19,
-    39,
-    59
+    14,
+    22,
+    27,
+    54
    ],
-   "this_week": 59,
-   "velocity": 1.5277777777777777,
+   "this_week": 54,
+   "velocity": 2,
    "markets": {
-    "uk": 3,
+    "de": 5,
     "fi": 1,
-    "de": 4,
-    "intl": 2
+    "intl": 3,
+    "uk": 1
    },
-   "outlets": 8,
+   "outlets": 9,
    "samples": [
     {
-     "t": "Trump, Putin ve Şi: Tarihi zirveden ne sonuçlar çıkabilir?",
-     "u": "https://www.bbc.com/turkce/articles/cjdx1y7p47ydo",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "tr",
-     "p": "2026-11-15T18:23:01Z"
+     "t": "Ringen um Billionen-Haushalt: Neue EU-Digitalsteuer soll Streit um Haushalt entschärfen",
+     "u": "https://www.handelsblatt.com/politik/international/ringen-um-billionen-haushalt-neue-eu-digitalsteuer-soll-streit-um-haushalt-entschaerfen/100271742.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-21T12:54:18Z"
     },
     {
-     "t": "जब मिलेंगे ट्रंप, पुतिन और जिनपिंग: ऐतिहासिक मुलाक़ात का दुनिया पर क्या असर होगा?",
-     "u": "https://www.bbc.com/hindi/articles/cmj4r9xw90e8o",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "hi",
-     "p": "2026-11-16T02:33:21Z"
+     "t": "EU budget: Costa pitches more cuts, Big Tech tax to break deadlock",
+     "u": "https://www.euronews.com/2026/11/21/eu-budget-costa-pitches-more-cuts-big-tech-tax-to-break-deadlock",
+     "d": "euronews.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-21T12:29:23Z"
     },
     {
      "t": "Мерц: Лише з Україною та Європою переговори будуть успішними",
@@ -10637,7 +10637,10 @@
    "abroad_first": "2026-11-09T18:36:55Z",
    "markets_abroad": 3,
    "subjects": [
-    "geopolitics"
+    "geopolitics",
+    "business",
+    "tech",
+    "policy"
    ],
    "relevant": true,
    "checked": "2026-11-11T08:30:52Z",
@@ -12125,7 +12128,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14367,7 +14370,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -14428,18 +14431,18 @@
   "3959": {
    "id": "3959",
    "first_seen": "2026-11-17T10:27:26Z",
-   "headline": "Takimi historik në Shenzhen: A është ky një \"Jaltë e re\"?",
+   "headline": "Trump, Putin ja Xi kohtaavat historiallisessa huippukokouksessa, Euroopassa pelätään seurauksia",
    "headline_en": "APEC summit: Xi, Trump and Putin to hold historic trilateral in China",
    "headline_fi": "Trump, Putin ja Xi kohtaavat historiallisessa huippukokouksessa, Euroopassa pelätään seurauksia",
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:36:30Z",
+   "last_seen": "2026-11-24T03:04:21Z",
    "weekly": [
     1,
     6,
-    95,
-    298
+    112,
+    281
    ],
-   "this_week": 298,
+   "this_week": 281,
    "velocity": 3.136842105263158,
    "markets": {
     "de": 4,
@@ -15598,7 +15601,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15852,14 +15855,14 @@
    "headline_en": "Anthropic shares to open 20 per cent higher on blockbuster debut",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:36:34Z",
+   "last_seen": "2026-11-24T03:04:25Z",
    "weekly": [
-    56,
-    15,
-    77,
-    199
+    30,
+    30,
+    62,
+    191
    ],
-   "this_week": 199,
+   "this_week": 191,
    "velocity": 2.5844155844155843,
    "markets": {
     "uk": 1,
@@ -16017,7 +16020,7 @@
    "headline_en": "US Defense Secretary Hegseth vows to boost Venezuela military cooperation",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-23T14:37:31Z",
+   "last_seen": "2026-11-24T03:05:18Z",
    "weekly": [
     0,
     0,
@@ -16066,7 +16069,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16124,7 +16127,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16133,24 +16136,25 @@
    "first_seen": "2026-11-18T11:05:00Z",
    "headline": "Indigene im Amazonasgebiet zeigen sich am Waldrand und bitten um Hilfe",
    "headline_en": "Uncontacted Awá of Brazil Emerge From Rainforest Seeking Food",
-   "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-23T14:37:33Z",
+   "headline_fi": "Harvinainen video: Eristäytyneen alkuperäiskansan jäseniä ilmestyi viidakosta Brasiliassa",
+   "state": "acceleration",
+   "last_seen": "2026-11-24T03:05:19Z",
    "weekly": [
     0,
     0,
-    0,
-    14
+    2,
+    12
    ],
-   "this_week": 14,
-   "velocity": 2.8,
+   "this_week": 12,
+   "velocity": 6,
    "markets": {
     "de": 3,
-    "us": 1,
-    "intl": 2,
-    "uk": 4
+    "us": 2,
+    "intl": 1,
+    "uk": 3,
+    "fi": 1
    },
-   "outlets": 9,
+   "outlets": 8,
    "samples": [
     {
      "t": "Indigene im Amazonasgebiet zeigen sich am Waldrand und bitten um Hilfe",
@@ -16361,7 +16365,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16671,14 +16675,14 @@
    "headline_en": "UN court rules Myanmar committed genocide in landmark verdict",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:39Z",
+   "last_seen": "2026-11-24T03:04:18Z",
    "weekly": [
     0,
     0,
     0,
-    65
+    66
    ],
-   "this_week": 65,
+   "this_week": 66,
    "velocity": 12.2,
    "markets": {
     "intl": 3,
@@ -16807,14 +16811,14 @@
    "headline_en": "Explainer: What is the EU's new €45 billion Ukraine loan plan?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:37:09Z",
+   "last_seen": "2026-11-24T03:04:58Z",
    "weekly": [
     1,
     1,
-    1,
-    21
+    2,
+    20
    ],
-   "this_week": 21,
+   "this_week": 20,
    "velocity": 21,
    "markets": {
     "de": 3,
@@ -16855,7 +16859,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16866,14 +16870,14 @@
    "headline_en": "After A.I. Cheating Scandal, South Korea Adopts New Restrictions for Grueling College Entrance Exam",
    "headline_fi": "Etelä-Koreassa yliopistojen pääsykokeen hiljaisuus on niin tärkeää, että lentokoneetkin jäivät maahan",
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:36:36Z",
+   "last_seen": "2026-11-24T03:04:27Z",
    "weekly": [
     0,
     0,
-    6,
-    21
+    7,
+    20
    ],
-   "this_week": 21,
+   "this_week": 20,
    "velocity": 7.5,
    "markets": {
     "de": 2,
@@ -16936,7 +16940,7 @@
    "headline_en": "White House fires cyber chief after tech chaos rattles US",
    "headline_fi": "Trumpin hallinnon kyberjohtaja sai potkut, erottamista edelsivät useat tekniset häiriöt",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:45Z",
+   "last_seen": "2026-11-24T03:04:35Z",
    "weekly": [
     0,
     0,
@@ -17004,23 +17008,24 @@
    "headline": "Fiona the hippo dies 11 days after swallowing visitor’s hat, Cincinnati Zoo says",
    "headline_en": "Fiona the hippo dies 11 days after swallowing visitor’s hat, Cincinnati Zoo says",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-23T14:36:37Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-24T03:04:27Z",
    "weekly": [
     0,
     0,
-    0,
-    43
+    3,
+    40
    ],
-   "this_week": 43,
-   "velocity": 8.2,
+   "this_week": 40,
+   "velocity": 13.333333333333334,
    "markets": {
     "uk": 5,
     "us": 1,
-    "de": 3,
+    "intl": 1,
+    "de": 2,
     "se": 1
    },
-   "outlets": 6,
+   "outlets": 7,
    "samples": [
     {
      "t": "Fiona the hippo dies 11 days after swallowing visitor’s hat, Cincinnati Zoo says",
@@ -17031,24 +17036,24 @@
      "p": "2026-11-20T07:45:45Z"
     },
     {
+     "t": "Fiona the hippo will be honored at Macy’s Thanksgiving Day Parade after tragic death",
+     "u": "https://www.independent.co.uk/news/world/americas/fiona-hippo-macy-thanksgiving-day-parade-b3089475.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-22T19:55:49Z"
+    },
+    {
      "t": "Fans near and far mourn Fiona the hippo after her death at the Cincinnati Zoo",
      "u": "https://www.independent.co.uk/news/cincinnati-zoo-usha-vance-chelsea-clinton-jd-vance-dayton-b3088895.html",
      "d": "independent.co.uk",
      "c": "uk",
      "l": "en",
      "p": "2026-11-20T17:23:17Z"
-    },
-    {
-     "t": "Fans mourn the death of beloved hippo Fiona at Cincinnati Zoo, express frustration over the tragedy",
-     "u": "https://www.cnn.com/2026/11/20/us/fiona-hippo-death-zoo",
-     "d": "cnn.com",
-     "c": "us",
-     "l": "en",
-     "p": "2026-11-20T17:23:58Z"
     }
    ],
    "abroad_first": "2026-11-17T01:18:28Z",
-   "markets_abroad": 4,
+   "markets_abroad": 5,
    "subjects": [],
    "relevant": false
   },
@@ -17059,10 +17064,10 @@
    "headline_en": "Police fear drug-rape cases could be ‘significantly’ more widespread after Philip Young conviction",
    "headline_fi": "Aviomies ja muut miehet raiskasivat huumattua Joanne Youngia vuosien ajan",
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:37:15Z",
+   "last_seen": "2026-11-24T03:05:03Z",
    "weekly": [
-    9,
-    2,
+    7,
+    1,
     1,
     27
    ],
@@ -17166,7 +17171,7 @@
    "headline_en": "Muslims to outnumber Christians globally by 2035, research shows",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:49Z",
+   "last_seen": "2026-11-24T03:04:38Z",
    "weekly": [
     0,
     0,
@@ -17287,16 +17292,16 @@
    "headline": "Donald Trump: Technikprobleme in Serie - Kritik in eigenen Reihen wächst",
    "headline_en": "As Outages Multiply, New Yorkers Are Bracing? For What? No One Is Sure.",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-23T14:36:56Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-24T03:04:44Z",
    "weekly": [
     0,
     0,
-    0,
-    22
+    5,
+    17
    ],
-   "this_week": 22,
-   "velocity": 3.6,
+   "this_week": 17,
+   "velocity": 3.4,
    "markets": {
     "de": 2,
     "us": 2,
@@ -17304,7 +17309,7 @@
     "es": 1,
     "intl": 1
    },
-   "outlets": 7,
+   "outlets": 8,
    "samples": [
     {
      "t": "Donald Trump: Technikprobleme in Serie - Kritik in eigenen Reihen wächst",
@@ -17537,7 +17542,7 @@
    "headline_en": "Denmark to expel Russian diplomat over attempt to kill US-Ukrainian rapper",
    "headline_fi": "Tanska syyttää Venäjää salamurhajuonesta - ryhtyi toimiin",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:35Z",
+   "last_seen": "2026-11-24T03:04:26Z",
    "weekly": [
     0,
     0,
@@ -17607,14 +17612,14 @@
    "headline_en": "EU and UK strike post-Brexit reset deal as Russian missiles hit Poland",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:36:51Z",
+   "last_seen": "2026-11-24T03:04:39Z",
    "weekly": [
-    0,
     1,
-    2,
-    39
+    0,
+    4,
+    37
    ],
-   "this_week": 39,
+   "this_week": 37,
    "velocity": 19,
    "markets": {
     "intl": 3,
@@ -17654,7 +17659,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17665,14 +17670,14 @@
    "headline_en": "Anthropic mathematician says he and Claude proved the Riemann hypothesis",
    "headline_fi": "Matemaatikko väittää ratkaisseensa vuosisatoja vanhan arvoituksen tekoälyllä",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:38Z",
+   "last_seen": "2026-11-24T03:04:20Z",
    "weekly": [
     0,
     0,
     0,
-    34
+    35
    ],
-   "this_week": 34,
+   "this_week": 35,
    "velocity": 3.4,
    "markets": {
     "intl": 3,
@@ -17735,7 +17740,7 @@
    "headline_en": "Power plays, verbal displays, Xi-Trump-Putin talk: historic Apec summit explained",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:37:15Z",
+   "last_seen": "2026-11-24T03:05:03Z",
    "weekly": [
     1,
     1,
@@ -17784,7 +17789,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17795,15 +17800,15 @@
    "headline_en": "BASF says it ends pursuit of Evonik after rejection of $12 billion bid",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-22T14:08:50Z",
+   "last_seen": "2026-11-24T03:05:11Z",
    "weekly": [
     0,
-    0,
     1,
-    13
+    1,
+    12
    ],
-   "this_week": 13,
-   "velocity": 11,
+   "this_week": 12,
+   "velocity": 12,
    "markets": {
     "de": 8,
     "intl": 2
@@ -17819,20 +17824,20 @@
      "p": "2026-11-19T16:42:36Z"
     },
     {
-     "t": "Chemieindustrie: BASF zieht Angebot für Evonik zurück",
-     "u": "https://www.handelsblatt.com/unternehmen/industrie/chemieindustrie-basf-zieht-angebot-fuer-evonik-zurueck/100271324.html",
-     "d": "handelsblatt.com",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-19T14:18:31Z"
-    },
-    {
      "t": "Keine Fusion in der Chemiebranche: BASF sagt Evonik-Übernahme ab",
      "u": "https://www.spiegel.de/wirtschaft/basf-sagt-evonik-uebernahme-ab-a-8ac0a370-d80e-4f40-834b-6ebbaec30a90",
      "d": "spiegel.de",
      "c": "de",
      "l": "de",
      "p": "2026-11-19T14:46:00Z"
+    },
+    {
+     "t": "Chemieindustrie: BASF zieht Angebot für Evonik zurück",
+     "u": "https://www.handelsblatt.com/unternehmen/industrie/chemieindustrie-basf-zieht-angebot-fuer-evonik-zurueck/100271324.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-19T14:18:31Z"
     }
    ],
    "abroad_first": "2026-11-18T09:16:44Z",
@@ -17841,7 +17846,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18027,14 +18032,14 @@
    "headline_en": "Russia-bound ship attacked in Gulf of Finland",
    "headline_fi": "Suora lähetys kello 17.15: Viranomaiset kertovat Suomeen ajautuneesta palavasta venäläisaluksesta",
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:36:29Z",
+   "last_seen": "2026-11-24T03:04:18Z",
    "weekly": [
     0,
     0,
     1,
-    139
+    141
    ],
-   "this_week": 139,
+   "this_week": 141,
    "velocity": 78,
    "markets": {
     "fi": 5,
@@ -18093,52 +18098,53 @@
    "id": "4009",
    "first_seen": "2026-11-17T10:28:00Z",
    "headline": "Van Gogh painting sells for $190.4m after row over Nazi history",
-   "headline_en": "Jewish Heirs and Consignors Settle Claim Over $180 Million van Gogh Ahead of Sale",
+   "headline_en": "Van Gogh painting sells for $190.4m after row over Nazi history",
    "headline_fi": "Posketon soppa ökyhuutokaupassa - perilliset vetosivat natsivainoihin",
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:37:02Z",
+   "last_seen": "2026-11-24T03:04:50Z",
    "weekly": [
     0,
     0,
-    8,
-    17
+    9,
+    16
    ],
-   "this_week": 17,
-   "velocity": 4.5,
+   "this_week": 16,
+   "velocity": 1.7777777777777777,
    "markets": {
-    "de": 5,
-    "us": 3,
-    "fi": 1
+    "uk": 2,
+    "de": 3,
+    "fi": 1,
+    "us": 4
    },
-   "outlets": 5,
+   "outlets": 7,
    "samples": [
     {
-     "t": "Fischer-Erben wollen Van-Gogh-Auktion bei Sotheby's stoppen",
-     "u": "https://www.spiegel.de/kultur/fischer-erben-wollen-van-gogh-auktion-bei-sothebys-stoppen-a-1669ba84-8247-40b4-9056-f9428c5b44cc",
+     "t": "Van Gogh painting sells for $190.4m after row over Nazi history",
+     "u": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-19T00:49:19Z"
+    },
+    {
+     "t": "Vincent van Gogh painting auctioned for record $190.4m after dispute over Nazi era sale",
+     "u": "https://www.theguardian.com/artanddesign/2026/nov/19/vincent-van-gogh-painting-sells-for-record-190million",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-19T02:35:05Z"
+    },
+    {
+     "t": "Vincent van Gogh: Blühende Kastanienbäume für 190,4 Millionen Dollar versteigert",
+     "u": "https://www.spiegel.de/kultur/vincent-van-gogh-bluehende-kastanienbaeume-fuer-190-4-millionen-dollar-versteigert-a-93094bbd-5436-401b-a926-b7196c6727ab",
      "d": "spiegel.de",
      "c": "de",
      "l": "de",
-     "p": "2026-11-16T16:05:00Z"
-    },
-    {
-     "t": "Ein van Gogh soll für 180 Millionen Dollar versteigert werden. Die Erben des ehemaligen Besitzers erheben Einspruch.",
-     "u": "https://www.nzz.ch/feuilleton/kunst_architektur/ein-werk-von-vincent-van-gogh-soll-in-new-york-fuer-180-millionen-dollar-versteigert-werden-die-erben-des-ehemaligen-besitzers-erheben-einspruch-ld.10065147",
-     "d": "nzz.ch",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-16T14:36:25Z"
-    },
-    {
-     "t": "Rekord für van Gogh dank einer Zahlung an die Nachfahren der ehemaligen jüdischen Eigentümer",
-     "u": "https://www.nzz.ch/feuilleton/kunst_architektur/rekord-fuer-van-gogh-dank-einer-zahlung-an-die-nachfahren-der-ehemaligen-juedischen-eigentuemer-ld.10068491",
-     "d": "nzz.ch",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-19T14:41:19Z"
+     "p": "2026-11-19T01:00:00Z"
     }
    ],
    "abroad_first": "2026-11-15T12:31:22Z",
-   "markets_abroad": 2,
+   "markets_abroad": 3,
    "subjects": [
     "business"
    ],
@@ -18163,14 +18169,14 @@
    "headline_en": "Nations agree to 'elaborate' on rules for AI-run 'killer robots' by 2028",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:36:44Z",
+   "last_seen": "2026-11-24T03:04:19Z",
    "weekly": [
     0,
     0,
     5,
-    16
+    17
    ],
-   "this_week": 16,
+   "this_week": 17,
    "velocity": 2.8,
    "markets": {
     "intl": 3,
@@ -18211,7 +18217,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18222,7 +18228,7 @@
    "headline_en": "Costa eyes tax on Big Tech to boost EU budget after Trump's poor midterms showing",
    "headline_fi": "EU harkitsee budjettinsa rahoittamista digijättejä verottamalla",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:37:06Z",
+   "last_seen": "2026-11-24T03:04:55Z",
    "weekly": [
     0,
     0,
@@ -18350,7 +18356,7 @@
    "headline_en": "What the Crimean bridge attack means for Russia",
    "headline_fi": "Putin puhui \"tuskallisesta\" kostosta",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:43Z",
+   "last_seen": "2026-11-24T03:04:33Z",
    "weekly": [
     0,
     0,
@@ -18419,7 +18425,7 @@
    "headline_en": "Eleven killed in burst of violence during Mexican cartel leader's capture",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:42Z",
+   "last_seen": "2026-11-24T03:04:31Z",
    "weekly": [
     0,
     0,
@@ -18473,7 +18479,7 @@
    "headline_en": "Bayern Munich's Harry Kane facing around three months out with torn ankle ligaments",
    "headline_fi": "Harry Kanelle ikävä takaisku - edessä kuukausien sairausloma",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:57Z",
+   "last_seen": "2026-11-24T03:04:45Z",
    "weekly": [
     0,
     0,
@@ -18527,14 +18533,14 @@
    "headline_en": "COP31: UN Climate summit runs into overtime as deal remains elusive",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:36:31Z",
+   "last_seen": "2026-11-24T03:04:19Z",
    "weekly": [
-    2,
-    42,
-    38,
-    165
+    3,
+    48,
+    33,
+    164
    ],
-   "this_week": 165,
+   "this_week": 164,
    "velocity": 1.641025641025641,
    "markets": {
     "de": 2,
@@ -18597,7 +18603,7 @@
    "headline_en": "Donald Trump threatens 'tremendous' tax on data centres built outside US",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:45Z",
+   "last_seen": "2026-11-24T03:04:34Z",
    "weekly": [
     0,
     0,
@@ -18666,10 +18672,10 @@
    "headline_en": "Transcript: Burnham's Brexit reset",
    "headline_fi": "Analyysi: Britannia saa nuoret ja makkarat liikkeelle, mutta EU piti saneluvallan - ja suojautui Nigel Faragelta",
    "state": "acceleration",
-   "last_seen": "2026-11-23T14:36:56Z",
+   "last_seen": "2026-11-24T03:04:44Z",
    "weekly": [
-    0,
-    2,
+    1,
+    1,
     1,
     15
    ],
@@ -18714,7 +18720,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-23T22:45:40Z",
+   "checked": "2026-11-24T05:15:41Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18725,7 +18731,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:53Z",
+   "last_seen": "2026-11-24T03:04:41Z",
    "weekly": [
     0,
     0,
@@ -18778,7 +18784,7 @@
    "headline_en": "Ukraine-Russia war latest: Satellite images shows sunken Russian warship after suspected Ukrainian strike off Libya",
    "headline_fi": "Venäjän sota-alus uponnut - uppoamispaikka hämmentävä",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:29Z",
+   "last_seen": "2026-11-24T03:04:21Z",
    "weekly": [
     0,
     0,
@@ -18848,7 +18854,7 @@
    "headline_en": "COP31: Climate deal 'not adopted,' summit president says",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:47Z",
+   "last_seen": "2026-11-24T03:04:36Z",
    "weekly": [
     0,
     0,
@@ -18917,7 +18923,7 @@
    "headline_en": "Russian attacks across Ukraine injure 30 over past day as rescue operation continues near Kyiv after drone strike",
    "headline_fi": "Kerrostalo Kiovan lähellä romahti osin Venäjän iskusta - useita asukkaita kateissa",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:33Z",
+   "last_seen": "2026-11-24T03:04:23Z",
    "weekly": [
     0,
     0,
@@ -18985,7 +18991,7 @@
    "headline_en": "Dozens missing as deadly fire hits Indonesian candy factory",
    "headline_fi": "Kymmeniä kateissa makeistehtaan tulipalon jälkeen Indonesiassa",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:32Z",
+   "last_seen": "2026-11-24T03:04:23Z",
    "weekly": [
     0,
     0,
@@ -19039,7 +19045,7 @@
    "headline_en": "Trump Administration Says Army Can Blow Up Lead-Laced Explosives",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:30Z",
+   "last_seen": "2026-11-24T03:04:21Z",
    "weekly": [
     0,
     0,
@@ -19092,7 +19098,7 @@
    "headline_en": null,
    "headline_fi": "BepiColombo saapunut Merkuriuksen kiertoradalle",
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:28Z",
+   "last_seen": "2026-11-24T03:04:20Z",
    "weekly": [
     0,
     0,
@@ -19145,7 +19151,7 @@
    "headline_en": "Princess Catherine's cancer journey to be depicted in new show",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-23T14:36:49Z",
+   "last_seen": "2026-11-24T03:04:38Z",
    "weekly": [
     0,
     0,
