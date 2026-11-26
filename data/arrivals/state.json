@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-26T16:30:53Z",
+  "last_run": "2026-11-26T19:30:54Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 25,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -14370,7 +14370,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15988,18 +15988,18 @@
   "4063": {
    "id": "4063",
    "first_seen": "2026-11-18T11:05:29Z",
-   "headline": "Varoitusjärjestelmän uusi testipäivä käsillä - katso suorana kello 11.45 alkaen",
+   "headline": "Näin vaaratiedotetesti eteni radiossa - taustalta kuului rummutusta",
    "headline_en": "Finland to sound emergency alert on every phone at noon",
    "headline_fi": "Varoitusjärjestelmän uusi testipäivä käsillä - katso suorana kello 11.45 alkaen",
    "state": "acceleration",
-   "last_seen": "2026-11-25T15:57:28Z",
+   "last_seen": "2026-11-26T16:47:01Z",
    "weekly": [
     3,
     3,
-    22,
-    34
+    23,
+    39
    ],
-   "this_week": 34,
+   "this_week": 39,
    "velocity": 1.5454545454545454,
    "markets": {
     "fi": 10
@@ -16067,7 +16067,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16125,7 +16125,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16737,55 +16737,54 @@
   "4129": {
    "id": "4129",
    "first_seen": "2026-11-20T12:11:17Z",
-   "headline": "Britain's Brexit woes: 'I didn't vote to leave in the way that we did'",
-   "headline_en": "The EU that Burnham is eyeing up is very different to the one Britain left",
+   "headline": "Monday briefing: What could Andy Burnham's reset mean for the UK?",
+   "headline_en": "Monday briefing: What could Andy Burnham's reset mean for the UK?",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-25T15:57:18Z",
+   "last_seen": "2026-11-26T16:46:31Z",
    "weekly": [
-    18,
-    10,
-    48,
-    83
+    16,
+    16,
+    54,
+    82
    ],
-   "this_week": 83,
-   "velocity": 2.3225806451612905,
+   "this_week": 82,
+   "velocity": 1.5185185185185186,
    "markets": {
-    "uk": 3,
-    "intl": 5,
-    "de": 1,
-    "us": 1
+    "uk": 8,
+    "intl": 2
    },
-   "outlets": 9,
+   "outlets": 6,
    "samples": [
     {
-     "t": "The EU that Burnham is eyeing up is very different to the one Britain left",
-     "u": "https://www.bbc.co.uk/news/articles/cq4gn3109pzgo",
+     "t": "Monday briefing: What could Andy Burnham's reset mean for the UK?",
+     "u": "https://www.theguardian.com/world/2026/nov/23/monday-briefing-what-could-andy-burnhams-reset-mean-for-the-uk",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-23T06:46:49Z"
+    },
+    {
+     "t": "Badenoch: Rejoining EU won't fix Britain's economic woes",
+     "u": "https://www.politico.eu/article/kemi-badenoch-rejoining-eu-wont-fix-britains-economic-woes/",
+     "d": "politico.eu",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-23T14:31:56Z"
+    },
+    {
+     "t": "UK should only rejoin EU if it innovates on technology, Blair warns",
+     "u": "https://www.bbc.co.uk/news/articles/c893r4923wngo",
      "d": "bbc.co.uk",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-18T00:39:06Z"
-    },
-    {
-     "t": "Britain's Brexit woes: 'I didn't vote to leave in the way that we did'",
-     "u": "https://www.aljazeera.com/news/2026/11/19/as-burnham-heads-to-brussels-are-new-brexit-wars-about-to-begin",
-     "d": "aljazeera.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-19T15:24:51Z"
-    },
-    {
-     "t": "UK PM Andy Burnham says Brexit has not worked ahead of a reset summit with the EU",
-     "u": "https://www.scmp.com/news/world/europe/article/3374654/uk-pm-andy-burnham-says-brexit-has-not-worked-ahead-reset-summit-eu",
-     "d": "scmp.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-16T22:08:48Z"
+     "p": "2026-11-21T19:33:49Z"
     }
    ],
    "abroad_first": "2026-11-15T15:29:14Z",
-   "markets_abroad": 4,
+   "markets_abroad": 2,
    "subjects": [
+    "tech",
     "geopolitics"
    ],
    "relevant": true,
@@ -16857,7 +16856,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16938,7 +16937,7 @@
    "headline_en": "White House fires cyber chief after tech chaos rattles US",
    "headline_fi": "Trumpin hallinnon kyberjohtaja sai potkut, erottamista edelsivät useat tekniset häiriöt",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:28Z",
+   "last_seen": "2026-11-26T16:46:51Z",
    "weekly": [
     0,
     0,
@@ -16946,7 +16945,7 @@
     29
    ],
    "this_week": 29,
-   "velocity": 5.2,
+   "velocity": 5.8,
    "markets": {
     "fi": 2,
     "intl": 3,
@@ -17007,14 +17006,14 @@
    "headline_en": "Fiona the hippo dies 11 days after swallowing visitor’s hat, Cincinnati Zoo says",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:39:02Z",
+   "last_seen": "2026-11-26T16:46:18Z",
    "weekly": [
     0,
     0,
     17,
-    28
+    29
    ],
-   "this_week": 28,
+   "this_week": 29,
    "velocity": 13.333333333333334,
    "markets": {
     "uk": 5,
@@ -17540,7 +17539,7 @@
    "headline_en": "Poland says Russia allegedly twice tried to kill a Ukrainian American rapper",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:39:12Z",
+   "last_seen": "2026-11-26T16:47:46Z",
    "weekly": [
     0,
     0,
@@ -17609,14 +17608,14 @@
    "headline_en": "EU and UK strike post-Brexit reset deal as Russian missiles hit Poland",
    "headline_fi": "Suomalaisten pääsy vaihto-opiskelijoiksi Britannian yliopistoihin helpottuu",
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:45Z",
+   "last_seen": "2026-11-26T16:47:05Z",
    "weekly": [
     1,
     0,
     8,
-    34
+    38
    ],
-   "this_week": 34,
+   "this_week": 38,
    "velocity": 6,
    "markets": {
     "uk": 5,
@@ -17678,14 +17677,14 @@
    "headline_en": "Anthropic mathematician says he and Claude proved the Riemann hypothesis",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:34Z",
+   "last_seen": "2026-11-26T16:46:23Z",
    "weekly": [
     0,
     0,
     0,
-    43
+    50
    ],
-   "this_week": 43,
+   "this_week": 50,
    "velocity": 8,
    "markets": {
     "intl": 2,
@@ -17794,7 +17793,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18156,7 +18155,7 @@
    "headline_en": "Nations agree to 'elaborate' on rules for AI-run 'killer robots' by 2028",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:45Z",
+   "last_seen": "2026-11-26T16:47:26Z",
    "weekly": [
     0,
     1,
@@ -18204,7 +18203,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18215,14 +18214,14 @@
    "headline_en": "EU budget: Costa pitches more cuts, Big Tech tax to break deadlock",
    "headline_fi": "EU harkitsee budjettinsa rahoittamista digijättejä verottamalla",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:16Z",
+   "last_seen": "2026-11-26T16:46:24Z",
    "weekly": [
     0,
     0,
     0,
-    19
+    22
    ],
-   "this_week": 19,
+   "this_week": 22,
    "velocity": 3.8,
    "markets": {
     "de": 4,
@@ -18412,7 +18411,7 @@
    "headline_en": "Alleged Mexican drug cartel boss 'El Chapo Isidro' arrested in special forces raid",
    "headline_fi": "Kartellipomo otettiin kiinni verisen tulitaistelun jälkeen - sitten alkoi kaaos",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:32Z",
+   "last_seen": "2026-11-26T16:47:20Z",
    "weekly": [
     0,
     0,
@@ -18482,7 +18481,7 @@
    "headline_en": "Bayern Munich's Harry Kane facing around three months out with torn ankle ligaments",
    "headline_fi": "Harry Kanelle ikävä takaisku - edessä kuukausien sairausloma",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:39:30Z",
+   "last_seen": "2026-11-26T16:48:02Z",
    "weekly": [
     0,
     0,
@@ -18536,14 +18535,14 @@
    "headline_en": "COP31: Climate deal 'not adopted,' summit president says",
    "headline_fi": "YK:n ilmastokokous päättyi tuloksettomana – “Edelläkävijämaiden on nyt etsittävä muita reittejä.”",
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:45Z",
+   "last_seen": "2026-11-26T16:46:25Z",
    "weekly": [
     5,
-    57,
-    38,
-    233
+    59,
+    40,
+    243
    ],
-   "this_week": 233,
+   "this_week": 243,
    "velocity": 6.131578947368421,
    "markets": {
     "de": 2,
@@ -18605,14 +18604,14 @@
    "headline_en": "Donald Trump threatens 'tremendous' tax on data centres built outside US",
    "headline_fi": "Muhoksen kunnanjohtaja Trumpin uhkauksesta: En menetä yöuniani",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:39:19Z",
+   "last_seen": "2026-11-26T16:46:19Z",
    "weekly": [
     0,
     0,
     0,
-    38
+    39
    ],
-   "this_week": 38,
+   "this_week": 39,
    "velocity": 7.6,
    "markets": {
     "se": 1,
@@ -18675,14 +18674,14 @@
    "headline_en": "Transcript: Burnham's Brexit reset",
    "headline_fi": "Analyysi: Britannia saa nuoret ja makkarat liikkeelle, mutta EU piti saneluvallan - ja suojautui Nigel Faragelta",
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:39:20Z",
+   "last_seen": "2026-11-26T16:46:28Z",
    "weekly": [
     2,
     0,
     1,
-    17
+    19
    ],
-   "this_week": 17,
+   "this_week": 19,
    "velocity": 17,
    "markets": {
     "fi": 2,
@@ -18723,7 +18722,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18734,14 +18733,14 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:35Z",
+   "last_seen": "2026-11-26T16:47:14Z",
    "weekly": [
     1,
     0,
-    14,
-    23
+    15,
+    24
    ],
-   "this_week": 23,
+   "this_week": 24,
    "velocity": 1.6428571428571428,
    "markets": {
     "de": 10
@@ -18782,57 +18781,53 @@
    "id": "4280",
    "first_seen": "2026-11-23T14:36:29Z",
    "headline": "Ukraine versenkt russische Korvette in Libyen",
-   "headline_en": "Ukraine-Russia war latest: Satellite images shows sunken Russian warship after suspected Ukrainian strike off Libya",
-   "headline_fi": "Venäjän sota-alus uponnut - uppoamispaikka hämmentävä",
+   "headline_en": "Ukraine claims strikes on Russian vessels off Libya as cargo ship catches fire in Gulf of Finland",
+   "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:21Z",
+   "last_seen": "2026-11-26T16:46:25Z",
    "weekly": [
     0,
     0,
     0,
-    102
+    110
    ],
-   "this_week": 102,
-   "velocity": 5,
+   "this_week": 110,
+   "velocity": 22,
    "markets": {
-    "uk": 2,
-    "fi": 1,
-    "de": 3,
-    "intl": 3,
-    "us": 1
+    "de": 6,
+    "intl": 4
    },
-   "outlets": 9,
+   "outlets": 7,
    "samples": [
     {
-     "t": "Ukraine-Russia war latest: Satellite images shows sunken Russian warship after suspected Ukrainian strike off Libya",
-     "u": "https://www.independent.co.uk/news/world/europe/ukraine-russia-war-live-libya-benghazi-warship-drone-attack-b3089568.html",
-     "d": "independent.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-23T03:25:39Z"
-    },
-    {
-     "t": "Angriffe auf Schiffe vor libyscher Küste - Uno fordert sofortige Untersuchung",
-     "u": "https://www.spiegel.de/ausland/libyen-uno-fordert-untersuchung-nach-angriffen-auf-schiffe-vor-bengasi-a-0843553c-ae70-475c-9d9f-9a64df4122a3",
-     "d": "spiegel.de",
+     "t": "Ukraine versenkt russische Korvette in Libyen",
+     "u": "https://www.faz.net/aktuell/politik/ukraine/ukraine-versenkt-russische-korvette-in-libyen-201708575.html",
+     "d": "faz.net",
      "c": "de",
      "l": "de",
-     "p": "2026-11-23T04:00:00Z"
+     "p": "2026-11-24T14:34:57Z"
     },
     {
-     "t": "Suspected Ukrainian sea drones struck a Russian warship in Libya, officials say",
-     "u": "https://www.scmp.com/news/world/africa/article/3375407/suspected-ukrainian-sea-drones-hit-russian-warship-libyan-naval-base-officials-say",
-     "d": "scmp.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-22T22:46:18Z"
+     "t": "Russisches Kriegsschiff im Mittelmeer \"versenkt\" - Ukraine reklamiert Wasserdrohnen-Angriff für sich",
+     "u": "https://www.welt.de/politik/ausland/article6b03c6c25842ff528b9e46ed/russisches-kriegsschiff-im-mittelmeer-versenkt-ukraine-reklamiert-wasserdrohnen-angriff-fuer-sich.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-23T05:05:21Z"
+    },
+    {
+     "t": "Ukraine bestätigt Angriffe auf russische Schiffe vor Libyen",
+     "u": "https://www.dw.com/de/ukraine-best%C3%A4tigt-angriffe-auf-russische-schiffe-vor-libyen/a-80018005",
+     "d": "dw.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-23T10:42:28Z"
     }
    ],
    "abroad_first": "2026-11-22T11:23:00Z",
-   "markets_abroad": 4,
+   "markets_abroad": 2,
    "subjects": [
-    "geopolitics",
-    "policy"
+    "geopolitics"
    ],
    "relevant": true,
    "checked": "2026-11-23T16:30:54Z",
@@ -18922,9 +18917,9 @@
    "first_seen": "2026-11-23T14:36:33Z",
    "headline": "Ainakin 14 kuoli iskuissa Kiovan alueella - useita yhä kateissa",
    "headline_en": "Russian attacks across Ukraine injure 30 over past day as rescue operation continues near Kyiv after drone strike",
-   "headline_fi": "Kerrostalo Kiovan lähellä romahti osin Venäjän iskusta - useita asukkaita kateissa",
+   "headline_fi": "Ainakin 14 kuoli iskuissa Kiovan alueella - useita yhä kateissa",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:39:09Z",
+   "last_seen": "2026-11-26T16:47:44Z",
    "weekly": [
     0,
     0,
@@ -18932,12 +18927,12 @@
     19
    ],
    "this_week": 19,
-   "velocity": 3,
+   "velocity": 3.8,
    "markets": {
-    "fi": 2,
-    "intl": 5,
+    "fi": 3,
+    "intl": 3,
     "de": 1,
-    "se": 1
+    "se": 2
    },
    "outlets": 8,
    "samples": [
@@ -18950,20 +18945,20 @@
      "p": "2026-11-22T09:54:18Z"
     },
     {
+     "t": "14 missing after Russian strike as Zelenskyy presses US over Patriot missiles",
+     "u": "https://www.politico.eu/article/14-missing-after-russian-strike-zelenskyy-presses-us-patriot-missiles/",
+     "d": "politico.eu",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-22T09:49:20Z"
+    },
+    {
      "t": "Ukraine-Krieg: Drohnen-Terror ‒ Viele Vermisste nach russischem Angriff auf Wohnhaus bei Kiew - Video",
      "u": "https://www.welt.de/videos/video6b02f2f83cd434a4d6d0d0eb/ukraine-krieg-drohnen-terror-viele-vermisste-nach-russischem-angriff-auf-wohnhaus-bei-kiew.html",
      "d": "welt.de",
      "c": "de",
      "l": "de",
      "p": "2026-11-22T14:11:20Z"
-    },
-    {
-     "t": "Dödlig rysk attack: Femvåningshus träffat",
-     "u": "https://www.di.se/nyheter/dodlig-rysk-attack-femvaningshus-traffat/",
-     "d": "di.se",
-     "c": "se",
-     "l": "sv",
-     "p": "2026-11-22T13:00:51Z"
     }
    ],
    "abroad_first": "2026-11-22T09:49:20Z",
@@ -18989,10 +18984,10 @@
    "id": "4283",
    "first_seen": "2026-11-23T14:36:32Z",
    "headline": "Dozens missing as deadly fire tears through Indonesian candy factory",
-   "headline_en": "Dozens missing as deadly fire hits Indonesian candy factory",
-   "headline_fi": "Kymmeniä kateissa makeistehtaan tulipalon jälkeen Indonesiassa",
+   "headline_en": "Dozens missing as deadly fire tears through Indonesian candy factory",
+   "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:59Z",
+   "last_seen": "2026-11-26T16:47:34Z",
    "weekly": [
     0,
     0,
@@ -19000,22 +18995,30 @@
     28
    ],
    "this_week": 28,
-   "velocity": 3.2,
+   "velocity": 5.6,
    "markets": {
-    "de": 1,
-    "intl": 3,
-    "fi": 1,
-    "uk": 4
+    "de": 2,
+    "intl": 4,
+    "us": 1,
+    "uk": 3
    },
-   "outlets": 7,
+   "outlets": 10,
    "samples": [
     {
-     "t": "Dozens missing as deadly fire hits Indonesian candy factory",
-     "u": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342",
+     "t": "Dozens missing as deadly fire tears through Indonesian candy factory",
+     "u": "https://www.dw.com/en/dozens-missing-as-deadly-fire-tears-through-indonesian-candy-factory/a-80012342",
      "d": "dw.com",
      "c": "de",
      "l": "en",
      "p": "2026-11-22T06:14:20Z"
+    },
+    {
+     "t": "At least 24 people killed in Indonesia factory fire, police say",
+     "u": "https://www.euronews.com/2026/11/23/at-least-24-people-killed-in-indonesia-factory-fire-police-say",
+     "d": "euronews.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-23T14:39:22Z"
     },
     {
      "t": "Indonesia says 24 killed in factory blaze as rescuers search for dozens missing",
@@ -19024,36 +19027,28 @@
      "c": "intl",
      "l": "en",
      "p": "2026-11-22T22:49:00Z"
-    },
-    {
-     "t": "Indonesia factory fire kills three, 36 missing",
-     "u": "https://www.aljazeera.com/news/2026/11/22/indonesia-factory-fire-kills-three-36-missing",
-     "d": "aljazeera.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-22T07:46:35Z"
     }
    ],
    "abroad_first": "2026-11-22T04:15:11Z",
-   "markets_abroad": 3,
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   },
   "4180": {
    "id": "4180",
    "first_seen": "2026-11-22T01:42:56Z",
-   "headline": "As US gears up for Thanksgiving, Iowa braces for controlled bomb blast",
+   "headline": "See How the Army Plans to Blow Up Five Tons of Toxic Lead Compounds in Iowa",
    "headline_en": "As US gears up for Thanksgiving, Iowa braces for controlled bomb blast",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:20Z",
+   "last_seen": "2026-11-26T16:46:28Z",
    "weekly": [
     0,
     0,
-    3,
-    40
+    4,
+    70
    ],
-   "this_week": 40,
+   "this_week": 70,
    "velocity": 13.333333333333334,
    "markets": {
     "uk": 5,
@@ -19110,10 +19105,10 @@
    "id": "4279",
    "first_seen": "2026-11-23T14:36:28Z",
    "headline": "Bekräftat: Sverige lämnar klimatmöte - EU skriver inte under",
-   "headline_en": null,
+   "headline_en": "Spacecraft arrive at Mercury after eight years – but there’s a glitch",
    "headline_fi": "BepiColombo saapunut Merkuriuksen kiertoradalle",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:39Z",
+   "last_seen": "2026-11-26T16:47:24Z",
    "weekly": [
     0,
     0,
@@ -19121,37 +19116,37 @@
     20
    ],
    "this_week": 20,
-   "velocity": 3,
+   "velocity": 4,
    "markets": {
     "fi": 2,
-    "de": 1,
-    "uk": 2
+    "uk": 2,
+    "de": 2
    },
-   "outlets": 4,
+   "outlets": 5,
    "samples": [
     {
-     "t": "\"BepiColombo\": Doppelsonde von ESA und Jaxa in Merkur-Umlaufbahn",
-     "u": "https://www.spiegel.de/wissenschaft/weltall/bepicolombo-doppelsonde-von-esa-und-jaxa-in-merkur-umlaufbahn-a-097c2f75-6331-4e5b-9a7d-014ab11f0596",
-     "d": "spiegel.de",
+     "t": "Spacecraft arrive at Mercury after eight years – but there’s a glitch",
+     "u": "https://www.independent.co.uk/space/mercury-mission-bepicolombo-esa-glitch-b3089679.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-23T09:12:25Z"
+    },
+    {
+     "t": "BepiColombo probe ‘safe’ in Mercury’s orbit despite glitch, European Space Agency says",
+     "u": "https://www.independent.co.uk/space/bepicolombo-probe-mercury-mission-update-esa-b3090398.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-24T08:15:24Z"
+    },
+    {
+     "t": "Holprige Ankunft nach langer Reise: BepiColombo erreicht den Merkur",
+     "u": "https://www.derstandard.at/story/3000000350541/holprige-ankunft-nach-langer-reise-bepicolombo-erreicht-den-merkur",
+     "d": "derstandard.at",
      "c": "de",
      "l": "de",
-     "p": "2026-11-22T16:43:00Z"
-    },
-    {
-     "t": "புதன் கோளை நெருங்குவது ஏன் இவ்வளவு கடினம்? பெபிகொலம்போ கண்டறியப் போகும் மர்மங்கள் என்ன?",
-     "u": "https://www.bbc.com/tamil/articles/cq36gw350x34o",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "tam",
-     "p": "2026-11-21T01:41:49Z"
-    },
-    {
-     "t": "پس از هشت سال سفر؛ فضاپیمایی سرانجام به عطارد اسرارآمیز می‌رسد",
-     "u": "https://www.bbc.com/persian/articles/c920xd2742kgo",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "fa",
-     "p": "2026-11-21T00:43:18Z"
+     "p": "2026-11-23T11:28:21Z"
     }
    ],
    "abroad_first": "2026-11-21T00:43:18Z",
@@ -19166,14 +19161,14 @@
    "headline_en": "What to expect from Princess Kate's documentary Heal and where to watch it | The National",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:40Z",
+   "last_seen": "2026-11-26T16:47:12Z",
    "weekly": [
     0,
     0,
     0,
-    16
+    17
    ],
-   "this_week": 16,
+   "this_week": 17,
    "velocity": 3.2,
    "markets": {
     "intl": 1,
@@ -19279,14 +19274,14 @@
    "headline_en": "Gaming cafes packed, offices declare holidays: How Grand Theft Auto VI fever gripped India",
    "headline_fi": "GTA VI rikkoi ennätyksen, on takonut lähes 4 miljardin dollarin tuotot",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:25Z",
+   "last_seen": "2026-11-26T16:46:47Z",
    "weekly": [
     0,
     0,
     0,
-    22
+    26
    ],
-   "this_week": 22,
+   "this_week": 26,
    "velocity": 3.6,
    "markets": {
     "intl": 5,
@@ -19346,7 +19341,7 @@
    "headline_en": "Trump says reported FBI database hack is 'not good'",
    "headline_fi": "Trumpilta hämmentävä reaktio kyberhyökkäykseen: Valitti heti Ukrainasta",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:25Z",
+   "last_seen": "2026-11-26T16:46:47Z",
    "weekly": [
     0,
     0,
@@ -19413,18 +19408,18 @@
   "4234": {
    "id": "4234",
    "first_seen": "2026-11-22T14:08:01Z",
-   "headline": "Ukraine war briefing: European leaders react with anger and alarm after Russian missiles crash in Poland",
+   "headline": "NATO will defend every inch of Polish territory, Rutte says",
    "headline_en": "Ukraine war briefing: European leaders react with anger and alarm after Russian missiles crash in Poland",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:43Z",
+   "last_seen": "2026-11-26T16:47:07Z",
    "weekly": [
     0,
     0,
     0,
-    17
+    19
    ],
-   "this_week": 17,
+   "this_week": 19,
    "velocity": 3.4,
    "markets": {
     "uk": 1,
@@ -19465,7 +19460,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -19530,7 +19525,7 @@
    "headline_en": "Brussels, Charleroi airports to cancel most flights Monday amid Belgian strike",
    "headline_fi": "Suurin osa Brysselin lentoaseman lennoista perutaan maanantaina",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:39:11Z",
+   "last_seen": "2026-11-26T16:47:46Z",
    "weekly": [
     0,
     0,
@@ -19597,7 +19592,7 @@
    "headline_en": "US: ICE arrests 2 at Seattle airport in 'chilling' scenes -- governor",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:39:09Z",
+   "last_seen": "2026-11-26T16:47:43Z",
    "weekly": [
     0,
     0,
@@ -19605,13 +19600,13 @@
     15
    ],
    "this_week": 15,
-   "velocity": 2.4,
+   "velocity": 3,
    "markets": {
     "de": 4,
-    "uk": 3,
-    "intl": 3
+    "uk": 5,
+    "intl": 1
    },
-   "outlets": 9,
+   "outlets": 7,
    "samples": [
     {
      "t": "Liveticker USA unter Trump: Gouverneur von Washington: ICE ist \"völlig außer Kontrolle\"",
@@ -19622,20 +19617,20 @@
      "p": "2026-11-22T12:17:48Z"
     },
     {
-     "t": "US-Einwanderungsbehörde ICE: US-Gouverneur kritisiert ICE-Einsatz am Flughafen Seattle",
-     "u": "https://www.zeit.de/politik/ausland/2026-11/ice-festnahme-flughafen-seattle-bob-ferguson-gxe",
-     "d": "zeit.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-22T07:53:59Z"
-    },
-    {
      "t": "US: ICE arrests 2 at Seattle airport in 'chilling' scenes -- governor",
      "u": "https://www.dw.com/en/us-ice-arrests-2-at-seattle-airport-in-chilling-scenes-governor/a-80012480",
      "d": "dw.com",
      "c": "de",
      "l": "en",
      "p": "2026-11-22T07:27:55Z"
+    },
+    {
+     "t": "US-Einwanderungsbehörde ICE: US-Gouverneur kritisiert ICE-Einsatz am Flughafen Seattle",
+     "u": "https://www.zeit.de/politik/ausland/2026-11/ice-festnahme-flughafen-seattle-bob-ferguson-gxe",
+     "d": "zeit.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-22T07:53:59Z"
     }
    ],
    "abroad_first": "2026-11-22T02:14:54Z",
@@ -19650,14 +19645,14 @@
    "headline_en": "Costa Concordia Captain Released from Prison After Nine Years",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:39:05Z",
+   "last_seen": "2026-11-26T16:47:07Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    15
    ],
-   "this_week": 13,
+   "this_week": 15,
    "velocity": 2.6,
    "markets": {
     "de": 4,
@@ -19703,14 +19698,14 @@
    "headline_en": "Russia 'plan to launch satellite with nuclear weapon into space by end of the year'",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:50Z",
+   "last_seen": "2026-11-26T16:46:55Z",
    "weekly": [
     0,
     0,
     0,
-    37
+    38
    ],
-   "this_week": 37,
+   "this_week": 38,
    "velocity": 5.6,
    "markets": {
     "uk": 1,
@@ -19771,7 +19766,7 @@
    "headline_en": "From Symantec to Zscaler, the biggest cybersecurity acquisitions",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:39:01Z",
+   "last_seen": "2026-11-26T16:47:36Z",
    "weekly": [
     0,
     0,
@@ -19839,14 +19834,14 @@
    "headline_en": "EU proposes package of Russian sports sanctions, visa bans, and a Krygyzstan crypto blockade",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:16Z",
+   "last_seen": "2026-11-26T16:46:34Z",
    "weekly": [
     0,
     0,
     5,
-    31
+    34
    ],
-   "this_week": 31,
+   "this_week": 34,
    "velocity": 3.6,
    "markets": {
     "de": 2,
@@ -19908,7 +19903,7 @@
    "headline_en": "Zelenskyy praises 'exemplary' drone operation that sank Russian warship in a Libyan port",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:39:07Z",
+   "last_seen": "2026-11-26T16:47:42Z",
    "weekly": [
     0,
     0,
@@ -19972,18 +19967,18 @@
   "4366": {
    "id": "4366",
    "first_seen": "2026-11-24T15:12:03Z",
-   "headline": "Metall- und Elektroindustrie: Verhandler unter Druck: Klappt Pilotabschluss in Mannheim?",
+   "headline": "Metall- und Elektroindustrie: Vierte Verhandlungsrunde im Tarifstreit beginnt",
    "headline_en": "Mercedes, BMW hit by 24-hour strikes as German pay dispute widens",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:20Z",
+   "last_seen": "2026-11-26T16:46:41Z",
    "weekly": [
     12,
     5,
     4,
-    16
+    18
    ],
-   "this_week": 16,
+   "this_week": 18,
    "velocity": 4,
    "markets": {
     "de": 8,
@@ -20023,7 +20018,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -20034,20 +20029,19 @@
    "headline_en": "Polish authorities find Russian missile remains at three sites following airspace incursion",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:47Z",
+   "last_seen": "2026-11-26T16:47:13Z",
    "weekly": [
     0,
     0,
     0,
-    16
+    18
    ],
-   "this_week": 16,
-   "velocity": 2.2,
+   "this_week": 18,
+   "velocity": 3.6,
    "markets": {
-    "de": 5,
-    "intl": 1,
+    "de": 8,
     "se": 1,
-    "us": 2
+    "intl": 1
    },
    "outlets": 7,
    "samples": [
@@ -20077,7 +20071,7 @@
     }
    ],
    "abroad_first": "2026-11-20T15:03:34Z",
-   "markets_abroad": 4,
+   "markets_abroad": 3,
    "subjects": [
     "geopolitics"
    ],
@@ -20171,7 +20165,7 @@
    "headline_en": "Manchester's Co-op Live arena evacuated after apparent tear gas incident at Don Toliver concert",
    "headline_fi": "12 000 ihmistä evakuoitiin keikalta Britanniassa - osa yleisöstä yski verta",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:31Z",
+   "last_seen": "2026-11-26T16:47:20Z",
    "weekly": [
     0,
     0,
@@ -20223,14 +20217,14 @@
    "headline_en": "Six fall into Aura River after suspension bridge collapses",
    "headline_fi": "Tuoreet kuvat paljastavat Liedon riippusillan karun tilan",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:55Z",
+   "last_seen": "2026-11-26T16:47:02Z",
    "weekly": [
     0,
     0,
     0,
-    15
+    19
    ],
-   "this_week": 15,
+   "this_week": 19,
    "velocity": 2.6,
    "markets": {
     "fi": 10
@@ -20338,7 +20332,7 @@
    "headline_en": "Police investigating bomb threats against schools in Germany and Denmark",
    "headline_fi": "Satoja pommiuhkauksia kouluihin Saksassa ja Tanskassa",
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:39:03Z",
+   "last_seen": "2026-11-26T16:47:38Z",
    "weekly": [
     0,
     11,
@@ -20392,14 +20386,14 @@
    "headline_en": null,
    "headline_fi": "Sdp säästäisi sotesta 1,2 miljardia - näin Antti Lindtman selitti yllättävää käännettä",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:15Z",
+   "last_seen": "2026-11-26T16:46:12Z",
    "weekly": [
     0,
     0,
     0,
-    27
+    28
    ],
-   "this_week": 27,
+   "this_week": 28,
    "velocity": 5.2,
    "markets": {
     "fi": 10
@@ -20416,18 +20410,18 @@
   "4319": {
    "id": "4319",
    "first_seen": "2026-11-24T15:11:32Z",
-   "headline": "(LEAD) S. Korea briefly issues alert on eastern island after Russian airplanes enter air defense zone",
+   "headline": "(3rd LD) S. Korea briefly issues alert on eastern island after Russian warplanes near airspace",
    "headline_en": "Yonhap News Summary",
    "headline_fi": "Etelä-Korea lähetti hävittäjiä ilmaan venäläisten sotilaskoneiden vuoksi",
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:42Z",
+   "last_seen": "2026-11-26T16:46:29Z",
    "weekly": [
     0,
     0,
     4,
-    25
+    27
    ],
-   "this_week": 25,
+   "this_week": 27,
    "velocity": 3,
    "markets": {
     "fi": 2,
@@ -20489,14 +20483,14 @@
    "headline_en": "US court convicts China's Huawei for fraud, conspiring to steal trade secrets, in sprawling trial over Iran business",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:17Z",
+   "last_seen": "2026-11-26T16:46:29Z",
    "weekly": [
     0,
     0,
     1,
-    23
+    33
    ],
-   "this_week": 23,
+   "this_week": 33,
    "velocity": 23,
    "markets": {
     "us": 2,
@@ -20558,14 +20552,14 @@
    "headline_en": "Yonhap News Summary",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:19Z",
+   "last_seen": "2026-11-26T16:46:40Z",
    "weekly": [
     0,
     0,
     0,
-    17
+    27
    ],
-   "this_week": 17,
+   "this_week": 27,
    "velocity": 1,
    "markets": {
     "intl": 4,
@@ -20605,7 +20599,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
   },
@@ -20616,7 +20610,7 @@
    "headline_en": "Asian tech stocks surge on Jensen Huang’s return to Nvidia",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:41Z",
+   "last_seen": "2026-11-26T16:47:25Z",
    "weekly": [
     0,
     0,
@@ -20684,14 +20678,14 @@
    "headline_en": "UK warns companies of potential Russian sabotage threat",
    "headline_fi": "Britannialta erittäin poikkeuksellinen varoitus Venäjästä",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:24Z",
+   "last_seen": "2026-11-26T16:46:44Z",
    "weekly": [
     0,
     0,
     0,
-    15
+    17
    ],
-   "this_week": 15,
+   "this_week": 17,
    "velocity": 3,
    "markets": {
     "intl": 6,
@@ -20809,18 +20803,18 @@
   "4174": {
    "id": "4174",
    "first_seen": "2026-11-21T00:37:35Z",
-   "headline": "Tapparan päävalmentajalle potkut - Jukka Rautakorpi tilalle",
+   "headline": "Tappara teki tylyn ratkaisun - asiantuntija: \"Tuhottiin ura",
    "headline_en": null,
    "headline_fi": "Tappara on karmeassa tilanteessa - nyt puhuu päävalmentaja Fredrik Norrena",
    "state": "acceleration",
-   "last_seen": "2026-11-26T04:38:53Z",
+   "last_seen": "2026-11-26T16:46:53Z",
    "weekly": [
     2,
     0,
     11,
-    17
+    27
    ],
-   "this_week": 17,
+   "this_week": 27,
    "velocity": 3.3333333333333335,
    "markets": {
     "fi": 10
@@ -20839,14 +20833,14 @@
    "headline_en": "Tuesday briefing: The fight over Pip - what happens when two reviews want different things?",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:35Z",
+   "last_seen": "2026-11-26T16:46:17Z",
    "weekly": [
     0,
     0,
     0,
-    20
+    27
    ],
-   "this_week": 20,
+   "this_week": 27,
    "velocity": 4,
    "markets": {
     "uk": 10
@@ -20890,14 +20884,14 @@
    "headline_en": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
    "headline_fi": "Iran ruoski ilman hijabia esiintyneen 29-vuotiaan laulajan",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:41Z",
+   "last_seen": "2026-11-26T16:46:58Z",
    "weekly": [
     0,
     0,
     0,
-    18
+    20
    ],
-   "this_week": 18,
+   "this_week": 20,
    "velocity": 2.2,
    "markets": {
     "intl": 3,
@@ -20947,7 +20941,7 @@
    "headline_en": "Turkey: Authorities search for lioness on the loose in Istanbul",
    "headline_fi": "Hiippaileeko Istanbulin pohjoisessa maastossa leijona? - Viranomaisilla suuretsinnät käynnissä",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:41Z",
+   "last_seen": "2026-11-26T16:47:25Z",
    "weekly": [
     0,
     0,
@@ -21001,14 +20995,14 @@
    "headline_en": "Pope Francis diaries recount spiritual crisis, him seeing the 'Devil'",
    "headline_fi": "Paavi näki Saatanan kolmesti: \"En voi unohtaa käheyttä hänen äänessään",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:36Z",
+   "last_seen": "2026-11-26T16:47:12Z",
    "weekly": [
     0,
     0,
     0,
-    17
+    19
    ],
-   "this_week": 17,
+   "this_week": 19,
    "velocity": 3.4,
    "markets": {
     "de": 3,
@@ -21055,7 +21049,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:58Z",
+   "last_seen": "2026-11-26T16:47:34Z",
    "weekly": [
     0,
     0,
@@ -21063,12 +21057,20 @@
     16
    ],
    "this_week": 16,
-   "velocity": 1.2,
+   "velocity": 3.2,
    "markets": {
-    "de": 6
+    "de": 10
    },
-   "outlets": 3,
+   "outlets": 4,
    "samples": [
+    {
+     "t": "Kommentar: Söders Vorstoß zur Steuersenkung erwischt SPD und CDU kalt",
+     "u": "https://www.handelsblatt.com/meinung/kommentare/kommentar-soeders-vorstoss-zur-steuersenkung-erwischt-spd-und-cdu-kalt/100272017.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-23T13:31:20Z"
+    },
     {
      "t": "\"Berlin direkt\": NRW-Ministerpräsident Wüst weist Söders Forderung zur kalten Progression zurück",
      "u": "https://www.welt.de/politik/article6b0342633b1a22514b912f88/berlin-direkt-nrw-ministerpraesident-wuest-weist-soeders-forderung-zur-kalten-progression-zurueck.html",
@@ -21084,14 +21086,6 @@
      "c": "de",
      "l": "de",
      "p": "2026-11-22T10:05:29Z"
-    },
-    {
-     "t": "Söder lässt bei kalter Progression nicht locker",
-     "u": "https://www.welt.de/regionales/bayern/article6b02238a39a3e8110f0e5e31/soeder-laesst-bei-kalter-progression-nicht-locker.html",
-     "d": "welt.de",
-     "c": "de",
-     "l": "de",
-     "p": "2026-11-21T23:04:43Z"
     }
    ],
    "abroad_first": "2026-11-21T23:04:43Z",
@@ -21106,14 +21100,14 @@
    "headline_en": "Two men arrested over suspected burglary at Prince and Princess of Wales's home | The National",
    "headline_fi": "Williamin ja Catherinen kakkoskotiin murtauduttu - kaksi miestä pidätetty",
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:32Z",
+   "last_seen": "2026-11-26T16:46:26Z",
    "weekly": [
     0,
     0,
     0,
-    16
+    25
    ],
-   "this_week": 16,
+   "this_week": 25,
    "velocity": 3.2,
    "markets": {
     "de": 3,
@@ -21367,18 +21361,18 @@
   "4412": {
    "id": "4412",
    "first_seen": "2026-11-25T15:57:11Z",
-   "headline": "'Something bad is happening': Compass reignites City of London exodus fears",
+   "headline": "M&G boss urges UK to stem flood of firms leaving London Stock Exchange after Compass exit",
    "headline_en": "'Something bad is happening': Compass reignites City of London exodus fears",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:25Z",
+   "last_seen": "2026-11-26T16:46:47Z",
    "weekly": [
     0,
     0,
     0,
-    13
+    18
    ],
-   "this_week": 13,
+   "this_week": 18,
    "velocity": 2.6,
    "markets": {
     "intl": 3,
@@ -21418,9 +21412,911 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-26T19:30:54Z",
    "check_how": "url",
    "check_error": null
+  },
+  "4481": {
+   "id": "4481",
+   "first_seen": "2026-11-26T16:46:12Z",
+   "headline": "USA planen neue Zölle gegen EU und 13 weitere Handelspartner",
+   "headline_en": "US proposes new tariffs on 14 trading partners, including China and the EU",
+   "headline_fi": "BBC: Yhdysvallat valmistautuu julkistamaan uusia tuontitulleja jo tänään",
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:12Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    56
+   ],
+   "this_week": 56,
+   "velocity": 11.2,
+   "markets": {
+    "de": 6,
+    "se": 1,
+    "fi": 1,
+    "intl": 2
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "USA planen neue Zölle gegen EU und 13 weitere Handelspartner",
+     "u": "https://www.faz.net/aktuell/wirtschaft/usa-planen-neue-zoelle-gegen-eu-und-13-weitere-handelspartner-201716698.html",
+     "d": "faz.net",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-25T13:21:31Z"
+    },
+    {
+     "t": "USA plant neue Zölle gegen EU und 13 weitere Handelspartner",
+     "u": "https://www.derstandard.at/story/3000000351038/usa-plant-neue-zoelle-gegen-eu-und-13-weitere-handelspartner",
+     "d": "derstandard.at",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-25T13:20:51Z"
+    },
+    {
+     "t": "Handelskonflikt: Bis zu 20 Prozent - USA planen neue Zölle gegen EU und weitere Handelspartner",
+     "u": "https://www.welt.de/politik/ausland/article6b06e5805b0e340c047ac985/handelskonflikt-bis-zu-20-prozent-usa-planen-neue-zoelle-gegen-eu-und-weitere-handelspartner.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-25T15:19:24Z"
+    }
+   ],
+   "abroad_first": "2026-11-25T13:20:51Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "business",
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-26T19:30:54Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-25T07:45:39Z",
+    "d": "mtvuutiset.fi",
+    "u": "https://www.mtvuutiset.fi/artikkeli/trump-valayttelee-taas-tulli-korttia/9425866",
+    "t": "Trump väläyttelee taas \"tulli-korttia\"",
+    "s": 0.846
+   },
+   "fi_count": 7,
+   "arrived_at": "2026-11-26T19:30:54Z"
+  },
+  "4305": {
+   "id": "4305",
+   "first_seen": "2026-11-23T14:36:50Z",
+   "headline": "12 cost-effective ways to keep your home warm as energy bills set to jump 26% in January",
+   "headline_en": "Energy bills set to soar as Ofgem predicted to raise price cap by 26% from January",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-26T16:46:17Z",
+   "weekly": [
+    0,
+    3,
+    4,
+    39
+   ],
+   "this_week": 39,
+   "velocity": 2.25,
+   "markets": {
+    "uk": 9
+   },
+   "outlets": 4,
+   "samples": [
+    {
+     "t": "Energy bills set to soar as Ofgem predicted to raise price cap by 26% from January",
+     "u": "https://www.independent.co.uk/news/uk/home-news/energy-price-cap-ofgem-january-2027-announcement-predictions-b3090781.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-24T15:38:06Z"
+    },
+    {
+     "t": "Energy bills will soar – here’s how to cut costs this winter",
+     "u": "https://www.independent.co.uk/news/uk/home-news/energy-bills-cut-heating-costs-winter-experts-b3089656.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-23T08:29:20Z"
+    },
+    {
+     "t": "Centrica boss says he is 'hugely concerned' over impact of soaring energy bills",
+     "u": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-22T13:50:21Z"
+    }
+   ],
+   "abroad_first": "2026-11-22T11:24:22Z",
+   "markets_abroad": 1,
+   "subjects": [
+    "sustainability",
+    "policy"
+   ],
+   "relevant": true
+  },
+  "4531": {
+   "id": "4531",
+   "first_seen": "2026-11-26T16:46:45Z",
+   "headline": "Vanessa Emde: SPD und Grüne begrüßen Fraktionsausschluss der Berliner Linkenpolitikerin",
+   "headline_en": null,
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-26T16:46:45Z",
+   "weekly": [
+    6,
+    21,
+    7,
+    29
+   ],
+   "this_week": 29,
+   "velocity": 4.142857142857143,
+   "markets": {
+    "de": 10
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Vanessa Emde: SPD und Grüne begrüßen Fraktionsausschluss der Berliner Linkenpolitikerin",
+     "u": "https://www.spiegel.de/politik/vanessa-emde-spd-und-gruene-begruessen-fraktionsausschluss-der-berliner-linkenpolitikerin-a-bf3b262f-81df-4b90-b0aa-0996deecfa24",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-24T19:19:00Z"
+    },
+    {
+     "t": "Interne Abstimmung: Vanessa Emde aus Berliner Linke-Fraktion ausgeschlossen",
+     "u": "https://www.welt.de/politik/deutschland/article6b05bc84460ead0fdbd80e7e/interne-abstimmung-vanessa-emde-aus-berliner-linke-fraktion-ausgeschlossen.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-24T16:35:46Z"
+    },
+    {
+     "t": "Berlin: Brantner sieht Kenia-Koalition skeptisch und fordert Ausschluss von Emde aus Linke-Fraktion",
+     "u": "https://www.welt.de/politik/deutschland/article6b04d3d339a3e8110f0e96b0/berlin-brantner-sieht-kenia-koalition-skeptisch-und-fordert-ausschluss-von-emde-aus-linke-fraktion.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-24T00:19:08Z"
+    }
+   ],
+   "abroad_first": "2026-11-24T00:19:08Z",
+   "markets_abroad": 1,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true
+  },
+  "4421": {
+   "id": "4421",
+   "first_seen": "2026-11-25T15:57:16Z",
+   "headline": "Ryöstöyritys pahasti pieleen: 25 ihmistä pidetään panttivankina ruokakaupassa Kolumbiassa",
+   "headline_en": "Hostage situation reported in Colombia as armed men flee into supermarket",
+   "headline_fi": "Ryöstöyritys pahasti pieleen: 25 ihmistä pidetään panttivankina ruokakaupassa Kolumbiassa",
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:36Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    26
+   ],
+   "this_week": 26,
+   "velocity": 2.4,
+   "markets": {
+    "fi": 3,
+    "se": 1,
+    "intl": 2,
+    "uk": 2
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Pågående gisslandrama i Colombia",
+     "u": "https://www.svt.se/nyheter/utrikes/pagaende-gisslandrama-i-colombia",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-24T18:35:58Z"
+    },
+    {
+     "t": "Hostage situation reported in Colombia as armed men flee into supermarket",
+     "u": "https://www.aljazeera.com/news/2026/11/24/hostage-situation-reported-in-colombia-as-armed-men-flee-into-supermarket",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-24T21:04:46Z"
+    },
+    {
+     "t": "Colombia police responding to hostage incident in Colombia's Cartagena",
+     "u": "https://www.reuters.com/world/americas/colombias-cartagena-airport-briefly-suspends-landings-due-security-incident-2026-11-24/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-24T16:59:48Z"
+    }
+   ],
+   "abroad_first": "2026-11-24T16:59:48Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-26T19:30:54Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-24T18:29:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012435054.html",
+    "t": "25 ihmistä panttivankeina ruokakaupassa Kolumbiassa",
+    "s": null
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-26T19:30:54Z"
+  },
+  "4414": {
+   "id": "4414",
+   "first_seen": "2026-11-25T15:57:12Z",
+   "headline": "Péter Magyar in der Ukraine: Ein Neustart mit Selenskyj",
+   "headline_en": "Hungarian prime minister set to meet Zelenskiy in western Ukraine on Tuesday",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:49Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    19
+   ],
+   "this_week": 19,
+   "velocity": 1.8,
+   "markets": {
+    "intl": 5,
+    "uk": 2,
+    "de": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Hungarian prime minister set to meet Zelenskiy in western Ukraine on Tuesday",
+     "u": "https://www.reuters.com/world/hungarian-prime-minister-set-meet-zelenskiy-western-ukraine-tuesday-2026-11-24/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-24T05:15:00Z"
+    },
+    {
+     "t": "Hungary’s Magyar says he will visit Ukraine in a sign of mending relations",
+     "u": "https://www.independent.co.uk/news/peter-magyar-ukraine-hungary-viktor-orban-budapest-b3089983.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-23T14:49:32Z"
+    },
+    {
+     "t": "Zelensky, Hungary's Magyar could meet 'soon' during planned visits to Ukraine's Zakarpattia, source says",
+     "u": "https://kyivindependent.com/zelensky-hungarys-magyar-could-meet-soon-during-planned-visits-to-ukraines-zakarpattia-source-says/",
+     "d": "kyivindependent.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-23T16:31:32Z"
+    }
+   ],
+   "abroad_first": "2026-11-23T13:09:29Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-26T19:30:54Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4484": {
+   "id": "4484",
+   "first_seen": "2026-11-26T16:46:13Z",
+   "headline": "Poundland collapses into administration",
+   "headline_en": "Poundland collapses into administration",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-26T16:46:13Z",
+   "weekly": [
+    11,
+    12,
+    3,
+    19
+   ],
+   "this_week": 19,
+   "velocity": 6.333333333333333,
+   "markets": {
+    "uk": 8,
+    "intl": 2
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Poundland collapses into administration",
+     "u": "https://www.cityam.com/poundland-collapses-into-administration/",
+     "d": "cityam.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-25T15:52:03Z"
+    },
+    {
+     "t": "Investment firm Xyra plots renewed bid for Poundland",
+     "u": "https://www.cityam.com/investment-firm-xyra-plots-renewed-bid-for-poundland/",
+     "d": "cityam.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-26T10:45:54Z"
+    },
+    {
+     "t": "Is Poundland closing down? What next for retailer after falling into administration?",
+     "u": "https://www.independent.co.uk/news/uk/home-news/poundland-gordon-brothers-administration-closing-b3091714.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-25T18:29:31Z"
+    }
+   ],
+   "abroad_first": "2026-11-25T14:19:46Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-26T19:30:54Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4401": {
+   "id": "4401",
+   "first_seen": "2026-11-25T15:57:05Z",
+   "headline": "Shanghai party pledges loyalty to Beijing as top official faces investigation",
+   "headline_en": "Shanghai party pledges loyalty to Beijing as top official faces investigation",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:27Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    18
+   ],
+   "this_week": 18,
+   "velocity": 2.4,
+   "markets": {
+    "intl": 4,
+    "de": 3,
+    "uk": 2,
+    "us": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Shanghai party pledges loyalty to Beijing as top official faces investigation",
+     "u": "https://www.channelnewsasia.com/east-asia/china-shanghai-loyalty-chen-jining-investigation-6579886",
+     "d": "channelnewsasia.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-25T00:47:06Z"
+    },
+    {
+     "t": "Xi probes Shanghai boss, widening biggest shakeup in decades",
+     "u": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/xi-shanghai-boss-shakeup/",
+     "d": "japantimes.co.jp",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-25T00:38:00Z"
+    },
+    {
+     "t": "China's probes Shanghai party chief Chen Jining over corruption",
+     "u": "https://www.aljazeera.com/news/2026/11/24/xis-anti-corruption-campaign-targets-shanghai-party-chief-chen-jining",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-24T15:26:50Z"
+    }
+   ],
+   "abroad_first": "2026-11-24T13:02:31Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-26T19:30:54Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4490": {
+   "id": "4490",
+   "first_seen": "2026-11-26T16:46:16Z",
+   "headline": "Raumfahrtunternehmen: SpaceX darf 1 Million Satelliten für KI-Rechenzentren ins All schicken",
+   "headline_en": "US regulators approve SpaceX plan to send a million data satellites to space",
+   "headline_fi": "SpaceX sai hyväksynnän avaruuteen sijoitettaville datakeskuksille",
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:16Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    18
+   ],
+   "this_week": 18,
+   "velocity": 3.6,
+   "markets": {
+    "de": 4,
+    "uk": 2,
+    "fi": 1,
+    "intl": 2,
+    "se": 1
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "Raumfahrtunternehmen: SpaceX darf 1 Million Satelliten für KI-Rechenzentren ins All schicken",
+     "u": "https://www.welt.de/politik/ausland/article6b079ab4d4a4a3142c573f4d/raumfahrtunternehmen-spacex-darf-1-million-satelliten-fuer-ki-rechenzentren-ins-all-schicken.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-26T03:15:02Z"
+    },
+    {
+     "t": "Projekt \"Starmind\": SpaceX darf eine Million Satelliten für KI-Rechenzentren ins All schicken",
+     "u": "https://www.spiegel.de/wissenschaft/elon-musk-spacex-erhaelt-fcc-genehmigung-fuer-ki-rechenzentren-im-weltall-a-0547f262-8951-4710-a8f0-c99caba8d37f",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-26T01:52:00Z"
+    },
+    {
+     "t": "US regulators approve SpaceX plan to send a million data satellites to space",
+     "u": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-26T00:07:51Z"
+    }
+   ],
+   "abroad_first": "2026-11-25T18:18:37Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "tech",
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-26T19:30:54Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-25T18:33:01Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/b0ec5985-1215-4bee-9c60-056b93445f68",
+    "t": "SpaceX sai hyväksynnän avaruuteen sijoitettaville datakeskuksille",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-26T19:30:54Z"
+  },
+  "4403": {
+   "id": "4403",
+   "first_seen": "2026-11-25T15:57:07Z",
+   "headline": "Houthis threaten Saudi ports over coalition's Hodeidah evacuation order",
+   "headline_en": "Houthis threaten Saudi ports over coalition's Hodeidah evacuation order",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:41Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    17
+   ],
+   "this_week": 17,
+   "velocity": 2,
+   "markets": {
+    "intl": 6,
+    "us": 3,
+    "de": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Houthis threaten Saudi ports over coalition's Hodeidah evacuation order",
+     "u": "https://www.aljazeera.com/news/liveblog/2026/11/25/iran-war-live-houthis-threaten-saudi-ports-over-coalitions-hodeidah-order",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-25T00:00:00Z"
+    },
+    {
+     "t": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
+     "u": "https://www.reuters.com/world/middle-east/yemens-houthis-threaten-target-jeddah-other-saudi-red-sea-ports-2026-11-25/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-24T21:42:00Z"
+    },
+    {
+     "t": "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
+     "u": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+     "d": "cnbc.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-25T02:30:48Z"
+    }
+   ],
+   "abroad_first": "2026-11-19T08:10:39Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-26T19:30:54Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4426": {
+   "id": "4426",
+   "first_seen": "2026-11-25T15:57:19Z",
+   "headline": "At least 490,000 Russian soldiers killed in Ukraine, data leak reveals",
+   "headline_en": "At least 490,000 Russian soldiers killed in Ukraine, data leak reveals",
+   "headline_fi": "Tuore arvio: Yli 700 000 venäläistä kuollut sodassa",
+   "state": "acceleration",
+   "last_seen": "2026-11-26T16:46:20Z",
+   "weekly": [
+    2,
+    14,
+    5,
+    17
+   ],
+   "this_week": 17,
+   "velocity": 3.4,
+   "markets": {
+    "intl": 5,
+    "us": 1,
+    "de": 1,
+    "fi": 1,
+    "uk": 2
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "At least 490,000 Russian soldiers killed in Ukraine, data leak reveals",
+     "u": "https://www.euronews.com/2026/11/24/at-least-490000-russian-soldiers-killed-in-ukraine-rosstat-data-leak-reveals",
+     "d": "euronews.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-24T14:25:03Z"
+    },
+    {
+     "t": "Russian war death toll likely near 700,000, media reports after studying leaked government data",
+     "u": "https://kyivindependent.com/russian-war-death-toll-likely-near-700-000-media-reports-after-studying-leaked-government-data/",
+     "d": "kyivindependent.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-23T17:55:17Z"
+    },
+    {
+     "t": "Russia breaks yearly troop losses record in Ukraine at 432,519 casualties, General Staff says",
+     "u": "https://kyivindependent.com/russia-breaks-yearly-troop-losses-record-in-ukraine-at-432-519-casualties-general-staff-says/",
+     "d": "kyivindependent.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-24T15:37:52Z"
+    }
+   ],
+   "abroad_first": "2026-11-23T17:55:17Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "geopolitics",
+    "policy",
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-26T19:30:54Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-23T19:52:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012432668.html",
+    "t": "Tuore arvio: Yli 700 000 venäläistä kuollut sodassa",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-26T19:30:54Z"
+  },
+  "4519": {
+   "id": "4519",
+   "first_seen": "2026-11-26T16:46:36Z",
+   "headline": "EU plans €50 billion tech equity fund to boost quantum technology",
+   "headline_en": "EU plans €50 billion tech equity fund to boost quantum technology",
+   "headline_fi": "EU suunnittelee jopa 50 miljardin euron teknorahastoa",
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:36Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    15
+   ],
+   "this_week": 15,
+   "velocity": 3,
+   "markets": {
+    "de": 3,
+    "intl": 5,
+    "fi": 2
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "EU plans €50 billion tech equity fund to boost quantum technology",
+     "u": "https://www.dw.com/en/eu-plans-50-billion-sovereign-tech-equity-fund-to-boost-quantum-technology/a-80047569",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-25T13:44:46Z"
+    },
+    {
+     "t": "Die EU schafft einen Fonds für Quantenphysik und sollte die Schweiz nicht vergessen",
+     "u": "https://www.nzz.ch/wissenschaft/die-eu-hat-bei-der-quantenphysik-grosse-plaene-gehen-schweizer-firmen-und-forscher-dabei-erneut-vergessen-ld.10073441",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-25T10:59:36Z"
+    },
+    {
+     "t": "EU plans €50bn tech fund to challenge US and China",
+     "u": "https://www.ft.com/content/53d4b629-7ae4-4d63-ac37-e773b1dd3af0",
+     "d": "ft.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-25T05:00:22Z"
+    }
+   ],
+   "abroad_first": "2026-11-25T05:00:22Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "tech",
+    "business",
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-26T19:30:54Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-25T07:03:46Z",
+    "d": "tivi.fi",
+    "u": "https://www.tivi.fi/uutiset/a/fce37589-a566-4952-8228-e173b86b69cc",
+    "t": "EU suunnittelee jopa 50 miljardin euron teknorahastoa",
+    "s": null
+   },
+   "fi_count": 3,
+   "arrived_at": "2026-11-26T19:30:54Z"
+  },
+  "4505": {
+   "id": "4505",
+   "first_seen": "2026-11-26T16:46:26Z",
+   "headline": "Macy's Thanksgiving Day Parade postponed, as New York braces for huge storm",
+   "headline_en": "Macy's Thanksgiving Day Parade postponed, as New York braces for huge storm",
+   "headline_fi": "New Yorkissa perinteistä kiitospäivän paraatia lykätään lähestyvän myräkän vuoksi",
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:26Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    22
+   ],
+   "this_week": 22,
+   "velocity": 4.4,
+   "markets": {
+    "intl": 3,
+    "uk": 2,
+    "us": 3,
+    "fi": 1,
+    "de": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Macy's Thanksgiving Day Parade postponed, as New York braces for huge storm",
+     "u": "https://www.scmp.com/news/world/united-states-canada/article/3375820/macys-thanksgiving-day-parade-postponed-new-york-braces-huge-storm",
+     "d": "scmp.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-25T23:34:54Z"
+    },
+    {
+     "t": "Macy's postpones Thanksgiving parade due to weather",
+     "u": "https://www.bbc.com/news/articles/cwkgr38l2g9yo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-25T21:15:58Z"
+    },
+    {
+     "t": "Storms push Macy's Thanksgiving Day Parade in New York City to Saturday",
+     "u": "https://www.aljazeera.com/news/2026/11/26/storms-push-macys-thanksgiving-day-parade-in-new-york-city-to-saturday",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-26T00:52:56Z"
+    }
+   ],
+   "abroad_first": "2026-11-25T21:08:45Z",
+   "markets_abroad": 4,
+   "subjects": [],
+   "relevant": false
+  },
+  "4518": {
+   "id": "4518",
+   "first_seen": "2026-11-26T16:46:36Z",
+   "headline": "Mariella Frostrup’s Loose Women colleague ‘triggered’ by I’m A Celeb bust-up with AJ Odudu",
+   "headline_en": "Mariella Frostrup’s Loose Women colleague ‘triggered’ by I’m A Celeb bust-up with AJ Odudu",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:36Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    16
+   ],
+   "this_week": 16,
+   "velocity": 3.2,
+   "markets": {
+    "uk": 10
+   },
+   "outlets": 2,
+   "samples": [
+    {
+     "t": "Mariella Frostrup’s Loose Women colleague ‘triggered’ by I’m A Celeb bust-up with AJ Odudu",
+     "u": "https://www.independent.co.uk/arts-entertainment/tv/news/mariella-frostrup-aj-odudu-im-a-celeb-judi-love-b3090152.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-23T18:00:51Z"
+    },
+    {
+     "t": "I'm a psychologist and Mariella Frostrup's jungle row shows us something important",
+     "u": "https://www.independent.co.uk/life-style/mariella-frostrup-aj-odudu-aggressive-older-women-b3090701.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-24T15:51:55Z"
+    },
+    {
+     "t": "'The brains of a pea and the mouth of diarrhoea!' It's the wildest I'm a Celebrity spats",
+     "u": "https://www.theguardian.com/tv-and-radio/2026/nov/23/wildest-im-a-celebrity-spats-mariella-frostrup-john-fashanu-lady-colin-campbell",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-23T16:29:02Z"
+    }
+   ],
+   "abroad_first": "2026-11-23T10:03:09Z",
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
+  },
+  "4499": {
+   "id": "4499",
+   "first_seen": "2026-11-26T16:46:22Z",
+   "headline": "Ägypten: Tankwagen explodiert in Vorort von Kairo - 31 Tote und Verletzte",
+   "headline_en": "Egypt: At least 30 dead after fuel truck overturns near Cairo",
+   "headline_fi": "Yli 30 kuoli säiliöauton kaatumisesta leimahtaneessa tulipalossa Egyptissä",
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:22Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    16
+   ],
+   "this_week": 16,
+   "velocity": 3.2,
+   "markets": {
+    "de": 2,
+    "uk": 2,
+    "intl": 2,
+    "se": 2,
+    "fi": 1,
+    "us": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Ägypten: Tankwagen explodiert in Vorort von Kairo - 31 Tote und Verletzte",
+     "u": "https://www.spiegel.de/panorama/aegypten-tankwagen-explodiert-in-vorort-von-kairo-31-tote-und-verletzte-a-4788fca1-51d5-4ea7-924b-57f0c6003e64",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-26T03:46:00Z"
+    },
+    {
+     "t": "Egypt: At least 30 dead after fuel truck overturns near Cairo",
+     "u": "https://www.dw.com/en/egypt-at-least-30-dead-after-fuel-truck-overturns-on-highway/a-80055175",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-25T21:37:10Z"
+    },
+    {
+     "t": "At least 30 killed as fuel tanker crash ignites large fire on Cairo highway",
+     "u": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-25T22:10:12Z"
+    }
+   ],
+   "abroad_first": "2026-11-25T19:41:27Z",
+   "markets_abroad": 5,
+   "subjects": [],
+   "relevant": false
+  },
+  "4404": {
+   "id": "4404",
+   "first_seen": "2026-11-25T15:57:07Z",
+   "headline": "Kilmar Abrego Garcia, wrongfully deported from US, arrives in Spain",
+   "headline_en": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
+   "headline_fi": "Salvadorilainen Kilmar Ábrego García lähtee Yhdysvalloista Espanjaan",
+   "state": "emergence",
+   "last_seen": "2026-11-26T16:46:42Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    15
+   ],
+   "this_week": 15,
+   "velocity": 1.4,
+   "markets": {
+    "intl": 2,
+    "us": 1,
+    "uk": 3,
+    "fi": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
+     "u": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-25T02:40:59Z"
+    },
+    {
+     "t": "Abrego Garcia Will Voluntarily Leave U.S., Ending 20-Month Legal Ordeal",
+     "u": "https://www.nytimes.com/2026/11/24/us/politics/abrego-garcia-leave-deportation.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-24T22:42:27Z"
+    },
+    {
+     "t": "Kilmar Ábrego García leaving US for Spain, bringing deportation battle to an end",
+     "u": "https://www.bbc.com/news/articles/c6808pyy5dl9o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-25T01:51:19Z"
+    }
+   ],
+   "abroad_first": "2026-11-24T18:08:00Z",
+   "markets_abroad": 3,
+   "subjects": [],
+   "relevant": false
   }
  }
 }
