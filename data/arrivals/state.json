@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-27T17:31:00Z",
+  "last_run": "2026-11-27T20:45:38Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 27,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -14370,7 +14370,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15994,7 +15994,7 @@
    "headline_en": "Finland to sound emergency alert on every phone at noon",
    "headline_fi": "Varoitusjärjestelmän uusi testipäivä käsillä - katso suorana kello 11.45 alkaen",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:23Z",
+   "last_seen": "2026-11-27T17:36:29Z",
    "weekly": [
     4,
     2,
@@ -16069,7 +16069,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16127,7 +16127,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16858,7 +16858,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17679,14 +17679,14 @@
    "headline_en": "Anthropic mathematician says he and Claude proved the Riemann hypothesis",
    "headline_fi": "Matemaatikko väittää ratkaisseensa vuosisatoja vanhan arvoituksen tekoälyllä",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:50Z",
+   "last_seen": "2026-11-27T17:35:17Z",
    "weekly": [
     0,
     0,
     10,
-    40
+    43
    ],
-   "this_week": 40,
+   "this_week": 43,
    "velocity": 4,
    "markets": {
     "intl": 2,
@@ -18158,14 +18158,14 @@
    "headline_en": "Nations agree to 'elaborate' on rules for AI-run 'killer robots' by 2028",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:45Z",
+   "last_seen": "2026-11-27T17:35:58Z",
    "weekly": [
     1,
     0,
     9,
-    20
+    21
    ],
-   "this_week": 20,
+   "this_week": 21,
    "velocity": 2.625,
    "markets": {
     "intl": 5,
@@ -18206,25 +18206,25 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
   "4255": {
    "id": "4255",
    "first_seen": "2026-11-22T14:08:22Z",
-   "headline": "Streit um EU-Budget: Costa kürzt nach Kritik von Nettozahlern",
+   "headline": "EU eyes tax on Big Tech to boost budget",
    "headline_en": "EU budget: Costa pitches more cuts, Big Tech tax to break deadlock",
    "headline_fi": "EU harkitsee budjettinsa rahoittamista digijättejä verottamalla",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:51Z",
+   "last_seen": "2026-11-27T17:35:39Z",
    "weekly": [
     0,
     0,
     1,
-    21
+    35
    ],
-   "this_week": 21,
+   "this_week": 35,
    "velocity": 21,
    "markets": {
     "de": 5,
@@ -18414,7 +18414,7 @@
    "headline_en": "Alleged Mexican drug cartel boss 'El Chapo Isidro' arrested in special forces raid",
    "headline_fi": "Kartellipomo otettiin kiinni verisen tulitaistelun jälkeen - sitten alkoi kaaos",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:56Z",
+   "last_seen": "2026-11-27T17:35:48Z",
    "weekly": [
     0,
     0,
@@ -18538,14 +18538,14 @@
    "headline_en": "COP31: Climate deal 'not adopted,' summit president says",
    "headline_fi": "YK:n ilmastokokous päättyi tuloksettomana – “Edelläkävijämaiden on nyt etsittävä muita reittejä.”",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:39Z",
+   "last_seen": "2026-11-27T17:35:12Z",
    "weekly": [
     8,
     62,
-    51,
-    227
+    52,
+    236
    ],
-   "this_week": 227,
+   "this_week": 236,
    "velocity": 6.131578947368421,
    "markets": {
     "de": 2,
@@ -18725,7 +18725,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18787,14 +18787,14 @@
    "headline_en": "Ukraine claims strikes on Russian vessels off Libya as cargo ship catches fire in Gulf of Finland",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:34Z",
+   "last_seen": "2026-11-27T17:35:15Z",
    "weekly": [
     0,
     0,
     0,
-    115
+    118
    ],
-   "this_week": 115,
+   "this_week": 118,
    "velocity": 22,
    "markets": {
     "de": 6,
@@ -18922,7 +18922,7 @@
    "headline_en": "Russian attacks across Ukraine injure 30 over past day as rescue operation continues near Kyiv after drone strike",
    "headline_fi": "Ainakin 14 kuoli iskuissa Kiovan alueella - useita yhä kateissa",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:26:01Z",
+   "last_seen": "2026-11-27T17:36:59Z",
    "weekly": [
     0,
     0,
@@ -18990,14 +18990,14 @@
    "headline_en": "Dozens missing as deadly fire tears through Indonesian candy factory",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:52Z",
+   "last_seen": "2026-11-27T17:36:10Z",
    "weekly": [
     0,
     0,
     0,
-    28
+    29
    ],
-   "this_week": 28,
+   "this_week": 29,
    "velocity": 5.6,
    "markets": {
     "de": 2,
@@ -19040,18 +19040,18 @@
   "4180": {
    "id": "4180",
    "first_seen": "2026-11-22T01:42:56Z",
-   "headline": "See How the Army Plans to Blow Up Five Tons of Toxic Lead Compounds in Iowa",
+   "headline": "NEWSLETTER: Iowa's Thanksgiving week blast",
    "headline_en": "As US gears up for Thanksgiving, Iowa braces for controlled bomb blast",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:37Z",
+   "last_seen": "2026-11-27T17:35:24Z",
    "weekly": [
     0,
     0,
     6,
-    69
+    74
    ],
-   "this_week": 69,
+   "this_week": 74,
    "velocity": 13.333333333333334,
    "markets": {
     "uk": 5,
@@ -19111,14 +19111,14 @@
    "headline_en": "Spacecraft arrive at Mercury after eight years – but there’s a glitch",
    "headline_fi": "BepiColombo saapunut Merkuriuksen kiertoradalle",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:43Z",
+   "last_seen": "2026-11-27T17:35:59Z",
    "weekly": [
     0,
     0,
     3,
-    17
+    18
    ],
-   "this_week": 17,
+   "this_week": 18,
    "velocity": 5.666666666666667,
    "markets": {
     "fi": 1,
@@ -19164,7 +19164,7 @@
    "headline_en": "What to expect from Princess Kate's documentary Heal and where to watch it | The National",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:37Z",
+   "last_seen": "2026-11-27T17:35:29Z",
    "weekly": [
     0,
     0,
@@ -19277,14 +19277,14 @@
    "headline_en": "Gaming cafes packed, offices declare holidays: How Grand Theft Auto VI fever gripped India",
    "headline_fi": "Valtavan suosion saavuttanut GTA 6 ei tuonut huipputiliä edes aikaiselle sijoittajalle",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:36Z",
+   "last_seen": "2026-11-27T17:35:27Z",
    "weekly": [
     0,
     0,
     7,
-    21
+    27
    ],
-   "this_week": 21,
+   "this_week": 27,
    "velocity": 3,
    "markets": {
     "intl": 4,
@@ -19345,7 +19345,7 @@
    "headline_en": "Trump says reported FBI database hack is 'not good'",
    "headline_fi": "Trumpilta hämmentävä reaktio kyberhyökkäykseen: Valitti heti Ukrainasta",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:12Z",
+   "last_seen": "2026-11-27T17:36:22Z",
    "weekly": [
     0,
     0,
@@ -19416,14 +19416,14 @@
    "headline_en": "NATO will defend every inch of Polish territory, Rutte says",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:28Z",
+   "last_seen": "2026-11-27T17:36:04Z",
    "weekly": [
     0,
     0,
     1,
-    18
+    19
    ],
-   "this_week": 18,
+   "this_week": 19,
    "velocity": 18,
    "markets": {
     "intl": 5,
@@ -19538,7 +19538,7 @@
    "headline_en": "Brussels, Charleroi airports to cancel most flights Monday amid Belgian strike",
    "headline_fi": "Suurin osa Brysselin lentoaseman lennoista perutaan maanantaina",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:26:03Z",
+   "last_seen": "2026-11-27T17:37:01Z",
    "weekly": [
     0,
     0,
@@ -19605,7 +19605,7 @@
    "headline_en": "US: ICE arrests 2 at Seattle airport in 'chilling' scenes -- governor",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:26:00Z",
+   "last_seen": "2026-11-27T17:36:58Z",
    "weekly": [
     0,
     0,
@@ -19658,7 +19658,7 @@
    "headline_en": "Costa Concordia Captain Released from Prison After Nine Years",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:28Z",
+   "last_seen": "2026-11-27T17:36:32Z",
    "weekly": [
     0,
     0,
@@ -19711,7 +19711,7 @@
    "headline_en": "Russia 'plan to launch satellite with nuclear weapon into space by end of the year'",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:42Z",
+   "last_seen": "2026-11-27T17:35:34Z",
    "weekly": [
     0,
     0,
@@ -19719,13 +19719,13 @@
     41
    ],
    "this_week": 41,
-   "velocity": 5.6,
+   "velocity": 8.2,
    "markets": {
-    "uk": 1,
-    "intl": 2,
-    "de": 7
+    "uk": 2,
+    "de": 5,
+    "intl": 2
    },
-   "outlets": 7,
+   "outlets": 9,
    "samples": [
     {
      "t": "Russia 'plan to launch satellite with nuclear weapon into space by end of the year'",
@@ -19736,12 +19736,12 @@
      "p": "2026-11-23T10:42:36Z"
     },
     {
-     "t": "Allies say Russia may launch nuclear space weapon next month",
-     "u": "https://www.japantimes.co.jp/news/2026/11/24/world/politics/russia-nuclear-space-weapon/",
-     "d": "japantimes.co.jp",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-23T22:38:00Z"
+     "t": "Will Russland eine Atombombe im All stationieren?",
+     "u": "https://www.dw.com/de/atombombe-im-all-was-russland-vorhaben-soll-und-was-das-f%C3%BCr-den-westen-bedeutet/a-80026072",
+     "d": "dw.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-23T19:43:31Z"
     },
     {
      "t": "Russland soll Atomwaffe im Weltraum vorbereiten",
@@ -19755,8 +19755,8 @@
    "abroad_first": "2026-11-23T06:31:18Z",
    "markets_abroad": 3,
    "subjects": [
-    "geopolitics",
-    "sustainability"
+    "sustainability",
+    "geopolitics"
    ],
    "relevant": true,
    "checked": "2026-11-24T17:45:45Z",
@@ -19779,7 +19779,7 @@
    "headline_en": "From Symantec to Zscaler, the biggest cybersecurity acquisitions",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:54Z",
+   "last_seen": "2026-11-27T17:36:52Z",
    "weekly": [
     0,
     0,
@@ -19845,23 +19845,24 @@
    "first_seen": "2026-11-24T15:11:58Z",
    "headline": "Russland-Flagge soll bei Sportevents in EU verboten werden",
    "headline_en": "EU proposes package of Russian sports sanctions, visa bans, and a Krygyzstan crypto blockade",
-   "headline_fi": null,
+   "headline_fi": "EU: Raju isku Venäjälle",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:00Z",
+   "last_seen": "2026-11-27T17:35:18Z",
    "weekly": [
     0,
     0,
     5,
-    34
+    37
    ],
-   "this_week": 34,
-   "velocity": 3.6,
+   "this_week": 37,
+   "velocity": 7.4,
    "markets": {
-    "de": 2,
+    "de": 3,
     "intl": 3,
-    "se": 1
+    "se": 1,
+    "fi": 2
    },
-   "outlets": 6,
+   "outlets": 8,
    "samples": [
     {
      "t": "Russland-Flagge soll bei Sportevents in EU verboten werden",
@@ -19891,8 +19892,8 @@
    "abroad_first": "2026-11-23T15:12:37Z",
    "markets_abroad": 3,
    "subjects": [
-    "policy",
     "geopolitics",
+    "policy",
     "tech"
    ],
    "relevant": true,
@@ -19916,7 +19917,7 @@
    "headline_en": "Zelenskyy praises 'exemplary' drone operation that sank Russian warship in a Libyan port",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:59Z",
+   "last_seen": "2026-11-27T17:36:57Z",
    "weekly": [
     0,
     0,
@@ -19984,44 +19985,44 @@
    "headline_en": "Mercedes, BMW hit by 24-hour strikes as German pay dispute widens",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:06Z",
+   "last_seen": "2026-11-27T17:36:08Z",
    "weekly": [
-    12,
+    13,
     5,
     4,
-    17
+    18
    ],
-   "this_week": 17,
-   "velocity": 4,
+   "this_week": 18,
+   "velocity": 4.5,
    "markets": {
     "de": 8,
     "intl": 2
    },
-   "outlets": 6,
+   "outlets": 5,
    "samples": [
     {
-     "t": "IG Metall startet ganztägige Warnstreiks - Audi und BMW betroffen",
-     "u": "https://www.wiwo.de/unternehmen/industrie/ig-metall-startet-ganztaegige-warnstreiks-audi-und-bmw-betroffen/100271213.html",
+     "t": "Metall- und Elektroindustrie: Vierte Verhandlungsrunde im Tarifstreit beginnt",
+     "u": "https://www.wiwo.de/politik/deutschland/metall-und-elektroindustrie-vierte-verhandlungsrunde-im-tarifstreit-beginnt/100267652.html",
      "d": "wiwo.de",
      "c": "de",
      "l": "de",
-     "p": "2026-11-19T14:15:00Z"
+     "p": "2026-11-25T11:00:00Z"
     },
     {
-     "t": "Metall- und Elektroindustrie: IG Metall startet ganztägige Warnstreiks im Bezirk Mitte",
-     "u": "https://www.zeit.de/news/2026-11/19/ig-metall-startet-ganztaegige-warnstreiks-im-bezirk-mitte",
+     "t": "Tarifkonflikt: Metall und Elektro: Vierte Verhandlungsrunde begonnen",
+     "u": "https://www.zeit.de/news/2026-11/25/metall-und-elektro-vierte-verhandlungsrunde-begonnen",
      "d": "zeit.de",
      "c": "de",
      "l": "de",
-     "p": "2026-11-19T14:14:35Z"
+     "p": "2026-11-25T13:26:16Z"
     },
     {
-     "t": "340.000 Beschäftigte bei Streiks in Metall- und Elektrobranche",
-     "u": "https://www.manager-magazin.de/unternehmen/industrie/340-000-beschaeftigte-bei-streiks-in-metall-und-elektrobranche-a-110b5f12-1854-4dfb-92bf-ff378acec607",
-     "d": "manager-magazin.de",
+     "t": "Metall- und Elektroindustrie: Verhandler unter Druck: Klappt Pilotabschluss in Mannheim?",
+     "u": "https://www.handelsblatt.com/politik/deutschland/metall-und-elektroindustrie-verhandler-unter-druck-klappt-pilotabschluss-in-mannheim/100272546.html",
+     "d": "handelsblatt.com",
      "c": "de",
      "l": "de",
-     "p": "2026-11-23T17:41:00Z"
+     "p": "2026-11-25T02:30:11Z"
     }
    ],
    "abroad_first": "2026-11-19T14:03:36Z",
@@ -20031,7 +20032,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -20176,22 +20177,21 @@
    "first_seen": "2026-11-24T15:11:43Z",
    "headline": "Manchester's Co-op Live arena evacuated after apparent tear gas incident at Don Toliver concert",
    "headline_en": "Manchester's Co-op Live arena evacuated after apparent tear gas incident at Don Toliver concert",
-   "headline_fi": "12 000 ihmistä evakuoitiin keikalta Britanniassa - osa yleisöstä yski verta",
+   "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:39Z",
+   "last_seen": "2026-11-27T17:36:07Z",
    "weekly": [
     0,
     0,
     0,
-    18
+    19
    ],
-   "this_week": 18,
-   "velocity": 2.8,
+   "this_week": 19,
+   "velocity": 3.8,
    "markets": {
-    "uk": 8,
-    "fi": 1
+    "uk": 10
    },
-   "outlets": 5,
+   "outlets": 4,
    "samples": [
     {
      "t": "Manchester's Co-op Live arena evacuated after apparent tear gas incident at Don Toliver concert",
@@ -20202,20 +20202,20 @@
      "p": "2026-11-23T03:27:53Z"
     },
     {
-     "t": "Manchester venue Co-op Live evacuated after suspected tear gas incident",
-     "u": "https://www.bbc.co.uk/news/articles/c9e851dn8516o",
-     "d": "bbc.co.uk",
+     "t": "Concertgoers criticise 'atrocious' lack of security at Manchester Co-op Live gig",
+     "u": "https://www.theguardian.com/uk-news/2026/nov/23/concertgoers-criticise-security-manchester-co-op-live-arena",
+     "d": "theguardian.com",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-23T02:07:29Z"
+     "p": "2026-11-23T13:43:03Z"
     },
     {
-     "t": "Manchester Co-op Live arena evacuated after ‘tear gas let off’ during US rapper’s show as police declare major incident",
-     "u": "https://www.independent.co.uk/news/uk/home-news/manchester-co-op-live-concert-evacuation-don-toliver-tear-gas-b3089604.html",
+     "t": "‘Unknown substance’ released at US rapper’s Manchester gig could be linked to robberies, police say",
+     "u": "https://www.independent.co.uk/news/uk/home-news/don-toliver-unknown-substance-manchester-police-b3090941.html",
      "d": "independent.co.uk",
      "c": "uk",
      "l": "en",
-     "p": "2026-11-23T06:00:03Z"
+     "p": "2026-11-24T19:01:36Z"
     }
    ],
    "abroad_first": "2026-11-23T00:07:19Z",
@@ -20226,19 +20226,19 @@
   "4375": {
    "id": "4375",
    "first_seen": "2026-11-24T15:12:08Z",
-   "headline": "Six fall into Aura River after suspension bridge collapses",
+   "headline": "Liedon romahtanut silta puretaan - näin paljon se maksaa",
    "headline_en": "Six fall into Aura River after suspension bridge collapses",
-   "headline_fi": "Tuoreet kuvat paljastavat Liedon riippusillan karun tilan",
+   "headline_fi": "Liedon romahtanut silta puretaan - näin paljon se maksaa",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:24Z",
+   "last_seen": "2026-11-27T17:36:01Z",
    "weekly": [
     0,
     0,
     0,
-    19
+    20
    ],
-   "this_week": 19,
-   "velocity": 2.6,
+   "this_week": 20,
+   "velocity": 4,
    "markets": {
     "fi": 10
    },
@@ -20345,7 +20345,7 @@
    "headline_en": "Police investigating bomb threats against schools in Germany and Denmark",
    "headline_fi": "Satoja pommiuhkauksia kouluihin Saksassa ja Tanskassa",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:55Z",
+   "last_seen": "2026-11-27T17:36:54Z",
    "weekly": [
     0,
     12,
@@ -20398,16 +20398,16 @@
    "headline": "Sdp säästäisi sotesta 1,2 miljardia - näin Antti Lindtman selitti yllättävää käännettä",
    "headline_en": null,
    "headline_fi": "Sdp säästäisi sotesta 1,2 miljardia - näin Antti Lindtman selitti yllättävää käännettä",
-   "state": "emergence",
-   "last_seen": "2026-11-27T05:24:38Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-27T17:35:30Z",
    "weekly": [
     0,
     0,
-    0,
-    28
+    4,
+    24
    ],
-   "this_week": 28,
-   "velocity": 5.2,
+   "this_week": 24,
+   "velocity": 6,
    "markets": {
     "fi": 10
    },
@@ -20416,7 +20416,8 @@
    "abroad_first": "2026-11-25T15:57:01Z",
    "markets_abroad": 0,
    "subjects": [
-    "business"
+    "business",
+    "policy"
    ],
    "relevant": true
   },
@@ -20424,34 +20425,31 @@
    "id": "4319",
    "first_seen": "2026-11-24T15:11:32Z",
    "headline": "(3rd LD) S. Korea briefly issues alert on eastern island after Russian warplanes near airspace",
-   "headline_en": "Yonhap News Summary",
-   "headline_fi": "Etelä-Korea lähetti hävittäjiä ilmaan venäläisten sotilaskoneiden vuoksi",
+   "headline_en": "(3rd LD) S. Korea briefly issues alert on eastern island after Russian warplanes near airspace",
+   "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:54Z",
+   "last_seen": "2026-11-27T17:35:46Z",
    "weekly": [
     0,
     0,
     4,
-    27
+    29
    ],
-   "this_week": 27,
-   "velocity": 3,
+   "this_week": 29,
+   "velocity": 7.25,
    "markets": {
-    "fi": 2,
-    "intl": 4,
-    "de": 1,
-    "uk": 2,
-    "se": 1
+    "intl": 8,
+    "de": 2
    },
-   "outlets": 7,
+   "outlets": 6,
    "samples": [
     {
-     "t": "Yonhap News Summary",
-     "u": "https://en.yna.co.kr/view/AEN20261124002400315",
+     "t": "(3rd LD) S. Korea briefly issues alert on eastern island after Russian warplanes near airspace",
+     "u": "https://en.yna.co.kr/view/AEN20261124002253315",
      "d": "en.yna.co.kr",
      "c": "intl",
      "l": "en",
-     "p": "2026-11-24T04:30:00Z"
+     "p": "2026-11-24T06:36:23Z"
     },
     {
      "t": "(LEAD) S. Korea briefly issues alert on eastern island after Russian airplanes enter air defense zone",
@@ -20471,7 +20469,7 @@
     }
    ],
    "abroad_first": "2026-11-23T23:31:55Z",
-   "markets_abroad": 4,
+   "markets_abroad": 2,
    "subjects": [
     "geopolitics"
    ],
@@ -20496,14 +20494,14 @@
    "headline_en": "US court convicts China's Huawei for fraud, conspiring to steal trade secrets, in sprawling trial over Iran business",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:54Z",
+   "last_seen": "2026-11-27T17:35:11Z",
    "weekly": [
     0,
     0,
     1,
-    33
+    35
    ],
-   "this_week": 33,
+   "this_week": 35,
    "velocity": 23,
    "markets": {
     "us": 2,
@@ -20562,31 +20560,34 @@
    "id": "4325",
    "first_seen": "2026-11-24T15:11:36Z",
    "headline": "North Korea expels head of Swiss diplomatic office: State media",
-   "headline_en": "Yonhap News Summary",
-   "headline_fi": null,
+   "headline_en": "North Korea expels head of Swiss diplomatic office: State media",
+   "headline_fi": "Pohjois-Korea karkotti Sveitsin diplomaatin maasta - edustuston avajaisista ei ehtinyt kulua edes kuukautta",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:05Z",
+   "last_seen": "2026-11-27T17:36:13Z",
    "weekly": [
     0,
     0,
     0,
-    27
+    28
    ],
-   "this_week": 27,
-   "velocity": 1,
+   "this_week": 28,
+   "velocity": 5.6,
    "markets": {
-    "intl": 4,
-    "de": 1
+    "intl": 5,
+    "us": 1,
+    "uk": 2,
+    "de": 1,
+    "fi": 1
    },
-   "outlets": 3,
+   "outlets": 9,
    "samples": [
     {
-     "t": "Yonhap News Summary",
-     "u": "https://en.yna.co.kr/view/AEN20261124002400315",
-     "d": "en.yna.co.kr",
+     "t": "North Korea expels head of Swiss diplomatic office: State media",
+     "u": "https://www.channelnewsasia.com/east-asia/north-korea-expels-head-swiss-diplomatic-office-state-media-6580516",
+     "d": "channelnewsasia.com",
      "c": "intl",
      "l": "en",
-     "p": "2026-11-24T04:30:00Z"
+     "p": "2026-11-25T03:52:00Z"
     },
     {
      "t": "N. Korea threatens to close Swiss office in Pyongyang over sanctions on children's camp",
@@ -20606,24 +20607,33 @@
     }
    ],
    "abroad_first": "2026-11-23T23:20:27Z",
-   "markets_abroad": 2,
+   "markets_abroad": 4,
    "subjects": [
     "geopolitics",
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
-   "check_error": null
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-25T17:00:00Z",
+    "d": "is.fi",
+    "u": "https://www.is.fi/ulkomaat/art-2000012435862.html",
+    "t": "Pohjois-Korea karkotti Sveitsin diplomaatin maasta - edustuston avajaisista ei ehtinyt kulua edes kuukautta",
+    "s": null
+   },
+   "fi_count": 1,
+   "arrived_at": "2026-11-27T20:45:38Z"
   },
   "4318": {
    "id": "4318",
    "first_seen": "2026-11-24T15:11:31Z",
    "headline": "Asian stocks roar back as Jensen Huang's Nvidia return reignites the AI trade",
-   "headline_en": "Asian tech stocks surge on Jensen Huang’s return to Nvidia",
+   "headline_en": "Asian stocks roar back as Jensen Huang's Nvidia return reignites the AI trade",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:44Z",
+   "last_seen": "2026-11-27T17:36:44Z",
    "weekly": [
     0,
     0,
@@ -20631,30 +20641,14 @@
     16
    ],
    "this_week": 16,
-   "velocity": 1,
+   "velocity": 3.2,
    "markets": {
-    "uk": 1,
-    "intl": 3,
-    "us": 1
+    "us": 1,
+    "uk": 3,
+    "intl": 6
    },
-   "outlets": 5,
+   "outlets": 9,
    "samples": [
-    {
-     "t": "Asian tech stocks surge on Jensen Huang’s return to Nvidia",
-     "u": "https://www.cityam.com/asian-tech-stocks-surge-on-jensen-huangs-return-to-nvidia/",
-     "d": "cityam.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-24T07:26:53Z"
-    },
-    {
-     "t": "Asian markets surge on Nvidia rehiring Jensen Huang | The National",
-     "u": "https://www.thenationalnews.com/business/2026/11/24/asian-markets-surge-on-nvidia-rehiring-jensen-huang/",
-     "d": "thenationalnews.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-24T03:26:59Z"
-    },
     {
      "t": "Asian stocks roar back as Jensen Huang's Nvidia return reignites the AI trade",
      "u": "https://www.businessinsider.com/nvidia-jensen-huang-ceo-return-kospi-tsmc-nikkei-ai-stocks-2026-11",
@@ -20662,6 +20656,22 @@
      "c": "us",
      "l": "en",
      "p": "2026-11-24T00:00:00Z"
+    },
+    {
+     "t": "Asian stocks react to Huang reinstatement at Nvidia",
+     "u": "https://www.independent.co.uk/news/world/asia/asian-stock-huang-nvidia-b3090338.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-24T05:12:17Z"
+    },
+    {
+     "t": "Asian tech stocks surge on Jensen Huang’s return to Nvidia",
+     "u": "https://www.cityam.com/asian-tech-stocks-surge-on-jensen-huangs-return-to-nvidia/",
+     "d": "cityam.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-24T07:26:53Z"
     }
    ],
    "abroad_first": "2026-11-24T00:00:00Z",
@@ -20691,7 +20701,7 @@
    "headline_en": "UK warns companies of potential Russian sabotage threat",
    "headline_fi": "Britannialta erittäin poikkeuksellinen varoitus Venäjästä",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:09Z",
+   "last_seen": "2026-11-27T17:36:20Z",
    "weekly": [
     0,
     0,
@@ -20820,14 +20830,14 @@
    "headline_en": null,
    "headline_fi": "Tappara teki tylyn ratkaisun - asiantuntija: \"Tuhottiin ura",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:16Z",
+   "last_seen": "2026-11-27T17:36:08Z",
    "weekly": [
     2,
     0,
     12,
-    26
+    29
    ],
-   "this_week": 26,
+   "this_week": 29,
    "velocity": 2.1666666666666665,
    "markets": {
     "fi": 10
@@ -20846,14 +20856,14 @@
    "headline_en": "Tuesday briefing: The fight over Pip - what happens when two reviews want different things?",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:45Z",
+   "last_seen": "2026-11-27T17:35:38Z",
    "weekly": [
     0,
     0,
     0,
-    27
+    28
    ],
-   "this_week": 27,
+   "this_week": 28,
    "velocity": 4,
    "markets": {
     "uk": 10
@@ -20894,10 +20904,10 @@
    "id": "4328",
    "first_seen": "2026-11-24T15:11:38Z",
    "headline": "Iran carries out flogging of singer who performed without hijab",
-   "headline_en": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
+   "headline_en": "Iran carries out flogging of singer who performed without hijab",
    "headline_fi": "Iran ruoski ilman hijabia esiintyneen 29-vuotiaan laulajan",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:20Z",
+   "last_seen": "2026-11-27T17:36:28Z",
    "weekly": [
     0,
     0,
@@ -20905,24 +20915,17 @@
     20
    ],
    "this_week": 20,
-   "velocity": 2.2,
+   "velocity": 4,
    "markets": {
     "intl": 3,
-    "fi": 2,
+    "us": 1,
     "uk": 2,
-    "de": 2,
-    "se": 1
+    "fi": 1,
+    "se": 2,
+    "de": 1
    },
    "outlets": 10,
    "samples": [
-    {
-     "t": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
-     "u": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf",
-     "d": "aljazeera.com",
-     "c": "intl",
-     "l": "en",
-     "p": "2026-11-23T20:41:56Z"
-    },
     {
      "t": "Iran carries out flogging of singer who performed without hijab",
      "u": "https://www.euronews.com/2026/11/23/iran-carries-out-flogging-of-singer-who-performed-without-hijab",
@@ -20932,16 +20935,24 @@
      "p": "2026-11-23T18:29:34Z"
     },
     {
-     "t": "Iranian singer and four others receive lashes after performance without hijab",
-     "u": "https://www.theguardian.com/world/2026/nov/23/iranian-singer-lashes-performing-without-hijab",
-     "d": "theguardian.com",
-     "c": "uk",
+     "t": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
+     "u": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf",
+     "d": "aljazeera.com",
+     "c": "intl",
      "l": "en",
-     "p": "2026-11-23T20:56:17Z"
+     "p": "2026-11-23T20:41:56Z"
+    },
+    {
+     "t": "Iranian Singer Receives 74 Lashes for Performing With No Hijab",
+     "u": "https://www.nytimes.com/2026/11/24/world/middleeast/iran-singer-parastoo-ahmadi-flogging-lashes.html",
+     "d": "nytimes.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-24T12:34:52Z"
     }
    ],
-   "abroad_first": "2026-11-23T14:24:56Z",
-   "markets_abroad": 4,
+   "abroad_first": "2026-11-23T13:04:00Z",
+   "markets_abroad": 5,
    "subjects": [
     "geopolitics"
    ],
@@ -20951,10 +20962,10 @@
    "id": "4343",
    "first_seen": "2026-11-24T15:11:48Z",
    "headline": "Turkey: Istanbul 'lion hunt' ends with no big cat found after all",
-   "headline_en": "Turkey: Authorities search for lioness on the loose in Istanbul",
-   "headline_fi": "Hiippaileeko Istanbulin pohjoisessa maastossa leijona? - Viranomaisilla suuretsinnät käynnissä",
+   "headline_en": "Turkey: Istanbul 'lion hunt' ends with no big cat found after all",
+   "headline_fi": "Leijonaoperaatio Istanbulissa päättyi yllätykseen",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:44Z",
+   "last_seen": "2026-11-27T17:36:44Z",
    "weekly": [
     0,
     0,
@@ -20962,38 +20973,38 @@
     17
    ],
    "this_week": 17,
-   "velocity": 1.2,
+   "velocity": 3.4,
    "markets": {
-    "de": 2,
-    "fi": 1,
-    "intl": 2,
-    "uk": 1
+    "de": 4,
+    "fi": 3,
+    "uk": 2,
+    "us": 1
    },
    "outlets": 6,
    "samples": [
     {
-     "t": "Turkey: Authorities search for lioness on the loose in Istanbul",
-     "u": "https://www.dw.com/en/turkey-authorities-search-for-lioness-on-the-loose-in-istanbul/a-80020913",
+     "t": "Turkey: Istanbul 'lion hunt' ends with no big cat found after all",
+     "u": "https://www.dw.com/en/turkey-istanbul-lion-hunt-ends-with-no-big-cat-found-after-all/a-80020913",
      "d": "dw.com",
      "c": "de",
      "l": "en",
      "p": "2026-11-23T16:05:51Z"
     },
     {
-     "t": "Löwe in Istanbul gesichtet: Polizei startet Suchaktion",
-     "u": "https://www.diepresse.com/41483115/loewe-in-istanbul-gesichtet-polizei-startet-suchaktion",
-     "d": "diepresse.com",
+     "t": "Istanbul 'lion hunt' ends after no big cat found after all",
+     "u": "https://www.dw.com/en/istanbul-lion-hunt-ends-with-no-big-cat-found-after-all/a-80020913",
+     "d": "dw.com",
      "c": "de",
-     "l": "de",
-     "p": "2026-11-23T10:10:17Z"
+     "l": "en",
+     "p": "2026-11-23T16:05:51Z"
     },
     {
-     "t": "Turkish authorities search for animal resembling a lion in Istanbul woodland",
-     "u": "https://www.reuters.com/world/middle-east/turkish-authorities-search-animal-resembling-lion-istanbul-woodland-2026-11-23/",
-     "d": "reuters.com",
-     "c": "intl",
+     "t": "Turkish officials say animal spotted in Istanbul woods was not a lion",
+     "u": "https://www.independent.co.uk/news/world/europe/istanbul-lion-sighting-island-turkey-b3090387.html",
+     "d": "independent.co.uk",
+     "c": "uk",
      "l": "en",
-     "p": "2026-11-23T09:35:15Z"
+     "p": "2026-11-24T07:48:30Z"
     }
    ],
    "abroad_first": "2026-11-23T09:35:15Z",
@@ -21008,14 +21019,14 @@
    "headline_en": "Pope Francis diaries recount spiritual crisis, him seeing the 'Devil'",
    "headline_fi": "Paavi näki Saatanan kolmesti: \"En voi unohtaa käheyttä hänen äänessään",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:33Z",
+   "last_seen": "2026-11-27T17:35:57Z",
    "weekly": [
     0,
     0,
     0,
-    19
+    20
    ],
-   "this_week": 19,
+   "this_week": 20,
    "velocity": 3.4,
    "markets": {
     "de": 3,
@@ -21062,7 +21073,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:52Z",
+   "last_seen": "2026-11-27T17:36:51Z",
    "weekly": [
     0,
     0,
@@ -21113,7 +21124,7 @@
    "headline_en": "Two men arrested over suspected burglary at Prince and Princess of Wales's home | The National",
    "headline_fi": "Williamin ja Catherinen kakkoskotiin murtauduttu - kaksi miestä pidätetty",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:52Z",
+   "last_seen": "2026-11-27T17:35:44Z",
    "weekly": [
     0,
     0,
@@ -21167,14 +21178,14 @@
    "headline_en": null,
    "headline_fi": "Kolme venäläishiihtäjää Rukan maailmancupiin",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:37Z",
+   "last_seen": "2026-11-27T17:36:11Z",
    "weekly": [
     1,
     2,
     3,
-    14
+    15
    ],
-   "this_week": 14,
+   "this_week": 15,
    "velocity": 7,
    "markets": {
     "fi": 4,
@@ -21378,7 +21389,7 @@
    "headline_en": "'Something bad is happening': Compass reignites City of London exodus fears",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:12Z",
+   "last_seen": "2026-11-27T17:36:23Z",
    "weekly": [
     0,
     0,
@@ -21425,25 +21436,25 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
   "4481": {
    "id": "4481",
    "first_seen": "2026-11-26T16:46:12Z",
-   "headline": "USA planen neue Zölle gegen EU und 13 weitere Handelspartner",
+   "headline": "USA föreslår nya tullar",
    "headline_en": "US proposes new tariffs on 14 trading partners, including China and the EU",
    "headline_fi": "BBC: Yhdysvallat valmistautuu julkistamaan uusia tuontitulleja jo tänään",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:38Z",
+   "last_seen": "2026-11-27T17:35:30Z",
    "weekly": [
     0,
     0,
     0,
-    58
+    74
    ],
-   "this_week": 58,
+   "this_week": 74,
    "velocity": 11.2,
    "markets": {
     "de": 6,
@@ -21505,14 +21516,14 @@
    "headline_en": "Energy bills set to soar as Ofgem predicted to raise price cap by 26% from January",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:34Z",
+   "last_seen": "2026-11-27T17:35:26Z",
    "weekly": [
     0,
     3,
     4,
-    41
+    43
    ],
-   "this_week": 41,
+   "this_week": 43,
    "velocity": 2.25,
    "markets": {
     "uk": 9
@@ -21559,14 +21570,14 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:10Z",
+   "last_seen": "2026-11-27T17:36:01Z",
    "weekly": [
     14,
     12,
     7,
-    29
+    30
    ],
-   "this_week": 29,
+   "this_week": 30,
    "velocity": 4.142857142857143,
    "markets": {
     "de": 10
@@ -21612,14 +21623,14 @@
    "headline_en": "Hostage situation reported in Colombia as armed men flee into supermarket",
    "headline_fi": "Ryöstöyritys pahasti pieleen: 25 ihmistä pidetään panttivankina ruokakaupassa Kolumbiassa",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:01Z",
+   "last_seen": "2026-11-27T17:36:02Z",
    "weekly": [
     0,
     0,
     0,
-    26
+    27
    ],
-   "this_week": 26,
+   "this_week": 27,
    "velocity": 2.4,
    "markets": {
     "fi": 3,
@@ -21680,7 +21691,7 @@
    "headline_en": "Hungarian prime minister set to meet Zelenskiy in western Ukraine on Tuesday",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:13Z",
+   "last_seen": "2026-11-27T17:36:24Z",
    "weekly": [
     0,
     0,
@@ -21727,7 +21738,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21738,14 +21749,14 @@
    "headline_en": "Poundland collapses into administration",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:41Z",
+   "last_seen": "2026-11-27T17:35:33Z",
    "weekly": [
-    9,
-    12,
-    3,
-    19
+    10,
+    11,
+    4,
+    24
    ],
-   "this_week": 19,
+   "this_week": 24,
    "velocity": 6.333333333333333,
    "markets": {
     "uk": 8,
@@ -21784,7 +21795,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21795,14 +21806,14 @@
    "headline_en": "Shanghai party pledges loyalty to Beijing as top official faces investigation",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:53Z",
+   "last_seen": "2026-11-27T17:35:15Z",
    "weekly": [
     0,
     0,
     0,
-    18
+    22
    ],
-   "this_week": 18,
+   "this_week": 22,
    "velocity": 2.4,
    "markets": {
     "intl": 4,
@@ -21843,7 +21854,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T14:15:42Z",
+   "checked": "2026-11-27T20:45:38Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21980,14 +21991,14 @@
    "headline_en": "At least 490,000 Russian soldiers killed in Ukraine, data leak reveals",
    "headline_fi": "Tuore arvio: Yli 700 000 venäläistä kuollut sodassa",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:24:47Z",
+   "last_seen": "2026-11-27T17:35:41Z",
    "weekly": [
     2,
     15,
     4,
-    17
+    18
    ],
-   "this_week": 17,
+   "this_week": 18,
    "velocity": 3.4,
    "markets": {
     "intl": 5,
@@ -22051,7 +22062,7 @@
    "headline_en": "EU plans €50 billion tech equity fund to boost quantum technology",
    "headline_fi": "EU suunnittelee jopa 50 miljardin euron teknorahastoa",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:02Z",
+   "last_seen": "2026-11-27T17:36:16Z",
    "weekly": [
     0,
     0,
@@ -22120,14 +22131,14 @@
    "headline_en": "Macy's Thanksgiving Day Parade postponed, as New York braces for huge storm",
    "headline_fi": "New Yorkissa perinteistä kiitospäivän paraatia lykätään lähestyvän myräkän vuoksi",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:37Z",
+   "last_seen": "2026-11-27T17:35:22Z",
    "weekly": [
     0,
     0,
     0,
-    27
+    51
    ],
-   "this_week": 27,
+   "this_week": 51,
    "velocity": 4.4,
    "markets": {
     "intl": 3,
@@ -22175,7 +22186,7 @@
    "headline_en": "Mariella Frostrup’s Loose Women colleague ‘triggered’ by I’m A Celeb bust-up with AJ Odudu",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:34Z",
+   "last_seen": "2026-11-27T17:35:26Z",
    "weekly": [
     0,
     0,
@@ -22226,14 +22237,14 @@
    "headline_en": "Egypt: At least 30 dead after fuel truck overturns near Cairo",
    "headline_fi": "Yli 30 kuoli säiliöauton kaatumisesta leimahtaneessa tulipalossa Egyptissä",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:49Z",
+   "last_seen": "2026-11-27T17:35:42Z",
    "weekly": [
     0,
     0,
     0,
-    16
+    30
    ],
-   "this_week": 16,
+   "this_week": 30,
    "velocity": 3.2,
    "markets": {
     "de": 2,
@@ -22282,14 +22293,14 @@
    "headline_en": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
    "headline_fi": "Salvadorilainen Kilmar Ábrego García lähtee Yhdysvalloista Espanjaan",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:25:07Z",
+   "last_seen": "2026-11-27T17:35:59Z",
    "weekly": [
     0,
     0,
     0,
-    15
+    17
    ],
-   "this_week": 15,
+   "this_week": 17,
    "velocity": 1.4,
    "markets": {
     "intl": 2,
@@ -22405,14 +22416,14 @@
    "headline_en": "Duran Duran guitarist Andy Taylor, sound of the 1980s, dies at 65",
    "headline_fi": "Duran Duranin kitaristi Andy Taylor on kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:35Z",
+   "last_seen": "2026-11-27T17:35:26Z",
    "weekly": [
     0,
     0,
     0,
-    15
+    21
    ],
-   "this_week": 15,
+   "this_week": 21,
    "velocity": 2.6,
    "markets": {
     "fi": 2,
@@ -22460,14 +22471,14 @@
    "headline_en": null,
    "headline_fi": "Sähkön hinta pomppaa torstaina, Olkiluoto 3 pysähdyksissä",
    "state": "emergence",
-   "last_seen": "2026-11-27T05:24:47Z",
+   "last_seen": "2026-11-27T17:35:41Z",
    "weekly": [
     0,
     0,
     0,
-    14
+    21
    ],
-   "this_week": 14,
+   "this_week": 21,
    "velocity": 2.8,
    "markets": {
     "fi": 10
@@ -22489,14 +22500,14 @@
    "headline_en": "Henry Patten ditches World No 1 doubles partner to form all-British pair with Neal Skupski",
    "headline_fi": "Harri Heliövaaralle shokkiuutinen: nelinpelipari jätti",
    "state": "acceleration",
-   "last_seen": "2026-11-27T05:25:19Z",
+   "last_seen": "2026-11-27T17:35:58Z",
    "weekly": [
     1,
     3,
     3,
-    14
+    18
    ],
-   "this_week": 14,
+   "this_week": 18,
    "velocity": 8,
    "markets": {
     "fi": 7,
@@ -22515,6 +22526,712 @@
    ],
    "abroad_first": "2026-11-24T09:51:25Z",
    "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
+  },
+  "4602": {
+   "id": "4602",
+   "first_seen": "2026-11-27T17:35:18Z",
+   "headline": "S-toppens svar till V: \"Släpp prestigen",
+   "headline_en": null,
+   "headline_fi": "Ruotsissa keskustan johto haluaa äänestää Ulf Kristerssonin pääministeriksi",
+   "state": "acceleration",
+   "last_seen": "2026-11-27T17:35:18Z",
+   "weekly": [
+    62,
+    103,
+    75,
+    167
+   ],
+   "this_week": 167,
+   "velocity": 2.2266666666666666,
+   "markets": {
+    "se": 5,
+    "fi": 2
+   },
+   "outlets": 3,
+   "samples": [
+    {
+     "t": "S-toppens svar till V: \"Släpp prestigen",
+     "u": "https://www.svt.se/nyheter/inrikes/s-toppens-svar-till-v-slapp-prestigen",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-23T18:39:57Z"
+    },
+    {
+     "t": "C-kommunalrådet varnar: \"Vi kommer gå samma öde till mötes som Liberalerna",
+     "u": "https://www.dn.se/sverige/c-kommunalradet-varnar-vi-kommer-ga-samma-ode-till-motes-som-liberalerna/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-24T14:11:21Z"
+    },
+    {
+     "t": "Jimmie Åkesson: Släpper fram Kristersson",
+     "u": "https://www.dn.se/direkt/2026-11-24/jimmie-akesson-slapper-fram-kristersson/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-24T11:54:45Z"
+    }
+   ],
+   "abroad_first": "2026-11-23T18:39:57Z",
+   "markets_abroad": 1,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true
+  },
+  "4601": {
+   "id": "4601",
+   "first_seen": "2026-11-27T17:35:17Z",
+   "headline": "DN erfar: överenskommelse mellan de borgerliga partierna",
+   "headline_en": "Spain's Pablo Hernández de Cos wins race to be next ECB president",
+   "headline_fi": "Pablo Hernández de Cos on nousemassa Euroopan keskuspankin pääjohtajaksi",
+   "state": "acceleration",
+   "last_seen": "2026-11-27T17:35:17Z",
+   "weekly": [
+    14,
+    7,
+    10,
+    39
+   ],
+   "this_week": 39,
+   "velocity": 3.9,
+   "markets": {
+    "de": 5,
+    "uk": 1,
+    "fi": 3
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Dieser Mann wird für die kommenden Jahre die Geschicke der...",
+     "u": "https://www.diepresse.com/41495035/dieser-mann-wird-fuer-die-kommenden-jahre-die-geschicke-der-eurozone",
+     "d": "diepresse.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-26T14:30:25Z"
+    },
+    {
+     "t": "Notenbank: So tickt der designierte EZB-Präsident Pablo Hernández de Cos",
+     "u": "https://www.handelsblatt.com/finanzen/geldpolitik/notenbank-so-tickt-der-designierte-ezb-praesident-pablo-hernandez-de-cos/100270613.html",
+     "d": "handelsblatt.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-26T14:29:02Z"
+    },
+    {
+     "t": "Spain's Pablo Hernández de Cos wins race to be next ECB president",
+     "u": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-26T17:50:54Z"
+    }
+   ],
+   "abroad_first": "2026-11-26T14:02:39Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-27T20:45:38Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-26T03:00:35Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20258707",
+    "t": "EU-rahariita kiihtyy - Saksa haluaa tehdä lopun rusinoiden poimimisesta",
+    "s": 0.865
+   },
+   "fi_count": 7,
+   "arrived_at": "2026-11-27T20:45:38Z"
+  },
+  "4603": {
+   "id": "4603",
+   "first_seen": "2026-11-27T17:35:19Z",
+   "headline": "Han blir chef för Göteborgs konstmuseum",
+   "headline_en": "Trump says he urged Putin to 'pull back' military aggression in Europe",
+   "headline_fi": "Trump ja Rutte vaativat Venäjää olemaan laajentamatta sotaa Ukrainassa",
+   "state": "emergence",
+   "last_seen": "2026-11-27T17:35:19Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    28
+   ],
+   "this_week": 28,
+   "velocity": 5.6,
+   "markets": {
+    "de": 4,
+    "se": 1,
+    "fi": 2,
+    "us": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Trump says he urged Putin to 'pull back' military aggression in Europe",
+     "u": "https://www.dw.com/en/trump-says-he-urged-putin-to-pull-back-military-aggression-in-europe/a-80067722",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-26T16:54:46Z"
+    },
+    {
+     "t": "USA und Russland: \"Amateure im Umgang mit dem Kreml\"",
+     "u": "https://www.welt.de/politik/deutschland/article6b07e9ee09772de37184f121/usa-und-russland-amateure-im-umgang-mit-dem-kreml.html",
+     "d": "welt.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-26T16:52:48Z"
+    },
+    {
+     "t": "Trump och Ruttes uppmaning: Utvidga inte kriget",
+     "u": "https://www.svt.se/nyheter/utrikes/trump-och-ruttes-uppmaning-utvidga-inte-kriget",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-26T06:58:32Z"
+    }
+   ],
+   "abroad_first": "2026-11-26T05:40:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics",
+    "sustainability"
+   ],
+   "relevant": true,
+   "checked": "2026-11-27T20:45:38Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-26T05:01:19Z",
+    "d": "mtvuutiset.fi",
+    "u": "https://www.mtvuutiset.fi/artikkeli/trump-ja-rutte-vaativat-venajaa-olemaan-laajentamatta-sotaa-ukrainassa/9426326",
+    "t": "Trump ja Rutte vaativat Venäjää olemaan laajentamatta sotaa Ukrainassa",
+    "s": null
+   },
+   "fi_count": 5,
+   "arrived_at": "2026-11-27T20:45:38Z"
+  },
+  "4623": {
+   "id": "4623",
+   "first_seen": "2026-11-27T17:35:36Z",
+   "headline": "Nordea kieltää etätyöt",
+   "headline_en": null,
+   "headline_fi": "Nordea kieltää etätyöt",
+   "state": "emergence",
+   "last_seen": "2026-11-27T17:35:36Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    26
+   ],
+   "this_week": 26,
+   "velocity": 5.2,
+   "markets": {
+    "fi": 9,
+    "se": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Storbanken skrotar hemarbete",
+     "u": "https://www.dn.se/direkt/2026-11-26/storbanken-skrotar-hemarbete/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-26T10:44:19Z"
+    }
+   ],
+   "abroad_first": "2026-11-26T10:44:19Z",
+   "markets_abroad": 1,
+   "subjects": [
+    "business",
+    "policy"
+   ],
+   "relevant": true
+  },
+  "4497": {
+   "id": "4497",
+   "first_seen": "2026-11-26T16:46:21Z",
+   "headline": "South Korea's central bank raises rates, upgrades 2027 growth outlook",
+   "headline_en": "South Korea's central bank raises rates, upgrades 2027 growth outlook",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-27T17:35:41Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    24
+   ],
+   "this_week": 24,
+   "velocity": 1.8,
+   "markets": {
+    "intl": 9
+   },
+   "outlets": 3,
+   "samples": [
+    {
+     "t": "South Korea's central bank raises rates, upgrades 2027 growth outlook",
+     "u": "https://www.channelnewsasia.com/business/south-koreas-central-bank-raises-rates-upgrades-2027-growth-outlook-6583476",
+     "d": "channelnewsasia.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-26T01:04:35Z"
+    },
+    {
+     "t": "BOK revises up S. Korea's 2026 growth outlook to 3.9 pct, 4.1 pct for 2027",
+     "u": "https://en.yna.co.kr/view/AEN20261126001800320",
+     "d": "en.yna.co.kr",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-26T00:53:13Z"
+    },
+    {
+     "t": "Seoul shares up late Thurs. morning on tech gains",
+     "u": "https://en.yna.co.kr/view/AEN20261126004800320",
+     "d": "en.yna.co.kr",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-26T02:27:39Z"
+    }
+   ],
+   "abroad_first": "2026-11-26T00:53:13Z",
+   "markets_abroad": 1,
+   "subjects": [
+    "business",
+    "tech"
+   ],
+   "relevant": true
+  },
+  "4631": {
+   "id": "4631",
+   "first_seen": "2026-11-27T17:35:49Z",
+   "headline": "US-Konsortium unter Führung von Todd Boehly übernimmt Lukoil...",
+   "headline_en": "Billionaire financier Todd Boehly strikes deal for Lukoil assets",
+   "headline_fi": "Trumpin tukema miljardööri sopi venäläisen öljyjätti Lukoilin ulkomaisen omaisuuden ostamisesta",
+   "state": "acceleration",
+   "last_seen": "2026-11-27T17:35:49Z",
+   "weekly": [
+    3,
+    0,
+    1,
+    18
+   ],
+   "this_week": 18,
+   "velocity": 18,
+   "markets": {
+    "de": 1,
+    "fi": 6,
+    "intl": 2,
+    "us": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "US-Konsortium unter Führung von Todd Boehly übernimmt Lukoil...",
+     "u": "https://www.diepresse.com/41492400/us-konsortium-unter-fuehrung-von-todd-boehly-uebernimmt-lukoil",
+     "d": "diepresse.com",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-25T19:48:27Z"
+    },
+    {
+     "t": "Billionaire financier Todd Boehly strikes deal for Lukoil assets",
+     "u": "https://www.ft.com/content/643dc287-d112-4715-bdf1-aa49b98a4af7",
+     "d": "ft.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-25T18:03:33Z"
+    },
+    {
+     "t": "Investors led by U.S. billionaire Todd Boehly to buy Lukoil's oil and gas assets outside Russia, sources say",
+     "u": "https://www.cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html",
+     "d": "cnbc.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-25T16:00:45Z"
+    }
+   ],
+   "abroad_first": "2026-11-25T16:00:45Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "business",
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-27T20:45:38Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-25T21:35:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/visio/art-2000012437895.html",
+    "t": "Teboilin taustayhtiön Lukoilin ulkomaiset liiketoiminnot myytiin miljardisopimuksella",
+    "s": null
+   },
+   "fi_count": 6,
+   "arrived_at": "2026-11-27T20:45:38Z"
+  },
+  "4593": {
+   "id": "4593",
+   "first_seen": "2026-11-27T17:35:13Z",
+   "headline": "FIFA says personal and business information stolen in cyberattack",
+   "headline_en": "FIFA says personal and business information stolen in cyberattack",
+   "headline_fi": "Fifa hakkeroinnin kohteena",
+   "state": "emergence",
+   "last_seen": "2026-11-27T17:35:13Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    18
+   ],
+   "this_week": 18,
+   "velocity": 3.6,
+   "markets": {
+    "intl": 1,
+    "fi": 2,
+    "se": 1,
+    "uk": 3,
+    "de": 1
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "FIFA says personal and business information stolen in cyberattack",
+     "u": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack",
+     "d": "aljazeera.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-26T12:31:46Z"
+    },
+    {
+     "t": "Fifa har utsatts för cyberattack",
+     "u": "https://www.dn.se/direkt/2026-11-26/fifa-har-utsatts-for-cyberattack/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-26T13:02:52Z"
+    },
+    {
+     "t": "Fifa hit by cyberattack amid mounting scrutiny of Gianni Infantino",
+     "u": "https://www.independent.co.uk/sport/football/fifa-cyberattack-data-breach-infantino-b3092175.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-26T13:06:05Z"
+    }
+   ],
+   "abroad_first": "2026-11-26T12:31:46Z",
+   "markets_abroad": 4,
+   "subjects": [
+    "tech"
+   ],
+   "relevant": true,
+   "checked": "2026-11-27T20:45:38Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-26T13:44:00Z",
+    "d": "hs.fi",
+    "u": "https://www.hs.fi/urheilu/art-2000012439897.html",
+    "t": "Fifa joutui hakkeriryhmän tietomurron uhriksi",
+    "s": null
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-27T20:45:38Z"
+  },
+  "4637": {
+   "id": "4637",
+   "first_seen": "2026-11-27T17:35:52Z",
+   "headline": "Finland köper 160 Stridsfordon 90",
+   "headline_en": "Five European nations buy combat vehicles from BAE Systems, Finland says",
+   "headline_fi": "Suomi ostaa Ruotsista 160 rynnäkköpanssarivaunua 2,8 miljardilla eurolla",
+   "state": "emergence",
+   "last_seen": "2026-11-27T17:35:52Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    17
+   ],
+   "this_week": 17,
+   "velocity": 3.4,
+   "markets": {
+    "se": 2,
+    "fi": 5,
+    "intl": 1
+   },
+   "outlets": 6,
+   "samples": [
+    {
+     "t": "Mångmiljonorder för BAE Systems Hägglunds",
+     "u": "https://www.svt.se/nyheter/lokalt/vasternorrland/miljardorder-for-bae-systems-hagglunds",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-26T12:05:50Z"
+    },
+    {
+     "t": "Five European nations buy combat vehicles from BAE Systems, Finland says",
+     "u": "https://www.reuters.com/business/aerospace-defense/five-european-nations-buy-combat-vehicles-bae-systems-finland-says-2026-11-26/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-26T12:16:47Z"
+    },
+    {
+     "t": "26 november: Missa inte dagens nyheter",
+     "u": "https://www.dn.se/sverige/26-november-missa-inte-dagens-nyheter/",
+     "d": "dn.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-26T20:24:13Z"
+    }
+   ],
+   "abroad_first": "2026-11-26T12:05:50Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-27T20:45:38Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-26T11:56:04Z",
+    "d": "yle.fi",
+    "u": "https://yle.fi/a/74-20259067",
+    "t": "Suomi ostaa Ruotsista 160 rynnäkköpanssarivaunua 2,8 miljardilla eurolla",
+    "s": null
+   },
+   "fi_count": 5,
+   "arrived_at": "2026-11-27T20:45:38Z"
+  },
+  "4360": {
+   "id": "4360",
+   "first_seen": "2026-11-24T15:11:59Z",
+   "headline": "U.S. reaffirms alliance cooperation after S. Korea's Lee picks new foreign, unification ministers, spy chief",
+   "headline_en": "U.S. reaffirms alliance cooperation after S. Korea's Lee picks new foreign, unification ministers, spy chief",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-27T17:35:45Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    16
+   ],
+   "this_week": 16,
+   "velocity": 3.2,
+   "markets": {
+    "intl": 10
+   },
+   "outlets": 3,
+   "samples": [
+    {
+     "t": "U.S. reaffirms alliance cooperation after S. Korea's Lee picks new foreign, unification ministers, spy chief",
+     "u": "https://en.yna.co.kr/view/AEN20261125000200315",
+     "d": "en.yna.co.kr",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-24T15:51:57Z"
+    },
+    {
+     "t": "(EDITORIAL from Korea JoongAng Daily on Nov. 24)",
+     "u": "https://en.yna.co.kr/view/AEN20261124000900315",
+     "d": "en.yna.co.kr",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-23T22:08:06Z"
+    },
+    {
+     "t": "South Korean president nominates 5 people for top government posts",
+     "u": "https://www.channelnewsasia.com/watch/south-korean-president-nominates-5-people-top-government-posts-6574911",
+     "d": "channelnewsasia.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-23T12:39:54Z"
+    }
+   ],
+   "abroad_first": "2026-11-23T06:23:23Z",
+   "markets_abroad": 1,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true
+  },
+  "4587": {
+   "id": "4587",
+   "first_seen": "2026-11-27T05:24:41Z",
+   "headline": "UK net migration falls to almost three-decade low, excluding pandemic period",
+   "headline_en": "Three charts that show how UK net migration surged and then fell",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-27T17:35:33Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    16
+   ],
+   "this_week": 16,
+   "velocity": 1,
+   "markets": {
+    "uk": 4,
+    "intl": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Three charts that show how UK net migration surged and then fell",
+     "u": "https://www.bbc.co.uk/news/articles/crx27942p09qo",
+     "d": "bbc.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-26T18:09:19Z"
+    },
+    {
+     "t": "Net migration now in tens of thousands after exodus of young Brits",
+     "u": "https://www.cityam.com/net-migration-now-in-tens-of-thousands-after-exodus-of-young-brits/",
+     "d": "cityam.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-26T10:33:53Z"
+    },
+    {
+     "t": "Three charts that show how UK net migration surged and then fell",
+     "u": "https://www.bbc.com/news/articles/crx27942p09qo",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-26T18:09:19Z"
+    }
+   ],
+   "abroad_first": "2026-11-26T10:33:53Z",
+   "markets_abroad": 2,
+   "subjects": [
+    "policy"
+   ],
+   "relevant": true,
+   "checked": "2026-11-27T20:45:38Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4193": {
+   "id": "4193",
+   "first_seen": "2026-11-22T01:43:04Z",
+   "headline": "Kultur: die neuesten Meldungen",
+   "headline_en": "Gérard Depardieu and Michel Houellebecq investigated over on-set rape and assault allegations",
+   "headline_fi": "Ranskalaisnäyttelijä Gerard Depardieuta ja kirjailija Michel Houellebecqia epäillään raiskauksesta",
+   "state": "acceleration",
+   "last_seen": "2026-11-27T17:35:29Z",
+   "weekly": [
+    0,
+    0,
+    14,
+    23
+   ],
+   "this_week": 23,
+   "velocity": 9,
+   "markets": {
+    "de": 4,
+    "uk": 3,
+    "fi": 2
+   },
+   "outlets": 8,
+   "samples": [
+    {
+     "t": "Vergewaltigungsvorwürfe: Ermittlungen gegen Depardieu und Houellebecq",
+     "u": "https://www.nzz.ch/feuilleton/vergewaltigungsvorwuerfe-ermittlungen-gegen-gerard-depardieu-und-michel-houellebecq-ld.10072126",
+     "d": "nzz.ch",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-23T15:09:27Z"
+    },
+    {
+     "t": "Gérard Depardieu and Michel Houellebecq investigated over on-set rape and assault allegations",
+     "u": "https://www.theguardian.com/film/2026/nov/20/gerard-depardieu-michel-houellebecq-investigated-allegations",
+     "d": "theguardian.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-20T16:54:57Z"
+    },
+    {
+     "t": "Актера Депардье и писателя Уэльбека обвиняет в сексуальном насилии актриса из фильма \"Спа\"",
+     "u": "https://www.bbc.com/russian/articles/c6808yzpv111o",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "ru",
+     "p": "2026-11-21T01:42:10Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T15:40:38Z",
+   "markets_abroad": 2,
+   "subjects": [],
+   "relevant": false
+  },
+  "4616": {
+   "id": "4616",
+   "first_seen": "2026-11-27T17:35:27Z",
+   "headline": "Crew member dies after diesel tanker sinks off Ibiza; Spain launches pollution plan",
+   "headline_en": "Crew member dies after diesel tanker sinks off Ibiza; Spain launches pollution plan",
+   "headline_fi": "Rahtialus upposi Ibizalla - yksi kuollut",
+   "state": "emergence",
+   "last_seen": "2026-11-27T17:35:27Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    21
+   ],
+   "this_week": 21,
+   "velocity": 4.2,
+   "markets": {
+    "intl": 3,
+    "uk": 1,
+    "us": 1,
+    "de": 3,
+    "fi": 1
+   },
+   "outlets": 9,
+   "samples": [
+    {
+     "t": "Crew member dies after diesel tanker sinks off Ibiza; Spain launches pollution plan",
+     "u": "https://www.reuters.com/business/energy/crew-member-dies-after-diesel-tanker-sinks-off-ibiza-spain-launches-pollution-2026-11-26/",
+     "d": "reuters.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-26T02:41:00Z"
+    },
+    {
+     "t": "Med Emre: Diesel tanker carrying 7,000 tonnes sinks near Ibiza, killing one",
+     "u": "https://www.bbc.com/news/articles/c9gklryvj24do",
+     "d": "bbc.com",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-26T11:27:42Z"
+    },
+    {
+     "t": "Crew Member Dies After Diesel Tanker Capsizes Off Ibiza, No Pollution So Far",
+     "u": "https://gcaptain.com/crew-member-dies-after-diesel-tanker-capsizes-off-ibiza-no-pollution-so-far/",
+     "d": "gcaptain.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-26T14:44:22Z"
+    }
+   ],
+   "abroad_first": "2026-11-26T02:41:00Z",
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   }
