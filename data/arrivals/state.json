@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-26T22:45:39Z",
+  "last_run": "2026-11-27T02:00:57Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 29,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -14370,7 +14370,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16067,7 +16067,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16125,7 +16125,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16856,7 +16856,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -17793,7 +17793,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18203,7 +18203,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18722,7 +18722,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -19460,7 +19460,7 @@
     "sustainability"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -20018,7 +20018,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -20599,7 +20599,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -20749,7 +20749,7 @@
    "headline_en": "Briton swims length of strait of Hormuz to highlight environmental cost of war",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-26T04:38:28Z",
+   "last_seen": "2026-11-26T16:47:18Z",
    "weekly": [
     0,
     0,
@@ -20796,7 +20796,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T13:30:52Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21412,7 +21412,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21714,7 +21714,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21771,7 +21771,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21830,7 +21830,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21958,7 +21958,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-26T19:30:54Z",
+   "checked": "2026-11-27T02:00:57Z",
    "check_how": "url",
    "check_error": null
   },
