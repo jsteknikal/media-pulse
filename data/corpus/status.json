@@ -1,5 +1,5 @@
 {
- "last_run": "2026-11-27T05:15:37Z",
+ "last_run": "2026-11-27T05:30:56Z",
  "source": "corpus-api",
  "high_water": "2026-11-27T05:13:14Z",
  "recent": {
@@ -1702,8 +1702,8 @@
   "a04e88901da5": "2026-11-27T05:13:14Z"
  },
  "pages": 2,
- "received": 1699,
- "tagged": 850,
+ "received": 1697,
+ "tagged": 0,
  "rebuilt": false,
  "markets": [
   "de",
