@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-27T23:45:38Z",
+  "last_run": "2026-11-28T02:45:45Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 33,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -14370,7 +14370,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16069,7 +16069,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16127,7 +16127,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16858,7 +16858,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18206,7 +18206,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18725,7 +18725,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -20032,7 +20032,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21436,7 +21436,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21738,7 +21738,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21795,7 +21795,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21854,7 +21854,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
@@ -23123,7 +23123,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-27T20:45:38Z",
+   "checked": "2026-11-28T02:45:45Z",
    "check_how": "url",
    "check_error": null
   },
