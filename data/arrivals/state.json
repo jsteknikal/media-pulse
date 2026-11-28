@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-28T06:01:00Z",
+  "last_run": "2026-11-28T09:01:01Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 45,
+  "similar_left": 31,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
@@ -14370,7 +14370,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -15994,14 +15994,14 @@
    "headline_en": "Finland to sound emergency alert on every phone at noon",
    "headline_fi": "Varoitusjärjestelmän uusi testipäivä käsillä - katso suorana kello 11.45 alkaen",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:36:29Z",
+   "last_seen": "2026-11-28T06:20:43Z",
    "weekly": [
     4,
-    2,
+    3,
     23,
-    39
+    38
    ],
-   "this_week": 39,
+   "this_week": 38,
    "velocity": 1.5454545454545454,
    "markets": {
     "fi": 10
@@ -16069,7 +16069,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16127,7 +16127,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -16858,7 +16858,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18035,18 +18035,18 @@
   "4231": {
    "id": "4231",
    "first_seen": "2026-11-22T14:07:59Z",
-   "headline": "Suora lähetys kello 17.15: Viranomaiset kertovat Suomeen ajautuneesta palavasta venäläisaluksesta",
+   "headline": "Asiantuntijat odottavat lisää drooni-iskuja Suomenlahdelle - meriliikenne on silti turvallista",
    "headline_en": "Russian cargo ship struck by drones in Gulf of Finland",
    "headline_fi": "Suora lähetys kello 17.15: Viranomaiset kertovat Suomeen ajautuneesta palavasta venäläisaluksesta",
    "state": "acceleration",
-   "last_seen": "2026-11-25T15:57:04Z",
+   "last_seen": "2026-11-28T06:19:39Z",
    "weekly": [
     0,
-    0,
     1,
-    209
+    74,
+    142
    ],
-   "this_week": 209,
+   "this_week": 142,
    "velocity": 209,
    "markets": {
     "fi": 9,
@@ -18206,7 +18206,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18538,14 +18538,14 @@
    "headline_en": "COP31: Climate deal 'not adopted,' summit president says",
    "headline_fi": "YK:n ilmastokokous päättyi tuloksettomana – “Edelläkävijämaiden on nyt etsittävä muita reittejä.”",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:12Z",
+   "last_seen": "2026-11-28T06:19:28Z",
    "weekly": [
     8,
-    62,
-    52,
-    236
+    64,
+    70,
+    219
    ],
-   "this_week": 236,
+   "this_week": 219,
    "velocity": 6.131578947368421,
    "markets": {
     "de": 2,
@@ -18725,7 +18725,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -18787,14 +18787,14 @@
    "headline_en": "Ukraine claims strikes on Russian vessels off Libya as cargo ship catches fire in Gulf of Finland",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:15Z",
+   "last_seen": "2026-11-28T06:19:23Z",
    "weekly": [
     0,
     0,
     0,
-    118
+    120
    ],
-   "this_week": 118,
+   "this_week": 120,
    "velocity": 22,
    "markets": {
     "de": 6,
@@ -18922,7 +18922,7 @@
    "headline_en": "Russian attacks across Ukraine injure 30 over past day as rescue operation continues near Kyiv after drone strike",
    "headline_fi": "Ainakin 14 kuoli iskuissa Kiovan alueella - useita yhä kateissa",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:59Z",
+   "last_seen": "2026-11-28T06:21:11Z",
    "weekly": [
     0,
     0,
@@ -18990,7 +18990,7 @@
    "headline_en": "Dozens missing as deadly fire tears through Indonesian candy factory",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:10Z",
+   "last_seen": "2026-11-28T06:20:27Z",
    "weekly": [
     0,
     0,
@@ -19044,14 +19044,14 @@
    "headline_en": "As US gears up for Thanksgiving, Iowa braces for controlled bomb blast",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:24Z",
+   "last_seen": "2026-11-28T06:19:30Z",
    "weekly": [
     0,
     0,
-    6,
-    74
+    11,
+    70
    ],
-   "this_week": 74,
+   "this_week": 70,
    "velocity": 13.333333333333334,
    "markets": {
     "uk": 5,
@@ -19111,14 +19111,14 @@
    "headline_en": "Spacecraft arrive at Mercury after eight years – but there’s a glitch",
    "headline_fi": "BepiColombo saapunut Merkuriuksen kiertoradalle",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:59Z",
+   "last_seen": "2026-11-28T06:20:17Z",
    "weekly": [
     0,
     0,
-    3,
-    18
+    5,
+    16
    ],
-   "this_week": 18,
+   "this_week": 16,
    "velocity": 5.666666666666667,
    "markets": {
     "fi": 1,
@@ -19160,26 +19160,42 @@
   "4244": {
    "id": "4244",
    "first_seen": "2026-11-22T14:08:07Z",
-   "headline": "What to expect from Princess Kate's documentary Heal and where to watch it | The National",
-   "headline_en": "What to expect from Princess Kate's documentary Heal and where to watch it | The National",
+   "headline": "Kate moved to tears by children’s voice messages in new documentary about cancer journey",
+   "headline_en": "Kate moved to tears by children’s voice messages in new documentary about cancer journey",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-27T17:35:29Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-28T06:19:25Z",
    "weekly": [
     0,
     0,
-    0,
-    18
+    7,
+    16
    ],
-   "this_week": 18,
-   "velocity": 3.2,
+   "this_week": 16,
+   "velocity": 2.2857142857142856,
    "markets": {
-    "intl": 1,
     "uk": 8,
+    "intl": 1,
     "de": 1
    },
-   "outlets": 6,
+   "outlets": 4,
    "samples": [
+    {
+     "t": "Kate moved to tears by children’s voice messages in new documentary about cancer journey",
+     "u": "https://www.independent.co.uk/news/uk/home-news/princess-of-wales-kate-middleton-cancer-documentary-b3092672.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-27T22:03:48Z"
+    },
+    {
+     "t": "Amy Dowden praises Cahterine for 'showing the truth of cancer' in new documentary",
+     "u": "https://www.independent.co.uk/arts-entertainment/tv/news/amy-dowden-catherine-princess-of-wales-cancer-documentary-b3091288.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-25T10:43:54Z"
+    },
     {
      "t": "What to expect from Princess Kate's documentary Heal and where to watch it | The National",
      "u": "https://www.thenationalnews.com/arts-culture/film-tv/2026/11/22/what-to-expect-from-princess-kates-documentary-heal-and-where-to-watch-it/",
@@ -19187,22 +19203,6 @@
      "c": "intl",
      "l": "en",
      "p": "2026-11-22T09:33:40Z"
-    },
-    {
-     "t": "Princess Catherine's cancer journey to be depicted in new show",
-     "u": "https://www.bbc.com/news/videos/cwe85gyedjp5o",
-     "d": "bbc.com",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-21T12:17:45Z"
-    },
-    {
-     "t": "Princess of Wales: Catherine talks about her cancer journey in new documentary Heal",
-     "u": "https://www.bbc.co.uk/news/articles/c85y14zvexz9o",
-     "d": "bbc.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-21T12:00:03Z"
     }
    ],
    "abroad_first": "2026-11-21T12:00:03Z",
@@ -19534,25 +19534,26 @@
   "4238": {
    "id": "4238",
    "first_seen": "2026-11-22T14:08:03Z",
-   "headline": "Suurin osa Brysselin lentoaseman lennoista perutaan maanantaina",
+   "headline": "Brussels, Charleroi airports to cancel most flights Monday amid Belgian strike",
    "headline_en": "Brussels, Charleroi airports to cancel most flights Monday amid Belgian strike",
-   "headline_fi": "Suurin osa Brysselin lentoaseman lennoista perutaan maanantaina",
-   "state": "emergence",
-   "last_seen": "2026-11-27T17:37:01Z",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-28T06:21:13Z",
    "weekly": [
     0,
     0,
-    0,
-    20
+    5,
+    15
    ],
-   "this_week": 20,
-   "velocity": 4,
+   "this_week": 15,
+   "velocity": 3,
    "markets": {
-    "fi": 1,
-    "intl": 3,
-    "de": 2
+    "intl": 4,
+    "de": 3,
+    "uk": 1,
+    "se": 1
    },
-   "outlets": 5,
+   "outlets": 8,
    "samples": [
     {
      "t": "Brussels, Charleroi airports to cancel most flights Monday amid Belgian strike",
@@ -19580,7 +19581,7 @@
     }
    ],
    "abroad_first": "2026-11-21T18:44:06Z",
-   "markets_abroad": 2,
+   "markets_abroad": 4,
    "subjects": [
     "policy"
    ],
@@ -19711,7 +19712,7 @@
    "headline_en": "Russia 'plan to launch satellite with nuclear weapon into space by end of the year'",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:34Z",
+   "last_seen": "2026-11-28T06:19:55Z",
    "weekly": [
     0,
     0,
@@ -19779,7 +19780,7 @@
    "headline_en": "From Symantec to Zscaler, the biggest cybersecurity acquisitions",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:36:52Z",
+   "last_seen": "2026-11-28T06:21:05Z",
    "weekly": [
     0,
     0,
@@ -19847,14 +19848,14 @@
    "headline_en": "EU proposes package of Russian sports sanctions, visa bans, and a Krygyzstan crypto blockade",
    "headline_fi": "EU: Raju isku Venäjälle",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:18Z",
+   "last_seen": "2026-11-28T06:19:37Z",
    "weekly": [
     0,
     0,
     5,
-    37
+    38
    ],
-   "this_week": 37,
+   "this_week": 38,
    "velocity": 7.4,
    "markets": {
     "de": 3,
@@ -19917,7 +19918,7 @@
    "headline_en": "Zelenskyy praises 'exemplary' drone operation that sank Russian warship in a Libyan port",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:57Z",
+   "last_seen": "2026-11-28T06:21:09Z",
    "weekly": [
     0,
     0,
@@ -19985,7 +19986,7 @@
    "headline_en": "Mercedes, BMW hit by 24-hour strikes as German pay dispute widens",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:36:08Z",
+   "last_seen": "2026-11-28T06:20:25Z",
    "weekly": [
     13,
     5,
@@ -20032,7 +20033,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -20179,14 +20180,14 @@
    "headline_en": "Manchester's Co-op Live arena evacuated after apparent tear gas incident at Don Toliver concert",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:07Z",
+   "last_seen": "2026-11-28T06:19:44Z",
    "weekly": [
     0,
     0,
     0,
-    19
+    23
    ],
-   "this_week": 19,
+   "this_week": 23,
    "velocity": 3.8,
    "markets": {
     "uk": 10
@@ -20230,7 +20231,7 @@
    "headline_en": "Six fall into Aura River after suspension bridge collapses",
    "headline_fi": "Liedon romahtanut silta puretaan - näin paljon se maksaa",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:01Z",
+   "last_seen": "2026-11-28T06:20:18Z",
    "weekly": [
     0,
     0,
@@ -20345,7 +20346,7 @@
    "headline_en": "Police investigating bomb threats against schools in Germany and Denmark",
    "headline_fi": "Satoja pommiuhkauksia kouluihin Saksassa ja Tanskassa",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:36:54Z",
+   "last_seen": "2026-11-28T06:21:06Z",
    "weekly": [
     0,
     12,
@@ -20353,12 +20354,13 @@
     22
    ],
    "this_week": 22,
-   "velocity": 2.625,
+   "velocity": 5.5,
    "markets": {
     "intl": 4,
-    "fi": 4,
+    "fi": 3,
     "uk": 1,
-    "se": 1
+    "se": 1,
+    "de": 1
    },
    "outlets": 9,
    "samples": [
@@ -20387,8 +20389,8 @@
      "p": "2026-11-23T11:33:36Z"
     }
    ],
-   "abroad_first": "2026-11-23T10:43:11Z",
-   "markets_abroad": 3,
+   "abroad_first": "2026-11-23T10:39:42Z",
+   "markets_abroad": 4,
    "subjects": [],
    "relevant": false
   },
@@ -20399,14 +20401,14 @@
    "headline_en": null,
    "headline_fi": "Sdp säästäisi sotesta 1,2 miljardia - näin Antti Lindtman selitti yllättävää käännettä",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:30Z",
+   "last_seen": "2026-11-28T06:19:51Z",
    "weekly": [
     0,
     0,
-    4,
-    24
+    7,
+    21
    ],
-   "this_week": 24,
+   "this_week": 21,
    "velocity": 6,
    "markets": {
     "fi": 10
@@ -20428,7 +20430,7 @@
    "headline_en": "(3rd LD) S. Korea briefly issues alert on eastern island after Russian warplanes near airspace",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:46Z",
+   "last_seen": "2026-11-28T06:20:05Z",
    "weekly": [
     0,
     0,
@@ -20494,7 +20496,7 @@
    "headline_en": "US court convicts China's Huawei for fraud, conspiring to steal trade secrets, in sprawling trial over Iran business",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:11Z",
+   "last_seen": "2026-11-28T06:19:29Z",
    "weekly": [
     0,
     0,
@@ -20563,14 +20565,14 @@
    "headline_en": "North Korea expels head of Swiss diplomatic office: State media",
    "headline_fi": "Pohjois-Korea karkotti Sveitsin diplomaatin maasta - edustuston avajaisista ei ehtinyt kulua edes kuukautta",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:13Z",
+   "last_seen": "2026-11-28T06:19:33Z",
    "weekly": [
     0,
     0,
     0,
-    28
+    29
    ],
-   "this_week": 28,
+   "this_week": 29,
    "velocity": 5.6,
    "markets": {
     "intl": 5,
@@ -20633,7 +20635,7 @@
    "headline_en": "Asian stocks roar back as Jensen Huang's Nvidia return reignites the AI trade",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:44Z",
+   "last_seen": "2026-11-28T06:20:58Z",
    "weekly": [
     0,
     0,
@@ -20701,7 +20703,7 @@
    "headline_en": "UK warns companies of potential Russian sabotage threat",
    "headline_fi": "Britannialta erittäin poikkeuksellinen varoitus Venäjästä",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:20Z",
+   "last_seen": "2026-11-28T06:20:36Z",
    "weekly": [
     0,
     0,
@@ -20830,14 +20832,14 @@
    "headline_en": null,
    "headline_fi": "Tappara teki tylyn ratkaisun - asiantuntija: \"Tuhottiin ura",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:36:08Z",
+   "last_seen": "2026-11-28T06:19:48Z",
    "weekly": [
     2,
-    0,
-    12,
-    29
+    1,
+    13,
+    28
    ],
-   "this_week": 29,
+   "this_week": 28,
    "velocity": 2.1666666666666665,
    "markets": {
     "fi": 10
@@ -20855,20 +20857,20 @@
    "headline": "Tuesday briefing: The fight over Pip - what happens when two reviews want different things?",
    "headline_en": "Tuesday briefing: The fight over Pip - what happens when two reviews want different things?",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-27T17:35:38Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-28T06:19:58Z",
    "weekly": [
     0,
     0,
-    0,
-    28
+    1,
+    27
    ],
-   "this_week": 28,
-   "velocity": 4,
+   "this_week": 27,
+   "velocity": 27,
    "markets": {
     "uk": 10
    },
-   "outlets": 4,
+   "outlets": 3,
    "samples": [
     {
      "t": "Tuesday briefing: The fight over Pip - what happens when two reviews want different things?",
@@ -20879,20 +20881,20 @@
      "p": "2026-11-24T06:46:07Z"
     },
     {
+     "t": "Timms Review: Key takeaways and what report means for future of disability benefits",
+     "u": "https://www.independent.co.uk/news/uk/home-news/pip-changes-timms-review-key-points-takeaways-dwp-b3090514.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-24T13:52:30Z"
+    },
+    {
      "t": "On welfare cuts, Stephen Timms didn't get the memo",
      "u": "https://www.independent.co.uk/voices/welfare-benefit-pip-timms-review-cuts-b3090739.html",
      "d": "independent.co.uk",
      "c": "uk",
      "l": "en",
      "p": "2026-11-24T15:32:57Z"
-    },
-    {
-     "t": "Pip review to call for overhaul as setup 'no longer fit for purpose'",
-     "u": "https://www.independent.co.uk/news/uk/home-news/stephen-timms-pip-report-burnham-b3089621.html",
-     "d": "independent.co.uk",
-     "c": "uk",
-     "l": "en",
-     "p": "2026-11-23T07:21:08Z"
     }
    ],
    "abroad_first": "2026-11-23T04:01:13Z",
@@ -20907,7 +20909,7 @@
    "headline_en": "Iran carries out flogging of singer who performed without hijab",
    "headline_fi": "Iran ruoski ilman hijabia esiintyneen 29-vuotiaan laulajan",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:28Z",
+   "last_seen": "2026-11-28T06:20:42Z",
    "weekly": [
     0,
     0,
@@ -20965,7 +20967,7 @@
    "headline_en": "Turkey: Istanbul 'lion hunt' ends with no big cat found after all",
    "headline_fi": "Leijonaoperaatio Istanbulissa päättyi yllätykseen",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:44Z",
+   "last_seen": "2026-11-28T06:20:57Z",
    "weekly": [
     0,
     0,
@@ -21019,7 +21021,7 @@
    "headline_en": "Pope Francis diaries recount spiritual crisis, him seeing the 'Devil'",
    "headline_fi": "Paavi näki Saatanan kolmesti: \"En voi unohtaa käheyttä hänen äänessään",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:57Z",
+   "last_seen": "2026-11-28T06:20:14Z",
    "weekly": [
     0,
     0,
@@ -21073,7 +21075,7 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:51Z",
+   "last_seen": "2026-11-28T06:21:04Z",
    "weekly": [
     0,
     0,
@@ -21124,7 +21126,7 @@
    "headline_en": "Two men arrested over suspected burglary at Prince and Princess of Wales's home | The National",
    "headline_fi": "Williamin ja Catherinen kakkoskotiin murtauduttu - kaksi miestä pidätetty",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:44Z",
+   "last_seen": "2026-11-28T06:20:04Z",
    "weekly": [
     0,
     0,
@@ -21389,7 +21391,7 @@
    "headline_en": "'Something bad is happening': Compass reignites City of London exodus fears",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:23Z",
+   "last_seen": "2026-11-28T06:20:38Z",
    "weekly": [
     0,
     0,
@@ -21436,7 +21438,7 @@
     "tech"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21447,14 +21449,14 @@
    "headline_en": "US proposes new tariffs on 14 trading partners, including China and the EU",
    "headline_fi": "BBC: Yhdysvallat valmistautuu julkistamaan uusia tuontitulleja jo tänään",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:30Z",
+   "last_seen": "2026-11-28T06:19:26Z",
    "weekly": [
     0,
     0,
     0,
-    74
+    75
    ],
-   "this_week": 74,
+   "this_week": 75,
    "velocity": 11.2,
    "markets": {
     "de": 6,
@@ -21516,14 +21518,14 @@
    "headline_en": "Energy bills set to soar as Ofgem predicted to raise price cap by 26% from January",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:26Z",
+   "last_seen": "2026-11-28T06:19:29Z",
    "weekly": [
     0,
     3,
     4,
-    43
+    45
    ],
-   "this_week": 43,
+   "this_week": 45,
    "velocity": 2.25,
    "markets": {
     "uk": 9
@@ -21570,14 +21572,14 @@
    "headline_en": null,
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:36:01Z",
+   "last_seen": "2026-11-28T06:20:19Z",
    "weekly": [
-    14,
-    12,
-    7,
-    30
+    15,
+    10,
+    8,
+    28
    ],
-   "this_week": 30,
+   "this_week": 28,
    "velocity": 4.142857142857143,
    "markets": {
     "de": 10
@@ -21623,7 +21625,7 @@
    "headline_en": "Hostage situation reported in Colombia as armed men flee into supermarket",
    "headline_fi": "Ryöstöyritys pahasti pieleen: 25 ihmistä pidetään panttivankina ruokakaupassa Kolumbiassa",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:02Z",
+   "last_seen": "2026-11-28T06:20:19Z",
    "weekly": [
     0,
     0,
@@ -21691,7 +21693,7 @@
    "headline_en": "Hungarian prime minister set to meet Zelenskiy in western Ukraine on Tuesday",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:36:24Z",
+   "last_seen": "2026-11-28T06:20:39Z",
    "weekly": [
     0,
     0,
@@ -21738,7 +21740,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21749,14 +21751,14 @@
    "headline_en": "Poundland collapses into administration",
    "headline_fi": null,
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:33Z",
+   "last_seen": "2026-11-28T06:19:24Z",
    "weekly": [
     10,
     11,
     4,
-    24
+    27
    ],
-   "this_week": 24,
+   "this_week": 27,
    "velocity": 6.333333333333333,
    "markets": {
     "uk": 8,
@@ -21795,7 +21797,7 @@
     "business"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21806,7 +21808,7 @@
    "headline_en": "Shanghai party pledges loyalty to Beijing as top official faces investigation",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:15Z",
+   "last_seen": "2026-11-28T06:19:34Z",
    "weekly": [
     0,
     0,
@@ -21854,7 +21856,7 @@
     "geopolitics"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -21991,14 +21993,14 @@
    "headline_en": "At least 490,000 Russian soldiers killed in Ukraine, data leak reveals",
    "headline_fi": "Tuore arvio: Yli 700 000 venäläistä kuollut sodassa",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:41Z",
+   "last_seen": "2026-11-28T06:19:24Z",
    "weekly": [
     2,
-    15,
-    4,
-    18
+    17,
+    2,
+    19
    ],
-   "this_week": 18,
+   "this_week": 19,
    "velocity": 3.4,
    "markets": {
     "intl": 5,
@@ -22127,18 +22129,18 @@
   "4505": {
    "id": "4505",
    "first_seen": "2026-11-26T16:46:26Z",
-   "headline": "Macy's Thanksgiving Day Parade postponed, as New York braces for huge storm",
+   "headline": "Major storm batters US on Thanksgiving holiday",
    "headline_en": "Macy's Thanksgiving Day Parade postponed, as New York braces for huge storm",
    "headline_fi": "New Yorkissa perinteistä kiitospäivän paraatia lykätään lähestyvän myräkän vuoksi",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:22Z",
+   "last_seen": "2026-11-28T06:19:22Z",
    "weekly": [
     0,
     0,
     0,
-    51
+    56
    ],
-   "this_week": 51,
+   "this_week": 56,
    "velocity": 4.4,
    "markets": {
     "intl": 3,
@@ -22185,16 +22187,16 @@
    "headline": "Mariella Frostrup’s Loose Women colleague ‘triggered’ by I’m A Celeb bust-up with AJ Odudu",
    "headline_en": "Mariella Frostrup’s Loose Women colleague ‘triggered’ by I’m A Celeb bust-up with AJ Odudu",
    "headline_fi": null,
-   "state": "emergence",
-   "last_seen": "2026-11-27T17:35:26Z",
+   "state": "acceleration",
+   "last_seen": "2026-11-28T06:19:29Z",
    "weekly": [
     0,
     0,
-    0,
-    18
+    1,
+    19
    ],
-   "this_week": 18,
-   "velocity": 3.2,
+   "this_week": 19,
+   "velocity": 19,
    "markets": {
     "uk": 10
    },
@@ -22237,7 +22239,7 @@
    "headline_en": "Egypt: At least 30 dead after fuel truck overturns near Cairo",
    "headline_fi": "Yli 30 kuoli säiliöauton kaatumisesta leimahtaneessa tulipalossa Egyptissä",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:42Z",
+   "last_seen": "2026-11-28T06:20:01Z",
    "weekly": [
     0,
     0,
@@ -22293,7 +22295,7 @@
    "headline_en": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
    "headline_fi": "Salvadorilainen Kilmar Ábrego García lähtee Yhdysvalloista Espanjaan",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:59Z",
+   "last_seen": "2026-11-28T06:20:16Z",
    "weekly": [
     0,
     0,
@@ -22416,7 +22418,7 @@
    "headline_en": "Duran Duran guitarist Andy Taylor, sound of the 1980s, dies at 65",
    "headline_fi": "Duran Duranin kitaristi Andy Taylor on kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:26Z",
+   "last_seen": "2026-11-28T06:19:49Z",
    "weekly": [
     0,
     0,
@@ -22471,7 +22473,7 @@
    "headline_en": null,
    "headline_fi": "Sähkön hinta pomppaa torstaina, Olkiluoto 3 pysähdyksissä",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:41Z",
+   "last_seen": "2026-11-28T06:20:01Z",
    "weekly": [
     0,
     0,
@@ -22500,10 +22502,10 @@
    "headline_en": "Henry Patten ditches World No 1 doubles partner to form all-British pair with Neal Skupski",
    "headline_fi": "Harri Heliövaaralle shokkiuutinen: nelinpelipari jätti",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:58Z",
+   "last_seen": "2026-11-28T06:20:16Z",
    "weekly": [
-    1,
     3,
+    1,
     3,
     18
    ],
@@ -22536,14 +22538,14 @@
    "headline_en": null,
    "headline_fi": "Ruotsissa keskustan johto haluaa äänestää Ulf Kristerssonin pääministeriksi",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:18Z",
+   "last_seen": "2026-11-28T06:19:21Z",
    "weekly": [
-    62,
-    103,
-    75,
-    167
+    55,
+    108,
+    78,
+    169
    ],
-   "this_week": 167,
+   "this_week": 169,
    "velocity": 2.2266666666666666,
    "markets": {
     "se": 5,
@@ -22590,9 +22592,9 @@
    "headline_en": "Spain's Pablo Hernández de Cos wins race to be next ECB president",
    "headline_fi": "Pablo Hernández de Cos on nousemassa Euroopan keskuspankin pääjohtajaksi",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:17Z",
+   "last_seen": "2026-11-28T06:19:36Z",
    "weekly": [
-    14,
+    13,
     7,
     10,
     39
@@ -22657,7 +22659,7 @@
    "headline_en": "Trump says he urged Putin to 'pull back' military aggression in Europe",
    "headline_fi": "Trump ja Rutte vaativat Venäjää olemaan laajentamatta sotaa Ukrainassa",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:19Z",
+   "last_seen": "2026-11-28T06:19:38Z",
    "weekly": [
     0,
     0,
@@ -22726,14 +22728,14 @@
    "headline_en": null,
    "headline_fi": "Nordea kieltää etätyöt",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:36Z",
+   "last_seen": "2026-11-28T06:19:43Z",
    "weekly": [
     0,
     0,
     0,
-    26
+    31
    ],
-   "this_week": 26,
+   "this_week": 31,
    "velocity": 5.2,
    "markets": {
     "fi": 9,
@@ -22765,7 +22767,7 @@
    "headline_en": "South Korea's central bank raises rates, upgrades 2027 growth outlook",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:41Z",
+   "last_seen": "2026-11-28T06:20:01Z",
    "weekly": [
     0,
     0,
@@ -22819,7 +22821,7 @@
    "headline_en": "Billionaire financier Todd Boehly strikes deal for Lukoil assets",
    "headline_fi": "Trumpin tukema miljardööri sopi venäläisen öljyjätti Lukoilin ulkomaisen omaisuuden ostamisesta",
    "state": "acceleration",
-   "last_seen": "2026-11-27T17:35:49Z",
+   "last_seen": "2026-11-28T06:20:08Z",
    "weekly": [
     3,
     0,
@@ -22888,7 +22890,7 @@
    "headline_en": "FIFA says personal and business information stolen in cyberattack",
    "headline_fi": "Fifa hakkeroinnin kohteena",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:13Z",
+   "last_seen": "2026-11-28T06:19:31Z",
    "weekly": [
     0,
     0,
@@ -22953,18 +22955,18 @@
   "4637": {
    "id": "4637",
    "first_seen": "2026-11-27T17:35:52Z",
-   "headline": "Finland köper 160 Stridsfordon 90",
+   "headline": "Mångmiljonorder för BAE Systems Hägglunds",
    "headline_en": "Five European nations buy combat vehicles from BAE Systems, Finland says",
    "headline_fi": "Suomi ostaa Ruotsista 160 rynnäkköpanssarivaunua 2,8 miljardilla eurolla",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:52Z",
+   "last_seen": "2026-11-28T06:19:28Z",
    "weekly": [
     0,
     0,
     0,
-    17
+    18
    ],
-   "this_week": 17,
+   "this_week": 18,
    "velocity": 3.4,
    "markets": {
     "se": 2,
@@ -23024,7 +23026,7 @@
    "headline_en": "U.S. reaffirms alliance cooperation after S. Korea's Lee picks new foreign, unification ministers, spy chief",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:45Z",
+   "last_seen": "2026-11-28T06:20:05Z",
    "weekly": [
     0,
     0,
@@ -23077,7 +23079,7 @@
    "headline_en": "Three charts that show how UK net migration surged and then fell",
    "headline_fi": null,
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:33Z",
+   "last_seen": "2026-11-28T06:19:54Z",
    "weekly": [
     0,
     0,
@@ -23123,7 +23125,7 @@
     "policy"
    ],
    "relevant": true,
-   "checked": "2026-11-28T02:45:45Z",
+   "checked": "2026-11-28T09:01:01Z",
    "check_how": "url",
    "check_error": null
   },
@@ -23187,14 +23189,14 @@
    "headline_en": "Crew member dies after diesel tanker sinks off Ibiza; Spain launches pollution plan",
    "headline_fi": "Rahtialus upposi Ibizalla - yksi kuollut",
    "state": "emergence",
-   "last_seen": "2026-11-27T17:35:27Z",
+   "last_seen": "2026-11-28T06:19:47Z",
    "weekly": [
     0,
     0,
     0,
-    21
+    22
    ],
-   "this_week": 21,
+   "this_week": 22,
    "velocity": 4.2,
    "markets": {
     "intl": 3,
@@ -23233,6 +23235,278 @@
    "abroad_first": "2026-11-26T02:41:00Z",
    "markets_abroad": 4,
    "subjects": [],
+   "relevant": false
+  },
+  "4509": {
+   "id": "4509",
+   "first_seen": "2026-11-26T16:46:28Z",
+   "headline": "All flights suspended as budget airline Norse Atlantic flags bankruptcy risk",
+   "headline_en": "Another European airline warns its financial situation is ‘critical’",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-28T06:19:28Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    24
+   ],
+   "this_week": 24,
+   "velocity": 1,
+   "markets": {
+    "uk": 2,
+    "us": 2,
+    "intl": 1
+   },
+   "outlets": 3,
+   "samples": [
+    {
+     "t": "Another European airline warns its financial situation is ‘critical’",
+     "u": "https://www.independent.co.uk/travel/news-and-advice/norse-atlantic-airways-flights-jet-fuel-b3091213.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-25T09:12:57Z"
+    },
+    {
+     "t": "Norse Atlantic warns its financial situation is 'critical'",
+     "u": "https://www.independent.co.uk/travel/news-and-advice/norse-atlantic-airways-stock-flights-fuel-b3091564.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-25T15:36:01Z"
+    },
+    {
+     "t": "Norse Atlantic flights suspended after warning finances 'critical'",
+     "u": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
+     "d": "cnbc.com",
+     "c": "us",
+     "l": "en",
+     "p": "2026-11-26T01:04:54Z"
+    }
+   ],
+   "abroad_first": "2026-11-25T08:18:06Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "business"
+   ],
+   "relevant": true,
+   "checked": "2026-11-28T09:01:01Z",
+   "check_how": "url",
+   "check_error": null,
+   "fi_first": {
+    "p": "2026-11-26T08:44:12Z",
+    "d": "kauppalehti.fi",
+    "u": "https://www.kauppalehti.fi/uutiset/a/0fe3831b-8129-46af-bee1-8045a374fb9c",
+    "t": "Lennot peruttu, osake romahti - Norjalainen lentoyhtiö konkurssin partaalla",
+    "s": 0.86
+   },
+   "fi_count": 2,
+   "arrived_at": "2026-11-28T09:01:01Z"
+  },
+  "4475": {
+   "id": "4475",
+   "first_seen": "2026-11-26T04:38:22Z",
+   "headline": "Spain's likely rightward shift",
+   "headline_en": "Spain's likely rightward shift",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-28T06:19:22Z",
+   "weekly": [
+    1,
+    3,
+    5,
+    17
+   ],
+   "this_week": 17,
+   "velocity": 9,
+   "markets": {
+    "intl": 7,
+    "uk": 1,
+    "de": 1
+   },
+   "outlets": 7,
+   "samples": [
+    {
+     "t": "Spain's likely rightward shift",
+     "u": "https://www.ft.com/content/e1e08be8-da07-44c3-abe6-9873991ee91a",
+     "d": "ft.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-22T18:15:08Z"
+    },
+    {
+     "t": "Alberto Núñez Feijóo: One step away from running Spain",
+     "u": "https://www.politico.eu/article/alberto-nunez-feijoo-one-step-away-from-running-spain/",
+     "d": "politico.eu",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-25T03:00:00Z"
+    },
+    {
+     "t": "The 'austere' conservative poised to lead Spain with the far right",
+     "u": "https://www.ft.com/content/cd179793-2880-4c4c-8bdd-9924b2eac12a",
+     "d": "ft.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-22T05:00:06Z"
+    }
+   ],
+   "abroad_first": "2026-11-20T03:00:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "sustainability",
+    "geopolitics"
+   ],
+   "relevant": true,
+   "checked": "2026-11-28T09:01:01Z",
+   "check_how": "url",
+   "check_error": null
+  },
+  "4687": {
+   "id": "4687",
+   "first_seen": "2026-11-28T06:19:59Z",
+   "headline": "Nyt kuohuu: Ulos jätetty Ari Luusua valittaa",
+   "headline_en": null,
+   "headline_fi": "Nyt kuohuu: Ulos jätetty Ari Luusua valittaa",
+   "state": "acceleration",
+   "last_seen": "2026-11-28T06:19:59Z",
+   "weekly": [
+    6,
+    0,
+    3,
+    32
+   ],
+   "this_week": 32,
+   "velocity": 10.666666666666666,
+   "markets": {
+    "fi": 9,
+    "se": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "Längdskidor: Ari Luusua gjorde succé efter dopningsavstängning - blev inte uttagen till världscupen",
+     "u": "https://www.svt.se/sport/langdskidor/ari-luusua-gjorde-succe-efter-dopningsavstangning-blev-inte-uttagen-till-varldscupen",
+     "d": "svt.se",
+     "c": "se",
+     "l": "sv",
+     "p": "2026-11-24T21:22:53Z"
+    }
+   ],
+   "abroad_first": "2026-11-24T21:22:53Z",
+   "markets_abroad": 1,
+   "subjects": [],
+   "relevant": false
+  },
+  "4688": {
+   "id": "4688",
+   "first_seen": "2026-11-28T06:20:03Z",
+   "headline": "The network of greed behind Hong Kong's deadliest fire in decades | South China Morning Post",
+   "headline_en": "The network of greed behind Hong Kong's deadliest fire in decades | South China Morning Post",
+   "headline_fi": null,
+   "state": "acceleration",
+   "last_seen": "2026-11-28T06:20:03Z",
+   "weekly": [
+    4,
+    0,
+    2,
+    19
+   ],
+   "this_week": 19,
+   "velocity": 9.5,
+   "markets": {
+    "intl": 7,
+    "uk": 2,
+    "us": 1
+   },
+   "outlets": 5,
+   "samples": [
+    {
+     "t": "The network of greed behind Hong Kong's deadliest fire in decades | South China Morning Post",
+     "u": "https://www.scmp.com/video/scmp-explains/3375765/network-greed-behind-hong-kongs-deadliest-fire-decades",
+     "d": "scmp.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-26T01:54:51Z"
+    },
+    {
+     "t": "One year on from Hong Kong’s devastating Tai Po high-rise inferno, families still wait for justice",
+     "u": "https://www.independent.co.uk/asia/china/hong-kong-tai-po-fire-deaths-anniversary-b3090323.html",
+     "d": "independent.co.uk",
+     "c": "uk",
+     "l": "en",
+     "p": "2026-11-24T04:25:42Z"
+    },
+    {
+     "t": "A year of grief: Tai Po fire residents on coping with loss and trying to move on",
+     "u": "https://www.scmp.com/news/hong-kong/society/article/3375345/year-grief-tai-po-fire-residents-coping-loss-and-trying-move",
+     "d": "scmp.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-22T02:30:06Z"
+    }
+   ],
+   "abroad_first": "2026-11-22T02:30:06Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
+   "relevant": false
+  },
+  "4597": {
+   "id": "4597",
+   "first_seen": "2026-11-27T17:35:16Z",
+   "headline": "Iranian drone attack kills 2 Italians in Kuwait",
+   "headline_en": "Iranian drone attack kills 2 Italians in Kuwait",
+   "headline_fi": null,
+   "state": "emergence",
+   "last_seen": "2026-11-28T06:19:35Z",
+   "weekly": [
+    0,
+    0,
+    0,
+    16
+   ],
+   "this_week": 16,
+   "velocity": 2.8,
+   "markets": {
+    "de": 2,
+    "intl": 6,
+    "us": 2
+   },
+   "outlets": 10,
+   "samples": [
+    {
+     "t": "Iranian drone attack kills 2 Italians in Kuwait",
+     "u": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974",
+     "d": "dw.com",
+     "c": "de",
+     "l": "en",
+     "p": "2026-11-26T15:11:55Z"
+    },
+    {
+     "t": "Iran denies launching drone attack that killed Italians in Kuwait",
+     "u": "https://www.scmp.com/news/world/middle-east/article/3375970/iran-denies-launching-drone-attack-killed-italians-kuwait",
+     "d": "scmp.com",
+     "c": "intl",
+     "l": "en",
+     "p": "2026-11-27T02:28:47Z"
+    },
+    {
+     "t": "Rheinmetall-Mitarbeiter in Kuwait durch Drohnenangriff getötet",
+     "u": "https://www.spiegel.de/wirtschaft/unternehmen/rheinmetall-mitarbeiter-in-kuwait-durch-drohnenangriff-getoetet-a-c745dda3-d0ef-41cf-825e-3ee0e047e575",
+     "d": "spiegel.de",
+     "c": "de",
+     "l": "de",
+     "p": "2026-11-26T15:31:00Z"
+    }
+   ],
+   "abroad_first": "2026-11-26T10:24:00Z",
+   "markets_abroad": 3,
+   "subjects": [
+    "geopolitics"
+   ],
    "relevant": false
   }
  }
