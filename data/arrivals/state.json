@@ -1,6 +1,6 @@
 {
  "_meta": {
-  "last_run": "2026-11-28T02:45:45Z",
+  "last_run": "2026-11-28T06:01:00Z",
   "error": null,
   "similar_fields": [
    "domain",
@@ -15,7 +15,7 @@
    "title",
    "url"
   ],
-  "similar_left": 33,
+  "similar_left": 45,
   "stories_in": 100,
   "version": 2,
   "subjects_hash": "9b23793ab85c"
